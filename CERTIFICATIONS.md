@@ -1,11 +1,11 @@
-# WEITERBILDUNGEN & ZERTIFIKATE
+## WEITERBILDUNGEN & ZERTIFIKATE
 
 ▪ Nov 2025 – heute | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)
 
 ▪ Nov 2025 – heute | CCST IT Support Certification | Cisco
 
 
-# WEITERE ZERTIFIKATE | IT-Kurse (Online)
+## WEITERE ZERTIFIKATE | IT-Kurse (Online)
 
 ▪ Feb 2026 | Getting Started with Cisco Packet Tracer | Cisco Networking Academy | Kurszertifikat
 
