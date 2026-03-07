@@ -1,3 +1,4 @@
 # my-it-support-portfolio
 **My IT Support home lab, troubleshooting, and ticketing portfolio.**
-(This is your homepage inside GitHub. It should introduce you and link to all projects)
+
+(This is my homepage inside GitHub. It should introduce me and link to all projects)
