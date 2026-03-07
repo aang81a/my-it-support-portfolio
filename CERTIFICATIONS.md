@@ -4,6 +4,7 @@ WEITERBILDUNGEN & ZERTIFIKATE
 
 ▪ Nov 2025 – heute | CCST IT Support Certification | Cisco
 
+
 WEITERE ZERTIFIKATE | IT-Kurse (Online)
 
 ▪ Feb 2026 | Getting Started with Cisco Packet Tracer | Cisco Networking Academy | Kurszertifikat
@@ -16,6 +17,7 @@ WEITERE ZERTIFIKATE | IT-Kurse (Online)
 
 ▪ Aug 2022 | The Bash Shell and Basic Scripting in Linux | Coursera Project Network (via Coursera) |
 Projektzertifikat
+
 
 
 Webinare (Teilnahmebestätigung)
