@@ -11,7 +11,7 @@ Add simple help articles written like internal IT documentation.
 This is very strong for IT support because it shows you can explain solutions clearly.
 
 
-# Project Title
+# My Notes
 
 ## Objective
 Explain what you wanted to build or solve.
