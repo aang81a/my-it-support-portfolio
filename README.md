@@ -33,6 +33,8 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 - [Network Troubleshooting Cases](./PROJECTS/04-network-troubleshooting-cases/)
 - [Spiceworks Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/)
 - [Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/)
+- [Home Lab Documentation](./PROJECTS/07-home-lab-documentation/)
+- [Markdown Guides](./PROJECTS/08-markdown-guides/)
 
 ## Certifications
 - Nov 2025 – heute (läufend)| Microsoft IT Support Specialist Professional Certificate | Microsoft
