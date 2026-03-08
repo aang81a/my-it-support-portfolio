@@ -5,8 +5,6 @@ SalesUsers   -> Read
 Other Users  -> No Access
 
 
-Very useful for support roles.
-
 Show:
 
 shared folder
@@ -15,4 +13,3 @@ which group has access
 
 what type of access
 
-Example:
