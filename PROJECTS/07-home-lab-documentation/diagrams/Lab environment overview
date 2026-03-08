@@ -1,1 +1,10 @@
-
+[ DC1 - Windows Server ]
+   - Active Directory
+   - DNS
+   - Shared Folder
+          |
+          | lab network
+          |
+[ CLIENT1 - Windows 10/11 ]
+   - Domain joined
+   - User login testing
