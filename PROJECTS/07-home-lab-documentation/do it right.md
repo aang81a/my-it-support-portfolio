@@ -1,4 +1,4 @@
-Best 3 diagrams to start with
+**Best 3 diagrams to start with**
 
 Do these first:
 
@@ -8,7 +8,7 @@ Active Directory structure
 
 Permissions / shared folder access
 
-That is enough for a very good beginner portfolio project.
+**That is enough for a very good beginner portfolio project.**
 
 .
 
