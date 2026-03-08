@@ -14,8 +14,6 @@ domain name, for example lab.local
 
 Example structure:
 
-1.
-
 [ DC1 - Windows Server ]
    - Active Directory
    - DNS
@@ -27,17 +25,3 @@ Example structure:
    - Domain joined
    - User login testing
 
-2. 
-
-lab.local
-│
-├── OU=Users
-│   ├── j.smith
-│   └── m.brown
-│
-├── OU=Groups
-│   ├── Helpdesk
-│   └── SalesUsers
-│
-└── OU=Computers
-    └── CLIENT1
