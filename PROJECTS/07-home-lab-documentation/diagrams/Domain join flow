@@ -1,1 +1,9 @@
-
+CLIENT1
+  ↓
+DNS points to DC1
+  ↓
+Join domain: lab.local
+  ↓
+Restart
+  ↓
+Log in with domain user account
