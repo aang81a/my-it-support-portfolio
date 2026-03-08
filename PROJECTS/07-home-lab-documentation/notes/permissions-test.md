@@ -12,3 +12,17 @@ Test whether assigned users can access shared folders based on their permissions
 
 ## Result
 Shared folder access matched the assigned permissions and confirmed the basic access control setup.
+
+# DELETE IT LATER:
+This is about checking the result.
+
+It answers:
+
+Did the permissions work?
+
+Could the correct user access the folder?
+
+Was unauthorized access blocked?
+
+So this is more like:
+validation / testing / result
