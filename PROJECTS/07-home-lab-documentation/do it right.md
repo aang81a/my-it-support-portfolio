@@ -1,4 +1,6 @@
-**Best 3 diagrams to start with**
+DON'T FORGET TO ACTUALIZE THE **README.md FILE!
+
+**Best 3 diagrams to start with** (for **.png* files)
 
 Do these first:
 
