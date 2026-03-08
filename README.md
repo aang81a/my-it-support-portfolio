@@ -2,16 +2,29 @@
 # **My IT Support Portfolio**
 
 ## About Me
-Aspiring IT Support Specialist currently building hands-on skills through Microsoft IT Support Professional and Cisco IT Support Professional coursework. This portfolio shows my home lab projects, troubleshooting practice, ticketing simulations, and support documentation.
+IT Support Specialist currently building hands-on skills through Microsoft IT Support Professional and Cisco IT Support Professional coursework. This portfolio shows my home lab projects, troubleshooting practice, ticketing simulations, and support documentation.
 
-## Skills
-- Windows Administration
+## 🛠 Support skills
+- Spiceworks ticketing simulation
 - Active Directory
+- Remote support
 - User Account Management
-- Basic Networking
+- Initial analysis
+- Windows support/Windows Administration
+- Basic network support/Basic Networking
 - Troubleshooting
-- Ticket Documentation
-- Spiceworks Practice
+- Structured documentation
+- Email and phone customer support
+
+## 🎯 Current focus
+- 1st-level support workflows
+- Ticket management and documentation
+- User account access and onboarding tasks
+- Windows and basic network support
+- Home lab documentation and support guides
+
+## 🔭 Future focus
+- Comptia A+
 
 ## Projects
 - [Active Directory Lab](./PROJECTS/01-active-directory-lab/)
