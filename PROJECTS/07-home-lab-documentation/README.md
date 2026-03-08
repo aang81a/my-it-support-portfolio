@@ -75,5 +75,20 @@ Add screenshots here showing:
 - shared folder permissions
 - successful access from the client
 
+
+## Diagrams
+
+### Lab environment overview
+![Lab environment overview](./diagrams/lab-environment-overview.png)
+
+### Active Directory structure
+![Active Directory structure](./diagrams/active-directory-structure.png)
+
+### Domain join flow
+![Domain join flow](./diagrams/domain-join-flow.png)
+
+### Shared folder permissions
+![Shared folder permissions](./diagrams/shared-folder-permissions.png)
+
 ## Notes
 This lab was created to strengthen practical IT support skills through hands-on setup, testing, and documentation.
