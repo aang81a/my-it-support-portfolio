@@ -1,7 +1,32 @@
 # Home Lab Documentation
 
 ## Overview
+This project documents my IT support home lab for practicing Windows support, Active Directory, domain join, user management, permissions, and shared folder access.
+## Overview
 This project documents a virtualized IT support home lab built to practice core help desk and system administration tasks in a controlled environment.
+
+## Phase 1: Environment Setup
+- [ ] Created a Windows Server virtual machine
+- [ ] Created a Windows client virtual machine
+- [ ] Configured lab networking
+
+## Phase 2: Domain Configuration
+- [ ] Installed Active Directory
+- [ ] Promoted the server to a domain controller
+- [ ] Created a test domain
+- [ ] Joined the client machine to the domain
+
+## Phase 3: User and Access Management
+- [ ] Created user accounts
+- [ ] Created security groups
+- [ ] Assigned permissions
+- [ ] Created a shared folder
+- [ ] Tested shared folder access
+
+## Phase 4: Documentation
+- [ ] Recorded setup steps
+- [ ] Captured screenshots
+- [x] Wrote project notes
 
 ## Lab Environment
 - Virtual machine platform: VirtualBox / VMware
