@@ -23,3 +23,19 @@ Users receive access according to their group membership.
 
 ## Notes
 This step is useful for practicing access control and support scenarios related to file permissions.
+
+# DELETE IT LATER:
+This is about setting it up.
+
+It answers:
+
+What do I need?
+
+What do I create?
+
+What permissions do I assign?
+
+What should happen?
+
+So this is more like:
+configuration / build guide
