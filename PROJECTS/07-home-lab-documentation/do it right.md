@@ -12,6 +12,23 @@ Permissions / shared folder access
 
 .
 
+**Tools you can use**
+
+The easiest options are:
+
+draw.io / diagrams.net
+
+PowerPoint
+
+Canva
+
+even a clean hand-made box diagram in Word or Google Docs exported as image
+
+For a GitHub portfolio, simple is better than fancy.
+
+.
+
+
 Keep them simple
 
 Use:
