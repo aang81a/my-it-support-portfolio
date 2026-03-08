@@ -1,0 +1,25 @@
+lab.local
+│
+├── OU=Users
+│   ├── j.smith
+│   └── m.brown
+│
+├── OU=Groups
+│   ├── Helpdesk
+│   └── SalesUsers
+│
+└── OU=Computers
+    └── CLIENT1
+
+
+This shows that you understand:
+
+domain structure
+
+OUs
+
+users
+
+groups
+
+computers
