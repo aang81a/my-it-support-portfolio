@@ -6,15 +6,15 @@
 
 ▪ Nov 2025 – heute | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)
 
+Module beinhalten:
+▪ Jan 2026 | Introduction to Secure Networking | Microsoft (via Coursera) | Kurszertifikat
+▪ Jan 2026 | Introduction to Computers | Microsoft (via Coursera) | Kurszertifikat
+
 ---
 
 ## WEITERE ZERTIFIKATE | IT-Kurse (Online)
 
 ▪ Feb 2026 | Getting Started with Cisco Packet Tracer | Cisco Networking Academy | Kurszertifikat
-
-▪ Jan 2026 | Introduction to Secure Networking | Microsoft (via Coursera) | Kurszertifikat
-
-▪ Jan 2026 | Introduction to Computers | Microsoft (via Coursera) | Kurszertifikat
 
 ▪ Dez 2025 | Network Basics | Cybrary | Kurszertifikat (1 CEU/CPE)
 
