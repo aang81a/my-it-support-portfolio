@@ -1,4 +1,4 @@
-## 📜 WEITERBILDUNGEN & ZERTIFIKATE
+## 📜 IT SUPPORT KURSE & ZERTIFIKATE
 
 ▪ Apr 2026 | CCST IT Support Basics | Cisco Networking Academy | Kurszertifikat
   
