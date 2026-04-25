@@ -1,52 +1,57 @@
-- GOAL
-- LAB SETUP
-- TOOLS USED
-- STEPS PERFORMED
-- ISSUE SOLVED
-- SCREENSHOTS
-- SKILLS DEMONSTRATED
+# Network Troubleshooting Cases
 
-Put troubleshooting case studies here:
-·	no internet
-·	DNS issue
-·	IP misconfiguration
-·	shared drive not accessible
+## Goal
+This section demonstrates practical IT support troubleshooting skills based on real-world scenarios.
 
+Each case follows a structured troubleshooting approach:
+- Gather information
+- Check basic configurations
+- Identify root cause
+- Apply solution
+- Test result
+- Document the case
 
-# Project Title
+---
 
-## Objective
-Explain what you wanted to build or solve.
+## Scope of Cases
 
-## Environment
-- VirtualBox / VMware
-- Windows Server
-- Windows 10/11
-- Domain: lab.local
+The following issues are covered:
 
-## Tasks Completed
-- Installed server VM
-- Configured Active Directory
-- Created domain users
-- Tested login
+- No internet access
+- DNS resolution failure
+- IP misconfiguration
+- Shared drive not accessible
 
-## Troubleshooting / Challenges
-Explain any issues you ran into and how you fixed them.
+---
 
-## Result
-Explain the final outcome.
+## Case Structure
+
+Each troubleshooting case includes:
+
+- **Problem** – Description of the issue reported by the user  
+- **Environment** – System context (Windows, network, domain, etc.)  
+- **Diagnosis Steps** – Step-by-step analysis  
+- **Root Cause** – Identified reason for the issue  
+- **Solution** – Actions taken to resolve the problem  
+- **Result** – Outcome after applying the fix  
+- **Screenshots** – Supporting visual evidence (where applicable)  
+- **Lessons Learned** – Key takeaways from the case  
+
+---
+
+## Troubleshooting Approach
+
+The troubleshooting process used in these cases is documented here:
+
+- troubleshooting-method.md  
+- diagrams/troubleshooting-flow.md  
+
+---
 
 ## Skills Demonstrated
-- Active Directory
-- Troubleshooting
-- Documentation
-- User support
 
-## Screenshots
-Screenshots will be added...
-
-## Notes
-
-
-
-
+- IT troubleshooting and problem analysis  
+- Network diagnostics (IP, DNS, connectivity)  
+- Root cause identification  
+- Structured documentation  
+- Basic system and network understanding  
