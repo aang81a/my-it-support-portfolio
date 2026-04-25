@@ -40,5 +40,6 @@ Basic networking checks
 Command-line fundamentals
 Documentation
 
-## Evidence
-Screenshots and task notes will be added after completing each Windows administration task.
+## Screenshots
+
+## Notes
