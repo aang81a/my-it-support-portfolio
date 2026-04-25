@@ -24,8 +24,9 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 - Windows and basic network support
 - Home lab documentation and support guides
 
-## 🔭 Future focus
-- Comptia A+
+## 🔭 Future Focus
+- Increasing efficiency in IT support through automation
+- Supporting user and access processes in structured environments
 
 ## Projects
 - [Active Directory Lab](./PROJECTS/01-active-directory-lab/)
