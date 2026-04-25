@@ -43,8 +43,8 @@ Each troubleshooting case includes:
 
 The troubleshooting process used in these cases is documented here:
 
-- troubleshooting-method.md  
-- diagrams/troubleshooting-flow.md  
+- [Troubleshooting Method](troubleshooting-method.md)
+- [Troubleshooting Flow](diagrams/troubleshooting-method.md)
 
 ---
 
