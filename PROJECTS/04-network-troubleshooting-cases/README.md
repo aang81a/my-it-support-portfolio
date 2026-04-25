@@ -17,10 +17,10 @@ Each case follows a structured troubleshooting approach:
 
 The following issues are covered:
 
-- No internet access
+- No network access
 - DNS resolution failure
+- Shared folder access denied
 - IP misconfiguration
-- Shared drive not accessible
 
 ---
 
