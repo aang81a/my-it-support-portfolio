@@ -37,5 +37,6 @@ Practice how to support users remotely, collect relevant information, document t
 - Ticket documentation
 - Customer service
 
-## Evidence
-Screenshots and sample support notes will be added after completing the simulations.
+## Screenshots
+
+## Notes
