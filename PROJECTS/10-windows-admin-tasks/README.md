@@ -33,12 +33,12 @@ hostname
 ```
 
 ## Skills Demonstrated
-Windows support
-Basic system administration
-User account tasks
-Basic networking checks
-Command-line fundamentals
-Documentation
+- Windows support
+- Basic system administration
+- User account tasks
+- Basic networking checks
+- Command-line fundamentals
+- Documentation
 
 ## Screenshots
 
