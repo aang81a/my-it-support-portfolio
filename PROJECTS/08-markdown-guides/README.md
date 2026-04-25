@@ -26,3 +26,7 @@ Good IT support is not only about solving problems. It also requires clear docum
 - [How to Troubleshoot No Network Access](./how-to-troubleshoot-no-network-access.md)
 - [How to Map a Network Drive](./how-to-map-a-network-drive.md)
 - [How to Create a User in Active Directory](./how-to-create-a-user-in-active-directory.md)
+
+## Notes
+
+
