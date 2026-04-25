@@ -1,5 +1,8 @@
-# **My IT Support home lab, troubleshooting, and ticketing portfolio**
-# **My IT Support Portfolio**
+![Banner](IMAGES/02/portfolio-banner.png)
+
+# My IT Support Portfolio
+
+## My IT support home lab, troubleshooting, and ticketing portfolio
 
 ## About Me
 IT Support Specialist currently building hands-on skills through Microsoft IT Support Professional and Cisco IT Support Professional coursework. This portfolio shows my home lab projects, troubleshooting practice, ticketing simulations, and support documentation.
