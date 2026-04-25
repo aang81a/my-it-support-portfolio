@@ -2,8 +2,6 @@
 
 # IT Support Portfolio
 
-Windows • Networking • Troubleshooting • AD
-
 ## About Me
 IT Support Specialist currently building hands-on skills through Microsoft IT Support Professional and Cisco IT Support Professional coursework. This portfolio shows my home lab projects, troubleshooting practice, ticketing simulations, and support documentation.
 
