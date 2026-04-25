@@ -29,6 +29,38 @@ Practice how to support users remotely, collect relevant information, document t
 7. Confirm the result with the user.
 8. Close or escalate the case.
 
+## Example Scenario: Application Access Issue
+
+### Situation
+A user reports that they cannot open a work application during working hours.
+
+### Questions Asked
+- What exactly happens when you try to open the application?
+- Do you receive an error message?
+- When did the issue start?
+- Did anything change recently, such as an update, restart, or new software installation?
+- Are other applications working normally?
+- May I start a remote support session to check the issue with you?
+
+### Remote Support Steps
+1. Confirm the issue with the user.
+2. Ask for permission before starting remote access.
+3. Explain each action before making changes.
+4. Check whether the application is already running in Task Manager.
+5. Close the stuck application process if needed.
+6. Restart the application.
+7. Check basic network connectivity if the application requires internet or server access.
+8. Test the application again together with the user.
+
+### Possible Root Cause
+The application process may have been stuck in the background, or the system may have required a restart after an update.
+
+### Resolution
+The application was closed fully through Task Manager and restarted. After checking basic system status, the application opened successfully again.
+
+### Verification
+The user confirmed that the application opened successfully and they could continue working.
+
 ## Skills Demonstrated
 - Remote support
 - User communication
@@ -41,6 +73,6 @@ Practice how to support users remotely, collect relevant information, document t
 Screenshots will be added...
 
 ## Notes
-
+This project is a simulation created for portfolio purposes. It demonstrates the support process, communication style, documentation logic, and basic remote troubleshooting steps used in first-level IT support.
 
 
