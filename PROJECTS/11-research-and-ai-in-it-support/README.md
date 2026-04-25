@@ -35,5 +35,7 @@ AI can support IT work, but results must always be checked. Technical actions sh
 - Troubleshooting support
 - Clear communication
 
-## Evidence
+## Screenshots
+
+## Notes
 Example research notes, AI-assisted documentation drafts, and final verified support guides will be added here.
