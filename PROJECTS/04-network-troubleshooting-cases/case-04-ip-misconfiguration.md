@@ -1,5 +1,103 @@
-## Problem
-User has no network connectivity due to incorrect IP configuration.
+# Case 04 – IP Misconfiguration
 
-## Status
-Planned – will be implemented in lab environment.
+## Problem
+A user reports that their computer cannot access the network or the internet.
+
+## Environment
+- Windows 10 / Windows 11
+- Local network (LAN)
+- DHCP-enabled network
+- Domain environment (optional)
+
+## Symptoms
+- No internet access
+- Unable to reach internal resources
+- "Network unreachable" or "No connectivity" message
+- Cannot ping gateway or external IP
+
+---
+
+## Diagnosis Steps
+
+1. Checked physical connection (Ethernet/Wi-Fi connected)
+2. Verified network adapter status
+3. Ran command:
+   ipconfig
+
+4. Observed:
+   - Static IP address configured
+   - IP address not in correct subnet
+   - Missing or incorrect default gateway
+
+5. Tested connectivity:
+   ping 8.8.8.8
+   ping google.com
+
+→ Both tests failed
+
+---
+
+## Root Cause
+The device was configured with an incorrect static IP address instead of using DHCP.
+
+As a result:
+- The device was outside the correct network range
+- No valid gateway was reachable
+
+---
+
+## Solution
+
+1. Open Network Settings
+2. Navigate to:
+   Network & Internet → Adapter Options
+3. Open Properties of the network adapter
+4. Select:
+   Internet Protocol Version 4 (IPv4)
+5. Change configuration:
+   - Set to "Obtain an IP address automatically"
+   - Set to "Obtain DNS server address automatically"
+
+6. Apply changes
+
+7. Run:
+   ipconfig /release
+   ipconfig /renew
+
+---
+
+## Result
+
+- Device received correct IP address from DHCP
+- Gateway reachable
+- Internet connectivity restored
+- Internal network resources accessible
+
+---
+
+## Screenshots
+(To be added later)
+
+- IP configuration before fix
+- Incorrect static IP settings
+- DHCP settings after fix
+- Successful ping test
+
+---
+
+## Lessons Learned
+
+- Incorrect IP configuration is a common cause of connectivity issues
+- Always verify IP, subnet, and gateway first
+- DHCP simplifies network management and reduces manual errors
+- Command line tools are essential for quick diagnostics
+
+---
+
+## Skills Demonstrated
+
+- Network troubleshooting
+- IP configuration analysis
+- Use of command-line tools (ipconfig, ping)
+- Root cause identification
+- Problem resolution and documentation
