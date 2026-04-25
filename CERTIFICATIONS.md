@@ -1,8 +1,44 @@
-## WEITERBILDUNGEN & ZERTIFIKATE
+## 📜 WEITERBILDUNGEN & ZERTIFIKATE
+
+▪ Apr 2026 | CCST IT Support Basics | Cisco Networking Academy
+  Focus: Troubleshooting, Ticketing, Remote Support, Customer Support Workflows
+
+▪ Nov 2025 – heute | Microsoft IT Support Specialist Professional Certificate | Microsoft (Coursera)
+
+---
+
+## WEITERE IT-KURSE (Online)
+
+▪ Feb 2026 | Getting Started with Cisco Packet Tracer | Cisco Networking Academy
+
+▪ Jan 2026 | Introduction to Secure Networking | Microsoft (Coursera)
+
+▪ Jan 2026 | Introduction to Computers | Microsoft (Coursera)
+
+▪ Dez 2025 | Network Basics | Cybrary (1 CEU/CPE)
+
+▪ Aug 2022 | The Bash Shell and Basic Scripting in Linux | Coursera Project Network (Coursera)
+
+---
+
+## WEBINARE
+
+▪ Dez 2025 | ChatGPT 5.1 Masterclass | InfosecTrain (1 CPE)
+
+▪ Nov 2025 | Rising with AI in Cybersecurity | InfosecTrain (2 CPE)
+
+▪ Nov 2025 | Intelligent Workspaces 2025 | InfosecTrain (1 CPE)
+
+▪ Nov 2025 | AI-Powered Spreadsheet Skills | InfosecTrain (1 CPE)
+
+
+
+## 📜 WEITERBILDUNGEN & ZERTIFIKATE
+
+▪ Apr 2026 | CCST IT Support Basics | Cisco Networking Academy | Kurszertifikat
+  Focus: troubleshooting, ticketing, remote support, customer support workflows
 
 ▪ Nov 2025 – heute | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)
-
-▪ Nov 2025 – heute | CCST IT Support Certification | Cisco
 
 
 ## WEITERE ZERTIFIKATE | IT-Kurse (Online)
