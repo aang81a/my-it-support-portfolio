@@ -38,5 +38,9 @@ Practice how to support users remotely, collect relevant information, document t
 - Customer service
 
 ## Screenshots
+Screenshots will be added...
 
 ## Notes
+
+
+
