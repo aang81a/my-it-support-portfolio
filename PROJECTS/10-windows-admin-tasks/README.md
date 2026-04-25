@@ -30,6 +30,7 @@ ping
 nslookup
 whoami
 hostname
+tracert
 ```
 
 ## Skills Demonstrated
