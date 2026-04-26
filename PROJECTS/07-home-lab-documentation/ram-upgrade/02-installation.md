@@ -30,33 +30,33 @@ This document describes the installation of an additional RAM module in an HP Al
 ## Device Disassembly
 
 ### Initial Setup
-![Device Overview](images/01-device-overview.jpg)
 <img src="images/01-device-overview.jpg" width="600">
 ---
 
 ### Opening the Device
-![Screws Removed](images/02-screws-removed.jpg)
-![Device Opening](images/03-device-begin-to-open.jpg)
-![Device Opened](images/04-device-opened.jpg)
-![Screw Location 1](images/05-screw-location-marked01.jpg)
-![Screw Location 2](images/06-screw-location-marked02.jpg)
-![Screw Location 3](images/07-screw-location-marked03.jpg)
-![Device Half Opened](images/08-device-opened-half.jpg)
-![Device Fully Opened](images/09-device-opened-full.jpg)
+<img src="images/02-screws-removed.jpg" width="600">
+<img src="images/03-device-begin-to-open.jpg" width="600">
+<img src="images/04-device-opened.jpg" width="600">
+<img src="images/05-screw-location-marked01.jpg" width="600">
+<img src="images/06-screw-location-marked02.jpg" width="600">
+<img src="images/07-screw-location-marked03.jpg" width="600">
+<img src="images/08-device-opened-half.jpg" width="600">
+<img src="images/09-device-opened-full.jpg" width="600">
 
 ---
 
 ### RAM Slot Identification
-![Empty RAM Slot](images/10-ram-slot-empty.jpg)
-
+<img src="images/10-ram-slot-empty.jpg" width="600">
 
 ---
 
 ## Installation Steps
 1. Verified RAM compatibility (DDR4, SO-DIMM, 2666 MHz)
 2. Inserted additional 8GB RAM module into free slot
-3. Ensured correct alignment and secure fit (notch position in 30 degree)
-- > Note: The RAM module must be inserted at approximately a 30-degree angle and then pressed down until the retaining clips lock automatically.
+3. Ensured correct alignment and secure fit (notch position at ~30 degrees)
+
+> Note: The RAM module must be inserted at approximately a 30-degree angle and then pressed down until the retaining clips lock automatically.
+
 4. Pressed RAM down until clips locked in place
 5. Reassembled the device
 
@@ -65,12 +65,10 @@ This document describes the installation of an additional RAM module in an HP Al
 ## Hardware Installation
 
 ### Initial RAM (8GB Installed)
-![Initial RAM](images/11-8gb-samsung-installed.jpg)
+<img src="images/11-8gb-samsung-installed.jpg" width="600">
 
 ### New RAM Installed (16GB Total)
-![Final RAM Installed](images/12-new-ram-installed.jpg)
-
-<img src="images/12-new-ram
+<img src="images/12-new-ram-installed.jpg" width="600">
 
 ---
 
@@ -103,4 +101,5 @@ This document describes the installation of an additional RAM module in an HP Al
 - Matching RAM specifications is critical for compatibility
 - Dual-channel memory improves performance
 - Correct installation angle and pressure are critical
-- Always power off device before hardware changes
+- Always power off the device before hardware changes
+
