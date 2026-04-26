@@ -34,10 +34,10 @@ This document describes the installation of an additional RAM module in an HP Al
 
 ---
 
-### Removing Screws
+### Screw Locations
 ![Screws Removed](images/02-screws-removed.jpg)
 
-### Screw Locations
+### Removing Screws
 ![Screw Location 1](images/05-screw-location-marked01.jpg)
 ![Screw Location 2](images/06-screw-location-marked02.jpg)
 ![Screw Location 3](images/07-screw-location-marked03.jpg)
