@@ -14,16 +14,16 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 
 ## Hardware Components
 
-
 ### Available RAM Modules
-- 8GB DDR4 (Samsung – installed)
-![8GB Samsung RAM](images/11-8gb-samsung-installed.jpg)
 
-- 4GB DDR4 (Samsung – not installed)
-![4GB Samsung RAM](images/4gb-samsung.jpg)
+- 8GB DDR4 (Samsung – installed)  
+<img src="images/11-8gb-samsung-installed.jpg" width="500">
 
-- 8GB DDR4 (Samsung – new)
-![8GB Samsung RAM](images/8gb-samsung-new.jpg)
+- 4GB DDR4 (Samsung – not installed)  
+<img src="images/4gb-samsung.jpg" width="500">
+
+- 8GB DDR4 (Samsung – new)  
+<img src="images/8gb-samsung-new.jpg" width="500">
 
 ---
 
@@ -66,7 +66,7 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 ---
 
 ## Final Installation
-![16GB Installed](images/12-new-ram-installed.jpg)
+<img src="images/12-new-ram-installed.jpg" width="600">
 
 ---
 
