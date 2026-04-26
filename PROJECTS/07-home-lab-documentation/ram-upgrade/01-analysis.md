@@ -22,9 +22,9 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 ## Hardware Components
 
 ### Available RAM Modules
-![8GB Samsung RAM](images/8gb-samsung-installed.jpg)
+![8GB Samsung RAM](images/11-8gb-samsung-installed.jpg)
 ![4GB Samsung RAM](images/4gb-samsung.jpg)
-![8GB Samsung RAM](images/8gb-samsung.jpg)
+![8GB Samsung RAM](images/8gb-samsung-new.jpg)
 
 ---
 
