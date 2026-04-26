@@ -28,7 +28,26 @@ This document describes the installation of an additional RAM module in an HP Al
 ---
 
 ## Device Disassembly
-![RAM Slot](images/ram-slot.jpg)
+![RAM Slot](images/ram-slot-empty.jpg)
+
+## Device Disassembly
+
+### Initial Setup
+![Device Overview](images/01-device-overview.jpg)
+![Device Overview](images/01-device-overview.jpg)
+![Device Overview](images/01-device-overview.jpg)
+![Device Overview](images/01-device-overview.jpg)
+![Device Overview](images/01-device-overview.jpg)
+
+### Removing Screws
+![Screws Removed](images/screw-location-marked01.jpg)
+![Screws Removed](images/screw-location-marked02.jpg)
+![Screws Removed](images/screw-location-marked03.jpg)
+![Screws Removed](images/screws-removed.jpg)
+![Screw Location](images/screw-location-marked.jpg)
+
+### Opening the Device
+![Device Opened](images/device-opened-full.jpg)
 
 ---
 
