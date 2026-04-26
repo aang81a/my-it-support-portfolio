@@ -30,6 +30,12 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 - Increasing efficiency in IT support through automation
 - Supporting user and access processes in structured environments
 
+## 🔭 Future Focus
+- Continuing Microsoft IT Support Specialist program (Windows, Microsoft 365, troubleshooting)
+- Expanding hands-on troubleshooting and support workflows
+- Improving efficiency in IT support through basic automation
+- Supporting user and access management in structured environments
+
 ## Projects
 - [Active Directory Lab](./PROJECTS/01-active-directory-lab/)
 - [Domain Join Client](./PROJECTS/02-domain-join-client/)
