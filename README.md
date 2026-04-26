@@ -41,5 +41,5 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 - [Markdown Guides](./PROJECTS/08-markdown-guides/)
 
 ## Certifications
+- Apr 2026 | IT Customer Support Basics Certificate | Cisco Networking Academy (part of CCST IT Support Path)
 - Nov 2025 – heute (läufend) | Microsoft IT Support Specialist Professional Certificate | Microsoft
-- Apr 2026 | CCST IT Customer Support Basics Certificate | Cisco
