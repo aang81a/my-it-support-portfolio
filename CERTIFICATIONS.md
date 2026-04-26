@@ -16,7 +16,7 @@ Teil des IT Support Specialist Career Path
 
 ---
 
-# WEITERE ZERTIFIKATE | IT-Kurse (Online)
+## WEITERE ZERTIFIKATE | IT-Kurse (Online)
 
 ▪ Feb 2026 | Getting Started with Cisco Packet Tracer | Cisco Networking Academy | Kurszertifikat
 
@@ -27,7 +27,7 @@ Projektzertifikat
 
 ---
 
-# WEBINARE (Teilnahmebestätigung)
+## WEBINARE (Teilnahmebestätigung)
 
 ▪ Dez 2025 | ChatGPT 5.1 Masterclass: Mastering GPT-5.1 to 10X Your Productivity | InfosecTrain |
 Webinar-Zertifikat (1 CPE)
