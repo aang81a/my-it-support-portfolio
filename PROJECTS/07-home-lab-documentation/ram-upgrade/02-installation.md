@@ -42,7 +42,7 @@ This document describes the installation of an additional RAM module in an HP Al
 ![Screws Removed](images/08-device-opened-half.jpg)
 
 ### Opening the Device
-![Device Opened](images/09-device opened-full.jpg)
+![Device Opened](images/09-device-opened-full.jpg)
 ![RAM Slot](images/10-ram-slot-empty.jpg)
 
 ---
