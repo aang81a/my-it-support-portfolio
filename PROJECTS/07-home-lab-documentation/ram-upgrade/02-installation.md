@@ -56,6 +56,7 @@ This document describes the installation of an additional RAM module in an HP Al
 1. Verified RAM compatibility (DDR4, SO-DIMM, 2666 MHz)
 2. Inserted additional 8GB RAM module into free slot
 3. Ensured correct alignment and secure fit (notch position in 30 degree)
+- > Note: The RAM module must be inserted at approximately a 30-degree angle and then pressed down until the retaining clips lock automatically.
 4. Pressed RAM down until clips locked in place
 5. Reassembled the device
 
@@ -68,6 +69,8 @@ This document describes the installation of an additional RAM module in an HP Al
 
 ### New RAM Installed (16GB Total)
 ![Final RAM Installed](images/12-new-ram-installed.jpg)
+
+<img src="images/12-new-ram
 
 ---
 
