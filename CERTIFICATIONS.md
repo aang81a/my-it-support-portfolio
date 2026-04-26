@@ -4,7 +4,7 @@
 
   Abgeschlossene Teilkurse:
   
-  - Apr 2026 | IT Customer Support Basics | Kurszertifikat
+  ▪ Apr 2026 | IT Customer Support Basics | Kurszertifikat
      
     Focus: Troubleshooting, Ticketing, Remote Support, Customer Support Workflows
 
