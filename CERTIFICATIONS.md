@@ -1,4 +1,4 @@
-## 📜 IT SUPPORT KURSE & ZERTIFIKATE
+# 📜 IT SUPPORT KURSE & ZERTIFIKATE
 
 ▪ **Apr 2026 | CCST IT Support Basics | Cisco Networking Academy | Kurszertifikat**
 
@@ -16,7 +16,7 @@ Teil des IT Support Specialist Career Path
 
 ---
 
-## WEITERE ZERTIFIKATE | IT-Kurse (Online)
+# WEITERE ZERTIFIKATE | IT-Kurse (Online)
 
 ▪ Feb 2026 | Getting Started with Cisco Packet Tracer | Cisco Networking Academy | Kurszertifikat
 
