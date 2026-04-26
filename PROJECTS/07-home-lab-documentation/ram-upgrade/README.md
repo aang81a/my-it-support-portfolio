@@ -42,6 +42,5 @@ The objective was to improve system performance by upgrading memory from 8GB to 
 ---
 
 ## Context
-This project reflects a typical IT support task involving hardware upgrade, system validation, and documentation.
-
-It demonstrates both practical execution and structured thinking required in a 1st Level IT Support role.
+- This project covers a standard IT support task involving hardware upgrade, system validation, and documentation.
+- It demonstrates practical execution and structured problem-solving in an IT support environment.
