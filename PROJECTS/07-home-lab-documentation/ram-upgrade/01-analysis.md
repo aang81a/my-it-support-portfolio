@@ -1,10 +1,20 @@
 ## Memory Configuration Analysis
 
 ### Available RAM Modules
-- 8GB DDR4 (installed, Samsung)
-- 4GB DDR4 (Samsung)
-- 4GB DDR4 (Kingston)
+- 8GB DDR4 (Samsung – installed)
+- 4GB DDR4 (Samsung – not installed)
 - 8GB DDR4 (Samsung – new)
+
+## Hardware Components
+
+### Available RAM Modules
+![4GB Samsung RAM](images/4gb-samsung.jpg)
+![8GB Samsung RAM](images/8gb-samsung.jpg)
+
+---
+
+## Final Installation
+![16GB Installed](images/ram-installed.jpg)
 
 ---
 
