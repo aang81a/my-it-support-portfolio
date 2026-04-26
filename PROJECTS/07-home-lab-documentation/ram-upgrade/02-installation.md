@@ -63,6 +63,7 @@ This document describes the installation of an additional RAM module in an HP Al
 ## Hardware Installation
 
 ![RAM Installed](images/11-8gb-samsung-installed.jpg)
+![RAM Installed](images/12-new-ram-installed.jpg)
 
 ---
 
