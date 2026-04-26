@@ -47,6 +47,7 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 
 **Pros:**
 - Full dual-channel configuration
+- Increased total memory
 - Better system performance
 - Balanced memory usage
 - Stable long-term solution
