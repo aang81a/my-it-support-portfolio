@@ -14,19 +14,6 @@ Teil des IT Support Specialist Career Path
 
    ▪ Jan 2026 | Introduction to Computers | Microsoft (via Coursera) | Kurszertifikat
 
-
-
-## 📜 IT Support Kurse & Zertifikate
-
-▪ Apr 2026 | CCST IT Support Basics | Cisco Networking Academy | Kurszertifikat
-  Teil des IT Support Specialist Career Path
-
-▪ Nov 2025 – heute | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)
-
-  Abgeschlossene Teilkurse:
-  - Jan 2026 | Introduction to Secure Networking | Kurszertifikat
-  - Jan 2026 | Introduction to Computers | Kurszertifikat
-
 ---
 
 ## WEITERE ZERTIFIKATE | IT-Kurse (Online)
