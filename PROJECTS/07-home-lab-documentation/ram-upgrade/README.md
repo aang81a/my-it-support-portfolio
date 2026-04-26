@@ -17,12 +17,10 @@ The goal was to improve system performance by upgrading from 8GB to 16GB RAM and
 
 ---
 
-## Key Outcomes
-- Successfully upgraded system from 8GB → 16GB RAM
-- Enabled dual-channel configuration
-- Improved system performance and stability
-- Practiced safe hardware handling and installation procedures
-
+## Summary
+- RAM upgraded from 8GB to 16GB
+- Dual-channel configuration enabled
+- System performance improved
 ---
 
 ## Skills Demonstrated
@@ -37,7 +35,7 @@ The goal was to improve system performance by upgrading from 8GB to 16GB RAM and
 ## Tools & Environment
 - HP All-in-One system
 - DDR4 SO-DIMM RAM (2666 MHz)
-- Windows OS
+- Windows OS (used for system verification and memory checks)
 - Manual hardware installation
 
 ---
