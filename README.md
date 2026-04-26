@@ -25,6 +25,8 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 - Home lab documentation and support guides
 
 ## 🔭 Future Focus
+- Continuing Microsoft IT Support Specialist program (Windows, M365, troubleshooting)
+- Expanding practical troubleshooting and support workflows
 - Increasing efficiency in IT support through automation
 - Supporting user and access processes in structured environments
 
