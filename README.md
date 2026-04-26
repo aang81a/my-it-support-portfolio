@@ -42,4 +42,5 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 
 ## Certifications
 ▪ Feb 2026 – heute (läufend) | IT Support Specialist Career Path | Cisco Networking Academy
+
 ▪ Nov 2025 – heute (läufend) | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)
