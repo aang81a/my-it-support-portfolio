@@ -27,7 +27,7 @@ Projektzertifikat
 
 ---
 
-# Webinare (Teilnahmebestätigung)
+# WEBINARE (Teilnahmebestätigung)
 
 ▪ Dez 2025 | ChatGPT 5.1 Masterclass: Mastering GPT-5.1 to 10X Your Productivity | InfosecTrain |
 Webinar-Zertifikat (1 CPE)
