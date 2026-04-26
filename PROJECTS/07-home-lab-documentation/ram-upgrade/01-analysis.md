@@ -67,7 +67,7 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 ---
 
 ## Final Installation
-![16GB Installed](images/ram-installed.jpg)
+![16GB Installed](images/12-new-ram-installed.jpg)
 
 ---
 
