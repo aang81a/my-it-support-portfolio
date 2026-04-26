@@ -31,7 +31,7 @@ This document describes the installation of an additional RAM module in an HP Al
 
 ### Initial Setup
 ![Device Overview](images/01-device-overview.jpg)
-
+<img src="images/01-device-overview.jpg" width="600">
 ---
 
 ### Opening the Device
