@@ -57,7 +57,7 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 ---
 
 ## Decision
-- Selected configuration: **16GB (8GB + 8GB)**
+- Selected configuration: Option 2 with **16GB (8GB + 8GB)**
 - Reason:
   - Enables full dual-channel performance
   - More stable and efficient system behavior
