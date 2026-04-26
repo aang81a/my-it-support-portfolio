@@ -27,6 +27,11 @@ This document describes the installation of an additional RAM module in an HP Al
 
 ---
 
+## Device Disassembly
+![RAM Slot](images/ram-slot.jpg)
+
+---
+
 ## Installation Steps
 1. Verified RAM compatibility (DDR4, SO-DIMM, 2666 MHz)
 2. Inserted additional 8GB RAM module into free slot
