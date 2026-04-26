@@ -34,20 +34,14 @@ This document describes the installation of an additional RAM module in an HP Al
 
 ---
 
-### Screw Locations
+### Opening the Device
 ![Screws Removed](images/02-screws-removed.jpg)
-
-### Removing Screws
+![Device Opening](images/03-device-begin-to-open.jpg)
+![Device Opened](images/04-device-opened.jpg)
 ![Screw Location 1](images/05-screw-location-marked01.jpg)
 ![Screw Location 2](images/06-screw-location-marked02.jpg)
 ![Screw Location 3](images/07-screw-location-marked03.jpg)
-
----
-
-### Opening the Device
-![Device Opening](images/03-device-begin-to-open.jpg)
 ![Device Half Opened](images/08-device-opened-half.jpg)
-![Device Opened](images/04-device-opened.jpg)
 ![Device Fully Opened](images/09-device-opened-full.jpg)
 
 ---
