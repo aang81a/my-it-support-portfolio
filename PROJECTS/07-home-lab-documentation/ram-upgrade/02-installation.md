@@ -50,6 +50,8 @@ This document describes the installation of an additional RAM module in an HP Al
 
 ---
 
+## Hardware Installation
+
 ## Installation Steps
 1. Verified RAM compatibility (DDR4, SO-DIMM, 2666 MHz)
 2. Inserted additional 8GB RAM module into free slot
@@ -59,10 +61,6 @@ This document describes the installation of an additional RAM module in an HP Al
 
 4. Pressed RAM down until clips locked in place
 5. Reassembled the device
-
----
-
-## Hardware Installation
 
 ### Initial RAM (8GB Installed)
 <img src="images/11-8gb-samsung-installed.jpg" width="600">
