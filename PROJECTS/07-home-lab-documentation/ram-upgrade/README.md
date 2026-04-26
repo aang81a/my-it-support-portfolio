@@ -42,9 +42,5 @@ The objective was to improve system performance by upgrading memory from 8GB to 
 ---
 
 ## Context
-- This project covers an IT support task involving a RAM upgrade, system validation, and documentation.
-- It demonstrates practical execution and structured problem-solving in an IT support environment.
-
-## Context
 - This project covers a RAM upgrade on an end-user system, including system validation and documentation.
 - It demonstrates practical execution and structured problem-solving in a desktop support context.
