@@ -34,20 +34,20 @@ This document describes the installation of an additional RAM module in an HP Al
 
 ### Initial Setup
 ![Device Overview](images/01-device-overview.jpg)
-![Device Overview](images/01-device-overview.jpg)
-![Device Overview](images/01-device-overview.jpg)
-![Device Overview](images/01-device-overview.jpg)
-![Device Overview](images/01-device-overview.jpg)
+![Device Overview](images/02-screws-removed.jpg)
+![Device Overview](images/03-device-begin-to-open.jpg)
+![Device Overview](images/04-device-opened.jpg)
 
 ### Removing Screws
-![Screws Removed](images/screw-location-marked01.jpg)
-![Screws Removed](images/screw-location-marked02.jpg)
-![Screws Removed](images/screw-location-marked03.jpg)
-![Screws Removed](images/screws-removed.jpg)
-![Screw Location](images/screw-location-marked.jpg)
+![Screws Removed](images/05-screw-location-marked01.jpg)
+![Screws Removed](images/06-screw-location-marked02.jpg)
+![Screws Removed](images/07-screw-location-marked03.jpg)
+![Screws Removed](images/08-device-opened-half.jpg)
+
 
 ### Opening the Device
-![Device Opened](images/device-opened-full.jpg)
+![Device Opened](images/09-device opened-full.jpg)
+![Device Opened](images/10-ram-slot-empty.jpg)
 
 ---
 
@@ -62,7 +62,7 @@ This document describes the installation of an additional RAM module in an HP Al
 
 ## Hardware Installation
 
-![RAM Installed](images/ram-installed.jpg)
+![RAM Installed](images/11-8gb-samsung-installed.jpg)
 
 ---
 
