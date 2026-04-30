@@ -109,11 +109,6 @@ During the process, the following safety decisions were applied:
 
 ## If Windows Shows a Disk Warning
 
-If Windows shows any warning about formatting, initializing, repairing, or checking the disk, no action should be confirmed before the data is checked. 
-
-
-## If Windows Shows a Disk Warning
-
 If Windows shows any warning about formatting, initializing, repairing, or checking the disk, no action should be confirmed immediately.
 
 Correct action:
