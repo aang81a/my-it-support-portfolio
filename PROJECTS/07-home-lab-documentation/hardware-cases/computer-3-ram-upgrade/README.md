@@ -1,4 +1,4 @@
-# RAM Upgrade – HP All-in-One
+# Computer 3 RAM Upgrade – HP All-in-One
 
 ## Overview
 This project documents the analysis and installation of a RAM upgrade in an HP All-in-One system.
