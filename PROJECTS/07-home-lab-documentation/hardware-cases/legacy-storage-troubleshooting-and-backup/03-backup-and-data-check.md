@@ -26,13 +26,11 @@ This was important because old hard drives may still contain:
 
 ![Samsung SP1203N IDE/PATA HDD prepared for later data check](images/02-samsung-ide-hdd.jpg)
 
-![Samsung SP1203N IDE/PATA HDD prepared for later data check](images/02-samsung-ide-hdd-direct-connection.jpg)
-
 The Samsung SP1203N IDE/PATA hard drive was detected in BIOS, but it did not boot successfully.
 
 A future IDE/PATA-to-USB adapter is required to inspect the drive safely from another working computer.
 
-Because the drive may still contain old files, no other action was performed.
+Because the drive may still contain old files, it was kept unchanged for later data check and no other action was performed.
 
 Actions avoided:
 
