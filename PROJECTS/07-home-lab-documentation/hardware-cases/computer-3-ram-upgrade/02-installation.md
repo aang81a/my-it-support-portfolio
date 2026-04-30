@@ -87,6 +87,8 @@ The RAM area was located on the motherboard. One RAM slot was already populated 
 - Confirmed total RAM: **16GB**
 - Verified system stability
 
+<img src="images/14-system-information-16gb-ram.png" alt="Windows System Information showing 16GB installed RAM" width="500">
+
 ## Result
 
 - Upgrade successful
