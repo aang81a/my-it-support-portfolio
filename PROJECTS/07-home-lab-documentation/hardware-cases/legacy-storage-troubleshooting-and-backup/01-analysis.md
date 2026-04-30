@@ -32,6 +32,8 @@ These messages indicated that the system could enter BIOS, but it could not succ
 
 Computer 1 was used as the main legacy troubleshooting system.
 
+<img src="images/01-computer1-legacy-inside.jpg" alt="Computer 1 legacy ASUS desktop inside" width="500">
+
 Observed hardware and components:
 
 - ASUS P5LD2 motherboard
@@ -46,6 +48,8 @@ Observed hardware and components:
 ### Samsung SP1203N IDE/PATA HDD
 
 The Samsung SP1203N hard drive was identified as a legacy IDE/PATA hard drive.
+
+<img src="images/02-samsung-ide-hdd-direct-connection.jpg" alt="Samsung SP1203N IDE/PATA HDD direct connection test" width="500">
 
 Important observations:
 
@@ -67,6 +71,7 @@ Primary IDE Master: SAMSUNG SP1203N
 Ultra DMA Mode-5
 S.M.A.R.T. Capable and Status OK
 ```
+<img src="images/03-bios-samsung-hdd-detected.jpg" alt="Samsung SP1203N detected in BIOS" width="500">
 
 This was an important result because it showed that:
 
