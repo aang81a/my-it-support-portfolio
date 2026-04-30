@@ -24,7 +24,7 @@ This was important because old hard drives may still contain:
 
 ## Samsung SP1203N IDE/PATA HDD
 
-![Samsung SP1203N IDE/PATA HDD kept unchanged for later data check](images/02-samsung-ide-hdd.jpg)
+<img src="images/02-samsung-ide-hdd.jpg" alt="Samsung SP1203N IDE/PATA HDD kept unchanged for later data check" width="500">
 
 The Samsung SP1203N IDE/PATA hard drive was detected in BIOS, but it did not boot successfully.
 
@@ -53,13 +53,14 @@ The drive successfully booted into Windows and existing files/folders were visib
 
 This made it possible to start a data review and backup process.
 
-![Western Digital SATA HDD connected in the test system](images/06-wd-sata-hdd-test.jpg)
+<img src="images/06-wd-sata-hdd-test.jpg" alt="Western Digital SATA HDD connected in the test system" width="500">
+
 
 ## Backup Target
 
 An external Seagate USB hard drive was selected as the backup destination.
 
-![Backup from WD SATA HDD to external Seagate USB drive](images/07-backup-to-seagate.jpg)
+<img src="images/07-backup-to-seagate.jpg" alt="Backup from WD SATA HDD to external Seagate USB drive" width="500">
 
 Reason:
 
