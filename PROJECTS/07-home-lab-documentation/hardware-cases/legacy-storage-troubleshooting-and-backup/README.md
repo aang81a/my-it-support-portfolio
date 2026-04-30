@@ -54,3 +54,21 @@ The Western Digital SATA hard drive was able to boot into Windows on another tes
 - External backup workflow
 - Hardware documentation
 - Structured troubleshooting documentation
+
+## Visual Documentation
+
+### Computer 1 — Legacy ASUS desktop
+
+![Computer 1 legacy ASUS desktop inside](images/01-computer1-legacy-inside.jpg)
+
+### Samsung IDE/PATA HDD detected in BIOS
+
+![Samsung SP1203N detected in BIOS](images/03-bios-samsung-hdd-detected.jpg)
+
+### Boot error after BIOS detection
+
+![Boot error no bootable device](images/05-boot-error-no-bootable-device.jpg)
+
+### Backup setup with external Seagate drive
+
+![Backup to Seagate external drive](images/07-backup-to-seagate.jpg)
