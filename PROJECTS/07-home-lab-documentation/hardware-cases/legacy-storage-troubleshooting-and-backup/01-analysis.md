@@ -120,11 +120,8 @@ This was important because the drive could contain old files, photos, documents,
 Before reinstalling Windows or changing partitions, the safer decision was:
 
 1. stop destructive actions
-
 2. check whether the drive contains important data
-
 3. back up files first
-
 4. only then decide whether the drive can be reused, formatted, or repaired
 
 
@@ -147,38 +144,25 @@ The first analysis showed two different situations:
 ### Samsung SP1203N IDE/PATA HDD
 
 - detected by BIOS
-
 - S.M.A.R.T. status OK
-
 - not booting successfully
-
 - should not be formatted before data recovery check
 
 ### Western Digital SATA HDD
 
 - tested in Computer 2 using SATA connection
-  
 - did not boot as a standalone Windows system drive
-  
-- contained visible folders and files
-  
+- contained visible folders and files 
 - suitable for backup and data review
-  
 - useful as part of the storage recovery workflow
 
 ## IT Support Relevance
 This case is relevant for first-level IT support because it shows a realistic troubleshooting process:
 
 - check physical connections
-
 - reduce the setup to fewer variables
-
 - verify BIOS detection
-
 - adjust boot order
-
 - distinguish hardware detection from operating system boot failure
-
 - protect user data before reinstalling or formatting
-
 - document observations clearly
