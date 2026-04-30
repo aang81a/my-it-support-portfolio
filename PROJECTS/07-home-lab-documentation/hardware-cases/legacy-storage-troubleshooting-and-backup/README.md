@@ -16,16 +16,7 @@ This case was performed as part of a beginner IT support home lab. The environme
 |---|---|---|
 | Computer 1 | Legacy ASUS desktop | IDE/PATA troubleshooting system |
 | Computer 2 | HP black desktop | Recovery, backup, and home lab workstation |
-| Computer 4 | Test system | WD SATA HDD boot and data check |
-| Samsung SP1203N | IDE/PATA HDD | Legacy hard drive tested in Computer 1 |
-| Western Digital HDD | SATA HDD | Bootable drive tested in Computer 4 |
-| Seagate external drive | USB storage | Backup destination |
-| ASUS DRW-1608P3S | Optical drive | DVD drive detected in BIOS |
-| LG DVD drive | Optical drive | Additional optical drive tested |
-
-
-| Device | Type | Role in the case |
-|---|---|---|
+| Computer 3 – HP all-in-one | Hardware upgrade system | Used for RAM upgrade documentation and backup preparation |
 | Computer 4 – WD SATA HDD source | Legacy storage source for backup | WD SATA HDD tested in Computer 2 using SATA connection |
 | Samsung SP1203N | IDE/PATA HDD | Legacy hard drive tested in Computer 1 |
 | Internal Seagate SATA HDD in Computer 2 | SATA HDD | Internal system drive used to access Windows and perform recovery/backup work |
@@ -46,15 +37,15 @@ This case was performed as part of a beginner IT support home lab. The environme
 ## Key Result
 
 The Samsung SP1203N IDE/PATA hard drive was detected by BIOS, but the system did not boot successfully from it.  
-The Western Digital SATA hard drive was able to boot into Windows on another test system, allowing files to be checked and backed up.
+The Western Digital SATA hard drive was tested in Computer 2 using a SATA connection. It did not boot as a standalone Windows system drive, but files were visible and are being backed up to the external Seagate USB drive.
 
 ## Files in This Case
 
-- `01-analysis.md` — initial device and issue analysis
-- `02-troubleshooting-steps.md` — step-by-step troubleshooting workflow
-- `03-backup-and-data-check.md` — data check and backup documentation
-- `images/` — photos and screenshots from the hardware case
-
+- [01-analysis.md](01-analysis.md) — initial device and issue analysis
+- [02-troubleshooting-steps.md](02-troubleshooting-steps.md) — step-by-step troubleshooting workflow
+- [03-backup-and-data-check.md](03-backup-and-data-check.md) — data check and backup documentation
+- [images/](images/) — photos and screenshots from the hardware case
+- 
 ## Skills Demonstrated
 
 - Legacy hardware identification
