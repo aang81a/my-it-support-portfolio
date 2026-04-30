@@ -84,8 +84,8 @@ Example boot order:
 
 ```text
 1st Boot Device: PM-SAMSUNG SP1203N
-2nd Boot Device: ATAPI CD-ROM
-3rd Boot Device: ASUS DRW-1608P3S
+2nd Boot Device: ASUS DRW-1608P3S
+3rd Boot Device: ATAPI CD-ROM
 4th Boot Device: Floppy / Disabled
 ```
 <img src="images/04-boot-device-priority-samsung.jpg" alt="Samsung HDD selected in BIOS boot device priority" width="500">
