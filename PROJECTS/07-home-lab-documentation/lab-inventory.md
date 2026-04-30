@@ -14,7 +14,7 @@ The lab is used for hardware troubleshooting, storage testing, BIOS/boot diagnos
 |---|---|---|
 | Computer 1 – Legacy ASUS desktop | Legacy storage and BIOS troubleshooting system | Used for IDE/PATA HDD testing, DVD drive testing, BIOS boot order checks |
 | Computer 2 – HP black desktop | Recovery and backup workstation | Desktop PC with internal Seagate SATA HDD; used to test SATA drives, access Windows, check files, prepare recovery media, and perform backup and storage checks; possible future VM lab or home lab workstation |
-| Computer 3 – RAM upgrade system | Hardware upgrade case | Used for RAM upgrade documentation |
+| Computer 3 – HP all-in-one | Hardware upgrade case: RAM upgrade | Used for RAM upgrade documentation |
 | Computer 4 – WD SATA HDD source | Storage source for backup / additional hardware test system | WD SATA HDD tested in Computer 2 (the HP black desktop) using SATA connection; did not boot as a standalone Windows system drive; files are being backed up to the external Seagate USB drive; available for later hardware and storage testing |
 
 ---
