@@ -176,9 +176,10 @@ Decision:
 
 The troubleshooting process showed that the Samsung IDE/PATA drive was detected by BIOS, but was not bootable.
 
-The Western Digital SATA drive was bootable and contained accessible data.
+The Western Digital SATA HDD was detected in Computer 2, contained accessible files, and backup to the external Seagate USB drive was started.
 
-The safest next step was to back up visible data first and postpone destructive actions on the Samsung drive until its contents can be checked.
+The safest next step was to back up visible data first and postpone destructive actions on the Samsung drive until its contents can be checked with an IDE/PATA-to-USB adapter.
+
 
 ## Skills Demonstrated
 
