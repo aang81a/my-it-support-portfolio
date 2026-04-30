@@ -26,6 +26,7 @@ or Insert Boot Media in selected Boot device and press a key
 
 This showed that the computer could power on and enter BIOS, but it could not successfully boot into an operating system.
 
+
 ## Step 2 — Enter BIOS Setup
 
 The BIOS setup utility was opened by pressing `DEL` during startup.
@@ -38,7 +39,6 @@ Inside BIOS, the following areas were checked:
 * Boot Device Priority
 
 This helped verify whether the hard drive and optical drives were detected by the system.
-
 
 ## Step 3 — Check IDE/PATA Detection
 
@@ -134,22 +134,21 @@ The correct support decision was to avoid destructive actions until the data sta
 
 ## Step 8 — Test Another Storage Device
 
-A Western Digital SATA hard drive was tested in another computer.
+A Western Digital SATA hard drive was tested in Computer 2 using a SATA connection.
 
-The WD drive successfully booted into Windows.
-
-The system reached the Windows desktop, and existing folders/files were visible.
+The WD SATA HDD did not boot as a standalone Windows system drive. However, Windows was accessible through Computer 2, and existing folders/files on the WD SATA HDD were visible.
 
 This confirmed that:
 
-* the second test system could boot from a working SATA drive
-* the WD drive had a working Windows installation
-* the WD drive could be used for backup and data review practice
+* the WD SATA HDD could be detected through the SATA connection
+* the drive contained accessible files
+* the drive should be treated as a data source before any formatting or repair action
+* the files could be reviewed and backed up
 
 
 ## Step 9 — Start Backup to External Storage
 
-Because files were visible on the WD drive, backup was started to an external Seagate USB drive.
+Because files were visible on the WD SATA HDD, backup was started to an external Seagate USB drive.
 
 The backup process was slow, but this was expected because:
 
