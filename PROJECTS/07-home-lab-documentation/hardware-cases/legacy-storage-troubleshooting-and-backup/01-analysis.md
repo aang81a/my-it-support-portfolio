@@ -157,9 +157,13 @@ The first analysis showed two different situations:
 ### Western Digital SATA HDD
 
 - tested in Computer 2 using SATA connection
+  
 - did not boot as a standalone Windows system drive
+  
 - contained visible folders and files
+  
 - suitable for backup and data review
+  
 - useful as part of the storage recovery workflow
 
 ## IT Support Relevance
