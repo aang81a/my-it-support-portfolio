@@ -70,11 +70,11 @@ S.M.A.R.T. Capable and Status OK
 
 This was an important result because it showed that:
 
-the IDE/PATA cable connection was working
-the Molex power connection was working
-the hard drive was visible to the system
-the problem was probably not simple power failure
-the issue could be related to boot order, missing operating system, corrupted bootloader, or incompatible installation
+- the IDE/PATA cable connection was working
+- the Molex power connection was working
+- the hard drive was visible to the system
+- the problem was probably not simple power failure
+- the issue could be related to boot order, missing operating system, corrupted bootloader, or incompatible installation
 
 ## Optical Drive Detection
 
@@ -106,7 +106,8 @@ Example boot order used during testing:
 Even after the Samsung hard drive was selected as the first boot device, the system displayed:
 
 ```text
-Reboot and Select proper Boot deviceor Insert Boot Media in selected Boot device and press a key
+Reboot and Select proper Boot device
+or Insert Boot Media in selected Boot device and press a key
 ```
 This suggested that the BIOS could detect the drive, but did not find a valid bootable system on it.
 
@@ -146,7 +147,7 @@ This showed that the second storage device had a working Windows installation an
 ## Initial Conclusion
 The first analysis showed two different situations:
 
-## Samsung SP1203N IDE/PATA HDD
+### Samsung SP1203N IDE/PATA HDD
 
 - detected by BIOS
 
@@ -157,7 +158,7 @@ The first analysis showed two different situations:
 - should not be formatted before data recovery check
 
 
-## Western Digital SATA HDD
+### Western Digital SATA HDD
 
 - booted into Windows
 
