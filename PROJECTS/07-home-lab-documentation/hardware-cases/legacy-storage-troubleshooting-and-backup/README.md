@@ -45,7 +45,7 @@ The Western Digital SATA hard drive was tested in Computer 2 using a SATA connec
 - [02-troubleshooting-steps.md](02-troubleshooting-steps.md) — step-by-step troubleshooting workflow
 - [03-backup-and-data-check.md](03-backup-and-data-check.md) — data check and backup documentation
 - [images/](images/) — photos and screenshots from the hardware case
-- 
+
 ## Skills Demonstrated
 
 - Legacy hardware identification
@@ -61,5 +61,17 @@ The Western Digital SATA hard drive was tested in Computer 2 using a SATA connec
 
 ### Computer 1 — Legacy ASUS desktop
 
-![Computer 1 legacy ASUS desktop inside](images/01-computer1-legacy-inside.jpg)
+<img src="images/01-computer1-legacy-inside.jpg" alt="Computer 1 legacy ASUS desktop inside" width="500">
+
+### Samsung SP1203N IDE/PATA HDD
+
+<img src="images/02-samsung-ide-hdd.jpg" alt="Samsung SP1203N IDE/PATA HDD" width="500">
+
+### Western Digital SATA HDD Test
+
+<img src="images/06-wd-sata-hdd-test.jpg" alt="Western Digital SATA HDD connected in Computer 2 for data check" width="500">
+
+### Backup to External Seagate USB Drive
+
+<img src="images/07-backup-to-seagate.jpg" alt="Backup from WD SATA HDD to external Seagate USB drive" width="500">
 
