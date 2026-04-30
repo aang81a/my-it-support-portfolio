@@ -15,7 +15,7 @@ CMOS Settings Wrong
 CMOS Date/Time Not Set
 Press F1 to Run SETUP
 Press F2 to load default values and continue
-````
+```
 
 Later, after boot order changes, the system also displayed:
 
@@ -162,8 +162,7 @@ The correct action was to let the backup continue and avoid interrupting it unne
 
 ## Step 10 — Keep the Samsung HDD for Later Data Recovery Check
 
-The Samsung IDE/PATA drive could not be checked directly on the newer SATA-based computer because no IDE-to-USB adapter was available.
-
+The Samsung IDE/PATA drive could not be checked directly on the newer SATA-based computer because no IDE/PATA-to-USB adapter was available.
 Decision:
 
 * keep the Samsung HDD unchanged
