@@ -80,7 +80,7 @@ This made it easier to verify whether the hard drive alone could be detected and
 
 The BIOS boot order was adjusted so that the Samsung hard drive was selected as the first boot device.
 
-Example boot order shown during testing:
+Boot order chosen during testing:
 
 ```text
 1st Boot Device: PM-SAMSUNG SP1203N
