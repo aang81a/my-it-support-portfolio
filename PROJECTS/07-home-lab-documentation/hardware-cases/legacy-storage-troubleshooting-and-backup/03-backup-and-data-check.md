@@ -49,8 +49,6 @@ A future IDE/PATA-to-USB adapter is required to inspect the drive safely from an
 
 ## Western Digital SATA HDD
 
-![Western Digital SATA HDD connected in the test system](images/06-wd-sata-hdd-test.jpg)
-
 A Western Digital SATA hard drive was tested in another computer.
 
 The drive successfully booted into Windows and existing files/folders were visible.
