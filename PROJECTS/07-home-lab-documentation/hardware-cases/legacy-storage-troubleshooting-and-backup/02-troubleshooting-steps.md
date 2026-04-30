@@ -6,8 +6,6 @@ This document describes the troubleshooting steps used during the legacy storage
 
 The goal was to identify whether the problem was caused by hardware detection, cable configuration, BIOS boot order, or a missing/corrupted operating system boot process.
 
----
-
 ## Step 1 — Identify the Startup Problem
 
 The ASUS legacy desktop displayed BIOS/CMOS warnings during startup:
@@ -28,7 +26,6 @@ or Insert Boot Media in selected Boot device and press a key
 
 This showed that the computer could power on and enter BIOS, but it could not successfully boot into an operating system.
 
----
 
 ## Step 2 — Enter BIOS Setup
 
@@ -43,7 +40,6 @@ Inside BIOS, the following areas were checked:
 
 This helped verify whether the hard drive and optical drives were detected by the system.
 
----
 
 ## Step 3 — Check IDE/PATA Detection
 
@@ -64,7 +60,6 @@ This confirmed that:
 * the motherboard could detect the drive
 * the drive was not completely dead
 
----
 
 ## Step 4 — Reduce the Setup to Fewer Variables
 
@@ -78,7 +73,6 @@ The optical drives were temporarily disconnected, and the system was tested with
 
 This made it easier to verify whether the hard drive alone could be detected and selected as a boot device.
 
----
 
 ## Step 5 — Check Boot Device Priority
 
@@ -97,7 +91,6 @@ The Samsung drive was visible as a boot option, which confirmed that BIOS could 
 
 However, the system still did not boot successfully.
 
----
 
 ## Step 6 — Interpret the Boot Error
 
@@ -119,7 +112,6 @@ Because the hard drive was detected but did not boot, the likely causes were:
 
 This was different from a basic power or cable failure.
 
----
 
 ## Step 7 — Avoid Formatting the Samsung HDD
 
@@ -135,7 +127,6 @@ This was an important safety decision because the disk could contain:
 
 The correct support decision was to avoid destructive actions until the data status was checked.
 
----
 
 ## Step 8 — Test Another Storage Device
 
@@ -151,7 +142,6 @@ This confirmed that:
 * the WD drive had a working Windows installation
 * the WD drive could be used for backup and data review practice
 
----
 
 ## Step 9 — Start Backup to External Storage
 
@@ -166,7 +156,6 @@ The backup process was slow, but this was expected because:
 
 The correct action was to let the backup continue and avoid interrupting it unnecessarily.
 
----
 
 ## Step 10 — Keep the Samsung HDD for Later Data Recovery Check
 
@@ -180,7 +169,6 @@ Decision:
 * buy or borrow an IDE/PATA-to-USB adapter later
 * check the data before reuse
 
----
 
 ## Result
 
@@ -189,8 +177,6 @@ The troubleshooting process showed that the Samsung IDE/PATA drive was detected 
 The Western Digital SATA drive was bootable and contained accessible data.
 
 The safest next step was to back up visible data first and postpone destructive actions on the Samsung drive until its contents can be checked.
-
----
 
 ## Skills Demonstrated
 
