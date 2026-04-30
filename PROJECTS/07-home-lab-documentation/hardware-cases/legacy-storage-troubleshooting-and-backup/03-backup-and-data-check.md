@@ -109,17 +109,28 @@ During the process, the following safety decisions were applied:
 
 ## If Windows Shows a Disk Warning
 
-If Windows shows any warning about formatting, initializing, repairing, or checking the disk, no action should be confirmed before the data is checked.
+If Windows shows any warning about formatting, initializing, repairing, or checking the disk, no action should be confirmed before the data is checked. 
+
+
+## If Windows Shows a Disk Warning
+
+If Windows shows any warning about formatting, initializing, repairing, or checking the disk, no action should be confirmed immediately.
 
 Correct action:
 
 - cancel the warning
 - do not format the disk
 - do not initialize the disk
-- do not run repair tools before backup
 - document the message if needed
+- check the data status first
+- back up accessible files before making changes
 
-No formatting or repair action should be performed before the data status is known.
+
+## If Windows Shows a Disk Warning
+
+If Windows shows any warning about formatting, initializing, repairing, or checking the disk, the message should be cancelled and documented.
+
+Do not format, initialize, or repair the disk before the data status is known.
 
 
 ## Verification Plan
