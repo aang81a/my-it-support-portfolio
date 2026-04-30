@@ -107,8 +107,9 @@ Even after the Samsung hard drive was selected as the first boot device, the sys
 
 ```text
 Reboot and Select proper Boot deviceor Insert Boot Media in selected Boot device and press a key
-This suggested that the BIOS could detect the drive, but did not find a valid bootable system on it.
 ```
+This suggested that the BIOS could detect the drive, but did not find a valid bootable system on it.
+
 
 ## Important Safety Decision
 
