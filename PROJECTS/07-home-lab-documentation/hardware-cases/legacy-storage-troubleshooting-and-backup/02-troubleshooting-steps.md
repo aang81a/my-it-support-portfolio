@@ -26,7 +26,6 @@ or Insert Boot Media in selected Boot device and press a key
 
 This showed that the computer could power on and enter BIOS, but it could not successfully boot into an operating system.
 
-
 ## Step 2 — Enter BIOS Setup
 
 The BIOS setup utility was opened by pressing `DEL` during startup.
@@ -52,6 +51,7 @@ Primary IDE Master: SAMSUNG SP1203N
 Ultra DMA Mode-5
 S.M.A.R.T. Capable and Status OK
 ```
+<img src="images/03-bios-samsung-hdd-detected.jpg" alt="Samsung SP1203N detected in BIOS" width="500">
 
 This confirmed that:
 
@@ -71,6 +71,8 @@ The optical drives were temporarily disconnected, and the system was tested with
 * IDE/PATA ribbon cable
 * Molex power cable
 
+<img src="images/02-samsung-ide-hdd-direct-connection.jpg" alt="Samsung SP1203N IDE/PATA HDD direct connection test" width="500">
+
 This made it easier to verify whether the hard drive alone could be detected and selected as a boot device.
 
 
@@ -86,6 +88,7 @@ Example boot order:
 3rd Boot Device: ASUS DRW-1608P3S
 4th Boot Device: Floppy / Disabled
 ```
+<img src="images/04-boot-device-priority-samsung.jpg" alt="Samsung HDD selected in BIOS boot device priority" width="500">
 
 The Samsung drive was visible as a boot option, which confirmed that BIOS could see the disk.
 
@@ -100,6 +103,7 @@ After saving the BIOS settings, the system displayed:
 Reboot and Select proper Boot device
 or Insert Boot Media in selected Boot device and press a key
 ```
+<img src="images/05-boot-error-no-bootable-device.jpg" alt="Boot error after selecting Samsung HDD as boot device" width="500">
 
 Because the hard drive was detected but did not boot, the likely causes were:
 
