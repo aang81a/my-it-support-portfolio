@@ -1,15 +1,12 @@
 # Computer 3 RAM Upgrade – HP All-in-One
 
 ## Overview
-
-This hardware case documents the analysis and installation of a RAM upgrade in an HP All-in-One system.
-
-The objective was to improve system performance by upgrading the memory from 8GB to 16GB and enabling dual-channel configuration.
+- This hardware case documents the analysis and installation of a RAM upgrade in an HP All-in-One system.
+- The objective was to improve system performance by upgrading the memory from 8GB to 16GB and enabling dual-channel configuration.
 
 ---
 
 ## Project Structure
-
 - 📄 [RAM Upgrade Analysis](01-analysis.md)  
   Evaluation of the existing RAM configuration, compatibility requirements, and upgrade option
 
@@ -19,7 +16,6 @@ The objective was to improve system performance by upgrading the memory from 8GB
 ---
 
 ## Summary
-
 - RAM upgraded from 8GB to 16GB
 - Dual-channel configuration enabled
 - System memory verified in Windows
@@ -28,7 +24,6 @@ The objective was to improve system performance by upgrading the memory from 8GB
 ---
 
 ## Skills Demonstrated
-
 - Comparing the existing RAM configuration with the planned upgrade
 - Identifying the correct RAM type, speed, and form factor
 - Installing 8GB RAM in an end-user device
@@ -40,25 +35,13 @@ The objective was to improve system performance by upgrading the memory from 8GB
 ---
 
 ## Tools & Environment
-
 - HP All-in-One system
 - DDR4 SO-DIMM RAM (2666 MHz)
 - Windows OS (Task Manager, System Information for RAM verification)
 - Basic hardware tools (screwdriver)
 
-- HP All-in-One system
-- DDR4 SO-DIMM RAM (2666 MHz)
-- Windows OS
-- Task Manager
-- System Information
-- Basic hardware tools, including screwdriver
-
 ---
 
 ## Context
-
 - This hardware case covers a RAM upgrade on an end-user system, including system validation and documentation.
-- It demonstrates practical execution and structured problem-solving in a desktop support context.
-
-This hardware case is part of my home lab documentation for practical IT support training.
-It demonstrates a realistic desktop support task: checking system memory, selecting compatible RAM, installing the upgrade, verifying the result in Windows, and documenting the process.
+- It demonstrates a hardware-focused technical support task: checking system memory, selecting compatible RAM, installing the upgrade, verifying the result in Windows, and documenting the process.
