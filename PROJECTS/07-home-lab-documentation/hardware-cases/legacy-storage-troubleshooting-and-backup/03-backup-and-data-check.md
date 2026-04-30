@@ -121,13 +121,6 @@ Correct action:
 - back up accessible files before making changes
 
 
-## If Windows Shows a Disk Warning
-
-If Windows shows any warning about formatting, initializing, repairing, or checking the disk, the message should be cancelled and documented.
-
-Do not format, initialize, or repair the disk before the data status is known.
-
-
 ## Verification Plan
 
 After the backup finishes, the copied files should be checked.
