@@ -4,7 +4,6 @@
 - This hardware case documents the analysis and installation of a RAM upgrade in an HP All-in-One system.
 - The objective was to improve system performance by upgrading the memory from 8GB to 16GB and enabling dual-channel configuration.
 
----
 
 ## Project Structure
 - 📄 [RAM Upgrade Analysis](01-analysis.md)  
@@ -13,7 +12,6 @@
 - 🔧 [RAM Installation](02-installation.md)  
   Step-by-step hardware upgrade with verification and documentation
 
----
 
 ## Summary
 - RAM upgraded from 8GB to 16GB
@@ -21,7 +19,6 @@
 - System memory verified in Windows
 - System performance improved
 
----
 
 ## Skills Demonstrated
 - Comparing the existing RAM configuration with the planned upgrade
@@ -32,7 +29,6 @@
 - Applying structured problem-solving during hardware installation
 - Documenting the RAM upgrade process with clear before/after information
 
----
 
 ## Tools & Environment
 - HP All-in-One system
@@ -40,7 +36,6 @@
 - Windows OS (Task Manager, System Information for RAM verification)
 - Basic hardware tools (screwdriver)
 
----
 
 ## Context
 - This hardware case covers a RAM upgrade on an end-user system, including system validation and documentation.
