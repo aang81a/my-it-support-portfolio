@@ -12,10 +12,10 @@ The lab is used for hardware troubleshooting, storage testing, BIOS/boot diagnos
 
 | System | Role in the lab | Relevant notes |
 |---|---|---|
-| Computer 1 – Legacy ASUS desktop (approx. mid-2000s) | Legacy storage and BIOS troubleshooting system | ASUS-branded legacy desktop with Intel Pentium D CPU, ASUS DVD/CD writer, LG DVD/CD writer, and VIPower/SuperRack drive bay; used for legacy disc-to-disc copying, Samsung SP1203N IDE/PATA HDD testing, DVD/CD drive testing, and BIOS boot order checks |
+| Computer 1 – Legacy ASUS desktop (approx. mid-2000s) | Legacy storage and BIOS troubleshooting system | ASUS-branded legacy desktop with Intel Pentium D CPU, ASUS DVD/CD writer, LG DVD/CD writer, and VIPower/SuperRack drive bay; used for legacy disc-to-disc copying, Samsung SP1203N IDE/PATA HDD (2004) testing, DVD/CD drive testing, and BIOS boot order checks |
 | Computer 2 – HP black desktop | Recovery, backup, and VM lab workstation | Desktop PC with internal Seagate SATA HDD; used to test SATA drives, access Windows, check files, prepare recovery media, perform backup and storage checks, and run VM lab tasks |
 | Computer 3 – HP all-in-one | Hardware upgrade system | Used for RAM upgrade documentation |
-| Computer 4 – Legacy WD SATA HDD source (approx. 2010) | Legacy storage source for backup / additional hardware test system | WD SATA HDD tested in Computer 2 (the HP black desktop) using SATA connection; did not boot as a standalone Windows system drive; files are being backed up to the external Seagate USB drive; available for later hardware and storage testing |
+| Computer 4 – Legacy WD SATA HDD source (2006) | Legacy storage source for backup / additional hardware test system | WD SATA HDD tested in Computer 2 (the HP black desktop) using SATA connection; did not boot as a standalone Windows system drive; files are being backed up to the external Seagate USB drive; available for later hardware and storage testing |
 
 ---
 
