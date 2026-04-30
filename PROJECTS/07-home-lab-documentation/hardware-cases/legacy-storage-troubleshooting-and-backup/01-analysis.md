@@ -128,21 +128,18 @@ Before reinstalling Windows or changing partitions, the safer decision was:
 4. only then decide whether the drive can be reused, formatted, or repaired
 
 
-## Additional Test System
-A Western Digital SATA hard drive was tested in another computer.
+## Additional SATA HDD Test
+
+A Western Digital SATA hard drive was tested in Computer 2 using a SATA connection.
 
 Result:
 
-- The WD SATA drive booted into Windows.
+- The WD SATA HDD did not boot as a standalone Windows system drive.
+- Windows was accessible through Computer 2.
+- Existing files and folders on the WD SATA HDD were visible.
+- Backup to an external Seagate USB drive was started.
 
-- The system reached the Windows desktop.
-
-- Existing files and folders were visible.
-
-- Backup to an external Seagate drive was started.
-
-
-This showed that the second storage device had a working Windows installation and could be used for data checking and backup practice.
+This showed that the WD SATA HDD could be used for data checking and backup practice, even though it was not a standalone bootable system drive.
 
 ## Initial Conclusion
 The first analysis showed two different situations:
@@ -157,17 +154,13 @@ The first analysis showed two different situations:
 
 - should not be formatted before data recovery check
 
-
 ### Western Digital SATA HDD
 
-- booted into Windows
-
+- tested in Computer 2 using SATA connection
+- did not boot as a standalone Windows system drive
 - contained visible folders and files
-
 - suitable for backup and data review
-
 - useful as part of the storage recovery workflow
-
 
 ## IT Support Relevance
 This case is relevant for first-level IT support because it shows a realistic troubleshooting process:
