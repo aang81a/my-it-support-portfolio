@@ -24,7 +24,7 @@ This was important because old hard drives may still contain:
 
 ## Samsung SP1203N IDE/PATA HDD
 
-<img src="images/02-samsung-ide-hdd.jpg" alt="Samsung SP1203N IDE/PATA HDD kept unchanged for later data check" width="600">
+<img src="images/02-samsung-ide-hdd.jpg" alt="Samsung SP1203N IDE/PATA HDD kept unchanged for later data check" width="500">
 
 The Samsung SP1203N IDE/PATA hard drive was detected in BIOS, but it did not boot successfully.
 
