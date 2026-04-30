@@ -49,16 +49,21 @@ A future IDE/PATA-to-USB adapter is required to inspect the drive safely from an
 
 ## Western Digital SATA HDD
 
+![Western Digital SATA HDD connected in the test system](images/06-wd-sata-hdd-test.jpg)
+
 A Western Digital SATA hard drive was tested in another computer.
 
 The drive successfully booted into Windows and existing files/folders were visible.
 
 This made it possible to start a data review and backup process.
 
+![Western Digital SATA HDD connected in the test system](images/06-wd-sata-hdd-test.jpg)
 
 ## Backup Target
 
 An external Seagate USB hard drive was selected as the backup destination.
+
+![Backup from WD SATA HDD to external Seagate USB drive](images/07-backup-to-seagate.jpg)
 
 Reason:
 
@@ -83,7 +88,6 @@ The following data categories were prioritized:
 * software-related folders
 
 The backup was allowed to continue even though the transfer was slow.
-
 
 ## Slow Backup Observation
 
