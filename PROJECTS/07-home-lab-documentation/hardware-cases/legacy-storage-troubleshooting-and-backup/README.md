@@ -1,1 +1,56 @@
+# Legacy Storage Troubleshooting and Backup
 
+## Overview
+
+This hardware case documents a practical troubleshooting and backup workflow using legacy desktop hardware, IDE/PATA storage, SATA storage, optical drives, and external USB backup storage.
+
+The goal was to identify which storage devices were detected by BIOS, separate hardware connection issues from bootloader or operating system issues, and safely check old hard drives for existing data before formatting or reinstalling Windows.
+
+## Lab Context
+
+This case was performed as part of a beginner IT support home lab. The environment included multiple older desktop computers, internal hard drives, IDE/PATA and SATA connections, optical drives, and external storage devices.
+
+## Devices Used
+
+| Device | Type | Role in the case |
+|---|---|---|
+| Computer 1 | Legacy ASUS desktop | IDE/PATA troubleshooting system |
+| Computer 2 | HP desktop | Recovery / backup workstation |
+| Computer 4 | Test system | WD SATA HDD boot and data check |
+| Samsung SP1203N | IDE/PATA HDD | Legacy hard drive tested in Computer 1 |
+| Western Digital HDD | SATA HDD | Bootable drive tested in Computer 4 |
+| Seagate external drive | USB storage | Backup destination |
+| ASUS DRW-1608P3S | Optical drive | DVD drive detected in BIOS |
+| LG DVD drive | Optical drive | Additional optical drive tested |
+
+## Objectives
+
+- Identify legacy storage devices in BIOS.
+- Test IDE/PATA HDD detection.
+- Test SATA HDD boot behaviour.
+- Avoid formatting unknown drives before checking for data.
+- Back up old files to external storage.
+- Document a realistic first-level IT support troubleshooting process.
+
+## Key Result
+
+The Samsung SP1203N IDE/PATA hard drive was detected by BIOS, but the system did not boot successfully from it.  
+The Western Digital SATA hard drive was able to boot into Windows on another test system, allowing files to be checked and backed up.
+
+## Files in This Case
+
+- `01-analysis.md` — initial device and issue analysis
+- `02-troubleshooting-steps.md` — step-by-step troubleshooting workflow
+- `03-backup-and-data-check.md` — data check and backup documentation
+- `images/` — photos and screenshots from the hardware case
+
+## Skills Demonstrated
+
+- Legacy hardware identification
+- IDE/PATA and SATA storage troubleshooting
+- BIOS device detection
+- Boot priority configuration
+- Basic data recovery precautions
+- External backup workflow
+- Hardware documentation
+- Structured troubleshooting documentation
