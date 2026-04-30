@@ -107,33 +107,19 @@ During the process, the following safety decisions were applied:
 * verify copied files after backup
 
 
-## If Windows Shows a Warning
+## If Windows Shows a Disk Warning
 
-If Windows displays messages such as:
+If Windows shows any warning about formatting, initializing, repairing, or checking the disk, no action should be confirmed before the data is checked.
 
-```text
-You need to format the disk before you can use it.
-```
+Correct action:
 
-or:
+- cancel the warning
+- do not format the disk
+- do not initialize the disk
+- do not run repair tools before backup
+- document the message if needed
 
-```text
-Initialize disk
-```
-
-or:
-
-```text
-Format disk
-```
-
-The correct action is:
-
-```text
-Cancel
-```
-
-No formatting should be done before the data status is known.
+No formatting or repair action should be performed before the data status is known.
 
 
 ## Verification Plan
