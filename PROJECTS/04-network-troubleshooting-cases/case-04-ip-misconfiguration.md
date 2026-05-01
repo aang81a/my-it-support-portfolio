@@ -107,3 +107,10 @@ As a result:
 - Use of command-line tools (ipconfig, ping)
 - Root cause identification
 - Problem resolution and documentation
+
+- Diagnosing IPv4 configuration issues
+- Identifying incorrect static IP configuration
+- Verifying DHCP-based network settings
+- Using `ipconfig` and `ping` for connectivity testing
+- Restoring network connectivity through adapter configuration
+- Documenting troubleshooting steps and resolution
