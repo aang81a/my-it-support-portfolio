@@ -41,5 +41,5 @@ Screenshots will be added...
 
 ## Notes
 
-
+Related knowledge base article: [How to map a network drive](../06-knowledge-base-articles/how-to-map-a-network-drive.md)
 
