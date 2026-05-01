@@ -53,4 +53,8 @@ The troubleshooting process used in these cases is documented here:
 - Network diagnostics (IP, DNS, connectivity)  
 - Root cause identification  
 - Structured documentation  
-- Basic system and network understanding  
+- Basic system and network understanding
+
+## Notes
+
+Related knowledge base article: [How to troubleshoot no internet](../06-knowledge-base-articles/how-to-troubleshoot-no-internet.md)
