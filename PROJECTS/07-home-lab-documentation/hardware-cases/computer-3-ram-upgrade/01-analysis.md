@@ -1,4 +1,4 @@
-# RAM Upgrade – Analysis
+# Analysis – RAM Upgrade
 
 ## Overview
 
