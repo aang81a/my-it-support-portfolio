@@ -18,7 +18,7 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 
 <img src="images/09-8gb-old-ram.jpg" alt="Existing 8GB Samsung DDR4 SO-DIMM RAM module" width="500">
 
-- 4GB DDR4 SO-DIMM (Samsung – available, not installed)
+- 4GB DDR4 (Samsung – available, not selected because the form factor appeared different)
 
 <img src="images/13-4gb-old-samsung.jpg" alt="Available 4GB Samsung DDR4 SO-DIMM RAM module" width="500">
 
@@ -30,18 +30,14 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 
 ### Option 1: 8GB + 4GB (12GB total)
 
-**Pros:**
+**Status:** Not selected.
 
-- Increased total memory
-- No additional cost
+**Reason:**
 
-**Cons:**
+- The 4GB module did not appear to match the same physical RAM module format as the installed 8GB SO-DIMM.
+- Because the form factor looked different, it was not treated as a suitable upgrade option.
+- Using a non-matching RAM module could cause installation or compatibility issues.
 
-- Mixed capacity
-- Only partial dual-channel benefit
-- Reduced performance efficiency
-- Not optimal for long-term use
-- Temporary solution only
 
 ### Option 2: 8GB + 8GB (16GB total)
 
@@ -63,10 +59,13 @@ Selected configuration: **Option 2 — 16GB total RAM (8GB + 8GB)**
 
 Reason:
 
-- Enables full dual-channel performance
-- Uses matching RAM capacity
-- Provides more stable and efficient system behaviour
-- Better long-term upgrade strategy
+- The new 8GB module matched the required SO-DIMM form factor
+- The new 8GB module matched the existing 8GB capacity
+- The 8GB + 8GB configuration enabled full dual-channel performance
+- This enabled a balanced 8GB + 8GB configuration
+- Matching RAM capacity provided a more stable and efficient memory configuration
+- This was the safer and more suitable upgrade option than using the available 4GB module with a different-looking form factor
+- The 16GB configuration was the better long-term upgrade strategy
 
 ## Final Installation
 
