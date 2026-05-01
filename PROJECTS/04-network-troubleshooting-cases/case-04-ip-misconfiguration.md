@@ -1,7 +1,7 @@
 # Case 04 – IP Misconfiguration
 
 ## Problem
-A user reports that their computer cannot access the network or the internet.
+A simulated user reports that their computer cannot access the network or the internet.
 
 ## Environment
 - Windows 10 / Windows 11
@@ -30,8 +30,14 @@ A user reports that their computer cannot access the network or the internet.
    - Missing or incorrect default gateway
 
 5. Tested connectivity:
-   ping 8.8.8.8
-   ping google.com
+
+```text
+ipconfig
+ping 8.8.8.8
+ping google.com
+ipconfig /release
+ipconfig /renew
+```
 
 → Both tests failed
 
