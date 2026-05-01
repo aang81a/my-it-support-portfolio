@@ -3,10 +3,18 @@
 ## Problem
 A user reports that their computer has no network or internet access.
 
-## Environment
+## Environment (old note)
 - Windows 10 / Windows 11
 - Local network (LAN or Wi-Fi)
 - DHCP-enabled network
+
+## Environment
+
+- Device: HP All-in-One
+- Operating system: Windows 10
+- Network adapter: Wi-Fi
+- Test network: Redmi 13 mobile hotspot
+- IP configuration: IPv4
 
 ## Symptoms
 - No internet connection
