@@ -12,7 +12,15 @@
 - 🔧 [Hardware Upgrade – RAM Installation](02-installation.md)  
   Step-by-step RAM installation with verification and documentation
 
+## Project Structure
 
+- 📄 [Analysis – RAM Upgrade](01-analysis.md)  
+  Evaluation of the existing RAM configuration, compatibility requirements, and upgrade option
+
+- 🔧 [Installation – RAM Upgrade](02-installation.md)  
+  Step-by-step RAM installation with verification and documentation
+
+  
 ## Summary
 - RAM upgraded from 8GB to 16GB
 - Dual-channel configuration enabled
