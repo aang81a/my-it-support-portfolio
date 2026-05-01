@@ -2,6 +2,8 @@
 
 ## Problem
 A user reports that their computer has no network or internet access.
+The test was performed on the Wi-Fi adapter while connected to a mobile hotspot.  
+A wrong static IPv4 configuration was applied to simulate an IP misconfiguration issue.
 
 ## Environment (old note)
 - Windows 10 / Windows 11
