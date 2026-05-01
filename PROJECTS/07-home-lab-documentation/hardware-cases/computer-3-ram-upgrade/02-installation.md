@@ -94,7 +94,7 @@ The RAM area was located on the motherboard. One RAM slot was already populated 
 
 <img src="images/17-windows-about-16gb-ram.jpg" alt="Windows About page showing 16GB installed RAM after upgrade" width="500">
 
-<img src="images/18-task-manager-memory-16gb.jpg" alt="Task Manager Memory tab showing 16GB RAM, 2666 MHz speed, and 2 of 2 slots used" width="500">
+<img src="images/18-task-manager-memory-16gb.jpg" alt="Task Manager Memory tab showing 16GB RAM, 2666 MHz speed, and 2 of 2 slots used" width="700">
 
 ## Result
 
