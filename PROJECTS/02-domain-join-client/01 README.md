@@ -40,4 +40,5 @@ Screenshots will be added...
 
 ## Notes
 
+Related knowledge base article: [How to join a PC to a domain](../06-knowledge-base-articles/how-to-join-a-pc-to-a-domain.md)
 
