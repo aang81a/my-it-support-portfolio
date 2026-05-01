@@ -1,4 +1,4 @@
-# Hardware Upgrade – RAM Installation
+# Installation – RAM Upgrade
 
 ## Overview
 
