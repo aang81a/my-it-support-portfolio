@@ -6,11 +6,11 @@
 
 
 ## Project Structure
-- 📄 [RAM Upgrade Analysis](01-analysis.md)  
+- 📄 [RAM Upgrade – Analysis](01-analysis.md)  
   Evaluation of the existing RAM configuration, compatibility requirements, and upgrade option
 
-- 🔧 [RAM Installation](02-installation.md)  
-  Step-by-step hardware upgrade with verification and documentation
+- 🔧 [Hardware Upgrade – RAM Installation](02-installation.md)  
+  Step-by-step RAM installation with verification and documentation
 
 
 ## Summary
