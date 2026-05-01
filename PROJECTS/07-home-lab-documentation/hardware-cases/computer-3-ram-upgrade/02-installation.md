@@ -6,9 +6,12 @@ This document describes the installation of an additional RAM module in an HP Al
 
 ## Initial Situation
 
-- Device: HP All-in-One
-- Existing RAM: 8GB DDR4 SO-DIMM (Samsung)
+- Device: HP Pavilion All-in-One 27-xa0xxx
+- Existing RAM before upgrade: 8GB Samsung DDR4 SO-DIMM
 - One free RAM slot available
+- Additional upgrade module selected: 8GB Samsung DDR4 SO-DIMM, 2666 MHz
+
+<img src="images/09-8gb-old-ram.jpg" alt="Existing 8GB Samsung DDR4 SO-DIMM RAM module before upgrade" width="500">
 
 ## Objective
 
@@ -83,11 +86,15 @@ The RAM area was located on the motherboard. One RAM slot was already populated 
 ## Verification
 
 - Booted system successfully
-- Checked system memory in Windows
+- Checked memory in Task Manager
 - Confirmed total RAM: **16GB**
+- Confirmed RAM speed: **2666 MHz**
+- Confirmed both RAM slots were used: **2 of 2**
 - Verified system stability
 
-<img src="images/14-system-information-16gb-ram.png" alt="Windows System Information showing 16GB installed RAM" width="500">
+<img src="images/17-windows-about-16gb-ram.jpg" alt="Windows About page showing 16GB installed RAM after upgrade" width="500">
+
+<img src="images/18-task-manager-memory-16gb.jpg" alt="Task Manager Memory tab showing 16GB RAM, 2666 MHz speed, and 2 of 2 slots used" width="500">
 
 ## Result
 
