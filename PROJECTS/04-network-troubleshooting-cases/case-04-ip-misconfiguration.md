@@ -1,4 +1,40 @@
-# Case 04 – IP Misconfiguration
+# Case 04 – IP Misconfiguration Across Multiple Devices
+
+## Overview
+
+## Environment
+
+## Devices Tested
+
+## Baseline Network State
+
+## Simulated Misconfiguration
+
+## Symptoms After Misconfiguration
+
+## Diagnostic Commands Used
+
+## Root Cause
+
+## Fix Applied
+
+## DHCP Results After Fix
+
+## Comparison: Home Wi-Fi vs Mobile Hotspot vs Ethernet
+
+## Result
+
+## Lessons Learned
+
+## Skills Demonstrated
+
+## Screenshots
+
+-------------
+------------
+
+
+# Case 04 – IP Misconfiguration - OLD
 
 ## Problem
 A simulated user reports that their computer cannot access the network or the internet.
