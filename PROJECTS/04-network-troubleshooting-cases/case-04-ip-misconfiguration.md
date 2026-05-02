@@ -48,6 +48,12 @@ Step 4: DHCP restored
 
 ## DHCP Results After Fix
 
+| Device / Network Context | IPv4 Address | Subnet Mask | Default Gateway | Interpretation |
+|---|---:|---:|---:|---|
+| PC3 – Mobile Hotspot | 10.235.249.154 | 255.255.255.0 | 10.235.249.153 | DHCP assigned a private mobile hotspot network range |
+| PC3 – Home Wi-Fi | 192.168.1.25 | 255.255.255.0 | 192.168.1.1 | DHCP assigned the normal home router network range |
+| PC2 – Ethernet | 192.168.1.110 | 255.255.255.0 | 192.168.1.1 | DHCP assigned an address in the same home LAN range |
+
 ## Comparison: Home Wi-Fi vs Mobile Hotspot vs Ethernet
 
 ## Result
