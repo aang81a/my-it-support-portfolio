@@ -1,3 +1,23 @@
+Step 1: Baseline check
+- PC3 home Wi-Fi
+- PC3 mobile hotspot
+- PC2 Ethernet
+
+Step 2: Wrong static IP configured
+- PC3 home Wi-Fi
+- PC3 mobile hotspot
+- PC2 Ethernet
+
+Step 3: Failed connectivity tests
+- PC3 home Wi-Fi
+- PC3 mobile hotspot
+- PC2 Ethernet
+
+Step 4: DHCP restored
+- PC3 home Wi-Fi
+- PC3 mobile hotspot
+- PC2 Ethernet
+
 # Case 04 – IP Misconfiguration Across Multiple Devices
 
 ## Overview
@@ -5,6 +25,14 @@
 ## Environment
 
 ## Devices Tested
+
+## Devices Tested
+
+| Device / Network Context | Adapter Type | Network State | Purpose in Case |
+|---|---|---|---|
+| PC3 – HP All-in-One / Home Wi-Fi | Wi-Fi adapter | Connected to home router | Main IP misconfiguration test |
+| PC3 – HP All-in-One / Mobile Hotspot | Wi-Fi adapter | Connected to phone hotspot | DHCP comparison with different IP range |
+| PC2 – Desktop / Ethernet | Ethernet adapter | Cable unplugged, later connected | Comparison with wired adapter behaviour |
 
 ## Baseline Network State
 
