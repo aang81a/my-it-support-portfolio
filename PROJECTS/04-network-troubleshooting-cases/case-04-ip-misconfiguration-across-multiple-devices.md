@@ -183,8 +183,6 @@ ipconfig /release
 ipconfig /renew
 ```
 
-These commands are useful because they force the adapter to release the old IP lease and request fresh network settings from DHCP.
-
 ### PC3 – Home Wi-Fi
 
 ![PC3 home Wi-Fi DHCP release](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-06-release-after-dhcp.png)
