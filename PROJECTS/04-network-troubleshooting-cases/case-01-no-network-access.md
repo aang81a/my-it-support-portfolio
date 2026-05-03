@@ -7,7 +7,7 @@ A wrong static IPv4 configuration was applied to simulate an IP misconfiguration
 
 ## Environment (old note)
 - Windows 10 / Windows 11
-- Local network (LAN or Wi-Fi
+- Local network (LAN or Wi-Fi)
 - DHCP-enabled network
 
 ## Environment
