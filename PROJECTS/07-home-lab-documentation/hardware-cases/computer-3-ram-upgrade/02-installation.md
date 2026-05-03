@@ -4,6 +4,8 @@
 
 This document describes the installation of an additional RAM module in an HP All-in-One system.
 
+---
+
 ## Initial Situation
 
 - Device: HP Pavilion All-in-One 27-xa0xxx
@@ -13,11 +15,15 @@ This document describes the installation of an additional RAM module in an HP Al
 
 <img src="images/09-8gb-old-ram.jpg" alt="Existing 8GB Samsung DDR4 SO-DIMM RAM module before upgrade" width="500">
 
+---
+
 ## Objective
 
 - Increase system memory from 8GB to 16GB
 - Improve system performance
 - Enable dual-channel memory configuration
+
+---
 
 ## Preparation
 
@@ -27,21 +33,26 @@ This document describes the installation of an additional RAM module in an HP Al
 - Opened device carefully
 - Located RAM slots on motherboard
 
+---
+
 ## Device Disassembly
 
 ### Initial Setup
 
 <img src="images/01-device-overview.jpg" alt="HP All-in-One system before RAM upgrade" width="500">
 
+
 ### Removing Screws
 
 <img src="images/02-screws-removed.jpg" alt="Screws removed from HP All-in-One back cover" width="500">
+
 
 ### Opening the Device
 
 <img src="images/03-device-begin-to-open.jpg" alt="Beginning to open the HP All-in-One back cover" width="500">
 
 <img src="images/04-device-opened.jpg" alt="HP All-in-One opened with internal components visible" width="500">
+
 
 ### Screw and Cover Location Reference
 
@@ -51,17 +62,22 @@ This document describes the installation of an additional RAM module in an HP Al
 
 <img src="images/05-screw-location-marked03.jpg" alt="Additional screw and cover position reference" width="500">
 
+
 ### Internal Access
 
 <img src="images/06-device-opened-half.jpg" alt="HP All-in-One partially opened during RAM access" width="500">
 
 <img src="images/07-device-opened-full.jpg" alt="HP All-in-One fully opened with RAM slots visible" width="500">
 
+---
+
 ## RAM Slot Identification
 
 The RAM area was located on the motherboard. One RAM slot was already populated with an 8GB Samsung DDR4 SO-DIMM module, and one additional slot was available for the upgrade.
 
 <img src="images/10-8gb-samsung-was-installed.jpg" alt="Existing 8GB Samsung RAM installed in HP All-in-One" width="500">
+
+---
 
 ## Hardware Installation Steps
 
@@ -73,15 +89,19 @@ The RAM area was located on the motherboard. One RAM slot was already populated 
 6. Pressed the RAM module down until the retaining clips locked
 7. Reassembled the device
 
+
 ### RAM Installation Angle
 
 <img src="images/11-8gb-new-ram-30degree.jpg" alt="New 8GB RAM module inserted at approximately 30-degree angle" width="500">
 
 > Note: The RAM module must be inserted at approximately a 30-degree angle and then pressed down until the retaining clips lock automatically.
 
+
 ### New RAM Installed
 
 <img src="images/12-8gb-new-ram-installed.jpg" alt="New 8GB RAM module installed next to existing RAM module" width="500">
+
+---
 
 ## Verification
 
@@ -96,12 +116,16 @@ The RAM area was located on the motherboard. One RAM slot was already populated 
 
 <img src="images/18-task-manager-memory-16gb.jpg" alt="Task Manager Memory tab showing 16GB RAM, 2666 MHz speed, and 2 of 2 slots used" width="900">
 
-## Result
+---
+
+## Verification Summary
 
 - Upgrade successful
 - RAM upgraded from 8GB to 16GB
 - Dual-channel configuration enabled
 - System running stable
+
+---
 
 ## Skills Demonstrated
 
