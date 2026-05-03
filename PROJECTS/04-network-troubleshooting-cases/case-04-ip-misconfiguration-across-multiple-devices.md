@@ -176,7 +176,7 @@ The adapter was changed back to:
 
 ## Step 6: DHCP Release and Renew
 
-After restoring automatic settings, the following commands were used:
+After restoring automatic IP and DNS settings, the adapter needed to request fresh DHCP settings. The following commands were used to release the old IP lease and renew the network configuration:
 
 ```text
 ipconfig /release
