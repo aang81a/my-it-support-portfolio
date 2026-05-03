@@ -282,27 +282,16 @@ After restoring DHCP, the devices received valid IP configurations and connectiv
 
 The comparison shows that the network range can change depending on the connection type, but the troubleshooting logic remains the same.
 
+---
 
-## Result
+## Verification Summary
 
 - The wrong static IP configuration was identified.
 - The failed gateway, external IP, and DNS tests confirmed the connectivity problem.
 - DHCP was restored.
 - Valid IP settings were assigned again.
 - Ping tests succeeded.
-- Browser access was confirmed on PC2 Ethernet.
-
----
-
-## Lessons Learned
-
-- A device can appear connected but still fail because of incorrect IPv4 settings.
-- A wrong default gateway prevents the device from reaching other networks.
-- `ipconfig` is useful for checking IP address, subnet mask, and default gateway.
-- `ping 8.8.8.8` tests external IP connectivity.
-- `ping google.com` tests DNS/name resolution.
-- DHCP reduces manual configuration errors.
-- Comparing multiple devices makes it easier to understand network behaviour across Wi-Fi, mobile hotspot, and Ethernet.
+- Browser access was confirmed also on PC2 Ethernet.
 
 ---
 
@@ -323,3 +312,15 @@ The comparison shows that the network range can change depending on the connecti
 - Mobile hotspot vs home network comparison
 - Troubleshooting documentation
 - Root cause identification
+
+---
+
+## Notes
+
+- A device can appear connected but still fail because of incorrect IPv4 settings.
+- A wrong default gateway prevents the device from reaching other networks.
+- `ipconfig` is useful for checking IP address, subnet mask, and default gateway.
+- `ping 8.8.8.8` tests external IP connectivity.
+- `ping google.com` tests DNS/name resolution.
+- DHCP reduces manual configuration errors.
+- Comparing multiple devices makes it easier to understand network behaviour across Wi-Fi, mobile hotspot, and Ethernet.
