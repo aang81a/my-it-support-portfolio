@@ -43,7 +43,7 @@ This makes the case useful not only as a troubleshooting example, but also as a 
 
 A wrong static IPv4 configuration was entered manually.
 
-The simulated incorrect configuration used:
+The simulated incorrect static IPv4 configuration used:
 
 | Setting | Value |
 |---|---|
@@ -53,7 +53,7 @@ The simulated incorrect configuration used:
 | Preferred DNS server | 8.8.8.8 |
 | Alternative DNS server | 1.1.1.1 |
 
-This configuration caused internet connectivity to fail because the IP address and gateway did not match the active network.
+The manually configured IP address and gateway did not match the active network. Because of this, the computer could not communicate correctly with the network gateway or the internet.
 
 ---
 
@@ -251,36 +251,6 @@ This provides a user-facing confirmation that the internet connection was restor
 
 ---
 
-## DHCP Results After Fix
-
-| Device / Network Context | IPv4 Address | Subnet Mask | Default Gateway | Interpretation |
-|---|---:|---:|---:|---|
-| PC3 – Mobile Hotspot | 10.235.249.154 | 255.255.255.0 | 10.235.249.153 | DHCP assigned a private mobile hotspot network range |
-| PC3 – Home Wi-Fi | 192.168.1.25 | 255.255.255.0 | 192.168.1.1 | DHCP assigned the normal home router network range |
-| PC2 – Ethernet | 192.168.1.110 | 255.255.255.0 | 192.168.1.1 | DHCP assigned an address in the same home LAN range |
-
----
-
-## Comparison: Home Wi-Fi vs Mobile Hotspot vs Ethernet
-
-| Context | What was different | What stayed the same |
-|---|---|---|
-| PC3 – Mobile Hotspot | Different private IP range: `10.235.249.x` | Same troubleshooting method |
-| PC3 – Home Wi-Fi | Home LAN range: `192.168.1.x` | Same DHCP restore process |
-| PC2 – Ethernet | Wired adapter instead of Wi-Fi | Same static IP misconfiguration symptoms |
-
-The comparison shows that the network range can change depending on the connection type, but the troubleshooting logic remains the same.
-
----
-
-## Root Cause
-
-The issue was caused by an incorrect static IPv4 configuration.
-
-The manually configured IP address and gateway did not match the active network. Because of this, the computer could not communicate correctly with the network gateway or the internet.
-
----
-
 ## Fix Applied
 
 The IPv4 configuration was restored to automatic settings:
@@ -291,6 +261,27 @@ The IPv4 configuration was restored to automatic settings:
 After restoring DHCP, the devices received valid IP configurations and connectivity was restored.
 
 ---
+
+## DHCP Results After Fix
+
+| Device / Network Context | IPv4 Address | Subnet Mask | Default Gateway | Interpretation |
+|---|---:|---:|---:|---|
+| PC3 – Home Wi-Fi | 192.168.1.25 | 255.255.255.0 | 192.168.1.1 | DHCP assigned the normal home router network range |
+| PC3 – Mobile Hotspot | 10.235.249.154 | 255.255.255.0 | 10.235.249.153 | DHCP assigned a private mobile hotspot network range |
+| PC2 – Ethernet | 192.168.1.110 | 255.255.255.0 | 192.168.1.1 | DHCP assigned an address in the same home LAN range |
+
+---
+
+## Comparison: Home Wi-Fi vs Mobile Hotspot vs Ethernet
+
+| Context | What was different | What stayed the same |
+|---|---|---|
+| PC3 – Home Wi-Fi | Home LAN range: `192.168.1.x` | Same DHCP restore process |
+| PC3 – Mobile Hotspot | Different private IP range: `10.235.249.x` | Same troubleshooting method |
+| PC2 – Ethernet | Wired adapter instead of Wi-Fi | Same static IP misconfiguration symptoms |
+
+The comparison shows that the network range can change depending on the connection type, but the troubleshooting logic remains the same.
+
 
 ## Result
 
