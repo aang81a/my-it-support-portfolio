@@ -128,10 +128,11 @@ ping google.com
 
 The tests helped separate the problem into three areas:
 
-Test	Purpose
-ping 192.168.99.1	Tests the configured gateway
-ping 8.8.8.8	Tests external IP connectivity
-ping google.com	Tests DNS/name resolution
+| Test                | Purpose                        |
+| ------------------- | ------------------------------ |
+| `ping 192.168.99.1` | Tests the configured gateway   |
+| `ping 8.8.8.8`      | Tests external IP connectivity |
+| `ping google.com`   | Tests DNS/name resolution      |
 
 Because the static configuration was wrong, the connectivity tests failed.
 
