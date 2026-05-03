@@ -69,9 +69,8 @@ This document describes the installation of an additional RAM module in an HP Al
 
 <img src="images/07-device-opened-full.jpg" alt="HP All-in-One fully opened with RAM slots visible" width="500">
 
----
 
-## RAM Slot Identification
+### RAM Slot Identification
 
 The RAM area was located on the motherboard. One RAM slot was already populated with an 8GB Samsung DDR4 SO-DIMM module, and one additional slot was available for the upgrade.
 
