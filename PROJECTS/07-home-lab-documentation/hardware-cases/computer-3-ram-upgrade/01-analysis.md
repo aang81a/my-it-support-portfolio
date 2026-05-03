@@ -4,11 +4,15 @@
 
 This document analyzes different RAM upgrade options for an HP All-in-One system.
 
+---
+
 ## Initial Situation
 
 - Device: HP All-in-One
 - Installed RAM: 8GB DDR4 SO-DIMM (Samsung)
 - One free RAM slot available
+
+---
 
 ## Hardware Components
 
@@ -26,6 +30,8 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 
 <img src="images/08-8gb-new-ram.jpg" alt="New 8GB Samsung DDR4 SO-DIMM RAM module" width="500">
 
+---
+
 ## Upgrade Options
 
 ### Option 1: 8GB + 4GB (12GB total)
@@ -37,7 +43,6 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 - The 4GB module did not appear to match the same physical RAM module format as the installed 8GB SO-DIMM.
 - Because the form factor looked different, it was not treated as a suitable upgrade option.
 - Using a non-matching RAM module could cause installation or compatibility issues.
-
 
 ### Option 2: 8GB + 8GB (16GB total)
 
@@ -53,6 +58,8 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 
 - Requires additional RAM purchase
 
+---
+
 ## Decision
 
 Selected configuration: **Option 2 — 16GB total RAM (8GB + 8GB)**
@@ -67,9 +74,13 @@ Reason:
 - This was the safer and more suitable upgrade option than using the available 4GB module with a different-looking form factor
 - The 16GB configuration was the better long-term upgrade strategy
 
+---
+
 ## Final Installation
 
 <img src="images/12-8gb-new-ram-installed.jpg" alt="New 8GB RAM module installed next to existing 8GB RAM module" width="500">
+
+---
 
 ## Conclusion
 
