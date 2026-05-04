@@ -29,7 +29,33 @@ Variables:
 - Network adapter IPv4 settings
 or Windows Network Connections / IPv4 adapter settings
 
----
+Tools and settings used:
+
+- Windows Network Connections
+- IPv4 adapter settings
+- Command Prompt
+- DHCP-enabled home router network
+- DHCP-enabled mobile hotspot network
+
+## Test Environment and Devices
+
+This case was tested on two Windows 10 computers across three network contexts.
+
+| Device / Network Context | Adapter Type | Network State | Purpose in Case |
+|---|---|---|---|
+| PC3 – HP All-in-One / Home Wi-Fi | Wi-Fi adapter | Connected to home router | Main IP misconfiguration test |
+| PC3 – HP All-in-One / Mobile Hotspot | Wi-Fi adapter | Connected to phone hotspot | DHCP comparison with different IP range |
+| PC2 – Desktop / Ethernet | Ethernet adapter | Connected by cable | Comparison with wired adapter behaviour |
+
+Tools and settings used:
+
+- Windows Network Connections
+- IPv4 adapter settings
+- Command Prompt
+- DHCP-enabled home router network
+- DHCP-enabled mobile hotspot network
+
+
 
 ## Devices Tested
 
@@ -38,6 +64,16 @@ or Windows Network Connections / IPv4 adapter settings
 | PC3 – HP All-in-One / Home Wi-Fi | Wi-Fi adapter | Connected to home router | Main IP misconfiguration test |
 | PC3 – HP All-in-One / Mobile Hotspot | Wi-Fi adapter | Connected to phone hotspot | DHCP comparison with different IP range |
 | PC2 – Desktop / Ethernet | Ethernet adapter | Connected by cable | Comparison with wired adapter behaviour |
+
+
+This case was tested on two Windows 10 computers across three network contexts.
+
+| Device / Network Context | Adapter Type | Network State | Purpose in Case |
+|---|---|---|---|
+| PC3 – HP All-in-One / Home Wi-Fi | Wi-Fi adapter | Connected to home router | Main IP misconfiguration test |
+| PC3 – HP All-in-One / Mobile Hotspot | Wi-Fi adapter | Connected to phone hotspot | DHCP comparison with different IP range |
+| PC2 – Desktop / Ethernet | Ethernet adapter | Connected by cable | Comparison with wired adapter behaviour |
+
 
 ---
 
