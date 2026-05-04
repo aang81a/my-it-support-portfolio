@@ -10,8 +10,7 @@ The case also compares how the same troubleshooting process behaves across diffe
 
 The same troubleshooting process was tested on:
 
-- PC3 – HP All-in-One / Home Wi-Fi
-- PC3 – HP All-in-One / Mobile Hotspot
+- PC3 – HP All-in-One
 - PC2 – Desktop / Ethernet
 
 ---
@@ -23,9 +22,11 @@ The same troubleshooting process was tested on:
 - Ethernet adapter
 - Home router network
 - Mobile hotspot network
-- DHCP-enabled networks
+- DHCP-enabled home router network
+- DHCP-enabled mobile hotspot network
 - Command Prompt
 - Network adapter IPv4 settings
+or Windows Network Connections / IPv4 adapter settings
 
 ---
 
