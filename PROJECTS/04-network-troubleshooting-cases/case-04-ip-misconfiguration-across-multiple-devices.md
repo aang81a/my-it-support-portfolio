@@ -110,7 +110,7 @@ The output confirmed that the device no longer had a valid working configuration
 
 ## Step 4: Failed Connectivity Tests
 
-To verify the impact of the invalid configuration, connectivity was tested in three layers: gateway access, external IP access, and DNS/name resolution.
+To verify the impact of the invalid configuration, connectivity was tested in three layers.
 
 The following tests were used:
 
@@ -229,15 +229,13 @@ After the network configuration was restored, the connection was tested again an
 
 ## Step 9: Browser Access Restored
 
-After command-line tests confirmed restored connectivity, a browser check was used as a final user-facing verification that internet access was working again.
-
+After command-line tests confirmed restored external IP connectivity and DNS resolution, a browser check was used as a final user-facing verification that internet access was working again.
 
 ![PC2 Ethernet browser internet restored](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-10-browser-internet-restored.png)
 
-
 ---
 
-## Fix Applied
+## Solution Applied
 
 The IPv4 configuration was restored to automatic settings:
 
@@ -248,7 +246,7 @@ After restoring DHCP, the devices received valid IP configurations and connectiv
 
 ---
 
-## DHCP Results After Fix
+## DHCP Results After Solution
 
 | Device / Network Context | IPv4 Address | Subnet Mask | Default Gateway | Interpretation |
 |---|---:|---:|---:|---|
@@ -287,7 +285,6 @@ The comparison shows that the network range can change depending on the connecti
 - IPv4 troubleshooting
 - DHCP restore
 - Command Prompt diagnostics
-
 - Checking IP configuration with `ipconfig`
 - Verifying connectivity with command-line tests:
   - Testing the configured gateway with `ping 192.168.99.1`
