@@ -110,6 +110,8 @@ The output confirmed that the device no longer had a valid working configuration
 
 ## Step 4: Failed Connectivity Tests
 
+After the wrong static IPv4 and DNS configuration was applied, connectivity was tested from basic network reachability to name resolution. This helped show where the connection failed: gateway access, external IP access, or DNS resolution.
+
 The following tests were used:
 
 ```text
