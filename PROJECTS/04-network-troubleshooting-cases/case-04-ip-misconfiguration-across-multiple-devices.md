@@ -10,33 +10,6 @@ The case also compares how the same troubleshooting process behaves across diffe
 
 ---
 
-## Environment
-
-The same troubleshooting process was tested on:
-
-- PC3 – HP All-in-One
-- PC2 – Desktop
-
-Variables:
-- Windows 10
-- Wi-Fi adapter
-- Ethernet adapter
-- Home router network
-- Mobile hotspot network
-- DHCP-enabled home router network
-- DHCP-enabled mobile hotspot network
-- Command Prompt - is this an Environment thing?
-- Network adapter IPv4 settings
-or Windows Network Connections / IPv4 adapter settings
-
-Tools and settings used:
-
-- Windows Network Connections
-- IPv4 adapter settings
-- Command Prompt
-- DHCP-enabled home router network
-- DHCP-enabled mobile hotspot network
-
 ## Test Environment and Devices
 
 This case was tested on two Windows 10 computers across three network contexts.
@@ -49,31 +22,12 @@ This case was tested on two Windows 10 computers across three network contexts.
 
 Tools and settings used:
 
-- Windows Network Connections
 - IPv4 adapter settings
-- Command Prompt
+  or Network adapter IPv4 settings
 - DHCP-enabled home router network
 - DHCP-enabled mobile hotspot network
-
-
-
-## Devices Tested
-
-| Device / Network Context | Adapter Type | Network State | Purpose in Case |
-|---|---|---|---|
-| PC3 – HP All-in-One / Home Wi-Fi | Wi-Fi adapter | Connected to home router | Main IP misconfiguration test |
-| PC3 – HP All-in-One / Mobile Hotspot | Wi-Fi adapter | Connected to phone hotspot | DHCP comparison with different IP range |
-| PC2 – Desktop / Ethernet | Ethernet adapter | Connected by cable | Comparison with wired adapter behaviour |
-
-
-This case was tested on two Windows 10 computers across three network contexts.
-
-| Device / Network Context | Adapter Type | Network State | Purpose in Case |
-|---|---|---|---|
-| PC3 – HP All-in-One / Home Wi-Fi | Wi-Fi adapter | Connected to home router | Main IP misconfiguration test |
-| PC3 – HP All-in-One / Mobile Hotspot | Wi-Fi adapter | Connected to phone hotspot | DHCP comparison with different IP range |
-| PC2 – Desktop / Ethernet | Ethernet adapter | Connected by cable | Comparison with wired adapter behaviour |
-
+- Windows Network Connections
+- Command Prompt
 
 ---
 
