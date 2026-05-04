@@ -30,6 +30,8 @@ Tools and settings used:
 
 DHCP (Dynamic Host Configuration Protocol) was used to dynamically assign valid network settings, which resolved the simulated static IPv4 misconfiguration.
 
+wrong static IPv4 → restore DHCP → valid network settings assigned → connectivity restored
+
 ---
 
 ## Problem Simulated
