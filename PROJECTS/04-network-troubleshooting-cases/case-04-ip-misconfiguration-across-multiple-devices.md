@@ -110,17 +110,9 @@ The output confirmed that the device no longer had a valid working configuration
 
 ## Step 4: Failed Connectivity Tests
 
-After the wrong static IPv4 and DNS configuration was applied, connectivity was tested from basic network reachability to name resolution. This helped show where the connection failed: gateway access, external IP access, or DNS resolution.
+To verify the impact of the invalid configuration, connectivity was tested in three layers: gateway access, external IP access, and DNS/name resolution.
 
 The following tests were used:
-
-```text
-ping 192.168.99.1
-ping 8.8.8.8
-ping google.com
-```
-
-The tests helped separate the problem into three areas:
 
 | Test | Purpose |
 |---|---|
@@ -128,7 +120,7 @@ The tests helped separate the problem into three areas:
 | `ping 8.8.8.8` | Tests external IP connectivity |
 | `ping google.com` | Tests DNS/name resolution |
 
-Because the static configuration was wrong, the connectivity tests failed.
+The failed results confirmed that the incorrect static configuration prevented normal network communication.
 
 ### PC3 – Home Wi-Fi
 
