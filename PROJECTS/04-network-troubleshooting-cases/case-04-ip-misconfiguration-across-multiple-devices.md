@@ -23,7 +23,7 @@ This case was tested on two Windows 10 computers across three network contexts.
 Tools and settings used:
 
 - Network adapter IPv4 settings
-- DHCP-enabled home router network
+- Dynamic Host Configuration Protocol-enabled home router network
 - DHCP-enabled mobile hotspot network
 - Windows Network Connections (`ncpa.cpl`)
 - Command Prompt (`cmd`)
