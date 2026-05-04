@@ -28,7 +28,7 @@ Tools and settings used:
 - Windows Network Connections (`ncpa.cpl`)
 - Command Prompt (`cmd`)
 
-In this case, DHCP (Dynamic Host Configuration Protocol) was used for automatic network configuration after the incorrect static IPv4 settings were replaced with automatic settings.
+DHCP (Dynamic Host Configuration Protocol) was used to dynamically assign valid network settings, which resolved the simulated static IPv4 misconfiguration.
 
 ---
 
