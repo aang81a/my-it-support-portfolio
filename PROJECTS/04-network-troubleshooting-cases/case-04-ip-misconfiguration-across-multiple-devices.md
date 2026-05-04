@@ -16,7 +16,7 @@ The same troubleshooting process was tested on:
 
 - PC3 – HP All-in-One
 - PC2 – Desktop 
-
+ Variables:
 - Windows 10
 - Wi-Fi adapter
 - Ethernet adapter
@@ -24,7 +24,7 @@ The same troubleshooting process was tested on:
 - Mobile hotspot network
 - DHCP-enabled home router network
 - DHCP-enabled mobile hotspot network
-- Command Prompt
+- Command Prompt - is this an Environment thing?
 - Network adapter IPv4 settings
 or Windows Network Connections / IPv4 adapter settings
 
