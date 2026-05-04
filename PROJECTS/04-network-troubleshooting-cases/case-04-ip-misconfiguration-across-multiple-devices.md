@@ -264,18 +264,18 @@ After restoring DHCP, the devices received valid IP configurations and connectiv
 | PC3 – Mobile Hotspot | Different private IP range: `10.235.249.x` | Same troubleshooting method |
 | PC2 – Ethernet | Wired adapter instead of Wi-Fi | Same static IP misconfiguration symptoms |
 
-The comparison shows that the network range can change depending on the connection type, but the troubleshooting logic remains the same.
+The comparison shows that the network range can change depending on the connection type, but the troubleshooting workflow remains the same: check configuration, test connectivity, restore DHCP, renew the lease, and verify connectivity.
 
 ---
 
 ## Verification Summary
 
-- The wrong static IP configuration was identified.
+- The wrong static IPv4 and DNS configuration was identified.
 - The failed gateway, external IP, and DNS tests confirmed the connectivity problem.
-- DHCP was restored.
-- Valid IP settings were assigned again.
+- DHCP/automatic IP and DNS configuration was restored.
+- Valid network settings were assigned again.
 - Ping tests succeeded.
-- Browser access was confirmed.
+- Browser connectivity was confirmed.
 
 ---
 
