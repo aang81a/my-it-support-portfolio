@@ -22,8 +22,7 @@ This case was tested on two Windows 10 computers across three network contexts.
 
 Tools and settings used:
 
-- IPv4 adapter settings
-  or Network adapter IPv4 settings
+- Network adapter IPv4 settings
 - DHCP-enabled home router network
 - DHCP-enabled mobile hotspot network
 - Windows Network Connections
