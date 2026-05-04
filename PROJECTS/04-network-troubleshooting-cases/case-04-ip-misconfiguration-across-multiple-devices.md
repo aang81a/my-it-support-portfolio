@@ -8,14 +8,14 @@ The purpose of the case was to reproduce a common first-level IT support issue: 
 
 The case also compares how the same troubleshooting process behaves across different connection types: home Wi-Fi, mobile hotspot, and Ethernet. This comparison helps show that DHCP can assign different valid network ranges depending on the network, while the troubleshooting logic remains the same.
 
-The same troubleshooting process was tested on:
-
-- PC3 – HP All-in-One
-- PC2 – Desktop / Ethernet
-
 ---
 
 ## Environment
+
+The same troubleshooting process was tested on:
+
+- PC3 – HP All-in-One
+- PC2 – Desktop 
 
 - Windows 10
 - Wi-Fi adapter
