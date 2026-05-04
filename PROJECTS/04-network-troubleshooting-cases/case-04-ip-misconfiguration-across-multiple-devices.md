@@ -205,7 +205,7 @@ ipconfig /renew
 
 ## Step 7: IP Configuration After DHCP Restore
 
-After DHCP was restored, each device received a valid IP configuration again.
+After DHCP was restored, each device received valid network settings again, including an IPv4 address, subnet mask, default gateway, and DNS configuration.
 
 ### PC3 – Home Wi-Fi
 
@@ -223,7 +223,7 @@ After DHCP was restored, each device received a valid IP configuration again.
 
 ## Step 8: Successful Connectivity Tests
 
-After DHCP was restored, external IP and DNS tests succeeded.
+After the network configuration was restored, the connection was tested again and the results confirmed that external IP access and DNS resolution were working.
 
 ### PC3 – Home Wi-Fi
 
