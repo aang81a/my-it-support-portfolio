@@ -289,7 +289,7 @@ The comparison shows that the network range can change depending on the connecti
 - DHCP was restored.
 - Valid IP settings were assigned again.
 - Ping tests succeeded.
-- Browser access was confirmed also on PC2 Ethernet.
+- Browser access was confirmed.
 
 ---
 
@@ -299,17 +299,17 @@ The comparison shows that the network range can change depending on the connecti
 - IPv4 troubleshooting
 - DHCP restore
 - Command Prompt diagnostics
-- `ipconfig`
-- `ipconfig /release`
-- `ipconfig /renew`
-- `ping`
-- Gateway testing
-- External IP testing
-- DNS testing
-- Ethernet vs Wi-Fi comparison
-- Mobile hotspot vs home network comparison
-- Troubleshooting documentation
-- Root cause identification
+
+- Checking IP configuration with `ipconfig`
+- Verifying connectivity with command-line tests:
+  - Testing the configured gateway with `ping 192.168.99.1`
+  - Testing external IP connectivity with `ping 8.8.8.8`
+  - Testing DNS/name resolution with `ping google.com`
+- Releasing the old IP lease with `ipconfig /release`
+- Renewing the network configuration with `ipconfig /renew`
+- Verifying restored connectivity with command-line tests
+- Comparing Ethernet, home Wi-Fi, and mobile hotspot behaviour
+- Documenting a structured network troubleshooting workflow
 
 ---
 
