@@ -6,13 +6,13 @@ This case documents a simulated IPv4 misconfiguration across multiple Windows de
 
 The purpose of the case was to reproduce a common first-level IT support issue: a device appears connected to a network, but internet access fails because the IPv4 configuration is incorrect.
 
+The case also compares how the same troubleshooting process behaves across different connection types: home Wi-Fi, mobile hotspot, and Ethernet. This comparison helps show that DHCP can assign different valid network ranges depending on the network, while the troubleshooting logic remains the same.
+
 The same troubleshooting process was tested on:
 
 - PC3 – HP All-in-One / Home Wi-Fi
 - PC3 – HP All-in-One / Mobile Hotspot
 - PC2 – Desktop / Ethernet
-
-This makes the case useful not only as a troubleshooting example, but also as a comparison of how DHCP assigns different IP addresses depending on the network.
 
 ---
 
