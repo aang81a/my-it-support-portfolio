@@ -70,7 +70,7 @@ The baseline state showed that IPv4 and DNS were configured automatically throug
 
 ## Step 2: Wrong Static IP Configured
 
-A wrong static IPv4 address was configured manually on each tested connection.
+A wrong static IPv4 and DNS configuration was entered manually on each tested connection.
 
 This created a controlled network fault for troubleshooting practice.
 
