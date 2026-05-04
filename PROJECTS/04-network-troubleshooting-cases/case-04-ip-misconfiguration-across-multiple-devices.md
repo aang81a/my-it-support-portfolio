@@ -307,7 +307,6 @@ The comparison shows that the network range can change depending on the connecti
   - Testing DNS/name resolution with `ping google.com`
 - Releasing the old IP lease with `ipconfig /release`
 - Renewing the network configuration with `ipconfig /renew`
-- Verifying restored connectivity with command-line tests
 - Comparing Ethernet, home Wi-Fi, and mobile hotspot behaviour
 - Documenting a structured network troubleshooting workflow
 
