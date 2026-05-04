@@ -144,9 +144,9 @@ Because the static configuration was wrong, the connectivity tests failed.
 
 ## Step 5: DHCP Restored
 
-DHCP (Dynamic Host Configuration Protocol) dynamically assigns valid network settings after the adapter is switched back from incorrect static IPv4 settings to automatic IPv4 and DNS configuration.
+DHCP (Dynamic Host Configuration Protocol) dynamically assigns valid network settings after the adapter is switched back from incorrect static settings to automatic IPv4 and DNS configuration.
 
-Wrong static IPv4 → switch adapter back to DHCP/automatic settings → valid network settings assigned → connectivity restored
+Wrong static IPv4 and DNS configuration → switch adapter back to DHCP/automatic settings → valid network settings assigned → connectivity restored
 
 The adapter was changed back to:
 
