@@ -1,3 +1,38 @@
+NOTE:
+
+Automatic Private IP Addressing.
+
+It is what Windows does when a computer is set to get an IP address automatically, but DHCP does not give it one.
+
+So Windows gives itself an emergency/local address like:
+
+169.254.x.x
+
+Example:
+
+IPv4 Address: 169.254.45.22
+Subnet Mask: 255.255.0.0
+Default Gateway: usually missing
+
+What it means in troubleshooting:
+
+APIPA = the device did not receive a valid IP address from DHCP
+
+Typical result:
+
+The device may show “connected”
+It cannot reach the router/default gateway
+It usually has no internet
+ipconfig shows 169.254.x.x
+
+So for your portfolio:
+
+Case 04 = wrong manual static IP configuration
+Case 01 = DHCP failed, Windows assigned APIPA 169.254.x.x
+
+That is why Case 01 should be different from Case 04.
+
+
 # Case 01 – No Network Access
 
 ## Problem
