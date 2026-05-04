@@ -241,11 +241,11 @@ After the network configuration was restored, the connection was tested again an
 
 ## Step 9: Browser Access Restored
 
-On PC2 Ethernet, browser access was also confirmed after restoring DHCP.
+After command-line tests confirmed restored connectivity, a browser check was used as a final user-facing verification that internet access was working again.
 
-This provides a user-facing confirmation that the internet connection was restored, not only command-line proof.
 
 ![PC2 Ethernet browser internet restored](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-10-browser-internet-restored.png)
+
 
 ---
 
