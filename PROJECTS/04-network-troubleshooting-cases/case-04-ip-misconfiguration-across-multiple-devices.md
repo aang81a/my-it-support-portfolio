@@ -39,14 +39,6 @@ or Windows Network Connections / IPv4 adapter settings
 | PC3 – HP All-in-One / Mobile Hotspot | Wi-Fi adapter | Connected to phone hotspot | DHCP comparison with different IP range |
 | PC2 – Desktop / Ethernet | Ethernet adapter | Connected by cable | Comparison with wired adapter behaviour |
 
-## Devices Tested
-
-| Device / Network Context | Adapter Type | Network State | Purpose in Case |
-|---|---|---|---|
-| PC3 – HP All-in-One / Home Wi-Fi | Wi-Fi adapter | Connected to home router | Main IP misconfiguration test |
-| PC3 – HP All-in-One / Mobile Hotspot | Wi-Fi adapter | Connected to phone hotspot | DHCP comparison with different IP range |
-| PC2 – Desktop / Ethernet | Ethernet adapter | Connected by cable | Comparison with wired adapter behaviour |
-
 ---
 
 ## Problem Simulated
