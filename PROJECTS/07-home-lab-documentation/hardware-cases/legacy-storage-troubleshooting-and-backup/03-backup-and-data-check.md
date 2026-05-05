@@ -54,7 +54,6 @@ The WD SATA HDD did not boot as a standalone Windows system drive. However, Wind
 This made it possible to start a data review and backup process.
 
 <img src="images/06-wd-sata-hdd-test.jpg" alt="Western Digital SATA HDD connected in Computer 2 for data check" width="500">
-<img src="images/06-wd-sata-hdd-test.jpg" alt="Western Digital SATA HDD connected in the test system" width="500">
 
 ## Backup Target
 
