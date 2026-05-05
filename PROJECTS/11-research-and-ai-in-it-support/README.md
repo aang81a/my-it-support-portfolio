@@ -1,5 +1,29 @@
 # Research and AI in IT Support
 
+## 11-research-and-ai-in-it-support- 06.05.2026.
+
+Tools / platforms covered:
+- ChatGPT
+- Claude
+- Google
+- Splunk
+- Search engines
+- Stack Overflow
+- Spiceworks
+- Reddit
+- Microsoft Knowledge Base
+- Cisco Knowledge Base
+- ITIL / ITSM resources
+- Internal knowledge base
+
+Portfolio focus:
+- research workflow
+- source comparison
+- AI limitations
+- privacy and confidentiality
+- documenting reusable findings
+- application troubleshooting
+
 ## Overview
 This project documents how research methods and AI tools can support IT troubleshooting, documentation, and knowledge base creation.
 
