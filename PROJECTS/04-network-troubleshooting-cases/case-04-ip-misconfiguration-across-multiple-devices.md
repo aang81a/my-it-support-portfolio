@@ -3,11 +3,10 @@
 ## Overview
 
 This case documents a simulated IPv4 misconfiguration across multiple Windows devices and network connection types.
-
 The purpose of the case was to reproduce a common first-level IT support issue: a device appears connected to a network, but internet access fails because the IPv4 configuration is incorrect.
 
 The case also compares how the same troubleshooting process behaves across different connection types: home Wi-Fi, mobile hotspot, and Ethernet. This comparison helps show that DHCP can assign different valid network ranges depending on the network, while the troubleshooting logic remains the same.
-
+This case demonstrates DHCP client-side troubleshooting, not DHCP server configuration.
 ---
 
 ## Test Environment and Devices
@@ -232,6 +231,12 @@ After the network configuration was restored, the connection was tested again an
 After command-line tests confirmed restored external IP connectivity and DNS resolution, a browser check was used as a final user-facing verification that internet access was working again.
 
 ![PC2 Ethernet browser internet restored](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-10-browser-internet-restored.png)
+
+---
+
+## DHCP Scope of This Case
+
+This case focuses on DHCP client-side troubleshooting. The DHCP server itself was not configured. The task was to restore automatic IPv4/DNS settings on Windows clients, request a new DHCP lease, and verify that each device received a valid IP address, subnet mask, default gateway, and DNS configuration.
 
 ---
 
