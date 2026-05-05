@@ -10,14 +10,6 @@ The focus of this project is remote support preparation, user consent, guided tr
 
 Practice how to support users remotely, collect relevant information, document the case, and guide the user through basic technical troubleshooting steps.
 
-## Lab Setup
-
-| Role | Device |
-|---|---|
-| Support technician device | Laptop |
-| User device | Computer 3 |
-| Remote support tool | TeamViewer |
-
 ## Lab Devices
 
 | Role | Device | Operating System | Key Specs |
