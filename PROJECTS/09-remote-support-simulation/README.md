@@ -122,34 +122,30 @@ Resolved
 ```
 
 
-
-
-
-
-Screenshots
+## Screenshots
 
 Screenshots will be added.
 
 Planned screenshots:
 
-TeamViewer connection preparation
-User consent / session start
-Remote desktop view
-Task Manager check
-Final documentation or ticket note
-Skills Demonstrated
-Remote support
-User communication
-Permission-based remote access
-Initial problem analysis
-Windows basic troubleshooting
-Task Manager usage
-Ticket documentation
-Customer service
-Escalation awareness
-Notes
+- TeamViewer connection preparation
+- User consent / session start
+- Remote desktop view
+- Task Manager check
+- Final documentation or ticket note
+
+## Skills Demonstrated
+
+- Remote support
+- User communication
+- Permission-based remote access
+- Initial problem analysis
+- Windows basic troubleshooting
+- Task Manager usage
+- Ticket documentation
+- Customer service
+- Escalation awareness
+
+## Notes
 
 This project is a simulation created for portfolio purposes. It demonstrates the support process, communication style, documentation logic, and basic remote troubleshooting steps used in first-level IT support.
-
-Escalation:
-Not required.
