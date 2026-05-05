@@ -98,13 +98,15 @@ The user confirmed that the application opened successfully and they could conti
 
 ## Ticket Documentation Example
 
-```text
 Issue:
+```text
 User reported that a work application could not be opened.
+```
 
 Affected device:
+```text
 Computer 3
-
+```
 Troubleshooting steps:
 - Confirmed the issue with the user.
 - Asked for permission to start a remote support session.
@@ -115,9 +117,12 @@ Troubleshooting steps:
 - Verified that the application opened successfully.
 
 Resolution:
+```text
 Application was restarted successfully after closing the stuck background process.
+```
 
 Status:
+```text
 Resolved
 ```
 
