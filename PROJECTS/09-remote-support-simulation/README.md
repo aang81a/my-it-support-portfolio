@@ -1,5 +1,25 @@
 # Remote Support Simulation
 
+## 09-remote-support-simulation - 06.05.2026.
+
+Tools covered:
+- Microsoft Remote Desktop
+- Windows Remote Assistance
+- Cisco WebEx
+- Remote Desktop (macOS)
+- TeamViewer
+- VNC
+- pcAnywhere
+
+Portfolio focus:
+- remote support preparation
+- user consent
+- screen sharing / remote access awareness
+- guided troubleshooting
+- communication
+- ticket documentation
+- escalation
+
 ## Overview
 This project documents simulated remote support scenarios for practicing first-level IT support tasks.
 
