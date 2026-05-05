@@ -29,7 +29,7 @@ This case was performed as part of a beginner IT support home lab. The environme
 
 - Identify legacy storage devices in BIOS.
 - Test IDE/PATA HDD detection.
-- Test SATA HDD boot behaviour.
+- Test SATA HDD detection and data access behaviour.
 - Avoid formatting unknown drives before checking for data.
 - Back up old files to external storage.
 - Document a realistic first-level IT support troubleshooting process.
