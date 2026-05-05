@@ -7,6 +7,7 @@ The purpose of the case was to reproduce a common first-level IT support issue: 
 
 The case also compares how the same troubleshooting process behaves across different connection types: home Wi-Fi, mobile hotspot, and Ethernet. This comparison helps show that DHCP can assign different valid network ranges depending on the network, while the troubleshooting logic remains the same.
 This case demonstrates DHCP client-side troubleshooting, not DHCP server configuration.
+
 ---
 
 ## Test Environment and Devices
