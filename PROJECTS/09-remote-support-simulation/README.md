@@ -28,7 +28,8 @@ Practice how to support users remotely, collect relevant information, document t
 ## Tools Used
 
 - TeamViewer
-- Windows 11
+- Windows 11 Pro on the support technician device
+- Windows 10 Home 22H2 on the user device
 - Task Manager
 - Ticketing documentation
 - Knowledge base notes
