@@ -28,9 +28,9 @@ This was important because old hard drives may still contain:
 
 The Samsung SP1203N IDE/PATA hard drive was detected in BIOS, but it did not boot successfully.
 
-A future IDE/PATA-to-USB adapter is required to inspect the drive safely from another working computer.
-
 Because the drive may still contain old files, it was kept unchanged for a later data check, and no destructive action was performed.
+
+A future IDE/PATA-to-USB adapter is required to inspect the drive safely from another working computer.
 
 Actions avoided:
 
@@ -39,11 +39,6 @@ Actions avoided:
 * no partition changes
 * no bootloader repair
 * no recovery reset
-
-The drive was kept unchanged for a later data recovery check.
-
-A future IDE/PATA-to-USB adapter is required to inspect the drive safely from another working computer.
-
 
 ## Western Digital SATA HDD
 
