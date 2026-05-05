@@ -47,14 +47,14 @@ A future IDE/PATA-to-USB adapter is required to inspect the drive safely from an
 
 ## Western Digital SATA HDD
 
-A Western Digital SATA hard drive was tested in another computer.
+A Western Digital SATA hard drive was tested in Computer 2 using a SATA connection.
 
-The drive successfully booted into Windows and existing files/folders were visible.
+The WD SATA HDD did not boot as a standalone Windows system drive. However, Windows was accessible through Computer 2, and existing files/folders on the WD SATA HDD were visible.
 
 This made it possible to start a data review and backup process.
 
+<img src="images/06-wd-sata-hdd-test.jpg" alt="Western Digital SATA HDD connected in Computer 2 for data check" width="500">
 <img src="images/06-wd-sata-hdd-test.jpg" alt="Western Digital SATA HDD connected in the test system" width="500">
-
 
 ## Backup Target
 
