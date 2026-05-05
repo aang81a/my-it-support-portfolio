@@ -3,15 +3,9 @@
 # IT Support Portfolio
 
 ## About Me
-IT Support Specialist currently building hands-on skills through Microsoft IT Support Professional and Cisco IT Support Professional coursework. This portfolio shows my home lab projects, troubleshooting practice, ticketing simulations, and support documentation.
+IT Support Specialist currently building hands-on skills through Microsoft IT Support Professional and Cisco IT Support Professional coursework.
 
-## About Me
-
-IT Support learner and career changer currently building hands-on skills through the Cisco IT Support Career Path and the Microsoft IT Support Specialist Professional Certificate.
-
-This portfolio documents practical home lab projects, Windows and network troubleshooting cases, hardware support tasks, backup workflows, ticketing practice, and support documentation.
-
-My current focus is entry-level IT Support / 1st Level Support, with a long-term interest in cybersecurity.
+This portfolio documents practical home lab projects, Windows and network troubleshooting practices, hardware support tasks, backup workflows, ticketing simulations, and support documentation.
 
 ---
 
