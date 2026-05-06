@@ -6,13 +6,13 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)![Focus]
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-![Status](https://img.shields.io/badge/Focus-IT%20Support-blue)![Tool]![OS]![OS]
+![Status](https://img.shields.io/badge/Focus-IT%20Support-blue)
 
 ![Status](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)
 
-![Status](https://img.shields.io/badge/Tool-TeamViewer-lightgrey)![OS]
+![Status](https://img.shields.io/badge/Tool-TeamViewer-lightgrey)
 
 
 ## Overview
