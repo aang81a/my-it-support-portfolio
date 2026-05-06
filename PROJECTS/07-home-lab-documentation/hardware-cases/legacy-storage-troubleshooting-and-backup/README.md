@@ -1,5 +1,7 @@
 # Legacy Storage Troubleshooting and Backup
 
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 ## Overview
 
 This hardware case documents a practical troubleshooting and backup workflow using legacy desktop hardware, IDE/PATA storage, SATA storage, optical drives, and external USB backup storage.
