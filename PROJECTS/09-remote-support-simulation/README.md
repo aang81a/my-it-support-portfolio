@@ -56,6 +56,19 @@ The course also introduced several remote support and remote access tools:
 9. Confirm the result with the user.
 10. Close or escalate the case.
 
+## Troubleshooting Process Applied
+
+| Course Step | Applied in This Simulation |
+|---|---|
+| Define the problem | User reports that a browser-based application cannot be accessed. |
+| Gather detailed information | Ask when the issue started, what error appears, and whether other websites work. |
+| Identify a probable cause | Possible browser issue, stuck process, cache issue, or network connectivity problem. |
+| Devise a plan | Check browser status, restart the browser, test connectivity, and retry the web application. |
+| Make necessary changes | Close/restart the browser and clear basic browser state if needed. |
+| Observe the results | Test whether the web application opens again. |
+| Repeat the process | If the issue remains, continue checking connectivity or escalate. |
+| Document the changes | Record the troubleshooting steps and resolution in the ticket note. |
+
 ## Example Scenario: Application Access Issue
 
 ### Situation
