@@ -1,5 +1,7 @@
 # Case 04 – IP Misconfiguration Across Multiple Devices
 
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 ## Overview
 
 This case documents a simulated IPv4 misconfiguration across multiple Windows devices and network connection types.
