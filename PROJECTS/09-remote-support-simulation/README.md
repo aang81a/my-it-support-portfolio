@@ -1,13 +1,24 @@
 # Remote Support Simulation
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-lightgrey)
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+or
+
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 
 ![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
 
+
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)
 
+
+
+![Tool](https://img.shields.io/badge/Tool-TeamViewer-lightgrey)
 
 ## Overview
 
