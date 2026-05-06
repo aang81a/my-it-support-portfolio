@@ -1,5 +1,10 @@
 # Remote Support Simulation
 
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
+![Tool](https://img.shields.io/badge/Tool-TeamViewer-lightgrey)
+![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)
+
 ## Overview
 
 This project documents a simulated remote support scenario for practicing first-level IT support tasks.
