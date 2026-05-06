@@ -1,5 +1,7 @@
 # Computer 3 RAM Upgrade – HP All-in-One
 
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 ## Overview
 - This hardware case documents the analysis and installation of a RAM upgrade in an HP All-in-One system.
 - The objective was to improve system performance by upgrading the memory from 8GB to 16GB and enabling dual-channel configuration.
