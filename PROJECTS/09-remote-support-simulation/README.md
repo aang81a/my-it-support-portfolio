@@ -69,7 +69,7 @@ The course also introduced several remote support and remote access tools:
 | Repeat the process | If the issue remains, continue checking connectivity or escalate. |
 | Document the changes | Record the troubleshooting steps and resolution in the ticket note. |
 
-## Example Scenario: Browser-Based Application Access Issue - MINDENT EZALATT KIJAVITANI
+## Example Scenario: Browser-Based Application Access Issue - MINDENT EZALATT ELLENÖRIZNI
 
 ### Situation
 
