@@ -8,11 +8,11 @@
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)![Focus]
 
-(https://img.shields.io/badge/Focus-IT%20Support-blue)![Tool]![OS]![OS]
+![Status](https://img.shields.io/badge/Focus-IT%20Support-blue)![Tool]![OS]![OS]
 
-(https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)
+![Status](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)
 
-(https://img.shields.io/badge/Tool-TeamViewer-lightgrey)![OS]
+![Status](https://img.shields.io/badge/Tool-TeamViewer-lightgrey)![OS]
 
 
 ## Overview
