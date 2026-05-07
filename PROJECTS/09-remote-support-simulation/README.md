@@ -3,12 +3,14 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-lightblue)
 ![Tool](https://img.shields.io/badge/Tool-AnyDesk-lightblue)
-![License](https://shields.io)
 
-Language (PowerShell):![PowerShell](https://shields.io)
-Operating System (Windows):![Windows](https://shields.io
-)Project Status:![Status](https://shields.io)
-License:![License](https://shields.io)
+![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
+
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+![Windows](https://img.shields.io/badge/OS-Windows-0078D4?logo=windows&logoColor=white)
+
+![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
 
 ## Overview
 
