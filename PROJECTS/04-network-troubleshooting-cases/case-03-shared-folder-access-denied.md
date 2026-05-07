@@ -1,3 +1,5 @@
+case-03-shared-folder-access-denied.md
+
 # Case 03 – Shared Folder Access Denied
 
 ## Problem
