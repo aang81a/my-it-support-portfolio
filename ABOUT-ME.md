@@ -1,4 +1,5 @@
-# 👋 Hello, I'm Angie **Aspiring 1st-Level IT Support Professional | Focus on User Experience & Documentation** 
+# 👋 Hello, I'm Angie 
+**Aspiring 1st-Level IT Support Professional | Focus on User Experience & Documentation** 
 
 I am a service-oriented IT professional with hands-on experience in Spiceworks (ITSM), AnyDesk, and Microsoft 365, dedicated to helping users solve their technical challenges with patience and clarity.
 
