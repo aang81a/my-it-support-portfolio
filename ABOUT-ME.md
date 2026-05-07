@@ -10,17 +10,15 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ![Skill](https://img.shields.io/badge/Skill-Hardware-orange)
 
+![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)
+
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
 
-![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)
+![Skill](https://img.shields.io/badge/Skill-Remote%20Support-blue), ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white), ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
 
-![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
+![Skill](https://img.shields.io/badge/Skill-Ticketing-green), ![Tool](https://img.shields.io/badge/Tool-Spiceworks_(ITSM)-orange)
 
-![Tool](https://img.shields.io/badge/Tool-Spiceworks_(ITSM)-orange)
-
-![Tool](https://img.shields.io/badge/Tool-GitHub-black)
-
-![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)
+![Skill](https://img.shields.io/badge/Skill-Documentation-blueviolet), ![Tool](https://img.shields.io/badge/Tool-GitHub-black), ![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)
 
 
 Microsoft 365
@@ -35,9 +33,9 @@ Microsoft 365
 
 ### What I am learning
 - Active Directory Labs: Managing users, groups, and password resets (IAM).
-- ![Skill](https://img.shields.io/badge/Skill-Networking-lightgrey): Troubleshooting connectivity (DNS, DHCP, VPN).
+- ![Skill](https://img.shields.io/badge/Skill-Networking-lightgrey) Troubleshooting connectivity (DNS, DHCP, VPN).
 - Microsoft 365: Administering users and shared resources in a cloud environment.
-- Troubleshooting: Documenting "Case Studies" to build a knowledge base.
+- ![Skill](https://img.shields.io/badge/Skill-Troubleshooting-blue) Documenting "Case Studies" to build a knowledge base.
 
 ### Featured portfolio
 - [IT Support Portfolio](https://github.com/YOUR-USERNAME/it-support-portfolio)
