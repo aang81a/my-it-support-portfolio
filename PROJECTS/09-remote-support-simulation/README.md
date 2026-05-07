@@ -37,7 +37,7 @@ The lab also helped clarify practical workflow differences between TeamViewer an
 A serious remote support process should include:
 
 - Use only approved remote support tools.
-- Download tools only from official websites.
+- Download tools only from official websites (if needed).
 - Confirm user consent before starting the session.
 - Allow the user to see what the supporter is doing.
 - Do not ask the user to share passwords.
