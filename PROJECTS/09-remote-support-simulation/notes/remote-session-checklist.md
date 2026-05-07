@@ -8,7 +8,7 @@ It is intended for first-level IT support situations where a supporter connects 
 
 ---
 
-## 1. Before Starting the Session
+### 1. Before Starting the Session
 
 - [ ] Confirm the user request.
 - [ ] Clarify the affected device.
@@ -21,7 +21,7 @@ It is intended for first-level IT support situations where a supporter connects 
 
 ---
 
-## 2. Starting the Session
+### 2. Starting the Session
 
 - [ ] Start the remote support session from the support technician device.
 - [ ] Provide the session code, link, or connection request as required by the tool.
@@ -31,7 +31,7 @@ It is intended for first-level IT support situations where a supporter connects 
 
 ---
 
-## 3. During the Session
+### 3. During the Session
 
 - [ ] Explain intended support actions before making changes.
 - [ ] Only check areas relevant to the support request.
@@ -42,9 +42,9 @@ It is intended for first-level IT support situations where a supporter connects 
 
 ---
 
-## 4. Ending the Session
+### 4. Ending the Session
 
-- [ ] Confirm whether the user can continue working.
+- [ ] Confirm that the user can continue working.
 - [ ] Close any tools or windows opened during the support session, if appropriate.
 - [ ] End the remote session safely.
 - [ ] Confirm that remote access is no longer active.
@@ -52,10 +52,23 @@ It is intended for first-level IT support situations where a supporter connects 
 
 ---
 
-## 5. After the Session
+### 5. After the Session
 
 - [ ] Document what was checked.
 - [ ] Document whether anything was changed.
+- [ ] Document why changes were made, if relevant.
 - [ ] Document the final result.
-- [ ] Document whether escalation is required.
-- [ ] Remove or anonymise sensitive information before publishing screenshots or notes.
+- [ ] Define the final status: resolved, pending, follow-up required, or escalated.
+- [ ] Document only the information required for the support case.
+- [ ] Add the correct ticket category or tag, if a ticketing system is used.
+- [ ] Do not keep passwords, session codes, temporary files, or unnecessary sensitive user information after the session.
+
+---
+
+## Security and Privacy Check
+
+- [ ] User consent was confirmed before remote access.
+- [ ] No passwords were requested or stored.
+- [ ] No session codes were kept after the session.
+- [ ] No unnecessary sensitive user information was documented.
+- [ ] Remote session was closed after support was completed.
