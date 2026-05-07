@@ -1,9 +1,33 @@
 # 👋 Hello, I'm Angie 
 **Aspiring 1st-Level IT Support Professional | Focus on User Experience & Documentation** 
+![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
 
-I am a service-oriented IT professional with hands-on experience in Spiceworks (ITSM), AnyDesk, and Microsoft 365, dedicated to helping users solve their technical challenges with patience and clarity.
+I am a service-oriented IT professional dedicated to helping users solve their technical challenges with patience and clarity.
 
 My goal is to make technology accessible and stress-free for everyone in the workplace. 
+
+### With hands-on experience in:
+
+![Skill](https://img.shields.io/badge/Skill-Hardware-orange)
+
+![Skill](https://img.shields.io/badge/Skill-Networking-lightgrey)
+
+![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)
+
+
+![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
+
+
+![Tool](https://img.shields.io/badge/Tool-Spiceworks(ITSM)-orange)
+
+
+![Tool](https://img.shields.io/badge/Tool-GitHub-black)
+
+
+![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)
+
+
+Microsoft 365
 
 ---
 
