@@ -18,7 +18,7 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
 
 
-![Tool](https://img.shields.io/badge/Tool-Spiceworks(ITSM)-orange)
+![Tool](https://img.shields.io/badge/Tool-Spiceworks_(ITSM)-orange)
 
 
 ![Tool](https://img.shields.io/badge/Tool-GitHub-black)
