@@ -24,9 +24,8 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 ![Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue)
 ![Skill](https://img.shields.io/badge/Skill-DNS%20Testing-blue)
 ![Skill](https://img.shields.io/badge/Skill-Gateway%20Testing-blue)
-![Skill](https://img.shields.io/badge/Skill-Wi--Fi%20%7C%20Ethernet%20%7C%20Hotspot-blueviolet)
 
-![Skill](https://img.shields.io/badge/Skill-Troubleshooting-blue)
+![Skill](https://img.shields.io/badge/Skill-Troubleshooting-blue) ![Skill](https://img.shields.io/badge/Skill-Wi--Fi%20%7C%20Ethernet%20%7C%20Hotspot-blueviolet)
 
 ![Skill](https://img.shields.io/badge/Skill-Remote%20Support-blue) ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white) ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
 
