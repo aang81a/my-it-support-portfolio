@@ -5,7 +5,13 @@ I am a service-oriented IT professional with hands-on experience in Spiceworks (
 
 My goal is to make technology accessible and stress-free for everyone in the workplace. 
 
-# What I am learning
+### 🌟 My Approach to Support 
+
+- **User-First Mindset:** I prioritize active listening and clear communication to ensure users feel heard and supported.
+- **Efficiency through Documentation:** I believe that good documentation is the key to a fast helpdesk. I enjoy creating clear "How-To" guides to empower users and help my team. 
+- **Proactive Problem Solving:** I'm always looking for ways to streamline repetitive tasks so I can spend more time helping people with complex issues.
+
+## What I am learning
 - Active Directory Labs: Managing users, groups, and password resets (IAM).
 - Networking: Troubleshooting connectivity (DNS, DHCP, VPN).
 - Microsoft 365: Administering users and shared resources in a cloud environment.
@@ -30,12 +36,6 @@ Based in: Zürich, Switzerland.
 
 
 
-
-### 🌟 My Approach to Support 
-
-- **User-First Mindset:** I prioritize active listening and clear communication to ensure users feel heard and supported.
-- **Efficiency through Documentation:** I believe that good documentation is the key to a fast helpdesk. I enjoy creating clear "How-To" guides to empower users and help my team. 
-- **Proactive Problem Solving:** I'm always looking for ways to streamline repetitive tasks so I can spend more time helping people with complex issues. 
 
 ### 🛠️ What I Bring to the Team 
 
