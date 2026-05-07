@@ -1,8 +1,8 @@
 # Remote Support Tools Workflow – TeamViewer and AnyDesk
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Tool](https://img.shields.io/badge/Tool-TeamViewer-lightgrey)
-![Tool](https://img.shields.io/badge/Tool-AnyDesk-lightgrey)
+![Tool](https://img.shields.io/badge/Tool-TeamViewer-lightblie)
+![Tool](https://img.shields.io/badge/Tool-AnyDesk-lightred)
 
 ## Overview
 
