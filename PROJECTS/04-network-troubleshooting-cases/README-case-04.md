@@ -57,7 +57,7 @@ The troubleshooting process used in these cases is based on a structured support
 
 Related method note:
 
-- [Troubleshooting Method](diagrams/troubleshooting-method.md)
+- [Troubleshooting Method](PROJECTS/04-network-troubleshooting-cases/diagrams/troubleshooting-method.md)
 
 ---
 
