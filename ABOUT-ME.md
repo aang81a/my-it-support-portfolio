@@ -46,9 +46,6 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 - ![Focus](https://img.shields.io/badge/Focus-Network%20Troubleshooting-blue) ![Documentation](https://img.shields.io/badge/Documentation-Portfolio-blueviolet) Documenting "Case Studies" to build a knowledge base.
 - ![Skill](https://img.shields.io/badge/Skill-Ticketing-green) ![Tool](https://img.shields.io/badge/Tool-Spiceworks_(ITSM)-orange)
 
-### Featured portfolio
-- [IT Support Portfolio](https://github.com/YOUR-USERNAME/it-support-portfolio)
-
 ### Current focus
 
 I focus on delivering high-quality user support by combining technical troubleshooting with clear, professional communication. 
@@ -59,6 +56,9 @@ I focus on delivering high-quality user support by combining technical troublesh
 - Learning ticketing with Spiceworks
 
 ---
+
+### Featured portfolio
+- [IT Support Portfolio](https://github.com/YOUR-USERNAME/it-support-portfolio)
 
 ## 🛠️ What I Bring to the Team 
 
