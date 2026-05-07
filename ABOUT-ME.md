@@ -34,10 +34,7 @@ Committed to high documentation standards and helping teams maintain efficient w
 Languages: German (B2), English (Professional).
 Based in: Zürich, Switzerland.
 
-
-
-
-### 🛠️ What I Bring to the Team 
+## 🛠️ What I Bring to the Team 
 
 - **Core Support:** Troubleshooting Windows/macOS, M365 (Office), and basic networking. 
 - **Professional Tools:** Experience with ticketing systems (Jira/Zendesk) and remote support tools (TeamViewer/AnyDesk). 
