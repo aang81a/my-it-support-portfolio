@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project documents the workflow of two remote support tools: TeamViewer and AnyDesk.
+This project documents the workflow of two access tools: TeamViewer and AnyDesk.
 
 The focus is on remote session setup, user consent, supporter/user device roles, remote desktop access, and session closing.
 
