@@ -59,6 +59,11 @@ Related method note:
 
 - [Troubleshooting Method](my-it-support-portfolio/PROJECTS/04-network-troubleshooting-cases/diagrams/troubleshooting-method.md)
 
+- [Troubleshooting Method](diagrams/troubleshooting-method.md)
+
+- [Troubleshooting Method](diagrams/troubleshooting-method.md)
+
+- [Troubleshooting Method](PROJECTS/04-network-troubleshooting-cases/diagrams/troubleshooting-method.md)
 
 ----
 
