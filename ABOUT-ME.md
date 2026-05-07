@@ -15,7 +15,7 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue) 
 
-![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
+![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white) ![Tool](https://img.shields.io/badge/Tool-Command%20Prompt-black?logo=windows-terminal&logoColor=white) ![Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue)
 
 ![Skill](https://img.shields.io/badge/Skill-Remote%20Support-blue) ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white) ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
 
