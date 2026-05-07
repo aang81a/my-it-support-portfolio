@@ -1,48 +1,53 @@
-- GOAL
-- LAB SETUP
-- TOOLS USED
-- STEPS PERFORMED
-- ISSUE SOLVED
-- SCREENSHOTS
-- SKILLS DEMONSTRATED
+# Knowledge Base Articles
 
-Add simple help articles written like internal IT documentation.
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Focus](https://img.shields.io/badge/Focus-User%20Support%20Documentation-blue)
+![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)
+![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
 
-This is very strong for IT support because it shows you can explain solutions clearly.
+## Overview
 
+This folder contains simple knowledge base articles written for non-technical users.
 
-# My Notes
+The goal is to explain common IT support tasks in a clear, structured, and user-friendly way.
 
-## Objective
-Explain what you wanted to build or solve.
+## Purpose
 
-## Environment
-- VirtualBox / VMware
-- Windows Server
-- Windows 10/11
-- Domain: lab.local
+Knowledge base articles help users solve simple issues by themselves and reduce repeated support requests.
 
-## Tasks Completed
-- Installed server VM
-- Configured Active Directory
-- Created domain users
-- Tested login
+They are also useful for support teams because they provide consistent instructions for common problems.
 
-## Troubleshooting / Challenges
-Explain any issues you ran into and how you fixed them.
+## Articles
 
-## Result
-Explain the final outcome.
+| Article | Topic | Audience | Status |
+|---|---|---|---|
+| [How to Troubleshoot No Internet](how-to-troubleshoot-no-internet.md) | Basic internet troubleshooting | Non-technical users | Completed |
+| How to Connect to the Company VPN from Home | VPN access from home | Non-technical users | Planned |
+| [How to Join a PC to a Domain](how-to-join-a-pc-to-a-domain.md) | Domain join basics | IT support / lab use | Draft |
+| [How to Map a Network Drive](how-to-map-a-network-drive.md) | Shared drive access | End users / IT support | Draft |
+| [How to Reset a Domain Password](how-to-reset-a-domain-password.md) | Password reset process | IT support / end users | Draft |
+
+## Tools / Topics Covered
+
+- Windows network settings
+- Wi-Fi and Ethernet checks
+- Browser access checks
+- VPN connection guidance
+- Domain access basics
+- Network drive access
+- Password reset support
 
 ## Skills Demonstrated
-- Active Directory
-- Troubleshooting
-- Documentation
-- User support
 
-## Screenshots
-Screenshots will be added...
+- Knowledge base writing
+- User-friendly technical documentation
+- Clear step-by-step instructions
+- Non-technical communication
+- Basic Windows support documentation
+- IT support process documentation
 
 ## Notes
 
+These articles are written as internal IT support documentation examples.
 
+They are designed to be simple, practical, and easy to follow for non-technical users.
