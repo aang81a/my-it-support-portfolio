@@ -39,7 +39,7 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 - **Efficiency through Documentation:** I believe that good documentation is the key to a fast helpdesk. I enjoy creating clear "How-To" guides to empower users and help my team. 
 - **Proactive Problem Solving:** I'm always looking for ways to streamline repetitive tasks so I can spend more time helping people with complex issues.
 
-### What I am learning
+### ✍️ What I am learning
 - ![Active Directory](https://img.shields.io/badge/Tool-Active%20Directory-0078D4?logo=microsoft&logoColor=white) ![Active Directory](https://img.shields.io/badge/Active%20Directory-Identity%20Management-0078D4?logo=microsoft&logoColor=white) Managing users, groups, and password resets (IAM).
 - ![Microsoft 365 Admin](https://img.shields.io/badge/Skill-M365%20User%20%26%20Resource%20Admin-D83B01?logo=microsoft365&logoColor=white) ![Microsoft 365](https://img.shields.io/badge/Tool-Microsoft%20365-D83B01?logo=microsoft365&logoColor=white) ![Teams](https://img.shields.io/badge/Tool-Microsoft%20Teams-6264A7?logo=microsoftteams&logoColor=white)
 - ![Cloud Administration](https://img.shields.io/badge/Skill-Cloud%20User%20%26%20Resource%20Administration-0078D4?logo=microsoftazure&logoColor=white) Administering users and shared resources in a cloud environment.
