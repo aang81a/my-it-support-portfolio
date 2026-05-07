@@ -47,5 +47,5 @@ Committed to high documentation standards and helping teams maintain efficient w
 I am looking for an entry-level opportunity in a Swiss-based IT support team where I can grow and contribute.
 
 ### 🌍 Languages & Location
-Languages: German (B2), English (Professional).
-Based in: Zürich, Switzerland.
+- Languages: German (B2), English (Professional).
+- Based in: Zürich, Switzerland.
