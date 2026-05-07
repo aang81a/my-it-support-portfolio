@@ -59,7 +59,7 @@ Related method note:
 
 - [Troubleshooting Method](PROJECTS/04-network-troubleshooting-cases/diagrams/troubleshooting-method.md)
 
----
+----
 
 ## Skills Demonstrated
 
