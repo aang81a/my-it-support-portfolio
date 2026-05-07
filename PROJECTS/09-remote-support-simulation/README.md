@@ -43,21 +43,20 @@ A serious remote support process should include:
 - Do not ask the user to share passwords.
 - Close the remote session after support is completed.
 
-## Support Process
+## General Remote Support Workflow
 
-1. Receive the support request.
-2. Ask clear questions to understand the problem.
-3. Confirm the affected device, user, and application.
-4. Ask for permission before starting remote access.
-5. Start the remote support session.
-6. Explain each action before making changes.
-7. Check the browser and basic system status.
-8. Review CPU, memory, disk, and network activity in Task Manager.
-9. Test whether a browser-based website opens successfully.
-10. Confirm the result with the user.
-11. End the remote support session safely.
-12. Document the steps taken.
-13. Close or escalate the case.
+| Step | Who performs it | Purpose |
+|---|---|---|
+| Support request | User | The user reports an issue by phone, email, ticket, or self-service portal. |
+| Initial assessment | Supporter | The supporter clarifies the issue, affected device, and whether remote support is needed. |
+| User permission | Supporter / User | The supporter asks for explicit permission before accessing the user device. |
+| Secure remote connection | Supporter / User | The session is started through an approved remote support tool, using a session code, invitation link, or remote address. |
+| Remote access verification | Supporter | The supporter checks that the correct user device is visible and accessible. |
+| Diagnostics or support check | Supporter | The supporter checks the relevant area, such as application access, browser behaviour, system settings, or performance indicators. |
+| Communication during support | Supporter | The supporter explains relevant actions before making changes and keeps the user informed. |
+| Resolution or result validation | User / Supporter | The supporter checks the result, and the user confirms whether the issue is resolved or the support check is complete. |
+| Session closing | User or Supporter | The remote session is closed after support is completed. |
+| Documentation | Supporter | The supporter documents what was checked, what was changed if anything, and the final result. |
 
 ## TeamViewer Workflow
 
@@ -86,24 +85,6 @@ A serious remote support process should include:
 6. User or supporter closes the session.
 
 For AnyDesk, the correct workflow in this lab was to enter the user device address on the support technician device. This made the laptop the supporter device and the All-in-One computer the user device receiving support.
-
-## Remote Support Steps
-
-1. Confirmed the issue with the user.
-2. Asked for permission before starting remote access.
-3. Started a remote support session from the support technician device.
-4. User entered the session code and waited for the session to start.
-5. Support technician started the session.
-6. Confirmed that the remote desktop of the user device was visible.
-7. Opened a browser-based test page.
-8. Opened Task Manager on the user device.
-9. Checked memory usage.
-10. Checked disk activity.
-11. Confirmed that the device responded normally.
-12. Confirmed that the browser-based page opened successfully.
-13. Demonstrated that both the user and the support technician can end the remote session.
-14. Closed the session safely.
-15. Documented the result.
 
 ## Screenshots
 
