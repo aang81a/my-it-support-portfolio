@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Angie 
 **Aspiring 1st-Level IT Support Professional | Focus on User Experience & Documentation** 
-![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
+![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue), ![Level](https://img.shields.io/badge/Level-Entry--Level-lightgrey)
 
 I am a service-oriented IT professional dedicated to helping users solve their technical challenges with patience and clarity.
 
