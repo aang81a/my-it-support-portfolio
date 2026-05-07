@@ -10,16 +10,21 @@ This project documents a simulated remote support scenario for practicing first-
 
 The focus of this project is remote support preparation, user consent, guided troubleshooting, basic system checks, professional communication, ticket documentation, and escalation awareness.
 
-The simulation was performed with two remote support tools:
-
-- TeamViewer
-- AnyDesk
-
 The main scenario uses a support technician device to connect to a user device and perform basic troubleshooting checks on a browser-based application access issue.
+
+## Overview
+
+This project documents the workflow of two remote support tools: TeamViewer and AnyDesk.
+
+The focus is on remote session setup, user consent, supporter/user device roles, remote desktop access, and session closing.
 
 ## Objective
 
 The objective of this project is to practice how to support users remotely, collect relevant information, document the case, guide the user through basic troubleshooting steps, and close the remote support session safely.
+
+## Objective
+
+The objective of this project is to understand and document how a support technician device connects to a user device using remote support tools.
 
 ## Lab Devices
 
@@ -28,29 +33,29 @@ The objective of this project is to practice how to support users remotely, coll
 | Support technician device | HP Pavilion Laptop 15-eg0xxx | Windows 11 Pro | Intel Core i7-1165G7, 16 GB RAM |
 | User device | HP Pavilion All-in-One 27-xa0xxx | Windows 10 Home 22H2 | Intel Core i5-9400T, 16 GB RAM |
 
+## Lab Devices
+
+| Role | Device | Operating System | Key Specs |
+|---|---|---|---|
+| Support technician device | HP Pavilion Laptop 15-eg0xxx | Windows 11 Pro | Intel Core i7-1165G7, 16 GB RAM |
+| User device | HP Pavilion All-in-One 27-xa0xxx | Windows 10 Home 22H2 | Intel Core i5-9400T, 16 GB RAM |
+
+
 ## Tools Used
 
 - TeamViewer
 - AnyDesk
 
-## Course Tool Awareness
+## Remote Support Security Rules
 
-The course also introduced several remote support and remote access tools:
+A serious remote support process should include:
 
-- Microsoft Remote Desktop
-- Windows Remote Assistance
-- Cisco WebEx
-- Remote Desktop for macOS
-- Virtual Network Computing (VNC)
-- pcAnywhere as a legacy remote access tool
-
-## Practice Scenario
-
-### Browser-Based Application Access Issue
-
-A user reports that they cannot access a browser-based work application during working hours.
-
-The goal of the support session is to confirm the issue, request permission for remote access, check the user device, test browser access, review basic system performance, and document the result.
+- Use only approved remote support tools.
+- Download tools only from official websites.
+- Confirm user consent before starting the session.
+- Allow the user to see what the supporter is doing.
+- Do not ask the user to share passwords.
+- Close the remote session after support is completed.
 
 ## Support Process
 
@@ -68,28 +73,33 @@ The goal of the support session is to confirm the issue, request permission for 
 12. Document the steps taken.
 13. Close or escalate the case.
 
-## Troubleshooting Process Applied
+## TeamViewer Workflow
 
-| Course Step | Applied in This Simulation |
-|---|---|
-| Define the problem | User reports that a browser-based application cannot be accessed. |
-| Gather detailed information | Ask when the issue started, what happens when the user opens the application, and whether other websites work. |
-| Identify a probable cause | Possible browser issue, stuck process, basic connectivity issue, or device performance issue. |
-| Devise a plan | Check browser access, review Task Manager, verify system performance, and test another website. |
-| Make necessary checks | Open the browser, check CPU, memory, disk, and network activity, and confirm browser response. |
-| Observe the results | Confirm whether the website or application opens normally. |
-| Repeat the process | If the issue remains, continue with further browser, network, or account checks. |
-| Document the changes | Record the troubleshooting steps and result in the ticket note. |
+1. Supporter creates a new remote support session.
+2. Supporter receives a session code.
+3. User enters the session code on the user device.
+4. User waits for the supporter to start the session.
+5. Supporter starts the session.
+6. User sees that the session is active.
+7. Supporter verifies remote desktop access.
+8. Supporter performs a browser access check.
+9. Supporter checks memory activity.
+10. Supporter checks disk activity.
+11. User has the option to close the session.
+12. Supporter also has the option to end the session.
+13. User confirms session closing.
+14. Supporter returns to the managed device overview.
 
-## Questions Asked
+## AnyDesk Workflow
 
-- What exactly happens when you try to access the browser-based application?
-- Do you receive an error message?
-- When did the issue start?
-- Did anything change recently, such as an update, restart, browser change, or new software installation?
-- Are other websites or web applications working normally?
-- Is the issue happening in one browser only or in multiple browsers?
-- May I start a remote support session to check the issue with you?
+1. Supporter enters the user device AnyDesk address.
+2. Supporter sends a connection request.
+3. User accepts the session request.
+4. Session starts.
+5. Supporter verifies remote desktop access.
+6. User or supporter closes the session.
+
+For AnyDesk, the correct workflow in this lab was to enter the user device address on the support technician device. This made the laptop the supporter device and the All-in-One computer the user device receiving support.
 
 ## Remote Support Steps
 
@@ -108,56 +118,6 @@ The goal of the support session is to confirm the issue, request permission for 
 13. Demonstrated that both the user and the support technician can end the remote session.
 14. Closed the session safely.
 15. Documented the result.
-
-## Possible Root Cause
-
-The browser session may have needed a restart, the browser process may have been stuck, or the issue may have been related to temporary browser state or basic system performance.
-
-In this simulation, the browser-based test page opened successfully and Task Manager showed normal memory and disk activity during the remote session.
-
-## Resolution
-
-The user device was accessed remotely with permission. Browser access was tested, and Task Manager was used to review basic system performance.
-
-The browser-based page opened successfully, and no high disk or memory usage was observed during the check.
-
-## Verification
-
-The user confirmed that the browser-based page opened successfully and the device responded normally after the remote support check.
-
-## Ticket Documentation Example
-
-```text
-Issue:
-User reported that a browser-based work application could not be accessed.
-
-Affected device:
-Computer 3 / K3 user device
-
-Troubleshooting steps:
-- Confirmed the issue with the user.
-- Asked for permission to start a remote support session.
-- Started a TeamViewer remote support session.
-- User entered the session code and waited for the supporter to start the session.
-- Connected to the user device remotely.
-- Opened a browser-based test page.
-- Opened Task Manager on the user device.
-- Checked memory usage.
-- Checked disk activity.
-- Confirmed that system performance appeared normal during the session.
-- Confirmed that browser access worked.
-- Ended the remote session safely.
-- Documented the support process.
-
-Resolution:
-Remote access was established successfully. Browser access was tested, and basic system performance was checked through Task Manager. The browser-based page opened successfully, and no abnormal disk or memory usage was observed during the check.
-
-Status:
-Resolved
-
-Escalation:
-Not required.
-```
 
 ## Remote Support Security Rules
 
@@ -215,8 +175,6 @@ A serious remote support process should include:
 - AnyDesk remote session workflow
 - Supporter vs. user device role awareness
 - Remote desktop access verification
-- Browser access check on a remote device
-- CPU, memory, and disk activity review
 - Safe session closing from the user side
 - Safe session closing from the supporter side
 
