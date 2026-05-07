@@ -13,7 +13,9 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ![Skill](https://img.shields.io/badge/Skill-Hardware-orange)
 
-![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)
+![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue), ![Microsoft 365](https://img.shields.io/badge/Tool-Microsoft%20365-D83B01?logo=microsoft365&logoColor=white)
+
+![Active Directory](https://img.shields.io/badge/Tool-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
 
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
 
@@ -23,9 +25,7 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ![Skill](https://img.shields.io/badge/Skill-Documentation-blueviolet), ![Tool](https://img.shields.io/badge/Tool-GitHub-black), ![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)
 
-![Microsoft 365](https://img.shields.io/badge/Tool-Microsoft%20365-D83B01?logo=microsoft365&logoColor=white)
 
-![Active Directory](https://img.shields.io/badge/Tool-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
 
 ---
 
