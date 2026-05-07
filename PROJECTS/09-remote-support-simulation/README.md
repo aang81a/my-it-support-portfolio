@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-lightblue)
 ![Tool](https://img.shields.io/badge/Tool-AnyDesk-lightblue)
-`![License](https://shields.io)`
+![License](https://shields.io)
 ## Overview
 
 This project documents the workflow of two access tools: TeamViewer and AnyDesk.
