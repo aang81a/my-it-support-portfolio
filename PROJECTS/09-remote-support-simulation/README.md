@@ -6,25 +6,19 @@
 
 ## Overview
 
-This project documents a simulated remote support scenario for practicing first-level IT support tasks.
-
-The focus of this project is remote support preparation, user consent, guided troubleshooting, basic system checks, professional communication, ticket documentation, and escalation awareness.
-
-The main scenario uses a support technician device to connect to a user device and perform basic troubleshooting checks on a browser-based application access issue.
-
-## Overview
-
 This project documents the workflow of two remote support tools: TeamViewer and AnyDesk.
 
 The focus is on remote session setup, user consent, supporter/user device roles, remote desktop access, and session closing.
 
-## Objective
-
-The objective of this project is to practice how to support users remotely, collect relevant information, document the case, guide the user through basic troubleshooting steps, and close the remote support session safely.
+The lab also helped clarify practical workflow differences between TeamViewer and AnyDesk.
 
 ## Objective
 
-The objective of this project is to understand and document how a support technician device connects to a user device using remote support tools.
+- connect a support technician device to a user device using remote support tools
+- support users remotely with permission-based access
+- collect relevant information before and during the session
+- guide the user through basic support checks
+- close the remote support session safely
 
 ## Lab Devices
 
@@ -160,8 +154,4 @@ For AnyDesk, the correct workflow in this lab was to enter the user device addre
 
 ## Notes
 
-This project documents the workflow of two remote support tools: TeamViewer and AnyDesk.
-
-The focus is on remote session setup, user consent, supporter/user device roles, session closing.
-
-The lab also helped clarify practical workflow differences between TeamViewer and AnyDesk.
+No real customer environment was used. 
