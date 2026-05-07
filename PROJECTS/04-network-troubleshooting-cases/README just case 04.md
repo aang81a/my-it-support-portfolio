@@ -16,9 +16,9 @@ The cases focus on common connectivity issues, IPv4 configuration, DHCP behaviou
 
 ## Cases Included
 
-| Case | Topic | Status |
-|---|---|---|
-| [Case 04 – IP Misconfiguration Across Multiple Devices](case-04-ip-misconfiguration-across-multiple-devices.md) | Wrong static IPv4/DNS configuration, DHCP restore, Ethernet vs Wi-Fi vs mobile hotspot comparison | Completed |
+| Case | Topic | 
+|---|---|
+| [Case 04 – IP Misconfiguration Across Multiple Devices](case-04-ip-misconfiguration-across-multiple-devices.md) | Wrong static IPv4/DNS configuration, DHCP restore, Ethernet vs Wi-Fi vs mobile hotspot comparison |
 
 ---
 
