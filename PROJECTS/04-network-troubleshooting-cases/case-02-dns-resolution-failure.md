@@ -1,3 +1,5 @@
+case-02-dns-resolution-failure.md
+
 # Case 02 – DNS Resolution Failure
 
 ## Problem
