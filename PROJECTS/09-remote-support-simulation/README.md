@@ -32,10 +32,6 @@ The objective of this project is to practice how to support users remotely, coll
 
 - TeamViewer
 - AnyDesk
-- Windows Task Manager
-- Web browser
-- Ticketing documentation
-- Knowledge base notes
 
 ## Course Tool Awareness
 
@@ -162,6 +158,17 @@ Resolved
 Escalation:
 Not required.
 ```
+
+## Remote Support Security Rules
+
+A serious remote support process should include:
+
+- Use only approved remote support tools.
+- Download tools only from official websites.
+- Confirm user consent before starting the session.
+- Allow the user to see what the supporter is doing.
+- Do not ask the user to share passwords.
+- Close the remote session after support is completed.
 
 ## Screenshots
 
