@@ -33,14 +33,6 @@ The objective of this project is to understand and document how a support techni
 | Support technician device | HP Pavilion Laptop 15-eg0xxx | Windows 11 Pro | Intel Core i7-1165G7, 16 GB RAM |
 | User device | HP Pavilion All-in-One 27-xa0xxx | Windows 10 Home 22H2 | Intel Core i5-9400T, 16 GB RAM |
 
-## Lab Devices
-
-| Role | Device | Operating System | Key Specs |
-|---|---|---|---|
-| Support technician device | HP Pavilion Laptop 15-eg0xxx | Windows 11 Pro | Intel Core i7-1165G7, 16 GB RAM |
-| User device | HP Pavilion All-in-One 27-xa0xxx | Windows 10 Home 22H2 | Intel Core i5-9400T, 16 GB RAM |
-
-
 ## Tools Used
 
 - TeamViewer
