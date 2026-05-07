@@ -124,8 +124,8 @@ For AnyDesk, the correct workflow in this lab was to enter the user device addre
 | Supporter starts the session | <img src="screenshots/teamviewer/05-teamviewer-supporter-starts-session.png" width="500"> |
 | User sees the active session | <img src="screenshots/teamviewer/06-teamviewer-user-session-active.png" width="500"> |
 | Supporter views the remote desktop | <img src="screenshots/teamviewer/07-teamviewer-supporter-remote-desktop-view.png" width="500"> |
-| Browser access check | <img src="screenshots/teamviewer/08-teamviewer-browser-access-check.png" width="500"> |
-| Task Manager memory check | <img src="screenshots/teamviewer/09-teamviewer-task-manager-memory-check.png" width="500"> |
+| Browser access check | <img src="screenshots/teamviewer/08-teamviewer-supporter-browser-access-check.png" width="500"> |
+| Task Manager memory check | <img src="screenshots/teamviewer/09-teamviewer-supporter-task-manager-memory-check.png" width="500"> |
 | Task Manager disk check | <img src="screenshots/teamviewer/10-teamviewer-supporter-task-manager-disk-check.png" width="500"> |
 | User has the option to close the session | <img src="screenshots/teamviewer/11-teamviewer-user-close-session-option.png" width="500"> |
 | Supporter can also end the session | <img src="screenshots/teamviewer/12-teamviewer-supporter-ends-session.png" width="500"> |
