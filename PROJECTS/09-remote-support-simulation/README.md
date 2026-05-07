@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-lightblue)
-![Tool](https://img.shields.io/badge/Tool-AnyDesk-lightred)
+![Tool](https://img.shields.io/badge/Tool-AnyDesk-lightblue)
 
 ## Overview
 
