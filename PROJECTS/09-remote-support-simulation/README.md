@@ -5,7 +5,10 @@
 ![Tool](https://img.shields.io/badge/Tool-AnyDesk-lightblue)
 ![License](https://shields.io)
 
-Language (PowerShell):![PowerShell](https://shields.io)Operating System (Windows):![Windows](https://shields.io)Project Status:![Status](https://shields.io)License:![License](https://shields.io)
+Language (PowerShell):![PowerShell](https://shields.io)
+Operating System (Windows):![Windows](https://shields.io
+)Project Status:![Status](https://shields.io)
+License:![License](https://shields.io)
 
 ## Overview
 
