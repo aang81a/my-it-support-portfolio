@@ -1,16 +1,15 @@
 # Remote Support Tools Workflow – TeamViewer and AnyDesk
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Tool](https://img.shields.io/badge/Tool-TeamViewer-lightblue)
-![Tool](https://img.shields.io/badge/Tool-AnyDesk-lightblue)
+![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
+![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)
 
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-9cf)
 ![Tool](https://img.shields.io/badge/Tool-AnyDesk-9cf)
 
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 ![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
-![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
-![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)
+
 
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
 
