@@ -119,8 +119,8 @@ For AnyDesk, the correct workflow in this lab was to enter the user device addre
 |---|---|
 | Supporter starts a new remote support session | <img src="screenshots/teamviewer/01-teamviewer-supporter-new-session.png" width="500"> |
 | Supporter generates the session code | <img src="screenshots/teamviewer/02-teamviewer-supporter-session-code.png" width="500"> |
-| User enters the session code | <img src="screenshots/teamviewer/03-teamviewer-user-enters-session-code.png" width="500"> |
-| User waits for the supporter to start the session | <img src="screenshots/teamviewer/04-teamviewer-user-waiting-for-session-start.png" width="500"> |
+| User enters the session code | <img src="screenshots/teamviewer/03-teamviewer-user-enters-session-code.png" width="400"> |
+| User waits for the supporter to start the session | <img src="screenshots/teamviewer/04-teamviewer-user-waiting-for-session-start.png" width="400"> |
 | Supporter starts the session | <img src="screenshots/teamviewer/05-teamviewer-supporter-starts-session.png" width="500"> |
 | User sees the active session | <img src="screenshots/teamviewer/06-teamviewer-user-session-active.png" width="500"> |
 | Supporter views the remote desktop | <img src="screenshots/teamviewer/07-teamviewer-supporter-remote-desktop-view.png" width="500"> |
