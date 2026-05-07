@@ -5,7 +5,7 @@
 
 ---
 
-I am a service-oriented IT professional dedicated to helping users solve their technical challenges with patience and clarity.
+I am a service-oriented IT professional dedicated to helping users solve their technical challenges with patience and clarity. Committed to high documentation standards and helping teams maintain efficient workflows.
 
 My goal is to make technology accessible and stress-free for everyone in the workplace. 
 
@@ -31,8 +31,6 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ![Skill](https://img.shields.io/badge/Skill-Documentation-blueviolet) ![Tool](https://img.shields.io/badge/Tool-GitHub-black) ![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)
 
-
-
 ---
 
 ## 🌟 My Approach to Support 
@@ -52,9 +50,8 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 - [IT Support Portfolio](https://github.com/YOUR-USERNAME/it-support-portfolio)
 
 ### Current focus
-I focus on delivering high-quality user support by combining technical troubleshooting with clear, professional communication. 
 
-Committed to high documentation standards and helping teams maintain efficient workflows.
+I focus on delivering high-quality user support by combining technical troubleshooting with clear, professional communication. 
 
 - Building a Windows Server home lab
 - Practicing domain join and user management
@@ -65,8 +62,8 @@ Committed to high documentation standards and helping teams maintain efficient w
 
 ## 🛠️ What I Bring to the Team 
 
-- **Core Support:** Troubleshooting Windows/macOS, M365 (Office), and basic networking. 
-- **Professional Tools:** Experience with ticketing systems (Jira/Zendesk) and remote support tools (TeamViewer/AnyDesk). 
+- **Core Support:** Troubleshooting Windows, M365 (Office), and basic networking. 
+- **Professional Tools:** Experience with ticketing systems (Spicework/Jira/Zendesk) and remote support tools (TeamViewer/AnyDesk). 
 - **Continuous Learner:** Currently building a portfolio of hands-on projects to stay sharp and deliver high-quality support. 
   
 ---
