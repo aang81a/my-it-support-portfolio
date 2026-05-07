@@ -18,6 +18,22 @@ J --> K[Compare network behaviour]
 K --> L[Document findings and resolution]
 ```
 
+```mermaid
+flowchart TB
+A[User reports network issue] --> B[Gather information]
+B --> C[Check current IP configuration]
+C --> D{Static or incorrect IP settings?}
+D -->|Yes| E[Restore DHCP / automatic configuration]
+D -->|No| F[Continue connectivity checks]
+E --> G[Release and renew IP configuration]
+F --> G
+G --> H[Test gateway connectivity]
+H --> I[Test external IP connectivity]
+I --> J[Test DNS / name resolution]
+J --> K[Compare network behaviour]
+K --> L[Document findings and resolution]
+```
+
 ### Key Steps Explained
 
 - **Gather information**: collect the affected device, connection type, symptoms, and recent changes.
