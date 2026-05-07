@@ -1,34 +1,25 @@
-# Remote Support Simulation
-
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-
-![Tool](https://img.shields.io/badge/Tool-TeamViewer-lightgrey)
+# Remote Support Tools Workflow – TeamViewer and AnyDesk
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
-or
-
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-
-
-![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
-
-
-![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)
-
-![Tool](https://img.shields.io/badge/Tool-AnyDesk-lightgrey)
-
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-lightgrey)
+![Tool](https://img.shields.io/badge/Tool-AnyDesk-lightgrey)
 
 ## Overview
 
 This project documents a simulated remote support scenario for practicing first-level IT support tasks.
 
-The focus of this project is remote support preparation, user consent, guided troubleshooting, professional communication, ticket documentation, and escalation awareness.
+The focus of this project is remote support preparation, user consent, guided troubleshooting, basic system checks, professional communication, ticket documentation, and escalation awareness.
+
+The simulation was performed with two remote support tools:
+
+- TeamViewer
+- AnyDesk
+
+The main scenario uses a support technician device to connect to a user device and perform basic troubleshooting checks on a browser-based application access issue.
 
 ## Objective
 
-Practice how to support users remotely, collect relevant information, document the case, and guide the user through basic technical troubleshooting steps.
+The objective of this project is to practice how to support users remotely, collect relevant information, document the case, guide the user through basic troubleshooting steps, and close the remote support session safely.
 
 ## Lab Devices
 
@@ -40,7 +31,9 @@ Practice how to support users remotely, collect relevant information, document t
 ## Tools Used
 
 - TeamViewer
-- Task Manager
+- AnyDesk
+- Windows Task Manager
+- Web browser
 - Ticketing documentation
 - Knowledge base notes
 
@@ -55,13 +48,13 @@ The course also introduced several remote support and remote access tools:
 - Virtual Network Computing (VNC)
 - pcAnywhere as a legacy remote access tool
 
-## Practice Scenarios
+## Practice Scenario
 
-- User cannot access an application
-- User has network connection problems
-- User needs help with Microsoft 365 / Outlook
-- User needs basic Windows support
-- User needs guidance by phone or remote session
+### Browser-Based Application Access Issue
+
+A user reports that they cannot access a browser-based work application during working hours.
+
+The goal of the support session is to confirm the issue, request permission for remote access, check the user device, test browser access, review basic system performance, and document the result.
 
 ## Support Process
 
@@ -71,31 +64,28 @@ The course also introduced several remote support and remote access tools:
 4. Ask for permission before starting remote access.
 5. Start the remote support session.
 6. Explain each action before making changes.
-7. Guide the user through basic troubleshooting steps.
-8. Document the steps taken.
-9. Confirm the result with the user.
-10. Close or escalate the case.
+7. Check the browser and basic system status.
+8. Review CPU, memory, disk, and network activity in Task Manager.
+9. Test whether a browser-based website opens successfully.
+10. Confirm the result with the user.
+11. End the remote support session safely.
+12. Document the steps taken.
+13. Close or escalate the case.
 
 ## Troubleshooting Process Applied
 
 | Course Step | Applied in This Simulation |
 |---|---|
 | Define the problem | User reports that a browser-based application cannot be accessed. |
-| Gather detailed information | Ask when the issue started, what error appears, and whether other websites work. |
-| Identify a probable cause | Possible browser issue, stuck process, cache issue, or network connectivity problem. |
-| Devise a plan | Check browser status, restart the browser, test connectivity, and retry the web application. |
-| Make necessary changes | Close/restart the browser and clear basic browser state if needed. |
-| Observe the results | Test whether the web application opens again. |
-| Repeat the process | If the issue remains, continue checking connectivity or escalate. |
-| Document the changes | Record the troubleshooting steps and resolution in the ticket note. |
+| Gather detailed information | Ask when the issue started, what happens when the user opens the application, and whether other websites work. |
+| Identify a probable cause | Possible browser issue, stuck process, basic connectivity issue, or device performance issue. |
+| Devise a plan | Check browser access, review Task Manager, verify system performance, and test another website. |
+| Make necessary checks | Open the browser, check CPU, memory, disk, and network activity, and confirm browser response. |
+| Observe the results | Confirm whether the website or application opens normally. |
+| Repeat the process | If the issue remains, continue with further browser, network, or account checks. |
+| Document the changes | Record the troubleshooting steps and result in the ticket note. |
 
-## Example Scenario: Browser-Based Application Access Issue - MINDENT EZALATT ELLENÖRIZNI
-
-### Situation
-
-A user reports that they cannot access a browser-based work application during working hours.
-
-### Questions Asked
+## Questions Asked
 
 - What exactly happens when you try to access the browser-based application?
 - Do you receive an error message?
@@ -105,30 +95,39 @@ A user reports that they cannot access a browser-based work application during w
 - Is the issue happening in one browser only or in multiple browsers?
 - May I start a remote support session to check the issue with you?
 
-### Remote Support Steps
+## Remote Support Steps
 
-1. Confirm the issue with the user.
-2. Ask for permission before starting remote access.
-3. Explain each action before making changes.
-4. Check whether the browser is already running in Task Manager.
-5. Close the stuck browser process if needed.
-6. Restart the browser.
-7. Test basic network connectivity.
-8. Try opening the browser-based application again.
-9. Test another website to compare whether the issue affects only one application or general web access.
-10. Confirm the result together with the user.
+1. Confirmed the issue with the user.
+2. Asked for permission before starting remote access.
+3. Started a remote support session from the support technician device.
+4. User entered the session code and waited for the session to start.
+5. Support technician started the session.
+6. Confirmed that the remote desktop of the user device was visible.
+7. Opened a browser-based test page.
+8. Opened Task Manager on the user device.
+9. Checked memory usage.
+10. Checked disk activity.
+11. Confirmed that the device responded normally.
+12. Confirmed that the browser-based page opened successfully.
+13. Demonstrated that both the user and the support technician can end the remote session.
+14. Closed the session safely.
+15. Documented the result.
 
-### Possible Root Cause
+## Possible Root Cause
 
-The browser process may have been stuck in the background, the browser session may have needed a restart, or the issue may have been related to basic connectivity or browser state.
+The browser session may have needed a restart, the browser process may have been stuck, or the issue may have been related to temporary browser state or basic system performance.
 
-### Resolution
+In this simulation, the browser-based test page opened successfully and Task Manager showed normal memory and disk activity during the remote session.
 
-The browser was closed fully through Task Manager and restarted. After checking basic system status and connectivity, the browser-based application opened successfully again.
+## Resolution
 
-### Verification
+The user device was accessed remotely with permission. Browser access was tested, and Task Manager was used to review basic system performance.
 
-The user confirmed that the browser-based application opened successfully and they could continue working.
+The browser-based page opened successfully, and no high disk or memory usage was observed during the check.
+
+## Verification
+
+The user confirmed that the browser-based page opened successfully and the device responded normally after the remote support check.
 
 ## Ticket Documentation Example
 
@@ -137,22 +136,25 @@ Issue:
 User reported that a browser-based work application could not be accessed.
 
 Affected device:
-Computer 3
+Computer 3 / K3 user device
 
 Troubleshooting steps:
 - Confirmed the issue with the user.
 - Asked for permission to start a remote support session.
-- Connected through TeamViewer.
-- Checked whether the browser was already running in Task Manager.
-- Closed the stuck browser process if needed.
-- Restarted the browser.
-- Tested basic network connectivity.
-- Tried opening the browser-based application again.
-- Tested another website to compare whether the issue affected only one application or general web access.
-- Verified that the browser-based application opened successfully.
+- Started a TeamViewer remote support session.
+- User entered the session code and waited for the supporter to start the session.
+- Connected to the user device remotely.
+- Opened a browser-based test page.
+- Opened Task Manager on the user device.
+- Checked memory usage.
+- Checked disk activity.
+- Confirmed that system performance appeared normal during the session.
+- Confirmed that browser access worked.
+- Ended the remote session safely.
+- Documented the support process.
 
 Resolution:
-Browser was restarted successfully after closing the stuck background process. Basic connectivity was checked, and the browser-based application opened successfully again.
+Remote access was established successfully. Browser access was tested, and basic system performance was checked through Task Manager. The browser-based page opened successfully, and no abnormal disk or memory usage was observed during the check.
 
 Status:
 Resolved
@@ -163,56 +165,58 @@ Not required.
 
 ## Screenshots
 
-Screenshots will be added.
+### TeamViewer Remote Support Session
 
-### Planned screenshots
+| Step | Screenshot |
+|---|---|
+| Supporter starts a new remote support session | <img src="screenshots/teamviewer/01-teamviewer-supporter-new-session.png" width="500"> |
+| Supporter generates the session code | <img src="screenshots/teamviewer/02-teamviewer-supporter-session-code.png" width="500"> |
+| User enters the session code | <img src="screenshots/teamviewer/03-teamviewer-user-enters-session-code.png" width="500"> |
+| User waits for the supporter to start the session | <img src="screenshots/teamviewer/04-teamviewer-user-waiting-for-session-start.png" width="500"> |
+| Supporter starts the session | <img src="screenshots/teamviewer/05-teamviewer-supporter-starts-session.png" width="500"> |
+| User sees the active session | <img src="screenshots/teamviewer/06-teamviewer-user-session-active.png" width="500"> |
+| Supporter views the remote desktop | <img src="screenshots/teamviewer/07-teamviewer-supporter-remote-desktop-view.png" width="500"> |
+| Browser access check | <img src="screenshots/teamviewer/08-teamviewer-browser-access-check.png" width="500"> |
+| Task Manager memory check | <img src="screenshots/teamviewer/09-teamviewer-task-manager-memory-check.png" width="500"> |
+| Task Manager disk check | <img src="screenshots/teamviewer/10-teamviewer-supporter-task-manager-disk-check.png" width="500"> |
+| User has the option to close the session | <img src="screenshots/teamviewer/11-teamviewer-user-close-session-option.png" width="500"> |
+| Supporter can also end the session | <img src="screenshots/teamviewer/12-teamviewer-supporter-ends-session.png" width="500"> |
+| User confirms session closing | <img src="screenshots/teamviewer/13-teamviewer-user-close-session-confirmation.png" width="500"> |
+| Supporter device overview after the session | <img src="screenshots/teamviewer/14-teamviewer-supporter-managed-device-overview.png" width="500"> |
 
-- TeamViewer connection preparation
-- User consent / session start
-- Remote desktop view of Computer 3
-- Task Manager check on the user device
-- Browser-based application test
-- Final documentation or ticket note
+### AnyDesk Remote Support Session
 
-### TeamViewer connection preparation
-
-<img src="screenshots/01-teamviewer-connection-preparation.png" width="500">
-
-### User consent / session start
-
-<img src="screenshots/02-user-consent-session-start.png" width="500">
-
-### Remote desktop view of Computer 3
-
-<img src="screenshots/03-remote-desktop-view.png" width="500">
-
-### Task Manager check on the user device
-
-<img src="screenshots/04-task-manager-check.png" width="500">
-
-### Browser-based application test
-
-<img src="screenshots/05-browser-based-application-test.png" width="500">
-
-### Ticket note example
-
-<img src="screenshots/06-ticket-note-example.png" width="500">
+| Step | Screenshot |
+|---|---|
+| AnyDesk download page | <img src="screenshots/anydesk/01-anydesk-download-page.png" width="500"> |
+| Supporter enters the user address | <img src="screenshots/anydesk/02-anydesk-supporter-enters-user-address.png" width="500"> |
+| Supporter sends connection request | <img src="screenshots/anydesk/03-anydesk-supporter-connection-request.png" width="500"> |
+| User accepts the session request | <img src="screenshots/anydesk/04-anydesk-user-accepts-session-request.png" width="500"> |
+| AnyDesk session started | <img src="screenshots/anydesk/05-anydesk-session-started.png" width="500"> |
+| Supporter views the remote desktop | <img src="screenshots/anydesk/06-anydesk-supporter-remote-desktop-view.png" width="500"> |
+| Basic security or system check | <img src="screenshots/anydesk/07-anydesk-security-check.png" width="500"> |
+| Session closed | <img src="screenshots/anydesk/08-anydesk-session-closed.png" width="500"> |
+| Supporter returns to AnyDesk download page | <img src="screenshots/anydesk/09-anydesk-supporter-download-page.png" width="500"> |
 
 ## Skills Demonstrated
 
-- Remote support
-- User communication
+- Remote support tool setup
+- Remote support session handling
 - Permission-based remote access
-- Initial problem analysis
-- Structured troubleshooting process
-- Windows basic troubleshooting
-- Task Manager usage
-- Browser-based application troubleshooting
-- Basic connectivity checking
-- Ticket documentation
-- Customer service
-- Escalation awareness
+- User consent confirmation
+- TeamViewer remote session workflow
+- AnyDesk remote session workflow
+- Supporter vs. user device role awareness
+- Remote desktop access verification
+- Browser access check on a remote device
+- CPU, memory, and disk activity review
+- Safe session closing from the user side
+- Safe session closing from the supporter side
 
 ## Notes
 
-This project is a simulation created for portfolio purposes. It demonstrates the support process, communication style, documentation logic, and basic remote troubleshooting steps used in first-level IT support.
+This project documents the workflow of two remote support tools: TeamViewer and AnyDesk.
+
+The focus is on remote session setup, user consent, supporter/user device roles, session closing.
+
+The lab also helped clarify practical workflow differences between TeamViewer and AnyDesk.
