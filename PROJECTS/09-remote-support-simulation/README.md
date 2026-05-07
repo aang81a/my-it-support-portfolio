@@ -111,17 +111,6 @@ For AnyDesk, the correct workflow in this lab was to enter the user device addre
 14. Closed the session safely.
 15. Documented the result.
 
-## Remote Support Security Rules
-
-A serious remote support process should include:
-
-- Use only approved remote support tools.
-- Download tools only from official websites.
-- Confirm user consent before starting the session.
-- Allow the user to see what the supporter is doing.
-- Do not ask the user to share passwords.
-- Close the remote session after support is completed.
-
 ## Screenshots
 
 ### TeamViewer Remote Support Session
