@@ -57,15 +57,15 @@ I focus on delivering high-quality user support by combining technical troublesh
 
 ---
 
-### Featured portfolio
-- [IT Support Portfolio](https://github.com/YOUR-USERNAME/it-support-portfolio)
-
 ## 🛠️ What I Bring to the Team 
 
 - **Core Support:** Troubleshooting Windows, M365 (Office), and basic networking. 
 - **Professional Tools:** Experience with ticketing systems (Spicework/Jira/Zendesk) and remote support tools (TeamViewer/AnyDesk). 
 - **Continuous Learner:** Currently building a portfolio of hands-on projects to stay sharp and deliver high-quality support. 
-  
+
+### Featured portfolio
+- [IT Support Portfolio](https://github.com/YOUR-USERNAME/it-support-portfolio)
+
 ---
 
 ## 📫 **Let's connect!** 
