@@ -10,8 +10,6 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ![Skill](https://img.shields.io/badge/Skill-Hardware-orange)
 
-![Skill](https://img.shields.io/badge/Skill-Networking-lightgrey)
-
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
 
 ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)
@@ -37,7 +35,7 @@ Microsoft 365
 
 ### What I am learning
 - Active Directory Labs: Managing users, groups, and password resets (IAM).
-- Networking: Troubleshooting connectivity (DNS, DHCP, VPN).
+- ![Skill](https://img.shields.io/badge/Skill-Networking-lightgrey): Troubleshooting connectivity (DNS, DHCP, VPN).
 - Microsoft 365: Administering users and shared resources in a cloud environment.
 - Troubleshooting: Documenting "Case Studies" to build a knowledge base.
 
