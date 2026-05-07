@@ -1,3 +1,5 @@
+case-01-no-network-access (similar to case-04).md
+
 NOTE:
 
 Automatic Private IP Addressing.
