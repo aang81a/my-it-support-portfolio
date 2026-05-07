@@ -25,6 +25,8 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ![Microsoft 365](https://img.shields.io/badge/Tool-Microsoft%20365-D83B01?logo=microsoft365&logoColor=white)
 
+![Active Directory](https://img.shields.io/badge/Tool-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
+
 ---
 
 ## 🌟 My Approach to Support 
@@ -34,7 +36,7 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 - **Proactive Problem Solving:** I'm always looking for ways to streamline repetitive tasks so I can spend more time helping people with complex issues.
 
 ### What I am learning
-- ![Active Directory](https://img.shields.io/badge/Active%20Directory-Identity%20Management-0078D4?logo=microsoft&logoColor=white), ![Active Directory](https://img.shields.io/badge/Tool-Active%20Directory-0078D4?logo=microsoft&logoColor=white) Managing users, groups, and password resets (IAM).
+- ![Active Directory](https://img.shields.io/badge/Active%20Directory-Identity%20Management-0078D4?logo=microsoft&logoColor=white) Managing users, groups, and password resets (IAM).
 - ![Skill](https://img.shields.io/badge/Skill-Networking-lightgrey) Troubleshooting connectivity (DNS, DHCP, VPN).
 - ![Microsoft 365](https://img.shields.io/badge/Microsoft%20365-Office%20Apps-D83B01?logo=microsoft365&logoColor=white) Administering users and shared resources in a cloud environment.
 - ![Skill](https://img.shields.io/badge/Skill-Troubleshooting-blue) Documenting "Case Studies" to build a knowledge base.
