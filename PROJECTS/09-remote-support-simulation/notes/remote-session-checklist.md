@@ -63,6 +63,13 @@ It is intended for first-level IT support situations where a supporter connects 
 - [ ] Add the correct ticket category or tag, if a ticketing system is used.
 - [ ] Do not keep passwords, session codes, temporary files, or unnecessary sensitive user information after the session.
 
+| Field | Details |
+|---|---|
+| Final status | Resolved / Partially resolved / Pending / Escalated |
+| User confirmed result | Yes / No |
+| Escalation required | Yes / No |
+| Escalation reason |  |
+
 ---
 
 ## Security and Privacy Check
