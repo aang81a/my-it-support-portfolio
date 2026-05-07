@@ -4,21 +4,6 @@
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
 ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)
 
-![Tool](https://img.shields.io/badge/Tool-TeamViewer-9cf)
-![Tool](https://img.shields.io/badge/Tool-AnyDesk-9cf)
-
-
-![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
-
-
-![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
-
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
-![Windows](https://img.shields.io/badge/OS-Windows-0078D4?logo=windows&logoColor=white)
-
-![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
-
 ## Overview
 
 This project documents the workflow of two access tools: TeamViewer and AnyDesk.
