@@ -32,10 +32,6 @@ Committed to high documentation standards and helping teams maintain efficient w
 - Writing troubleshooting case studies
 - Learning ticketing with Spiceworks
 
-### 🌍 Languages & Location
-Languages: German (B2), English (Professional).
-Based in: Zürich, Switzerland.
-
 ---
 
 ## 🛠️ What I Bring to the Team 
@@ -46,6 +42,10 @@ Based in: Zürich, Switzerland.
   
 ---
 
-📫 **Let's connect!** 
+## 📫 **Let's connect!** 
 
 I am looking for an entry-level opportunity in a Swiss-based IT support team where I can grow and contribute.
+
+### 🌍 Languages & Location
+Languages: German (B2), English (Professional).
+Based in: Zürich, Switzerland.
