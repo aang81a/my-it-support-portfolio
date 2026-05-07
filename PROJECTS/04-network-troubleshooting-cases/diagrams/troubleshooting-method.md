@@ -1,16 +1,21 @@
 ## Troubleshooting Method
 
-This flowchart represents a structured approach to IT support troubleshooting,
-based on best practices from Cisco IT Customer Support training.
+This flowchart represents the structured approach used in this network troubleshooting case.
 
 ```mermaid
 flowchart LR
-A[User reports issue] --> B[Gather information]
-B --> C[Check basics]
-C --> D[Identify root cause]
-D --> E[Apply solution]
-E --> F[Test solution]
-F --> G[Document case]
+A[User reports network issue] --> B[Gather information]
+B --> C[Check current IP configuration]
+C --> D{Static or incorrect IP settings?}
+D -->|Yes| E[Restore DHCP / automatic configuration]
+D -->|No| F[Continue connectivity checks]
+E --> G[Release and renew IP configuration]
+F --> G
+G --> H[Test gateway connectivity]
+H --> I[Test external IP connectivity]
+I --> J[Test DNS / name resolution]
+J --> K[Compare network behaviour]
+K --> L[Document findings and resolution]
 ```
 
 ### Key Steps Explained
