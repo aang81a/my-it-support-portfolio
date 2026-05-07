@@ -140,11 +140,10 @@ For AnyDesk, the correct workflow in this lab was to enter the user device addre
 | Supporter enters the user address | <img src="screenshots/anydesk/02-anydesk-supporter-enters-user-address.png" width="500"> |
 | Supporter sends connection request | <img src="screenshots/anydesk/03-anydesk-supporter-connection-request.png" width="500"> |
 | User accepts the session request | <img src="screenshots/anydesk/04-anydesk-user-accepts-session-request.png" width="500"> |
-| AnyDesk session started | <img src="screenshots/anydesk/05-anydesk-session-started.png" width="500"> |
-| Supporter views the remote desktop | <img src="screenshots/anydesk/06-anydesk-supporter-remote-desktop-view.png" width="500"> |
-| Basic security or system check | <img src="screenshots/anydesk/07-anydesk-security-check.png" width="500"> |
-| Session closed | <img src="screenshots/anydesk/08-anydesk-session-closed.png" width="500"> |
-| Supporter returns to AnyDesk download page | <img src="screenshots/anydesk/09-anydesk-supporter-download-page.png" width="500"> |
+| AnyDesk session started | <img src="screenshots/anydesk/05-anydesk-session-started-user-side.png" width="500"> |
+| Supporter views the remote desktop | <img src="screenshots/anydesk/06-anydesk-supporter-controls-user-device.png" width="500"> |
+| Basic security or system check | <img src="screenshots/anydesk/07-anydesk-user-disconnects-session.png" width="500"> |
+| Session closed | <img src="screenshots/anydesk/08-anydesk-session-closed-supporter-side.png" width="500"> |
 
 ## Skills Demonstrated
 
