@@ -17,11 +17,11 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white) 
 ![Tool](https://img.shields.io/badge/Tool-Command%20Prompt-black?logo=windows-terminal&logoColor=white) 
-![Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue) 
+![Command](https://img.shields.io/badge/Command-ipconfig-lightgrey)
+![Command](https://img.shields.io/badge/Command-ping-lightgrey) 
 
 ![Skill](https://img.shields.io/badge/Skill-Networking-lightgrey)
-![Command](https://img.shields.io/badge/Command-ipconfig-lightgrey)
-![Command](https://img.shields.io/badge/Command-ping-lightgrey)
+![Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue)
 ![Skill](https://img.shields.io/badge/Skill-DNS%20Testing-blue)
 ![Skill](https://img.shields.io/badge/Skill-Gateway%20Testing-blue)
 ![Skill](https://img.shields.io/badge/Skill-Wi--Fi%20%7C%20Ethernet%20%7C%20Hotspot-blueviolet)
