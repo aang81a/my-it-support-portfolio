@@ -63,7 +63,7 @@ cél:
 | [07 Home Lab Documentation: Legacy Storage Troubleshooting and Backup](./PROJECTS/07-home-lab-documentation/hardware-cases/legacy-storage-troubleshooting-and-backup/) | IDE/PATA and SATA storage troubleshooting, BIOS detection, boot issue analysis, data protection and backup workflow |
 | [06 Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/) | User-facing guides for non-technical users and internal support notes for IT support tasks.|
 | [09 Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/) | The differences between TeamViewer and AnyDesk |
-| [12 L1 Support Diagnostic Tool](./PROJECTS/12-powershell-automation-lab/) | A PowerShell utility designed to simplify the initial triage process. Collects critical system info (Network, BIOS, OS) into a standardized report to help 1st Level technicians resolve issues faster. |
+| [12 Powershell Automation Lab: L1 Support Diagnostic Tool](./PROJECTS/12-powershell-automation-lab/) | A PowerShell utility designed to simplify the initial triage process. Collects critical system info (Network, BIOS, OS) into a standardized report to help 1st Level technicians resolve issues faster. |
 
 
 ## In Progress / Planned Projects
