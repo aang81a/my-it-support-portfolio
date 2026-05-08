@@ -61,7 +61,7 @@ I focus on delivering high-quality user support by combining technical troublesh
 - Writing troubleshooting case studies
 - Learning ticketing with Spiceworks
 
-- Certifications ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+- [Certifications](CERTIFICATIONS.md) ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
   - Feb 2026 – present | IT Support Specialist Career Path | Cisco Networking Academy
   - Nov 2025 – present | Microsoft IT Support Specialist Professional Certificate | Microsoft via Coursera
