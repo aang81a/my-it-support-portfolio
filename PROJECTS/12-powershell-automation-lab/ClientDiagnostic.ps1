@@ -1,7 +1,7 @@
-==========================================================
+# ==========================================================
 # Script: ClientDiagnostic.ps1
 # Purpose: Gathers system info for L1 Support Triage
-==========================================================
+# ==========================================================
 
 Write-Host "Gathering System Information... Please wait." -ForegroundColor Cyan
 
