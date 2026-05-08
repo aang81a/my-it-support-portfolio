@@ -113,7 +113,8 @@ The Result: "A standardized text report that can be attached directly to a ticke
 
 ---
 
-for me: ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+# for me:
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 ### The workflow
 
