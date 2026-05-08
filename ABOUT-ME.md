@@ -9,7 +9,7 @@ I am a service-oriented IT professional dedicated to helping users solve their t
 
 My goal is to make technology accessible and stress-free for everyone in the workplace. 
 
-### 💡 With hands-on experience in:
+### ⚙ With hands-on experience in:
 
 ![Skill](https://img.shields.io/badge/Skill-Hardware-orange)
 
@@ -46,7 +46,7 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 - ![Focus](https://img.shields.io/badge/Focus-Network%20Troubleshooting-blue) ![Documentation](https://img.shields.io/badge/Documentation-Portfolio-blueviolet) Documenting "Case Studies" to build a knowledge base.
 - ![Skill](https://img.shields.io/badge/Skill-Ticketing-green) ![Tool](https://img.shields.io/badge/Tool-Spiceworks_(ITSM)-orange)
 
-### 🧭 ⚙ Current focus
+### 🧭 Current focus
 
 I focus on delivering high-quality user support by combining technical troubleshooting with clear, professional communication. 
 
@@ -57,7 +57,7 @@ I focus on delivering high-quality user support by combining technical troublesh
 
 ---
 
-## 🧩 What I Bring to the Team 🔗
+## 🧩 What I Bring to the Team 
 
 - **Core Support:** Troubleshooting Windows, M365 (Office), and basic networking. 
 - **Professional Tools:** Experience with ticketing systems (Spicework/Jira/Zendesk) and remote support tools (TeamViewer/AnyDesk). 
@@ -68,7 +68,7 @@ I focus on delivering high-quality user support by combining technical troublesh
 
 ---
 
-## 🔌 **Let's connect!** 
+## 🔌 **Let's connect!** 🔗
 
 I am looking for an entry-level opportunity in a Swiss-based IT support team where I can grow and contribute.
 
