@@ -76,6 +76,8 @@ https://www.google.com
 
 If one website does not open, try a second website.
 
+---
+
 ## Step 4 – Restart the Computer
 
 Restarting the computer can fix temporary network or browser problems.
@@ -86,6 +88,8 @@ Restarting the computer can fix temporary network or browser problems.
 4. Select Restart.
 5. After restart, try connecting to the internet again.
 
+---
+
 ## Step 5 – Check Airplane Mode
 
 1. Open Settings.
@@ -93,6 +97,8 @@ Restarting the computer can fix temporary network or browser problems.
 3. Check whether Airplane mode is turned off.
 
 Airplane mode must be off for Wi-Fi and network connections to work.
+
+---
 
 ## Step 6 – Forget and Reconnect to Wi-Fi
 
@@ -107,6 +113,8 @@ Use this step only if Wi-Fi keeps failing.
 7. Reconnect to the Wi-Fi network.
 8. Enter the Wi-Fi password again if required.
 
+---
+
 ## Step 7 – Check if the Issue Affects Only One Device
 
 Try to answer these questions:
@@ -118,6 +126,8 @@ Try to answer these questions:
 
 This helps IT support understand whether the issue is on one device or on the network.
 
+---
+
 ## When to Contact IT Support
 
 Contact IT support if:
@@ -128,6 +138,8 @@ Contact IT support if:
 - other users are also affected
 - you see an error message you do not understand
 - you need access to company VPN, shared drives, or internal systems
+
+---
 
 ## Information to Give IT Support
 
