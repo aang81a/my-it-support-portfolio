@@ -64,7 +64,6 @@ cél:
 | [Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/) | User-facing guides for non-technical users and internal support notes for IT support tasks.|
 [L1 Support Diagnostic Tool](./PROJECTS/12-l1-support-diagnostic-tool/) | A PowerShell utility designed to simplify the initial triage process. Collects critical system info (Network, BIOS, OS) into a standardized report to help 1st Level technicians resolve issues faster. |
 
-
 ## In Progress / Planned Projects
 
 - [Active Directory Lab](./PROJECTS/01-active-directory-lab/)
