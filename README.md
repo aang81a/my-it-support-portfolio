@@ -59,7 +59,7 @@ cél:
 |---|---|
 | [04 Network Troubleshooting Cases](./PROJECTS/04-network-troubleshooting-cases/) | IPv4 misconfiguration, DHCP restore, `ipconfig`, `ping`, Ethernet vs Wi-Fi vs mobile hotspot comparison |
 | [07 Home Lab Documentation: Lab Inventory](./PROJECTS/07-home-lab-documentation/lab-inventory.md) | Lab inventory, hardware documentation, storage devices, backup systems, practical IT support environment |
-| [07 Home Lab Documentation: Computer3 RAM Upgrade](./PROJECTS/07-home-lab-documentation/hardware-cases/computer-3-ram-upgrade/) | RAM compatibility check, SO-DIMM installation, 8GB to 16GB upgrade, Windows verification |
+| [07 Home Lab Documentation: Computer3 RAM Upgrade](./PROJECTS/07-home-lab-documentation/hardware-cases/computer-3-ram-upgrade/) | RAM compatibility check, SO-DIMM installation, 8GB to 16GB upgrade |
 | [07 Home Lab Documentation: Legacy Storage Troubleshooting and Backup](./PROJECTS/07-home-lab-documentation/hardware-cases/legacy-storage-troubleshooting-and-backup/) | IDE/PATA and SATA storage troubleshooting, BIOS detection, boot issue analysis, data protection and backup workflow |
 | [06 Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/) | User-facing guides for non-technical users and internal support notes for IT support tasks.|
 | [09 Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/) | The differences between TeamViewer and AnyDesk |
