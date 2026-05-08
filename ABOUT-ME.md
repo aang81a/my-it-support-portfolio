@@ -72,6 +72,6 @@ I focus on delivering high-quality user support by combining technical troublesh
 
 I am looking for an entry-level opportunity in a Swiss-based IT support team where I can grow and contribute.
 
-### 🌍 🌍 Languages & Location
+### 🌍 Languages & Location
 - Languages: German (B2), English (Professional).
 - Based in: Zürich, Switzerland.
