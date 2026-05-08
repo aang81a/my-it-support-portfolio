@@ -111,6 +111,10 @@ How I solved it: "I developed a small PowerShell utility that users can run with
 
 The Result: "A standardized text report that can be attached directly to a ticketing system (like Spiceworks or Jira)."
 
+---
+
+for me: ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+
 ### The workflow
 
 - Preparation: I identified that manual data collection slows down remote sessions.
@@ -118,7 +122,7 @@ The Result: "A standardized text report that can be attached directly to a ticke
 - Deployment: I converted the script into a .bat or shortcut that a user can run without needing admin rights.
 - Result: This saves the technician ~3-5 minutes per call and ensures the documentation (Ticket) has 100% accurate system details.
 
- Portfolio Note: Explain that the Run-Diagnostics.bat allows non-technical users to run diagnostics without knowing how to open a terminal.
+### Portfolio Note: Explain that the Run-Diagnostics.bat allows non-technical users to run diagnostics without knowing how to open a terminal.
 
 ### To make this "Gold," I thought about Security & Execution Policy.
 - The Problem: By default, Windows blocks PowerShell scripts.
@@ -131,3 +135,12 @@ The Result: "A standardized text report that can be attached directly to a ticke
 - Screenshot of the Output: Show the green text in the blue PowerShell window.
 - Screenshot of the .txt file: Show the result on a desktop.
 - Pro Tip: If you put this on GitHub, mention in your CV: "Familiar with Git/GitHub for version control of support scripts."
+
+### To make this project truly "gold," include these additional pieces of evidence: [[1](https://www.youtube.com/watch?v=GfVgpKWDMAI)]
+
+1. **The "Business Value" Write-up:** On your portfolio website or LinkedIn, write a short paragraph explaining the _impact_. For example: _"By automating the system info collection, I estimate a 40% reduction in the first 5 minutes of a typical support call."_
+2. **Standard Operating Procedure (SOP):** Include a short, one-page PDF guide for a fellow technician on how to update the script if the company gets new hardware.
+3. **Version History (Changelog):** Show that you maintain the tool.
+    - _v1.0:_ Initial release.
+    - _v1.1:_ Added "Last Reboot Time" because users often say they rebooted when they only turned the monitor off. (This shows you understand real-world user behavior!)
+4. **GitHub Badges:** Add badges for "License: MIT" or "PowerShell: 5.1+" at the top of your README for a polished, professional look. 
