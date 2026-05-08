@@ -10,6 +10,9 @@ A professional PowerShell tool designed for IT support to instantly collect cruc
 ---
 
 ## 📖 Project Overview
+
+- A PowerShell tool for 1st Level Support to gather system metadata (IP, Serial, Uptime) instantly.
+
 This project provides a PowerShell-based diagnostic tool designed to streamline 1st-level IT support triage. By allowing non-technical users to generate a comprehensive system report with a single click, it significantly reduces initial troubleshooting time and ensures data accuracy in support tickets.
 
 ---
@@ -20,6 +23,9 @@ The primary goal of this tool is to **optimize triage efficiency**. By automatin
 ---
 
 ## ❓ The Problem
+
+- Users often don't know how to find their IP or Serial Number, leading to long "triage" times.
+
 In 1st-level support, valuable time is often lost guiding users through manual steps to find critical information like:
 - IPv4 Addresses
 - Hardware Serial Numbers (for warranty/asset tracking)
@@ -28,6 +34,9 @@ In 1st-level support, valuable time is often lost guiding users through manual s
 ---
 
 ## ✅ The Solution
+
+A script that outputs a clean diagnostic report to the console and saves a .txt file to the user's desktop.
+
 A lightweight PowerShell script bundled with a batch file launcher that:
 1.  **Bypasses Windows Execution Policies** to run on standard user accounts.
 2.  **Collects real-time data** via CIM/WMI instances.
@@ -39,6 +48,11 @@ A lightweight PowerShell script bundled with a batch file launcher that:
 - **Zero-Install:** Runs directly from a folder or USB drive.
 - **Automated Export:** Saves a `TechSupport_Info.txt` to the user's desktop for easy emailing.
 - **Technician-Focused Data:** Includes last boot time, serial number, and network details.
+
+Key Features:
+- Bypasses Execution Policy (so it actually runs).
+- No Admin rights required for basic info.
+- Automated file export for easy emailing to the Helpdesk.
 
 ---
 
@@ -64,6 +78,12 @@ A lightweight PowerShell script bundled with a batch file launcher that:
 ---
 
 ## 📸 Screenshots
+
+
+1. Run your script on your own computer.
+2. Take a clean screenshot of the result window.
+3. Upload that image to your GitHub repo and link it in the `README.md`.
+
 ![Diagnostic Output Example](12-powershell-automation-lab/screenshots
 /01.png)
 
@@ -75,6 +95,11 @@ A lightweight PowerShell script bundled with a batch file launcher that:
 - **Automation:** PowerShell scripting and batch automation.
 - **System Administration:** Interfacing with Windows system objects (WMI/CIM).
 - **ITSM Efficiency:** Focus on reducing Mean-Time-To-Resolution (MTTR).
+
+- PowerShell Scripting: Variables, Objects, and System Cmdlets (Get-CimInstance).
+- Windows Administration: Environment variables and file system paths.
+- User Experience (UX): Creating a "One-Click" solution for non-tech users.
+- Version Control: Managed via GitHub.
 
 ---
 
@@ -92,6 +117,8 @@ The Result: "A standardized text report that can be attached directly to a ticke
 - Implementation: I developed a PowerShell script that pulls BIOS serial numbers, network data, and system uptime.
 - Deployment: I converted the script into a .bat or shortcut that a user can run without needing admin rights.
 - Result: This saves the technician ~3-5 minutes per call and ensures the documentation (Ticket) has 100% accurate system details.
+
+ Portfolio Note: Explain that the Run-Diagnostics.bat allows non-technical users to run diagnostics without knowing how to open a terminal.
 
 ### To make this "Gold," I thought about Security & Execution Policy.
 - The Problem: By default, Windows blocks PowerShell scripts.
