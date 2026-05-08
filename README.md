@@ -9,6 +9,9 @@ This portfolio documents practical home lab projects, Windows and network troubl
 ## About Me
 IT Support Specialist currently building hands-on skills through Microsoft IT Support Professional and Cisco IT Support Professional coursework.
 
+#### Certifications:
+
+[Certifications](./PROJECTS/CERTIFICATIONS.md)
 ---
 
 ## 🛠 Support skills ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
