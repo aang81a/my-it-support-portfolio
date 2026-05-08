@@ -11,7 +11,8 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 
 #### Certifications:
 
-[Certifications](my-it-support-portfolio/CERTIFICATIONS.md)
+[Certifications](CERTIFICATIONS.md)
+
 ---
 
 ## 🛠 Support skills ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
