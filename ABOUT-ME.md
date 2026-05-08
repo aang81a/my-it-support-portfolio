@@ -95,7 +95,8 @@ I focus on delivering high-quality user support by combining technical troublesh
 ---
 
 ## 🧺 Featured portfolio
-- [IT Support Portfolio](https://github.com/YOUR-USERNAME/it-support-portfolio)
+
+- [IT Support Portfolio](https://github.com/aang81a/my-it-support-portfolio)
 
 ---
 
