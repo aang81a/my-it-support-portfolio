@@ -5,12 +5,6 @@
 
 **PowerShell-based system information collection for first-level IT support triage.**
 
-**One-click system metadata collection for IT Service Desk efficiency.**
-
-
-# 🚀 L1 Support Diagnostic Tool
-**One-click system metadata collection for IT Service Desk efficiency.**
-
 A professional PowerShell tool designed for IT support to instantly collect crucial system data and save time during triage. The script gathers information like computer name, IP address, disk space, and OS version, saving it to a file on the user's desktop.
 
 ---
@@ -101,8 +95,14 @@ The Result: "A standardized text report that can be attached directly to a ticke
 - Deployment: I converted the script into a .bat or shortcut that a user can run without needing admin rights.
 - Result: This saves the technician ~3-5 minutes per call and ensures the documentation (Ticket) has 100% accurate system details.
 
-To make this "Gold," I thought about Security & Execution Policy.
+### To make this "Gold," I thought about Security & Execution Policy.
 - The Problem: By default, Windows blocks PowerShell scripts.
 - The Pro Solution: I would run the script using this bypass command:
 
 `PowerShell.exe -ExecutionPolicy Bypass -File .\Get-Info.ps1`
+
+### What to put in your Portfolio (Visuals):
+- Screenshot of the Code: Use a "Dark Mode" editor like VS Code (it looks professional).
+- Screenshot of the Output: Show the green text in the blue PowerShell window.
+- Screenshot of the .txt file: Show the result on a desktop.
+- Pro Tip: If you put this on GitHub, mention in your CV: "Familiar with Git/GitHub for version control of support scripts."
