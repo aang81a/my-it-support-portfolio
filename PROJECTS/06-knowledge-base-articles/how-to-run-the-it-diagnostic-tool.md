@@ -1,3 +1,18 @@
+➡️ How to present this in your PortfolioLayout: 
+
+Use a tool like Canva or Microsoft Word to make this look like a real corporate document. 
+
+Add a fake company logo (e.g., "SwissTech Solutions") at the top.
+
+Visuals: Add actual screenshots of the "Windows protected your PC" screen and the final .txt file on the desktop.
+
+The "Sell": 
+
+In your portfolio, explain: "I created this KB article to reduce user anxiety and ensure that the diagnostic process is clear and accessible for employees of all technical levels."
+
+----------
+------
+
 ## How to Run the IT Diagnostic Tool
 
 Article ID: KB-1001  
