@@ -3,6 +3,8 @@
 ![Windows](https://img.shields.io/badge/OS-Windows-0078D4?logo=windows&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
 
+PowerShell-based system information collection for first-level IT support triage.
+
 # 🚀 L1 Support Diagnostic Tool
 **One-click system metadata collection for IT Service Desk efficiency.**
 
