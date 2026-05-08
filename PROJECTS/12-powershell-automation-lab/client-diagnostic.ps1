@@ -1,5 +1,5 @@
 # ==========================================================
-# Script: ClientDiagnostic.ps1
+# Script: client-diagnostic.ps1
 # Purpose: Gathers system info for L1 Support Triage
 # ==========================================================
 
@@ -20,7 +20,9 @@ $Results = [PSCustomObject]@{
 $Results | Out-String | Write-Host -ForegroundColor Green
 
 # Optional: Save to a text file on the Desktop for the user to send
-$Results | Out-File -FilePath "$env:USERPROFILE\Desktop\TechSupport_Info.txt"
+$Results | Out-String | Out-File -FilePath "$env:USERPROFILE\Desktop\TechSupport_Info.txt"
 
 Write-Host "Diagnostic complete. Info saved to your Desktop." -ForegroundColor Yellow
 Pause
+
+
