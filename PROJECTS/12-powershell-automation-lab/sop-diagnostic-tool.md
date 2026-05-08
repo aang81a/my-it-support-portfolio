@@ -16,7 +16,7 @@ This procedure applies to all 1st Level Support staff and Managed Service Provid
 
 3. Procedure: Running the Tool
 
-4. **Distribution:** Provide the user with the compressed `.zip` folder containing `Run-Diagnostics.bat` and `Get-Info.ps1`.
+4. **Distribution:** Provide the user with the compressed `.zip` folder containing `Run-Diagnostics.bat` and `ClientDiagnostic.ps1`.
 5. **Instruction:** Direct the user to extract the folder to their **Desktop**.
 6. **Execution:** Ask the user to double-click `Run-Diagnostics.bat`.
     - _Note:_ If a "Windows Protected your PC" popup appears, instruct the user to click "More Info" -> "Run anyway."
@@ -26,7 +26,7 @@ This procedure applies to all 1st Level Support staff and Managed Service Provid
 
 When new hardware is introduced or additional data points (e.g., VPN status) are required:
 
-1. **Test Environment:** Open `Get-Info.ps1` in VS Code on a test machine.
+1. **Test Environment:** Open `ClientDiagnostic.ps1` in VS Code on a test machine.
 2. **Modification:** Add the new property to the `$Results` hash table.
     - _Example:_ To add Disk Space, add: `"Disk Free" = (Get-PSDrive C).Free / 1GB`
 3. **Verification:** Run the script to ensure the `.txt` output remains readable.
