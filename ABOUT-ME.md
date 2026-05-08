@@ -11,7 +11,7 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ---
 
-### ⚙ With hands-on experience in:
+## ⚙ With hands-on experience in:
 
 ![Skill](https://img.shields.io/badge/Skill-Hardware-orange)
 
