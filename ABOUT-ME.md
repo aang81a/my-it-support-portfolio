@@ -46,7 +46,7 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 - ![Focus](https://img.shields.io/badge/Focus-Network%20Troubleshooting-blue) ![Documentation](https://img.shields.io/badge/Documentation-Portfolio-blueviolet) Documenting "Case Studies" to build a knowledge base.
 - ![Skill](https://img.shields.io/badge/Skill-Ticketing-green) ![Tool](https://img.shields.io/badge/Tool-Spiceworks_(ITSM)-orange)
 
-### 🧭 Current focus
+### 🪜 Current focus
 
 I focus on delivering high-quality user support by combining technical troubleshooting with clear, professional communication. 
 
