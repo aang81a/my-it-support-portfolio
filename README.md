@@ -68,9 +68,11 @@ cél:
 
 ## In Progress / Planned Projects
 
-- [Active Directory Lab](./PROJECTS/01-active-directory-lab/)
-- [Domain Join Client](./PROJECTS/02-domain-join-client/)
-- [User Accounts and Permissions](./PROJECTS/03-user-accounts-and-permissions/)
-- [Spiceworks Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/)
-- [Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/)
-- [Markdown Guides](./PROJECTS/08-markdown-guides/)
+- [01 Active Directory Lab](./PROJECTS/01-active-directory-lab/)
+- [02 Domain Join Client](./PROJECTS/02-domain-join-client/)
+- [03 User Accounts and Permissions](./PROJECTS/03-user-accounts-and-permissions/)
+- [05 Spiceworks Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/)
+- [06 Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/)
+- [08 Markdown Guides](./PROJECTS/08-markdown-guides/)
+- [10 Windows Admin Tasks](./PROJECTS/10-windows-admin-tasks/)
+- [11 Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
