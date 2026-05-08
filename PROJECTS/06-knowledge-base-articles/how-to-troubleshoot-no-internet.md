@@ -72,3 +72,81 @@ Then try opening a website again.
 
 ```text
 https://www.google.com
+```
+
+If one website does not open, try a second website.
+
+## Step 4 – Restart the Computer
+
+Restarting the computer can fix temporary network or browser problems.
+
+1. Save your work.
+2. Click Start.
+3. Click Power.
+4. Select Restart.
+5. After restart, try connecting to the internet again.
+
+## Step 5 – Check Airplane Mode
+
+1. Open Settings.
+2. Go to Network & Internet.
+3. Check whether Airplane mode is turned off.
+
+Airplane mode must be off for Wi-Fi and network connections to work.
+
+## Step 6 – Forget and Reconnect to Wi-Fi
+
+Use this step only if Wi-Fi keeps failing.
+
+1. Open Settings.
+2. Go to Network & Internet.
+3. Open Wi-Fi settings.
+4. Select Manage known networks.
+5. Select the Wi-Fi network.
+6. Click Forget.
+7. Reconnect to the Wi-Fi network.
+8. Enter the Wi-Fi password again if required.
+
+## Step 7 – Check if the Issue Affects Only One Device
+
+Try to answer these questions:
+
+- Does the internet work on your phone?
+- Does the internet work on another computer?
+- Are other users affected?
+- Does the issue happen only on Wi-Fi or also with Ethernet?
+
+This helps IT support understand whether the issue is on one device or on the network.
+
+## When to Contact IT Support
+
+Contact IT support if:
+
+- the internet still does not work after restarting the computer
+- Wi-Fi does not appear at all
+- the computer cannot connect to the company network
+- other users are also affected
+- you see an error message you do not understand
+- you need access to company VPN, shared drives, or internal systems
+
+## Information to Give IT Support
+
+When contacting IT support, include:
+
+- your device name, if known
+- whether you are using Wi-Fi or Ethernet
+- whether other websites work
+- whether other devices have internet
+- when the problem started
+- any error message shown on screen
+- steps you already tried
+
+Example message:
+
+```text
+Hello IT Support,
+
+I cannot access the internet on my computer. I am using Wi-Fi. Other websites do not load either. I already restarted the browser and restarted the computer, but the issue is still present.
+
+Thank you.
+```
