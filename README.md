@@ -68,6 +68,9 @@ cél:
 - [Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/)
 - [Home Lab Documentation](./PROJECTS/07-home-lab-documentation/)
 - [Markdown Guides](./PROJECTS/08-markdown-guides/)
+- [Markdown Guides](./PROJECTS/08-markdown-guides/)
+- [Markdown Guides](./PROJECTS/08-markdown-guides/)
+- [Markdown Guides](./PROJECTS/08-markdown-guides/)
 - [Powershell Automation Lab](./PROJECTS/12-powershell-automation-lab) - L1 Diagnostic Script & Automation. 🚀 *NEW*
 
 ## Completed Projects
