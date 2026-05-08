@@ -2,6 +2,8 @@
 
 # IT Support Portfolio
 
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+
 ## About Me
 IT Support Specialist currently building hands-on skills through Microsoft IT Support Professional and Cisco IT Support Professional coursework.
 
@@ -76,6 +78,7 @@ cél:
 | [Home Lab Documentation](./PROJECTS/07-home-lab-documentation/) | Lab inventory, hardware documentation, storage devices, backup systems, practical IT support environment |
 | [Computer 3 RAM Upgrade – HP All-in-One](./PROJECTS/07-home-lab-documentation/hardware-cases/computer-3-ram-upgrade/) | RAM compatibility check, SO-DIMM installation, 8GB to 16GB upgrade, Windows verification |
 | [Legacy Storage Troubleshooting and Backup](./PROJECTS/07-home-lab-documentation/hardware-cases/legacy-storage-troubleshooting-and-backup/) | IDE/PATA and SATA storage troubleshooting, BIOS detection, boot issue analysis, data protection and backup workflow |
+| [Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/) | User-facing guides for non-technical users and internal support notes for IT support tasks.|
 
 ## In Progress / Planned Projects
 
