@@ -68,9 +68,9 @@ cél:
 - [Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/)
 - [Home Lab Documentation](./PROJECTS/07-home-lab-documentation/)
 - [Markdown Guides](./PROJECTS/08-markdown-guides/)
-- [Markdown Guides](./PROJECTS/08-markdown-guides/)
-- [Markdown Guides](./PROJECTS/08-markdown-guides/)
-- [Markdown Guides](./PROJECTS/08-markdown-guides/)
+- [Remote Support Simulation Workflow](./PROJECTS/09-remote-support-simulation/)
+- [Windows Admin Tasks](./PROJECTS/10-windows-admin-tasks/)
+- [Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
 - [Powershell Automation Lab](./PROJECTS/12-powershell-automation-lab) - L1 Diagnostic Script & Automation. 🚀 *NEW*
 
 ## Completed Projects
