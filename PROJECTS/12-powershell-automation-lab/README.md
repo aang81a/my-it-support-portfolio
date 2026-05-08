@@ -17,6 +17,11 @@ This project provides a PowerShell-based diagnostic tool designed to streamline 
 
 ---
 
+### 🛠️ Technical Credits
+This project utilizes the [PS2EXE module](https://github.com) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format.
+
+---
+
 ## Project Goals
 The primary goal of this tool is to **optimize triage efficiency**. By automating the collection of system details (IP, Serial, Uptime), the technician can skip manual data entry. This is designed to **positively impact MTTR** (Mean Time to Resolution) by allowing the support session to begin with all necessary data already at hand.
 
@@ -88,6 +93,8 @@ KB User Guide (how-to-run-the-it-diagnostic-tool.md)
 
 ![Diagnostic Output Example](12-powershell-automation-lab/screenshots
 /01.png)
+
+![Final Success](./screenshots/04-final-success-validation.png).
 
 *(Pro Tip: Add a clear screenshot showing the green success text in the terminal)*
 
