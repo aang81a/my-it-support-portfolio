@@ -11,7 +11,7 @@ This portfolio documents practical home lab projects, Windows and network troubl
 
 ---
 
-## 🛠 Support skills
+## 🛠 Support skills ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 cél:
 - Spiceworks ticketing simulation
 - Active Directory
@@ -52,7 +52,7 @@ cél:
 - [Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
 - [Powershell Automation Lab](./PROJECTS/12-powershell-automation-lab) - L1 Diagnostic Script & Automation. 🚀 *NEW*
 
-## Completed Projects
+## Completed Projects ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 | Project | What it demonstrates |
 |---|---|
@@ -70,10 +70,3 @@ cél:
 - [Spiceworks Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/)
 - [Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/)
 - [Markdown Guides](./PROJECTS/08-markdown-guides/)
-
----
-
-## Certifications
-
-- Feb 2026 – present | IT Support Specialist Career Path | Cisco Networking Academy
-- Nov 2025 – present | Microsoft IT Support Specialist Professional Certificate | Microsoft via Coursera
