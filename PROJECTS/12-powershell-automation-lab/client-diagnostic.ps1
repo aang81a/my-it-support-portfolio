@@ -3,33 +3,38 @@
 # Purpose: L1 Support Diagnostic Utility
 # ==========================================================
 
-Clear-Host
-$DiagnosticPath = "$env:USERPROFILE\Documents\TechSupport_Report.txt"
+Write-Host "Gathering System Information... Please wait." -ForegroundColor Cyan
 
-Write-Host "Gathering System Information..." -ForegroundColor Cyan
+# --- STEP 1: GATHER THE CLEAN ANTIVIRUS DATA ---
+$AVData = Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct
+$AVNames = $AVData.displayName -join ", "
 
-# Create a clean text array
-$ReportData = @(
-    "------------------------------------------------",
-    "IT SUPPORT DIAGNOSTIC REPORT",
-    "------------------------------------------------",
-    "Date:           $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')",
-    "Computer:       $env:COMPUTERNAME",
-    "User:           $env:USERNAME",
-    "Serial:         $((Get-CimInstance Win32_Bios).SerialNumber)",
-    "------------------------------------------------"
-)
+# If the database is empty, it defaults to Windows Defender
+if (-not $AVNames) { $AVNames = "Windows Defender" }
 
-# Write the file using a simple stream
-$ReportData | Out-File -FilePath $DiagnosticPath -Force -Encoding utf8
 
-Write-Host "Wait... finalizing report..." -ForegroundColor Gray
-Start-Sleep -Seconds 2  # Gives Windows time to save
+# --- STEP 2: BUILD THE REPORT TEXT ---
+# (Notice we use $AVNames at the bottom of this list)
+$ResultsText = @"
+IT SUPPORT DIAGNOSTIC REPORT
+---------------------------
+Date/Time:      $(Get-Date -Format "yyyy-MM-dd HH:mm:ss")
+Computer Name:  $env:COMPUTERNAME
+Current User:   $env:USERNAME
+IP Address:     $((Get-NetIPAddress -AddressFamily IPv4 | Where-Object { $_.InterfaceAlias -notlike "*Loopback*" }).IPAddress | Select-Object -First 1)
+Serial Number:  $((Get-CimInstance Win32_Bios).SerialNumber)
+Windows Ver:    $((Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion").ProductName)
+Last Reboot:    $((Get-CimInstance Win32_OperatingSystem).LastBootUpTime)
+Antivirus:      $AVNames
+---------------------------
+"@
 
-if (Test-Path $DiagnosticPath) {
-    Write-Host "`nSUCCESS! Opening report now..." -ForegroundColor Green
-    # Instead of Word, let's open it in NOTEPAD (standard for IT)
-    Start-Process notepad.exe -ArgumentList $DiagnosticPath
-}
+# --- STEP 3: OUTPUT AND SAVING ---
+Write-Host $ResultsText -ForegroundColor Green
 
+# Save to the local folder (The "Portable" fix we made earlier)
+$FilePath = Join-Path $PSScriptRoot "TechSupport_Report.txt"
+$ResultsText | Out-String | Out-File -FilePath $FilePath -Force -Encoding utf8
+
+Write-Host "Diagnostic complete. Info saved to your folder." -ForegroundColor Yellow
 Pause
