@@ -58,6 +58,8 @@ Key Features:
 
 ## 🚀 How to Use
 
+KB User Guide (how-to-run-the-it-diagnostic-tool.md)
+
 **User Guide:**
 
 1.  Download the `Run-Diagnostics.bat` and `Get-Info.ps1` files.
