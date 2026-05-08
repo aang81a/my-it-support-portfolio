@@ -43,6 +43,9 @@ A lightweight PowerShell script bundled with a batch file launcher that:
 ---
 
 ## 🚀 How to Use
+
+**User Guide:**
+
 1.  Download the `Run-Diagnostics.bat` and `Get-Info.ps1` files.
 2.  Place both in the same folder.
 3.  Double-click `Run-Diagnostics.bat`.
