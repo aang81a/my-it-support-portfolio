@@ -64,14 +64,16 @@ A lightweight PowerShell script bundled with a batch file launcher that:
 ![Diagnostic Output Example](link-to-your-screenshot.png)
 *(Pro Tip: Add a clear screenshot showing the green success text in the terminal)*
 
+---
+
 ## 🧠 Technical Skills Demonstrated
 - **Automation:** PowerShell scripting and batch automation.
 - **System Administration:** Interfacing with Windows system objects (WMI/CIM).
 - **ITSM Efficiency:** Focus on reducing Mean-Time-To-Resolution (MTTR).
 
-- 
-----------------------------
+---
 
+## Notes
 
 What I did: "I identified a common bottleneck in support calls—the time spent finding device information."
 
