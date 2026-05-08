@@ -102,5 +102,6 @@ The Result: "A standardized text report that can be attached directly to a ticke
 
 To make this "Gold," I thought about Security & Execution Policy.
 - The Problem: By default, Windows blocks PowerShell scripts.
-- The Pro Solution: In your portfolio, explain that you would run the script using this bypass command:
+- The Pro Solution: I would run the script using this bypass command:
+
 `PowerShell.exe -ExecutionPolicy Bypass -File .\Get-Info.ps1`
