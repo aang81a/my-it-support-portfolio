@@ -1,28 +1,35 @@
 # ==========================================================
 # Script: client-diagnostic.ps1
-# Purpose: Gathers system info for L1 Support Triage
+# Purpose: L1 Support Diagnostic Utility
 # ==========================================================
 
-Write-Host "Gathering System Information... Please wait." -ForegroundColor Cyan
+Clear-Host
+$DiagnosticPath = "$env:USERPROFILE\Documents\TechSupport_Report.txt"
 
-$Results = [PSCustomObject]@{
-    "Date/Time"      = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    "Computer Name" = $env:COMPUTERNAME
-    "Current User"  = $env:USERNAME
-    "IP Address"    = (Get-NetIPAddress -AddressFamily IPv4 | Where-Object { $_.InterfaceAlias -notlike "*Loopback*" }).IPAddress[0]
-    "Serial Number" = (Get-CimInstance Win32_Bios).SerialNumber
-    "Windows Ver"   = (Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion").ProductName
-    "Last Reboot"   = (Get-CimInstance Win32_OperatingSystem).LastBootUpTime
-    "Antivirus"      = (Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct).displayName
+Write-Host "Gathering System Information..." -ForegroundColor Cyan
+
+# Create a clean text array
+$ReportData = @(
+    "------------------------------------------------",
+    "IT SUPPORT DIAGNOSTIC REPORT",
+    "------------------------------------------------",
+    "Date:           $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')",
+    "Computer:       $env:COMPUTERNAME",
+    "User:           $env:USERNAME",
+    "Serial:         $((Get-CimInstance Win32_Bios).SerialNumber)",
+    "------------------------------------------------"
+)
+
+# Write the file using a simple stream
+$ReportData | Out-File -FilePath $DiagnosticPath -Force -Encoding utf8
+
+Write-Host "Wait... finalizing report..." -ForegroundColor Gray
+Start-Sleep -Seconds 2  # Gives Windows time to save
+
+if (Test-Path $DiagnosticPath) {
+    Write-Host "`nSUCCESS! Opening report now..." -ForegroundColor Green
+    # Instead of Word, let's open it in NOTEPAD (standard for IT)
+    Start-Process notepad.exe -ArgumentList $DiagnosticPath
 }
-    
-# Output to console
-$Results | Out-String | Write-Host -ForegroundColor Green
 
-# Optional: Save to a text file on the Desktop for the user to send
-$Results | Out-String | Out-File -FilePath "$env:USERPROFILE\Desktop\TechSupport_Info.txt"
-
-Write-Host "Diagnostic complete. Info saved to your Desktop." -ForegroundColor Yellow
 Pause
-
-
