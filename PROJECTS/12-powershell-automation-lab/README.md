@@ -10,6 +10,7 @@
 
 # 🚀 L1 Support Diagnostic Tool
 **One-click system metadata collection for IT Service Desk efficiency.**
+
 A professional PowerShell tool designed for IT support to instantly collect crucial system data and save time during triage. The script gathers information like computer name, IP address, disk space, and OS version, saving it to a file on the user's desktop.
 
 ---
