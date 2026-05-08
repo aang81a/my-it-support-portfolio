@@ -64,7 +64,8 @@ A lightweight PowerShell script bundled with a batch file launcher that:
 ---
 
 ## 📸 Screenshots
-![Diagnostic Output Example](link-to-your-screenshot.png)
+![Diagnostic Output Example](12-powershell-automation-lab/screenshots
+/01.png)
 *(Pro Tip: Add a clear screenshot showing the green success text in the terminal)*
 
 ---
