@@ -1,4 +1,4 @@
-# 🚀 L1 Support Diagnostic Tool- Practical Application
+# 🚀 L1 Support Diagnostic Tool - Practical Application
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Windows](https://img.shields.io/badge/OS-Windows-0078D4?logo=windows&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
@@ -6,6 +6,11 @@
 **PowerShell-based system information collection for first-level IT support triage.**
 
 **One-click system metadata collection for IT Service Desk efficiency.**
+
+
+# 🚀 L1 Support Diagnostic Tool
+**One-click system metadata collection for IT Service Desk efficiency.**
+A professional PowerShell tool designed for IT support to instantly collect crucial system data and save time during triage. The script gathers information like computer name, IP address, disk space, and OS version, saving it to a file on the user's desktop.
 
 ---
 
