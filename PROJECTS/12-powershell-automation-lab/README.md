@@ -115,7 +115,7 @@ The Result: "A standardized text report that can be attached directly to a ticke
 
 ---
 
-# for me:
+# ➡️ for me:
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 ### The workflow
@@ -147,4 +147,20 @@ The Result: "A standardized text report that can be attached directly to a ticke
 3. **Version History (Changelog):** Show that you maintain the tool.
     - _v1.0:_ Initial release.
     - _v1.1:_ Added "Last Reboot Time" because users often say they rebooted when they only turned the monitor off. (This shows you understand real-world user behavior!)
-4. **GitHub Badges:** Add badges for "License: MIT" or "PowerShell: 5.1+" at the top of your README for a polished, professional look. 
+4. **GitHub Badges:** Add badges for "License: MIT" or "PowerShell: 5.1+" at the top of your README for a polished, professional look.
+
+### In a real job, this "small helper" solves three major pain points:
+
+1. Accuracy: You don't have to worry about a user misreading a serial number or a complex IP address.
+2. Speed: You skip the 5-minute "How do I find my settings?" conversation and get straight to fixing the problem.
+3. **Documentation: You have a perfectly formatted text file to attach to your Spiceworks or Jira ticket, showing your manager that your work is thorough.**
+
+#### How to frame this in your portfolio:
+
+Instead of calling it a "small script," call it a "Triage Optimization Tool."
+
+Explain that as a 1st Level Support professional, your goal is to:
+
+- Minimize "Talk-Time": Get the data instantly.
+- Empower the User: Give them a "one-click" way to help you.
+- Ensure Data Integrity: No more typos in the asset management system.
