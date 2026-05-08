@@ -4,10 +4,10 @@
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
+This portfolio documents practical home lab projects, Windows and network troubleshooting practices, hardware support tasks, backup workflows, ticketing simulations, and support documentation.
+
 ## About Me
 IT Support Specialist currently building hands-on skills through Microsoft IT Support Professional and Cisco IT Support Professional coursework.
-
-This portfolio documents practical home lab projects, Windows and network troubleshooting practices, hardware support tasks, backup workflows, ticketing simulations, and support documentation.
 
 ---
 
