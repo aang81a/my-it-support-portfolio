@@ -114,8 +114,12 @@ How I solved it: "I developed a small PowerShell utility that users can run with
 The Result: "A standardized text report that can be attached directly to a ticketing system (like Spiceworks or Jira)."
 
 ---
+--------
+--------- Finish line --------
+--------
+---
 
-# ➡️ for me:
+# ➡️ for me - delete it later:
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 ### The workflow
