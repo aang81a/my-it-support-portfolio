@@ -1,4 +1,4 @@
-```markdown
+
  ==========================================================
 # Script: ClientDiagnostic.ps1
 # Purpose: Gathers system info for L1 Support Triage
@@ -23,4 +23,4 @@ $Results | Out-File -FilePath "$env:USERPROFILE\Desktop\TechSupport_Info.txt"
 
 Write-Host "Diagnostic complete. Info saved to your Desktop." -ForegroundColor Yellow
 Pause
-```
+
