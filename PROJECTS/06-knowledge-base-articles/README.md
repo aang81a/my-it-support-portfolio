@@ -7,7 +7,7 @@
 
 ## Overview
 
-This folder contains simple knowledge base articles written for non-technical users.
+This folder contains knowledge base articles for common IT troubleshooting situations, including user-facing guides for non-technical users and internal support notes for IT support tasks.
 
 The goal is to explain common IT support tasks in a clear, structured, and user-friendly way.
 
@@ -26,6 +26,14 @@ They are also useful for support teams because they provide consistent instructi
 | [How to Join a PC to a Domain](how-to-join-a-pc-to-a-domain.md) | Domain join basics | IT support / lab use | Planned |
 | [How to Map a Network Drive](how-to-map-a-network-drive.md) | Shared drive access | End users / IT support | Planned |
 | [How to Reset a Domain Password](how-to-reset-a-domain-password.md) | Password reset process | IT support / end users | Planned |
+
+| Article | Topic | Audience | Status |
+|---|---|---|---|
+| How to Troubleshoot No Internet | Basic internet troubleshooting | Non-technical users | Completed |
+| How to Connect to the Company VPN from Home | VPN access from home | Non-technical users | Completed |
+| How to Join a PC to a Domain | Domain join process | IT support / technician notes | Draft |
+| How to Map a Network Drive | Shared drive access | End users / IT support | Draft |
+| How to Reset a Domain Password | Password reset process | IT support / technician notes | Draft |
 
 ## Tools / Topics Covered
 
