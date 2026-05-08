@@ -62,12 +62,11 @@ cél:
 - [Domain Join Client](./PROJECTS/02-domain-join-client/)
 - [User Accounts and Permissions](./PROJECTS/03-user-accounts-and-permissions/)
 - [Network Troubleshooting Cases](./PROJECTS/04-network-troubleshooting-cases/)
-- [Spiceworks Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/)
+- [Spiceworks Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/) - Incident management & documentation.
 - [Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/)
 - [Home Lab Documentation](./PROJECTS/07-home-lab-documentation/)
 - [Markdown Guides](./PROJECTS/08-markdown-guides/)
-* [05-spiceworks-ticketing-practice](./PROJECTS/05-spiceworks-ticketing-practice) - Incident management & documentation.
-* [12-powershell-automation-lab](./PROJECTS/12-powershell-automation-lab) - L1 Diagnostic Script & Automation. 🚀 *NEW*
+- [Powershell Automation Lab](./PROJECTS/12-powershell-automation-lab) - L1 Diagnostic Script & Automation. 🚀 *NEW*
 
 ## Completed Projects
 
