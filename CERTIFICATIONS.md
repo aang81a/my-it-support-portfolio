@@ -6,7 +6,7 @@
   
   ▪ Apr 2026 | IT Customer Support Basics | Kurszertifikat
      
-  Focus: Troubleshooting, Ticketing, Remote Support, Customer Support Workflows
+    Focus: Troubleshooting, Ticketing, Remote Support, Customer Support Workflows
 
 ▪ **Nov 2025 – heute | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)**
 
