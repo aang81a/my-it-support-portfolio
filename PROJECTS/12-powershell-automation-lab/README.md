@@ -18,7 +18,7 @@ This project provides a PowerShell-based diagnostic tool designed to streamline 
 ---
 
 ### 🛠️ Technical Credits
-This project utilizes the [PS2EXE module]([https://github.com](https://github.com/MScholtes/PS2EXE/blob/master/README.md)) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format.
+This project utilizes the [PS2EXE module](https://github.com/MScholtes/PS2EXE/blob/master/README.md) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format.
 
 ---
 
