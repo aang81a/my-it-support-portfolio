@@ -37,27 +37,6 @@ cél:
 
 ---
 
-## 🎯 Current focus
-
-- 1st-level support workflows
-- Ticket management and documentation
-- Windows and basic network support
-- Hardware troubleshooting and backup workflows
-- Home lab documentation
-- Practical support case studies
-
-- User account access and onboarding tasks - még hátra van
-
----
-
-## 🔭 Future Focus
-- Continuing Microsoft IT Support Specialist program (Windows, Microsoft 365, troubleshooting)
-- Expanding hands-on troubleshooting and support workflows
-- Improving efficiency in IT support through basic automation
-- Supporting user and access management in structured environments
-
----
-
 ### 📂 Featured Projects
 
 - [Active Directory Lab](./PROJECTS/01-active-directory-lab/)
