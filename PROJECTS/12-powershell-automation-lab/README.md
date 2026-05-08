@@ -35,10 +35,6 @@ A lightweight PowerShell script bundled with a batch file launcher that:
 
 ---
 
-
-
----
-
 ## 🛠️ Key Features
 - **Zero-Install:** Runs directly from a folder or USB drive.
 - **Automated Export:** Saves a `TechSupport_Info.txt` to the user's desktop for easy emailing.
