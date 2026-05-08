@@ -22,6 +22,13 @@ The primary goal of this tool is to optimize triage efficiency. By automating th
 
 ---
 
+**Step 1: The Goal (The "Why")**
+
+When a user calls the 1st level helpdesk, the first 5 minutes are often wasted asking: _"What is your computer name?"_ or _"What is your IP address?"_  
+**Solution:** A script that the user can run with one click to gather all necessary info for the technician.
+
+**Step 2: The Code (The "What")**
+
 ## ❓ The Problem
 In 1st-level support, valuable time is often lost guiding users through manual steps to find critical information like:
 - IPv4 Addresses
@@ -55,9 +62,11 @@ A lightweight PowerShell script bundled with a batch file launcher that:
 **How I use this in Support:**
  
 1. When a user calls with a "slow PC" or "network issue," I send them the `IT-Diagnostics.zip`.
-2. The user runs the tool and emails me the `.txt` file.
-3. I immediately see their **IP address** (to start a remote session) and their **Last Reboot time** (to see if a restart is needed).
-4. This reduces the "Initial Triage" phase by roughly 5 minutes.
+1. When a user calls the 1st level helpdesk, the first 5 minutes are often wasted asking: _"What is your computer name?"_ or _"What is your IP address?"_
+2. A script that the user can run with one click to gather all necessary info for the technician.
+3. The user runs the tool and emails me the `.txt` file.
+4. I immediately see their **IP address** (to start a remote session) and their **Last Reboot time** (to see if a restart is needed).
+5. This reduces the "Initial Triage" phase by roughly 5 minutes.
 
 ---
 
