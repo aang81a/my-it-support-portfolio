@@ -99,3 +99,8 @@ The Result: "A standardized text report that can be attached directly to a ticke
 - Implementation: I developed a PowerShell script that pulls BIOS serial numbers, network data, and system uptime.
 - Deployment: I converted the script into a .bat or shortcut that a user can run without needing admin rights.
 - Result: This saves the technician ~3-5 minutes per call and ensures the documentation (Ticket) has 100% accurate system details.
+
+To make this "Gold," I thought about Security & Execution Policy.
+- The Problem: By default, Windows blocks PowerShell scripts.
+- The Pro Solution: In your portfolio, explain that you would run the script using this bypass command:
+`PowerShell.exe -ExecutionPolicy Bypass -File .\Get-Info.ps1`
