@@ -40,6 +40,10 @@ A lightweight PowerShell script bundled with a batch file launcher that:
 
 ---
 
+
+
+---
+
 ## 🛠️ Key Features
 - **Zero-Install:** Runs directly from a folder or USB drive.
 - **Automated Export:** Saves a `TechSupport_Info.txt` to the user's desktop for easy emailing.
@@ -89,4 +93,9 @@ How I solved it: "I developed a small PowerShell utility that users can run with
 
 The Result: "A standardized text report that can be attached directly to a ticketing system (like Spiceworks or Jira)."
 
+### The workflow
 
+- Preparation: I identified that manual data collection slows down remote sessions.
+- Implementation: I developed a PowerShell script that pulls BIOS serial numbers, network data, and system uptime.
+- Deployment: I converted the script into a .bat or shortcut that a user can run without needing admin rights.
+- Result: This saves the technician ~3-5 minutes per call and ensures the documentation (Ticket) has 100% accurate system details.
