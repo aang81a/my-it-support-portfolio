@@ -122,7 +122,8 @@ for me: ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 - Deployment: I converted the script into a .bat or shortcut that a user can run without needing admin rights.
 - Result: This saves the technician ~3-5 minutes per call and ensures the documentation (Ticket) has 100% accurate system details.
 
-### Portfolio Note: Explain that the Run-Diagnostics.bat allows non-technical users to run diagnostics without knowing how to open a terminal.
+### Portfolio Note: 
+- Explain that the Run-Diagnostics.bat allows non-technical users to run diagnostics without knowing how to open a terminal.
 
 ### To make this "Gold," I thought about Security & Execution Policy.
 - The Problem: By default, Windows blocks PowerShell scripts.
