@@ -3,6 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
 ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)
+![Skill](https://img.shields.io/badge/Skill-Remote%20Support-blue)
 
 ## Overview
 
