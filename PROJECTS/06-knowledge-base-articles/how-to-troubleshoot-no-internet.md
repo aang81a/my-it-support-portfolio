@@ -150,3 +150,10 @@ I cannot access the internet on my computer. I am using Wi-Fi. Other websites do
 
 Thank you.
 ```
+---
+
+## Summary
+
+If the internet is not working, first check the network icon, reconnect to Wi-Fi, restart the browser, restart the computer, and check whether other devices are affected.
+
+If the problem continues, contact IT support and explain what you already tested.
