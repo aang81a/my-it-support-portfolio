@@ -1,3 +1,3 @@
 @echo off
-PowerShell.exe -ExecutionPolicy Bypass -File "%~dp0ClientDiagnostic.ps1"
+PowerShell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0client-diagnostic.ps1"
 pause
