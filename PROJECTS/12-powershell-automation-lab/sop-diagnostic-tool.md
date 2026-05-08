@@ -10,7 +10,7 @@ The purpose of this SOP is to define the standardized method for using and maint
 This procedure applies to all 1st Level Support staff and Managed Service Provider (MSP) technicians.
 ## 3. Procedure: Running the Tool
 
-   1. Distribution: Provide the user with the compressed .zip folder containing Run-Diagnostics.bat and ClientDiagnostic.ps1.
+   1. Distribution: Provide the user with the compressed .zip folder containing Run-Diagnostics.bat and client-diagnostic.ps1.
    2. Instruction: Direct the user to extract the folder to their Desktop.
    3. Execution: Ask the user to double-click Run-Diagnostics.bat.
    * Note: If a "Windows Protected your PC" popup appears, instruct the user to click "More Info" -> "Run anyway."
@@ -19,7 +19,7 @@ This procedure applies to all 1st Level Support staff and Managed Service Provid
 ## 4. Procedure: Updating the Script
 When new hardware is introduced or additional data points (e.g., VPN status) are required:
 
-   1. Test Environment: Open ClientDiagnostic.ps1 in VS Code on a test machine.
+   1. Test Environment: Open client-diagnostic.ps1 in VS Code on a test machine.
    2. Modification: Add the new property to the $Results hash table.
    * Example: To add Disk Space, add: "Disk Free" = (Get-PSDrive C).Free / 1GB
    3. Verification: Run the script to ensure the .txt output remains readable.
