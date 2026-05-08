@@ -17,17 +17,7 @@ This project provides a PowerShell-based diagnostic tool designed to streamline 
 ## Project Goals
 The primary goal of this tool is to **optimize triage efficiency**. By automating the collection of system details (IP, Serial, Uptime), the technician can skip manual data entry. This is designed to **positively impact MTTR** (Mean Time to Resolution) by allowing the support session to begin with all necessary data already at hand.
 
-# Project goals
-The primary goal of this tool is to optimize triage efficiency. By automating the collection of system details (IP, Serial, Uptime), the technician can skip manual data entry. This is designed to positively impact MTTR (Mean Time to Resolution) by allowing the support session to begin with all necessary data already at hand.
-
 ---
-
-**Step 1: The Goal (The "Why")**
-
-When a user calls the 1st level helpdesk, the first 5 minutes are often wasted asking: _"What is your computer name?"_ or _"What is your IP address?"_  
-**Solution:** A script that the user can run with one click to gather all necessary info for the technician.
-
-**Step 2: The Code (The "What")**
 
 ## ❓ The Problem
 In 1st-level support, valuable time is often lost guiding users through manual steps to find critical information like:
