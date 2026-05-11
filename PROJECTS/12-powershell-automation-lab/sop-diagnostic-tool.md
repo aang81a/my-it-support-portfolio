@@ -32,6 +32,10 @@ When new hardware is introduced or additional data points (e.g., VPN status) are
 | Script closes instantly | Files are not in the same folder | Ensure .bat and .ps1 are in the same directory. |
 | Permission Denied | Antivirus blocking execution | Temporarily whitelist the script or run as Admin if necessary. |
 | Missing IP Address | No active network connection | Verify the user is connected to Wi-Fi or Ethernet. |
+ChallengeTechnical Root CauseResolution"Ghost" AntivirusStale WMI registrations left behind by McAfee uninstaller.Used Get-CimInstance to query the live SecurityCenter2 namespace.Vanishing ReportsOneDrive Folder Redirection moved the Desktop path to a cloud-sync folder.Implemented BaseDirectory discovery to keep the report next to the .exe.Empty .txt FilesPowerShell object stream was closing before the buffer was fully written.Applied Out-String and explicit UTF8 encoding to force a clean write.
+
+
+---
 
 Would you like to rename that folder from 12-bash to 12-powershell-support-tool now so everything is consistent?
 
