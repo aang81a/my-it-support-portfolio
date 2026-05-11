@@ -126,7 +126,7 @@ VERSION 3: "bulletproof" way to ensure the script never crashes
 
 # ==========================================================
 # Script: client-diagnostic.ps1
-# Version: 1.0.0 (2026-05-11)
+# Version: 1.1.0 (2026-05-11)
 # Purpose: L1 Support Diagnostic Utility
 # ==========================================================
 
@@ -141,7 +141,7 @@ if (-not $AVNames) { $AVNames = "Windows Defender" }
 $ResultsText = @"
 IT SUPPORT DIAGNOSTIC REPORT
 ---------------------------
-Date/Time:      $(Get-Date -Format "yyyy-MM-dd HH:mm:ss")
+Date/Time:      $(Get-Date -Format "yyyy-MM-dd_HH-mm-ss")
 Computer Name:  $env:COMPUTERNAME
 Current User:   $env:USERNAME
 IP Address:     $((Get-NetIPAddress -AddressFamily IPv4 | Where-Object { $_.InterfaceAlias -notlike "*Loopback*" }).IPAddress | Select-Object -First 1)
@@ -159,7 +159,7 @@ Write-Host $ResultsText -ForegroundColor Green
 $TargetDir = [System.AppDomain]::CurrentDomain.BaseDirectory
 if (-not $TargetDir) { $TargetDir = $PSScriptRoot }
 
-$Timestamp = Get-Date -Format "HHmm"
+$Timestamp = Get-Date -Format "yyyy-MM-dd_HH-mm-ss"
 $FileName = "TechSupport_Report_$Timestamp.txt"
 $FinalPath = Join-Path $TargetDir $FileName
 
@@ -167,5 +167,4 @@ $ResultsText | Out-String | Out-File -FilePath $FinalPath -Force -Encoding utf8
 
 Write-Host "Diagnostic complete. Report saved in the same folder: $FileName" -ForegroundColor Yellow
 Pause
-
 
