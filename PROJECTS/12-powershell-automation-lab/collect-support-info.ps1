@@ -1,5 +1,5 @@
 # ==========================================================
-# Script: client-diagnostic.ps1
+# Script: client-diagnostic.ps1 / collect-support-info.ps1
 # Version: 1.0.0 (2026-05-08)
 # Purpose: L1 Support Diagnostic Utility
 # ==========================================================
@@ -54,7 +54,7 @@ Pause
 VERSION 2:  updated smart pathing to handle Desktop redirection and automatic file saving
 
 # ==========================================================
-# Script: client-diagnostic.ps1
+# Script: client-diagnostic.ps1 / collect-support-info.ps1
 # Version: 1.0.0 (2026-05-11)
 # Purpose: L1 Support Diagnostic Utility
 # ==========================================================
@@ -125,7 +125,7 @@ Pause
 VERSION 3: "bulletproof" way to ensure the script never crashes
 
 # ==========================================================
-# Script: client-diagnostic.ps1
+# Script: client-diagnostic.ps1 / collect-support-info.ps1
 # Version: 1.1.0 (2026-05-11)
 # Purpose: L1 Support Diagnostic Utility
 # ==========================================================
