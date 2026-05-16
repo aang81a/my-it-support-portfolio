@@ -1,8 +1,13 @@
 ------------------------------------------------
 IT SUPPORT DIAGNOSTIC REPORT
 ------------------------------------------------
-Date:           20xx-0x-0x xx:02:22
-Computer:       xxxxHP20xx
-User:           faxxx
-Serial:         xCD14xxxxx
+Date/Time:      2026-mm-dd_hh-mm-ss
+Computer Name:  PC2
+Current User:   sample.user
+IP Address:     169.254.225.244
+Serial Number:  5XXXXXXX
+Windows Ver:    Windows 10 Pro
+Last Reboot:    mm/dd/2026 18:16:32
+Antivirus:      Malwarebytes, Windows Defender
 ------------------------------------------------
+
