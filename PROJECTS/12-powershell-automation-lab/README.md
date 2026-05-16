@@ -1,9 +1,14 @@
-# 🚀 L1 Support Diagnostic Tool - Practical Application
+# 🚀 IT Support Diagnostic Tool - Practical Application
+# L1 Support Information Collector (new)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Windows](https://img.shields.io/badge/OS-Windows-0078D4?logo=windows&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
 
-**PowerShell-based system information collection for first-level IT support triage.**
+**PowerShell-based system information collection for first-level IT support.**
+
+This project demonstrates a realistic L1 Support workflow. I created a PowerShell script to collect basic support information, tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and user-facing documentation.
+
+During local testing, I also explored packaging the script as an executable. After reviewing the security implications of unsigned `.exe` files, I chose to publish the readable PowerShell script as the main portfolio artifact.
 
 A professional PowerShell tool designed for IT support to instantly collect crucial system data and save time during triage. The script gathers information like computer name, IP address, disk space, and OS version, saving it to a file on the user's desktop.
 
