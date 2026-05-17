@@ -1,68 +1,133 @@
-# 🚀 1st Level Support Metadata Collector✅
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+# 🚀 1st Level Support Metadata Collector
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Windows](https://img.shields.io/badge/OS-Windows-0078D4?logo=windows&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
 
 **PowerShell automation for collecting support-relevant system details.**
 
 This project demonstrates a realistic 1st Level Support automation workflow. I created a PowerShell script to collect support-relevant system metadata, tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and user-facing documentation.
+
 The workflow creates a standardized text report with details such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
-The script creates a standardized text report that can support the first information-gathering step during a support request and reduce manual back-and-forth with the end user.
+
+This can support the first information-gathering step during a support request and reduce manual back-and-forth with the end user.
+
 During local testing, I also explored packaging the script as an executable. Because unsigned executables can trigger antivirus or SmartScreen warnings, I decided to publish the readable PowerShell script as the main public artifact.
 
 ---
 
 ## 📖 Project Overview
 
-- A PowerShell tool for 1st Level Support to gather system metadata (IP, Serial, Uptime) instantly.
+This project focuses on automating repetitive support information collection for 1st Level Support.
 
-This project provides a PowerShell-based diagnostic tool designed to streamline 1st-level IT support triage. By allowing non-technical users to generate a comprehensive system report with a single click, it significantly reduces initial troubleshooting time and ensures data accuracy in support tickets.
+In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually find values such as the computer name, IP address, serial number, Windows version, or last reboot time, this workflow collects the information into a standardized report.
+
+The project includes:
+
+- a PowerShell script for collecting support-relevant system metadata
+- a standardized text report format
+- local testing of `.exe` packaging for a user-friendly workflow
+- screenshots showing testing and validation
+- a troubleshooting log documenting issues and fixes
+- technician-facing SOP documentation
+- user-facing knowledge base documentation
 
 ---
 
-### 🛠️ Technical Credits
+## 🎯 Project Goals
 
-This project utilizes the [PS2EXE module](https://github.com/MScholtes/PS2EXE) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format during local testing.
+The primary goal of this tool is to **support the first information-gathering step** in a 1st Level Support request.
 
----
+By automating the collection of system details such as IP address, serial number, and last reboot time, the technician can skip manual data entry and begin the support session with the necessary technical context already available.
 
-## Project Goals ✅
-The primary goal of this tool is to **support the first information-gathering step**. 
-By automating the collection of system details such as IP address, serial number, and last reboot time, the technician can skip manual data entry and begin the support session with the necessary technical context already available. 
-
-This is designed to positively impact MTTR (Mean Time to Resolution).
-or
 This can support faster handling of support requests and may positively impact MTTR (Mean Time to Resolution).
 
 ---
 
 ## ❓ The Problem
 
-- Users often don't know how to find their IP or Serial Number, leading to long "triage" times.
+In 1st Level Support, valuable time can be lost guiding users through manual steps to find basic device information.
 
-In 1st-level support, valuable time is often lost guiding users through manual steps to find critical information like:
-- IPv4 Addresses
-- Hardware Serial Numbers (for warranty/asset tracking)
-- System Uptime (to check if they actually rebooted)
+Common examples:
+- IPv4 Addresses❓
+- Hardware Serial Numbers (for warranty/asset tracking)❓
+- System Uptime (to check if they actually rebooted)❓
+  
+- “What is your computer name?”
+- “What is your IP address?”
+- “When was the device last restarted?”
+- “Which Windows version is installed?”
+- “Which antivirus product is currently registered?”
+
+For non-technical users, these details are not always easy to find. This can slow down the first part of the support process and increase the chance of incorrect or incomplete ticket documentation.
 
 ---
 
 ## ✅ The Solution
 
-A script that outputs a clean diagnostic report to the console and saves a .txt file to the user's desktop.
+The solution is a PowerShell-based support metadata collector.
 
-A lightweight PowerShell script bundled with a batch file launcher that:
-1.  **Collects real-time data** via CIM/WMI instances.
-2.  **Outputs a clean report** to the console and a local `.txt` file.
+The workflow collects support-relevant system details and writes them into a standardized report file:
+
+`TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
+
+The report can then be attached to a support ticket or shared with the IT technician.
+
+Collected details include:
+
+- computer name
+- current user
+- IP address
+- serial number
+- Windows version
+- last reboot time
+- antivirus status
 
 ---
 
-## 🛠️ Key Features
-- **Zero-Install:** Runs directly from a folder or USB drive.
-- **Automated Export:** Saves a `TechSupport_Report_yyyyy-mm-dd_hh-mm-ss.txt` to the user's desktop for easy emailing.
-- **Technician-Focused Data:** Includes last boot time, serial number, and network details.
-- No Admin rights required for basic info.
-- Automated file export for easy emailing to the Helpdesk.
+## 🛠️ Technical Credits
+
+This project utilizes the [PS2EXE module](https://github.com/MScholtes/PS2EXE) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format during local testing.
+
+For public portfolio review, the readable PowerShell source file is provided instead of the unsigned executable.
+
+---
+
+## 🔐 Security & Transparency Note
+
+During testing, I also compiled the script into an executable using PS2EXE.
+
+Because unsigned executables can trigger antivirus or SmartScreen warnings, the public portfolio version is provided as a readable PowerShell script instead.
+
+Unsigned executables created from scripts may trigger heuristic antivirus detections. For transparency and trust, this repository provides the PowerShell source script as the main artifact instead of requiring users to run an executable.
+
+---
+
+## 🚀 How This Workflow Would Be Used in Support 🚀🚀🚀🚀🚀
+
+### Public Portfolio Version
+
+For this portfolio, the main public artifact is:
+
+`collect-support-info.ps1`
+
+This allows reviewers to inspect the script logic and see exactly which system details are collected.
+
+### Intended 1st Level Support Workflow
+
+In a real support environment, the technician would provide an approved runnable version of the tool or guide the user through the company-approved process.
+
+1. A user contacts 1st Level Support with a slow PC, network issue, or unclear system problem.
+2. The technician needs basic device information before continuing.
+3. The user runs the approved support information collector.
+4. The workflow creates a report named like:
+
+   `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
+
+5. The user sends the report back to IT Support or attaches it to the support ticket.
+6. The technician receives standardized device details without manually asking for each value.
+
+This supports a more efficient and consistent first support interaction.
 
 ---
 
@@ -87,26 +152,41 @@ KB User Guide (how-to-run-the-it-diagnostic-tool.md)
 4. I immediately see their **IP address** (to start a remote session) and their **Last Reboot time** (to see if a restart is needed).
 5. This reduces the "Initial Triage" phase by roughly 5 minutes.
 
+---
 
-new:
+## 🧾 Sample Output
 
-## 🚀 How to Use
+A sanitized sample report is included here:
 
-For this portfolio version, the tool is provided as a readable PowerShell script.
+[`sample-output/TechSupport_Report_sample.txt`](sample-output/TechSupport_Report_sample.txt)
 
-1. Download or open `collect-support-info.ps1`.
-2. Review the script before running it.
-3. Run the script in PowerShell from the project folder.
-4. After execution, a report file is created with a name like:
+Example structure:
 
-   `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
+```text
+------------------------------------------------
+IT SUPPORT DIAGNOSTIC REPORT
+------------------------------------------------
+Date/Time:        2026-mm-dd_hh-mm-ss
+Computer Name:    PC2-SAMPLE
+Current User:     sample.user
+IP Address:       192.168.1.100
+Serial Number:    5XXXXXXX
+Windows Version:  Windows 10 Pro
+Last Reboot:      mm/dd/2026 18:16:32
+Antivirus:        Malwarebytes, Windows Defender
+------------------------------------------------
+```
 
-5. The report can be attached to a support ticket or shared with the IT technician.
 
-**How this supports 1st Level Support:**
+---
 
-When a user reports a slow PC, network issue, or unclear system problem, the technician often needs basic device details first. This script helps collect those details in a standardized format, reducing manual questions such as “What is your computer name?” or “What is your IP address?”
 
+## 🛠️ Key Features
+- **Zero-Install:** Runs directly from a folder or USB drive.
+- **Automated Export:** Saves a `TechSupport_Report_yyyyy-mm-dd_hh-mm-ss.txt` to the user's desktop for easy emailing.
+- **Technician-Focused Data:** Includes last boot time, serial number, and network details.
+- No Admin rights required for basic info.
+- Automated file export for easy emailing to the Helpdesk.
 
 ---
 
@@ -164,7 +244,7 @@ SOP
 KBA
 Security awareness
 
-## Skills Demonstrated - explain these to me!
+## Skills Demonstrated - must be rewritten, too
 
 - **PowerShell exposure:** used and tested PowerShell commands such as `Get-CimInstance`, `Get-NetIPAddress`, and `Out-File`.
 - **Automation thinking:** automated repetitive collection of support-relevant system metadata.
