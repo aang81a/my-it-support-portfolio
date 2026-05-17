@@ -1,21 +1,14 @@
-# 🚀 IT Support Diagnostic Tool - Practical Application
-# L1 Support Information Collector (new)
+# 🚀 1st Level Support Metadata Collector✅
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Windows](https://img.shields.io/badge/OS-Windows-0078D4?logo=windows&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
 
-**PowerShell-based system information collection for first-level IT support.**
+**PowerShell automation for collecting support-relevant system details.**
 
-This project demonstrates a realistic L1 Support workflow. I created a PowerShell script to collect basic support information, tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and user-facing documentation.
-
-
-new:
-This project demonstrates a 1st Level Support automation workflow. I created a PowerShell script that collects support-relevant system metadata such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
-
-The script generates a standardized text report that can support the first information-gathering step during a support request and reduce manual back-and-forth with the end user.
-
+This project demonstrates a realistic 1st Level Support automation workflow. I created a PowerShell script to collect support-relevant system metadata, tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and user-facing documentation.
+The workflow creates a standardized text report with details such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
+The script creates a standardized text report that can support the first information-gathering step during a support request and reduce manual back-and-forth with the end user.
 During local testing, I also explored packaging the script as an executable. Because unsigned executables can trigger antivirus or SmartScreen warnings, I decided to publish the readable PowerShell script as the main public artifact.
-
 
 ---
 
@@ -28,15 +21,18 @@ This project provides a PowerShell-based diagnostic tool designed to streamline 
 ---
 
 ### 🛠️ Technical Credits
-This project utilizes the [PS2EXE module](https://github.com/MScholtes/PS2EXE/blob/master/README.md) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format.
 
-new: This project uses the [PS2EXE module](https://github.com/MScholtes/PS2EXE) by Markus Scholtes during local testing to explore PowerShell-to-EXE packaging. The public repository provides the readable PowerShell source file for transparency.
+This project utilizes the [PS2EXE module](https://github.com/MScholtes/PS2EXE) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format during local testing.
 
 ---
 
-## Project Goals - ok
+## Project Goals ✅
 The primary goal of this tool is to **support the first information-gathering step**. 
-By automating the collection of system details (IP, Serial, Uptime etc.), the technician can avoid manual data entry and start the support session with the necessary technical context already available. This can support faster handling of support requests and may positively impact MTTR (Mean Time to Resolution).
+By automating the collection of system details such as IP address, serial number, and last reboot time, the technician can skip manual data entry and begin the support session with the necessary technical context already available. 
+
+This is designed to positively impact MTTR (Mean Time to Resolution).
+or
+This can support faster handling of support requests and may positively impact MTTR (Mean Time to Resolution).
 
 ---
 
@@ -56,19 +52,15 @@ In 1st-level support, valuable time is often lost guiding users through manual s
 A script that outputs a clean diagnostic report to the console and saves a .txt file to the user's desktop.
 
 A lightweight PowerShell script bundled with a batch file launcher that:
-1.  **Bypasses Windows Execution Policies** to run on standard user accounts.
-2.  **Collects real-time data** via CIM/WMI instances.
-3.  **Outputs a clean report** to the console and a local `.txt` file.
+1.  **Collects real-time data** via CIM/WMI instances.
+2.  **Outputs a clean report** to the console and a local `.txt` file.
 
 ---
 
 ## 🛠️ Key Features
 - **Zero-Install:** Runs directly from a folder or USB drive.
-- **Automated Export:** Saves a `TechSupport_Info.txt` to the user's desktop for easy emailing.
+- **Automated Export:** Saves a `TechSupport_Report_yyyyy-mm-dd_hh-mm-ss.txt` to the user's desktop for easy emailing.
 - **Technician-Focused Data:** Includes last boot time, serial number, and network details.
-
-Key Features:
-- Bypasses Execution Policy (so it actually runs).
 - No Admin rights required for basic info.
 - Automated file export for easy emailing to the Helpdesk.
 
@@ -94,6 +86,27 @@ KB User Guide (how-to-run-the-it-diagnostic-tool.md)
 3. The user runs the tool and emails me the `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt` file.
 4. I immediately see their **IP address** (to start a remote session) and their **Last Reboot time** (to see if a restart is needed).
 5. This reduces the "Initial Triage" phase by roughly 5 minutes.
+
+
+new:
+
+## 🚀 How to Use
+
+For this portfolio version, the tool is provided as a readable PowerShell script.
+
+1. Download or open `collect-support-info.ps1`.
+2. Review the script before running it.
+3. Run the script in PowerShell from the project folder.
+4. After execution, a report file is created with a name like:
+
+   `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
+
+5. The report can be attached to a support ticket or shared with the IT technician.
+
+**How this supports 1st Level Support:**
+
+When a user reports a slow PC, network issue, or unclear system problem, the technician often needs basic device details first. This script helps collect those details in a standardized format, reducing manual questions such as “What is your computer name?” or “What is your IP address?”
+
 
 ---
 
@@ -161,6 +174,17 @@ Security awareness
 - **Documentation:** created a README, SOP, user-facing KBA, changelog, sample output, and troubleshooting log.
 - **Security awareness:** decided to publish the readable `.ps1` source instead of requiring users to run an unsigned `.exe`.
 
+
+- **Automation thinking:** used PowerShell to reduce repetitive manual collection of support-relevant system details.
+- **Basic PowerShell exposure:** worked with commands such as `Get-CimInstance`, `Get-NetIPAddress`, `Out-File`, and `Out-String`.
+- **Windows support basics:** collected computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
+- **WMI/CIM awareness:** used Windows management queries to retrieve system and antivirus information.
+- **Testing discipline:** tested the workflow locally and on a second Windows computer.
+- **Documentation:** created a README, SOP, user-facing knowledge base article, changelog, sample output, and troubleshooting log.
+- **Security awareness:** chose to publish the readable `.ps1` source instead of requiring users to run an unsigned `.exe`.
+
+
+
 ## Links to supporting documents
 
 TROUBLESHOOTING-LOG.md
@@ -198,11 +222,11 @@ The Result: "A standardized text report that can be attached directly to a ticke
 ### Portfolio Note: 
 - Explain that the Run-Diagnostics.bat allows non-technical users to run diagnostics without knowing how to open a terminal.
 
-### To make this "Gold," I thought about Security & Execution Policy.
+### To make this "Gold," I thought about Security & Execution Policy in TROUBLESHOOTING-LOG.MD.
 - The Problem: By default, Windows blocks PowerShell scripts.
 - The Pro Solution: I would run the script using this bypass command:
 
-`PowerShell.exe -ExecutionPolicy Bypass -File .\Get-Info.ps1`
+`PowerShell.exe -ExecutionPolicy Bypass -File .\Get-Info.ps1` - Put it only in troubleshooting-log.md as an earlier tested approach, not as a recommended public method.
 
 ### What to put in your Portfolio (Visuals):
 - Screenshot of the Code: Use a "Dark Mode" editor like VS Code (it looks professional).
