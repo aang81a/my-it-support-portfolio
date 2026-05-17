@@ -80,7 +80,7 @@ KB User Guide (how-to-run-the-it-diagnostic-tool.md)
 
 **User Guide:**
 
-1.  Download the `Run-Diagnostics.bat` and `Get-Info.ps1` files.
+1.  Download the `Run-Diagnostics.bat` and `collect-support-info.ps1` files.
 2.  Place both in the same folder.
 3.  Double-click `Run-Diagnostics.bat`.
 4.  Send the resulting text file to the IT Helpdesk!
@@ -91,14 +91,13 @@ KB User Guide (how-to-run-the-it-diagnostic-tool.md)
 1. When a user calls with a "slow PC" or "network issue," I send them the `IT-Diagnostics.zip`.
 1. When a user calls the 1st level helpdesk, the first 5 minutes are often wasted asking: _"What is your computer name?"_ or _"What is your IP address?"_
 2. A script that the user can run with one click to gather all necessary info for the technician.
-3. The user runs the tool and emails me the `.txt` file.
+3. The user runs the tool and emails me the `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt` file.
 4. I immediately see their **IP address** (to start a remote session) and their **Last Reboot time** (to see if a restart is needed).
 5. This reduces the "Initial Triage" phase by roughly 5 minutes.
 
 ---
 
 ## 📸 Screenshots
-
 
 1. Run your script on your own computer.
 2. Take a clean screenshot of the result window.
@@ -111,6 +110,21 @@ KB User Guide (how-to-run-the-it-diagnostic-tool.md)
 
 *(Pro Tip: Add a clear screenshot showing the green success text in the terminal)*
 
+
+new
+Screenshot of the code
+Screenshot of the output
+Screenshot of the .txt file
+Final success screenshot
+Second computer validation
+Security check
+or
+script/source overview
+timestamped report created
+final success validation
+second computer validation
+security check / no McAfee
+
 ---
 
 ## 🧠 Technical Skills Demonstrated
@@ -122,6 +136,38 @@ KB User Guide (how-to-run-the-it-diagnostic-tool.md)
 - Windows Administration: Environment variables and file system paths.
 - User Experience (UX): Creating a "One-Click" solution for non-tech users.
 - Version Control: Managed via GitHub.
+
+new:
+Show L1-relevant skills without overclaiming:
+Automation
+PowerShell scripting
+System Administration
+WMI/CIM
+Windows environment variables
+User Experience
+Version control / GitHub
+Technical writing
+SOP
+KBA
+Security awareness
+
+## Skills Demonstrated - explain these to me!
+
+- **PowerShell exposure:** used and tested PowerShell commands such as `Get-CimInstance`, `Get-NetIPAddress`, and `Out-File`.
+- **Automation thinking:** automated repetitive collection of support-relevant system metadata.
+- **Windows support basics:** worked with computer name, user context, IP address, serial number, Windows version, reboot time, and antivirus status.
+- **WMI/CIM awareness:** used Windows management queries to retrieve device and antivirus information.
+- **Testing discipline:** tested the workflow locally and on a second Windows computer.
+- **Documentation:** created a README, SOP, user-facing KBA, changelog, sample output, and troubleshooting log.
+- **Security awareness:** decided to publish the readable `.ps1` source instead of requiring users to run an unsigned `.exe`.
+
+## Links to supporting documents
+
+TROUBLESHOOTING-LOG.md
+SOP-support-info-tool.md
+KBA-how-to-run-support-info-tool.md
+CHANGELOG.md
+sample-output/techsupport_report_sample.txt
 
 ---
 
