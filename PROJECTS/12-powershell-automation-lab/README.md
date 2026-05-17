@@ -8,9 +8,14 @@
 
 This project demonstrates a realistic L1 Support workflow. I created a PowerShell script to collect basic support information, tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and user-facing documentation.
 
-During local testing, I also explored packaging the script as an executable. After reviewing the security implications of unsigned `.exe` files, I chose to publish the readable PowerShell script as the main portfolio artifact.
 
-A professional PowerShell tool designed for IT support to instantly collect crucial system data and save time during triage. The script gathers information like computer name, IP address, disk space, and OS version, saving it to a file on the user's desktop.
+new:
+This project demonstrates a 1st Level Support automation workflow. I created a PowerShell script that collects support-relevant system metadata such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
+
+The script generates a standardized text report that can support the first information-gathering step during a support request and reduce manual back-and-forth with the end user.
+
+During local testing, I also explored packaging the script as an executable. Because unsigned executables can trigger antivirus or SmartScreen warnings, I decided to publish the readable PowerShell script as the main public artifact.
+
 
 ---
 
@@ -25,10 +30,13 @@ This project provides a PowerShell-based diagnostic tool designed to streamline 
 ### 🛠️ Technical Credits
 This project utilizes the [PS2EXE module](https://github.com/MScholtes/PS2EXE/blob/master/README.md) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format.
 
+new: This project uses the [PS2EXE module](https://github.com/MScholtes/PS2EXE) by Markus Scholtes during local testing to explore PowerShell-to-EXE packaging. The public repository provides the readable PowerShell source file for transparency.
+
 ---
 
-## Project Goals
-The primary goal of this tool is to **optimize triage efficiency**. By automating the collection of system details (IP, Serial, Uptime), the technician can skip manual data entry. This is designed to **positively impact MTTR** (Mean Time to Resolution) by allowing the support session to begin with all necessary data already at hand.
+## Project Goals - ok
+The primary goal of this tool is to **support the first information-gathering step**. 
+By automating the collection of system details (IP, Serial, Uptime etc.), the technician can avoid manual data entry and start the support session with the necessary technical context already available. This can support faster handling of support requests and may positively impact MTTR (Mean Time to Resolution).
 
 ---
 
@@ -159,11 +167,13 @@ The Result: "A standardized text report that can be attached directly to a ticke
 ### To make this project truly "gold," include these additional pieces of evidence: [[1](https://www.youtube.com/watch?v=GfVgpKWDMAI)]
 
 1. **The "Business Value" Write-up:** On your portfolio website or LinkedIn, write a short paragraph explaining the _impact_. For example: _"By automating the system info collection, I estimate a 40% reduction in the first 5 minutes of a typical support call."_
-2. **Standard Operating Procedure (SOP):** Include a short, one-page PDF guide for a fellow technician on how to update the script if the company gets new hardware.
-3. **Version History (Changelog):** Show that you maintain the tool.
+✅40% - It sounds invented unless you measured it. _The goal is to reduce the time spent manually asking users for basic device information during the first support contact._ or _This can save several minutes during the first information-gathering step, especially when users do not know where to find IP address, serial number, or Windows version._
+
+3. ✅**Standard Operating Procedure (SOP):** Include a short, one-page PDF guide for a fellow technician on how to update the script if the company gets new hardware.
+4. ✅**Version History (Changelog):** Show that you maintain the tool.
     - _v1.0:_ Initial release.
     - _v1.1:_ Added "Last Reboot Time" because users often say they rebooted when they only turned the monitor off. (This shows you understand real-world user behavior!)
-4. **GitHub Badges:** Add badges for "License: MIT" or "PowerShell: 5.1+" at the top of your README for a polished, professional look.
+5. ✅**GitHub Badges:** Add badges for "License: MIT" or "PowerShell: 5.1+" at the top of your README for a polished, professional look.
 
 ### In a real job, this "small helper" solves three major pain points:
 
