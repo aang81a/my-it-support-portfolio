@@ -6,7 +6,7 @@ Computer Name:  PC2-SAMPLE
 Current User:   sample.user
 IP Address:     192.168.1.100
 Serial Number:  5XXXXXXX
-Windows Ver:    Windows 10 Pro
+Windows Version:    Windows 10 Pro
 Last Reboot:    mm/dd/2026 18:16:32
 Antivirus:      Malwarebytes, Windows Defender
 ------------------------------------------------
