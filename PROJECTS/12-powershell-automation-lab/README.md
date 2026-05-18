@@ -82,8 +82,6 @@ The report can then be shared with the IT technician or used for ticket document
 
 This project utilizes the [PS2EXE module](https://github.com/MScholtes/PS2EXE) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format during local testing.
 
-For public portfolio review, the readable PowerShell source file is provided instead of the unsigned executable.
-
 ---
 
 ## 🔐 Security & Transparency Note
