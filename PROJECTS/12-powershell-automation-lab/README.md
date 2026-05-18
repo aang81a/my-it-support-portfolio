@@ -4,21 +4,19 @@
 ![Windows](https://img.shields.io/badge/OS-Windows-0078D4?logo=windows&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
 
-**PowerShell automation for collecting support-relevant system details.**
+**PowerShell automation for collecting support-relevant system details**
 
 **Tool:** PowerShell
 
 **Project concept:** One-click support metadata collection for 1st Level Support.
 
-This project demonstrates a realistic 1st Level Support automation workflow built around a PowerShell metadata collection script.
-
-I developed this project by adapting and enhancing a PowerShell script for support-relevant system metadata collection, then tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and user-facing documentation.
+I developed this project by adapting and enhancing an initial PowerShell script for support-relevant system metadata collection, then tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and end-user-facing documentation.
 
 ---
 
 ## 📖 Project Overview
 
-This project presents a one-click support information workflow built around a PowerShell script that collects support-relevant system details quickly.
+This project presents a one-click support information workflow built around a PowerShell script that collects support-relevant system details quickly and writes them into a standardized report.
 
 In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually look up details such as the computer name, IP address, serial number, Windows version, last reboot time, or antivirus status, the script creates a standardized text report as part of the support workflow.
 
