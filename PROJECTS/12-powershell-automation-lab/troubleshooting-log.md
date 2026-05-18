@@ -13,7 +13,7 @@ The purpose of this file is to show how the project evolved from an initial supp
 | Output location | Reports were difficult to locate because Desktop paths and OneDrive redirection created confusion. | Final output strategy saves the report next to the running tool. |
 | EXE testing | The executable workflow exposed syntax and path-related issues. | Script logic was corrected and retested. |
 | Report content | A report file was created, but content was missing during one phase. | Output handling was corrected and report content was verified. |
-| Antivirus detection | The report showed a stale McAfee SecurityCenter2 / WMI entry during testing. | The antivirus registration was checked and the final report was verified against the active security products. |
+| Antivirus detection | The report showed a stale McAfee entry from an old installation, although McAfee was no longer actively installed. | The McAfee cleanup tool was used to remove possible leftover components, and the final report was checked again. |
 | Local executable workflow | The script was packaged into a one-click executable and tested with a desktop shortcut. | Local executable workflow was validated, but the public repository provides the readable PowerShell version. |
 | Second computer validation | The tool needed to be tested outside the original laptop environment. | Successful validation was completed on a second Windows computer. |
 
