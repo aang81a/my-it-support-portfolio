@@ -48,7 +48,7 @@ The tool is intended for support information gathering only. It does not replace
    - serial number
    - Windows version
    - last reboot time
-   - antivirus status
+   - registered antivirus product
 
 6. **Continue support work**  
    Use the report to support the next step, such as ticket documentation, network checks, remote support preparation, or escalation.
