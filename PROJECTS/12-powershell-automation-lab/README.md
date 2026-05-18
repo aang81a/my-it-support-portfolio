@@ -48,16 +48,14 @@ This can support faster handling of support requests and may positively impact M
 
 In 1st Level Support, valuable time can be lost guiding users through manual steps to find basic device information.
 
-Common examples:
-- IPv4 Addresses❓
-- Hardware Serial Numbers (for warranty/asset tracking)❓
-- System Uptime (to check if they actually rebooted)❓
-  
-- “What is your computer name?”
-- “What is your IP address?”
-- “When was the device last restarted?”
-- “Which Windows version is installed?”
-- “Which antivirus product is currently registered?”
+Technicians often need details such as:
+
+- computer name
+- IPv4 address
+- hardware serial number for asset or warranty checks
+- Windows version
+- last reboot time / system uptime
+- registered antivirus product
 
 For non-technical users, these details are not always easy to find. This can slow down the first part of the support process and increase the chance of incorrect or incomplete ticket documentation.
 
@@ -103,9 +101,9 @@ Unsigned executables created from scripts may trigger heuristic antivirus detect
 
 ---
 
-## 🚀 How This Workflow Would Be Used in Support
+## 🚀 Support Workflow
 
-### Public Portfolio Version
+### Public Repository
 
 For this portfolio, the main public artifact is:
 
@@ -113,7 +111,7 @@ For this portfolio, the main public artifact is:
 
 This allows reviewers to inspect the script logic and see exactly which system details are collected.
 
-### Intended 1st Level Support Workflow
+### Intended Use in 1st Level Support
 
 In a real support environment, the technician would provide an approved runnable version of the tool or guide the user through the company-approved process.
 
@@ -137,51 +135,18 @@ A sanitized sample report is included here:
 
 [`sample-output/TechSupport_Report_sample.txt`](sample-output/TechSupport_Report_sample.txt)
 
-Example structure:
+The generated report contains fields such as:
 
-```text
-------------------------------------------------
-IT SUPPORT DIAGNOSTIC REPORT
-------------------------------------------------
-Date/Time:        2026-mm-dd_hh-mm-ss
-Computer Name:    PC2-SAMPLE
-Current User:     sample.user
-IP Address:       192.168.1.100
-Serial Number:    5XXXXXXX
-Windows Version:  Windows 10 Pro
-Last Reboot:      mm/dd/2026 18:16:32
-Antivirus:        Malwarebytes, Windows Defender
-------------------------------------------------
-```
+- Date/Time
+- Computer Name
+- Current User
+- IP Address
+- Serial Number
+- Windows Version
+- Last Reboot
+- Antivirus
 
 ---
-
-## 📸 Screenshots - old 📸 📸 📸 📸 
-
-1. Run your script on your own computer.
-2. Take a clean screenshot of the result window.
-3. Upload that image to your GitHub repo and link it in the `README.md`.
-
-![Diagnostic Output Example](12-powershell-automation-lab/screenshots
-/01.png)
-
-![Final Success](./screenshots/04-final-success-validation.png).
-
-*(Pro Tip: Add a clear screenshot showing the green success text in the terminal)*
-
-Screenshot of the code
-Screenshot of the output
-Screenshot of the .txt file
-Final success screenshot
-Second computer validation
-Security check
-or
-script/source overview
-timestamped report created
-final success validation
-second computer validation
-security check / no McAfee
-
 
 ## 📸 Screenshots
 
@@ -190,14 +155,6 @@ The main screenshots below show the project concept, local testing, and final va
 ### Script Overview
 
 ![Script overview](screenshots/01-script-overview.png)
-
-### Local EXE Packaging Test
-
-![Local EXE packaging test](screenshots/02-local-exe-packaging-test.png)
-
-### Timestamped Report Created
-
-![Timestamped report created](screenshots/03-timestamped-report-created.png)
 
 ### Final Success Validation
 
@@ -211,11 +168,7 @@ The main screenshots below show the project concept, local testing, and final va
 
 ![Security check no McAfee](screenshots/06-security-check-no-mcafee.png)
 
-### Final Local Report Result
-
-![Final local report result](screenshots/07-final-local-report-result.png)
-
-More process screenshots are documented in the troubleshooting log.
+More process screenshots are documented in the [Troubleshooting Log](troubleshooting-log.md).
 
 ---
 
