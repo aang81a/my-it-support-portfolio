@@ -249,7 +249,7 @@ For this reason, the public GitHub version provides the readable PowerShell scri
 
 ---
 
-## 5. Screenshot Set Used in This Log
+## ✍️ Screenshot Set Used in This Log ✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️
 
 | New filename | Original filename |
 |---|---|
