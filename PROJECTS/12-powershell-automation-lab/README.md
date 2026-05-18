@@ -23,7 +23,7 @@ This project presents a one-click support information workflow built around a Po
 
 In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually look up details such as the computer name, IP address, serial number, Windows version, last reboot time, or antivirus status, the script creates a standardized text report as part of the support workflow.
 
-During local testing, I also explored packaging the script as a one-click executable with a desktop shortcut, so a non-technical user would not need to open PowerShell manually. 
+During local testing, I packaged the script as a one-click executable and tested it with a desktop shortcut, so a non-technical user would not need to open PowerShell manually.
 
 The project includes:
 
