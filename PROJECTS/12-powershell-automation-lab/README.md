@@ -1,4 +1,4 @@
-# 🚀 1st Level Support Metadata Collector
+# 🧾 1st Level Support Metadata Collector
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Windows](https://img.shields.io/badge/OS-Windows-0078D4?logo=windows&logoColor=white)
@@ -8,7 +8,7 @@
 
 This project demonstrates a realistic 1st Level Support automation workflow. I created a PowerShell script to collect support-relevant system metadata, tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and user-facing documentation.
 
-The workflow creates a standardized text report with details such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
+The script creates a standardized text report as part of the support workflow with details such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
 
 This can support the first information-gathering step during a support request and reduce manual back-and-forth with the end user.
 
@@ -69,7 +69,7 @@ The workflow collects support-relevant system details and writes them into a sta
 
 `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
 
-The report can then be attached to a support ticket or shared with the IT technician.
+The report can then be shared with the IT technician or used for ticket documentation.
 
 Collected details include:
 
@@ -83,7 +83,7 @@ Collected details include:
 
 ---
 
-## 🛠️ Technical Credits
+## 🙏 Technical Credits
 
 This project utilizes the [PS2EXE module](https://github.com/MScholtes/PS2EXE) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format during local testing.
 
@@ -101,7 +101,7 @@ Unsigned executables created from scripts may trigger heuristic antivirus detect
 
 ---
 
-## 🚀 Support Workflow
+## 🔄 Support Workflow
 
 ### Public Repository
 
@@ -118,7 +118,7 @@ In a real support environment, the technician would provide an approved runnable
 1. A user contacts 1st Level Support with a slow PC, network issue, or unclear system problem.
 2. The technician needs basic device information before continuing.
 3. Instead of manually asking questions like “What is your computer name?” or “What is your IP address?”, the user runs the approved support information collector.
-4. The workflow creates a report named like:
+4. The tool creates a report named like:
 
    `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
 
@@ -172,55 +172,44 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 
 ---
 
-## 🧠 Technical Skills Demonstrated 🧠🧠🧠🧠🧠
-
-- User Experience (UX): Creating a "One-Click" solution for non-tech users. - is missing
-- Version control / GitHub: Managed via GitHub. - more simple than "- **Security awareness:** chose to publish the readable `.ps1` source instead of requiring users to run an unsigned `.exe`."
-- Windows environment variables - this would not be better than Windows support basics?
-
+## 🧠 Technical Skills Demonstrated
 
 - **Automation thinking:** used PowerShell to reduce repetitive manual collection of support-relevant system details.
-- **Basic PowerShell exposure:** worked with commands such as `Get-CimInstance`, `Get-NetIPAddress`, `Out-File`, and `Out-String`. -really?
+- **Basic PowerShell exposure:** worked with commands such as `Get-CimInstance`, `Get-NetIPAddress`, `Out-File`, and `Out-String`.
 - **Windows support basics:** collected computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
-- **WMI/CIM awareness:** used Windows management queries to retrieve system and antivirus information. - is this telling the same as the previous statement
+- **WMI/CIM awareness:** used Windows management queries to retrieve system and antivirus information.
+- **Windows path handling:** worked with local folders, output paths, and report file creation during testing.
+- **User Experience (UX):** tested a one-click executable and desktop shortcut to make the support workflow easier for non-technical users.
 - **Testing discipline:** tested the workflow locally and on a second Windows computer.
 - **Technical documentation:** created a README, SOP, user-facing knowledge base article, changelog, sample output, and troubleshooting log.
 - **Security awareness:** decided to publish the readable `.ps1` source instead of requiring users to run an unsigned `.exe`.
-- **GitHub portfolio organization:** structured the project with source code, screenshots, sample output, and supporting documentation.
+- **Version control / GitHub:** managed the project in GitHub with source code, screenshots, sample output, and supporting documentation.
 
 ---
 
-## 📂 Links to supporting documents
+## ✨Key Features
+
+- **Support Metadata Collection:** Collects support-relevant system details such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
+- **Standardized Report Output:** Creates a report file named like `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`, which can be attached to a support ticket.
+- **User-Friendly Workflow Tested:** Local `.exe` packaging and desktop shortcut testing were explored to make the workflow easier for non-technical users.
+- **Readable Public Source:** The public repository provides the `.ps1` script so reviewers can inspect what the tool collects.
+- **No Admin Rights for Basic Data:** The tested system details were collected without requiring administrator access in the test environments.
+- **Documentation Package:** Includes technician-facing SOP, user-facing KBA, troubleshooting log, changelog, screenshots, and sample output.
+
+---
+
+## 💼 Business Value
+
+- **Bottleneck identified:** support calls often lose time when users have to manually find device information.
+- **Solution:** the workflow collects support-relevant metadata into a standardized report.
+- **Result:** the report can be added to the support ticket as an attachment or used by the technician to document the case more accurately.
+
+---
+
+## 🔗 Links to supporting documents
 
 - [Troubleshooting Log](troubleshooting-log.md)
 - [SOP: Support Info Tool](sop-support-info-tool.md)
 - [Knowledge Base Article: How to Run the Support Info Tool](kba-how-to-run-support-info-tool.md)
 - [Changelog](CHANGELOG.md)
 - [Sample Output](sample-output/TechSupport_Report_sample.txt)
-
----
-
-## 📌 Project Summary - this is a kind of repetition to what nobody has time to read!!!!!!!!!!!!!!
-
-This project is about more than a single PowerShell script.
-
-It shows how a small automation idea can become a complete 1st Level Support workflow: collecting support metadata, testing the workflow, documenting problems, making security-aware publishing decisions, and creating documentation for both technicians and end users.
-
----
-
-## 🛠️ Key Features 🛠️🛠️🛠️🛠️🛠️🛠️🛠️ - is missing
-- **Zero-Install:** Runs directly from a folder or USB drive.
-- **Automated Export:** Saves a `TechSupport_Report_yyyyy-mm-dd_hh-mm-ss.txt` to the user's desktop for easy emailing.
-- **Technician-Focused Data:** Includes last boot time, serial number, and network details.
-- No Admin rights required for basic info.
-- Automated file export for easy emailing to the Helpdesk.
-
----
-
-## Notes - is missing
-
-What I did: "I identified a common bottleneck in support calls—the time spent finding device information."
-
-How I solved it: "I developed a small PowerShell utility that users can run with one click."
-
-The Result: "A standardized text report that can be attached directly to a ticketing system (like Spiceworks or Jira)."
