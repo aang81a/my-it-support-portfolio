@@ -10,8 +10,6 @@
 
 **Project concept:** One-click support metadata collection for 1st Level Support.
 
-**PowerShell automation for collecting support-relevant system details.**
-
 This project presents a realistic 1st Level Support automation workflow built around a PowerShell metadata collection script.
 
 I developed this project by adapting and enhancing a PowerShell script for support-relevant system metadata collection, then tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and user-facing documentation.
@@ -20,13 +18,9 @@ I developed this project by adapting and enhancing a PowerShell script for suppo
 
 ## 📖 Project Overview
 
-This project focuses on automating repetitive support information collection for 1st Level Support.
+This is a one-click support information workflow: a PowerShell-based approach designed to collect crucial system details quickly, such as computer name, IP address, serial number, Windows version, last reboot time, and antivirus status.
 
-This project started as a one-click support information tool: a PowerShell-based workflow designed to collect crucial system details quickly, such as computer name, IP address, serial number, Windows version, last reboot time, and antivirus status.
-
-In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually find values such as the computer name, IP address, serial number, Windows version, or last reboot time, the script collects the information into a standardized report.
-
-The script creates a standardized text report as part of the support workflow, with details such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
+In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually find values such as the computer name, IP address, serial number, Windows version, last reboot time, or antivirus status, the script creates a standardized text report as part of the support workflow.
 
 During local testing, I also explored packaging the script as a one-click executable with a desktop shortcut, so a non-technical user would not need to open PowerShell manually. 
 
@@ -40,7 +34,7 @@ The project includes:
 - technician-facing SOP documentation
 - user-facing knowledge base documentation
 
-
+---
 
 ## 📖 Project Overview
 
