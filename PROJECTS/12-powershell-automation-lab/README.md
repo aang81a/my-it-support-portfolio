@@ -13,6 +13,7 @@
 **Project evolution:** script → one-click executable workflow → troubleshooting → testing → documentation → published PowerShell version
 
 I developed this project by adapting and enhancing an initial PowerShell metadata collection script into a tested 1st Level Support workflow with local executable packaging and desktop shortcut testing. 
+
 I tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and end-user-facing documentation.
 
 ---
@@ -27,13 +28,14 @@ The main development step was converting the script into a one-click executable 
 
 The project includes:
 
-- a PowerShell script for collecting support-relevant system metadata
+- a PowerShell script for collecting support-relevant system metadata (`collect-support-info.ps1`)
 - a standardized text report format
-- local testing of `.exe` packaging for a user-friendly workflow
-- screenshots showing testing and validation
+- packaging the script as a one-click executable (`.exe`) and testing it with a desktop shortcut
+- screenshots showing troubleshooting, testing, and validation
 - a troubleshooting log documenting issues and fixes
 - technician-facing SOP documentation
-- user-facing knowledge base documentation
+- end-user-facing knowledge base documentation
+- a readable published PowerShell version instead of a downloadable unsigned `.exe`
 
 ---
 
