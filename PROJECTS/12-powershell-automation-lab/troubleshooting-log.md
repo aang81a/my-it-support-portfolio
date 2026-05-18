@@ -13,7 +13,7 @@ The purpose of this file is to show how the project evolved from an initial supp
 | Output location | Reports were difficult to locate because Desktop paths and OneDrive redirection created confusion. | Final output strategy saves the report next to the running tool. |
 | EXE testing | The executable workflow exposed syntax and path-related issues. | Script logic was corrected and retested. |
 | Report content | A report file was created, but content was missing during one phase. | Output handling was corrected and report content was verified. |
-| Antivirus detection | The report showed an old/stale antivirus entry during testing. | Antivirus registration was checked and final output verified. |
+| Antivirus detection | The report showed a stale McAfee SecurityCenter2 / WMI entry during testing. | The antivirus registration was checked and the final report was verified against the active security products. |
 | Local executable workflow | The script was packaged into a one-click executable and tested with a desktop shortcut. | Local executable workflow was validated, but the public repository provides the readable PowerShell version. |
 | Second computer validation | The tool needed to be tested outside the original laptop environment. | Successful validation was completed on a second Windows computer. |
 
@@ -125,8 +125,8 @@ Testing the script directly helped confirm that the report-generation logic work
 
 ### 2.6 One-Click Executable Workflow Test
 
-ts-10-exe-run-without-desktop-icon.png  41-test-with-exe-file-not-desctop-icon-rsult-success.png
-ts-11-one-click-desktop-shortcut-success.png 44-Laptop-icon-successfuly-runs-report-data-ok.png
+ts-15-exe-run-without-desktop-icon.png ← 41-test-with-exe-file-not-desctop-icon-rsult-success.png 
+ts-16-one-click-desktop-shortcut-success.png ← 44-Laptop-icon-successfuly-runs-report-data-ok.png
 
 ---
 
@@ -136,24 +136,24 @@ After the old antivirus entry appeared in the report, the antivirus registration
 
 | Step | Screenshot | What happened |
 |---:|---|---|
-| 15 | `ts-15-antivirus-check-before.png` | Antivirus product data was checked directly. |
-| 16 | `ts-16-mcafee-present-after-restart.png` | The old antivirus entry was still visible during deeper checking. |
-| 17 | `ts-17-mcafee-wmi-details.png` | WMI / SecurityCenter2 details were checked. |
-| 18 | `ts-18-mcafee-removed-cmd-check.png` | A command-line check no longer found the old antivirus entry. |
-| 19 | `ts-19-no-mcafee-final-check.png` | A final check confirmed that the old entry was no longer present. |
-| 20 | `ts-20-no-mcafee-final-report.png` | The generated support report no longer showed the old antivirus entry. |
+| 17 | `ts-17-antivirus-check-before.png` | Antivirus product data was checked directly. |
+| 18 | `ts-18-mcafee-present-after-restart.png` | The old antivirus entry was still visible during deeper checking. |
+| 19 | `ts-19-mcafee-wmi-details.png` | WMI / SecurityCenter2 details were checked. |
+| 20 | `ts-20-mcafee-removed-cmd-check.png` | A command-line check no longer found the old antivirus entry. |
+| 21 | `ts-21-no-mcafee-final-check.png` | A final check confirmed that the old entry was no longer present. |
+| 22 | `ts-22-no-mcafee-final-report.png` | The generated support report no longer showed the old antivirus entry. |
 
-![Antivirus check before](screenshots/ts-15-antivirus-check-before.png)
+![Antivirus check before](screenshots/ts-17-antivirus-check-before.png)
 
-![McAfee present after restart](screenshots/ts-16-mcafee-present-after-restart.png)
+![McAfee present after restart](screenshots/ts-18-mcafee-present-after-restart.png)
 
-![McAfee WMI details](screenshots/ts-17-mcafee-wmi-details.png)
+![McAfee WMI details](screenshots/ts-19-mcafee-wmi-details.png)
 
-![McAfee removed cmd check](screenshots/ts-18-mcafee-removed-cmd-check.png)
+![McAfee removed cmd check](screenshots/ts-20-mcafee-removed-cmd-check.png)
 
-![No McAfee final check](screenshots/ts-19-no-mcafee-final-check.png)
+![No McAfee final check](screenshots/ts-21-no-mcafee-final-check.png)
 
-![No McAfee final report](screenshots/ts-20-no-mcafee-final-report.png)
+![No McAfee final report](screenshots/ts-22-no-mcafee-final-report.png)
 
 **Result:**  
 The antivirus output was verified instead of assumed. The final report reflected the corrected antivirus state.
@@ -166,12 +166,12 @@ After the antivirus issue was resolved, a later executable-path issue appeared. 
 
 | Step | Screenshot | What happened |
 |---:|---|---|
-| 21 | `ts-21-null-path-error.png` | A null path issue appeared during executable testing. |
-| 22 | `ts-22-basedirectory-fix.png` | The script was adjusted to use `BaseDirectory` so the report is saved next to the running file. |
+| 23 | `ts-23-null-path-error.png` | A null path issue appeared during executable testing. |
+| 24 | `ts-24-basedirectory-fix.png` | The script was adjusted to use `BaseDirectory` so the report is saved next to the running file. |
 
-![Null path error](screenshots/ts-21-null-path-error.png)
+![Null path error](screenshots/ts-23-null-path-error.png)
 
-![BaseDirectory fix](screenshots/ts-22-basedirectory-fix.png)
+![BaseDirectory fix](screenshots/ts-24-basedirectory-fix.png)
 
 **Result:**  
 The final output strategy was changed so the report is saved next to the running script or executable. This solved the earlier report-location confusion more reliably than depending on Desktop paths.
@@ -184,9 +184,9 @@ After the path/output fixes, the tool successfully created the report in the exp
 
 | Step | Screenshot | What happened |
 |---:|---|---|
-| 23 | `ts-23-final-success.png` | Final successful result after the path and output fixes. |
+| 25 | `ts-25-final-success.png` | Final successful result after the path and output fixes. |
 
-![Final success](screenshots/ts-23-final-success.png)
+![Final success](screenshots/ts-25-final-success.png)
 
 **Result:**  
 The local workflow successfully created the support report and confirmed the final output behavior.
@@ -199,15 +199,15 @@ The final validation step was to test the tool on a second Windows computer. Thi
 
 | Step | Screenshot | What happened |
 |---:|---|---|
-| 24 | `ts-24-second-computer-folder-created.png` | A clean test folder was created on PC3. |
-| 25 | `ts-25-second-computer-tool-folder.png` | The tool was placed in the PC3 test folder. |
-| 26 | `ts-26-second-computer-success.png` | The tool ran successfully on PC3 and generated the report. |
+| 26 | `ts-26-second-computer-folder-created.png` | A clean test folder was created on PC3. |
+| 27 | `ts-27-second-computer-tool-folder.png` | The tool was placed in the PC3 test folder. |
+| 28 | `ts-28-second-computer-success.png` | The tool ran successfully on PC3 and generated the report. |
 
-![Second computer folder created](screenshots/ts-24-second-computer-folder-created.png)
+![Second computer folder created](screenshots/ts-26-second-computer-folder-created.png)
 
-![Second computer tool folder](screenshots/ts-25-second-computer-tool-folder.png)
+![Second computer tool folder](screenshots/ts-27-second-computer-tool-folder.png)
 
-![Second computer success](screenshots/ts-26-second-computer-success.png)
+![Second computer success](screenshots/ts-28-second-computer-success.png)
 
 **Result:**  
 The workflow was validated on a second Windows system.
@@ -255,15 +255,17 @@ For this reason, the public GitHub version provides the readable PowerShell scri
 | `ts-12-empty-report-debugging.png` | `35-Laptop-no-text-in-file-ultimate-script.png` |
 | `ts-13-raw-script-test.png` | `37-running-powershell-script.png` |
 | `ts-14-report-content-fixed.png` | `38-powershell-success-notpad-report-with-data.png` |
-| `ts-15-antivirus-check-before.png` | `50-Laptop-antivirus-check.png` |
-| `ts-16-mcafee-present-after-restart.png` | `52-Laptop-after-restart-deep-search-mcafee-present.png` |
-| `ts-17-mcafee-wmi-details.png` | `54-Laptop-InstanceID-results.png` |
-| `ts-18-mcafee-removed-cmd-check.png` | `58-Laptop-cmd-to-find-id-but-no-mcafee.png` |
-| `ts-19-no-mcafee-final-check.png` | `59-Laptop-no-mcafee-at all.png` |
-| `ts-20-no-mcafee-final-report.png` | `60-Laptop-no-mcafee-in-tech-support-siagnostics.png` |
-| `ts-21-null-path-error.png` | `63-Laptop-null-variable.png` |
-| `ts-22-basedirectory-fix.png` | `64-Laptop-new-ps1-file.png` |
-| `ts-23-final-success.png` | `68-Laptop-success-finaly.png` |
-| `ts-24-second-computer-folder-created.png` | `01-PC3-new-folder-on-c.png` |
-| `ts-25-second-computer-tool-folder.png` | `02-PC3-diagnostic-tool-in-folder.png` |
-| `ts-26-second-computer-success.png` | `03-PC3-diagnostic-successful.png` |
+| `ts-15-exe-run-without-desktop-icon.png` ← `41-test-with-exe-file-not-desctop-icon-rsult-success.png` |
+| `ts-16-one-click-desktop-shortcut-success.png` ← `44-Laptop-icon-successfuly-runs-report-data-ok.png` |
+| `ts-17-antivirus-check-before.png` | `50-Laptop-antivirus-check.png` |
+| `ts-18-mcafee-present-after-restart.png` | `52-Laptop-after-restart-deep-search-mcafee-present.png` |
+| `ts-19-mcafee-wmi-details.png` | `54-Laptop-InstanceID-results.png` |
+| `ts-20-mcafee-removed-cmd-check.png` | `58-Laptop-cmd-to-find-id-but-no-mcafee.png` |
+| `ts-21-no-mcafee-final-check.png` | `59-Laptop-no-mcafee-at all.png` |
+| `ts-22-no-mcafee-final-report.png` | `60-Laptop-no-mcafee-in-tech-support-siagnostics.png` |
+| `ts-23-null-path-error.png` | `63-Laptop-null-variable.png` |
+| `ts-24-basedirectory-fix.png` | `64-Laptop-new-ps1-file.png` |
+| `ts-25-final-success.png` | `68-Laptop-success-finaly.png` |
+| `ts-26-second-computer-folder-created.png` | `01-PC3-new-folder-on-c.png` |
+| `ts-27-second-computer-tool-folder.png` | `02-PC3-diagnostic-tool-in-folder.png` |
+| `ts-28-second-computer-success.png` | `03-PC3-diagnostic-successful.png` |
