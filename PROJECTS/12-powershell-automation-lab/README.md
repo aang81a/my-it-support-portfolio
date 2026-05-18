@@ -10,7 +10,7 @@
 
 **Project concept:** One-click support metadata collection for 1st Level Support.
 
-This project presents a realistic 1st Level Support automation workflow built around a PowerShell metadata collection script.
+This project demonstrates a realistic 1st Level Support automation workflow built around a PowerShell metadata collection script.
 
 I developed this project by adapting and enhancing a PowerShell script for support-relevant system metadata collection, then tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and user-facing documentation.
 
@@ -18,7 +18,7 @@ I developed this project by adapting and enhancing a PowerShell script for suppo
 
 ## 📖 Project Overview
 
-This is a one-click support information workflow: a PowerShell-based approach designed to collect crucial system details quickly.
+This project presents a one-click support information workflow built around a PowerShell script that collects support-relevant system details quickly.
 
 In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually look up details such as the computer name, IP address, serial number, Windows version, last reboot time, or antivirus status, the script creates a standardized text report as part of the support workflow.
 
@@ -33,23 +33,6 @@ The project includes:
 - a troubleshooting log documenting issues and fixes
 - technician-facing SOP documentation
 - user-facing knowledge base documentation
-
----
-
-## 📖 Project Overview
-
-This project focuses on automating repetitive support information collection for 1st Level Support.
-
-The project includes:
-
-- a PowerShell script for collecting support-relevant system metadata
-- a standardized text report format
-- local testing of `.exe` packaging and a desktop shortcut for a user-friendly workflow
-- screenshots showing testing and validation
-- a troubleshooting log documenting issues and fixes
-- technician-facing SOP documentation
-- user-facing knowledge base documentation
-
 
 ---
 
