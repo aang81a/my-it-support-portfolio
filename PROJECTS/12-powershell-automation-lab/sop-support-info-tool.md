@@ -1,37 +1,115 @@
-## SOP: Deploying and Updating the L1 Diagnostic Tool
-Document ID: SOP-IT-001
-Version: 1.0
-Owner: [Your Name]
-Status: Active
-------------------------------
-## 1. Purpose
-The purpose of this SOP is to define the standardized method for using and maintaining the L1 Diagnostic Tool to ensure consistent data collection during remote support sessions.
-## 2. Scope
-This procedure applies to all 1st Level Support staff and Managed Service Provider (MSP) technicians.
-## 3. Procedure: Running the Tool
+# SOP: Using and Maintaining the 1st Level Support Metadata Collector
 
-   1. Distribution: Provide the user with the compressed .zip folder containing Run-Diagnostics.bat and client-diagnostic.ps1.
-   2. Instruction: Direct the user to extract the folder to their Desktop.
-   3. Execution: Ask the user to double-click Run-Diagnostics.bat.
-   * Note: If a "Windows Protected your PC" popup appears, instruct the user to click "More Info" -> "Run anyway."
-   4. Collection: Once the diagnostic completes, ask the user to email the TechSupport_Info.txt file (automatically generated on their Desktop) to the support ticket.
+**Document ID:** SOP-IT-001  
+**Version:** 1.0  
+**Owner:** [Your Name]  
+**Status:** Active  
+
+---
+
+## 1. Purpose
+
+The purpose of this SOP is to define a standardized method for using and maintaining the 1st Level Support Metadata Collector.
+
+The tool supports consistent collection of basic device information during support requests and helps technicians document support cases more accurately.
+
+---
+
+## 2. Scope
+
+This procedure applies to 1st Level Support technicians who need to collect basic system details during a support request.
+
+The tool is intended for support information gathering only. It does not replace troubleshooting, remote support, or ticket documentation.
+
+---
+
+## 3. Procedure: Using the Tool
+
+1. **Prepare the approved tool package**  
+   Use the company-approved runnable version of the support information collector or the reviewed PowerShell source version.
+
+2. **Provide instructions to the user**  
+   Ask the user to run the approved support information collector during the support session.
+
+3. **Generate the report**  
+   The tool creates a report file named like:
+
+   `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
+
+4. **Collect the report**  
+   Ask the user to send the report back to IT Support or attach it to the support ticket.
+
+5. **Review the report**  
+   Check the collected support details, such as:
+
+   - computer name
+   - current user
+   - IP address
+   - serial number
+   - Windows version
+   - last reboot time
+   - antivirus status
+
+6. **Continue support work**  
+   Use the report to support the next step, such as ticket documentation, network checks, remote support preparation, or escalation.
+
+---
 
 ## 4. Procedure: Updating the Script
-When new hardware is introduced or additional data points (e.g., VPN status) are required:
 
-   1. Test Environment: Open client-diagnostic.ps1 in VS Code on a test machine.
-   2. Modification: Add the new property to the $Results hash table.
-   * Example: To add Disk Space, add: "Disk Free" = (Get-PSDrive C).Free / 1GB
-   3. Verification: Run the script to ensure the .txt output remains readable.
-   4. Version Control: Commit the changes to the GitHub Repository with a clear comment (e.g., "Added disk space monitoring").
+When new support data points are required, such as disk space, VPN status, or additional network information:
 
-## 5. Troubleshooting the Tool
+1. **Open the script in a test environment**  
+   Open `collect-support-info.ps1` in VS Code or another text editor.
 
-| Issue | Potential Cause | Resolution |
+2. **Modify the script carefully**  
+   Add only the required data point.
+
+3. **Test the script locally**  
+   Run the script and confirm that the report is created successfully.
+
+4. **Verify report readability**  
+   Open the generated `.txt` file and check that the content is readable and correctly formatted.
+
+5. **Test before publishing changes**  
+   Validate the updated script on a test device before using it in a support workflow.
+
+6. **Document the change**  
+   Update the changelog and commit the change to GitHub with a clear message.
+
+---
+
+## 5. Verification Checklist
+
+Before using an updated version, confirm:
+
+- [ ] The script runs without errors.
+- [ ] A report file is created.
+- [ ] The report filename includes a timestamp.
+- [ ] The report content is readable.
+- [ ] The report is saved in the expected location.
+- [ ] No unnecessary personal files or passwords are collected.
+- [ ] The output matches the expected report format.
+
+---
+
+## 6. Troubleshooting the Tool
+
+| Issue | Possible Cause | Resolution |
 |---|---|---|
-| Script closes instantly | Files are not in the same folder | Ensure .bat and .ps1 are in the same directory. |
-| Permission Denied | Antivirus blocking execution | Temporarily whitelist the script or run as Admin if necessary. |
-| Missing IP Address | No active network connection | Verify the user is connected to Wi-Fi or Ethernet. |
-ChallengeTechnical Root CauseResolution"Ghost" AntivirusStale WMI registrations left behind by McAfee uninstaller.Used Get-CimInstance to query the live SecurityCenter2 namespace.Vanishing ReportsOneDrive Folder Redirection moved the Desktop path to a cloud-sync folder.Implemented BaseDirectory discovery to keep the report next to the .exe.Empty .txt FilesPowerShell object stream was closing before the buffer was fully written.Applied Out-String and explicit UTF8 encoding to force a clean write.
+| Report file is difficult to find | Desktop path or OneDrive redirection causes confusion | Check the folder where the tool was run and confirm the output location. |
+| Report file is empty | Output was not written correctly to the text file | Test the script directly and verify output handling. |
+| Missing IP address | No active network connection or adapter issue | Confirm the device is connected to Wi-Fi or Ethernet. |
+| Unexpected antivirus entry appears | Old or stale antivirus registration may still be present | Verify antivirus status and compare with Windows Security / installed security tools. |
+| Executable triggers antivirus warning | Unsigned executable created from a script may trigger heuristic detection | Use the readable PowerShell source for review and only use approved company tools in real environments. |
+| Tool closes before user can read the result | Console window closes after execution | Keep a pause/read step so the user can confirm completion. |
 
+---
 
+## 7. Data Handling Notes
+
+The report is intended for support use only.
+
+The tool collects basic support-relevant system details. It should not collect passwords, personal documents, browser data, photos, or other private user files.
+
+Reports should be handled according to the company’s internal ticketing, privacy, and data-retention rules.
