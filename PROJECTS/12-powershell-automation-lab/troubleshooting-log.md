@@ -1,38 +1,3 @@
-
-A batch launcher was tested during development to simplify execution, but it was not kept as the final public artifact because the repository focuses on readable PowerShell source and security transparency.
-
----
-
-troubleshooting-log.md
-
-Use these there:
-
-38-powershell-success-notpad-report-with-data.png
-
-41-test-with-exe-file-not-desctop-icon-rsult-success.png
-
-44-Laptop-icon-successfuly-runs-report-data-ok.png
-
-60-Laptop-no-mcafee-in-tech-support-siagnostics.png
-
----
-
-They show the evolution:
-
-38 = report content finally appears
-
-41 = EXE test without desktop icon
-
-44 = icon-based user-friendly run
-
-60 = final antivirus-clean report state
-
-So: README gets the clean final proof. Troubleshooting log gets the process screenshots.
-
----
-
-
-```markdown
 # Troubleshooting Log – 1st Level Support Metadata Collector
 
 This log documents the main troubleshooting steps from the PowerShell metadata collection project.
@@ -302,4 +267,3 @@ For this reason, the public GitHub version provides the readable PowerShell scri
 | `ts-24-second-computer-folder-created.png` | `01-PC3-new-folder-on-c.png` |
 | `ts-25-second-computer-tool-folder.png` | `02-PC3-diagnostic-tool-in-folder.png` |
 | `ts-26-second-computer-success.png` | `03-PC3-diagnostic-successful.png` |
-```
