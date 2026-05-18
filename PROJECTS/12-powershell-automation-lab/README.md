@@ -201,7 +201,7 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 ## 💼 Business Value
 
 - **Bottleneck identified:** support calls often lose time when users have to manually find device information.
-- **Solution:** the workflow collects support-relevant metadata into a standardized report.
+- **Solution:** the tool collects support-relevant metadata and writes it into a standardized report.
 - **Result:** the report can be added to the support ticket as an attachment or used by the technician to document the case more accurately.
 
 ---
