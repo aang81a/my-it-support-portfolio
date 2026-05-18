@@ -28,14 +28,14 @@ The main development step was converting the script into a one-click executable 
 
 The project includes:
 
-- a PowerShell script for collecting support-relevant system metadata (`collect-support-info.ps1`)
+- an initial PowerShell metadata collection script (`Get-Info.ps1`)
 - a standardized text report format
 - packaging the script as a one-click executable (`.exe`) and testing it with a desktop shortcut
 - screenshots showing troubleshooting, testing, and validation
 - a troubleshooting log documenting issues and fixes
 - technician-facing SOP documentation
 - end-user-facing knowledge base documentation
-- a readable published PowerShell version instead of a downloadable unsigned `.exe`
+- a readable published PowerShell version (`collect-support-info.ps1`) instead of a downloadable unsigned `.exe`
 
 ---
 
