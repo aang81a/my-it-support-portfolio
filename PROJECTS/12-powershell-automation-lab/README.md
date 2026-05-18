@@ -184,18 +184,18 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 
 ## ✨ Key Features
 
+- **Low-Impact Support Check:** Designed for basic support information gathering without making configuration changes.
 - **Support Metadata Collection:** Collects support-relevant system details such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
 - **Standardized Report Output:** Creates a report file named like `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`, which can be attached to a support ticket.
 - **User-Friendly Workflow Tested:** Local `.exe` packaging and desktop shortcut testing were explored so a non-technical user would not need to open PowerShell manually.
 - **Readable Public Source:** The public repository provides the `.ps1` script so reviewers can inspect what the tool collects.
-- **No Admin Rights for Basic Data:** The tested system details were collected without requiring administrator access in the test environments.
 - **Documentation Package:** Includes technician-facing SOP, user-facing KBA, troubleshooting log, changelog, screenshots, and sample output.
 
 ---
 
 ## 💼 Business Value
 
-- **Bottleneck identified:** Support calls often lose time when users have to manually find device information.
+- **Challenge:** Support calls often lose time when users have to manually find device information.
 - **Solution:** The tool collects support-relevant metadata and writes it into a standardized report.
 - **Result:** The report can be added to the support ticket as an attachment or used by the technician to document the case more accurately.
 
