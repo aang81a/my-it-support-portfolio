@@ -99,11 +99,13 @@ For public portfolio review, the readable PowerShell source file is provided ins
 
 ## 🔐 Security & Transparency Note
 
-During testing, I also compiled the script into an executable using PS2EXE.
+The user-friendly executable version was tested locally, but it is not published as a downloadable file in this repository.
 
-Because unsigned executables can trigger antivirus or SmartScreen warnings, the public portfolio version is provided as a readable PowerShell script instead.
+Unsigned executables created from scripts may trigger heuristic antivirus detections, especially when they collect system and network information.
 
-Unsigned executables created from scripts may trigger heuristic antivirus detections. For transparency and trust, this repository provides the PowerShell source script as the main artifact instead of requiring users to run an executable.
+For transparency and trust, this repository provides the readable PowerShell source script as the main artifact instead of publishing the unsigned `.exe`. The script shows which commands are used and which system details are collected.
+
+In a real support environment, the end user would use only an approved company-provided tool or follow the company-approved support process.
 
 ---
 
