@@ -267,8 +267,8 @@ For this reason, the public GitHub version provides the readable PowerShell scri
 | `ts-12-empty-report-debugging.png` | `35-Laptop-no-text-in-file-ultimate-script.png` |
 | `ts-13-raw-script-test.png` | `37-running-powershell-script.png` |
 | `ts-14-report-content-fixed.png` | `38-powershell-success-notpad-report-with-data.png` |
-| `ts-15-exe-run-without-desktop-icon.png` ← `41-test-with-exe-file-not-desctop-icon-rsult-success.png` |
-| `ts-16-one-click-desktop-shortcut-success.png` ← `44-Laptop-icon-successfuly-runs-report-data-ok.png` |
+| `ts-15-exe-run-without-desktop-icon.png`| `41-test-with-exe-file-not-desctop-icon-rsult-success.png` |
+| `ts-16-one-click-desktop-shortcut-success.png` | `44-Laptop-icon-successfuly-runs-report-data-ok.png` |
 | `ts-17-antivirus-check-before.png` | `50-Laptop-antivirus-check.png` |
 | `ts-18-mcafee-present-after-restart.png` | `52-Laptop-after-restart-deep-search-mcafee-present.png` |
 | `ts-19-mcafee-wmi-details.png` | `54-Laptop-InstanceID-results.png` |
