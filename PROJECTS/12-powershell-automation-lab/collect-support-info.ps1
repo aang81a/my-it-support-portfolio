@@ -29,7 +29,7 @@ Antivirus:      $AVNames
 Write-Host $ResultsText -ForegroundColor Green
 
 # --- STEP 3: RELIABLE LOCAL OUTPUT ---
-# This saves the report in the same folder as the running script or executable.
+# This ensures the report is always saved right next to the .exe
 $TargetDir = [System.AppDomain]::CurrentDomain.BaseDirectory
 if (-not $TargetDir) { $TargetDir = $PSScriptRoot }
 
