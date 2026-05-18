@@ -11,11 +11,15 @@ The purpose of this file is to show how the project evolved from an initial supp
 | Area | Issue | Final Outcome |
 |---|---|---|
 | Output location | Reports were difficult to locate because Desktop paths and OneDrive redirection created confusion. | Final output strategy saves the report next to the running tool. |
-| EXE testing | The executable workflow exposed syntax and path-related issues. | Script logic was corrected and retested. |
-| Report content | A report file was created, but content was missing during one phase. | Output handling was corrected and report content was verified. |
+| EXE testing | The executable workflow exposed a syntax issue during testing. | Script logic was corrected and retested. |
 | Antivirus detection | The report showed a stale McAfee entry from an old installation, although McAfee was no longer actively installed. | The McAfee cleanup tool was used to remove possible leftover components, and the final report was checked again. |
-| Local executable workflow | The script was packaged into a one-click executable and tested with a desktop shortcut. | Local executable workflow was validated, but the public repository provides the readable PowerShell version. |
+| Report content | A report file was created, but content was missing during one phase. | Output handling was corrected and report content was verified. |
+| Local executable workflow | The executable was tested as a one-click support tool, including runs with and without a desktop shortcut. | The executable workflow was validated locally, but the public repository provides the readable PowerShell version. |
+| Final path handling | A later path issue appeared during executable testing. | The final output strategy was changed so the report is saved next to the running tool. |
 | Second computer validation | The tool needed to be tested outside the original laptop environment. | Successful validation was completed on a second Windows computer. |
+
+
+output path → EXE syntax → stale McAfee output → empty report/content fix → one-click EXE workflow → antivirus verification/final path handling → PC3 validation
 
 ---
 
@@ -125,8 +129,16 @@ Testing the script directly helped confirm that the report-generation logic work
 
 ### 2.6 One-Click Executable Workflow Test
 
-ts-15-exe-run-without-desktop-icon.png ← 41-test-with-exe-file-not-desctop-icon-rsult-success.png 
-ts-16-one-click-desktop-shortcut-success.png ← 44-Laptop-icon-successfuly-runs-report-data-ok.png
+The one-click executable workflow was part of the project from an early stage. During testing, the executable was run both directly and through a desktop shortcut to confirm that a non-technical user would not need to open PowerShell manually.
+
+| Step | Screenshot | What happened |
+|---:|---|---|
+| 15 | `ts-15-exe-run-without-desktop-icon.png` | The executable was tested directly, without using the desktop shortcut. |
+| 16 | `ts-16-one-click-desktop-shortcut-success.png` | The executable was tested through the desktop shortcut, confirming the one-click user workflow. |
+
+![Executable run without desktop icon](screenshots/ts-15-exe-run-without-desktop-icon.png)
+
+![Executable run through desktop shortcut](screenshots/ts-16-one-click-desktop-shortcut-success.png)
 
 ---
 
