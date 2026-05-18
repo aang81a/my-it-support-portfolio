@@ -20,7 +20,7 @@ During local testing, I also explored packaging the script as an executable. Bec
 
 This project focuses on automating repetitive support information collection for 1st Level Support.
 
-In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually find values such as the computer name, IP address, serial number, Windows version, or last reboot time, this workflow collects the information into a standardized report.
+In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually find values such as the computer name, IP address, serial number, Windows version, or last reboot time, the script collects the information into a standardized report.
 
 The project includes:
 
@@ -65,7 +65,7 @@ For non-technical users, these details are not always easy to find. This can slo
 
 The solution is a PowerShell-based support metadata collector.
 
-The workflow collects support-relevant system details and writes them into a standardized report file:
+The tool collects support-relevant system details and writes them into a standardized report file:
 
 `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
 
@@ -200,9 +200,9 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 
 ## 💼 Business Value
 
-- **Bottleneck identified:** support calls often lose time when users have to manually find device information.
-- **Solution:** the tool collects support-relevant metadata and writes it into a standardized report.
-- **Result:** the report can be added to the support ticket as an attachment or used by the technician to document the case more accurately.
+- **Bottleneck identified:** Support calls often lose time when users have to manually find device information.
+- **Solution:** The tool collects support-relevant metadata and writes it into a standardized report.
+- **Result:** The report can be added to the support ticket as an attachment or used by the technician to document the case more accurately.
 
 ---
 
