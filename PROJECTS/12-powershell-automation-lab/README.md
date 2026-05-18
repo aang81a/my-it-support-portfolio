@@ -12,7 +12,9 @@
 
 **PowerShell automation for collecting support-relevant system details.**
 
-This project demonstrates a realistic 1st Level Support automation workflow. I developed this project by adapting and enhancing a PowerShell script for support-relevant system metadata collection, then tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and user-facing documentation.
+This project presents a realistic 1st Level Support automation workflow built around a PowerShell metadata collection script.
+
+I developed this project by adapting and enhancing a PowerShell script for support-relevant system metadata collection, then tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and user-facing documentation.
 
 ---
 
