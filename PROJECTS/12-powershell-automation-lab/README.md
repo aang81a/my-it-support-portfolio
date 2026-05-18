@@ -76,16 +76,6 @@ The tool collects support-relevant system details and writes them into a standar
 
 The report can then be shared with the IT technician or used for ticket documentation.
 
-Collected details include:
-
-- computer name
-- current user
-- IP address
-- serial number
-- Windows version
-- last reboot time
-- antivirus status
-
 ---
 
 ## 🙏 Technical Credits
