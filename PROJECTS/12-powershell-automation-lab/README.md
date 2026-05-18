@@ -12,6 +12,10 @@
 
 I developed this project by adapting and enhancing an initial PowerShell script for support-relevant system metadata collection, then tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and end-user-facing documentation.
 
+I developed this project from an initial PowerShell support-information script into a tested 1st Level Support workflow, including local `.exe` packaging, desktop shortcut testing, troubleshooting documentation, and both technician-facing and end-user-facing documentation.
+
+script → executable workflow → testing → documentation → public source decision
+
 ---
 
 ## 📖 Project Overview
