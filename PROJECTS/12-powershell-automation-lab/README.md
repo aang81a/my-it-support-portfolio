@@ -12,8 +12,7 @@
 
 **Project evolution:** script → one-click executable workflow → troubleshooting → testing → documentation → published PowerShell version
 
-I developed this project by adapting and enhancing an initial PowerShell metadata collection script into a tested 1st Level Support workflow with local executable packaging and desktop shortcut testing.
-
+I developed this project by adapting and enhancing an initial PowerShell metadata collection script into a tested 1st Level Support workflow with local executable packaging and desktop shortcut testing. 
 I tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and end-user-facing documentation.
 
 ---
