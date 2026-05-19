@@ -2,8 +2,11 @@
 
 # <img src="screenshots/tech-log-solutions.png" width="280" alt="TechLog Solutions" valign="middle">
 
+---
+
 > **INTERNAL IT KNOWLEDGE BASE**
 
+---
 
 | | |
 | :--- | :--- |
@@ -11,17 +14,6 @@
 | **Category:** | Internal IT Support / Desktop Troubleshooting |
 | **Target Audience:** | All Employees (Non-Technical) |
 | **Last Updated:** | May 2026 |
-
----
-
-> **INTERNAL IT KNOWLEDGE BASE**
-
-# Knowledge Base Article: How to Run the Support Info Tool
-
-**Document ID:** KB-1001  
-**Category:** Internal IT Support / Desktop Troubleshooting  
-**Audience:** All Employees  
-**Last Updated:** May 2026  
 
 ---
 
