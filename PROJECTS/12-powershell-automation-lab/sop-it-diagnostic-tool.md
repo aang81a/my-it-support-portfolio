@@ -1,8 +1,8 @@
 # SOP: Using and Maintaining the IT-Diagnostic-Tool
 
 **Document ID:** SOP-IT-001
-**Version:** 1.0  
-**Owner:** [Name]  
+**Version:** 1.0
+**Owner:** [Name]
 **Status:** Active  
 
 ---
