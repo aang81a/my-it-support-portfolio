@@ -1,24 +1,3 @@
-========================================================================================
-
-<img src="image/swiss-tech-solutions-b.png" width="280" alt="SwissTech Solutions Logo" valign="middle">
- 
- INTERNAL IT KNOWLEDGE BASE
-========================================================================================
-  📄 KNOWLEDGE BASE ARTICLE
-----------------------------------------------------------------------------------------
-
-  |  Document ID: KB-1042                                                              |
-  |  Category: Internal IT Support / Desktop Troubleshooting                           |
-  |  Target Audience: All Employees (Non-Technical)                                    |
-  |  Last Updated: May 11, 2026                                                        |
-----------------------------------------------------------------------------------------
-
-  TITLE: How to Run the Support Info Tool
-========================================================================================
-
-
--------------------
-
 # <img src="image/swiss-tech-solutions-b.png" width="280" alt="SwissTech Solutions Logo" valign="middle">
 
 > **INTERNAL IT KNOWLEDGE BASE**
