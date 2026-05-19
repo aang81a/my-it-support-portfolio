@@ -20,7 +20,7 @@ I tested it on multiple Windows systems, documented the troubleshooting process,
 
 ## 📖 Project Overview
 
-This project presents a one-click support information workflow built around a PowerShell script that collects support-relevant system details quickly and writes them into a standardized report.
+This project presents a one-click support information workflow built around a PowerShell script that only collects basic support-relevant system informations and writes them quickly into a standardized report. It does not change system settings, delete anything, collect passwords, or modify security settings.
 
 In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually look up details such as the computer name, IP address, serial number, Windows version, last reboot time, or antivirus status, the script creates a standardized text report as part of the support workflow.
 
@@ -184,7 +184,7 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 
 ## ✨ Key Features
 
-- **Low-Impact Support Check:** Designed for basic support information gathering without making configuration changes.
+- **Low-Impact Support Check:** Designed for basic system information gathering without making configuration changes.
 - **Support Metadata Collection:** Collects support-relevant system details such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
 - **Standardized Report Output:** Creates a report file named like `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`, which can be attached to a support ticket.
 - **User-Friendly Workflow Tested:** Local `.exe` packaging and desktop shortcut testing were explored so a non-technical user would not need to open PowerShell manually.
