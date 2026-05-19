@@ -33,7 +33,7 @@ All notable changes to this project are documented in this file.
 
 ### Fixed
 - **Report Location Confusion:** Resolved final path issue where reports were lost in OneDrive-synced desktops by implementing `BaseDirectory` discovery.
-- **Data Integrity:** Fixed empty report output bug by using `Out-String` and explicit UTF-8 encoding.
+- **Output Integrity:** Fixed empty report output bug by using `Out-String` and explicit UTF-8 encoding.
 - **Stale Antivirus Entry:** Investigated a stale security software entry from an old installation and verified the final antivirus output again.
 
 ---
