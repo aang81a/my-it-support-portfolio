@@ -1,5 +1,5 @@
 # <img src="image/swiss-tech-solutions-b.png" width="280" alt="SwissTech Solutions Logo" valign="middle">
- **INTERNAL IT KNOWLEDGE BASE**
+> **INTERNAL IT KNOWLEDGE BASE**
 ---
 
 | | |
