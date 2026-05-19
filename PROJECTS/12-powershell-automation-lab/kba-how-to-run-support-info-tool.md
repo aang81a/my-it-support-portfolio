@@ -48,9 +48,11 @@ The tool automatically generates a lightweight text report containing basic tech
 
 ---
 
+# <img src="screenshots/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" valign="middle">
+
 ### Step 1: Find and Open the Tool
 The Support Info Tool is deployed to your workstation and can be accessed in one of two ways:
-1. **Desktop Shortcut:** Locate the shortcut icon labeled **Support Info Tool** on your main desktop screen.
+1. **Desktop Shortcut:** Locate the shortcut icon labeled **IT-Diagnostic Tool** on your main desktop screen.
 2. **Local Folder:** Open your file manager and navigate to the local deployment directory. 
 
 *If you cannot locate the tool or shortcut on your device, please contact the helpdesk for assistance before proceeding.*
@@ -85,7 +87,7 @@ Press Enter to continue...:
 
 ---
 
-## Step 4: Send the Report to IT Support
+### Step 4: Send the Report to IT Support
 
 * Attach this text file directly to your open support ticket or reply to your technician's email with the file attached.
 * Once IT Support confirms receipt of the file, you may safely delete the generated report text file from your system.
@@ -102,21 +104,3 @@ TechLog Solutions prioritizes employee data privacy. This utility is strictly a 
 
 ### Troubleshooting
 If the command window fails to open, no text file appears after pressing Enter, or you are uncertain which file to attach, stop the process and contact IT Support directly. Do not attempt to modify system directories or local registry files manually.
-
----
-
-## Privacy Note
-
-This tool only collects basic support-relevant system information and writes it to a text file.
-
-It does not change system settings, delete anything, collect passwords, or modify security settings.
-
-The tool does not access your personal files, photos, browser history, emails, or passwords.
-
----
-
-## If Something Does Not Work
-
-If no report file appears, or if you are unsure what to send, contact IT Support and tell them what happened.
-
-Do not try to change system settings yourself unless IT Support asks you to do so.
