@@ -1,4 +1,4 @@
-# Knowledge Base Article: How to Run the Support Info Tool
+# Knowledge Base Article: How to Run the IT Diagnostic Tool
 
 **Article ID:** KB-1001  
 **Category:** General Support / Troubleshooting  
@@ -9,7 +9,7 @@
 
 ## Overview
 
-To help IT Support understand your device faster, you may be asked to run the Support Info Tool during a support request.
+To help IT Support understand your device faster, you may be asked to run the IT Diagnostic Tool during a support request.
 
 The tool creates a text report with basic technical information about your computer. This helps you provide the details IT Support needs to understand your device and continue troubleshooting.
 
@@ -42,7 +42,7 @@ Do not download or run support tools from unknown sources. In a real company env
 
 ## Step 1: Find and Open the Tool
 
-The Support Info Tool may be available in one of these ways:
+The IT Diagnostic Tool may be available in one of these ways:
 
 1. As a desktop shortcut prepared by IT Support.
 
@@ -54,9 +54,9 @@ The Support Info Tool may be available in one of these ways:
 
 ## Step 2: Run the Tool
 
-- You can start the Support Info Tool in one of two ways:
+- You can start the IT Diagnostic Tool in one of two ways:
 
-  - Open the local folder and double-click the executable file (`.exe`)
+  - Open the local folder and double-click the executable file (`IT-Diagnostic Tool.exe`)
   
   - or double-click  the desktop shortcut.
 
@@ -67,6 +67,7 @@ When the tool is finished, it will show a message like:
 ```text
 Diagnostic complete. Report saved in the same folder: TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt
 Press Enter to continue...:
+```
 
 - Press **Enter** to close the window.
 
