@@ -50,7 +50,7 @@ The tool automatically generates a lightweight text report containing basic tech
 
 # <img src="screenshots/shortcut.png" width="280" alt="Shortcut" valign="middle">
 
----
+
 
 ### Step 1: Find and Open the Tool
 The Support Info Tool is deployed to your workstation and can be accessed in one of two ways:
