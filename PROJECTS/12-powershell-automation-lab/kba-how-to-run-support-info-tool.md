@@ -52,7 +52,7 @@ The Support Info Tool may be available in one of these ways:
 
 ---
 
-## Step 2: Run the Diagnostic
+## Step 2: Run the Tool
 
 - You can start the Support Info Tool in one of two ways:
 
