@@ -32,7 +32,7 @@ The tool is intended for support information gathering only. It does not replace
    Ask the user to run the approved support information collector during the support session.
 
 3. **Generate the report**  
-   The tool creates a report file named like:
+   The tool creates a report file named:
 
    `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
 
