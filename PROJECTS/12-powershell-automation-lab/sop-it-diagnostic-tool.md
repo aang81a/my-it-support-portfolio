@@ -1,8 +1,10 @@
+<p align="left"><img src="screenshots/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo"></p>
+
 # SOP: Using and Maintaining the IT-Diagnostic-Tool
 
-**Document ID:** SOP-IT-001
-**Version:** 1.0
-**Owner:** [Name]
+**Document ID:** SOP-IT-001  
+**Version:** 1.0  
+**Owner:** TechLog Solutions IT  
 **Status:** Active  
 
 ---
