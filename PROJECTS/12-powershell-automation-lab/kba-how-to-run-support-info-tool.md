@@ -50,22 +50,14 @@ The tool automatically generates a lightweight text report containing basic tech
 
 # <img src="screenshots/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" valign="middle">
 
+---
+
 ### Step 1: Find and Open the Tool
 The Support Info Tool is deployed to your workstation and can be accessed in one of two ways:
 1. **Desktop Shortcut:** Locate the shortcut icon labeled **IT-Diagnostic Tool** on your main desktop screen.
 2. **Local Folder:** Open your file manager and navigate to the local deployment directory. 
 
 *If you cannot locate the tool or shortcut on your device, please contact the helpdesk for assistance before proceeding.*
-
----
-
-### Step 1: Find and Open the Tool
-To make the process as straightforward as possible, IT has mapped this utility to a user-friendly desktop shortcut. The tool can be accessed in one of two ways:
-
-1. **Desktop Shortcut:** Locate the shortcut icon labeled **Support Info Tool** on your main desktop screen.
-2. **Local Folder:** Open your file manager and navigate to the local system directory where the backend application executable, named **IT-Diagnostic Tool.exe**, is stored.
-
-*If you cannot locate the shortcut or the folder on your device, please contact the helpdesk for assistance before proceeding.*
 
 ---
 
