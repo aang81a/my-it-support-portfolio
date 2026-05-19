@@ -1,3 +1,19 @@
+========================================================================================
+  🌐 SwissTech Solutions                                    INTERNAL IT KNOWLEDGE BASE
+========================================================================================
+  📄 KNOWLEDGE BASE ARTICLE
+----------------------------------------------------------------------------------------
+
+  |  Document ID: KB-1042                                                              |
+  |  Category: Internal IT Support / Desktop Troubleshooting                           |
+  |  Target Audience: All Employees (Non-Technical)                                    |
+  |  Last Updated: May 11, 2026                                                        |
+----------------------------------------------------------------------------------------
+
+  TITLE: How to Run the Support Info Tool
+========================================================================================
+
+
 ➡️ How to present this in your PortfolioLayout: 
 
 Use a tool like Canva or Microsoft Word to make this look like a real corporate document. 
