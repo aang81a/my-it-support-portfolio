@@ -19,25 +19,12 @@ The tool creates a text report with basic technical information about your compu
 - last reboot time
 - registered antivirus product
 
-Find the desktop icon OR .exe file in your local folder. → Click on the icon or run the executable. → Report is saved in your local folder. → Send the report to your IT-support.
-
-## Quick Process Overview
-
-Desktop shortcut or local .exe file
-        ↓
-Run the executable
-        ↓
-Report is created in the same local folder
-        ↓
-Send the report to IT Support
-
-
 ## Quick Process Overview
 
 | Step | Action |
 |---:|---|
 | 1 | Find the desktop shortcut or the executable file in the local folder. |
-| 2 | Double-click the shortcut or run the executable file. |
+| 2 | Double-click the desctop shortcut or run the executable file. |
 | 3 | Wait until the report is created in the same local folder. |
 | 4 | Send `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt` to IT Support. |
 
