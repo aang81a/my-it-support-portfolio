@@ -2,6 +2,7 @@
 
 > **INTERNAL IT KNOWLEDGE BASE**
 
+---
 
 | | |
 | :--- | :--- |
