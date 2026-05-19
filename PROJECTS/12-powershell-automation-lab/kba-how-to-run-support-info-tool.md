@@ -102,7 +102,7 @@ The report contains basic technical information such as:
 - serial number
 - Windows version
 - last reboot time
-- registered antivirus product
+- antivirus
 
 ---
 
