@@ -1,6 +1,6 @@
-# Troubleshooting Log – 1st Level Support Metadata Collector
+# Troubleshooting Log – IT-Diagnostic-Tool
 
-This log documents the main troubleshooting steps from the PowerShell metadata collection project.
+This log documents the sequential troubleshooting milestones encountered during the development of the IT-Diagnostic-Tool project.
 
 The purpose of this file is to show how the project evolved from an initial support information script into a tested one-click support workflow, including executable packaging, output-location fixes, report-generation issues, antivirus verification, and second-computer validation.
 
