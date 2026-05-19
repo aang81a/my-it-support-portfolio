@@ -1,4 +1,5 @@
 # <img src="screenshots/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" valign="middle">
+
 ---
 
 **INTERNAL IT KNOWLEDGE BASE**
