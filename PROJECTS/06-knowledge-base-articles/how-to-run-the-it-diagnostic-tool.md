@@ -1,4 +1,7 @@
 # <img src="image/tech-log-solutions.png" width="280" alt="TechLog Solutions" valign="middle">
+
+# <img src="image/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" valign="middle">
+
 **INTERNAL IT KNOWLEDGE BASE**
 ---
 
@@ -12,8 +15,6 @@
 ***
 
 ## How to Run the Support Info Tool
-
-# <img src="image/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" valign="middle">
 
 -------------
 
