@@ -45,27 +45,30 @@ The Support Info Tool may be available in one of these ways:
 1. As a desktop shortcut prepared by IT Support.
 2. As an executable file in a local folder on the computer.
 
-If you are not sure where the tool is located, ask IT Support before running anything.
+- If you are not sure where the tool is located, ask IT Support before running anything.
 
 ---
 
 ## Step 2: Run the Tool
 
-Double-click the Support Info Tool. - Metadata collectrot is the name or not? Which name should I use? Double-click the .exe or the shortcut.
+- Double-click the Support Info Tool. - Metadata collectrot is the name or not? Which name should I use? Double-click the .exe or the shortcut.
 
-You can start the Support Info Tool in one of two ways:
+- You can start the Support Info Tool in one of two ways:
+
 a. Open the local folder and double-click the tool directly.
+
  or
+ 
 b. Double-click the desktop shortcut, if one was provided by IT Support.
 
-
-A command window will open and collect the support information.
+A command window will open and collect the support information. It takes a few seconds.
 
 When the tool is finished, it will show a message like:
 
-`Diagnostic complete. Report saved in the same folder: TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
+`Diagnostic complete. Report saved in the same folder: TechSupport_Report_YYYY-MM-DD_hh-mm-ss.txt
+Press Enter to continue...:`
 
-Press **Enter** to close the window.
+- Press **Enter** to close the window.
 
 The report is saved in the same folder as the executable file (`.exe`).
 
@@ -73,19 +76,19 @@ The report is saved in the same folder as the executable file (`.exe`).
 
 ## Step 3: Find the Report
 
-Look for a file named like:
+- Look for a file named `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`.
 
-`TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
-
-The date and time in the filename help prevent older reports from being overwritten.
+- The date and time in the filename help prevent older reports from being overwritten.
 
 ---
 
 ## Step 4: Send the Report to IT Support
 
-1. Attach the report file to your support ticket or to the IT Support reply email.
-2. Send the report back to the technician.
-3. You may delete the report and the tool after IT Support confirms that they have received the file.
+- Attach the report file to your support ticket or to the IT Support reply email.
+
+- Send the report back to the technician.
+
+- You may delete the report and the tool after IT Support confirms that they have received the file.
 
 ---
 
