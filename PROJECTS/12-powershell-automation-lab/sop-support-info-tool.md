@@ -104,6 +104,20 @@ Before using an updated version, confirm:
 | Executable triggers antivirus warning | Unsigned executable created from a script may trigger heuristic detection | Use the readable PowerShell source for review and only use approved company tools in real environments. |
 | Tool closes before user can read the result | Console window closes after execution | Keep a pause/read step so the user can confirm completion. |
 
+
+## 6. Troubleshooting the Tool
+
+
+| Issue | Possible Cause | Resolution |
+|---|---|---|
+| User cannot find the report file | Executable was run from a protected or deep network directory | Instruct the user to check the exact directory where the tool was executed, as the script forces a zero-desktop persistence local save. |
+| Report file is completely empty | Inbound streaming block or write permission error | Ensure the local user execution profile has standard write permissions to the execution directory. |
+| Missing local IP address | No active network interfaces or active loopback override | Verify physical Ethernet connection or Wi-Fi authentication status on the client device. |
+| Unexpected antivirus entry | Stale WMI registration records inside SecurityCenter2 | Cross-reference script output manually against the active Windows Security app layout. |
+| Executable triggers SmartScreen / AV | Unsigned binary package compiled from raw .ps1 script | Explain to the user that this is an expected security layout behavior. Instruct them to utilize the KBA to select "Run anyway." |
+| Terminal window closes instantly | Missing standard pause parameters at script conclusion | Ensure the final line of code contains the native `Pause` or `Read-Host` string command. |
+
+
 ---
 
 ## 7. Data Handling Notes
