@@ -14,6 +14,28 @@
 ========================================================================================
 
 
+-------------------
+
+# <img src="https://githubusercontent.com" width="280" alt="SwissTech Solutions Logo" valign="middle">
+
+> **INTERNAL IT KNOWLEDGE BASE**
+
+
+| | |
+| :--- | :--- |
+| **Document ID:** | `KB-1042` |
+| **Category:** | Internal IT Support / Desktop Troubleshooting |
+| **Target Audience:** | All Employees (Non-Technical) |
+| **Last Updated:** | May 19, 2026 |
+
+***
+
+## How to Run the Support Info Tool
+
+
+
+-------------
+
 ➡️ How to present this in your PortfolioLayout: 
 
 Use a tool like Canva or Microsoft Word to make this look like a real corporate document. 
