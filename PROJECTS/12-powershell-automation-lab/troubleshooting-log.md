@@ -11,10 +11,11 @@ The purpose of this file is to show how the project evolved from an initial supp
 | Area | Issue | Final Outcome |
 |---|---|---|
 | Output location | Reports were difficult to locate because Desktop paths and OneDrive redirection created confusion. | Final output strategy saves the report next to the running tool. |
-| EXE testing | The executable workflow exposed a syntax issue during testing. | Script logic was corrected and retested. |
+| EXE testing | The executable workflow exposed a syntax issue during testing. | Script logic was corrected and retested within `it-diagnostic-tool.ps1`. |
 | Antivirus detection | The report showed a stale McAfee entry from an old installation, although McAfee was no longer actively installed. | The McAfee cleanup tool was used to remove possible leftover components, and the final report was checked again. |
 | Report content | A report file was created, but content was missing during one phase. | Output handling was corrected and report content was verified. |
 | Local executable workflow | The executable was tested as a one-click support tool, including runs with and without a desktop shortcut. | The executable workflow was validated locally, but the public repository provides the readable PowerShell version. |
+| Local executable workflow | The executable was tested as a one-click support tool... | ...the public repository provides the readable version of `it-diagnostic-tool.ps1`. |
 | Final path handling | A later path issue appeared during executable testing. | The final output strategy was changed so the report is saved next to the running tool. |
 | Second computer validation | The tool needed to be tested outside the original laptop environment. | Successful validation was completed on a second Windows computer. |
 
@@ -31,6 +32,7 @@ The first major issue was report location. The script needed to create a report 
 
 | Step | Screenshot | What happened |
 |---:|---|---|
+| 0 | `ts-00-permission-error.png` | Attempted module installation without administrative privileges, resulting in an access block. |
 | 1 | `ts-01-static-desktop-path.png` | Early attempt to change the output location to a Desktop path. |
 | 2 | `ts-02-active-desktop-path-test.png` | Tested the active Desktop path to understand where the file was being created. |
 | 3 | `ts-03-onedrive-desktop-path-check.png` | Checked OneDrive Desktop redirection as a possible reason for the confusing output location. |
