@@ -1,5 +1,3 @@
----
-
 # <img src="screenshots/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" align="left" style="margin-bottom: -20px; margin-right: 10px;"> **&nbsp;**
 <br clear="left"/>
 
