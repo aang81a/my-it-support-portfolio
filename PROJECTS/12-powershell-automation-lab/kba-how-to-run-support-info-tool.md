@@ -1,4 +1,4 @@
-# <img src="https://githubusercontent.com" width="280" alt="TechLog Solutions Logo" valign="middle">
+# <img src="image/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" valign="middle">
 
 > **INTERNAL IT KNOWLEDGE BASE**
 
