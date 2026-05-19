@@ -109,9 +109,11 @@ The report contains basic technical information such as:
 
 ## Privacy Note
 
-The tool does not access your personal files, photos, browser history, emails, or passwords.
+This tool only collects basic support-relevant system information and writes it to a text file.
 
-It only collects basic support-relevant system information so IT Support can continue troubleshooting more efficiently.
+It does not change system settings, delete anything, collect passwords, or modify security settings.
+
+The tool does not access your personal files, photos, browser history, emails, or passwords.
 
 ---
 
