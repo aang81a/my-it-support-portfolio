@@ -48,7 +48,7 @@ The tool automatically generates a lightweight text report containing basic tech
 
 ---
 
-# <img src="screenshots/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" valign="middle">
+# <img src="screenshots/shortcut.png" width="280" alt="Shortcut" valign="middle">
 
 ---
 
