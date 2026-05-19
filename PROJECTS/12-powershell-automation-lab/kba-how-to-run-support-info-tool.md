@@ -14,6 +14,8 @@
 
 ---
 
+> **INTERNAL IT KNOWLEDGE BASE**
+
 # Knowledge Base Article: How to Run the Support Info Tool
 
 **Document ID:** KB-1001  
