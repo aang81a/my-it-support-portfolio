@@ -16,6 +16,23 @@
 
 -------------
 
+### Overview
+The Support Info Tool quickly gathers local network and system telemetry to help the IT support team diagnose performance issues. This utility does not collect personal files or private browser history.
+
+### Step 1: Locate and Launch the Application
+1. Open your Windows File Explorer (`Win + E`).
+2. Navigate to the shared network tools directory:  
+   `C:\Public\IT_Tools\`
+3. Locate the file named **Support_Info_Tool.exe**.
+4. Double-click the file to start the utility.
+
+> ℹ️ **Note on System Prompts:** Depending on your local account permissions, a standard Windows security prompt may appear asking for confirmation to execute the file. Click **More info** on the prompt, and select **Run anyway** to allow the diagnostic scan to proceed.
+
+
+
+
+
+
 ➡️ How to present this in your PortfolioLayout: 
 
 Use a tool like Canva or Microsoft Word to make this look like a real corporate document. 
