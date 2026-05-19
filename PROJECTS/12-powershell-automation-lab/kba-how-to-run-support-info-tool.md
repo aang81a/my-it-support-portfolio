@@ -26,7 +26,7 @@ The report collects details such as:
 | Step | Action |
 |---:|---|
 | 1 | Find the desktop shortcut or the executable file in the local folder. |
-| 2 | Double-click the desctop shortcut or run the executable file. |
+| 2 | Double-click the desktop shortcut or run the executable file. |
 | 3 | Wait until the report is created in the same local folder. |
 | 4 | Send `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt` to IT Support. |
 
@@ -40,38 +40,29 @@ Do not download or run support tools from unknown sources. In a real company env
 
 ---
 
-## Step 1: Find and Open the Support Info Tool
+---
 
-The Support Info Tool may be available in one of these ways:
+### Step 1: Find and Open the Tool
+To make the process as straightforward as possible, IT has mapped this utility to a user-friendly desktop shortcut. The tool can be accessed in one of two ways:
 
-1. As a desktop shortcut prepared by IT Support.
+1. **Desktop Shortcut:** Locate the shortcut icon labeled **Support Info Tool** on your main desktop screen.
+2. **Local Folder:** Open your file manager and navigate to the local system directory where the backend application executable, named **IT-Diagnostic Tool.exe**, is stored.
 
-2. As an executable file in a local folder on the computer.
-
-- If you are not sure where the tool is located, ask IT Support before running anything.
+*If you cannot locate the shortcut or the folder on your device, please contact the helpdesk for assistance before proceeding.*
 
 ---
 
-## Step 2: Run the Tool
-
-- You can start the Support Info Tool in one of two ways:
-
-  - Open the local folder and double-click the executable file (`IT-Diagnostic Tool.exe`)
-  
-  - or double-click  the desktop shortcut.
-
-A command window will open and collect the support information. This usually takes a few seconds.
-
-When the tool is finished, it will show a message like:
+### Step 2: Run the Application
+1. Double-click either the **Support Info Tool** desktop shortcut or the local executable file (**IT-Diagnostic Tool.exe**).
+2. A black command line window will open and begin collecting system metrics. This process usually completes within 5 to 10 seconds.
+3. When the scan concludes, the terminal window will display the following success message:
 
 ```text
 Diagnostic complete. Report saved in the same folder: TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt
 Press Enter to continue...:
 ```
+4. Press **Enter** on your keyboard to securely close the window.
 
-- Press **Enter** to close the window.
-
-The report is saved in the same folder as the executable file.
 
 ---
 
