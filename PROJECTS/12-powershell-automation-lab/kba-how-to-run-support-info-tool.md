@@ -11,13 +11,15 @@
 
 To help IT Support understand your device faster, you may be asked to run the Support Info Tool during a support request.
 
-The tool creates a text report with basic technical information about your computer. This helps the technician avoid asking you to manually search for details such as:
+The tool creates a text report with basic technical information about your computer. This helps you provide the details IT Support needs to understand your device and continue troubleshooting.
+
+The report collects details such as:
 
 - computer name
 - IP address
 - Windows version
 - last reboot time
-- registered antivirus product
+- antivirus product
 
 ## Quick Process Overview
 
@@ -43,6 +45,7 @@ Do not download or run support tools from unknown sources. In a real company env
 The Support Info Tool may be available in one of these ways:
 
 1. As a desktop shortcut prepared by IT Support.
+
 2. As an executable file in a local folder on the computer.
 
 - If you are not sure where the tool is located, ask IT Support before running anything.
@@ -51,26 +54,23 @@ The Support Info Tool may be available in one of these ways:
 
 ## Step 2: Run the Tool
 
-- Double-click the Support Info Tool. - Metadata collectrot is the name or not? Which name should I use? Double-click the .exe or the shortcut.
-
 - You can start the Support Info Tool in one of two ways:
 
-a. Open the local folder and double-click the tool directly.
+  - Open the local folder and double-click the executable file (`.exe`)
+  
+  - or double-click  the desktop shortcut.
 
- or
- 
-b. Double-click the desktop shortcut, if one was provided by IT Support.
-
-A command window will open and collect the support information. It takes a few seconds.
+A command window will open and collect the support information. This usually takes a few seconds.
 
 When the tool is finished, it will show a message like:
 
-`Diagnostic complete. Report saved in the same folder: TechSupport_Report_YYYY-MM-DD_hh-mm-ss.txt
-Press Enter to continue...:`
+```text
+Diagnostic complete. Report saved in the same folder: TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt
+Press Enter to continue...:
 
 - Press **Enter** to close the window.
 
-The report is saved in the same folder as the executable file (`.exe`).
+The report is saved in the same folder as the executable file.
 
 ---
 
