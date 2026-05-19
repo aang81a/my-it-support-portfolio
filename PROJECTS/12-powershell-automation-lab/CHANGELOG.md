@@ -1,36 +1,57 @@
 # Changelog
-All notable changes to this project will be documented in this file.
 
-## - 2026-05-11
+All notable changes to this project are documented in this file.
+
+---
+
+## 2026-05-11
+
 ### Added
-- **Timestamps:** Added `HHmm` format to filenames to prevent overwriting during multiple diagnostic runs.
-- **Timestamped Filenames:** Implemented `HHmm` format to prevent data loss during back-to-back diagnostic runs.
+- **Timestamped Filenames:** Added `yyyy-MM-dd_HH-mm-ss` format to report filenames to prevent overwriting during repeated diagnostic runs.
 - **Portability Test:** Successfully validated binary execution on a clean Windows 10 environment (C:\ root).
 
-## - 2026-05-09
+### Changed
+- **Pathing Logic:** Switched to `BaseDirectory` discovery. This ensures the report always generates next to the executable, bypassing OneDrive pathing issues.
+- **Report Filename:** Updated the generated report name to `TechSupport_Report_yyyy-MM-dd_HH-mm-ss.txt`.
+
 ### Fixed
-- **Path Redirection:** Resolved "Ghost File" issue where reports were lost in OneDrive-synced desktops by implementing `BaseDirectory` discovery.
-- **Data Integrity:** Fixed an "Empty File" bug by forcing string conversion and UTF8 encoding.
+- **Output Location:** Verified that the final report was created in the expected folder.
+
+---
+
+## 2026-05-09
+
+### Added
+- **Report Export:** Added `.txt` report output for support documentation.
 - **Antivirus Detection:** Automated WMI query to identify active security software, defaulting to Windows Defender if none are found.
 
-## - 2026-05-07
-### Added
-- Initial L1 Support Utility with WMI-based Antivirus detection.
-- **Core Diagnostic Logic:** Initial release of the L1 Support Utility.
-- **System Metadata:** Collection of Serial Number, IP Address, Windows Version, and Last Boot Time.
-
----
-
 ### Changed
-#### - 2026-05-09
+- **Output Location Testing:** Tested different output-location strategies during local executable testing.
 - **Dynamic Pathing:** Switched to `BaseDirectory` discovery to ensure the report saves correctly when running as a compiled `.exe`.
-- **Output Reliability:** Implemented `Out-String` and explicit `UTF8` encoding to prevent empty or corrupted report files.
+- **Desktop / OneDrive Pathing:** Investigated Desktop and OneDrive path behaviour when saving generated reports.
+- **Output Reliability:** Implemented `Out-String` and explicit UTF-8 encoding to prevent empty or corrupted report files.
 
-#### - 2026-05-11
-- **Pathing Logic:** Switched to `BaseDirectory` discovery. This ensures the report always generates next to the executable, bypassing OneDrive pathing issues.
-- **User Instructions:** Updated README to recommend running from a Desktop folder for better visibility.
+### Fixed
+- **Report Location Confusion:** Resolved final path issue where reports were lost in OneDrive-synced desktops by implementing `BaseDirectory` discovery.
+- **Data Integrity:** Fixed empty report output bug by using `Out-String` and explicit UTF-8 encoding.
+- **Stale Antivirus Entry:** Investigated a stale security software entry from an old installation and verified the final antivirus output again.
 
 ---
+
+## 2026-05-07
+
+- **Initial Script:** Created the initial PowerShell metadata collection script.
+- **Core Metadata Collection:**
+   Added collection of basic support details:
+  - computer name
+  - current user
+  - IP address
+  - serial number
+  - Windows version
+  - last reboot time
+- **One-Click Workflow:** Started local testing of the one-click executable workflow.
+- **Desktop Shortcut Test:** Tested the executable workflow with and without a desktop shortcut.
+
 
 ### Fixed
 - **Empty Report Bug:** Resolved an issue where the text stream wasn't flushed correctly before the file was closed.
