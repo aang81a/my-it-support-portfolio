@@ -2,7 +2,7 @@
 
 ---
 
-> **INTERNAL IT KNOWLEDGE BASE**
+**INTERNAL IT KNOWLEDGE BASE**
 
 ---
 
