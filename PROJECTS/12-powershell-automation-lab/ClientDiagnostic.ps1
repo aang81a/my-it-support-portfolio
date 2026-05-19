@@ -1,6 +1,6 @@
 # ==========================================================
 # Script: ClientDiagnostic.ps1
-# Purpose: Gathers system info for L1 Support Triage
+# Purpose: Gathers system info for 1st Level Support
 # ==========================================================
 
 Write-Host "Gathering System Information... Please wait." -ForegroundColor Cyan
@@ -22,3 +22,6 @@ $Results | Out-File -FilePath "$env:USERPROFILE\Desktop\TechSupport_Info.txt"
 
 Write-Host "Diagnostic complete. Info saved to your Desktop." -ForegroundColor Yellow
 Pause
+
+
+
