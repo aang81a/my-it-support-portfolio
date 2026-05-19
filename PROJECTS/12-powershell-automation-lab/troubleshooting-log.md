@@ -21,6 +21,9 @@ The purpose of this file is to show how the project evolved from an initial supp
 
 output path → EXE syntax → stale McAfee output → empty report/content fix → one-click EXE workflow → antivirus verification/final path handling → PC3 validation
 
+**Result:**  
+The output strategy needed to avoid depending only on the visible Desktop path. This later led to the final decision to save the report next to the running script or executable.
+
 ---
 
 ## 2. Chronological Troubleshooting Timeline
