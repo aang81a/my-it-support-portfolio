@@ -1,7 +1,8 @@
 ========================================================================================
- ![🌐 SwissTech Solutions](screenshots/05-second-computer-validation.png)
- INTERNAL IT KNOWLEDGE BASE
+ <![🌐 SwissTech Solutions](01/swiss-tech-solution-b.png)width="280" alt="SwissTech Solutions Logo" valign="middle">
+# <img src="https://githubusercontent.com" width="280" alt="SwissTech Solutions Logo" valign="middle">
  
+ INTERNAL IT KNOWLEDGE BASE
 ========================================================================================
   📄 KNOWLEDGE BASE ARTICLE
 ----------------------------------------------------------------------------------------
