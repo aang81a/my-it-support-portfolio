@@ -11,7 +11,35 @@
 
 To help IT Support understand your device faster, you may be asked to run the Support Info Tool during a support request.
 
-The tool creates a text report with basic technical information about your computer. This helps the technician avoid asking you to manually search for details such as your computer name, IP address, Windows version, last reboot time, or registered antivirus product.
+The tool creates a text report with basic technical information about your computer. This helps the technician avoid asking you to manually search for details such as:
+
+- computer name
+- IP address
+- Windows version
+- last reboot time
+- registered antivirus product
+
+Find the desktop icon OR .exe file in your local folder. → Click on the icon or run the executable. → Report is saved in your local folder. → Send the report to your IT-support.
+
+## Quick Process Overview
+
+Desktop shortcut or local .exe file
+        ↓
+Run the executable
+        ↓
+Report is created in the same local folder
+        ↓
+Send the report to IT Support
+
+
+## Quick Process Overview
+
+| Step | Action |
+|---:|---|
+| 1 | Find the desktop shortcut or the executable file in the local folder. |
+| 2 | Double-click the shortcut or run the executable file. |
+| 3 | Wait until the report is created in the same local folder. |
+| 4 | Send `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt` to IT Support. |
 
 ---
 
@@ -23,11 +51,14 @@ Do not download or run support tools from unknown sources. In a real company env
 
 ---
 
-## Step 1: Open the Tool
+## Step 1: Find and Open the Tool
 
-1. Open the folder or link provided by IT Support. - link to download? It should be already installed or should be downloaded into a local folder.
-2. Find the approved Support Info Tool. - I hear this first time, it was never mentioned in this project.
-3. If the tool is provided in a compressed `.zip` folder, extract the folder first. - no conpressed folder is provided, if this is a company, because the IT Team had to prepeare the computer for this already.
+The Support Info Tool may be available in one of these ways:
+
+1. As a desktop shortcut prepared by IT Support.
+2. As an executable file in a local folder on the computer.
+
+If you are not sure where the tool is located, ask IT Support before running anything.
 
 ---
 
