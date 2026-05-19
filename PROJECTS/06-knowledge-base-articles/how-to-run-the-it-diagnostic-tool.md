@@ -1,7 +1,6 @@
 ========================================================================================
- ![🌐 SwissTech Solutions](images/01/swiss-tech-solutions-b.png)              INTERNAL IT KNOWLEDGE BASE
-
- !(screenshots/05-second-computer-validation.png)
+ ![🌐 SwissTech Solutions](screenshots/05-second-computer-validation.png)
+ INTERNAL IT KNOWLEDGE BASE
  
 ========================================================================================
   📄 KNOWLEDGE BASE ARTICLE
