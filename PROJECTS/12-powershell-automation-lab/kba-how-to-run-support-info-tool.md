@@ -1,8 +1,8 @@
 # Knowledge Base Article: How to Run the Support Info Tool
 
-**Article ID:** KB-1001  
-**Category:** General Support / Troubleshooting  
-**Audience:** End users  
+**Document ID:** KB-1001  
+**Category:** Internal IT Support / Desktop Troubleshooting  
+**Audience:** All Employees  
 **Last Updated:** May 2026  
 
 ---
