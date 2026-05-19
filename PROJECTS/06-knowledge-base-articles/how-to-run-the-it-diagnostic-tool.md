@@ -1,7 +1,4 @@
 ========================================================================================
- <![🌐 SwissTech Solutions](image/swiss-tech-solutions-b.png)width="280" alt="SwissTech Solutions Logo" valign="middle">
- 
-# <img src="https://githubusercontent.com" width="280" alt="SwissTech Solutions Logo" valign="middle">
 
 <img src="image/swiss-tech-solutions-b.png" width="280" alt="SwissTech Solutions Logo" valign="middle">
  
