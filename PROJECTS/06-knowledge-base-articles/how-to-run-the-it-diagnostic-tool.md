@@ -1,5 +1,5 @@
 ========================================================================================
- ![🌐 SwissTech Solutions](swiss-tech-solutions-b.png)              INTERNAL IT KNOWLEDGE BASE
+ ![🌐 SwissTech Solutions](/images/01/swiss-tech-solutions-b.png)              INTERNAL IT KNOWLEDGE BASE
 ========================================================================================
   📄 KNOWLEDGE BASE ARTICLE
 ----------------------------------------------------------------------------------------
