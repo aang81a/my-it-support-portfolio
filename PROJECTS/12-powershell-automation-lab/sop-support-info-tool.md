@@ -1,8 +1,8 @@
-# SOP: Using and Maintaining the 1st Level Support Metadata Collector
+# SOP: Using and Maintaining the IT-Diagnostic-Tool
 
-**Document ID:** SOP-IT-001  
+**Document ID:** SOP-IT-001
 **Version:** 1.0  
-**Owner:** [Your Name]  
+**Owner:** [Name]  
 **Status:** Active  
 
 ---
@@ -60,21 +60,21 @@ The tool is intended for support information gathering only. It does not replace
 When new support data points are required, such as disk space, VPN status, or additional network information:
 
 1. **Open the script in a test environment**  
-   Open `collect-support-info.ps1` in VS Code or another text editor.
+   Open `it-diagnostic-tool.ps1` in VS Code or another text editor.
 
-2. **Modify the script carefully**  
+3. **Modify the script carefully**  
    Add only the required data point.
 
-3. **Test the script locally**  
+4. **Test the script locally**  
    Run the script and confirm that the report is created successfully.
 
-4. **Verify report readability**  
+5. **Verify report readability**  
    Open the generated `.txt` file and check that the content is readable and correctly formatted.
 
-5. **Test before publishing changes**  
+6. **Test before publishing changes**  
    Validate the updated script on a test device before using it in a support workflow.
 
-6. **Document the change**  
+7. **Document the change**  
    Update the changelog and commit the change to GitHub with a clear message.
 
 ---
