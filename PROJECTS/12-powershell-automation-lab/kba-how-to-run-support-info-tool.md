@@ -3,7 +3,7 @@
 ---
 
 
-| **Internal Knowledge Base** | |
+| <img src="screenshots/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" valign="middle"> | **Internal Knowledge Base** |
 | :--- | :--- |
 | **Document ID:** | `KB-1001` |
 | **Category:** | Internal IT Support / Desktop Troubleshooting |
