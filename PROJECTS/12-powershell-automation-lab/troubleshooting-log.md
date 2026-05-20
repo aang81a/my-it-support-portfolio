@@ -259,6 +259,7 @@ For this reason, the public GitHub version provides the readable PowerShell scri
 
 | New filename | Original filename |
 |---|---|
+| `ts-00-permission-error.png` | `01-Laptop-Install-Module -Name ps2exe -Force` |
 | `ts-01-static-desktop-path.png` | `20-Laptop-changed-output-file-location-local-desctop.png` |
 | `ts-02-active-desktop-path-test.png` | `20-Laptop-changed-output-file-location-local-desctop-try-again-and-again-and-again-active-desktop.png` |
 | `ts-03-onedrive-desktop-path-check.png` | `20-Laptop-changed-output-file-location-local-desctop-try-again-and-again-and-again-one-drive-desctop-real.png` |
