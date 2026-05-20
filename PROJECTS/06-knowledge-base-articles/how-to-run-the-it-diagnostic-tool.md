@@ -26,9 +26,9 @@ or
 2. Navigate to the shared network tools directory:  
    `C:\Public\IT_Tools\`
    
-3. Locate the file named **IT-Diagnostic-Tool.exe**.
+3. Locate the file named **IT-Diagnostic-Tool.exe**
    or
-   Locate the **IT-Diagnostic-Tool-Shortcut** on your desktop.
+   locate the **IT-Diagnostic-Tool-Shortcut** on your desktop.
 
 4. Double-click the **IT-Diagnostic-Tool** to start.
 
