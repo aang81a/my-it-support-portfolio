@@ -1,6 +1,6 @@
 ## KB article: How to Run the IT Diagnostic Tool
 
-<img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal Knowledge Base Article*
+<img src="image/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal Knowledge Base Article*
 
 
 **Document ID:** `KBA-1001`  
