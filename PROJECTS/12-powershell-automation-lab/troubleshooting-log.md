@@ -183,7 +183,7 @@ The local executable workflow was useful for testing a user-friendly process. A 
 
 However, unsigned executables can trigger antivirus, heuristic, or SmartScreen warnings, especially when they collect system and network information.
 
-For this reason, the public GitHub version provides the readable PowerShell script instead of publishing the unsigned `.exe`.
+For this reason, the public GitHub version provides the readable PowerShell script (`it-diagnostic-tool.ps1`) instead of publishing the unsigned executable (`IT-Diagnostic-Tool.exe`).
 
 ---
 
