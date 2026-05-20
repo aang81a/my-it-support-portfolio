@@ -18,14 +18,8 @@ The IT Diagnostic Tool quickly gathers local network and system telemetry to hel
 #### Step 1: Locate the Application
 1. Download the IT_Diagnostics.zip folder from the link provided by your IT technician.
 2. Right-click the folder and select Extract All..., then choose your Desktop.
-3. Open the **new folder** on your Desktop
-   or open your Windows File Explorer (`Win + E`). Navigate to the shared network tools directory: `C:\Public\IT_Tools\`
-   
-4. Locate the file named **IT-Diagnostic-Tool.exe**
-   
-   or
-   
-   on your desktop locate the **IT-Diagnostic-Tool-Shortcut**.
+3. Open the **new folder** on your Desktop.
+4. Locate the file named **IT-Diagnostic-Tool.exe**.
 
 ---
 
@@ -50,9 +44,9 @@ Press Enter to continue...:
 
 #### Step 3: Locate & Send the Report
 
-1. Look in the folder on your `Desktop\` or in `C:\Public\IT_Tools\IT_Diagnostic_Tool\` for a new file named **TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt**. The timestamp in the filename ensures older diagnostic logs are never overwritten.
+1. Look in the folder on your `Desktop\` for a new file named **TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt**. The timestamp in the filename ensures older diagnostic logs are never overwritten.
 2. Attach this text file to your support ticket or reply to your technician's email with the file attached.
-3. You may delete the text file once the technician confirms they have received it.
+3. You may delete the application and the text file once the technician confirms they have received the file.
 
 ---
 
