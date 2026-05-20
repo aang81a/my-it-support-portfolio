@@ -78,7 +78,7 @@ Press Enter to continue...:
 
 ---
 
-### ⚠️ Privacy & Data Security Note
+### ℹ️ Privacy & Data Security Note
 
 **TechLog Solutions** prioritizes employee data privacy. This utility is strictly a configuration reader:
 
