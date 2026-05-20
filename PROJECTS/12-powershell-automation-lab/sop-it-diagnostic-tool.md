@@ -5,6 +5,11 @@
 **Owner:** TechLog Solutions IT
 **Status:** Active  
 
+**Document ID:** SOP-IT-001  
+**Version:** 1.0  
+**Owner:** [Service Desk Administration]  
+**Status:** Active  
+
 ---
 
 ## SOP: Using and Maintaining the IT-Diagnostic-Tool
