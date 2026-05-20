@@ -65,6 +65,22 @@ Converting the interpreted script structure into a managed binary executable exp
 |---:|---|---|
 | 9 | `ts-09-exe-syntax-error.png` | The compiled executable encountered an unhandled parsing exception post-initialization, causing an immediate crash. |
 
+
+### Administrative Compilation Syntax
+
+To convert the interpreted script into a standalone desktop application, the following module environment variables were executed within an elevated PowerShell console session:
+
+1. **Install the compilation module framework globally:**
+```powershell
+Install-Module -Name ps2exe -Force
+```
+
+2. **Compile the raw code into the destination binary package with custom properties:**
+```powershell
+Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe -title "IT Support Diagnostic Tool" -iconFile .\icon.ico
+```
+
+
 **Result:**  
 This issue proved that converting a script into an executable file requires separate testing. Code syntax errors can behave differently or cause sudden crashes when the tool is run as an `.exe` file rather than inside the standard PowerShell console.
 
