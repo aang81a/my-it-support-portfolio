@@ -19,6 +19,17 @@ The purpose of this file is to show how the project evolved from an initial supp
 | Second computer validation | The tool needed to be tested outside the original laptop environment. | Successful validation was completed on a second Windows computer. |
 
 
+
+| Functional Area | Technical Issue | Operational Outcome |
+|---|---|---|
+| **Output Path Handling** | Target reports were prone to directory path redirection conflicts caused by cloud-synced OneDrive configurations. | Implemented execution-relative directory tracking (`BaseDirectory`) to enforce a local save alongside the tool. |
+| **Executable Packaging** | The encapsulated binary package exposed a console-specific syntax restriction during validation. | Refactored internal script quotation parameters to allow stable, error-free standalone execution. |
+| **WMI Data Validation** | Local system telemetry logs continually generated an obsolete, stale McAfee antivirus registration entry from an old deployment. | Utilized specialized vendor extraction tools to clear orphaned security center records from the WMI namespace. |
+| **Output Buffer Handling** | The tool generated a valid file structure, but the system configuration text stream payload failed to initialize properly. | Restructured the variable output pipeline using explicit data cast strings to eliminate empty log file bugs. |
+| **Deployment Scenario** | Validated the utility across varied desktop launching profiles to ensure seamless execution paths for non-technical users. | Confirmed uniform, automated file creation whether executed directly or launched via a standard desktop shortcut. |
+| **Multi-Host Validation** | Needed to verify script execution reliability and output accuracy outside of the primary development workstation. | Conducted environment-agnostic validation testing across secondary and tertiary Windows hosts. |
+
+
 output path → EXE syntax → stale McAfee output → empty report/content fix → one-click EXE workflow → antivirus verification/final path handling → PC3 validation
 
 **Result:**  
@@ -246,10 +257,8 @@ For this reason, the public GitHub version provides the readable PowerShell scri
 
 | Lesson | Explanation |
 |---|---|
-| Output location matters | A report is only useful if the user and technician can easily find it. Desktop and OneDrive redirection can create confusion. |
-| Executable testing is necessary | A script that works in PowerShell still needs testing when packaged as an `.exe`. |
-| Output location matters | A report is only useful if the user can easily find it. Desktop / OneDrive redirection can create confusion, so the output strategy was changed to save the report next to the executable file (`BaseDirectory` tracking). |
-| Executable testing is necessary | A script that works in PowerShell behaves differently when packaged as an `.exe`. Testing exposed that the command window closed too quickly after execution, so a `Pause` step was kept to let the user read the completion message. |
+| Output location matters | Desktop / OneDrive redirection can create confusion, so the tool was forced to save the report locally in the executable's directory (`BaseDirectory` tracking), even when launched via a desktop shortcut. |
+| Executable testing is necessary | Standalone binaries can close instantly upon completion, requiring a `Pause` step to keep the window open so the user can read the success message. |
 | Report content must be verified | Creating a file is not enough. The content must also be checked. |
 | Antivirus data should be verified | Stale or unexpected antivirus entries can appear through Windows security registration data. |
 | Public artifacts should be transparent | For a portfolio, readable source is safer and more trustworthy than an unsigned executable download. |
