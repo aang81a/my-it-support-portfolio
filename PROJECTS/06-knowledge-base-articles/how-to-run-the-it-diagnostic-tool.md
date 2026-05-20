@@ -1,3 +1,6 @@
+## KBA: How to Run the IT Diagnostic Tool
+
+---
 # <img src="image/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" valign="middle">
 
 **INTERNAL IT KNOWLEDGE BASE**
@@ -5,50 +8,15 @@
 
 | | |
 | :--- | :--- |
-| **Document ID:** | `KB-1042` |
+| **Document ID:** | `KBA-1042` |
 | **Category:** | Internal IT Support / Desktop Troubleshooting |
 | **Target Audience:** | All Employees (Non-Technical) |
 | **Last Updated:** | May 19, 2026 |
 
-***
-
-## How to Run the Support Info Tool
-
--------------
-
-### Overview
-The Support Info Tool quickly gathers local network and system telemetry to help the IT support team diagnose performance issues. This utility does not collect personal files or private browser history.
-
-### Step 1: Locate and Launch the Application
-1. Open your Windows File Explorer (`Win + E`).
-2. Navigate to the shared network tools directory:  
-   `C:\Public\IT_Tools\`
-3. Locate the file named **Support_Info_Tool.exe**.
-4. Double-click the file to start the utility.
-
-> ℹ️ **Note on System Prompts:** Depending on your local account permissions, a standard Windows security prompt may appear asking for confirmation to execute the file. Click **More info** on the prompt, and select **Run anyway** to allow the diagnostic scan to proceed.
+KB article
+---
 
 
-
-
-
-
-➡️ How to present this in your PortfolioLayout: 
-
-Use a tool like Canva or Microsoft Word to make this look like a real corporate document. 
-
-Add a fake company logo (e.g., "SwissTech Solutions") at the top.
-
-Visuals: Add actual screenshots of the "Windows protected your PC" screen and the final .txt file on the desktop.
-
-The "Sell": 
-
-In your portfolio, explain: "I created this KB article to reduce user anxiety and ensure that the diagnostic process is clear and accessible for employees of all technical levels."
-
-----------
-------
-
-## How to Run the IT Diagnostic Tool
 
 Article ID: KB-1001  
 Category: General Support / Troubleshooting  
@@ -56,33 +24,38 @@ Last Updated: May 2026
 
 ---
 
-## Overview
+### Overview
 
-To help our IT Support team fix your issue faster, we may ask you to run our "Diagnostic Tool." This tool safely collects your computer's basic information (like your serial number and network status) so we don't have to ask you for them manually.
+The Support Info Tool quickly gathers local network and system telemetry to help the IT support team diagnose performance issues. This tool safely collects your computer's basic information (like serial number and network status) so we don't have to ask you for them manually. This utility does not collect personal files or private browser history.
 
-## Step 1: Download and Prepare
-
-1. Download the IT_Diagnostics.zip folder from the link provided by your technician.
+### Step 1: Locate and Launch the Application
+1. Download the IT_Diagnostics.zip folder from the link provided by your IT technician.
 2. Right-click the folder and select Extract All..., then choose your Desktop.
 3. Open the new folder on your Desktop.
+   
+or
 
-## Step 2: Run the Diagnostic
+1. Open your Windows File Explorer (`Win + E`).
+2. Navigate to the shared network tools directory:  
+   `C:\Public\IT_Tools\`
+   
+3. Locate the file named **IT-Diagnostic-Tool.exe**.
+   or
+   Locate the **IT-Diagnostic-Tool.exe** shortcut on your desktop.
 
-1. Find the file named Run-Diagnostics (it has a gear or window icon).
-2. Double-click the file to start.
-3. _Note:_ If you see a blue "Windows protected your PC" screen:
-    
-    - Click More Info.
-    - Click Run anyway.
+4. Double-click the **IT-Diagnostic-Tool** to start.
+
+> ℹ️ **Note on System Prompts:** Depending on your local account permissions, a standard Windows security prompt may appear asking for confirmation to execute the file. Click **More info** on the prompt, and select **Run anyway** to allow the diagnostic scan to proceed.
     
 
 ## Step 3: What to expect
 
-A blue window will open and display text for a few seconds. Once it says "Diagnostic complete," you can press any key on your keyboard to close the window.
+A black window will open and display text for a few seconds. Once it says "Diagnostic complete. Report saved in the same folder: TechSupport_Report_2026-05-20_09-25-25.txt
+Press Enter to continue...", you can press any key on your keyboard to close the window.
 
 ## Step 4: Send the Results
 
-1. Look on your Desktop for a new file named `TechSupport_Info.txt`.
+1. Look on your Desktop for a new file named `TechSupport_Report.txt`.
 2. Attach this file to your support ticket or reply to the email from your technician.
 3. You may delete the tool and the text file once the technician confirms they have received it.
 
