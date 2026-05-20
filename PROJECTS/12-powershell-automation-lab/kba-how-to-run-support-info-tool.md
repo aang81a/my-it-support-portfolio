@@ -13,13 +13,7 @@
 ### Overview
 To help IT Support understand your device faster, you may be asked to run the Support Info Tool during an active support request. 
 
-The tool automatically generates a lightweight text report containing basic technical information about your computer. This empowers you to quickly provide the exact data our technicians need to diagnose and resolve your issue:
-
-- computer name
-- IP address
-- Windows version
-- last reboot time
-- antivirus product
+The tool automatically generates a lightweight text report containing basic technical information about your computer. This empowers you to quickly provide the exact data our technicians need to diagnose and resolve your issue.
 
 ---
 
@@ -82,7 +76,15 @@ Press Enter to continue...:
 
 **TechLog Solutions** prioritizes employee data privacy. This utility is strictly a configuration reader:
 
-* **Collected Data:** The report only logs baseline system variables including computer name, active user, local IP address, device serial number, Windows version, uptime/last reboot time, and active antivirus status.
+* **Collected Data:** The report only logs baseline system variables:
+  - Date/Time
+  - Computer Name
+  - Current User
+  - IP Address
+  - Serial Number
+  - Windows Version
+  - Last Reboot
+  - Antivirus Product
 * **Prohibited Access:** The tool **cannot** access personal files, photos, browser history, emails, saved passwords, or network traffic.
 * **System Safety:** This script runs read-only commands. It does not modify system settings, delete application data, or alter local security parameters.
 
