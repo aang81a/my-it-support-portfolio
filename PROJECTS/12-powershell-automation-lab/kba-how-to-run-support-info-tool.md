@@ -3,17 +3,7 @@
 ---
 
 
-| | |
-| :--- | :--- |
-| **Document Type:** | Internal IT Knowledge Base |
-| **Document ID:** | `KB-1001` |
-| **Category:** | Internal IT Support / Desktop Troubleshooting |
-| **Target Audience:** | All Employees (Non-Technical) |
-| **Last Updated:** | May 2026 |
-
-
-
-| **TechLog Solutions — Internal Knowledge Base** | |
+| **Internal Knowledge Base** | |
 | :--- | :--- |
 | **Document ID:** | `KB-1001` |
 | **Category:** | Internal IT Support / Desktop Troubleshooting |
