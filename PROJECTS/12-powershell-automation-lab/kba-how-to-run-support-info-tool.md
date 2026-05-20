@@ -69,14 +69,14 @@ Press Enter to continue...:
 ---
 
 ### Step 3: Locate the Report
-* Look inside the folder where the tool was run. You will see a new file named `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`. The timestamp in the filename ensures older diagnostic logs are never overwritten.
+* Look in the folder on your desktop or in `C:\Public\IT_Tools\` for a new file named **TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt**. The timestamp in the filename ensures older diagnostic logs are never overwritten.
 
 ---
 
 ### Step 4: Send the Report to IT Support
 
-* Attach this text file directly to your open support ticket or reply to your technician's email with the file attached.
-* Once IT Support confirms receipt of the file, you may safely delete the generated report text file from your system.
+* Attach this text file to your support ticket or reply to your technician's email with the file attached.
+* You may delete the text file once the technician confirms they have received it.
 
 ---
 
@@ -88,8 +88,6 @@ TechLog Solutions prioritizes employee data privacy. This utility is strictly a 
 * **Collected Data:** The report only logs baseline system variables including computer name, active user, local IP address, device serial number, Windows version, uptime/last reboot time, and active antivirus status.
 * **Prohibited Access:** The tool **cannot** access personal files, photos, browser history, emails, saved passwords, or network traffic.
 * **System Safety:** This script runs read-only commands. It does not modify system settings, delete application data, or alter local security parameters.
-
----
 
 ### Troubleshooting
 If the command window fails to open, no text file appears after pressing Enter, or you are uncertain which file to attach, stop the process and contact IT Support directly. Do not attempt to modify system directories or local registry files manually.
