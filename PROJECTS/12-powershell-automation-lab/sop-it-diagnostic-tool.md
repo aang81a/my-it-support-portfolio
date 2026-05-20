@@ -7,11 +7,11 @@
 
 ---
 
-# SOP: Using and Maintaining the IT-Diagnostic-Tool
+## SOP: Using and Maintaining the IT-Diagnostic-Tool
 
 ---
 
-## 1. Purpose
+### 1. Purpose
 
 The purpose of this SOP is to define a standardized method for using and maintaining the 1st Level Support Metadata Collector.
 
@@ -19,7 +19,7 @@ The tool supports consistent collection of basic device information during suppo
 
 ---
 
-## 2. Scope
+### 2. Scope
 
 This procedure applies to 1st Level Support technicians who need to collect basic system details during a support request.
 
@@ -27,7 +27,7 @@ The tool is intended for support information gathering only. It does not replace
 
 ---
 
-## 3. Procedure: Using the Tool
+### 3. Procedure: Using the Tool
 
 1. **Prepare the approved tool package**  
    Use the company-approved runnable version of the support information collector or the reviewed PowerShell source version.
@@ -59,7 +59,7 @@ The tool is intended for support information gathering only. It does not replace
 
 ---
 
-## 4. Procedure: Updating the Script
+### 4. Procedure: Updating the Script
 
 When new support data points are required, such as disk space, VPN status, or additional network information:
 
@@ -83,7 +83,7 @@ When new support data points are required, such as disk space, VPN status, or ad
 
 ---
 
-## 5. Verification Checklist
+### 5. Verification Checklist
 
 Before using an updated version, confirm:
 
@@ -97,7 +97,7 @@ Before using an updated version, confirm:
 
 ---
 
-## 6. Troubleshooting the Tool
+### 6. Troubleshooting the Tool
 
 | Issue | Possible Cause | Resolution |
 |---|---|---|
@@ -109,7 +109,7 @@ Before using an updated version, confirm:
 | Tool closes before user can read the result | Console window closes after execution | Keep a pause/read step so the user can confirm completion. |
 
 
-## 6. Troubleshooting the Tool
+### 6. Troubleshooting the Tool
 
 
 | Issue | Possible Cause | Resolution |
@@ -124,7 +124,7 @@ Before using an updated version, confirm:
 
 ---
 
-## 7. Data Handling Notes
+### 7. Data Handling Notes
 
 The report is intended for support use only.
 
