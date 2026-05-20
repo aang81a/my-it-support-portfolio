@@ -4,7 +4,7 @@
 
 **Document ID:** SOP-IT-001  
 **Version:** 1.0  
-**Owner:** Service Desk Administration  
+**Owner:** Internal IT Support Administration  
 **Status:** Active  
 
 ---
