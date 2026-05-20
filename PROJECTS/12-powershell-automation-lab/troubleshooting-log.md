@@ -66,7 +66,7 @@ Converting the interpreted script structure into a managed binary executable exp
 | 9 | `ts-09-exe-syntax-error.png` | The compiled executable encountered an unhandled parsing exception post-initialization, causing an immediate crash. |
 
 
-#### Environment Compilation Commands
+### Environment Compilation Commands
 
 The following environment commands were executed within the PowerShell console session to manage, verify, and compile the application framework:
 
@@ -142,7 +142,7 @@ Evaluated graphical execution configurations to verify that end-user interaction
 
 Conducted targeted directory scrubbing to resolve the orphan metadata components observed during the evaluation phase in Section 2.4.
 
-#### Administrative WMI Query & Cleanup Strings
+### Administrative WMI Query & Cleanup Strings
 
 To track down, verify, and systematically eliminate the stale antimalware registration records from the system registry cache, the following low-level query commands were executed sequentially:
 
