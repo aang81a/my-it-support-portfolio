@@ -4,7 +4,6 @@
 
 
 | | |
-| :--- | :--- |
 | **Document ID:** | `KB-1001` |
 | **Category:** | Internal IT Support / Desktop Troubleshooting |
 | **Target Audience:** | All Employees (Non-Technical) |
