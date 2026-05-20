@@ -208,3 +208,4 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 - [Knowledge Base Article: How to Run the Support Info Tool](kba-how-to-run-support-info-tool.md)
 - [Changelog](CHANGELOG.md)
 - [Sample Output](sample-output/TechSupport_Report_sample.txt)
+- [License](LICENSE.md)
