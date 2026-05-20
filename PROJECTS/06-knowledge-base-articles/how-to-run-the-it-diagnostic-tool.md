@@ -42,8 +42,9 @@ Press Enter to continue...`, you can press **Enter** on your keyboard to close t
 ## Step 4: Send the Results
 
 1. Look in the folder on your desktop or in `C:\Public\IT_Tools\` for a new file named **TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt**.
-2. Attach this file to your support ticket or reply to the email from your technician.
+2. Attach this text file to your support ticket or reply to your technician's email with the file attached.
 3. You may delete the text file once the technician confirms they have received it.
+
 
 ---
 
