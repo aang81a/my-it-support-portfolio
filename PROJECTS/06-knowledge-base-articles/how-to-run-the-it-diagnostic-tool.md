@@ -37,7 +37,7 @@ or
 ## Step 3: What to expect
 
 A window will open. Once it says `Diagnostic complete. Report saved in the same folder: TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt
-Press Enter to continue...`, you can press any key on your keyboard to close the window.
+Press Enter to continue...`, you can press **Enter** on your keyboard to close the window.
 
 ## Step 4: Send the Results
 
