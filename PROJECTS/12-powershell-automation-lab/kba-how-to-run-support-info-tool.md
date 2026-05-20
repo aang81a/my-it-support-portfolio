@@ -7,6 +7,11 @@
 
 ----
 
+`
+Diagnostic complete. Report saved in the same folder: TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt
+Press Enter to continue...:
+`
+
 
 <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal Knowledge Base*
 
