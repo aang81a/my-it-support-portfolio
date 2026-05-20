@@ -161,6 +161,7 @@ Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Wh
 Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Where-Object { \$_.displayName -like "*McAfee*" } | Remove-CimInstance
 ```
 
+
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
 | 17 | `ts-17-antivirus-check-before.png` | Queried the administrative namespace block directly to intercept real-time security telemetry maps. |
