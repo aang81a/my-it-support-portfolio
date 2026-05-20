@@ -248,6 +248,8 @@ For this reason, the public GitHub version provides the readable PowerShell scri
 |---|---|
 | Output location matters | A report is only useful if the user and technician can easily find it. Desktop and OneDrive redirection can create confusion. |
 | Executable testing is necessary | A script that works in PowerShell still needs testing when packaged as an `.exe`. |
+| Output location matters | A report is only useful if the user can easily find it. Desktop / OneDrive redirection can create confusion, so the output strategy was changed to save the report next to the executable file (`BaseDirectory` tracking). |
+| Executable testing is necessary | A script that works in PowerShell behaves differently when packaged as an `.exe`. Testing exposed that the command window closed too quickly after execution, so a `Pause` step was kept to let the user read the completion message. |
 | Report content must be verified | Creating a file is not enough. The content must also be checked. |
 | Antivirus data should be verified | Stale or unexpected antivirus entries can appear through Windows security registration data. |
 | Public artifacts should be transparent | For a portfolio, readable source is safer and more trustworthy than an unsigned executable download. |
