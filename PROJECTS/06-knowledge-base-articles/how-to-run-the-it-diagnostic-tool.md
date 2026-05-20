@@ -27,10 +27,12 @@ or
    `C:\Public\IT_Tools\`
    
 3. Locate the file named **IT-Diagnostic-Tool.exe**
+   
    or
-   locate the **IT-Diagnostic-Tool-Shortcut** on your desktop.
+   
+   on your desktop locate the **IT-Diagnostic-Tool-Shortcut**.
 
-4. Double-click the **IT-Diagnostic-Tool** to start.
+6. Double-click the **IT-Diagnostic-Tool** to start.
 
 > ℹ️ **Note on System Prompts:** Depending on your local account permissions, a standard Windows security prompt may appear asking for confirmation to execute the file. Click **More info** on the prompt, and select **Run anyway** to allow the diagnostic scan to proceed.
     
