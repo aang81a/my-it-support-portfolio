@@ -1,8 +1,3 @@
-<img src="screenshots/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" valign="middle">
-
----
-
-
 | <img src="screenshots/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo" valign="middle"> | **Internal Knowledge Base** |
 | :--- | :--- |
 | **Document ID:** | `KB-1001` |
