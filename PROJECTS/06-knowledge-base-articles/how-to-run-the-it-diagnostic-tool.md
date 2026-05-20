@@ -3,10 +3,10 @@
 <img src="image/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal Knowledge Base Article*
 
 
-**Document ID:** `KBA-1001`  
+**Article ID:** KB-1001  
 **Category:** General Support / Troubleshooting  
-**Audience:** End users 
-**Last Updated:** May 2026 
+**Audience:** End users  
+**Last Updated:** May 2026  
 
 ---
 
