@@ -2,7 +2,8 @@
 
 **Document ID:** SOP-IT-001  
 **Version:** 1.0  
-**Owner:** Service Desk Administration 
+**Owner:** Service Desk Administration
+
 **Status:** Active  
 
 ---
