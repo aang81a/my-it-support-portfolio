@@ -18,15 +18,13 @@ The IT Diagnostic Tool quickly gathers local network and system telemetry to hel
 ### Step 1: Locate the Application
 1. Download the IT_Diagnostics.zip folder from the link provided by your IT technician.
 2. Right-click the folder and select Extract All..., then choose your Desktop.
-3. Open the new folder on your Desktop.
+3. Open the new folder on your Desktop
    
 or
 
-1. Open your Windows File Explorer (`Win + E`).
-2. Navigate to the shared network tools directory:  
-   `C:\Public\IT_Tools\`
+   open your Windows File Explorer (`Win + E`). Navigate to the shared network tools directory: `C:\Public\IT_Tools\`
    
-3. Locate the file named **IT-Diagnostic-Tool.exe**
+4. Locate the file named **IT-Diagnostic-Tool.exe**
    
    or
    
@@ -36,12 +34,12 @@ or
 
 ### Step 2: Launch & Close the Application
 
-6. Double-click the **IT-Diagnostic-Tool** to start.
+1. Double-click the **IT-Diagnostic-Tool** to start.
 
 > ℹ️ **Note on System Prompts:** Depending on your local account permissions, a standard Windows security prompt may appear asking for confirmation to execute the file. Click **More info** on the prompt, and select **Run anyway** to allow the diagnostic scan to proceed.
 
 
-2. A black command line window will open and begin collecting system metrics. This process usually completes within 5 to 10 seconds.
+2. A command line window will open and begin collecting system metrics. This process usually completes within 5 to 10 seconds.
 3. When the scan concludes, the terminal window will display the following success message:
 
 `
