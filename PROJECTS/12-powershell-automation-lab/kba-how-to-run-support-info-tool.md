@@ -1,4 +1,4 @@
-## KBA: How to Run the Support Info Tool
+## KBA: How to Run the IT Diagnostic Tool
 
 <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal Knowledge Base Article*
 
