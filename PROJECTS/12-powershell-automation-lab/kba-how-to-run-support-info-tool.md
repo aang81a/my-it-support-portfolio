@@ -15,8 +15,6 @@ To help IT Support understand your device faster, you may be asked to run the Su
 
 The tool automatically generates a lightweight text report containing basic technical information about your computer. This empowers you to quickly provide the exact data our technicians need to diagnose and resolve your issue.
 
----
-
 #### Quick Process Overview
 
 
