@@ -1,7 +1,6 @@
 | <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | **Internal Knowledge Base** |
 
 **Document ID:** `KB-1001`  
-**Document Type:** Internal Knowledge Base  
 **Category:** Internal IT Support / Desktop Troubleshooting  
 **Target Audience:** All Employees (Non-Technical)  
 **Last Updated:** May 2026 
