@@ -50,7 +50,10 @@ The first major issue was report location. The script needed to create a report 
 | 2 | `ts-02-active-desktop-path-test.png` | Tested the active Desktop path to understand where the file was being created. |
 | 3 | `ts-03-onedrive-desktop-path-check.png` | Checked OneDrive Desktop redirection as a possible reason for the confusing output location. |
 | 4 | `ts-04-report-not-visible.png` | The report was not visible where expected. |
+| 4 | `ts-04-report-not-visible.png` | Confirmed target log file output was rendered hidden within standard graphical directory views. |
 | 5 | `ts-05-report-visible-after-path-change.png` | A path change made the report visible to the user. |
+| 5 | `ts-05-report-visible-after-path-change.png` | Restructured the active directory pointer configuration to restore file allocation visibility. |
+
 | 6 | `ts-06-report-invisible-again.png` | The report visibility problem repeated, showing that the Desktop-based approach was not reliable enough. |
 
 ![Permission Error](screenshots/ts-00-permission-error.png)
@@ -103,6 +106,9 @@ During executable testing, the tool crashed because of a script syntax problem.
 **Result:**  
 The issue showed that packaging a script into an executable is not only a conversion step. The packaged version must also be tested because script errors can appear differently when the tool is run as an `.exe`.
 
+**Result:**  
+This event demonstrated that compiling an interpreted script into a standalone binary introduces separate execution parameters. The packaged wrapper must be thoroughly validated, as character syntax parsing errors can manifest differently within a compiled executable environment.
+
 ---
 
 ### 2.4 Antivirus Output Showed an Old Entry
@@ -128,6 +134,7 @@ Another issue appeared when the report file was created, but the expected text c
 |---:|---|---|
 | 11 | `ts-11-out-string-output-fix.png` | The output-writing logic was adjusted using `Out-String`. |
 | 12 | `ts-12-empty-report-debugging.png` | The report file existed, but the content was still missing during this phase. |
+| 12 | `ts-12-empty-report-debugging.png` | Identified that target files generated cleanly but recorded zero-byte file allocations due to unbuffered object streaming. |
 | 13 | `ts-13-raw-script-test.png` | The raw PowerShell script was tested directly to separate script behavior from executable behavior. |
 | 14 | `ts-14-report-content-fixed.png` | Adjusted the output stream handling in the code, the report content is no longer empty and generates correctly. |
 
