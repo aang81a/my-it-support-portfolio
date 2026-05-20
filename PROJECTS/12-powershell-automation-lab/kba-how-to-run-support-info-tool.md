@@ -17,7 +17,6 @@ The tool automatically generates a lightweight text report containing basic tech
 
 #### Quick Process Overview
 
-
 | Step | Action |
 |---:|---|
 | 1 | Find the desktop shortcut or the executable file in the local deployment folder. |
