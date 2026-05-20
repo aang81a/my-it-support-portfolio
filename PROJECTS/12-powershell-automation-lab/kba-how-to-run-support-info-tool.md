@@ -7,12 +7,6 @@
 
 ----
 
-`
-Diagnostic complete. Report saved in the same folder: TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt
-Press Enter to continue...:
-`
-
-
 <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal Knowledge Base*
 
 **Document ID:** `KB-1001`  
@@ -73,10 +67,11 @@ The Support Info Tool is deployed to your workstation and can be accessed in one
 2. A black command line window will open and begin collecting system metrics. This process usually completes within 5 to 10 seconds.
 3. When the scan concludes, the terminal window will display the following success message:
 
-```text
+`
 Diagnostic complete. Report saved in the same folder: TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt
 Press Enter to continue...:
-```
+`
+
 4. Press **Enter** on your keyboard to securely close the window.
 
 ---
