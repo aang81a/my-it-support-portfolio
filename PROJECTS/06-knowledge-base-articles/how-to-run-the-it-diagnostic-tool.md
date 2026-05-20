@@ -12,7 +12,7 @@
 
 ### Overview
 
-The IT Diagnostic Tool quickly gathers local network and system telemetry to help the IT support team diagnose performance issues. This tool safely collects your computer's basic information (like serial number and IP Address etc.) so we don't have to ask you for them manually. This utility does not collect personal files or private browser history.
+The IT Diagnostic Tool quickly gathers local network and system telemetry to help the IT support team diagnose performance issues. This tool safely collects your computer's basic information (like *serial number* and *IP Address* etc.) so we don't have to ask you for them manually. This utility does not collect personal files or private browser history.
 
 ### Step 1: Locate and Launch the Application
 1. Download the IT_Diagnostics.zip folder from the link provided by your IT technician.
