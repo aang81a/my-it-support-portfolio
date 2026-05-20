@@ -50,7 +50,7 @@ Press Enter to continue...:
 
 ---
 
-## ℹ️ Privacy & Data Security Note
+### ℹ️ Privacy & Data Security Note
 
 * **Collected Data:** The report only logs baseline system variables:
    - Date/Time
