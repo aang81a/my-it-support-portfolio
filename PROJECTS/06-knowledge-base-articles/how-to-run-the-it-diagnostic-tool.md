@@ -28,7 +28,7 @@ or
    
 3. Locate the file named **IT-Diagnostic-Tool.exe**.
    or
-   Locate the **IT-Diagnostic-Tool.exe** shortcut on your desktop.
+   Locate the **IT-Diagnostic-Tool** shortcut on your desktop.
 
 4. Double-click the **IT-Diagnostic-Tool** to start.
 
