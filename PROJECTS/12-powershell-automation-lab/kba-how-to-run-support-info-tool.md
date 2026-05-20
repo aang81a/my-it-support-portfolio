@@ -56,6 +56,9 @@ The Support Info Tool is deployed to your workstation and can be accessed in one
 
 ### Step 2: Run the Application
 1. Double-click either the **IT-Diagnostic Tool** desktop shortcut or the local executable file (**IT-Diagnostic Tool.exe**).
+
+> ℹ️ **Note on System Prompts:** Depending on your local account permissions, a standard Windows security prompt may appear asking for confirmation to execute the file. Click **More info** on the prompt, and select **Run anyway** to allow the diagnostic scan to proceed.
+
 2. A black command line window will open and begin collecting system metrics. This process usually completes within 5 to 10 seconds.
 3. When the scan concludes, the terminal window will display the following success message:
 
