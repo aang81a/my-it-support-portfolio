@@ -66,20 +66,29 @@ Converting the interpreted script structure into a managed binary executable exp
 | 9 | `ts-09-exe-syntax-error.png` | The compiled executable encountered an unhandled parsing exception post-initialization, causing an immediate crash. |
 
 
-### Administrative Compilation Syntax
+#### Environment Compilation Commands
 
-To convert the interpreted script into a standalone desktop application, the following module environment variables were executed within an elevated PowerShell console session:
+The following environment commands were executed within the PowerShell console session to manage, verify, and compile the application framework:
 
 1. **Install the compilation module framework globally:**
 ```powershell
 Install-Module -Name ps2exe -Force
 ```
 
-2. **Compile the raw code into the destination binary package with custom properties:**
+1. **Install the compilation module scoped to the active user profile to bypass global permission constraints:**
+```powershell
+Install-Module -Name ps2exe -Scope CurrentUser -Force -AllowClobber -Verbose
+```
+
+2. **Verify the module initialized successfully within the active session:**
+```powershell
+Get-Module -Name ps2exe
+```
+
+3. **Compile the raw code script into the destination executable binary package:**
 ```powershell
 Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe -title "IT Support Diagnostic Tool" -iconFile .\icon.ico
 ```
-
 
 **Result:**  
 This issue proved that converting a script into an executable file requires separate testing. Code syntax errors can behave differently or cause sudden crashes when the tool is run as an `.exe` file rather than inside the standard PowerShell console.
@@ -133,6 +142,24 @@ Evaluated graphical execution configurations to verify that end-user interaction
 
 Conducted targeted directory scrubbing to resolve the orphan metadata components observed during the evaluation phase in Section 2.4.
 
+#### Administrative WMI Query & Cleanup Strings
+
+To track down, verify, and systematically eliminate the stale antimalware registration records from the system registry cache, the following low-level query commands were executed sequentially:
+
+1. **Query the system infrastructure database using legacy command-line tools to check for ghost registrations:**
+```cmd
+wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName
+```
+
+2. **Isolate and confirm the specific status of the orphan antimalware component registry:**
+```powershell
+Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Where-Object { \$_.displayName -like "*McAfee*" }
+```
+
+3. **Purge the corrupted, orphaned registration record from the system namespace cache to restore output integrity:**
+```powershell
+Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Where-Object { \$_.displayName -like "*McAfee*" } | Remove-CimInstance
+```
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
