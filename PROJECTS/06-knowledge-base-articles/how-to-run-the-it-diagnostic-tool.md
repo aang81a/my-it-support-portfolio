@@ -1,3 +1,15 @@
+## KBA: How to Run the Support Info Tool
+
+<img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal Knowledge Base Article*
+
+
+**Document ID:** `KBA-1001`  
+**Category:** Internal IT Support / Desktop Troubleshooting  
+**Target Audience:** All Employees (Non-Technical)  
+**Last Updated:** May 2026 
+
+
+
 ## KBA: How to Run the IT Diagnostic Tool
 
 ---
