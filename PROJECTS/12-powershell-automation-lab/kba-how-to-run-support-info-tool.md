@@ -1,4 +1,7 @@
-<img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal Knowledge Base*
+## KBA: How to Run the Support Info Tool
+
+<img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal Knowledge Base Article*
+
 
 **Document ID:** `KB-1001`  
 **Category:** Internal IT Support / Desktop Troubleshooting  
@@ -6,8 +9,6 @@
 **Last Updated:** May 2026 
 
 ---
-
-## How to Run the Support Info Tool
 
 ### Overview
 To help IT Support understand your device faster, you may be asked to run the Support Info Tool during an active support request. 
