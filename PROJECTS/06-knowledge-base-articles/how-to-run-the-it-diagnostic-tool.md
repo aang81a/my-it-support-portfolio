@@ -15,7 +15,7 @@ The IT Diagnostic Tool quickly gathers local network and system telemetry to hel
 
 ---
 
-### Step 1: Locate and Launch the Application
+### Step 1: Locate the Application
 1. Download the IT_Diagnostics.zip folder from the link provided by your IT technician.
 2. Right-click the folder and select Extract All..., then choose your Desktop.
 3. Open the new folder on your Desktop.
@@ -32,16 +32,28 @@ or
    
    on your desktop locate the **IT-Diagnostic-Tool-Shortcut**.
 
+---
+
+### Step 2: Launch & Close the Application
+
 6. Double-click the **IT-Diagnostic-Tool** to start.
 
 > ℹ️ **Note on System Prompts:** Depending on your local account permissions, a standard Windows security prompt may appear asking for confirmation to execute the file. Click **More info** on the prompt, and select **Run anyway** to allow the diagnostic scan to proceed.
-    
+
+
+2. A black command line window will open and begin collecting system metrics. This process usually completes within 5 to 10 seconds.
+3. When the scan concludes, the terminal window will display the following success message:
+
+`
+Diagnostic complete. Report saved in the same folder: TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt
+Press Enter to continue...:
+`
+
+4. Press **Enter** on your keyboard to securely close the window.
+
 ---
 
 ## Step 3: Locate & Send the Report
-
-A window will open. Once it says `Diagnostic complete. Report saved in the same folder: TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt
-Press Enter to continue...`, you can press **Enter** on your keyboard to securely close the window.
 
 1. Look in the folder on your `Desktop\` or in `C:\Public\IT_Tools\IT_Diagnostic_Tool\` for a new file named **TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt**. The timestamp in the filename ensures older diagnostic logs are never overwritten.
 2. Attach this text file to your support ticket or reply to your technician's email with the file attached.
