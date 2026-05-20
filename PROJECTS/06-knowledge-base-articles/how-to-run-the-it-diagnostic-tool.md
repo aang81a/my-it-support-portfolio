@@ -18,11 +18,8 @@ The IT Diagnostic Tool quickly gathers local network and system telemetry to hel
 #### Step 1: Locate the Application
 1. Download the IT_Diagnostics.zip folder from the link provided by your IT technician.
 2. Right-click the folder and select Extract All..., then choose your Desktop.
-3. Open the new folder on your Desktop
-   
-or
-
-   open your Windows File Explorer (`Win + E`). Navigate to the shared network tools directory: `C:\Public\IT_Tools\`
+3. Open the **new folder** on your Desktop
+   or open your Windows File Explorer (`Win + E`). Navigate to the shared network tools directory: `C:\Public\IT_Tools\`
    
 4. Locate the file named **IT-Diagnostic-Tool.exe**
    
