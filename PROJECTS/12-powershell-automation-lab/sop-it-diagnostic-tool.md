@@ -1,18 +1,11 @@
+## SOP: Using and Maintaining the IT-Diagnostic-Tool
+
 <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal IT Standard Operating Procedure*
 
 **Document ID:** SOP-IT-001  
 **Version:** 1.0  
-**Owner:** TechLog Solutions IT
+**Owner:** Service Desk Administration  
 **Status:** Active  
-
-**Document ID:** SOP-IT-001  
-**Version:** 1.0  
-**Owner:** [Service Desk Administration]  
-**Status:** Active  
-
----
-
-## SOP: Using and Maintaining the IT-Diagnostic-Tool
 
 ---
 
