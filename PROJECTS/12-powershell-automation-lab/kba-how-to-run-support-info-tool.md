@@ -17,7 +17,7 @@ The tool automatically generates a lightweight text report containing basic tech
 
 ---
 
-### Quick Process Overview
+#### Quick Process Overview
 
 
 | Step | Action |
@@ -72,7 +72,7 @@ Press Enter to continue...:
 
 ---
 
-### ℹ️ Privacy & Data Security Note
+## ℹ️ Privacy & Data Security Note
 
 **TechLog Solutions** prioritizes employee data privacy. This utility is strictly a configuration reader:
 
