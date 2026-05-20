@@ -36,14 +36,14 @@ or
 
 ## Step 3: What to expect
 
-A black window will open and display text for a few seconds. Once it says "Diagnostic complete. Report saved in the same folder: TechSupport_Report_2026-05-20_09-25-25.txt
-Press Enter to continue...", you can press any key on your keyboard to close the window.
+A window will open. Once it says `Diagnostic complete. Report saved in the same folder: TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt
+Press Enter to continue...`, you can press any key on your keyboard to close the window.
 
 ## Step 4: Send the Results
 
-1. Look on your Desktop for a new file named `TechSupport_Report.txt`.
+1. Look in the folder on your desktop or in `C:\Public\IT_Tools\` for a new file named **TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt**.
 2. Attach this file to your support ticket or reply to the email from your technician.
-3. You may delete the tool and the text file once the technician confirms they have received it.
+3. You may delete the text file once the technician confirms they have received it.
 
 ---
 
