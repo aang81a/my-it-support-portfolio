@@ -2,7 +2,6 @@
 
 *Knowledge Base Article*
 
-
 **Article ID:** KB-1001  
 **Category:** General Support / Troubleshooting  
 **Audience:** End users  
@@ -13,16 +12,6 @@
 ### Overview
 
 The IT Diagnostic Tool quickly gathers local network and system telemetry to help the IT support team diagnose performance issues. 
-This tool does not access your personal files, photos, or passwords. It only looks at system settings:
-
-- Date/Time
-- Computer Name
-- Current User
-- IP Address
-- Serial Number
-- Windows Version
-- Last Reboot
-- Antivirus Product
 
 ---
 
@@ -56,8 +45,19 @@ Press Enter to continue...`, you can press **Enter** on your keyboard to securel
 2. Attach this text file to your support ticket or reply to your technician's email with the file attached.
 3. You may delete the text file once the technician confirms they have received it.
 
+---
+
 ## ⚠️ Privacy & Data Security Note
 
-* **Collected Data:** The report only logs baseline system variables including computer name, active user, local IP address, device serial number, Windows version, uptime/last reboot time, and active antivirus status.
+* **Collected Data:** The report only logs baseline system variables:
+   - Date/Time
+   - Computer Name
+   - Current User
+   - IP Address
+   - Serial Number
+   - Windows Version
+   - Last Reboot
+   - Antivirus Product
+
 * **Prohibited Access:** The tool **cannot** access personal files, photos, browser history, emails, saved passwords, or network traffic.
 * **System Safety:** This script runs read-only commands. It does not modify system settings, delete application data, or alter local security parameters.
