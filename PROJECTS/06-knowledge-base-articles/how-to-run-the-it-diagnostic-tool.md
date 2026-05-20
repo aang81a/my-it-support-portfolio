@@ -1,6 +1,6 @@
-## KB article: How to Run the IT Diagnostic Tool
+## How to Run the IT Diagnostic Tool
 
-<img src="image/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Knowledge Base Article*
+*Knowledge Base Article*
 
 
 **Article ID:** KB-1001  
