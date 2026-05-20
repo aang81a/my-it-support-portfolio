@@ -48,8 +48,7 @@ The tool automatically generates a lightweight text report containing basic tech
 ### Step 1: Find and Open the Tool
 The Support Info Tool is deployed to your workstation and can be accessed in one of two ways:
 1. **Desktop Shortcut:** Locate the shortcut icon labeled **IT-Diagnostic Tool** on your main desktop screen.
-2. **Local Folder:** Open your file manager and navigate to the local deployment directory. 
-
+2. **Local Folder:** Open your Windows File Explorer (`Win + E`). Navigate to the shared network tools directory: `C:\Public\IT_Tools\`
 *If you cannot locate the tool or shortcut on your device, please contact the helpdesk for assistance before proceeding.*
 
 ---
