@@ -47,6 +47,8 @@ Press Enter to continue...`, you can press **Enter** on your keyboard to close t
 
 ---
 
-## ⚠️ Privacy Note
+## ⚠️ Privacy & Data Security Note
 
-This tool does not access your personal files, photos, or passwords. It only looks at system settings like your computer's name and its connection to our office network.
+* **Collected Data:** The report only logs baseline system variables including computer name, active user, local IP address, device serial number, Windows version, uptime/last reboot time, and active antivirus status.
+* **Prohibited Access:** The tool **cannot** access personal files, photos, browser history, emails, saved passwords, or network traffic.
+* **System Safety:** This script runs read-only commands. It does not modify system settings, delete application data, or alter local security parameters.
