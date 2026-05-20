@@ -68,15 +68,10 @@ Press Enter to continue...:
 
 ---
 
-### Step 3: Locate the Report
-* Look in the folder on your desktop or in `C:\Public\IT_Tools\` for a new file named **TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt**. The timestamp in the filename ensures older diagnostic logs are never overwritten.
-
----
-
-### Step 4: Send the Report to IT Support
-
-* Attach this text file to your support ticket or reply to your technician's email with the file attached.
-* You may delete the text file once the technician confirms they have received it.
+### Step 3: Locate & Send the Report
+1. Look in the folder on your `Desktop\` or in `C:\Public\IT_Tools\IT_Diagnostic_Tool\` for a new file named **TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt**. The timestamp in the filename ensures older diagnostic logs are never overwritten.
+2. Attach this text file to your support ticket or reply to your technician's email with the file attached.
+3. You may delete the text file once the technician confirms they have received it.
 
 ---
 
