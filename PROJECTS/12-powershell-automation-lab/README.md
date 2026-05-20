@@ -139,7 +139,7 @@ The generated report contains fields such as:
 - Serial Number
 - Windows Version
 - Last Reboot
-- Antivirus
+- Antivirus Product
 
 ---
 
