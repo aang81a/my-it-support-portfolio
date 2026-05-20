@@ -2,7 +2,7 @@
 
 **Document ID:** SOP-IT-001  
 **Version:** 1.0  
-**Owner:** TechLog Solutions IT  
+**Owner:** Service Desk Administration 
 **Status:** Active  
 
 ---
