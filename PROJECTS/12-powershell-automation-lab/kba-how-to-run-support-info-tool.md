@@ -80,7 +80,10 @@ Press Enter to continue...:
 
 ---
 
-### Privacy & Data Security Note
+### ⚠️ Privacy & Data Security Note
+
+This tool does not access your personal files, photos, or passwords. It only looks at system settings like your computer's name and its connection to our office network.
+
 TechLog Solutions prioritizes employee data privacy. This utility is strictly a configuration reader:
 * **Collected Data:** The report only logs baseline system variables including computer name, active user profile, local IP address, device serial number, Windows version, uptime/last reboot time, and active antivirus status.
 * **Prohibited Access:** The tool **cannot** access personal files, photos, browser history, emails, saved passwords, or network traffic.
