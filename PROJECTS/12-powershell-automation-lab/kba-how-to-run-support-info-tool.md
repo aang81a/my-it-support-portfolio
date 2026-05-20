@@ -49,6 +49,7 @@ The tool automatically generates a lightweight text report containing basic tech
 The Support Info Tool is deployed to your workstation and can be accessed in one of two ways:
 1. **Desktop Shortcut:** Locate the shortcut icon labeled **IT-Diagnostic Tool** on your main desktop screen.
 2. **Local Folder:** Open your Windows File Explorer (`Win + E`). Navigate to the shared network tools directory: `C:\Public\IT_Tools\`
+
 *If you cannot locate the tool or shortcut on your device, please contact the helpdesk for assistance before proceeding.*
 
 ---
@@ -85,5 +86,6 @@ Press Enter to continue...:
 * **Prohibited Access:** The tool **cannot** access personal files, photos, browser history, emails, saved passwords, or network traffic.
 * **System Safety:** This script runs read-only commands. It does not modify system settings, delete application data, or alter local security parameters.
 
-### Troubleshooting
-If the command window fails to open, no text file appears after pressing Enter, or you are uncertain which file to attach, stop the process and contact IT Support directly. Do not attempt to modify system directories or local registry files manually.
+### ⚠️ Troubleshooting
+* If the command window fails to open, no text file appears after pressing Enter, or you are uncertain which file to attach, stop the process and contact IT Support directly. 
+* Do not attempt to modify system directories or local registry files manually.
