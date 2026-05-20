@@ -42,6 +42,8 @@ The first major issue was report location. The script needed to create a report 
 | 5 | `ts-05-report-visible-after-path-change.png` | A path change made the report visible to the user. |
 | 6 | `ts-06-report-invisible-again.png` | The report visibility problem repeated, showing that the Desktop-based approach was not reliable enough. |
 
+![Permission Error](screenshots/ts-00-permission-error.png)
+
 ![Static desktop path](screenshots/ts-01-static-desktop-path.png)
 
 ![Active desktop path test](screenshots/ts-02-active-desktop-path-test.png)
@@ -116,7 +118,7 @@ Another issue appeared when the report file was created, but the expected text c
 | 11 | `ts-11-out-string-output-fix.png` | The output-writing logic was adjusted using `Out-String`. |
 | 12 | `ts-12-empty-report-debugging.png` | The report file existed, but the content was still missing during this phase. |
 | 13 | `ts-13-raw-script-test.png` | The raw PowerShell script was tested directly to separate script behavior from executable behavior. |
-| 14 | `ts-14-report-content-fixed.png` | The report content appeared correctly in the generated text file. |
+| 14 | `ts-14-report-content-fixed.png` | Adjusted the output stream handling in the code, the report content is no longer empty and generates correctly. |
 
 ![Out-String output fix](screenshots/ts-11-out-string-output-fix.png)
 
