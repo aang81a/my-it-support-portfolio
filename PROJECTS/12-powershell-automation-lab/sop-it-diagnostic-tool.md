@@ -1,11 +1,10 @@
-<p align="left"><img src="screenshots/tech-log-solutions-logo.png" width="280" alt="TechLog Solutions Logo"></p> | *Internal IT Standard Operating Procedure*
+<img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal IT Standard Operating Procedure*
 
 **Document ID:** SOP-IT-001  
 **Version:** 1.0  
 **Owner:** TechLog Solutions IT  
 **Status:** Active  
 
-<img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> |
 ---
 
 # SOP: Using and Maintaining the IT-Diagnostic-Tool
