@@ -4,8 +4,8 @@
 
 
 **Document ID:** `KBA-1001`  
-**Category:** Internal IT Support / Desktop Troubleshooting  
-**Target Audience:** All Employees (Non-Technical)  
+**Category:** General Support / Troubleshooting  
+**Audience:** End users 
 **Last Updated:** May 2026 
 
 ---
