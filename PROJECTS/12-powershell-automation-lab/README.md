@@ -215,6 +215,6 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 
 ---
 
-## License
+## 🧾 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
