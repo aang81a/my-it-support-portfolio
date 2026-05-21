@@ -3,6 +3,8 @@
 ![Type](https://img.shields.io/badge/Type-User%20Guide-blue)
 ![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
 
+---
+
 <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal User Guide*
 
 **Document ID:** `UG-1001`  
