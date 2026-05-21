@@ -1,16 +1,9 @@
 ## How to Run the IT Diagnostic Tool
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blue)
-![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
-
----
-
-# How to Troubleshoot No Internet
 
 *Knowledge Base Article*
 
-**Article ID:** KB-1002  
-**Category:** General Support / Network Troubleshooting  
+**Article ID:** KB-1001  
+**Category:** General Support / Troubleshooting  
 **Audience:** End users  
 **Last Updated:** May 2026  
 
@@ -21,12 +14,9 @@
 
 ---
 
-*Knowledge Base Article*
-
-**Article ID:** KB-1001  
-**Category:** General Support / Troubleshooting  
-**Audience:** End users  
-**Last Updated:** May 2026  
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blue)
+![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
 
 ---
 
