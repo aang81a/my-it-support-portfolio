@@ -7,7 +7,7 @@
 
 ---
 
-## Purpose
+### Purpose
 
 This knowledge base article explains how to connect to the company VPN from home.
 
@@ -15,7 +15,7 @@ The steps are written for non-technical users who need secure access to company 
 
 ---
 
-## When to Use This Guide
+### When to Use This Guide
 
 Use this guide if:
 
@@ -27,7 +27,7 @@ Use this guide if:
 
 ---
 
-## Before You Start
+### Before You Start
 
 Check these basic points first:
 
@@ -148,9 +148,9 @@ Disconnecting the VPN when it is not needed can help avoid connection issues and
 
 ---
 
-### Troubleshooting
+## Troubleshooting
 
-#### The VPN does not connect
+### The VPN does not connect
 
 Try these steps:
 
@@ -162,7 +162,7 @@ Try these steps:
 
 ---
 
-#### The password is not accepted
+### The password is not accepted
 
 Check:
 
@@ -175,7 +175,7 @@ Contact IT Support if the password still does not work.
 
 ---
 
-#### Multi-factor authentication does not appear
+### Multi-factor authentication does not appear
 
 Check:
 
@@ -188,7 +188,7 @@ Contact IT Support if you cannot approve the login.
 
 ---
 
-#### VPN is connected, but company resources do not open
+### VPN is connected, but company resources do not open
 
 Try these steps:
 
@@ -200,7 +200,7 @@ Try these steps:
 
 ---
 
-### When to Contact IT Support
+## When to Contact IT Support
 
 Contact IT Support if:
 
