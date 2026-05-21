@@ -119,7 +119,7 @@ Before using an updated version, confirm:
 
 ---
 
-### 7. Data Handling Notes
+## 7. Data Handling Notes
 
 The report is intended for support use only.
 
