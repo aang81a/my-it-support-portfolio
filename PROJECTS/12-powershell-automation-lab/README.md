@@ -39,7 +39,7 @@ The project includes:
 - a troubleshooting log documenting issues and fixes
 - technician-facing SOP documentation
 - end-user-facing knowledge base documentation
-- a readable published PowerShell version (`it-diagnostic-tool.ps1`) instead of a downloadable unsigned `.exe`
+- a readable published PowerShell version [`it-diagnostic-tool.ps1`](it-diagnostic-tool.ps1) instead of a downloadable unsigned `.exe`
 
 ---
 
@@ -104,9 +104,7 @@ In a real support environment, the end user would use only an approved company-p
 
 ### Public Repository
 
-For this portfolio, the main public artifact is:
-
-`it-diagnostic-tool.ps1`
+For this portfolio, the main public artifact is [`it-diagnostic-tool.ps1`](it-diagnostic-tool.ps1), which allows reviewers to inspect the script logic.
 
 This allows reviewers to inspect the script logic and see exactly which system details are collected.
 
@@ -209,7 +207,7 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 
 - [Troubleshooting Log](troubleshooting-log.md)
 - [SOP: Using and Maintaining the IT Diagnostic Tool](sop-it-diagnostic-tool.md)
-- [User Guide: How to Run the IT Diagnostic Tooll](ug-it-diagnodtic-tool.md)
+- [User Guide: How to Run the IT Diagnostic Tool](ug-it-diagnodtic-tool.md)
 - [Changelog](CHANGELOG.md)
 - [Sample Output](sample-output/TechSupport_Report_sample.txt)
 
