@@ -2,9 +2,6 @@
 
 <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal User Guide*
 
-
-<img src="screenshots/shortcut.png" width="280" alt="IT Diagnostic Tool shortcut"> | *Internal User Guide*
-
 **Document ID:** `UG-1001`  
 **Category:** Internal IT Support / Desktop Troubleshooting  
 **Target Audience:** All Employees (Non-Technical)  
@@ -34,9 +31,7 @@ The tool automatically generates a lightweight text report containing basic tech
 
 ---
 
-# <img src="screenshots/shortcut.png" width="280" alt="Shortcut" valign="middle">
-
-
+<img src="screenshots/shortcut.png" width="280" alt="IT Diagnostic Tool shortcut"> 
 
 ### Step 1: Find and Open the Tool
 The IT Diagnostic Tool is deployed to your workstation and can be accessed in one of two ways:
