@@ -7,6 +7,15 @@
 
 ---
 
+*Knowledge Base Article*
+
+**Article ID:** KB-1002  
+**Category:** General Support / Network Troubleshooting  
+**Audience:** End users  
+**Last Updated:** May 2026  
+
+---
+
 ### Purpose
 
 This knowledge base article explains how to connect to the company VPN from home.
@@ -148,9 +157,9 @@ Disconnecting the VPN when it is not needed can help avoid connection issues and
 
 ---
 
-## Troubleshooting
+### Troubleshooting
 
-### The VPN does not connect
+#### The VPN does not connect
 
 Try these steps:
 
@@ -162,7 +171,7 @@ Try these steps:
 
 ---
 
-### The password is not accepted
+#### The password is not accepted
 
 Check:
 
@@ -175,7 +184,7 @@ Contact IT Support if the password still does not work.
 
 ---
 
-### Multi-factor authentication does not appear
+#### Multi-factor authentication does not appear
 
 Check:
 
@@ -188,7 +197,7 @@ Contact IT Support if you cannot approve the login.
 
 ---
 
-### VPN is connected, but company resources do not open
+#### VPN is connected, but company resources do not open
 
 Try these steps:
 
@@ -241,7 +250,7 @@ Thank you.
 
 ---
 
-## Security Notes
+### Security Notes
 
 - Do not share your company password with anyone.
 - Only approve multi-factor authentication requests that you started yourself.
@@ -251,7 +260,7 @@ Thank you.
 
 ---
 
-## Summary
+### Summary
 
 To connect to the company VPN from home, first check your internet connection, open the VPN application, select the company VPN profile, sign in with your company account, approve multi-factor authentication, and test access to company resources.
 
