@@ -1,9 +1,3 @@
-# 🧾 1st Level Support Metadata Collector
-
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Windows](https://img.shields.io/badge/OS-Windows-0078D4?logo=windows&logoColor=white)
-![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
-
 # L1 Support Diagnostic Tool
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
@@ -11,6 +5,8 @@
 ![Language](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
 ![Focus](https://img.shields.io/badge/Focus-IT%20Support%20Automation-blue)
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
+
+---
 
 **PowerShell automation for collecting support-relevant system details**
 
