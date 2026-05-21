@@ -4,8 +4,18 @@
 
 **Document ID:** SOP-IT-001  
 **Version:** 1.0  
+**Category:** Internal IT Support / Desktop Troubleshooting  
+**Target Audience:** Internal IT Support Team
 **Owner:** Internal IT Support Administration  
 **Status:** Active  
+**Last Updated:** May 2026  
+---
+
+## Overview
+
+This SOP explains how the IT Diagnostic Tool should be used, maintained, and updated by Internal IT Support.
+
+It defines the tool purpose, responsible role, usage conditions, maintenance process, and basic security expectations.
 
 ---
 
