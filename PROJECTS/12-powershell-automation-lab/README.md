@@ -1,4 +1,4 @@
-# L1 Support Diagnostic Tool
+# L1 IT Support Diagnostic Tool
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
