@@ -5,6 +5,8 @@
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
 ![Topic](https://img.shields.io/badge/Topic-VPN%20Access-blue)
 
+---
+
 ## Purpose
 
 This knowledge base article explains how to connect to the company VPN from home.
