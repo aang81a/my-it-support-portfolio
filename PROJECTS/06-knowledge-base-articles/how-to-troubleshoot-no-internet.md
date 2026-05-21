@@ -169,7 +169,9 @@ Example message:
 ```text
 Hello IT Support,
 
-I cannot access the internet on my computer. I am using Wi-Fi. Other websites do not load either. I already restarted the browser and restarted the computer, but the issue is still present.
+I cannot access the internet on my computer. I am using Wi-Fi. Other websites do not load either.
+
+I already restarted the browser and restarted the computer, but the issue is still present.
 
 Thank you.
 ```
