@@ -1,4 +1,5 @@
 ## How to Run the IT Diagnostic Tool
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 *Knowledge Base Article*
 
