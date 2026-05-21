@@ -6,21 +6,13 @@
 ![Focus](https://img.shields.io/badge/Focus-IT%20Support%20Automation-blue)
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
 
-
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Language](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
-![Focus](https://img.shields.io/badge/Focus-IT%20Support%20Automation-blue)
-![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
-
 ---
 
 **PowerShell automation for collecting support-relevant system details**
-PowerShell-based system information collection for first-level IT support triage.
 
 **Tool:** PowerShell
 
-**Project concept:** One-click support metadata collection for 1st Level Support.
+**Project concept:** One-click support metadata collection for IT support workflows.
 
 **Project evolution:** script → one-click executable workflow → troubleshooting → testing → documentation → published PowerShell version
 
@@ -53,7 +45,9 @@ The project includes:
 
 ## 🎯 Project Goals
 
-The primary goal of this tool is to **support the first information-gathering step** in a 1st Level Support request.
+The primary goal of this tool is to **support the first information-gathering step** in an IT support request.
+
+The tool collects basic system and network information that can support helpdesk work, remote support preparation, ticket documentation, and escalation handover.
 
 By automating the collection of system details such as IP address, serial number, and last reboot time, the technician can skip manual data entry and begin the support session with the necessary technical context already available.
 
@@ -72,7 +66,7 @@ Technicians often need details such as:
 - hardware serial number for asset or warranty checks
 - Windows version
 - last reboot time / system uptime
-- registered antivirus product
+- antivirus product
 
 For non-technical users, these details are not always easy to find. This can slow down the first part of the support process and increase the chance of incorrect or incomplete ticket documentation.
 
@@ -87,12 +81,6 @@ The tool collects support-relevant system details and writes them into a standar
 `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
 
 The report can then be shared with the IT technician or used for ticket documentation.
-
----
-
-## 🙏 Technical Credits
-
-This project utilizes the [PS2EXE module](https://github.com/MScholtes/PS2EXE) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format during local testing.
 
 ---
 
@@ -181,10 +169,7 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 
 - **Automation thinking:** used PowerShell to reduce repetitive manual collection of support-relevant system details.
 
-- **Basic PowerShell exposure:** worked with commands such as `Get-CimInstance`, `Get-NetIPAddress`, `Out-File`, and `Out-String`.
-- **PowerShell script adaptation and testing:** worked with an AI-assisted PowerShell script, tested it, identified issues, and improved the support workflow.
-- **PowerShell script testing:** tested and refined a PowerShell-based diagnostic tool for IT support use.
-- **PowerShell script testing and refinement:** tested an AI-assisted PowerShell diagnostic script, identified issues, and refined the workflow for support use.
+- **PowerShell script testing and refinement:** worked with an AI-assisted PowerShell script, tested it, identified issues, and refined the workflow for IT support use: worked with commands such as `Get-CimInstance`, `Get-NetIPAddress`, `Out-File`, and `Out-String`.
  
 
 - **Windows support basics:** collected computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
@@ -228,6 +213,11 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 
 ---
 
+## 🙏 Technical Credits
+
+This project utilizes the [PS2EXE module](https://github.com/MScholtes/PS2EXE) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format during local testing.
+
+---
 
 ## 🧾 License
 
