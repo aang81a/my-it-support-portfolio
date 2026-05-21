@@ -4,9 +4,9 @@
 
 **Document ID:** SOP-IT-001  
 **Version:** 1.0  
-**Category:** Internal IT Support / Desktop Troubleshooting  
-**Target Audience:** Internal IT Support Team  
 **Owner:** Internal IT Support Administration  
+**Category:** IT Support / Desktop Troubleshooting    
+**Target Audience:** Internal IT Support Team  
 **Status:** Active  
 **Last Updated:** May 2026 
 
@@ -14,15 +14,15 @@
 
 ## Overview
 
-This SOP explains how the IT Diagnostic Tool should be used, maintained, and updated by Internal IT Support.
+This SOP explains how the IT Diagnostic Tool should be used, maintained, updated, and checked by Internal IT Support.
 
-It defines the tool purpose, responsible role, usage conditions, maintenance process, and basic security expectations.
+It defines the tool purpose, usage conditions, update process, verification checklist, troubleshooting guidance, and basic data-handling expectations.
 
 ---
 
 ### 1. Purpose
 
-The purpose of this SOP is to define a standardized method for using and maintaining the 1st Level Support Metadata Collector.
+The purpose of this SOP is to define a standardized method for using and maintaining the IT Diagnostic Tool.
 
 The tool supports consistent collection of basic device information during support requests and helps technicians document support cases more accurately.
 
@@ -75,19 +75,19 @@ When new support data points are required, such as disk space, VPN status, or ad
 1. **Open the script in a test environment**  
    Open `it-diagnostic-tool.ps1` in VS Code or another text editor.
 
-3. **Modify the script carefully**  
+2. **Modify the script carefully**  
    Add only the required data point.
 
-4. **Test the script locally**  
+3. **Test the script locally**  
    Run the script and confirm that the report is created successfully.
 
-5. **Verify report readability**  
+4. **Verify report readability**  
    Open the generated `.txt` file and check that the content is readable and correctly formatted.
 
-6. **Test before publishing changes**  
+5. **Test before publishing changes**  
    Validate the updated script on a test device before using it in a support workflow.
 
-7. **Document the change**  
+6. **Document the change**  
    Update the changelog and commit the change to GitHub with a clear message.
 
 ---
@@ -116,20 +116,6 @@ Before using an updated version, confirm:
 | Unexpected antivirus entry appears | Old or stale antivirus registration may still be present | Verify antivirus status and compare with Windows Security / installed security tools. |
 | Executable triggers antivirus warning | Unsigned executable created from a script may trigger heuristic detection | Use the readable PowerShell source for review and only use approved company tools in real environments. |
 | Tool closes before user can read the result | Console window closes after execution | Keep a pause/read step so the user can confirm completion. |
-
-
-### 6. Troubleshooting the Tool
-
-
-| Issue | Possible Cause | Resolution |
-|---|---|---|
-| User cannot find the report file | Executable was run from a protected or deep network directory | Instruct the user to check the exact directory where the tool was executed, as the script forces a zero-desktop persistence local save. |
-| Report file is completely empty | Inbound streaming block or write permission error | Ensure the local user execution profile has standard write permissions to the execution directory. |
-| Missing local IP address | No active network interfaces or active loopback override | Verify physical Ethernet connection or Wi-Fi authentication status on the client device. |
-| Unexpected antivirus entry | Stale WMI registration records inside SecurityCenter2 | Cross-reference script output manually against the active Windows Security app layout. |
-| Executable triggers SmartScreen / AV | Unsigned binary package compiled from raw .ps1 script | Explain to the user that this is an expected security layout behavior. Instruct them to utilize the KBA to select "Run anyway." |
-| Terminal window closes instantly | Missing standard pause parameters at script conclusion | Ensure the final line of code contains the native `Pause` or `Read-Host` string command. |
-
 
 ---
 
