@@ -2,7 +2,6 @@
 
 <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal User Guide*
 
-
 **Document ID:** `UG-1001`  
 **Category:** Internal IT Support / Desktop Troubleshooting  
 **Target Audience:** All Employees (Non-Technical)  
@@ -10,7 +9,7 @@
 
 ---
 
-### Overview
+## Overview
 To help IT Support understand your device faster, you may be asked to run the Support Info Tool during an active support request. 
 
 The tool automatically generates a lightweight text report containing basic technical information about your computer. This empowers you to quickly provide the exact data our technicians need to diagnose and resolve your issue.
