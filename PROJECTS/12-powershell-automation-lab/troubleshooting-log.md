@@ -75,17 +75,17 @@ The following environment commands were executed within the PowerShell console s
 Install-Module -Name ps2exe -Force
 ```
 
-1. **Install the compilation module scoped to the active user profile to bypass global permission constraints:**
+2. **Install the compilation module scoped to the active user profile to avoid needing admin rights for a global installation:**
 ```powershell
 Install-Module -Name ps2exe -Scope CurrentUser -Force -AllowClobber -Verbose
 ```
 
-2. **Verify the module initialized successfully within the active session:**
+3. **Verify that the module is available in the active session:**
 ```powershell
 Get-Module -Name ps2exe
 ```
 
-3. **Compile the raw code script into the destination executable binary package:**
+4. **Compile the raw code script into the destination executable binary package:**
 ```powershell
 Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe -title "IT Support Diagnostic Tool" -iconFile .\icon.ico
 ```
