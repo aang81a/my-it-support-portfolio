@@ -5,6 +5,22 @@
 
 ---
 
+# How to Troubleshoot No Internet
+
+*Knowledge Base Article*
+
+**Article ID:** KB-1002  
+**Category:** General Support / Network Troubleshooting  
+**Audience:** End users  
+**Last Updated:** May 2026  
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Focus](https://img.shields.io/badge/Focus-User%20Support%20Documentation-blue)
+![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
+![Topic](https://img.shields.io/badge/Topic-Network%20Troubleshooting-blue)
+
+---
+
 *Knowledge Base Article*
 
 **Article ID:** KB-1001  
