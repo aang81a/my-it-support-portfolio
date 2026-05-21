@@ -1,4 +1,4 @@
-# L1 IT Support Diagnostic Tool
+# IT Support Diagnostic Tool
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -9,6 +9,7 @@
 ---
 
 **PowerShell automation for collecting support-relevant system details**
+PowerShell-based system information collection for first-level IT support triage.
 
 **Tool:** PowerShell
 
