@@ -16,7 +16,7 @@
 
 ---
 
-## Purpose
+### Purpose
 
 This knowledge base article explains simple steps a user can follow when the computer is connected to Wi-Fi or Ethernet, but the internet is not working.
 
@@ -24,7 +24,7 @@ The steps are written for non-technical users and should be tried before contact
 
 ---
 
-## When to Use This Guide
+### When to Use This Guide
 
 Use this guide if:
 
@@ -36,7 +36,7 @@ Use this guide if:
 
 ---
 
-## Before You Start
+### Before You Start
 
 Check these basic points first:
 
@@ -48,7 +48,7 @@ Check these basic points first:
 
 ---
 
-## Step 1 – Check the Network Icon
+### Step 1 – Check the Network Icon
 
 Look at the network icon in the bottom-right corner of the screen.
 
@@ -63,7 +63,7 @@ If Wi-Fi is disconnected, click the network icon and reconnect to the correct Wi
 
 ---
 
-## Step 2 – Turn Wi-Fi Off and On Again
+### Step 2 – Turn Wi-Fi Off and On Again
 
 1. Click the network icon in the bottom-right corner.
 2. Turn Wi-Fi off.
@@ -75,7 +75,7 @@ Then try opening a website again.
 
 ---
 
-## Step 3 – Restart the Browser
+### Step 3 – Restart the Browser
 
 1. Close the browser completely.
 2. Open the browser again.
@@ -89,7 +89,7 @@ If one website does not open, try a second website.
 
 ---
 
-## Step 4 – Restart the Computer
+### Step 4 – Restart the Computer
 
 Restarting the computer can fix temporary network or browser problems.
 
@@ -101,7 +101,7 @@ Restarting the computer can fix temporary network or browser problems.
 
 ---
 
-## Step 5 – Check Airplane Mode
+### Step 5 – Check Airplane Mode
 
 1. Open Settings.
 2. Go to Network & Internet.
@@ -111,7 +111,7 @@ Airplane mode must be off for Wi-Fi and network connections to work.
 
 ---
 
-## Step 6 – Forget and Reconnect to Wi-Fi
+### Step 6 – Forget and Reconnect to Wi-Fi
 
 Use this step only if Wi-Fi keeps failing.
 
@@ -126,7 +126,7 @@ Use this step only if Wi-Fi keeps failing.
 
 ---
 
-## Step 7 – Check if the Issue Affects Only One Device
+### Step 7 – Check if the Issue Affects Only One Device
 
 Try to answer these questions:
 
@@ -139,7 +139,7 @@ This helps IT Support understand whether the issue is on one device or on the ne
 
 ---
 
-## When to Contact IT Support
+### When to Contact IT Support
 
 Contact IT Support if:
 
@@ -152,7 +152,7 @@ Contact IT Support if:
 
 ---
 
-## Information to Give IT Support
+### Information to Give IT Support
 
 When contacting IT Support, include:
 
