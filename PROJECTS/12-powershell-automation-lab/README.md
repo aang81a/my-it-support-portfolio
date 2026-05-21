@@ -24,7 +24,7 @@ I tested it on multiple Windows systems, documented the troubleshooting process,
 
 ## 📖 Project Overview
 
-This project presents a one-click support information workflow built around a PowerShell script that only collects basic support-relevant system informations and writes it quickly into a standardized report. It does not change system settings, delete anything, collect passwords, or modify security settings.
+This project presents a one-click support information workflow built around a PowerShell script that only collects basic support-relevant system information and writes it quickly into a standardized report. It does not change system settings, delete anything, collect passwords, or modify security settings.
 
 In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually look up details such as the computer name, IP address, serial number, Windows version, last reboot time, or antivirus status, the script creates a standardized text report as part of the support workflow.
 
@@ -208,8 +208,8 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 ## 🔗 Links to supporting documents
 
 - [Troubleshooting Log](troubleshooting-log.md)
-- [SOP: Using and Maintaining the IT-Diagnostic-Tool](sop-it-diagnostic-tool.md)
-- [Knowledge Base Article: How to Run the Support Info Tool](kba-how-to-run-support-info-tool.md)
+- [SOP: Using and Maintaining the IT Diagnostic Tool](sop-it-diagnostic-tool.md)
+- [User Guide: How to Run the IT Diagnostic Tooll](ug-it-diagnodtic-tool.md)
 - [Changelog](CHANGELOG.md)
 - [Sample Output](sample-output/TechSupport_Report_sample.txt)
 
