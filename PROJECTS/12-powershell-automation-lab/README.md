@@ -205,6 +205,7 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 
 ## 🔗 Links to supporting documents
 
+- [Main PowerShell Script](it-diagnostic-tool.ps1)
 - [Troubleshooting Log](troubleshooting-log.md)
 - [SOP: Using and Maintaining the IT Diagnostic Tool](sop-it-diagnostic-tool.md)
 - [User Guide: How to Run the IT Diagnostic Tool](ug-it-diagnodtic-tool.md)
@@ -212,6 +213,18 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 - [Sample Output](sample-output/TechSupport_Report_sample.txt)
 
 ---
+
+## 🔗 Links to supporting documents
+
+- [Main PowerShell Script](it-diagnostic-tool.ps1)
+- [Troubleshooting Log](troubleshooting-log.md)
+- [SOP: Using and Maintaining the IT Diagnostic Tool](sop-it-diagnostic-tool.md)
+- [User Guide: How to Run the IT Diagnostic Tool](ug-it-diagnodtic-tool.md)
+- [Changelog](CHANGELOG.md)
+- [Sample Output](sample-output/TechSupport_Report_sample.txt)
+
+---
+
 
 ## 🧾 License
 
