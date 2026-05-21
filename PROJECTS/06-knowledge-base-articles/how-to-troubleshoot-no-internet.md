@@ -5,6 +5,8 @@
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
 ![Topic](https://img.shields.io/badge/Topic-Network%20Troubleshooting-blue)
 
+---
+
 ## Purpose
 
 This knowledge base article explains simple steps a user can follow when the computer is connected to Wi-Fi or Ethernet, but the internet is not working.
