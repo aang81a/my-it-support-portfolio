@@ -20,6 +20,20 @@
 
 ---
 
+keep
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blue)
+![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
+
+---
+
+not
+![Focus](https://img.shields.io/badge/Focus-User%20Support%20Documentation-blue)
+![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
+![Topic](https://img.shields.io/badge/Topic-Network%20Troubleshooting-blue)
+
+---
+
 ### Overview
 
 The IT Diagnostic Tool gathers basic local system and network information to help IT Support investigate a support request.
