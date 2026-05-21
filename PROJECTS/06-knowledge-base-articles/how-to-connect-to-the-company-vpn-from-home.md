@@ -13,7 +13,7 @@ The steps are written for non-technical users who need secure access to company 
 
 ---
 
-## When to Use This Guide
+### When to Use This Guide
 
 Use this guide if:
 
@@ -25,7 +25,7 @@ Use this guide if:
 
 ---
 
-## Before You Start
+### Before You Start
 
 Check these basic points first:
 
@@ -37,7 +37,7 @@ Check these basic points first:
 
 ---
 
-## Step 1 – Check Your Internet Connection
+### Step 1 – Check Your Internet Connection
 
 Before connecting to the VPN, confirm that your normal internet connection works.
 
@@ -52,7 +52,7 @@ If normal websites do not open, fix the internet connection first before trying 
 
 ---
 
-## Step 2 – Open the VPN Application
+### Step 2 – Open the VPN Application
 
 1. Click Start.
 2. Search for the company VPN application.
@@ -69,7 +69,7 @@ The VPN application name depends on the company setup. Common examples include:
 
 ---
 
-## Step 3 – Select the Company VPN Connection
+### Step 3 – Select the Company VPN Connection
 
 1. Select the company VPN profile or connection.
 2. Check that the server address is already filled in.
@@ -79,7 +79,7 @@ If no VPN profile is visible, contact IT Support.
 
 ---
 
-## Step 4 – Sign In
+### Step 4 – Sign In
 
 1. Enter your company username.
 2. Enter your company password.
@@ -89,7 +89,7 @@ Use your normal company login details unless IT Support has provided different i
 
 ---
 
-## Step 5 – Approve Multi-Factor Authentication
+### Step 5 – Approve Multi-Factor Authentication
 
 If multi-factor authentication is enabled, approve the login request.
 
@@ -104,7 +104,7 @@ Only approve the request if you are currently trying to connect to the VPN.
 
 ---
 
-## Step 6 – Check That the VPN Is Connected
+### Step 6 – Check That the VPN Is Connected
 
 After signing in, check the VPN status.
 
@@ -118,7 +118,7 @@ You may also see a lock symbol or VPN icon near the clock.
 
 ---
 
-## Step 7 – Test Company Access
+### Step 7 – Test Company Access
 
 After the VPN is connected, test whether company resources work.
 
@@ -134,7 +134,7 @@ If company resources still do not open, disconnect and reconnect the VPN once.
 
 ---
 
-## Step 8 – Disconnect the VPN When Finished
+### Step 8 – Disconnect the VPN When Finished
 
 When you no longer need access to company systems:
 
@@ -146,9 +146,9 @@ Disconnecting the VPN when it is not needed can help avoid connection issues and
 
 ---
 
-## Troubleshooting
+### Troubleshooting
 
-### The VPN does not connect
+#### The VPN does not connect
 
 Try these steps:
 
@@ -160,7 +160,7 @@ Try these steps:
 
 ---
 
-### The password is not accepted
+#### The password is not accepted
 
 Check:
 
@@ -173,7 +173,7 @@ Contact IT Support if the password still does not work.
 
 ---
 
-### Multi-factor authentication does not appear
+#### Multi-factor authentication does not appear
 
 Check:
 
@@ -186,7 +186,7 @@ Contact IT Support if you cannot approve the login.
 
 ---
 
-### VPN is connected, but company resources do not open
+#### VPN is connected, but company resources do not open
 
 Try these steps:
 
@@ -198,7 +198,7 @@ Try these steps:
 
 ---
 
-## When to Contact IT Support
+### When to Contact IT Support
 
 Contact IT Support if:
 
@@ -212,7 +212,7 @@ Contact IT Support if:
 
 ---
 
-## Information to Give IT Support
+### Information to Give IT Support
 
 When contacting IT Support, include:
 
@@ -237,7 +237,7 @@ Thank you.
 
 ---
 
-## Security Notes
+### Security Notes
 
 - Do not share your company password with anyone.
 - Only approve multi-factor authentication requests that you started yourself.
