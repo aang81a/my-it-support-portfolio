@@ -125,7 +125,7 @@ The VPN should show a status such as:
 - VPN connected
 - Secure connection established
 
-You may also see a lock symbol or VPN icon near the clock.
+You may also see a lock symbol, VPN icon, or connection status near the clock, depending on the VPN application and device setup.
 
 ---
 
