@@ -6,6 +6,13 @@
 ![Focus](https://img.shields.io/badge/Focus-IT%20Support%20Automation-blue)
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
 
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Language](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-IT%20Support%20Automation-blue)
+![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
+
 ---
 
 **PowerShell automation for collecting support-relevant system details**
@@ -173,7 +180,13 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 ## 🧠 Technical Skills Demonstrated
 
 - **Automation thinking:** used PowerShell to reduce repetitive manual collection of support-relevant system details.
+
 - **Basic PowerShell exposure:** worked with commands such as `Get-CimInstance`, `Get-NetIPAddress`, `Out-File`, and `Out-String`.
+- **PowerShell script adaptation and testing:** worked with an AI-assisted PowerShell script, tested it, identified issues, and improved the support workflow.
+- **PowerShell script testing:** tested and refined a PowerShell-based diagnostic tool for IT support use.
+- **PowerShell script testing and refinement:** tested an AI-assisted PowerShell diagnostic script, identified issues, and refined the workflow for support use.
+ 
+
 - **Windows support basics:** collected computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
 - **WMI/CIM awareness:** used Windows management queries to retrieve system and antivirus information.
 - **Windows path handling:** worked with local folders, output paths, and report file creation during testing.
@@ -209,7 +222,7 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 - [Main PowerShell Script](it-diagnostic-tool.ps1)
 - [Troubleshooting Log](troubleshooting-log.md)
 - [SOP: Using and Maintaining the IT Diagnostic Tool](sop-it-diagnostic-tool.md)
-- [User Guide: How to Run the IT Diagnostic Tool](ug-it-diagnodtic-tool.md)
+- [User Guide: How to Run the IT Diagnostic Tool](ug-it-diagnostic-tool.md)
 - [Changelog](CHANGELOG.md)
 - [Sample Output](sample-output/TechSupport_Report_sample.txt)
 
