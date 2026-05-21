@@ -2,6 +2,9 @@
 
 <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal User Guide*
 
+
+<img src="screenshots/shortcut.png" width="280" alt="IT Diagnostic Tool shortcut"> | *Internal User Guide*
+
 **Document ID:** `UG-1001`  
 **Category:** Internal IT Support / Desktop Troubleshooting  
 **Target Audience:** All Employees (Non-Technical)  
@@ -10,9 +13,9 @@
 ---
 
 ## Overview
-To help IT Support understand your device faster, you may be asked to run the Support Info Tool during an active support request. 
+To help IT Support understand your device faster, you may be asked to run the IT Diagnostic Tool during an active support request. 
 
-The tool automatically generates a lightweight text report containing basic technical information about your computer. This empowers you to quickly provide the exact data our technicians need to diagnose and resolve your issue.
+The tool automatically generates a lightweight text report containing basic technical information about your computer. This helps you provide the information IT Support needs to investigate your issue.
 
 #### Quick Process Overview
 
@@ -36,18 +39,18 @@ The tool automatically generates a lightweight text report containing basic tech
 
 
 ### Step 1: Find and Open the Tool
-The Support Info Tool is deployed to your workstation and can be accessed in one of two ways:
+The IT Diagnostic Tool is deployed to your workstation and can be accessed in one of two ways:
 1. **Desktop Shortcut:** Locate the shortcut icon labeled **IT-Diagnostic Tool** on your main desktop screen.
-2. **Local Folder:** Open your Windows File Explorer (`Win + E`). Navigate to the shared network tools directory: `C:\Public\IT_Tools\`
+2. **Local Folder:** Open your Windows File Explorer (`Win + E`). Navigate to the shared network tools directory: `C:\Public\IT_Tools\IT_Diagnostic_Tool\`
 
 *If you cannot locate the tool or shortcut on your device, please contact the helpdesk for assistance before proceeding.*
 
 ---
 
 ### Step 2: Run the Application
-1. Double-click either the **IT-Diagnostic Tool** desktop shortcut or the local executable file (**IT-Diagnostic Tool.exe**).
+1. Double-click either the **IT-Diagnostic Tool** desktop shortcut or the local executable file (**IT-Diagnostic-Tool.exe**).
 
-> ℹ️ **Note on System Prompts:** Depending on your local account permissions, a standard Windows security prompt may appear asking for confirmation to execute the file. Click **More info** on the prompt, and select **Run anyway** to allow the diagnostic scan to proceed.
+> ℹ️ **Note on System Prompts:** Depending on your local account permissions, a standard Windows security prompt may appear asking for confirmation to execute the file. If this happens, stop and contact IT Support unless your technician has specifically confirmed that the prompt is expected.
 
 2. A black command line window will open and begin collecting system metrics. This process usually completes within 5 to 10 seconds.
 3. When the scan concludes, the terminal window will display the following success message:
@@ -57,12 +60,12 @@ Diagnostic complete. Report saved in the same folder: TechSupport_Report_yyyy-mm
 Press Enter to continue...:
 `
 
-4. Press **Enter** on your keyboard to securely close the window.
+4. Press **Enter** on your keyboard to close the window.
 
 ---
 
 ### Step 3: Locate & Send the Report
-1. Look in the folder on your `Desktop\` or in `C:\Public\IT_Tools\IT_Diagnostic_Tool\` for a new file named **TechSupport_Report_YYYY-MM-DD-hh-mmm-ss.txt**. The timestamp in the filename ensures older diagnostic logs are never overwritten.
+1. Look in the folder on your `Desktop\` or in `C:\Public\IT_Tools\IT_Diagnostic_Tool\` for a new file named **TechSupport_Report_yyyy-mm-dd-hh-mm-ss.txt**. The timestamp in the filename ensures older diagnostic logs are never overwritten.
 2. Attach this text file to your support ticket or reply to your technician's email with the file attached.
 3. You may delete the text file once the technician confirms they have received it.
 
@@ -85,5 +88,5 @@ Press Enter to continue...:
 * **System Safety:** This script runs read-only commands. It does not modify system settings, delete application data, or alter local security parameters.
 
 ### ⚠️ Troubleshooting
-* If the command window fails to open, no text file appears after pressing Enter, or you are uncertain which file to attach, stop the process and contact IT Support directly. 
+* If the command window fails to open, no text file appears, or you are uncertain which file to attach, stop the process and contact IT Support directly. 
 * Do not attempt to modify system directories or local registry files manually.
