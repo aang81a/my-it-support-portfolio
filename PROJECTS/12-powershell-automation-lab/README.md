@@ -4,6 +4,14 @@
 ![Windows](https://img.shields.io/badge/OS-Windows-0078D4?logo=windows&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
 
+# L1 Support Diagnostic Tool
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Language](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-IT%20Support%20Automation-blue)
+![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
+
 **PowerShell automation for collecting support-relevant system details**
 
 **Tool:** PowerShell
@@ -208,4 +216,9 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 - [Knowledge Base Article: How to Run the Support Info Tool](kba-how-to-run-support-info-tool.md)
 - [Changelog](CHANGELOG.md)
 - [Sample Output](sample-output/TechSupport_Report_sample.txt)
-- [License](LICENSE)
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
