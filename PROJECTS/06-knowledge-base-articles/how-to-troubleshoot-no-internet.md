@@ -11,7 +11,7 @@
 
 This knowledge base article explains simple steps a user can follow when the computer is connected to Wi-Fi or Ethernet, but the internet is not working.
 
-The steps are written for non-technical users and should be tried before contacting IT support.
+The steps are written for non-technical users and should be tried before contacting IT Support.
 
 ---
 
@@ -73,7 +73,7 @@ Then try opening a website again.
 3. Try opening a simple website, for example:
 
 ```text
-https://www.google.com
+[https://www.google.com](https://www.wikipedia.org)
 ```
 
 If one website does not open, try a second website.
@@ -126,13 +126,13 @@ Try to answer these questions:
 - Are other users affected?
 - Does the issue happen only on Wi-Fi or also with Ethernet?
 
-This helps IT support understand whether the issue is on one device or on the network.
+This helps IT Support understand whether the issue is on one device or on the network.
 
 ---
 
 ## When to Contact IT Support
 
-Contact IT support if:
+Contact IT Support if:
 
 - the internet still does not work after restarting the computer
 - Wi-Fi does not appear at all
@@ -145,7 +145,7 @@ Contact IT support if:
 
 ## Information to Give IT Support
 
-When contacting IT support, include:
+When contacting IT Support, include:
 
 - your device name, if known
 - whether you are using Wi-Fi or Ethernet
@@ -164,10 +164,11 @@ I cannot access the internet on my computer. I am using Wi-Fi. Other websites do
 
 Thank you.
 ```
+
 ---
 
 ## Summary
 
 If the internet is not working, first check the network icon, reconnect to Wi-Fi, restart the browser, restart the computer, and check whether other devices are affected.
 
-If the problem continues, contact IT support and explain what you already tested.
+If the problem continues, contact IT Support and explain which steps you already tried.
