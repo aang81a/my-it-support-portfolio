@@ -13,7 +13,7 @@ The steps are written for non-technical users who need secure access to company 
 
 ---
 
-### When to Use This Guide
+## When to Use This Guide
 
 Use this guide if:
 
@@ -25,7 +25,7 @@ Use this guide if:
 
 ---
 
-### Before You Start
+## Before You Start
 
 Check these basic points first:
 
@@ -230,14 +230,16 @@ Example message:
 ```text
 Hello IT Support,
 
-I cannot connect to the company VPN from home. My home internet is working, but the VPN does not connect. I already restarted the VPN application and restarted the computer. The error message says: [insert error message].
+I cannot connect to the company VPN from home. My home internet is working, but the VPN does not connect.
+
+I already restarted the VPN application and restarted the computer. The error message says: [insert error message].
 
 Thank you.
 ```
 
 ---
 
-### Security Notes
+## Security Notes
 
 - Do not share your company password with anyone.
 - Only approve multi-factor authentication requests that you started yourself.
