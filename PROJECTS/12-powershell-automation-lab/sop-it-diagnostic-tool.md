@@ -3,6 +3,8 @@
 ![Type](https://img.shields.io/badge/Type-SOP-blueviolet)
 ![Audience](https://img.shields.io/badge/Audience-IT%20Support-lightgrey)
 
+---
+
 <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal IT Standard Operating Protocol*
 
 **Document ID:** SOP-IT-001  
