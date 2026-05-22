@@ -1,6 +1,6 @@
 # Markdown Support Guides
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Focus](https://img.shields.io/badge/Focus-Markdown%20Documentation-blue)
 ![Skill](https://img.shields.io/badge/Skill-Technical%20Writing-blue)
 
@@ -32,6 +32,18 @@ Unlike the full knowledge base articles, these guides are not written as polishe
 
 ---
 
+## Guides
+
+| Guide | Topic | Purpose |
+|---|---|---|
+| [How to Reset a Domain Password](./how-to-reset-a-domain-password.md) | Domain password reset | Internal support note for resetting a user password in Active Directory |
+| [How to Join a PC to a Domain](./how-to-join-a-pc-to-a-domain.md) | Domain join process | Internal support note for joining a Windows computer to a domain |
+| [How to Troubleshoot No Network Access](./how-to-troubleshoot-no-network-access.md) | Network troubleshooting | Internal support note for basic network access checks |
+| [How to Map a Network Drive](./how-to-map-a-network-drive.md) | Network drive mapping | Internal support note for connecting a shared folder as a mapped drive |
+| [How to Create a User in Active Directory](./how-to-create-a-user-in-active-directory.md) | Active Directory user creation | Internal support note for creating a new domain user account |
+
+---
+
 ## Skills Demonstrated
 
 - Structured documentation
@@ -39,14 +51,5 @@ Unlike the full knowledge base articles, these guides are not written as polishe
 - Step-by-step support instructions
 - Internal support note writing
 - IT support communication
-
----
-
-## Guides
-
-- [How to Reset a Domain Password](./how-to-reset-a-domain-password.md)
-- [How to Join a PC to a Domain](./how-to-join-a-pc-to-a-domain.md)
-- [How to Troubleshoot No Network Access](./how-to-troubleshoot-no-network-access.md)
-- [How to Map a Network Drive](./how-to-map-a-network-drive.md)
-- [How to Create a User in Active Directory](./how-to-create-a-user-in-active-directory.md)
-
+- Basic Active Directory documentation
+- Basic Windows support documentation
