@@ -36,20 +36,6 @@ They reduce repeated explanations, support self-service where appropriate, and h
 
 ---
 
-## Tools / Topics Covered
-
-- Windows network settings
-- Wi-Fi and Ethernet checks
-- Browser access checks
-- VPN connection guidance
-- IT Diagnostic Tool usage
-- Domain join basics
-- Domain access basics
-- Network drive access
-- Password reset support
-
----
-
 ## Skills Demonstrated
 
 - Knowledge base writing
