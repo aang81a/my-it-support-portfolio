@@ -125,7 +125,7 @@ Do not share your password with anyone. If you are unsure which login format to 
 
 After mapping the drive:
 
-1. Open File Explorer.
+1. Open File Explorer `Windows Key + E`.
 2. Go to **This PC**.
 3. Check whether the mapped drive is visible.
 4. Open the mapped drive.
