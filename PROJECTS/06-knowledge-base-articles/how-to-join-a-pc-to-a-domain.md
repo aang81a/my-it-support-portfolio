@@ -10,7 +10,7 @@
 *Knowledge Base Article*
 
 **Article ID:** KB-1004  
-**Category:** Internal IT Support / Domain Access  
+**Category:** Internal IT Support / Domain Join  
 **Audience:** IT Support / Lab Use  
 **Last Updated:** May 2026  
 
