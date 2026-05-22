@@ -29,13 +29,17 @@ This case was tested on two Windows 10 computers across three network contexts.
 | PC3 – HP All-in-One / Mobile Hotspot | Wi-Fi adapter | Connected to phone hotspot | DHCP comparison with different IP range |
 | PC2 – Desktop / Ethernet | Ethernet adapter | Connected via Ethernet cable | Comparison with wired adapter behaviour |
 
-Tools and settings used:
+---
 
+## Tools and Settings Used
+
+- Windows Network Connections (`ncpa.cpl`)
+- Command Prompt (`cmd`)
 - Network adapter IPv4 settings
 - DHCP-enabled home router network
 - DHCP-enabled mobile hotspot network
-- Windows Network Connections (`ncpa.cpl`)
-- Command Prompt (`cmd`)
+- Ethernet connection
+- Wi-Fi connection
 
 ---
 
