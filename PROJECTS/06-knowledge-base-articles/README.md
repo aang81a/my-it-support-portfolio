@@ -30,7 +30,7 @@ They are also useful for support teams because they provide consistent instructi
 | [How to Troubleshoot No Internet](how-to-troubleshoot-no-internet.md) | Basic internet troubleshooting | End users | Completed ✅ |
 | [How to Connect to the Company VPN from Home](how-to-connect-to-the-company-vpn-from-home.md) | VPN access from home | End users | Completed ✅ |
 | [How to Run the IT Diagnostic Tool](how-to-run-the-it-diagnostic-tool.md) | Diagnostic tool user guide | End users | Completed ✅ |
-| [How to Join a PC to a Domain](how-to-join-a-pc-to-a-domain.md) | Domain join basics | IT support / lab use | Draft |
+| [How to Join a PC to a Domain](how-to-join-a-pc-to-a-domain.md) | Domain join basics | IT support / lab use | Completed ✅ |
 | [How to Map a Network Drive](how-to-map-a-network-drive.md) | Shared drive access | End users / IT support | Draft |
 | [How to Reset a Domain Password](how-to-reset-a-domain-password.md) | Password reset process | IT support / End users | Draft |
 
@@ -43,6 +43,7 @@ They are also useful for support teams because they provide consistent instructi
 - Browser access checks
 - VPN connection guidance
 - IT Diagnostic Tool usage
+- Domain join basics
 - Domain access basics
 - Network drive access
 - Password reset support
