@@ -48,8 +48,7 @@ Each note shows how a common support task can be documented in a simple, structu
 
 ## Skills Demonstrated
 
-- Technical writing
+- Technical writing for internal IT support notes
 - Concise procedure documentation
-- Markdown formatting
 - Documentation of basic Active Directory support tasks
 - Documentation of basic Windows support tasks
