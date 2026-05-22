@@ -6,8 +6,6 @@
 
 ---
 
----
-
 ## Overview
 
 This section contains short Markdown-based quick-reference guides for common IT support tasks.
