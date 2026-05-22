@@ -43,7 +43,7 @@ Each troubleshooting case includes:
 
 The troubleshooting process used in these cases is documented here:
 
-- [Troubleshooting Method](diagrams/troubleshooting-method.md)
+- [Troubleshooting Method](../diagrams/troubleshooting-method.md)
 
 ---
 
