@@ -1,6 +1,6 @@
 # Knowledge Base Articles
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Focus](https://img.shields.io/badge/Focus-User%20Support%20Documentation-blue)
 ![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
@@ -19,7 +19,7 @@ The goal is to explain common IT support situations in a clear, structured, and 
 
 Knowledge base articles help users and support technicians follow consistent steps for common IT issues.
 
-They are also useful for support teams because they provide consistent instructions for common problems.
+They reduce repeated explanations, support self-service where appropriate, and help IT support document common solutions consistently.
 
 ---
 
@@ -31,8 +31,8 @@ They are also useful for support teams because they provide consistent instructi
 | [How to Connect to the Company VPN from Home](how-to-connect-to-the-company-vpn-from-home.md) | VPN access from home | End users | Completed ✅ |
 | [How to Run the IT Diagnostic Tool](how-to-run-the-it-diagnostic-tool.md) | Diagnostic tool user guide | End users | Completed ✅ |
 | [How to Join a PC to a Domain](how-to-join-a-pc-to-a-domain.md) | Domain join basics | IT support / lab use | Completed ✅ |
-| [How to Map a Network Drive](how-to-map-a-network-drive.md) | Shared drive access | End users / IT support | Draft |
-| [How to Reset a Domain Password](how-to-reset-a-domain-password.md) | Password reset process | IT support / End users | Draft |
+| [How to Map a Network Drive](how-to-map-a-network-drive.md) | Shared drive access | IT support / end users| Completed ✅ |
+| [How to Reset a Domain Password](how-to-reset-a-domain-password.md) | Password reset process | IT support / end users | Completed ✅ |
 
 ---
 
