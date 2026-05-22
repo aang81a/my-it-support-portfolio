@@ -25,6 +25,35 @@ The focus is on connectivity issues, IPv4 configuration, DHCP behaviour, command
 
 ---
 
+## Scope of Cases
+
+The following issues are covered:
+
+- No network access
+- DNS resolution failure
+- Shared folder access denied
+- IP misconfiguration
+
+---
+
+## Troubleshooting Approach
+
+The troubleshooting process used in these cases is documented here:
+
+- [Troubleshooting Method](../diagrams/troubleshooting-method.md)
+
+---
+
+## Skills Demonstrated
+
+- IT troubleshooting and problem analysis  
+- Network diagnostics (IP, DNS, connectivity)  
+- Root cause identification  
+- Structured documentation  
+- Basic system and network understanding
+
+---
+
 ## Related Documentation
 
 - [Internal Support Note: How to Troubleshoot No Network Access](../08-internal-support-notes/how-to-troubleshoot-no-network-access.md) – quick-reference note for network access troubleshooting
@@ -33,16 +62,23 @@ The focus is on connectivity issues, IPv4 configuration, DHCP behaviour, command
 
 ## Notes
 
-#### Case Documentation Structure
+### Case Structure
 
-Each troubleshooting case is documented with a clear structure:
+#### Each case follows a structured troubleshooting approach:
+- Gather information
+- Check basic configurations
+- Identify root cause
+- Apply solution
+- Test result
+- Document the case
 
-- **Problem** – issue reported or simulated
-- **Environment** – device, operating system, adapter, and network context
-- **Diagnosis Steps** – checks and commands used during troubleshooting
-- **Root Cause** – identified reason for the issue
-- **Solution** – action taken to resolve the problem
-- **Result** – verification after applying the fix
-- **Screenshots** – visual evidence where relevant
-- **Lessons Learned** – key takeaways from the case
+#### Each troubleshooting case includes:
 
+- **Problem** – Description of the issue reported by the user  
+- **Environment** – System context (device, operating system, network, domain, etc.)  
+- **Diagnosis Steps** – Step-by-step analysis 
+- **Root Cause** – Identified reason for the issue
+- **Solution** – Actions taken to resolve the problem  
+- **Result** – Outcome / verification after applying the fix
+- **Screenshots** – Supporting visual evidence (where applicable)
+- **Lessons Learned** – Key takeaways from the case
