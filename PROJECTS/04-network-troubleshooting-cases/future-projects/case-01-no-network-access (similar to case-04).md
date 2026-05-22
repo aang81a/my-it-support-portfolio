@@ -114,25 +114,17 @@ Possible causes include:
 
 ---
 
-## Solution
-
-1. Restarted network adapter
-2. Run:
-  
-`ipconfig /release`
-
-`ipconfig /renew`
-
-3. Verified DHCP configuration
-4. Ensured network cable / Wi-Fi connection is active
+## Solution Steps
 
 1. Restart the network adapter.
 2. Disconnect and reconnect Wi-Fi or Ethernet.
 3. Run:
 
-`ipconfig /release`
+```text
+ipconfig /release
 
-`ipconfig /renew`
+ipconfig /renew
+```
 
 4. Restart the router, hotspot, or device if needed.
 5. Confirm that the device receives a valid IPv4 address.
