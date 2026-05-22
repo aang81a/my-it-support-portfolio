@@ -264,6 +264,17 @@ After restoring DHCP, the devices received valid IP configurations and connectiv
 
 ---
 
+## Verification Summary
+
+- The wrong static IPv4 and DNS configuration was identified.
+- The failed gateway, external IP, and DNS tests confirmed the connectivity problem.
+- DHCP/automatic IP and DNS configuration was restored.
+- Valid network settings were assigned again.
+- Ping tests succeeded.
+- Browser connectivity was confirmed.
+
+---
+
 ## DHCP Results After Solution
 
 | Device / Network Context | IPv4 Address | Subnet Mask | Default Gateway | Interpretation |
@@ -283,17 +294,6 @@ After restoring DHCP, the devices received valid IP configurations and connectiv
 | PC2 – Ethernet | Wired adapter instead of Wi-Fi | Same static IP misconfiguration symptoms |
 
 The comparison shows that the network range can change depending on the connection type, but the troubleshooting workflow remains the same: check configuration, test connectivity, restore DHCP, renew the lease, and verify connectivity.
-
----
-
-## Verification Summary
-
-- The wrong static IPv4 and DNS configuration was identified.
-- The failed gateway, external IP, and DNS tests confirmed the connectivity problem.
-- DHCP/automatic IP and DNS configuration was restored.
-- Valid network settings were assigned again.
-- Ping tests succeeded.
-- Browser connectivity was confirmed.
 
 ---
 
