@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blue)
-![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
+![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-VPN%20Access-blue)
 
 ---
