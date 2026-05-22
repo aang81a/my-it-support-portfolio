@@ -8,9 +8,9 @@
 
 ## Overview
 
-This section documents practical Windows network troubleshooting cases for first-level IT support practice.
+This section documents Windows network troubleshooting cases based on common first-level IT support scenarios.
 
-The cases focus on common connectivity issues, IPv4 configuration, DHCP behaviour, command-line diagnostics, and structured troubleshooting documentation.
+The focus is on connectivity issues, IPv4 configuration, DHCP behaviour, command-line diagnostics, and structured troubleshooting documentation.
 
 ---
 
@@ -20,13 +20,26 @@ The cases focus on common connectivity issues, IPv4 configuration, DHCP behaviou
 |---|---|
 | [Case 04 – IP Misconfiguration Across Multiple Devices](case-04-ip-misconfiguration-across-multiple-devices.md) | Wrong static IPv4/DNS configuration, DHCP restore, Ethernet vs Wi-Fi vs mobile hotspot comparison |
 
-### Future Cases
+---
+
+## Future Cases
 
 The following cases are planned or kept as draft ideas:
 
 - Case 01 – No Network Access
 - Case 02 – DNS Resolution Failure
 - Case 03 – Shared Folder Access Denied
+
+
+## Cases
+
+| Case | Topic | Status |
+|---|---|---|
+| [Case 04 – IP Misconfiguration Across Multiple Devices](case-04-ip-misconfiguration-across-multiple-devices.md) | Wrong static IPv4/DNS configuration, DHCP restore, Ethernet vs Wi-Fi vs mobile hotspot comparison | Completed ✅ |
+| Case 01 – No Network Access | Basic network access troubleshooting | Planned |
+| Case 02 – DNS Resolution Failure | DNS/name resolution troubleshooting | Planned |
+| Case 03 – Shared Folder Access Denied | Shared folder access and permission issue | Planned |
+
 
 ---
 
@@ -57,7 +70,7 @@ Related method note:
 
 - [Troubleshooting Method](diagrams/troubleshooting-method.md)
 
-----
+---
 
 ## Skills Demonstrated
 
