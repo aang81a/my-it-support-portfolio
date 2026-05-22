@@ -1,6 +1,6 @@
 # How to Join a PC to a Domain
 
-![Status](https://img.shields.io/badge/Status-Draft-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blue)
 ![Audience](https://img.shields.io/badge/Audience-IT%20Support-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-Domain%20Join-blue)
