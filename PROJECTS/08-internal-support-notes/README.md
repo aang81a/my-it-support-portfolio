@@ -6,6 +6,13 @@
 
 ---
 
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Focus](https://img.shields.io/badge/Focus-Internal%20IT%20Support%20Notes-blue)
+![Audience](https://img.shields.io/badge/Audience-Internal%20IT%20Support-lightgrey)
+![Skill](https://img.shields.io/badge/Skill-Technical%20Writing-blue)
+
+---
+
 ## Overview
 
 This section contains short internal support notes for common Windows and Active Directory support tasks.
