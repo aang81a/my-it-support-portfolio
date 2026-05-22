@@ -8,6 +8,11 @@
 
 ---
 
+![Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue)
+![Tool](https://img.shields.io/badge/Tool-Command%20Prompt-black?logo=windows-terminal&logoColor=white)
+
+---
+
 ## Overview
 
 This section documents practical Windows network troubleshooting cases for first-level IT support practice.
