@@ -25,27 +25,6 @@ The focus is on connectivity issues, IPv4 configuration, DHCP behaviour, command
 
 ---
 
-
-
----
-
-## Troubleshooting Approach
-
-The troubleshooting process used in this case follows a structured support workflow:
-
-- gather information
-- check adapter and IP configuration
-- test gateway, external IP, and DNS connectivity
-- apply the solution
-- verify restored connectivity
-- document the result
-
-Related method note:
-
-- [Troubleshooting Method](diagrams/troubleshooting-method.md)
-
----
-
 ## Related Documentation
 
 - [Internal Support Note: How to Troubleshoot No Network Access](../08-internal-support-notes/how-to-troubleshoot-no-network-access.md) – quick-reference note for network access troubleshooting
