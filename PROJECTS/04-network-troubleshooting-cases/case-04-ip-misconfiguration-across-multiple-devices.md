@@ -243,7 +243,7 @@ After command-line tests confirmed restored external IP connectivity and DNS res
 
 ## DHCP Scope of This Case
 
-This case focuses on DHCP client-side troubleshooting. The DHCP server itself was not configured. The task was to restore automatic IPv4/DNS settings on Windows clients, request a new DHCP lease, and verify that each device received a valid IP address, subnet mask, default gateway, and DNS configuration.
+This case focuses on DHCP client-side troubleshooting. The DHCP server itself was not configured. The task was to remove incorrect static IPv4/DNS settings, restore automatic IPv4/DNS configuration on Windows clients, request a new DHCP lease, and verify that each device received a valid IP address, subnet mask, default gateway, and DNS configuration.
 
 ---
 
