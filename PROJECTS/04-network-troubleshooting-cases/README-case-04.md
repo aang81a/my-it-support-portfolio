@@ -6,6 +6,8 @@
 ![Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue)
 ![Tool](https://img.shields.io/badge/Tool-Command%20Prompt-black?logo=windows-terminal&logoColor=white)
 
+---
+
 ## Overview
 
 This section documents practical Windows network troubleshooting cases for first-level IT support practice.
@@ -20,9 +22,7 @@ The cases focus on common connectivity issues, IPv4 configuration, DHCP behaviou
 |---|---|
 | [Case 04 – IP Misconfiguration Across Multiple Devices](case-04-ip-misconfiguration-across-multiple-devices.md) | Wrong static IPv4/DNS configuration, DHCP restore, Ethernet vs Wi-Fi vs mobile hotspot comparison |
 
----
-
-## Future Cases
+### Future Cases
 
 The following cases are planned or kept as draft ideas:
 
@@ -46,7 +46,7 @@ The following cases are planned or kept as draft ideas:
 
 ## Troubleshooting Approach
 
-The troubleshooting process used in these cases is based on a structured support workflow:
+The troubleshooting process used in this case follows a structured support workflow:
 
 - gather information
 - check adapter and IP configuration
@@ -65,7 +65,7 @@ Related method note:
 
 - Windows network adapter configuration
 - IPv4 troubleshooting
-- DHCP restore
+- Restoring DHCP / automatic IP configuration
 - Checking IP configuration with `ipconfig`
 - Verifying connectivity with command-line tests:
   - `ping 192.168.99.1`
@@ -79,6 +79,6 @@ Related method note:
 
 ---
 
-## Notes
+## Related Documentation
 
-Related knowledge base article: [How to troubleshoot no internet](../06-knowledge-base-articles/how-to-troubleshoot-no-internet.md)
+- [Internal Support Note: How to Troubleshoot No Network Access](../08-internal-support-notes/how-to-troubleshoot-no-network-access.md)
