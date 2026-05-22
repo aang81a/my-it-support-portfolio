@@ -264,9 +264,9 @@ After restoring DHCP, the devices received valid IP configurations and connectiv
 
 | Device / Network Context | IPv4 Address | Subnet Mask | Default Gateway | Interpretation |
 |---|---:|---:|---:|---|
-| PC3 – Home Wi-Fi | 192.168.1.25 | 255.255.255.0 | 192.168.1.1 | DHCP assigned an address in the home router network range |
-| PC3 – Mobile Hotspot | 10.235.249.154 | 255.255.255.0 | 10.235.249.153 | DHCP assigned an address in the mobile hotspot network range |
-| PC2 – Ethernet | 192.168.1.110 | 255.255.255.0 | 192.168.1.1 | DHCP assigned an address in the same home LAN range |
+| PC3 – Home Wi-Fi | 192.168.1.x | 255.255.255.0 | 192.168.1.1 | DHCP assigned an address in the home router network range |
+| PC3 – Mobile Hotspot | 10.235.249.x | 255.255.255.0 | 10.235.249.153 | DHCP assigned an address in the mobile hotspot network range |
+| PC2 – Ethernet | 192.168.1.x | 255.255.255.0 | 192.168.1.1 | DHCP assigned an address in the same home LAN range |
 
 ---
 
