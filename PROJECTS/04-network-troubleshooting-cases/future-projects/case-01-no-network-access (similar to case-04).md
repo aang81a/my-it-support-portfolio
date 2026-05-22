@@ -46,7 +46,7 @@ Default Gateway . . . . . . . . . :
 - Cannot reach the router/default gateway
 - Websites do not load
 - Internal resources are not accessible
-- ipconfig shows `169.254.x.x`
+- `ipconfig` shows `169.254.x.x`
 - Default gateway is usually missing
 
 ---
