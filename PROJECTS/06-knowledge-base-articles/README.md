@@ -36,6 +36,14 @@ They reduce repeated explanations, support self-service where appropriate, and h
 
 ---
 
+## Documentation Areas
+
+- **Network and remote access:** internet troubleshooting, VPN access, network drive access
+- **Support tooling:** IT Diagnostic Tool user guidance
+- **Directory services:** domain join and domain password reset
+
+---
+
 ## Skills Demonstrated
 
 - Knowledge base writing
