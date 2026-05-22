@@ -1,10 +1,19 @@
-# Markdown Guides
+# Markdown Support Guides
+
+---
 
 ## Overview
-This section contains simple technical guides written in Markdown format to demonstrate clear support documentation and step-by-step communication.
+
+This section contains short Markdown-based support guides created to practise clear technical documentation, step-by-step instructions, and internal IT support communication.
+
+The guides are intentionally shorter than full knowledge base articles and are written as quick-reference notes for common support tasks.
+
+---
 
 ## Purpose
 Good IT support is not only about solving problems. It also requires clear documentation that helps users and support teams work more efficiently.
+
+---
 
 ## Topics Covered
 - Password reset
@@ -13,6 +22,8 @@ Good IT support is not only about solving problems. It also requires clear docum
 - Network drive mapping
 - Active Directory user creation
 
+---
+
 ## Skills Demonstrated
 - Structured documentation
 - Technical writing
@@ -20,12 +31,16 @@ Good IT support is not only about solving problems. It also requires clear docum
 - Knowledge base content creation
 - IT support communication
 
+---
+
 ## Guides
 - [How to Reset a Password](./how-to-reset-a-password.md)
 - [How to Join a PC to a Domain](./how-to-join-a-pc-to-a-domain.md)
 - [How to Troubleshoot No Network Access](./how-to-troubleshoot-no-network-access.md)
 - [How to Map a Network Drive](./how-to-map-a-network-drive.md)
 - [How to Create a User in Active Directory](./how-to-create-a-user-in-active-directory.md)
+
+---
 
 ## Notes
 
