@@ -24,8 +24,8 @@ Unlike the full knowledge base articles, these guides are not written as polishe
 
 ## Topics Covered
 
-- Password reset
-- Domain join
+- Domain password reset
+- Domain join process
 - Network troubleshooting
 - Network drive mapping
 - Active Directory user creation
@@ -37,21 +37,16 @@ Unlike the full knowledge base articles, these guides are not written as polishe
 - Structured documentation
 - Technical writing
 - Step-by-step support instructions
-- Knowledge base content creation
+- Internal support note writing
 - IT support communication
 
 ---
 
 ## Guides
 
-- [How to Reset a Password](./how-to-reset-a-domain-password.md)
+- [How to Reset a Domain Password](./how-to-reset-a-domain-password.md)
 - [How to Join a PC to a Domain](./how-to-join-a-pc-to-a-domain.md)
 - [How to Troubleshoot No Network Access](./how-to-troubleshoot-no-network-access.md)
 - [How to Map a Network Drive](./how-to-map-a-network-drive.md)
 - [How to Create a User in Active Directory](./how-to-create-a-user-in-active-directory.md)
-
----
-
-## Notes
-
 
