@@ -240,4 +240,23 @@ Example ticket note:
 User identity was verified according to support procedure. Account was locked due to failed login attempts. Password was reset, and user was required to change password at next logon. User confirmed successful sign-in. No escalation required.
 ```
 
+---
+
+## Security Notes
+
+- Never ask the user for their current password.
+- Never store passwords in tickets, emails, screenshots, or notes.
+- Verify user identity before resetting a password.
+- Use only approved password reset tools and procedures.
+- Require password change at next logon when possible.
+- Escalate suspicious or repeated account lockout issues.
+- Follow company password and identity verification policies.
+
+---
+
+## Summary
+
+Before resetting a domain password, verify the user’s identity, confirm the correct account, check the account status, and follow the approved reset process.
+
+After the reset, the user should confirm successful sign-in, and the support ticket should document the action without storing the password.
 
