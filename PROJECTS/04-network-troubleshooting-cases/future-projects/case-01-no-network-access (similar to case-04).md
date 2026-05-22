@@ -72,30 +72,41 @@ In troubleshooting, an APIPA address usually means:
 2. Check whether Wi-Fi or Ethernet is connected.
 3. Verify that the network adapter is enabled.
 4. Run:
- 
+
+ ```text
 `ipconfig`
+```
 
 5. Check whether the IPv4 address is in the APIPA range:
 
+```text
 `169.254.x.x`
-   
+```
+
 6. Check whether a default gateway is missing.
 7. Test local TCP/IP stack:
 
+```text
 `ping 127.0.0.1`
+```
 
 8. Test gateway connectivity, if a gateway exists:
 
+```text
 `ping <gateway IP>`
+```
 
 9. Test external IP connectivity:
 
+```text
 `ping 8.8.8.8`
+```
 
 10. Test DNS/name resolution:
 
+```text
 `ping google.com`
-
+```
 
 ---
 
@@ -122,7 +133,9 @@ Possible causes include:
 
 ```text
 ipconfig /release
+```
 
+```text
 ipconfig /renew
 ```
 
