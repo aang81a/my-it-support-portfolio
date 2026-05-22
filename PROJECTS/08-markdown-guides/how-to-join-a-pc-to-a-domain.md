@@ -1,4 +1,5 @@
 # How to Join a PC to a Domain
+
 ---
 
 ## Purpose
