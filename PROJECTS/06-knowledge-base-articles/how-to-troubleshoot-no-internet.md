@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blue)
 ![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
-![Topic](https://img.shields.io/badge/Topic-Network%20Troubleshooting-blue)
+![Topic](https://img.shields.io/badge/Topic-Internet%20Troubleshooting-blue)
 
 ---
 
