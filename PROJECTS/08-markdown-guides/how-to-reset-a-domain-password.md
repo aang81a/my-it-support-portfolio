@@ -1,5 +1,7 @@
 # How to Reset a Domain Password
 
+---
+
 ## Purpose
 
 This guide explains the basic process for resetting a user password in an Active Directory environment.
