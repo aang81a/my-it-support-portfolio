@@ -1,5 +1,7 @@
 # How to Map a Network Drive
 
+---
+
 ## Purpose
 
 This guide explains how to connect a shared folder as a network drive in Windows.
