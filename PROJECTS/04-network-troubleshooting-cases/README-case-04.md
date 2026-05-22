@@ -14,7 +14,7 @@ The focus is on connectivity issues, IPv4 configuration, DHCP behaviour, command
 
 ---
 
-## Cases
+## Covered Cases
 
 | Case | Topic | Status |
 |---|---|---|
@@ -22,17 +22,6 @@ The focus is on connectivity issues, IPv4 configuration, DHCP behaviour, command
 | Case 01 – No Network Access | Basic network access troubleshooting | Planned |
 | Case 02 – DNS Resolution Failure | DNS/name resolution troubleshooting | Planned |
 | Case 03 – Shared Folder Access Denied | Shared folder access and permission issue | Planned |
-
----
-
-## Scope of Cases
-
-The following issues are covered:
-
-- No network access
-- DNS resolution failure
-- Shared folder access denied
-- IP misconfiguration
 
 ---
 
