@@ -1,5 +1,9 @@
 # Markdown Support Guides
 
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Focus](https://img.shields.io/badge/Focus-Markdown%20Documentation-blue)
+![Skill](https://img.shields.io/badge/Skill-Technical%20Writing-blue)
+
 ---
 
 ## Overview
