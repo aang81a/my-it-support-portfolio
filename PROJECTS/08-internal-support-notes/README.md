@@ -1,8 +1,9 @@
 # Internal Support Quick Notes
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Focus](https://img.shields.io/badge/Focus-Internal%20IT%20Support%20Notes-blue)
 ![Skill](https://img.shields.io/badge/Skill-Technical%20Writing-blue)
+![Topic](https://img.shields.io/badge/Topic-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
 
 ---
 
