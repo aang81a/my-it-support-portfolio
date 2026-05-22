@@ -156,7 +156,6 @@ The adapter was changed back to:
 - Obtain an IP address automatically
 - Obtain DNS server address automatically
 
-
 ### PC3 – Home Wi-Fi
 
 ![PC3 home Wi-Fi DHCP restored](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-05-dhcp-restored-ipv4-settings.png)
@@ -234,9 +233,9 @@ After the network configuration was restored, the connection was tested again an
 
 ![PC2 Ethernet successful ping tests](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-09-ping-external-and-google-success.png)
 
-----
+---
 
-## Step 9: Browser Access Restored
+## Step 9: Browser Access Verification
 
 After command-line tests confirmed restored external IP connectivity and DNS resolution, a browser check was used as a final user-facing verification that internet access was working again.
 
@@ -244,7 +243,7 @@ After command-line tests confirmed restored external IP connectivity and DNS res
 
 ---
 
-## DHCP Scope of This Case
+## DHCP Scope in This Case
 
 This case focuses on DHCP client-side troubleshooting. The DHCP server itself was not configured. The task was to remove incorrect static IPv4/DNS settings, restore automatic IPv4/DNS configuration on Windows clients, request a new DHCP lease, and verify that each device received a valid IP address, subnet mask, default gateway, and DNS configuration.
 
@@ -298,7 +297,7 @@ The comparison shows that the network range can change depending on the connecti
 
 - Windows network adapter configuration
 - IPv4 troubleshooting
-- DHCP restore
+- Restoring DHCP / automatic IP configuration
 - Command Prompt diagnostics
 - Checking IP configuration with `ipconfig`
 - Verifying connectivity with command-line tests:
