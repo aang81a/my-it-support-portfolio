@@ -7,6 +7,13 @@
 
 ---
 
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Focus](https://img.shields.io/badge/Focus-User%20Support%20Documentation-blue)
+![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)
+![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
+
+---
+
 ## Overview
 
 This folder contains knowledge base articles for common IT troubleshooting situations, including user-facing guides for non-technical users and internal support notes for IT support tasks.
