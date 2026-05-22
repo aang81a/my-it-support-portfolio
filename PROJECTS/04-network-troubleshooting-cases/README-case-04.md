@@ -25,15 +25,7 @@ The focus is on connectivity issues, IPv4 configuration, DHCP behaviour, command
 
 ---
 
-## Tools and Settings Used
 
-- Windows Network Connections (`ncpa.cpl`)
-- Command Prompt (`cmd`)
-- Network adapter IPv4 settings
-- DHCP-enabled home router network
-- DHCP-enabled mobile hotspot network
-- Ethernet connection
-- Wi-Fi connection
 
 ---
 
@@ -54,24 +46,24 @@ Related method note:
 
 ---
 
-## Skills Demonstrated
+## Related Documentation
 
-- Windows network adapter configuration
-- IPv4 troubleshooting
-- Restoring DHCP / automatic IP configuration
-- Checking IP configuration with `ipconfig`
-- Verifying connectivity with command-line tests:
-  - `ping 192.168.99.1`
-  - `ping 8.8.8.8`
-  - `ping google.com`
-- Releasing and renewing network configuration:
-  - `ipconfig /release`
-  - `ipconfig /renew`
-- Comparing Ethernet, home Wi-Fi, and mobile hotspot behaviour
-- Documenting a structured network troubleshooting workflow
+- [Internal Support Note: How to Troubleshoot No Network Access](../08-internal-support-notes/how-to-troubleshoot-no-network-access.md) – quick-reference note for network access troubleshooting
 
 ---
 
-## Related Documentation
+## Notes
 
-- [Internal Support Note: How to Troubleshoot No Network Access](../08-internal-support-notes/how-to-troubleshoot-no-network-access.md)
+#### Case Documentation Structure
+
+Each troubleshooting case is documented with a clear structure:
+
+- **Problem** – issue reported or simulated
+- **Environment** – device, operating system, adapter, and network context
+- **Diagnosis Steps** – checks and commands used during troubleshooting
+- **Root Cause** – identified reason for the issue
+- **Solution** – action taken to resolve the problem
+- **Result** – verification after applying the fix
+- **Screenshots** – visual evidence where relevant
+- **Lessons Learned** – key takeaways from the case
+
