@@ -1,5 +1,7 @@
 # How to Troubleshoot No Network Access
 
+---
+
 ## Purpose
 
 This guide explains basic checks when a user reports no network access.
