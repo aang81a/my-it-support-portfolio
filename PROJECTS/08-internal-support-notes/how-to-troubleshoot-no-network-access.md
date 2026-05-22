@@ -1,4 +1,5 @@
 # How to Troubleshoot No Network Access
+![Topic](https://img.shields.io/badge/Topic-Windows%20Networking-blue)
 
 ---
 
