@@ -1,5 +1,5 @@
 # How to Map a Network Drive
-![Topic](https://img.shields.io/badge/Topic-Windows%20Networking-blue)
+![Topic](https://img.shields.io/badge/Topic-Network%20Drive%20Access-blue)
 
 ---
 
