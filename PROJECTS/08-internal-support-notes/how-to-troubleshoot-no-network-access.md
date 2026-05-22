@@ -88,4 +88,6 @@ Document only support-relevant information:
 - actions already taken
 - whether escalation was required
 
-Include relevant command results if useful, but do not document unnecessary private information.
+Include relevant test results if they help explain the issue, such as IP configuration, gateway ping, external IP ping, or DNS/name resolution results.
+
+Do not document unnecessary private information such as usernames, personal device names, Wi-Fi names, public IP addresses, global IPv6 addresses, or private file paths.
