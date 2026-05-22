@@ -23,7 +23,6 @@ The focus is on connectivity issues, IPv4 configuration, DHCP behaviour, command
 | Case 02 – DNS Resolution Failure | DNS/name resolution troubleshooting | Planned |
 | Case 03 – Shared Folder Access Denied | Shared folder access and permission issue | Planned |
 
-
 ---
 
 ## Tools and Settings Used
