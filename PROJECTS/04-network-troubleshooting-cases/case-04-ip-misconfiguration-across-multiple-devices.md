@@ -1,16 +1,9 @@
 # Case 04 – IP Misconfiguration Across Multiple Devices
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Focus](https://img.shields.io/badge/Focus-Network%20Troubleshooting-blue)
-![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
+![Case](https://img.shields.io/badge/Case-IP%20Misconfiguration-blue)
 ![Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue)
 ![Tool](https://img.shields.io/badge/Tool-Command%20Prompt-black?logo=windows-terminal&logoColor=white)
-
----
-
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Focus](https://img.shields.io/badge/Focus-Network%20Troubleshooting-blue)
-![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
 
 ---
 
