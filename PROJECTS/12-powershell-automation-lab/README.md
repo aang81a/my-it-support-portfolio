@@ -147,7 +147,7 @@ The main screenshots below show the project concept, local testing, and final va
 
 ### Script Overview
 
-![Script overview](screenshots/01-script-overview.png)
+![Script overview](screenshots/ts-24-basedirectory-final.png)
 
 ### Final Success Validation
 
