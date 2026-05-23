@@ -159,7 +159,7 @@ The main screenshots below show the project concept, local testing, and final va
 
 ### Security Check: No McAfee Entry
 
-![Security check no McAfee](screenshots/06-security-check-no-mcafee.png)
+![Security check no McAfee](screenshots/ts-21-no-mcafee-final-check.png)
 
 More process screenshots are documented in the [Troubleshooting Log](troubleshooting-log.md).
 
