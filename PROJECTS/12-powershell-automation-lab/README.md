@@ -155,7 +155,7 @@ The main screenshots below show the project concept, local testing, and final va
 
 ### Second Computer Validation
 
-![Second computer validation](screenshots/05-second-computer-validation.png)
+![Second computer validation](screenshots/ts-28-second-computer-success.png)
 
 ### Security Check: No McAfee Entry
 
