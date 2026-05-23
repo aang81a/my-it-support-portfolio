@@ -143,30 +143,6 @@ The generated report contains fields such as:
 
 ## 📸 Screenshots
 
-The main screenshots below show the project concept, local testing, and final validation results.
-
-### Script Overview
-
-![Script overview](screenshots/ts-24-basedirectory-final.png)
-
-### Final Success Validation
-
-![Final success validation](screenshots/ts-25-final-success-validation.png)
-
-### Second Computer Validation
-
-![Second computer validation](screenshots/ts-28-second-computer-success.png)
-
-### Security Check: No McAfee Entry
-
-![Security check no McAfee](screenshots/ts-21-no-mcafee-final-check.png)
-
-More process screenshots are documented in the [Troubleshooting Log](troubleshooting-log.md).
-
----
-
-## 📸 Screenshots
-
 The main screenshots below show the user-friendly workflow, final validation, and second-computer test.
 
 ### One-Click Desktop Shortcut Test
