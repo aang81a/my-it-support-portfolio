@@ -78,42 +78,14 @@ The following commands were used during local testing to install PS2EXE and comp
 
 ----
 
-### ⚙️ Compilation Commands Used
-
-The following commands were used during local testing to install PS2EXE and compile the PowerShell script into an executable file.
-
-1. **Install PS2EXE for the current user:**
-
-```powershell
-Install-Module -Name ps2exe -Scope CurrentUser -Force -AllowClobber -Verbose
-```
-
-**Install the compilation module framework globally:**
-
-```powershell
-Install-Module -Name ps2exe -Force
-```
-
-- *it tries to install PS2EXE in the default PowerShell module scope. Depending on the system, that can require administrator rights or write to a system-wide module location.*
-
-2. **Install the compilation module scoped to the active user profile to avoid needing admin rights for a global installation:**
-```powershell
-Install-Module -Name ps2exe -Scope CurrentUser -Force -AllowClobber -Verbose
-```
-
-- *installs PS2EXE only for the current Windows user. That is usually safer for a portfolio/lab environment because it avoids needing admin rights for a global installation.* / **keep this one**
-
-3. **Verify that the module is available:**
-```powershell
-Get-Module -Name ps2exe
-```
-
-4. **Compile the PowerShell script into an executable file:**
-```powershell
-*Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe -title "IT Support Diagnostic Tool" -iconFile .\icon.ico*
-
+| Step | Purpose | Command |
+|---:|---|---|
+| 1 | Install PS2EXE for the current user | `Install-Module -Name ps2exe -Scope CurrentUser -Force -AllowClobber -Verbose` |
+| 2 | Verify that the module is available | `Get-Module -Name ps2exe` |
+| 3 | Compile the PowerShell script into an executable file | ```powershell
 Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe
-```
+``` |
+
 
 **Result:**  
 This issue proved that converting a script into an executable file requires separate testing. Code syntax errors can behave differently or cause sudden crashes when the tool is run as an `.exe` file rather than inside the standard PowerShell console.
