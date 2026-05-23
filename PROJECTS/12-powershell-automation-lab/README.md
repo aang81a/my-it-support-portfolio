@@ -147,23 +147,23 @@ The main screenshots below show the user-friendly workflow, final validation, an
 
 ### One-Click Desktop Shortcut Test
 
-![One-click desktop shortcut success](screenshots/ts-16-one-click-desktop-shortcut-success.png)
+<img src="screenshots/ts-16-one-click-desktop-shortcut-success.png" alt="One-click desktop shortcut success" width="650">
 
 ### Final Path Handling
 
-![Final path handling](screenshots/ts-24-basedirectory-final.png)
+<img src="screenshots/ts-24-basedirectory-final.png" alt="Final path handling" width="650">
 
 ### Final Success Validation
 
-![Final success validation](screenshots/ts-25-final-success-validation.png)
+<img src="screenshots/ts-25-final-success-validation.png" alt="Final success validation" width="650">
 
 ### Security Check: No McAfee Entry
 
-![Security check no McAfee](screenshots/ts-21-no-mcafee-final-check.png)
+<img src="screenshots/ts-21-no-mcafee-final-check.png" alt="Security check no McAfee" width="650">
 
 ### Second Computer Validation
 
-![Second computer validation](screenshots/ts-28-second-computer-success.png)
+<img src="screenshots/ts-28-second-computer-success.png" alt="Second computer validation" width="650">
 
 More process screenshots are documented in the [Troubleshooting Log](troubleshooting-log.md).
 
