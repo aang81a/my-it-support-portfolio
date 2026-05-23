@@ -151,7 +151,7 @@ The main screenshots below show the project concept, local testing, and final va
 
 ### Final Success Validation
 
-![Final success validation](screenshots/04-final-success-validation.png)
+![Final success validation](screenshots/ts-25-final-success-validation.png)
 
 ### Second Computer Validation
 
