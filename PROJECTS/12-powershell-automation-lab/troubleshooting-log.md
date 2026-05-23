@@ -66,32 +66,81 @@ Converting the interpreted script structure into a managed binary executable exp
 | 9 | `ts-09-exe-syntax-error.png` | The compiled executable encountered an unhandled parsing exception post-initialization, causing an immediate crash. |
 
 
-### ⚙️ Environment Compilation Commands
+### ⚙️ Compilation Commands Used - **best to keep**
 
-The following environment commands were executed within the PowerShell console session to manage, verify, and compile the application framework:
+The following commands were used during local testing to install PS2EXE and compile the PowerShell script into an executable file.
 
-1. **Install the compilation module framework globally:**
+| Step | Purpose | Command |
+|---:|---|---|
+| 1 | Install PS2EXE for the current user | `Install-Module -Name ps2exe -Scope CurrentUser -Force -AllowClobber -Verbose` |
+| 2 | Verify that the module is available | `Get-Module -Name ps2exe` |
+| 3 | Compile the PowerShell script into an executable file | `Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe` |
+
+----
+
+### ⚙️ Compilation Commands Used
+
+The following commands were used during local testing to install PS2EXE and compile the PowerShell script into an executable file.
+
+1. **Install PS2EXE for the current user:**
+
+```powershell
+Install-Module -Name ps2exe -Scope CurrentUser -Force -AllowClobber -Verbose
+```
+
+**Install the compilation module framework globally:**
+
 ```powershell
 Install-Module -Name ps2exe -Force
 ```
+
+- *it tries to install PS2EXE in the default PowerShell module scope. Depending on the system, that can require administrator rights or write to a system-wide module location.*
 
 2. **Install the compilation module scoped to the active user profile to avoid needing admin rights for a global installation:**
 ```powershell
 Install-Module -Name ps2exe -Scope CurrentUser -Force -AllowClobber -Verbose
 ```
 
-3. **Verify that the module is available in the active session:**
+- *installs PS2EXE only for the current Windows user. That is usually safer for a portfolio/lab environment because it avoids needing admin rights for a global installation.* / **keep this one**
+
+3. **Verify that the module is available:**
 ```powershell
 Get-Module -Name ps2exe
 ```
 
-4. **Compile the raw code script into the destination executable binary package:**
+4. **Compile the PowerShell script into an executable file:**
 ```powershell
-Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe -title "IT Support Diagnostic Tool" -iconFile .\icon.ico
+*Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe -title "IT Support Diagnostic Tool" -iconFile .\icon.ico*
+
+Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe
 ```
 
 **Result:**  
 This issue proved that converting a script into an executable file requires separate testing. Code syntax errors can behave differently or cause sudden crashes when the tool is run as an `.exe` file rather than inside the standard PowerShell console.
+
+---
+
+### ⚙️ Compilation Commands Used **FINAL**
+
+The following commands were used during local testing to install PS2EXE and compile the PowerShell script into an executable file.
+
+1. **Install PS2EXE for the current user:**
+
+```powershell
+Install-Module -Name ps2exe -Scope CurrentUser -Force -AllowClobber -Verbose
+```
+
+2. Verify that the module is available:
+
+```powershell
+Get-Module -Name ps2exe
+```
+3. Compile the PowerShell script into an executable file:
+
+```powershell
+Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe
+```
+
 
 ---
 
@@ -140,7 +189,17 @@ Evaluated graphical execution configurations to verify that end-user interaction
 
 ### 2.7 Antivirus / SecurityCenter2 Verification
 
-Conducted targeted directory scrubbing to resolve the orphan metadata components observed during the evaluation phase in Section 2.4.
+The report showed a stale McAfee entry from an old installation. The issue was investigated using Windows antivirus reporting queries and vendor cleanup/removal steps. 
+
+The following commands were used to compare the report output with what Windows reported about antivirus products.
+
+```cmd
+wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName
+```
+
+Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Select-Object displayName
+
+The stale McAfee entry was investigated using Windows antivirus reporting queries and vendor cleanup/removal steps. After cleanup and verification, the final report no longer showed the old entry.
 
 ### ⚙️ Administrative WMI Query & Cleanup Strings
 
@@ -156,10 +215,30 @@ wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName
 Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Where-Object { $_.displayName -like "*McAfee*" }
 ```
 
-3. **Purge the corrupted, orphaned registration record from the system namespace cache to restore output integrity:**
+
 ```powershell
-Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Where-Object { $_.displayName -like "*McAfee*" } | Remove-CimInstance
+The stale McAfee entry was investigated using Windows antivirus reporting queries and vendor cleanup/removal steps. After cleanup and verification, the final report no longer showed the old entry.
 ```
+If no -title and -iconFile was used, write just this:
+
+```powershell
+Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe
+```
+
+---
+
+### ⚙️ Antivirus Verification Commands Used - **best to keep**
+
+The following commands were used to compare the report output with what Windows reported about antivirus products.
+
+| Step | Purpose | Command |
+|---:|---|---|
+| 1 | Check antivirus products reported by Windows using CMD | `wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName` |
+| 2 | Check antivirus products reported by Windows using PowerShell | `Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Select-Object displayName` |
+
+The stale McAfee entry was investigated using Windows antivirus reporting queries and vendor cleanup/removal steps. After cleanup and verification, the final report no longer showed the old entry.
+
+---
 
 
 | Step | Screenshot | Technical Observation |
@@ -172,7 +251,7 @@ Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Wh
 | 22 | `ts-22-no-mcafee-final-report.png` | Confirmed that the output text document no longer included the obsolete security entries. |
 
 **Result:**  
-Instead of making assumptions about the output, the underlying antimalware registration records were investigated directly within the Windows Management Instrumentation (WMI) environment. Once the system clutter was resolved, the final report no longer showed the stale McAfee entry.
+The stale antivirus entry was verified instead of assumed. After cleanup and repeated checks, the final report no longer showed the old McAfee entry.
 
 ---
 
