@@ -165,6 +165,34 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 
 ---
 
+## 📸 Screenshots
+
+The main screenshots below show the user-friendly workflow, final validation, and second-computer test.
+
+### One-Click Desktop Shortcut Test
+
+![One-click desktop shortcut success](screenshots/ts-16-one-click-desktop-shortcut-success.png)
+
+### Final Path Handling
+
+![Final path handling](screenshots/ts-24-basedirectory-final.png)
+
+### Final Success Validation
+
+![Final success validation](screenshots/ts-25-final-success-validation.png)
+
+### Security Check: No McAfee Entry
+
+![Security check no McAfee](screenshots/ts-21-no-mcafee-final-check.png)
+
+### Second Computer Validation
+
+![Second computer validation](screenshots/ts-28-second-computer-success.png)
+
+More process screenshots are documented in the [Troubleshooting Log](troubleshooting-log.md).
+
+---
+
 ## 🧠 Technical Skills Demonstrated
 
 - **Automation thinking:** used PowerShell to reduce repetitive manual collection of support-relevant system details.
