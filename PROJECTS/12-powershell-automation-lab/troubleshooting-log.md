@@ -16,7 +16,7 @@ The purpose of this log is to demonstrate how the utility evolved from a baselin
 | **WMI Data Validation** | System metadata reports generated an obsolete, stale McAfee antivirus registration entry from an old installation. | Purged orphaned security infrastructure tracking records from the local operating system to restore data integrity. |
 | **Output Buffer Handling** | The tool generated a valid file structure, but the configuration data stream failed to write into the text report. | Restructured the variable output pipeline using explicit data casting (`Out-String`) to eliminate empty log file bugs. |
 | **Deployment Scenario** | Validated the utility across varied desktop launching profiles to ensure seamless execution paths for non-technical users. | Confirmed uniform file creation whether executed directly or launched via a standard desktop shortcut link. |
-| **Multi-Host Validation** | Needed to verify script execution reliability and output accuracy outside of the primary development workstation. | Conducted environment-agnostic validation testing across secondary and tertiary Windows hosts. |
+| **Multi-Host Validation** | Needed to verify script execution reliability and output accuracy outside of the primary development workstation. | Validated the tool on a second Windows computer. |
 
 ---
 
@@ -153,12 +153,12 @@ wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName
 
 2. **Isolate and confirm the specific status of the orphan antimalware component registry:**
 ```powershell
-Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Where-Object { \$_.displayName -like "*McAfee*" }
+Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Where-Object { $_.displayName -like "*McAfee*" }
 ```
 
 3. **Purge the corrupted, orphaned registration record from the system namespace cache to restore output integrity:**
 ```powershell
-Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Where-Object { \$_.displayName -like "*McAfee*" } | Remove-CimInstance
+Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Where-Object { $_.displayName -like "*McAfee*" } | Remove-CimInstance
 ```
 
 
@@ -172,7 +172,7 @@ Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Wh
 | 22 | `ts-22-no-mcafee-final-report.png` | Confirmed that the output text document no longer included the obsolete security entries. |
 
 **Result:**  
-Instead of making assumptions about the output, the underlying antimalware registration records were investigated directly within the Windows Management Instrumentation (WMI) environment. Once the system clutter was resolved, the final report correctly reflected the actual security status of the machine.
+Instead of making assumptions about the output, the underlying antimalware registration records were investigated directly within the Windows Management Instrumentation (WMI) environment. Once the system clutter was resolved, the final report no longer showed the stale McAfee entry.
 
 ---
 
@@ -217,7 +217,7 @@ To guarantee deployment resilience and cross-device stability, the finalized too
 | 28 | `ts-28-second-computer-success.png` | Successfully executed the binary on the second computer, generating a flawless, accurate log output. |
 
 **Result:**  
-Cross-device testing successfully validated that the utility is completely stable, environment-agnostic, and ready for deployment.
+The workflow was successfully validated on a second Windows system.  
 
 ---
 
@@ -240,7 +240,7 @@ For this reason, the public GitHub version provides the readable PowerShell scri
 | Executable testing is necessary | Standalone binaries can close instantly upon completion, requiring a `Pause` step to keep the window open so the user can read the success message. |
 | Report content must be verified | Document generation requires verification; creating an empty file structure is insufficient without validating the underlying data stream write behaviors. |
 | Antivirus data should be verified | Outdated database entries can remain inside operating system tracking namespaces, requiring explicit verification loops to ensure data accuracy. |
-| Public artifacts should be transparent | Open-source code blocks maximize trust for portfolio deployment, removing the security concerns associated with running unknown binary downloads. |
+| Public artifacts should be transparent | Readable source code improves transparency and trust compared with publishing an unsigned executable. | 
 | Documentation is part of support quality | README, SOP, KBA, changelog, sample output, and troubleshooting notes make the project more useful and professional. |
 
 
