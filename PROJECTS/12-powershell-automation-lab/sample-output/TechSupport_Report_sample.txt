@@ -4,9 +4,9 @@ IT SUPPORT DIAGNOSTIC REPORT
 Date/Time:        2026-mm-dd_hh-mm-ss
 Computer Name:    PC2-SAMPLE
 Current User:     sample.user
-IP Address:       192.168.1.100
+IP Address:       192.168.x.xxx
 Serial Number:    5XXXXXXX
 Windows Ver:      Windows 10 Pro
-Last Reboot:      mm/dd/2026 18:16:32
+Last Reboot:      mm/dd/2026 hh:mm:ss
 Antivirus:        Malwarebytes, Windows Defender
 ------------------------------------------------
