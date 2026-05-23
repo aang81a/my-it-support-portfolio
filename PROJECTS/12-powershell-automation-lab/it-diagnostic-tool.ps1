@@ -1,7 +1,7 @@
 # ==========================================================
-# Script: it-diagnostic-tool.ps1
-# Version: 1.1.0 (2026-05-11)
-# Purpose: L1 Support Diagnostic Utility
+# Script: client-diagnostic.ps1
+# Version: 1.1.0 (2026-mm-dd)
+# Purpose: IT Diagnostic Tool
 # ==========================================================
 
 Write-Host "Gathering System Information... Please wait." -ForegroundColor Cyan
