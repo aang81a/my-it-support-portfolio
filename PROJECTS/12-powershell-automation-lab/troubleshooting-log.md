@@ -78,20 +78,6 @@ The following commands were used during local testing to install PS2EXE and comp
 
 ----
 
-| Step | Purpose | Command |
-|---:|---|---|
-| 1 | Install PS2EXE for the current user | `Install-Module -Name ps2exe -Scope CurrentUser -Force -AllowClobber -Verbose` |
-| 2 | Verify that the module is available | `Get-Module -Name ps2exe` |
-| 3 | Compile the PowerShell script into an executable file | ```powershell
-Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe
-``` |
-
-
-**Result:**  
-This issue proved that converting a script into an executable file requires separate testing. Code syntax errors can behave differently or cause sudden crashes when the tool is run as an `.exe` file rather than inside the standard PowerShell console.
-
----
-
 ### ⚙️ Compilation Commands Used **FINAL**
 
 The following commands were used during local testing to install PS2EXE and compile the PowerShell script into an executable file.
@@ -113,6 +99,8 @@ Get-Module -Name ps2exe
 Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe
 ```
 
+**Result:**  
+This issue proved that converting a script into an executable file requires separate testing. Code syntax errors can behave differently or cause sudden crashes when the tool is run as an `.exe` file rather than inside the standard PowerShell console.
 
 ---
 
