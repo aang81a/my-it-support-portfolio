@@ -29,12 +29,16 @@ The first operational challenge involved stabilizing the report output location.
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 1 | [`ts-01-static-desktop-path.png`](screenshots/ts-01-static-desktop-path.png) | Implemented an early hardcoded link pointing toward standard system Desktop environments. |
+| 1 | [`ts-01-static-desktop-path.png`](screenshots/ts-01-static-desktop-path.png) <img src="screenshots/ts-01-static-desktop-path.png" alt="Static desktop path" width="650"> | Implemented an early hardcoded link pointing toward standard system Desktop environments. |
 | 2 | [`ts-02-active-desktop-path-test.png`](screenshots/ts-02-active-desktop-path-test.png) | Executed live tests to verify directory write paths and evaluate structural access behaviors. |
 | 3 | [`ts-03-onedrive-desktop-path-check.png`](screenshots/ts-03-onedrive-desktop-path-check.png) | Investigated active OneDrive profile-redirection mapping local folders to cloud-synced directories. |
 | 4 | [`ts-04-report-not-visible.png`](screenshots/ts-04-report-not-visible.png) | Confirmed the report was successfully generated, but it saved to the cloud-linked OneDrive directory instead of the local machine Desktop. |
 | 5 | [`ts-05-report-visible-after-path-change.png`](screenshots/ts-05-report-visible-after-path-change.png) | Adjusted the path variables manually to force the report file to appear in the expected local folder layout. |
 | 6 | [`ts-06-report-invisible-again.png`](screenshots/ts-06-report-invisible-again.png) | Witnessed the file redirecting back to the cloud directory on subsequent runs, proving that profile-based Desktop paths are not reliable. |
+
+<img src="screenshots/ts-01-static-desktop-path.png" alt="Static desktop path" width="650">
+
+<img src="screenshots/ts-02-active-desktop-path-test.png" alt="Active desktop path test" width="650">
 
 **Result:**  
 The output strategy needed to avoid depending entirely on local user profile directories. This established the requirement to lock file generation strictly to the application's runtime directory rather than the desktop folder layout.
@@ -203,23 +207,20 @@ The workflow was successfully validated on a second Windows system.
 
 ---
 
-## 3. Final Public Decision
+## 3. Practical Notes for Future Use
 
-The local executable workflow was useful for testing a user-friendly process. A non-technical user should not need to open PowerShell manually during a normal support request.
+- When testing a PowerShell script as an executable, verify the `.exe` separately from the raw `.ps1` script. A script can behave differently after packaging.
 
-However, unsigned executables can trigger antivirus, heuristic, or SmartScreen warnings, especially when they collect system and network information.
+- Keep a visible completion step, such as `Pause`, if the tool is intended to be run by a user through a one-click executable. This gives the user time to read the success message and see where the report was saved.
 
-For this reason, the public GitHub version provides the readable PowerShell script (`it-diagnostic-tool.ps1`) instead of publishing the unsigned executable (`IT-Diagnostic-Tool.exe`).
+- Avoid relying only on Desktop paths for report output. Desktop / OneDrive redirection can make the file location confusing, so saving the report next to the executable was more reliable in this project.
+
+- If antivirus information appears unexpected, compare the report output with what Windows reports and with the actual security tools installed on the device. Old antivirus entries can remain visible after previous installations.
 
 ---
 
-## 4. Key Lessons Learned
+## 4. Final Public Decision
 
-| Lesson | Explanation |
-|---|---|
-| Output location matters | Desktop / OneDrive redirection can misplace files, so the tool was configured to save the report locally in the executable's directory (`BaseDirectory` tracking), even when launched via a desktop shortcut. |
-| Executable testing is necessary | Standalone binaries can close instantly upon completion, requiring a `Pause` step to keep the window open so the user can read the success message. |
-| Report content must be verified | Document generation requires verification; creating an empty file structure is insufficient without validating the underlying data stream write behaviors. |
-| Antivirus data should be verified | Old antivirus entries can remain visible in Windows antivirus reporting, so the report output should be compared with the actual security tools installed on the device. |
-| Public artifacts should be transparent | Readable source code improves transparency and trust compared with publishing an unsigned executable. |
-| Documentation is part of support quality | README, SOP, KBA, changelog, sample output, and troubleshooting notes make the project more useful and professional. |
+The executable workflow was tested locally to validate a user-friendly support process.
+
+Because unsigned executables can trigger antivirus, heuristic, or SmartScreen warnings, the public GitHub version provides the readable PowerShell script (`it-diagnostic-tool.ps1`) instead of the unsigned executable (`IT-Diagnostic-Tool.exe`).
