@@ -89,8 +89,6 @@ During testing, the generated report showed a McAfee entry from an old installat
 |---:|---|---|
 | 10 | [`ts-10-antivirus-output-shows-mcafee.png`](screenshots/ts-10-antivirus-output-shows-mcafee.png) <img src="screenshots/ts-10-antivirus-output-shows-mcafee.png" alt="Report output showing stale McAfee entry" width="350"> | The configuration log flagged a legacy, non-existent McAfee installation alongside active baseline system protections. |
 
-<img src="screenshots/ts-10-antivirus-output-shows-mcafee.png" alt="Second computer successful validation" width="650">
-
 **Result:**  
 This anomaly triggered an investigation into how local security information maps are registered inside the operating system.
 
