@@ -3,7 +3,7 @@
 
 This document chronicles the sequential testing phases and technical challenges encountered during the development of the IT-Diagnostic-Tool project.
 
-The purpose of this log is to demonstrate how the utility evolved from a baseline configuration script into a fully validated, user-friendly desktop workflow, capturing how deployment obstacles like directory redirection, script syntax restrictions, empty data streams, and stale system tracking records were systematically isolated and resolved.
+The purpose of this log is to show how the utility evolved from a baseline configuration script into a tested, fully validated, user-friendly desktop workflow, capturing how issues such as Desktop path ambiguity, script syntax errors, empty report output, and stale antivirus entries were isolated and resolved.
 
 ---
 
@@ -18,6 +18,21 @@ The purpose of this log is to demonstrate how the utility evolved from a baselin
 | **Output Buffer Handling** | The tool generated a valid file structure, but the configuration data stream failed to write into the text report. | Restructured the variable output pipeline using explicit data casting (`Out-String`) to eliminate empty log file bugs. |
 | **Deployment Scenario** | Validated the utility across varied desktop launching profiles to ensure seamless execution paths for non-technical users. | Confirmed uniform file creation whether executed directly or launched via a standard desktop shortcut link. |
 | **Multi-Host Validation** | Needed to verify script execution reliability and output accuracy outside of the primary development workstation. | Validated the tool on a second Windows computer. |
+
+
+## 1. Troubleshooting Summary
+
+| Functional Area | Technical Issue | Operational Outcome |
+|---|---|---|
+| **Desktop Output Path** | Saving directly to Desktop created location ambiguity in a Windows/OneDrive setup. | The output strategy was later changed so the report is saved next to the executable. |
+| **Rebuild Preparation** | The `.ps1` script was revised, so the previous `.exe` no longer represented the current script version. | The previous executable was removed before compiling a new executable version. |
+| **Executable Packaging** | The compiled executable exposed a syntax/quoting issue during testing. | The script was corrected and the executable workflow was tested again. |
+| **Output Writing** | The report file was created, but the report content was empty during one test phase. | Output stream handling was adjusted using `Out-String` and explicit UTF-8 encoding. |
+| **One-Click Workflow** | The workflow needed to be tested both directly and through a desktop shortcut. | The executable workflow was validated with and without a desktop shortcut. |
+| **Antivirus Verification** | The report showed a stale McAfee entry from an old installation. | Windows antivirus reporting checks and vendor cleanup/removal steps were used, then the final report was verified again. |
+| **Final Output Path** | A later null path issue appeared during executable testing. | `BaseDirectory` was used so the report is saved next to the running executable. |
+| **Local Final Validation** | The final local version needed to confirm full report generation. | The final executable generated the expected report output. |
+| **Second Computer Validation** | The tool needed to be tested outside the original laptop environment. | The workflow was validated on a second Windows computer. |
 
 ---
 
@@ -109,26 +124,25 @@ Evaluated graphical execution configurations to verify that end-user interaction
 
 ### 2.6 Antivirus Output and Verification
 
-The stale McAfee entry first appeared during report testing. For readability, the initial finding and the later verification steps are documented together in this section.
+A stale McAfee entry appeared during report testing. For readability, the initial finding and the later verification steps are documented together in this section.
 
 During testing, the generated report showed a McAfee entry from an old installation, even though McAfee was no longer actively installed.
 
-| Step | Screenshot | Technical Observation |
-|---:|---|---|
-| 10 | [`ts-10-antivirus-output-shows-mcafee.png`](screenshots/ts-10-antivirus-output-shows-mcafee.png)<br><img src="screenshots/ts-10-antivirus-output-shows-mcafee.png" alt="Report output showing stale McAfee entry" width="350"> | The configuration log flagged a legacy, non-existent McAfee installation alongside active baseline system protections. |
+This anomaly triggered an investigation into how local security information maps are registered inside the operating system. 
 
-**Result:**  
-This anomaly triggered an investigation into how local security information maps are registered inside the operating system.
+The stale antivirus entry was verified instead of assumed.
 
-
-The stale McAfee entry was investigated using Windows antivirus reporting queries and vendor cleanup/removal steps. After cleanup and verification, the final report no longer showed the old entry.
+The stale McAfee entry was investigated using Windows antivirus reporting queries and vendor cleanup/removal steps. 
 
 The following commands were used to compare the report output with what Windows reported about antivirus products.
 
 | Step | Purpose | Command |
 |---:|---|---|
+| 10 | [`ts-10-antivirus-output-shows-mcafee.png`](screenshots/ts-10-antivirus-output-shows-mcafee.png)<br><img src="screenshots/ts-10-antivirus-output-shows-mcafee.png" alt="Report output showing stale McAfee entry" width="350"> | The configuration log flagged a legacy, non-existent McAfee installation alongside active baseline system protections. |
 | 1 | Check antivirus products reported by Windows using CMD | `wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName` |
 | 2 | Check antivirus products reported by Windows using PowerShell | `Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct \| Select-Object displayName` | 
+
+To check: two commands, describing and correspond to Step 18. or 19. and 20., as here written, but the screenshot must be checked.
 
 
 | Step | Screenshot | Technical Observation |
@@ -139,9 +153,10 @@ The following commands were used to compare the report output with what Windows 
 | 20 | [`ts-20-mcafee-removed-cmd-check.png`](screenshots/ts-20-mcafee-removed-cmd-check.png)<br><img src="screenshots/ts-20-mcafee-removed-cmd-check.png" alt="Command check after McAfee cleanup" width="350"> | Checked again after vendor cleanup/removal steps to verify whether the old McAfee entry was still reported. |
 | 21 | [`ts-21-no-mcafee-final-check.png`](screenshots/ts-21-no-mcafee-final-check.png)<br><img src="screenshots/ts-21-no-mcafee-final-check.png" alt="Final antivirus check without McAfee entry" width="350"> | Confirmed that the old McAfee entry no longer appeared in the antivirus check. |
 | 22 | [`ts-22-no-mcafee-final-report.png`](screenshots/ts-22-no-mcafee-final-report.png)<br><img src="screenshots/ts-22-no-mcafee-final-report.png" alt="Final report without stale McAfee entry" width="350"> | Confirmed that the final generated report no longer included the stale McAfee entry. |
+| Step | Screenshot | Technical Observation |
 
-**Result:**  
-The stale antivirus entry was verified instead of assumed. After cleanup and repeated checks, the final report no longer showed the old McAfee entry.
+**Result:**   
+After cleanup and repeated checks, the final report no longer showed the old McAfee entry.
 
 ---
 
