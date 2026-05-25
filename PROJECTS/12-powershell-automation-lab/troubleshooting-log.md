@@ -151,6 +151,18 @@ The following commands were used to compare the report output with what Windows 
 | 21 | [`ts-21-no-mcafee-final-check.png`](screenshots/ts-21-no-mcafee-final-check.png) | Confirmed that the old McAfee entry no longer appeared in the antivirus check. |
 | 22 | [`ts-22-no-mcafee-final-report.png`](screenshots/ts-22-no-mcafee-final-report.png) | Confirmed that the final generated report no longer included the stale McAfee entry. |
 
+<img src="screenshots/ts-17-antivirus-check-before.png" alt="Antivirus check before cleanup verification" width="420">
+
+<img src="screenshots/ts-18-mcafee-present-after-restart.png" alt="McAfee entry still visible after restart check" width="420">
+
+<img src="screenshots/ts-19-mcafee-wmi-details.png" alt="Antivirus reporting details in SecurityCenter2" width="420">
+
+<img src="screenshots/ts-20-mcafee-removed-cmd-check.png" alt="Command check after McAfee cleanup" width="420">
+
+<img src="screenshots/ts-21-no-mcafee-final-check.png" alt="Final antivirus check without McAfee entry" width="420">
+
+<img src="screenshots/ts-22-no-mcafee-final-report.png" alt="Final report without stale McAfee entry" width="420">
+
 
 **Result:**  
 The stale antivirus entry was verified instead of assumed. After cleanup and repeated checks, the final report no longer showed the old McAfee entry.
