@@ -29,12 +29,12 @@ The first operational challenge involved stabilizing the report output location.
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 1 | [`ts-01-static-desktop-path.png`](screenshots/ts-01-static-desktop-path.png) <img src="screenshots/ts-01-static-desktop-path.png" alt="Static desktop path" width="300"> | Implemented an early hardcoded link pointing toward standard system Desktop environments. |
-| 2 | [`ts-02-active-desktop-path-test.png`](screenshots/ts-02-active-desktop-path-test.png) | Executed live tests to verify directory write paths and evaluate structural access behaviors. |
-| 3 | [`ts-03-onedrive-desktop-path-check.png`](screenshots/ts-03-onedrive-desktop-path-check.png) | Investigated active OneDrive profile-redirection mapping local folders to cloud-synced directories. |
-| 4 | [`ts-04-report-not-visible.png`](screenshots/ts-04-report-not-visible.png) | Confirmed the report was successfully generated, but it saved to the cloud-linked OneDrive directory instead of the local machine Desktop. |
-| 5 | [`ts-05-report-visible-after-path-change.png`](screenshots/ts-05-report-visible-after-path-change.png) | Adjusted the path variables manually to force the report file to appear in the expected local folder layout. |
-| 6 | [`ts-06-report-invisible-again.png`](screenshots/ts-06-report-invisible-again.png) | Witnessed the file redirecting back to the cloud directory on subsequent runs, proving that profile-based Desktop paths are not reliable. |
+| 1 | [`ts-01-static-desktop-path.png`](screenshots/ts-01-static-desktop-path.png) <img src="screenshots/ts-01-static-desktop-path.png" alt="Early static desktop path test" width="350">   | Implemented an early hardcoded link pointing toward standard system Desktop environments. |
+| 2 | [`ts-02-active-desktop-path-test.png`](screenshots/ts-02-active-desktop-path-test.png) <img src="screenshots/ts-02-active-desktop-path-test.png" alt="Active desktop path test" width="350">   | Executed live tests to verify directory write paths and evaluate structural access behaviors. |
+| 3 | [`ts-03-onedrive-desktop-path-check.png`](screenshots/ts-03-onedrive-desktop-path-check.png) <img src="screenshots/ts-03-onedrive-desktop-path-check.png" alt="OneDrive desktop path check" width="350">  | Investigated active OneDrive profile-redirection mapping local folders to cloud-synced directories. |
+| 4 | [`ts-04-report-not-visible.png`](screenshots/ts-04-report-not-visible.png) <img src="screenshots/ts-04-report-not-visible.png" alt="Report not visible in expected location" width="350">  | Confirmed the report was successfully generated, but it saved to the cloud-linked OneDrive directory instead of the local machine Desktop. |
+| 5 | [`ts-05-report-visible-after-path-change.png`](screenshots/ts-05-report-visible-after-path-change.png) <img src="screenshots/ts-05-report-visible-after-path-change.png" alt="Report visible after path change" width="350"> | Adjusted the path variables manually to force the report file to appear in the expected local folder layout. |
+| 6 | [`ts-06-report-invisible-again.png`](screenshots/ts-06-report-invisible-again.png) <img src="screenshots/ts-06-report-invisible-again.png" alt="Report visibility issue repeated" width="350"> | Witnessed the file redirecting back to the cloud directory on subsequent runs, proving that profile-based Desktop paths are not reliable. |
 
 <img src="screenshots/ts-01-static-desktop-path.png" alt="Static desktop path" width="650">
 
