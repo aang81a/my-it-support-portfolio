@@ -29,12 +29,12 @@ The first operational challenge involved stabilizing the report output location.
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 1 | `ts-01-static-desktop-path.png` | Implemented an early hardcoded link pointing toward standard system Desktop environments. |
-| 2 | `ts-02-active-desktop-path-test.png` | Executed live tests to verify directory write paths and evaluate structural access behaviors. |
-| 3 | `ts-03-onedrive-desktop-path-check.png` | Investigated active OneDrive profile-redirection mapping local folders to cloud-synced directories. |
-| 4 | `ts-04-report-not-visible.png` | Confirmed the report was successfully generated, but it saved to the cloud-linked OneDrive directory instead of the local machine Desktop. |
-| 5 | `ts-05-report-visible-after-path-change.png` | Adjusted the path variables manually to force the report file to appear in the expected local folder layout. |
-| 6 | `ts-06-report-invisible-again.png` | Witnessed the file redirecting back to the cloud directory on subsequent runs, proving that profile-based Desktop paths are not reliable. |
+| 1 | [`ts-01-static-desktop-path.png`](screenshots/ts-01-static-desktop-path.png) | Implemented an early hardcoded link pointing toward standard system Desktop environments. |
+| 2 | [`ts-02-active-desktop-path-test.png`](screenshots/ts-02-active-desktop-path-test.png) | Executed live tests to verify directory write paths and evaluate structural access behaviors. |
+| 3 | [`ts-03-onedrive-desktop-path-check.png`](screenshots/ts-03-onedrive-desktop-path-check.png) | Investigated active OneDrive profile-redirection mapping local folders to cloud-synced directories. |
+| 4 | [`ts-04-report-not-visible.png`](screenshots/ts-04-report-not-visible.png) | Confirmed the report was successfully generated, but it saved to the cloud-linked OneDrive directory instead of the local machine Desktop. |
+| 5 | [`ts-05-report-visible-after-path-change.png`](screenshots/ts-05-report-visible-after-path-change.png) | Adjusted the path variables manually to force the report file to appear in the expected local folder layout. |
+| 6 | [`ts-06-report-invisible-again.png`](screenshots/ts-06-report-invisible-again.png) | Witnessed the file redirecting back to the cloud directory on subsequent runs, proving that profile-based Desktop paths are not reliable. |
 
 **Result:**  
 The output strategy needed to avoid depending entirely on local user profile directories. This established the requirement to lock file generation strictly to the application's runtime directory rather than the desktop folder layout.
@@ -48,8 +48,8 @@ Transitioned into a codebase cleaning phase to prepare updated files for the nex
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 7 | `ts-07-old-exe-deleted.png` | Manually purged legacy, out-of-date binaries from the workspace to prevent deployment mix-ups. |
-| 8 | `ts-08-script-updated.png` | Refactored internal variable declarations and updated script parameters for testing. |
+| 7 | [`ts-07-old-exe-deleted.png`](screenshots/ts-07-old-exe-deleted.png) | Manually purged legacy, out-of-date binaries from the workspace to prevent deployment mix-ups. |
+| 8 | [`ts-08-script-updated.png`](screenshots/ts-08-script-updated.png) | Refactored internal variable declarations and updated script parameters for testing. |
 
 **Result:**  
 Established an isolated, cleaned system baseline prior to initializing subsequent binary encapsulation tests.
@@ -63,7 +63,7 @@ Converting the interpreted script structure into a managed binary executable exp
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 9 | `ts-09-exe-syntax-error.png` | The compiled executable encountered an unhandled parsing exception post-initialization, causing an immediate crash. |
+| 9 | [`ts-09-exe-syntax-error.png`](screenshots/ts-09-exe-syntax-error.png) | The compiled executable encountered an unhandled parsing exception post-initialization, causing an immediate crash. |
 
 
 ### ⚙️ Compilation Commands Used
@@ -87,7 +87,9 @@ During testing, the generated report showed a McAfee entry from an old installat
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 10 | `ts-10-antivirus-output-shows-mcafee.png` | The configuration log flagged a legacy, non-existent McAfee installation alongside active baseline system protections. |
+| 10 | [`ts-10-antivirus-output-shows-mcafee.png`](screenshots/ts-10-antivirus-output-shows-mcafee.png) | The configuration log flagged a legacy, non-existent McAfee installation alongside active baseline system protections. |
+
+<img src="screenshots/ts-10-antivirus-output-shows-mcafee.png" alt="Second computer successful validation" width="650">
 
 **Result:**  
 This anomaly triggered an investigation into how local security information maps are registered inside the operating system.
@@ -101,10 +103,10 @@ Encountered empty data payloads when transmitting compiled system metrics throug
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 11 | `ts-11-out-string-output-fix.png` | Adjusted text output behaviors to pass complete string representations across script streams via the `Out-String` operator. |
-| 12 | `ts-12-empty-report-debugging.png` | Identified that the text report was successfully created but contained 0 KB of data because the text was not writing correctly. |
-| 13 | `ts-13-raw-script-test.png` | Tested the raw PowerShell script directly to isolate core script behavior from the executable wrapper variables. |
-| 14 | `ts-14-report-content-fixed.png` | Adjusted the output stream handling in the code; the report content was no longer empty and generated correctly. |
+| 11 | [`ts-11-out-string-output-fix.png`](screenshots/ts-11-out-string-output-fix.png) | Adjusted text output behaviors to pass complete string representations across script streams via the `Out-String` operator. |
+| 12 | [`ts-12-empty-report-debugging.png`](screenshots/ts-12-empty-report-debugging.png) | Identified that the text report was successfully created but contained 0 KB of data because the text was not writing correctly. |
+| 13 | [`ts-13-raw-script-test.png`](screenshots/ts-13-raw-script-test.png) | Tested the raw PowerShell script directly to isolate core script behavior from the executable wrapper variables. |
+| 14 | [`ts-14-report-content-fixed.png`](screenshots/ts-14-report-content-fixed.png) | Adjusted the output stream handling in the code; the report content was no longer empty and generated correctly. |
 
 **Result:**  
 Testing the raw script independently confirmed that the object formatting logic was working properly, allowing compilation verification to proceed.
@@ -118,8 +120,8 @@ Evaluated graphical execution configurations to verify that end-user interaction
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 15 | `ts-15-exe-run-without-desktop-icon.png` | Validated target utility execution directly from root system pathways without shortcut parameters. |
-| 16 | `ts-16-one-click-desktop-shortcut-success.png` | Confirmed execution success via a user-facing desktop link shortcut, confirming streamlined workflow readiness. |
+| 15 | [`ts-15-exe-run-without-desktop-icon.png`](screenshots/ts-15-exe-run-without-desktop-icon.png) | Validated target utility execution directly from root system pathways without shortcut parameters. |
+| 16 | [`ts-16-one-click-desktop-shortcut-success.png`](screenshots/ts-16-one-click-desktop-shortcut-success.png) | Confirmed execution success via a user-facing desktop link shortcut, confirming streamlined workflow readiness. |
 
 ---
 
@@ -138,12 +140,12 @@ The following commands were used to compare the report output with what Windows 
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 17 | `ts-17-antivirus-check-before.png` | Checked which antivirus products Windows reported before cleanup verification. |
-| 18 | `ts-18-mcafee-present-after-restart.png` | Confirmed that the old McAfee entry still appeared after restart/checking, although McAfee was no longer actively installed. |
-| 19 | `ts-19-mcafee-wmi-details.png` | Reviewed the Windows antivirus reporting details to understand where the stale entry was coming from. |
-| 20 | `ts-20-mcafee-removed-cmd-check.png` | Checked again after vendor cleanup/removal steps to verify whether the old McAfee entry was still reported. |
-| 21 | `ts-21-no-mcafee-final-check.png` | Confirmed that the old McAfee entry no longer appeared in the antivirus check. |
-| 22 | `ts-22-no-mcafee-final-report.png` | Confirmed that the final generated report no longer included the stale McAfee entry. |
+| 17 | [`ts-17-antivirus-check-before.png`](screenshots/ts-17-antivirus-check-before.png) | Checked which antivirus products Windows reported before cleanup verification. |
+| 18 | [`ts-18-mcafee-present-after-restart.png`](screenshots/ts-18-mcafee-present-after-restart.png) | Confirmed that the old McAfee entry still appeared after restart/checking, although McAfee was no longer actively installed. |
+| 19 | [`ts-19-mcafee-wmi-details.png`](screenshots/ts-19-mcafee-wmi-details.png) | Reviewed the Windows antivirus reporting details to understand where the stale entry was coming from. |
+| 20 | [`ts-20-mcafee-removed-cmd-check.png`](screenshots/ts-20-mcafee-removed-cmd-check.png) | Checked again after vendor cleanup/removal steps to verify whether the old McAfee entry was still reported. |
+| 21 | [`ts-21-no-mcafee-final-check.png`](screenshots/ts-21-no-mcafee-final-check.png) | Confirmed that the old McAfee entry no longer appeared in the antivirus check. |
+| 22 | [`ts-22-no-mcafee-final-report.png`](screenshots/ts-22-no-mcafee-final-report.png) | Confirmed that the final generated report no longer included the stale McAfee entry. |
 
 
 **Result:**  
@@ -158,8 +160,8 @@ Following the security cleanup phase, an execution variable conflict surfaced wh
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 23 | `ts-23-null-path-error.png` | Encountered an unhandled environment variable path mismatch during standalone execution testing. |
-| 24 | `ts-24-basedirectory-fix.png` | Integrated dynamic `BaseDirectory` structural calls within the code to force relative tracking boundaries. |
+| 23 | [`ts-23-null-path-error.png`](screenshots/ts-23-null-path-error.png) | Encountered an unhandled environment variable path mismatch during standalone execution testing. |
+| 24 | [`ts-24-basedirectory-fix.png`](screenshots/ts-24-basedirectory-fix.png) | Integrated dynamic `BaseDirectory` structural calls within the code to force relative tracking boundaries. |
 
 **Result:**  
 The final output strategy was permanently moved to execution-relative directory mapping. This successfully resolved the earlier report-location confusion more reliably than depending on profile Desktop folders.
@@ -173,7 +175,7 @@ With both path and stream variables stabilized, the utility successfully recorde
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 25 | `ts-25-final-success.png` | Confirmed successful local log generation containing the complete, uncorrupted technical inventory data block. |
+| 25 | [`ts-25-final-success.png`](screenshots/ts-25-final-success.png) | Confirmed successful local log generation containing the complete, uncorrupted technical inventory data block. |
 
 **Result:**  
 The standalone executable successfully generated the target report and met the expected test outcome.
@@ -186,9 +188,9 @@ To verify that the tool also worked outside the original laptop environment, it 
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 26 | `ts-26-second-computer-folder-created.png` | Created a local test folder on PC3 for the validation run. |
-| 27 | `ts-27-second-computer-tool-folder.png` | Placed the tool files in the PC3 test folder before execution. |
-| 28 | `ts-28-second-computer-success.png` | Successfully executed the tool on PC3 and generated the expected report output. |
+| 26 | [`ts-25-final-success.png`](screenshots/ts-25-final-success.png) | Created a local test folder on PC3 for the validation run. |
+| 27 | [`ts-27-second-computer-tool-folder.png`](screenshots/ts-27-second-computer-tool-folder.png) | Placed the tool files in the PC3 test folder before execution. |
+| 28 | [`ts-28-second-computer-success.png`](screenshots/ts-28-second-computer-success.png) | Successfully executed the tool on PC3 and generated the expected report output. |
 
 <img src="screenshots/ts-26-second-computer-folder-created.png" alt="Second computer folder created" width="650">
 
