@@ -22,36 +22,35 @@ The purpose of this log is to demonstrate how the utility evolved from a baselin
 
 ## 2. Chronological Troubleshooting Timeline
 
-### 2.1 Output Location and Desktop / OneDrive Path Confusion
+### 2.1 Desktop Output Path Investigation
 
-The first operational challenge involved stabilizing the report output location. During testing, the Desktop output path did not behave as expected because the path resolved to a OneDrive Desktop location instead of the intended local Desktop folder.
+The first operational challenge involved locating the generated report after execution. During early testing, the report was expected on the visible Desktop view, but it was not shown there. The output path was then checked and adjusted during testing to understand where the report was actually being saved.
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 1 | [`ts-01-static-desktop-path.png`](screenshots/ts-01-static-desktop-path.png) <img src="screenshots/ts-01-static-desktop-path.png" alt="Early static desktop path test" width="350">   | Implemented an early hardcoded link pointing toward standard system Desktop environments. |
-| 2 | [`ts-02-active-desktop-path-test.png`](screenshots/ts-02-active-desktop-path-test.png) <img src="screenshots/ts-02-active-desktop-path-test.png" alt="Active desktop path test" width="350">   | Executed live tests to verify directory write paths and evaluate structural access behaviors. |
-| 3 | [`ts-03-onedrive-desktop-path-check.png`](screenshots/ts-03-onedrive-desktop-path-check.png) <img src="screenshots/ts-03-onedrive-desktop-path-check.png" alt="OneDrive desktop path check" width="350">  | Investigated active OneDrive profile-redirection mapping local folders to cloud-synced directories. |
-| 4 | [`ts-04-report-not-visible.png`](screenshots/ts-04-report-not-visible.png)<br><img src="screenshots/ts-04-report-not-visible.png" alt="Report saved to OneDrive Desktop path" width="350"> | The report was created, but the Desktop output path resolved to the OneDrive Desktop location instead of the intended local Desktop folder. |
-| 5 | [`ts-05-report-visible-after-path-change.png`](screenshots/ts-05-report-visible-after-path-change.png) <img src="screenshots/ts-05-report-visible-after-path-change.png" alt="Report visible after path change" width="350"> | Adjusted the path variables manually to force the report file to appear in the expected local folder layout. |
-| 6 | [`ts-06-report-invisible-again.png`](screenshots/ts-06-report-invisible-again.png) <img src="screenshots/ts-06-report-invisible-again.png" alt="Report visibility issue repeated" width="350"> | Witnessed the file redirecting back to the cloud directory on subsequent runs, proving that profile-based Desktop paths are not reliable. |
+| 1 | [`ts-01-static-desktop-path.png`](screenshots/ts-01-static-desktop-path.png)<br><img src="screenshots/ts-01-static-desktop-path.png" alt="Early static desktop path test" width="350"> | Tested an early Desktop-based output path. |
+| 2 | [`ts-02-active-desktop-path-test.png`](screenshots/ts-02-active-desktop-path-test.png)<br><img src="screenshots/ts-02-active-desktop-path-test.png" alt="Active desktop path test" width="350"> | Checked the active Desktop path used during report generation. |
+| 3 | [`ts-03-onedrive-desktop-path-check.png`](screenshots/ts-03-onedrive-desktop-path-check.png)<br><img src="screenshots/ts-03-onedrive-desktop-path-check.png" alt="Desktop and OneDrive path check" width="350"> | Investigated how the script handled Desktop / OneDrive path behaviour. |
+| 4 | [`ts-04-report-invisible-on-desktop.png`](screenshots/ts-04-report-invisible-on-desktop.png)<br><img src="screenshots/ts-04-report-invisible-on-desktop.png" alt="Report not visible on expected Desktop view" width="350"> | The report was expected on the visible Desktop view, but it was not shown there after execution. |
+| 5 | [`ts-05-report-visible-after-path-change.png`](screenshots/ts-05-report-visible-after-path-change.png)<br><img src="screenshots/ts-05-report-visible-after-path-change.png" alt="Output path logic adjusted during testing" width="350"> | The output path logic was adjusted during testing to handle Desktop / OneDrive path behaviour more explicitly. |
+| 6 | [`ts-06-report-not-visible-found.png`](screenshots/ts-06-report-not-visible-found.png)<br><img src="screenshots/ts-06-report-not-visible-found.png" alt="Report found in local Desktop folder" width="350"> | The generated report was later found in the local Desktop folder, confirming that report creation had worked. |
 
 **Result:**  
-The output strategy needed to avoid depending entirely on local user profile directories. This established the requirement to lock file generation strictly to the application's runtime directory rather than the desktop folder layout.
+The report generation worked, but saving directly to “Desktop” created location ambiguity in this Windows/OneDrive setup. This led to the later decision to save the report next to the executable instead of relying on a Desktop path.
 
 ---
 
 ### 2.2 Rebuild Preparation and Script Update
 
-Transitioned into a codebase cleaning phase to prepare updated files for the next structured testing cycle.
-
+After the first output-location issue, the PowerShell script was revised. Because the executable is compiled from the `.ps1` file, the previous `.exe` was removed before creating a new executable version from the updated script.
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 7 | [`ts-07-old-exe-deleted.png`](screenshots/ts-07-old-exe-deleted.png) <img src="screenshots/ts-07-old-exe-deleted.png" alt="Old executable deleted before rebuild" width="350">  | Manually purged legacy, out-of-date binaries from the workspace to prevent deployment mix-ups. |
-| 8 | [`ts-08-script-updated.png`](screenshots/ts-08-script-updated.png) <img src="screenshots/ts-08-script-updated.png" alt="Updated PowerShell script before next test" width="350"> | Refactored internal variable declarations and updated script parameters for testing. |
+| 7 | [`ts-07-old-exe-deleted.png`](screenshots/ts-07-old-exe-deleted.png)<br><img src="screenshots/ts-07-old-exe-deleted.png" alt="Previous executable deleted before recompilation" width="350"> | Removed the previous executable to avoid testing a compiled version that no longer matched the updated `.ps1` script. |
+| 8 | [`ts-08-script-updated.png`](screenshots/ts-08-script-updated.png)<br><img src="screenshots/ts-08-script-updated.png" alt="PowerShell script updated before recompilation" width="350"> | Revised the PowerShell script after the output-location issue before compiling a new executable version. |
 
 **Result:**  
-Established an isolated, cleaned system baseline prior to initializing subsequent binary encapsulation tests.
+The executable test could continue with a newly compiled version based on the updated script.
 
 ---
 
@@ -153,8 +152,7 @@ The stale antivirus entry was verified instead of assumed. After cleanup and rep
 
 ### 2.8 Final Null Path Issue and BaseDirectory Fix
 
-Following the security cleanup phase, an execution variable conflict surfaced when running the application wrapper, preventing file location tracking.
-
+The earlier Desktop-output tests showed that saving reports to Desktop could create location ambiguity. During final executable testing, a separate null path issue appeared. The final output strategy was therefore changed to use `BaseDirectory`, saving the report next to the running executable.
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
@@ -201,7 +199,7 @@ The workflow was successfully validated on a second Windows system.
 
 - Keep a visible completion step, such as `Pause`, if the tool is intended to be run by a user through a one-click executable. This gives the user time to read the success message and see where the report was saved.
 
-- Avoid relying only on Desktop paths for report output. Desktop / OneDrive redirection can make the file location confusing, so saving the report next to the executable was more reliable in this project.
+- Avoid relying only on Desktop paths for report output. On systems where the visible Desktop is managed through OneDrive, a report may be saved correctly to the local Desktop folder but still appear missing from the user’s visible Desktop view. Saving the report next to the executable was the clearer and safer output strategy in this project.
 
 - If antivirus information appears unexpected, compare the report output with what Windows reports and with the actual security tools installed on the device. Old antivirus entries can remain visible after previous installations.
 
