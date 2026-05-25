@@ -29,7 +29,7 @@ The first operational challenge involved stabilizing the report output location.
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 1 | [`ts-01-static-desktop-path.png`](screenshots/ts-01-static-desktop-path.png) <img src="screenshots/ts-01-static-desktop-path.png" alt="Static desktop path" width="650"> | Implemented an early hardcoded link pointing toward standard system Desktop environments. |
+| 1 | [`ts-01-static-desktop-path.png`](screenshots/ts-01-static-desktop-path.png) <img src="screenshots/ts-01-static-desktop-path.png" alt="Static desktop path" width="300"> | Implemented an early hardcoded link pointing toward standard system Desktop environments. |
 | 2 | [`ts-02-active-desktop-path-test.png`](screenshots/ts-02-active-desktop-path-test.png) | Executed live tests to verify directory write paths and evaluate structural access behaviors. |
 | 3 | [`ts-03-onedrive-desktop-path-check.png`](screenshots/ts-03-onedrive-desktop-path-check.png) | Investigated active OneDrive profile-redirection mapping local folders to cloud-synced directories. |
 | 4 | [`ts-04-report-not-visible.png`](screenshots/ts-04-report-not-visible.png) | Confirmed the report was successfully generated, but it saved to the cloud-linked OneDrive directory instead of the local machine Desktop. |
