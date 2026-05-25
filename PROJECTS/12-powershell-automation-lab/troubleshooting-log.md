@@ -1,10 +1,9 @@
 # Troubleshooting Log – IT-Diagnostic-Tool
-
 ---
 
 This document chronicles the sequential testing phases and technical challenges encountered during the development of the IT-Diagnostic-Tool project.
 
-The purpose of this log is to demonstrate how the utility evolved from a baseline configuration script into a fully validated, user-friendly desktop workflow—capturing how deployment obstacles like directory redirection, script syntax restrictions, empty data streams, and stale system tracking records were systematically isolated and resolved.
+The purpose of this log is to demonstrate how the utility evolved from a baseline configuration script into a fully validated, user-friendly desktop workflow, capturing how deployment obstacles like directory redirection, script syntax restrictions, empty data streams, and stale system tracking records were systematically isolated and resolved.
 
 ---
 
