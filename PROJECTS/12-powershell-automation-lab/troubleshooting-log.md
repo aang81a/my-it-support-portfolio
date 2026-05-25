@@ -13,7 +13,7 @@ The purpose of this log is to demonstrate how the utility evolved from a baselin
 |---|---|---|
 | **Output Path Handling** | Target reports were prone to directory path redirection conflicts caused by cloud-synced OneDrive configurations. | Implemented execution-relative directory tracking (`BaseDirectory`) to enforce a local save alongside the tool. |
 | **Executable Packaging** | The compiled binary package exposed a console-specific syntax restriction during early execution tests. | Refactored internal script quotation parameters to allow stable, error-free standalone execution. |
-| **WMI Data Validation** | System metadata reports generated an obsolete, stale McAfee antivirus registration entry from an old installation. | Purged orphaned security infrastructure tracking records from the local operating system to restore data integrity. |
+| **Antivirus Verification** | The report showed a stale McAfee entry from an old installation. | Used Windows antivirus reporting checks and vendor cleanup/removal steps, then verified that the final report no longer showed the old entry. |
 | **Output Buffer Handling** | The tool generated a valid file structure, but the configuration data stream failed to write into the text report. | Restructured the variable output pipeline using explicit data casting (`Out-String`) to eliminate empty log file bugs. |
 | **Deployment Scenario** | Validated the utility across varied desktop launching profiles to ensure seamless execution paths for non-technical users. | Confirmed uniform file creation whether executed directly or launched via a standard desktop shortcut link. |
 | **Multi-Host Validation** | Needed to verify script execution reliability and output accuracy outside of the primary development workstation. | Validated the tool on a second Windows computer. |
@@ -66,7 +66,7 @@ Converting the interpreted script structure into a managed binary executable exp
 | 9 | `ts-09-exe-syntax-error.png` | The compiled executable encountered an unhandled parsing exception post-initialization, causing an immediate crash. |
 
 
-### ⚙️ Compilation Commands Used - **best to keep**
+### ⚙️ Compilation Commands Used
 
 The following commands were used during local testing to install PS2EXE and compile the PowerShell script into an executable file.
 
@@ -76,7 +76,6 @@ The following commands were used during local testing to install PS2EXE and comp
 | 2 | Verify that the module is available | `Get-Module -Name ps2exe` |
 | 3 | Compile the PowerShell script into an executable file | `Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe` |
 
-
 **Result:**  
 This issue proved that converting a script into an executable file requires separate testing. Code syntax errors can behave differently or cause sudden crashes when the tool is run as an `.exe` file rather than inside the standard PowerShell console.
 
@@ -84,8 +83,7 @@ This issue proved that converting a script into an executable file requires sepa
 
 ### 2.4 Antivirus Output Showed an Old Entry
 
-Workspace validation revealed formatting anomalies within generated configuration logs, calling out security applications that were no longer present.
-
+During testing, the generated report showed a McAfee entry from an old installation, even though McAfee was no longer actively installed.
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
@@ -106,7 +104,7 @@ Encountered empty data payloads when transmitting compiled system metrics throug
 | 11 | `ts-11-out-string-output-fix.png` | Adjusted text output behaviors to pass complete string representations across script streams via the `Out-String` operator. |
 | 12 | `ts-12-empty-report-debugging.png` | Identified that the text report was successfully created but contained 0 KB of data because the text was not writing correctly. |
 | 13 | `ts-13-raw-script-test.png` | Tested the raw PowerShell script directly to isolate core script behavior from the executable wrapper variables. |
-| 14 | `ts-14-report-content-fixed.png` | Adjusted the output stream handling in the code, the report content is no longer empty and generates correctly. |
+| 14 | `ts-14-report-content-fixed.png` | Adjusted the output stream handling in the code; the report content was no longer empty and generated correctly. |
 
 **Result:**  
 Testing the raw script independently confirmed that the object formatting logic was working properly, allowing compilation verification to proceed.
@@ -125,68 +123,28 @@ Evaluated graphical execution configurations to verify that end-user interaction
 
 ---
 
-### 2.7 Antivirus / SecurityCenter2 Verification
-
-The report showed a stale McAfee entry from an old installation. The issue was investigated using Windows antivirus reporting queries and vendor cleanup/removal steps. 
-
-The following commands were used to compare the report output with what Windows reported about antivirus products.
-
-```cmd
-wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName
-```
-
-Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Select-Object displayName
+### 2.7 Antivirus Verification
 
 The stale McAfee entry was investigated using Windows antivirus reporting queries and vendor cleanup/removal steps. After cleanup and verification, the final report no longer showed the old entry.
-
-### ⚙️ Administrative WMI Query & Cleanup Strings
-
-To track down, verify, and systematically eliminate the stale antimalware registration records from the system registry cache, the following low-level query commands were executed sequentially:
-
-1. **Query the system infrastructure database using legacy command-line tools to check for ghost registrations:**
-```cmd
-wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName
-```
-
-2. **Isolate and confirm the specific status of the orphan antimalware component registry:**
-```powershell
-Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Where-Object { $_.displayName -like "*McAfee*" }
-```
-
-
-```powershell
-The stale McAfee entry was investigated using Windows antivirus reporting queries and vendor cleanup/removal steps. After cleanup and verification, the final report no longer showed the old entry.
-```
-If no -title and -iconFile was used, write just this:
-
-```powershell
-Invoke-PS2EXE -InputFile .\it-diagnostic-tool.ps1 -OutputFile .\IT-Diagnostic-Tool.exe
-```
-
----
-
-### ⚙️ Antivirus Verification Commands Used - **best to keep**
 
 The following commands were used to compare the report output with what Windows reported about antivirus products.
 
 | Step | Purpose | Command |
 |---:|---|---|
 | 1 | Check antivirus products reported by Windows using CMD | `wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName` |
-| 2 | Check antivirus products reported by Windows using PowerShell | `Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct | Select-Object displayName` |
-
-The stale McAfee entry was investigated using Windows antivirus reporting queries and vendor cleanup/removal steps. After cleanup and verification, the final report no longer showed the old entry.
+| 2 | Check antivirus products reported by Windows using PowerShell | `Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct \| Select-Object displayName` | 
 
 ---
 
-
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 17 | `ts-17-antivirus-check-before.png` | Queried the administrative namespace block directly to intercept real-time security telemetry maps. |
-| 18 | `ts-18-mcafee-present-after-restart.png` | Discovered lingering tracking entries persistent across system reboots, despite software removal. |
-| 19 | `ts-19-mcafee-wmi-details.png` | Pulled structural object IDs inside `root/SecurityCenter2` to identify orphan metadata components. |
-| 20 | `ts-20-mcafee-removed-cmd-check.png` | Ran administrative vendor uninstallation operations to force purge ghost tracking registrations from system memory. |
-| 21 | `ts-21-no-mcafee-final-check.png` | Executed final WMI query verification loops to confirm a completely clean, accurate antivirus output profile. |
-| 22 | `ts-22-no-mcafee-final-report.png` | Confirmed that the output text document no longer included the obsolete security entries. |
+| 17 | `ts-17-antivirus-check-before.png` | Checked which antivirus products Windows reported before cleanup verification. |
+| 18 | `ts-18-mcafee-present-after-restart.png` | Confirmed that the old McAfee entry still appeared after restart/checking, although McAfee was no longer actively installed. |
+| 19 | `ts-19-mcafee-wmi-details.png` | Reviewed the Windows antivirus reporting details to understand where the stale entry was coming from. |
+| 20 | `ts-20-mcafee-removed-cmd-check.png` | Checked again after vendor cleanup/removal steps to verify whether the old McAfee entry was still reported. |
+| 21 | `ts-21-no-mcafee-final-check.png` | Confirmed that the old McAfee entry no longer appeared in the antivirus check. |
+| 22 | `ts-22-no-mcafee-final-report.png` | Confirmed that the final generated report no longer included the stale McAfee entry. |
+
 
 **Result:**  
 The stale antivirus entry was verified instead of assumed. After cleanup and repeated checks, the final report no longer showed the old McAfee entry.
@@ -218,23 +176,28 @@ With both path and stream variables stabilized, the utility successfully recorde
 | 25 | `ts-25-final-success.png` | Confirmed successful local log generation containing the complete, uncorrupted technical inventory data block. |
 
 **Result:**  
-The standalone script environment successfully generated the target configuration report and met all performance criteria.
+The standalone executable successfully generated the target report and met the expected test outcome.
 
 ---
 
 ### 2.10 Second Computer Validation
 
-To guarantee deployment resilience and cross-device stability, the finalized tool was deployed onto an independent workstation environment.
-
+To verify that the tool also worked outside the original laptop environment, it was tested on a second Windows computer.
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 26 | `ts-26-second-computer-folder-created.png` | Created an isolated directory path on target machine PC3 to test clean deployment behavior. |
-| 27 | `ts-27-second-computer-tool-folder.png` | Deployed the application components to the physical test space to ensure independent execution paths. |
-| 28 | `ts-28-second-computer-success.png` | Successfully executed the binary on the second computer, generating a flawless, accurate log output. |
+| 26 | `ts-26-second-computer-folder-created.png` | Created a local test folder on PC3 for the validation run. |
+| 27 | `ts-27-second-computer-tool-folder.png` | Placed the tool files in the PC3 test folder before execution. |
+| 28 | `ts-28-second-computer-success.png` | Successfully executed the tool on PC3 and generated the expected report output. |
+
+<img src="screenshots/ts-26-second-computer-folder-created.png" alt="Second computer folder created" width="650">
+
+<img src="screenshots/ts-27-second-computer-tool-folder.png" alt="Tool folder on second computer" width="650">
+
+<img src="screenshots/ts-28-second-computer-success.png" alt="Second computer successful validation" width="650">
 
 **Result:**  
-The workflow was successfully validated on a second Windows system.  
+The workflow was successfully validated on a second Windows system.
 
 ---
 
@@ -250,49 +213,11 @@ For this reason, the public GitHub version provides the readable PowerShell scri
 
 ## 4. Key Lessons Learned
 
-
 | Lesson | Explanation |
 |---|---|
-| Output location matters | Desktop / OneDrive redirection can misplace files, so the tool was forced to save the report locally in the executable's directory (`BaseDirectory` tracking), even when launched via a desktop shortcut. |
+| Output location matters | Desktop / OneDrive redirection can misplace files, so the tool was configured to save the report locally in the executable's directory (`BaseDirectory` tracking), even when launched via a desktop shortcut. |
 | Executable testing is necessary | Standalone binaries can close instantly upon completion, requiring a `Pause` step to keep the window open so the user can read the success message. |
 | Report content must be verified | Document generation requires verification; creating an empty file structure is insufficient without validating the underlying data stream write behaviors. |
-| Antivirus data should be verified | Outdated database entries can remain inside operating system tracking namespaces, requiring explicit verification loops to ensure data accuracy. |
-| Public artifacts should be transparent | Readable source code improves transparency and trust compared with publishing an unsigned executable. | 
+| Antivirus data should be verified | Old antivirus entries can remain visible in Windows antivirus reporting, so the report output should be compared with the actual security tools installed on the device. |
+| Public artifacts should be transparent | Readable source code improves transparency and trust compared with publishing an unsigned executable. |
 | Documentation is part of support quality | README, SOP, KBA, changelog, sample output, and troubleshooting notes make the project more useful and professional. |
-
-
----
-
-## ✍️ Screenshot Set Used in This Log ✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️✍️
-
-| New filename | Original filename |
-|---|---|
-| `ts-00-permission-error.png` | `01-Laptop-Install-Module -Name ps2exe -Force` |
-| `ts-01-static-desktop-path.png` | `20-Laptop-changed-output-file-location-local-desctop.png` |
-| `ts-02-active-desktop-path-test.png` | `20-Laptop-changed-output-file-location-local-desctop-try-again-and-again-and-again-active-desktop.png` |
-| `ts-03-onedrive-desktop-path-check.png` | `20-Laptop-changed-output-file-location-local-desctop-try-again-and-again-and-again-one-drive-desctop-real.png` |
-| `ts-04-report-not-visible.png` | `21-Laptop-file-desctop-laptop-invisible.png` |
-| `ts-05-report-visible-after-path-change.png` | `22-Laptop-changed-output-file-location-local-desctop-user-can-see.png` |
-| `ts-06-report-invisible-again.png` | `23-Laptop-file-desctop-laptop-invisible-again.png` |
-| `ts-07-old-exe-deleted.png` | `24-Laptop-deleted-old-exe-file.png` |
-| `ts-08-script-updated.png` | `25-Laptop-Update-the-recipe-client-diagnostic_ps1.png` |
-| `ts-09-exe-syntax-error.png` | `29-Laptop-exe-crashing-because-syntax-problem.png` |
-| `ts-10-antivirus-output-shows-mcafee.png` | `33-Laptop-mcafee-present.png` |
-| `ts-11-out-string-output-fix.png` | `34-Laptop-ne-command-line-for-report-out-string.png` |
-| `ts-12-empty-report-debugging.png` | `35-Laptop-no-text-in-file-ultimate-script.png` |
-| `ts-13-raw-script-test.png` | `37-running-powershell-script.png` |
-| `ts-14-report-content-fixed.png` | `38-powershell-success-notpad-report-with-data.png` |
-| `ts-15-exe-run-without-desktop-icon.png`| `41-test-with-exe-file-not-desctop-icon-rsult-success.png` |
-| `ts-16-one-click-desktop-shortcut-success.png` | `44-Laptop-icon-successfuly-runs-report-data-ok.png` |
-| `ts-17-antivirus-check-before.png` | `50-Laptop-antivirus-check.png` |
-| `ts-18-mcafee-present-after-restart.png` | `52-Laptop-after-restart-deep-search-mcafee-present.png` |
-| `ts-19-mcafee-wmi-details.png` | `54-Laptop-InstanceID-results.png` |
-| `ts-20-mcafee-removed-cmd-check.png` | `58-Laptop-cmd-to-find-id-but-no-mcafee.png` |
-| `ts-21-no-mcafee-final-check.png` | `59-Laptop-no-mcafee-at all.png` |
-| `ts-22-no-mcafee-final-report.png` | `60-Laptop-no-mcafee-in-tech-support-siagnostics.png` |
-| `ts-23-null-path-error.png` | `63-Laptop-null-variable.png` |
-| `ts-24-basedirectory-fix.png` | `64-Laptop-new-ps1-file.png` |
-| `ts-25-final-success.png` | `68-Laptop-success-finaly.png` |
-| `ts-26-second-computer-folder-created.png` | `01-PC3-new-folder-on-c.png` |
-| `ts-27-second-computer-tool-folder.png` | `02-PC3-diagnostic-tool-in-folder.png` |
-| `ts-28-second-computer-success.png` | `03-PC3-diagnostic-successful.png` |
