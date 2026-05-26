@@ -1,5 +1,4 @@
 # Troubleshooting Log – IT-Diagnostic-Tool
----
 
 This document chronicles the sequential testing phases and technical challenges encountered during the development of the IT-Diagnostic-Tool project.
 
