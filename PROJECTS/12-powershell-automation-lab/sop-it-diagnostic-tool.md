@@ -118,10 +118,10 @@ Before using an updated version, confirm:
 |---|---|---|
 | Report file is difficult to find | Desktop path or OneDrive-managed Desktop view causes location confusion | Check the folder where the tool was run and confirm the output location. |
 | Report file is empty | Output was not written correctly to the text file | Test the script directly and verify output handling. |
+| Tool closes before user can read the result | Console window may close after execution if no pause/read step is included | Keep a `Pause` step or completion message visible before closing. |
 | Missing IP address | No active network connection or adapter issue | Confirm the device is connected to Wi-Fi or Ethernet. |
 | Unexpected antivirus entry appears | Old or stale antivirus entry may still be reported by Windows | Compare the report output with Windows Security / installed security tools. |
-| Executable triggers antivirus warning | Unsigned executable created from a script may trigger heuristic detection | Use the readable PowerShell source for review and only use approved company tools in real environments. |
-| Tool closes before user can read the result | Console window closes after execution | Keep a pause/read step so the user can confirm completion. |
+| Executable triggers antivirus warning | Unsigned executable created from a script may trigger heuristic detection | Use the readable PowerShell source for review and only use approved company tools in production environments. |
 
 ---
 
