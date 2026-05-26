@@ -49,7 +49,7 @@ After the first output-location issue, the PowerShell script was revised. Becaus
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
 | 7 | [`ts-07-old-exe-deleted.png`](screenshots/ts-07-old-exe-deleted.png)<br><img src="screenshots/ts-07-old-exe-deleted.png" alt="Previous executable deleted before recompilation" width="350"> | Removed the previous executable to avoid testing a version that no longer matched the updated PowerShell script. |
-| 8 | [`ts-08-script-updated.png`](screenshots/ts-08-script-updated.png)<br><img src="screenshots/ts-08-script-updated.png" alt="PowerShell script updated before recompilation" width="350"> | Revised the PowerShell script after the output-location issue and prepared it for recompilation. |
+| 8 | [`ts-08-script-updated.png`](screenshots/ts-08-script-updated.png)<br><img src="screenshots/ts-08-script-updated.png" alt="PowerShell script updated with explicit Desktop output path" width="350"> | Revised the PowerShell script after the output-location issue, including an explicit output path for the generated report. |
 
 **Result:**  
 The next executable test was based on the revised PowerShell script, not on an earlier compiled version.
