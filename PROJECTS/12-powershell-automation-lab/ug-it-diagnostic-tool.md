@@ -15,6 +15,7 @@
 ---
 
 ## Overview
+
 To help IT Support understand your device faster, you may be asked to run the IT Diagnostic Tool during an active support request. 
 
 The tool automatically generates a lightweight text report containing basic technical information about your computer. This helps you provide the information IT Support needs to investigate your issue.
@@ -39,34 +40,41 @@ The tool automatically generates a lightweight text report containing basic tech
 <img src="screenshots/shortcut.png" width="280" alt="IT Diagnostic Tool shortcut"> 
 
 ### Step 1: Find and Open the Tool
-The IT Diagnostic Tool is deployed to your workstation and can be accessed in one of two ways:
-1. **Desktop Shortcut:** Locate the shortcut icon labeled **IT-Diagnostic Tool** on your main desktop screen.
-2. **Local Folder:** Open your Windows File Explorer (`Win + E`). Navigate to the shared network tools directory: `C:\Public\IT_Tools\IT_Diagnostic_Tool\`
 
-*If you cannot locate the tool or shortcut on your device, please contact the helpdesk for assistance before proceeding.*
+The IT Diagnostic Tool is deployed to your workstation and can be accessed in one of two ways:
+
+1. **Desktop Shortcut:** Locate the shortcut icon labeled **IT-Diagnostic Tool** on your main desktop screen.
+2. **Local Folder:** Open Windows File Explorer (`Win + E`) and navigate to the local tools folder: `C:\Public\IT_Tools\IT_Diagnostic_Tool\`
+
+*If you cannot locate the tool or shortcut on your device, contact IT Support before proceeding.*
 
 ---
 
 ### Step 2: Run the Application
+
 1. Double-click either the **IT-Diagnostic Tool** desktop shortcut or the local executable file (**IT-Diagnostic-Tool.exe**).
 
 > ℹ️ **Note on System Prompts:** Depending on your local account permissions, a standard Windows security prompt may appear asking for confirmation to execute the file. If this happens, stop and contact IT Support unless your technician has specifically confirmed that the prompt is expected.
 
-2. A black command line window will open and begin collecting system metrics. This process usually completes within 5 to 10 seconds.
-3. When the scan concludes, the terminal window will display the following success message:
+2. A black command line window will open and collect basic support information. This process usually completes within 5 to 10 seconds.
 
-`
-Diagnostic complete. Report saved in the same folder: TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt
-Press Enter to continue...:
-`
+3. When the process finishes, the window will display a message like:
+
+`Diagnostic complete. Report saved in the same folder: TechSupport_Report_2026-01-10_14-06-50.txt`  
+`Press Enter to continue...:`
 
 4. Press **Enter** on your keyboard to close the window.
 
 ---
 
 ### Step 3: Locate & Send the Report
-1. Look in the folder on your `Desktop\` or in `C:\Public\IT_Tools\IT_Diagnostic_Tool\` for a new file named **TechSupport_Report_yyyy-mm-dd-hh-mm-ss.txt**. The timestamp in the filename ensures older diagnostic logs are never overwritten.
+
+1. Look in the same folder where the executable file is stored for a new file named **TechSupport_Report_yyyy-MM-dd_HH-mm-ss.txt**.
+
+   If you started the tool through a desktop shortcut, the report is still saved next to the executable file, not next to the shortcut.
+
 2. Attach this text file to your support ticket or reply to your technician's email with the file attached.
+
 3. You may delete the text file once the technician confirms they have received it.
 
 ---
@@ -84,7 +92,7 @@ Press Enter to continue...:
   - Windows Version
   - Last Reboot
   - Antivirus Product
-* **Prohibited Access:** The tool **cannot** access personal files, photos, browser history, emails, saved passwords, or network traffic.
+* **Prohibited Access:** The tool does not collect personal files, photos, browser history, emails, saved passwords, or network traffic.
 * **System Safety:** This script runs read-only commands. It does not modify system settings, delete application data, or alter local security parameters.
 
 ### ⚠️ Troubleshooting
