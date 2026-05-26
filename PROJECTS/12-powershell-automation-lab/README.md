@@ -145,15 +145,15 @@ The main screenshots below show the user-friendly workflow, final validation, an
 
 ### One-Click Desktop Shortcut Test
 
-<img src="screenshots/ts-16-one-click-desktop-shortcut-success.png" alt="One-click desktop shortcut success" width="650">
+<img src="screenshots/ts-15-one-click-desktop-shortcut-success.png" alt="One-click desktop shortcut success" width="650">
 
 ### Final Path Handling
 
-<img src="screenshots/ts-24-basedirectory-fix.png" alt="Final path handling" width="650">
+<img src="screenshots/ts-24-basedirectory-final.png" alt="Final path handling" width="650">
 
 ### Final Success Validation
 
-<img src="screenshots/ts-25-final-success.png" alt="Final success validation" width="650">
+<img src="screenshots/ts-25-final-success-validation.png" alt="Final success validation" width="650">
 
 ### Security Check: No McAfee Entry
 
