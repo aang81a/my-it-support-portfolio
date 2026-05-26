@@ -152,7 +152,7 @@ The earlier Desktop-output tests showed that saving reports directly to Desktop 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
 |   23 | [`ts-23-null-path-error.png`](screenshots/ts-23-null-path-error.png)<br><img src="screenshots/ts-23-null-path-error.png" alt="Null path issue during executable testing" width="350"> | A null path issue appeared during executable testing, preventing the report path from being handled correctly. |
-|   24 | [`ts-24-basedirectory-fix.png`](screenshots/ts-24-basedirectory-fix.png)<br><img src="screenshots/ts-24-basedirectory-fix.png" alt="BaseDirectory output path fix" width="350">       | Updated the output logic to use `BaseDirectory`, so the report would be saved next to the running executable.  |
+|   24 | [`ts-24-basedirectory-final.png`](screenshots/ts-24-basedirectory-final.png)<br><img src="screenshots/ts-24-basedirectory-final.png" alt="BaseDirectory output path fix" width="350">       | Updated the output logic to use `BaseDirectory`, so the report would be saved next to the running executable.  |
 
 
 **Result:**  
