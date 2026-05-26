@@ -26,7 +26,7 @@ I tested it on multiple Windows systems, documented the troubleshooting process,
 
 This project presents a one-click support information workflow built around a PowerShell script that only collects basic support-relevant system information and writes it quickly into a standardized report. It does not change system settings, delete anything, collect passwords, or modify security settings.
 
-In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually look up details such as the computer name, IP address, serial number, Windows version, last reboot time, or antivirus status, the script creates a standardized text report as part of the support workflow.
+In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually look up details such as the computer name, IP address, serial number, Windows version, last reboot time, or antivirus product, the script creates a standardized text report as part of the support workflow.
 
 The main development step was converting the script into a one-click executable (`.exe`) and testing it with a desktop shortcut, so a non-technical user would not need to open PowerShell manually.
 
@@ -78,7 +78,7 @@ The solution is a PowerShell-based support metadata collector.
 
 The tool collects support-relevant system details and writes them into a standardized report file:
 
-`TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
+`TechSupport_Report_yyyy-MM-dd_HH-mm-ss.txt`
 
 The report can then be shared with the IT technician or used for ticket documentation.
 
@@ -100,9 +100,7 @@ In a real support environment, the end user would use only an approved company-p
 
 ### Public Repository
 
-For this portfolio, the main public artifact is [`it-diagnostic-tool.ps1`](it-diagnostic-tool.ps1), which allows reviewers to inspect the script logic.
-
-This allows reviewers to inspect the script logic and see exactly which system details are collected.
+For this portfolio, the main public artifact is [`it-diagnostic-tool.ps1`](it-diagnostic-tool.ps1), which allows reviewers to inspect the script logic and see which system details are collected.
 
 ### Intended Use in 1st Level Support
 
@@ -113,7 +111,7 @@ In a real support environment, the technician would provide an approved runnable
 3. Instead of manually asking questions like “What is your computer name?” or “What is your IP address?”, the user runs the approved support information collector.
 4. The tool creates a report named like:
 
-   `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`
+   `TechSupport_Report_yyyy-MM-dd_HH-mm-ss.txt`
 
 5. The user sends the report back to IT Support or attaches it to the support ticket.
 6. The technician receives standardized device details without manually asking for each value.
@@ -151,11 +149,11 @@ The main screenshots below show the user-friendly workflow, final validation, an
 
 ### Final Path Handling
 
-<img src="screenshots/ts-24-basedirectory-final.png" alt="Final path handling" width="650">
+<img src="screenshots/ts-24-basedirectory-fix.png" alt="Final path handling" width="650">
 
 ### Final Success Validation
 
-<img src="screenshots/ts-25-final-success-validation.png" alt="Final success validation" width="650">
+<img src="screenshots/ts-25-final-success.png" alt="Final success validation" width="650">
 
 ### Security Check: No McAfee Entry
 
@@ -172,11 +170,8 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 ## 🧠 Technical Skills Demonstrated
 
 - **Automation thinking:** used PowerShell to reduce repetitive manual collection of support-relevant system details.
-
-- **PowerShell script testing and refinement:** worked with an AI-assisted PowerShell script, tested it, identified issues, and refined the workflow for IT support use: worked with commands such as `Get-CimInstance`, `Get-NetIPAddress`, `Out-File`, and `Out-String`.
- 
-
-- **Windows support basics:** collected computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
+- **PowerShell script testing and refinement:** worked with an AI-assisted PowerShell script, tested it, identified issues, and refined the workflow for IT support use. Used commands such as `Get-CimInstance`, `Get-NetIPAddress`, `Out-File`, and `Out-String`.
+- **Windows support basics:** collected computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus product.
 - **WMI/CIM awareness:** used Windows management queries to retrieve system and antivirus information.
 - **Windows path handling:** worked with local folders, output paths, and report file creation during testing.
 - **User Experience (UX):** tested a one-click executable and desktop shortcut to make the support workflow easier for non-technical users.
@@ -190,8 +185,8 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 ## ✨ Key Features
 
 - **Low-Impact Support Check:** Designed for basic system information gathering without making configuration changes.
-- **Support Metadata Collection:** Collects support-relevant system details such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus status.
-- **Standardized Report Output:** Creates a report file named like `TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt`, which can be attached to a support ticket.
+- **Support Metadata Collection:** Collects support-relevant system details such as computer name, current user, IP address, serial number, Windows version, last reboot time, and antivirus product.
+- **Standardized Report Output:** Creates a report file named like `TechSupport_Report_yyyy-MM-dd_HH-mm-ss.txt`, which can be attached to a support ticket.
 - **User-Friendly Workflow Tested:** Local `.exe` packaging and desktop shortcut testing were explored so a non-technical user would not need to open PowerShell manually.
 - **Readable Public Source:** The public repository provides the `.ps1` script so reviewers can inspect what the tool collects.
 - **Documentation Package:** Includes technician-facing SOP, user-facing KBA, troubleshooting log, changelog, screenshots, and sample output.
@@ -201,7 +196,7 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 ## 💼 Business Value
 
 - **Challenge:** Support calls often lose time when users have to manually find device information.
-- **Solution:** The tool collects support-relevant metadata and writes it into a standardized report.
+- **Solution:** The tool collects support-relevant system information and writes it into a standardized report.
 - **Result:** The report can be added to the support ticket as an attachment or used by the technician to document the case more accurately.
 
 ---
@@ -219,7 +214,7 @@ More process screenshots are documented in the [Troubleshooting Log](troubleshoo
 
 ## 🙏 Technical Credits
 
-This project utilizes the [PS2EXE module](https://github.com/MScholtes/PS2EXE) created by Markus Scholtes. I have used this open-source tool to compile my custom PowerShell logic into a user-friendly binary format during local testing.
+This project uses the [PS2EXE module](https://github.com/MScholtes/PS2EXE) created by Markus Scholtes. I used this open-source tool during local testing to compile the PowerShell script into an executable file.
 
 ---
 
