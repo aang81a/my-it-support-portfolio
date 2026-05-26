@@ -166,7 +166,7 @@ After the output path and report-writing issues were corrected, the executable w
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 25 | [`ts-25-final-success.png`](screenshots/ts-25-final-success.png)<br><img src="screenshots/ts-25-final-success.png" alt="Final successful local report generation" width="350"> | Confirmed that the executable generated the expected report successfully. |
+| 25 | [`ts-25-final-success-validation.png`](screenshots/ts-25-final-success-validation.png)<br><img src="screenshots/ts-25-final-success-validation.png" alt="Final successful local report generation" width="350"> | Confirmed that the executable generated the expected report successfully. |
 
 **Result:**  
 The standalone executable successfully generated the target report and met the expected test outcome.
