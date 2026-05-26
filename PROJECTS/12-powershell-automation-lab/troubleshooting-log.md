@@ -84,10 +84,10 @@ During testing, the report file was created, but the expected text content was m
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 10 | [`ts-10-out-string-output-fix.png`](screenshots/ts-11-out-string-output-fix.png)<br><img src="screenshots/ts-11-out-string-output-fix.png" alt="Out-String output handling adjustment" width="350"> | Adjusted the output-writing logic using `Out-String`, `Out-File`, and UTF-8 encoding so the report content would be written as readable text. |
-| 11 | [`ts-11-empty-report-debugging.png`](screenshots/ts-12-empty-report-debugging.png)<br><img src="screenshots/ts-12-empty-report-debugging.png" alt="Empty report file during debugging" width="420"> | Tested an alternative write method and added a content check after file creation to verify whether the report actually contained text. |
-| 12 | [`ts-12-raw-script-test.png`](screenshots/ts-13-raw-script-test.png)<br><img src="screenshots/ts-13-raw-script-test.png" alt="Raw PowerShell script test" width="350"> | Ran the raw PowerShell script directly to check whether the issue came from the script itself or from the executable workflow. |
-| 13 | [`ts-13-report-content-fixed.png`](screenshots/ts-14-report-content-fixed.png)<br><img src="screenshots/ts-14-report-content-fixed.png" alt="Report content generated correctly after output fix" width="350"> | After adjusting the output handling, the report opened successfully and displayed readable content. |
+| 10 | [`ts-10-out-string-output-fix.png`](screenshots/ts-10-out-string-output-fix.png)<br><img src="screenshots/ts-10-out-string-output-fix.png" alt="Out-String output handling adjustment" width="350"> | Adjusted the output-writing logic using `Out-String`, `Out-File`, and UTF-8 encoding so the report content would be written as readable text. |
+| 11 | [`ts-11-empty-report-debugging.png`](screenshots/ts-11-empty-report-debugging.png)<br><img src="screenshots/ts-11-empty-report-debugging.png" alt="Empty report file during debugging" width="420"> | Tested an alternative write method and added a content check after file creation to verify whether the report actually contained text. |
+| 12 | [`ts-12-raw-script-test.png`](screenshots/ts-12-raw-script-test.png)<br><img src="screenshots/ts-12-raw-script-test.png" alt="Raw PowerShell script test" width="350"> | Ran the raw PowerShell script directly to check whether the issue came from the script itself or from the executable workflow. |
+| 13 | [`ts-13-report-content-fixed.png`](screenshots/ts-13-report-content-fixed.png)<br><img src="screenshots/ts-13-report-content-fixed.png" alt="Report content generated correctly after output fix" width="350"> | After adjusting the output handling, the report opened successfully and displayed readable content. |
 
 The following output-writing commands were used during this troubleshooting phase:
 
@@ -109,8 +109,8 @@ After the report output issue was corrected, the executable workflow was tested 
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 14 | [`ts-14-exe-run-without-desktop-icon.png`](screenshots/ts-15-exe-run-without-desktop-icon.png)<br><img src="screenshots/ts-15-exe-run-without-desktop-icon.png" alt="Executable run without desktop shortcut" width="350"> | The executable was run directly from its folder and successfully generated/opened the report. |
-| 15 | [`ts-15-one-click-desktop-shortcut-success.png`](screenshots/ts-16-one-click-desktop-shortcut-success.png)<br><img src="screenshots/ts-16-one-click-desktop-shortcut-success.png" alt="Executable run through desktop shortcut" width="350"> | The executable was run through a desktop shortcut and successfully generated the report. |
+| 14 | [`ts-14-exe-run-without-desktop-icon.png`](screenshots/ts-14-exe-run-without-desktop-icon.png)<br><img src="screenshots/ts-14-exe-run-without-desktop-icon.png" alt="Executable run without desktop shortcut" width="350"> | The executable was run directly from its folder and successfully generated/opened the report. |
+| 15 | [`ts-15-one-click-desktop-shortcut-success.png`](screenshots/ts-15-one-click-desktop-shortcut-success.png)<br><img src="screenshots/ts-15-one-click-desktop-shortcut-success.png" alt="Executable run through desktop shortcut" width="350"> | The executable was run through a desktop shortcut and successfully generated the report. |
 
 **Result:**  
 The executable workflow worked both when started directly and when started through a desktop shortcut. This confirmed that the tool could support a simple one-click user workflow.
@@ -125,7 +125,7 @@ The generated report showed a McAfee entry from an old installation, although Mc
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 16 | [`ts-16-antivirus-output-shows-mcafee.png`](screenshots/ts-10-antivirus-output-shows-mcafee.png)<br><img src="screenshots/ts-10-antivirus-output-shows-mcafee.png" alt="Report output showing McAfee entry" width="350"> | The generated report showed `Malwarebytes`, `Windows Defender`, and `McAfee VirusScan` in the antivirus field. |
+| 16 | [`ts-16-antivirus-output-shows-mcafee.png`](screenshots/ts-16-antivirus-output-shows-mcafee.png)<br><img src="screenshots/ts-16-antivirus-output-shows-mcafee.png" alt="Report output showing McAfee entry" width="350"> | The generated report showed `Malwarebytes`, `Windows Defender`, and `McAfee VirusScan` in the antivirus field. |
 | 17 | [`ts-17-antivirus-check-before.png`](screenshots/ts-17-antivirus-check-before.png)<br><img src="screenshots/ts-17-antivirus-check-before.png" alt="PowerShell antivirus check showing McAfee entry" width="350"> | A PowerShell check showed `Malwarebytes`, `Windows Defender`, and `McAfee VirusScan`, with product state values. |
 | 18 | [`ts-18-mcafee-present-after-restart.png`](screenshots/ts-18-mcafee-present-after-restart.png)<br><img src="screenshots/ts-18-mcafee-present-after-restart.png" alt="PowerShell antivirus check still showing McAfee" width="350"> | A second PowerShell check still showed `McAfee VirusScan` together with `Malwarebytes` and `Windows Defender`. |
 | 19 | [`ts-19-mcafee-wmi-details.png`](screenshots/ts-19-mcafee-wmi-details.png)<br><img src="screenshots/ts-19-mcafee-wmi-details.png" alt="Detailed antivirus product entries in SecurityCenter2" width="350"> | A detailed `SecurityCenter2` query showed antivirus product entries, including paths and product state values for Malwarebytes, Windows Defender, and McAfee VirusScan. |
