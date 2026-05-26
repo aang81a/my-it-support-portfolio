@@ -26,7 +26,7 @@ I tested it on multiple Windows systems, documented the troubleshooting process,
 
 This project presents a one-click support information workflow built around a PowerShell script that only collects basic support-relevant system information and writes it quickly into a standardized report. It does not change system settings, delete anything, collect passwords, or modify security settings.
 
-In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually look up details such as the computer name, IP address, serial number, Windows version, last reboot time, or antivirus product, the script creates a standardized text report as part of the support workflow.
+In a support situation, technicians often need basic device details before they can continue with troubleshooting or documentation. Instead of asking the user to manually look up details such as the computer name, IP address, serial number, Windows version, last reboot time, or antivirus product, the script creates a standardized text report as part of the orkflow.
 
 The main development step was converting the script into a one-click executable (`.exe`) and testing it with a desktop shortcut, so a non-technical user would not need to open PowerShell manually.
 
@@ -100,7 +100,7 @@ In a real support environment, the end user would use only an approved company-p
 
 ### Public Repository
 
-For this portfolio, the main public artifact is [`it-diagnostic-tool.ps1`](it-diagnostic-tool.ps1), which allows reviewers to inspect the script logic and see which system details are collected.
+For this portfolio, the main public artifact is the [`it-diagnostic-tool.ps1`](it-diagnostic-tool.ps1) script, which allows reviewers to inspect the script logic and see which system details are collected.
 
 ### Intended Use in 1st Level Support
 
