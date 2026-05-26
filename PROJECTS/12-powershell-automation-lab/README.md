@@ -120,6 +120,16 @@ This supports a more efficient and consistent first support interaction.
 
 ---
 
+### PowerShell to Executable Workflow
+
+During local testing, the PowerShell script was compiled into an executable file with PS2EXE. This allowed the tool to be tested as a simple user-facing workflow, including direct executable execution and desktop shortcut execution.
+
+<img src="screenshots/ts-09b-ps2exe-compilation.png" alt="PowerShell script compiled into executable with PS2EXE" width="650">
+
+The public repository provides the readable PowerShell source version for transparency, while the executable workflow was tested locally.
+
+---
+
 ## 🧾 Sample Output
 
 A sanitized sample report is included here:
