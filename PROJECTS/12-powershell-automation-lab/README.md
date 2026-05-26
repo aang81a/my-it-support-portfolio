@@ -100,7 +100,7 @@ In a real support environment, the end user would use only an approved company-p
 
 ### Public Repository
 
-For this portfolio, the main public artifact is the [`it-diagnostic-tool.ps1`](it-diagnostic-tool.ps1) script, which allows reviewers to inspect the script logic and see which system details are collected.
+For this portfolio, this repository provides the readable PowerShell source version [`it-diagnostic-tool.ps1`](it-diagnostic-tool.ps1), so reviewers can see which system details the tool collects.
 
 ### Intended Use in 1st Level Support
 
