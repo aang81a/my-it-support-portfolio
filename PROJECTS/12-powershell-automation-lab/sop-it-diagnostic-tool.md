@@ -5,7 +5,8 @@
 
 ---
 
-<img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal IT Standard Operating Protocol*
+<img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal IT Standard Operating Procedure*
+
 
 **Document ID:** SOP-IT-001  
 **Version:** 1.0  
@@ -25,7 +26,7 @@ It defines the tool purpose, usage conditions, update process, verification chec
 
 ---
 
-### 1. Purpose
+## 1. Purpose
 
 The purpose of this SOP is to define a standardized method for using and maintaining the IT Diagnostic Tool.
 
@@ -33,7 +34,7 @@ The tool supports consistent collection of basic device information during suppo
 
 ---
 
-### 2. Scope
+## 2. Scope
 
 This procedure applies to 1st Level Support technicians who need to collect basic system details during a support request.
 
@@ -41,10 +42,10 @@ The tool is intended for support information gathering only. It does not replace
 
 ---
 
-### 3. Procedure: Using the Tool
+## 3. Procedure: Using the Tool
 
 1. **Prepare the approved tool package**  
-   Use the company-approved runnable version of the support information collector or the reviewed PowerShell source version.
+   Use the approved runnable version of the support information collector or the reviewed PowerShell source version.
 
 2. **Provide instructions to the user**  
    Ask the user to run the approved support information collector during the support session.
@@ -66,14 +67,14 @@ The tool is intended for support information gathering only. It does not replace
    - serial number
    - Windows version
    - last reboot time
-   - registered antivirus product
+   - antivirus product output
 
 6. **Continue support work**  
    Use the report to support the next step, such as ticket documentation, network checks, remote support preparation, or escalation.
 
 ---
 
-### 4. Procedure: Updating the Script
+## 4. Procedure: Updating the Script
 
 When new support data points are required, such as disk space, VPN status, or additional network information:
 
@@ -97,7 +98,7 @@ When new support data points are required, such as disk space, VPN status, or ad
 
 ---
 
-### 5. Verification Checklist
+## 5. Verification Checklist
 
 Before using an updated version, confirm:
 
@@ -111,14 +112,14 @@ Before using an updated version, confirm:
 
 ---
 
-### 6. Troubleshooting the Tool
+## 6. Troubleshooting the Tool
 
 | Issue | Possible Cause | Resolution |
 |---|---|---|
-| Report file is difficult to find | Desktop path or OneDrive redirection causes confusion | Check the folder where the tool was run and confirm the output location. |
+| Report file is difficult to find | Desktop path or OneDrive-managed Desktop view causes location confusion | Check the folder where the tool was run and confirm the output location. |
 | Report file is empty | Output was not written correctly to the text file | Test the script directly and verify output handling. |
 | Missing IP address | No active network connection or adapter issue | Confirm the device is connected to Wi-Fi or Ethernet. |
-| Unexpected antivirus entry appears | Old or stale antivirus registration may still be present | Verify antivirus status and compare with Windows Security / installed security tools. |
+| Unexpected antivirus entry appears | Old or stale antivirus entry may still be reported by Windows | Compare the report output with Windows Security / installed security tools. |
 | Executable triggers antivirus warning | Unsigned executable created from a script may trigger heuristic detection | Use the readable PowerShell source for review and only use approved company tools in real environments. |
 | Tool closes before user can read the result | Console window closes after execution | Keep a pause/read step so the user can confirm completion. |
 
