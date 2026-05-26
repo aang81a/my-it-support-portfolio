@@ -14,7 +14,7 @@
 
 **Project concept:** One-click support metadata collection for IT support workflows.
 
-**Project evolution:** script → one-click executable workflow → troubleshooting → testing → documentation → published PowerShell version
+**Project evolution:** script → executable workflow testing → troubleshooting and refinement → documentation → published PowerShell version
 
 I developed this project by adapting and enhancing an initial PowerShell metadata collection script into a tested 1st Level Support workflow with local executable packaging and desktop shortcut testing. 
 
