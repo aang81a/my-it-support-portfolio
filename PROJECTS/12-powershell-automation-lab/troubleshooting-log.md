@@ -117,10 +117,10 @@ During testing, the generated report showed a McAfee entry from an old installat
 
 The following commands were used to compare the report output with what Windows reported about antivirus products.
 
-| Step | Purpose | Command |
+| Check Method | Purpose | Command |
 |---:|---|---|
-| 1 | Check antivirus products reported by Windows using CMD | `wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName` |
-| 2 | Check antivirus products reported by Windows using PowerShell | `Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct \| Select-Object displayName` |
+| CMD query | Check antivirus products reported by Windows using CMD | `wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName` |
+| PowerShell query | Check antivirus products reported by Windows using PowerShell | `Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct \| Select-Object displayName` |
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
