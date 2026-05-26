@@ -9,19 +9,6 @@ The purpose of this log is to show how the utility evolved from a baseline confi
 
 ## 1. Troubleshooting Summary
 
-
-| Functional Area | Technical Issue | Operational Outcome |
-|---|---|---|
-| **Output Path Handling** | Target reports were prone to directory path redirection conflicts caused by cloud-synced OneDrive configurations. | Implemented execution-relative directory tracking (`BaseDirectory`) to enforce a local save alongside the tool. |
-| **Executable Packaging** | The compiled binary package exposed a console-specific syntax restriction during early execution tests. | Refactored internal script quotation parameters to allow stable, error-free standalone execution. |
-| **Antivirus Verification** | The report showed a stale McAfee entry from an old installation. | Used Windows antivirus reporting checks and vendor cleanup/removal steps, then verified that the final report no longer showed the old entry. |
-| **Output Buffer Handling** | The tool generated a valid file structure, but the configuration data stream failed to write into the text report. | Restructured the variable output pipeline using explicit data casting (`Out-String`) to eliminate empty log file bugs. |
-| **Deployment Scenario** | Validated the utility across varied desktop launching profiles to ensure seamless execution paths for non-technical users. | Confirmed uniform file creation whether executed directly or launched via a standard desktop shortcut link. |
-| **Multi-Host Validation** | Needed to verify script execution reliability and output accuracy outside of the primary development workstation. | Validated the tool on a second Windows computer. |
-
-
-## 1. Troubleshooting Summary
-
 | Functional Area | Technical Issue | Operational Outcome |
 |---|---|---|
 | **Desktop Output Path** | Saving directly to Desktop created location ambiguity in a Windows/OneDrive setup. | The output strategy was later changed so the report is saved next to the executable. |
@@ -124,39 +111,29 @@ Evaluated graphical execution configurations to verify that end-user interaction
 
 ### 2.6 Antivirus Output and Verification
 
-A stale McAfee entry appeared during report testing. For readability, the initial finding and the later verification steps are documented together in this section.
+A stale McAfee entry first appeared during report testing. For readability, the initial finding and the later verification steps are documented together in this section.
 
-During testing, the generated report showed a McAfee entry from an old installation, even though McAfee was no longer actively installed.
-
-This anomaly triggered an investigation into how local security information maps are registered inside the operating system. 
-
-The stale antivirus entry was verified instead of assumed.
-
-The stale McAfee entry was investigated using Windows antivirus reporting queries and vendor cleanup/removal steps. 
+During testing, the generated report showed a McAfee entry from an old installation, although McAfee was no longer actively installed. This triggered a separate verification step to compare the report output with what Windows reported about installed antivirus products.
 
 The following commands were used to compare the report output with what Windows reported about antivirus products.
 
 | Step | Purpose | Command |
 |---:|---|---|
-| 10 | [`ts-10-antivirus-output-shows-mcafee.png`](screenshots/ts-10-antivirus-output-shows-mcafee.png)<br><img src="screenshots/ts-10-antivirus-output-shows-mcafee.png" alt="Report output showing stale McAfee entry" width="350"> | The configuration log flagged a legacy, non-existent McAfee installation alongside active baseline system protections. |
 | 1 | Check antivirus products reported by Windows using CMD | `wmic /namespace:\\root\SecurityCenter2 path AntivirusProduct get displayName` |
-| 2 | Check antivirus products reported by Windows using PowerShell | `Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct \| Select-Object displayName` | 
-
-To check: two commands, describing and correspond to Step 18. or 19. and 20., as here written, but the screenshot must be checked.
-
+| 2 | Check antivirus products reported by Windows using PowerShell | `Get-CimInstance -Namespace root/SecurityCenter2 -ClassName AntivirusProduct \| Select-Object displayName` |
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 17 | [`ts-17-antivirus-check-before.png`](screenshots/ts-17-antivirus-check-before.png)<br><img src="screenshots/ts-17-antivirus-check-before.png" alt="Antivirus check before cleanup verification" width="350"> | Checked which antivirus products Windows reported before cleanup verification. |
-| 18 | [`ts-18-mcafee-present-after-restart.png`](screenshots/ts-18-mcafee-present-after-restart.png) <img src="screenshots/ts-18-mcafee-present-after-restart.png" alt="McAfee entry still visible after restart check" width="350"> | Confirmed that the old McAfee entry still appeared after restart/checking, although McAfee was no longer actively installed. |
-| 19 | [`ts-19-mcafee-wmi-details.png`](screenshots/ts-19-mcafee-wmi-details.png)<br><img src="screenshots/ts-19-mcafee-wmi-details.png" alt="Antivirus reporting details in SecurityCenter2" width="350"> | Reviewed the Windows antivirus reporting details to understand where the stale entry was coming from. |
-| 20 | [`ts-20-mcafee-removed-cmd-check.png`](screenshots/ts-20-mcafee-removed-cmd-check.png)<br><img src="screenshots/ts-20-mcafee-removed-cmd-check.png" alt="Command check after McAfee cleanup" width="350"> | Checked again after vendor cleanup/removal steps to verify whether the old McAfee entry was still reported. |
-| 21 | [`ts-21-no-mcafee-final-check.png`](screenshots/ts-21-no-mcafee-final-check.png)<br><img src="screenshots/ts-21-no-mcafee-final-check.png" alt="Final antivirus check without McAfee entry" width="350"> | Confirmed that the old McAfee entry no longer appeared in the antivirus check. |
-| 22 | [`ts-22-no-mcafee-final-report.png`](screenshots/ts-22-no-mcafee-final-report.png)<br><img src="screenshots/ts-22-no-mcafee-final-report.png" alt="Final report without stale McAfee entry" width="350"> | Confirmed that the final generated report no longer included the stale McAfee entry. |
-| Step | Screenshot | Technical Observation |
+| 10 | [`ts-10-antivirus-output-shows-mcafee.png`](screenshots/ts-10-antivirus-output-shows-mcafee.png)<br><img src="screenshots/ts-10-antivirus-output-shows-mcafee.png" alt="Report output showing McAfee entry" width="350"> | The generated report showed `Malwarebytes`, `Windows Defender`, and `McAfee VirusScan` in the antivirus field. |
+| 17 | [`ts-17-antivirus-check-before.png`](screenshots/ts-17-antivirus-check-before.png)<br><img src="screenshots/ts-17-antivirus-check-before.png" alt="PowerShell antivirus check showing McAfee entry" width="350"> | A PowerShell check showed `Malwarebytes`, `Windows Defender`, and `McAfee VirusScan`, with product state values. |
+| 18 | [`ts-18-mcafee-present-after-restart.png`](screenshots/ts-18-mcafee-present-after-restart.png)<br><img src="screenshots/ts-18-mcafee-present-after-restart.png" alt="PowerShell antivirus check still showing McAfee" width="350"> | A second PowerShell check still showed `McAfee VirusScan` together with `Malwarebytes` and `Windows Defender`. |
+| 19 | [`ts-19-mcafee-wmi-details.png`](screenshots/ts-19-mcafee-wmi-details.png)<br><img src="screenshots/ts-19-mcafee-wmi-details.png" alt="Detailed antivirus product entries in SecurityCenter2" width="350"> | A detailed `SecurityCenter2` query showed antivirus product entries, including paths and product state values for Malwarebytes, Windows Defender, and McAfee VirusScan. |
+| 20 | [`ts-20-mcafee-removed-cmd-check.png`](screenshots/ts-20-mcafee-removed-cmd-check.png)<br><img src="screenshots/ts-20-mcafee-removed-cmd-check.png" alt="CMD antivirus check without McAfee entry" width="350"> | A CMD check after cleanup/removal steps showed only `Malwarebytes` and `Windows Defender`. |
+| 21 | [`ts-21-no-mcafee-final-check.png`](screenshots/ts-21-no-mcafee-final-check.png)<br><img src="screenshots/ts-21-no-mcafee-final-check.png" alt="CMD and PowerShell antivirus checks without McAfee entry" width="350"> | CMD and PowerShell checks both showed only `Malwarebytes` and `Windows Defender`, confirming that the old McAfee entry was no longer reported. |
+| 22 | [`ts-22-no-mcafee-final-report.png`](screenshots/ts-22-no-mcafee-final-report.png)<br><img src="screenshots/ts-22-no-mcafee-final-report.png" alt="Final report opened without stale McAfee entry" width="350"> | The final generated report opened successfully and no longer showed the stale McAfee entry. |
 
-**Result:**   
-After cleanup and repeated checks, the final report no longer showed the old McAfee entry.
+**Result:**  
+The stale antivirus entry was verified instead of assumed. After vendor cleanup/removal steps and repeated checks, the final report no longer showed the old McAfee entry.
 
 ---
 
