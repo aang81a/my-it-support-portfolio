@@ -42,17 +42,18 @@ The report generation worked, but saving directly to “Desktop” created locat
 
 ---
 
-### 2.2 Rebuild Preparation and Script Update
+### 2.2 PS2EXE Packaging and Executable Creation
 
-After the first output-location issue, the PowerShell script was revised. Because a compiled `.exe` does not automatically reflect later changes made to the `.ps1` file, the previous executable was removed before recompiling the updated script.
+After the PowerShell script was prepared, PS2EXE was used during local testing to compile the script into an executable file. This allowed the tool to be tested as a user-facing application instead of requiring the user to run the `.ps1` script manually in PowerShell.
 
 | Step | Screenshot | Technical Observation |
 |---:|---|---|
-| 7 | [`ts-07-old-exe-deleted.png`](screenshots/ts-07-old-exe-deleted.png)<br><img src="screenshots/ts-07-old-exe-deleted.png" alt="Previous executable deleted before recompilation" width="350"> | Removed the previous executable to avoid testing a version that no longer matched the updated PowerShell script. |
-| 8 | [`ts-08-script-updated.png`](screenshots/ts-08-script-updated.png)<br><img src="screenshots/ts-08-script-updated.png" alt="PowerShell script updated with explicit Desktop output path" width="350"> | Revised the PowerShell script after the output-location issue, including an explicit output path for the generated report. |
+| 7 | [`ts-09a-modul-verification.png`](screenshots/ts-09a-modul-verification.png)<br><img src="screenshots/ts-09a-modul-verification.png" alt="PS2EXE module verification" width="350"> | Verified that the PS2EXE module was available before compiling the PowerShell script. |
+| 8 | [`ts-09b-ps2exe-compilation.png`](screenshots/ts-09b-ps2exe-compilation.png)<br><img src="screenshots/ts-09b-ps2exe-compilation.png" alt="PS2EXE module verification" width="350"> | Compiled `client-diagnostic.ps1` into `IT-Diagnostic-Tool.exe` using PS2EXE. |
+| 9 | [`ts-09c-executable-created.png`](screenshots/ts-09c-executable-created.png)<br><img src="screenshots/ts-09c-executable-created.png" alt="Executable file created after PS2EXE compilation" width="350"> | Verified that the executable file was created in the working folder. |
 
 **Result:**  
-The next executable test was based on the revised PowerShell script, not on an earlier compiled version.
+The PowerShell script was successfully packaged into a local executable for workflow testing.
 
 ---
 
