@@ -9,11 +9,10 @@
 
 ## Overview
 
+This folder contains internal support notes for common first-level IT support tasks.
+The notes are written for support technicians and focus on repeatable troubleshooting and administration procedures.
+
 This section contains short internal support notes for common Windows and Active Directory support tasks.
-
-The notes are written from the perspective of an IT support technician. They focus on required checks, permissions, common failure points, escalation triggers, and ticket documentation notes.
-
-They are intentionally shorter than full knowledge base articles, but more support-focused than generic how-to guides.
 
 ---
 
