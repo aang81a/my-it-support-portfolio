@@ -6,6 +6,8 @@
 
 This portfolio documents practical home lab projects, Windows and network troubleshooting practices, hardware support tasks, backup workflows, ticketing simulations, and support documentation.
 
+---
+
 ## About Me
 IT Support Specialist currently building hands-on skills through Microsoft IT Support Professional and Cisco IT Support Professional coursework.
 
@@ -54,6 +56,7 @@ cél:
 - [11 Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
 - [12 Powershell Automation Lab](./PROJECTS/12-powershell-automation-lab) - L1 Diagnostic Script & Automation. 🚀 *NEW*
 
+---
 
 ## Completed Projects ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
@@ -64,10 +67,11 @@ cél:
 | [07 Home Lab Documentation: Computer3 RAM Upgrade](./PROJECTS/07-home-lab-documentation/hardware-cases/computer-3-ram-upgrade/) | RAM compatibility check, SO-DIMM installation, 8GB to 16GB upgrade |
 | [07 Home Lab Documentation: Legacy Storage Troubleshooting and Backup](./PROJECTS/07-home-lab-documentation/hardware-cases/legacy-storage-troubleshooting-and-backup/) | IDE/PATA and SATA storage troubleshooting, BIOS detection, boot issue analysis, data protection and backup workflow |
 | [06 Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/) | User-facing guides for non-technical users and internal support notes for IT support tasks.|
-| [08 Internal Support Notes](./PROJECTS/08-internal-support-notes/) | ..      . |
+| [08 Internal Support Notes](./PROJECTS/08-internal-support-notes/) | Short internal support notes for common Windows and Active Directory support tasks. |
 | [09 Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/) | The differences between TeamViewer and AnyDesk |
 | [12 Powershell Automation Lab: L1 Support Diagnostic Tool](./PROJECTS/12-powershell-automation-lab/) | A PowerShell utility designed to simplify the initial triage process. Collects critical system info (Network, BIOS, OS) into a standardized report to help 1st Level technicians resolve issues faster. |
 
+---
 
 ## In Progress / Planned Projects 
 
@@ -76,6 +80,5 @@ cél:
 - [03 User Accounts and Permissions](./PROJECTS/03-user-accounts-and-permissions/)
 - [05 Spiceworks Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/)
 - [06 Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/)
-- [08 Markdown Guides](./PROJECTS/08-markdown-guides/)
 - [10 Windows Admin Tasks](./PROJECTS/10-windows-admin-tasks/)
 - [11 Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
