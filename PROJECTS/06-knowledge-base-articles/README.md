@@ -9,7 +9,8 @@
 
 ## Overview
 
-This folder contains knowledge base articles for common IT troubleshooting situations, including user-facing guides for non-technical users and internal support notes for IT support tasks.
+This folder contains user-facing knowledge base articles for common IT support situations.
+The articles are written for non-technical users and focus on clear, step-by-step guidance.
 
 The goal is to explain common IT support situations in a clear, structured, and user-friendly way.
 
