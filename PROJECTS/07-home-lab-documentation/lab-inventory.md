@@ -1,4 +1,7 @@
 # Home Lab Inventory
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
 
 ## Purpose
 
