@@ -1,4 +1,9 @@
-# Case 01
+# Case 01 - No Network Access
+
+This diagram maps the case-01 from the user symptom through ipconfig, DHCP renewal, connectivity testing, escalation paths, and final documentation.
+
+---
+
 
 ```mermaid
 flowchart TD
