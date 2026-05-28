@@ -7,7 +7,7 @@ This diagram shows the main devices and storage components used in the legacy st
 ---
 
 ```mermaid
-flowchart LR
+flowchart TB
 
     TITLE["Legacy Storage Troubleshooting and Backup"]
 
