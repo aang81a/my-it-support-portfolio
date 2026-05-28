@@ -2,6 +2,10 @@
 
 ---
 
+This diagram shows the DNS-specific logic: IP connectivity works, name resolution fails, DNS settings are checked or corrected, the DNS cache is flushed, and access is verified.
+
+---
+
 ```mermaid
 flowchart TD
     A([User reports websites cannot be accessed by name]) --> B[Confirm network connection is active]
