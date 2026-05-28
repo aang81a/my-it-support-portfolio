@@ -9,7 +9,7 @@ This diagram shows the main devices and storage components used in the legacy st
 ```mermaid
 flowchart TB
 
-    TITLE["**LEGACY STORAGE<br/>TROUBLESHOOTING<br/>AND BACKUP**"]
+    TITLE["LEGACY STORAGE<br/>TROUBLESHOOTING<br/>AND BACKUP"]
 
     C1["Computer 1<br/>Legacy ASUS desktop<br/>IDE/PATA storage testing"]
     C3["Computer 3<br/>HP All-in-One<br/>RAM upgrade documentation<br/>Backup preparation"]
