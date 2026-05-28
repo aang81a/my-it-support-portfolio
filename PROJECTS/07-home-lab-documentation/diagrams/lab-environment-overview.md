@@ -16,7 +16,7 @@ flowchart TB
     C2["Computer 2<br/>HP black desktop<br/>Recovery, backup and home lab workstation"]
 
     Samsung["Samsung SP1203N<br/>IDE/PATA HDD"]
-    Optical["ASUS DRW-1608P3S + LG DVD drive<br/>Optical drives tested in Computer 1"]
+    Optical["ASUS DRW-1608P3S<br/>+ LG DVD drive<br/>Optical drives tested in Computer 1"]
 
     WD["WD SATA HDD source<br/>Tested in Computer 2"]
     InternalSeagate["Internal Seagate SATA HDD<br/>Windows system drive in Computer 2"]
