@@ -1,4 +1,4 @@
-# Case 01 - No Network Access
+# Case 01 – No Network Access / APIPA Address
 
 This diagram maps the case-01 from the user symptom through ipconfig, DHCP renewal, connectivity testing, escalation paths, and final documentation.
 
