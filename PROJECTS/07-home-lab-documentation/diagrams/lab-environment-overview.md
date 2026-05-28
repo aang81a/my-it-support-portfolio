@@ -2,6 +2,11 @@
 
 ---
 
+This diagram shows the main devices and storage components used in the legacy storage troubleshooting and backup case. It gives a quick overview of which computers, hard drives, optical drives, and backup storage were involved.
+
+---
+
+
 ```mermaid
 flowchart TB
     subgraph Computers["Computers used in the case"]
