@@ -37,7 +37,3 @@ flowchart TB
     C3 --> ExternalSeagate
     C2 --> ExternalSeagate
 ```
-
-
-    C3 -. "backup preparation context" .-> SeagateExternal
-```
