@@ -18,19 +18,6 @@ This case was performed as part of a beginner IT support home lab. The environme
 |---|---|---|
 | Computer 1 | Legacy ASUS desktop | IDE/PATA storage testing system |
 | Computer 2 | HP black desktop | Recovery, backup, and home lab workstation |
-| Computer 3 – HP all-in-one | Hardware upgrade system | Used for RAM upgrade documentation and backup preparation |
-| WD SATA HDD source | Legacy storage source for backup | WD SATA HDD tested in Computer 2 using SATA connection; files checked and backed up |
-| Samsung SP1203N | IDE/PATA HDD | Legacy hard drive tested in Computer 1 |
-| Internal Seagate SATA HDD in Computer 2 | SATA HDD | Internal system drive used to access Windows and perform recovery/backup work |
-| Seagate external drive | USB storage | Backup destination |
-| ASUS DRW-1608P3S | Optical drive | DVD/CD writer detected in BIOS Computer 1 |
-| LG DVD drive | Optical drive | Additional DVD/CD writer tested Computer 1 |
-
-
-| Device | Type | Role in the case |
-|---|---|---|
-| Computer 1 | Legacy ASUS desktop | IDE/PATA storage testing system |
-| Computer 2 | HP black desktop | Recovery, backup, and home lab workstation |
 | Computer 3 – HP All-in-One | Hardware upgrade system | Used for RAM upgrade documentation and backup preparation |
 | WD SATA HDD source | Legacy storage source for backup | WD SATA HDD tested in Computer 2 using SATA connection; files checked and backed up |
 | Samsung SP1203N | IDE/PATA HDD | Legacy hard drive tested in Computer 1 |
