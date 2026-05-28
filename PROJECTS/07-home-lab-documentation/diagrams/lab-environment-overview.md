@@ -3,7 +3,7 @@
 ---
 
 ```mermaid
-flowchart UD
+flowchart LR
     Laptop[Support Laptop]
     PC3[HP All-in-One / PC3]
     HDD[External Backup Drive]
