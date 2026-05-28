@@ -4,6 +4,8 @@
 
 This diagram shows the DNS-specific logic: IP connectivity works, name resolution fails, DNS settings are checked or corrected, the DNS cache is flushed, and access is verified.
 
+This diagram shows how to troubleshoot a DNS issue where internet connectivity works by IP address, but websites cannot be reached by name. It follows the process from testing `ping 8.8.8.8`, checking DNS resolution with `ping google.com` and `nslookup`, correcting DNS settings, flushing the DNS cache, and verifying that websites load again.
+
 ---
 
 ```mermaid
