@@ -4,7 +4,7 @@
 
 This diagram shows the main devices and storage components used in the legacy storage troubleshooting and backup case. It gives a quick overview of which computers, hard drives, optical drives, and backup storage were involved.
 
-It shows Computer 1 for IDE/PATA storage testing, Computer 2 for recovery and backup work, Computer 3 for RAM-upgrade documentation and backup preparation, and the external Seagate drive as the final backup destination.
+It shows Computer 1 for IDE/PATA storage testing, Computer 2 for recovery and backup work, Computer 3 for RAM-upgrade, and the external Seagate drive as the final backup destination.
 
 ---
 
@@ -14,7 +14,7 @@ flowchart TB
     TITLE["LEGACY STORAGE<br/>TROUBLESHOOTING<br/>AND BACKUP"]
 
     C1["Computer 1<br/>Legacy ASUS desktop<br/>IDE/PATA storage testing"]
-    C3["Computer 3<br/>HP All-in-One<br/>RAM upgrade documentation<br/>Backup preparation"]
+    C3["Computer 3<br/>HP All-in-One<br/>RAM upgrade<br/>+ backup"]
     C2["Computer 2<br/>HP black desktop<br/>Recovery, backup and home lab workstation"]
 
     Samsung["Samsung SP1203N<br/>IDE/PATA HDD"]
