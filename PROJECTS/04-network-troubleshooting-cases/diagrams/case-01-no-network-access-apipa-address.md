@@ -1,6 +1,6 @@
 # Case 01 – No Network Access / APIPA Address
 
-This diagram maps the case-01 from the user symptom through ipconfig, DHCP renewal, connectivity testing, escalation paths, and final documentation.
+This diagram shows how to troubleshoot a device that appears connected to the network but receives a `169.254.x.x` APIPA address because it did not get a valid DHCP lease. It follows the process from checking `ipconfig`, confirming the missing gateway, renewing the IP address, restarting the adapter/router if needed, and verifying restored connectivity.
 
 ---
 
