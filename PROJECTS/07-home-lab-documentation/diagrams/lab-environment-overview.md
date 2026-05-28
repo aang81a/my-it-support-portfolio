@@ -6,6 +6,36 @@ This diagram shows the main devices and storage components used in the legacy st
 
 ---
 
+```mermaid
+flowchart TB
+    CASE["Legacy Storage Troubleshooting and Backup<br/>Hardware, storage detection and backup workflow"]
+
+    C1["Computer 1<br/>Legacy ASUS desktop<br/>BIOS/boot checks"]
+    C2["Computer 2<br/>HP black desktop<br/>Recovery, backup and home lab workstation"]
+    C3["Computer 3<br/>HP All-in-One<br/>RAM upgrade documentation<br/>Backup preparation"]
+
+    Samsung["Samsung SP1203N<br/>IDE/PATA HDD<br/>tested in Computer 1"]
+    ASUS["ASUS DRW-1608P3S<br/>DVD/CD writer<br/>detected in BIOS"]
+    LG["LG DVD drive<br/>additional optical drive tested"]
+
+    InternalSeagate["Internal Seagate SATA HDD<br/>Windows system drive in Computer 2"]
+    WD["WD SATA HDD source<br/>legacy data drive tested in Computer 2"]
+    ExternalSeagate["Seagate external drive<br/>final backup destination"]
+
+    CASE --> C1
+    CASE --> C2
+    CASE --> C3
+
+    Samsung --> C1
+    ASUS --> C1
+    LG --> C1
+
+    InternalSeagate --> C2
+    WD --> C2
+    C2 --> ExternalSeagate
+```
+
+---
 
 ```mermaid
 flowchart TB
