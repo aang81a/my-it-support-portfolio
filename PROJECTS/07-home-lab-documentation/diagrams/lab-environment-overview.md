@@ -8,6 +8,39 @@ This diagram shows the main devices and storage components used in the legacy st
 
 ```mermaid
 flowchart TB
+
+    TITLE["Legacy Storage<br/>Troubleshooting and<br/>Backup"]
+
+    Samsung["Samsung SP1203N<br/>IDE/PATA HDD"]
+    Optical["ASUS DRW-1608P3S + LG DVD drive<br/>Optical drives tested in<br/>Computer 1"]
+    InternalSeagate["Internal Seagate SATA HDD<br/>Windows system drive in<br/>Computer 2"]
+    WD["WD SATA HDD source<br/>Tested in Computer 2"]
+
+    C1["Computer 1<br/>Legacy ASUS desktop<br/>IDE/PATA storage testing"]
+    C3["Computer 3<br/>HP All-in-One<br/>RAM upgrade documentation<br/>Backup preparation"]
+    C2["Computer 2<br/>HP black desktop<br/>Recovery, backup and<br/>home lab workstation"]
+
+    ExternalSeagate["Seagate external drive<br/>Final backup destination"]
+
+    TITLE --> C1
+    TITLE --> C3
+
+    Samsung --> C1
+    Optical --> C1
+    InternalSeagate --> C2
+    WD --> C2
+
+    C3 --> C2
+
+    C1 --> ExternalSeagate
+    C2 --> ExternalSeagate
+    C3 --> ExternalSeagate
+```
+
+---
+
+```mermaid
+flowchart TB
     CASE["Legacy Storage Troubleshooting and Backup"]
 
     C1["Computer 1<br/>Legacy ASUS desktop<br/>IDE/PATA storage testing"]
