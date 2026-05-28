@@ -1,4 +1,7 @@
-```flowchart TD
+# Case 01
+
+```mermaid
+flowchart TD
     A([User reports no network or internet access]) --> B[Confirm connection type: Wi-Fi or Ethernet]
     B --> C[Check whether issue affects one device or multiple devices]
 
