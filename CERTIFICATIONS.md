@@ -5,8 +5,10 @@
   Abgeschlossene Teilkurse:
   
   ▪ Apr 2026 | IT Customer Support Basics | Kurszertifikat
+
+  ▪ Jun 2026 | Operating Systems Support | Kurszertifikat
     
-  Focus: Troubleshooting, Ticketing, Remote Support, Customer Support Workflows
+  Fokus: Troubleshooting, Ticketing, Remote Support, Customer Support Workflows, Windows-, Linux-, macOS- und Mobile-Device-Support
 
 ▪ **Nov 2025 – heute | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)**
 
