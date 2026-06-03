@@ -4,40 +4,30 @@
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-This portfolio documents practical home lab projects, Windows and network troubleshooting practices, hardware support tasks, backup workflows, ticketing simulations, and support documentation.
+This portfolio documents practical home lab projects, Windows and network troubleshooting practices, hardware support tasks, backup workflows and support documentation.
 
 ---
 
 ## About Me
-IT Support Specialist currently building hands-on skills through Microsoft IT Support Professional and Cisco IT Support Professional coursework.
+IT Support Specialist currently building hands-on skills through Microsoft IT Support Specialist and Cisco IT Support Specialist Career Path coursework.
 
 ### [Certifications](CERTIFICATIONS.md)
 
 ---
 
 ## 🛠 Support skills ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-cél:
-- Spiceworks ticketing simulation
-- Active Directory
-- Remote support
-- User Account Management
-- Initial analysis
-- Windows support/Windows Administration
-- Basic network support/Basic Networking
-- Troubleshooting
-- Structured documentation
-- Email and phone customer support
 
- eddigiek:
-- Windows support and basic Windows administration
-- Network troubleshooting
-- IPv4 and DHCP troubleshooting
 - Command Prompt diagnostics
 - Hardware troubleshooting and documentation
+- Basic Networking
+- Network troubleshooting
+- IPv4 and DHCP troubleshooting
+- Basic Windows support
 - Backup and data-protection awareness
-- Ticketing and structured documentation
+- Initial analysis
+- Remote support
+- Structured documentation
 - User support communication
-- Initial analysis and escalation awareness
 
 ---
 
