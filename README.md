@@ -19,13 +19,13 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 
 - Basic Windows support
 - Microsoft 365 Support Fundamentals
-- Command Prompt diagnostics
 - Hardware troubleshooting and documentation
 - Basic Networking
 - Network troubleshooting
-- IPv4 and DHCP troubleshooting
-- Backup and data-protection awareness
 - Initial analysis
+- IPv4 and DHCP troubleshooting
+- Command Prompt diagnostics
+- Backup and data-protection awareness
 - Remote support
 - Structured documentation
 - User support communication
