@@ -17,12 +17,13 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 
 ## 🛠 Support skills ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
+- Basic Windows support
+- Microsoft 365 Support Fundamentals
 - Command Prompt diagnostics
 - Hardware troubleshooting and documentation
 - Basic Networking
 - Network troubleshooting
 - IPv4 and DHCP troubleshooting
-- Basic Windows support
 - Backup and data-protection awareness
 - Initial analysis
 - Remote support
