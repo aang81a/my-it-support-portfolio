@@ -52,7 +52,7 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 - [Domain Join Client](./PROJECTS/02-domain-join-client/)
 - [User Accounts and Permissions](./PROJECTS/03-user-accounts-and-permissions/)
 - [Spiceworks Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/)
-- [10 Windows Admin Tasks](./PROJECTS/10-windows-admin-tasks/)
-- [11 Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
+- [Windows Admin Tasks](./PROJECTS/10-windows-admin-tasks/)
+- [Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
 
 ![Banner](IMAGES/01/portfolio-banner.png)
