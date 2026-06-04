@@ -67,13 +67,19 @@ Before changing the IPv4 settings, the adapter configuration was checked.
 
 The baseline state showed that IPv4 and DNS were configured automatically through DHCP.
 
+---
+
 ### PC3 – Home Wi-Fi
 
 ![PC3 home Wi-Fi IPv4 before change](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-01-ipv4-before-change-dhcp.png)
 
+---
+
 ### PC3 – Mobile Hotspot
 
 ![PC3 mobile hotspot IPv4 before change](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-01-ipv4-before-change-dhcp.png)
+
+---
 
 ### PC2 – Ethernet
 
@@ -87,13 +93,19 @@ A wrong static IPv4 and DNS configuration was entered manually on each tested co
 
 This created a controlled network fault for troubleshooting practice.
 
+---
+
 ### PC3 – Home Wi-Fi
 
 ![PC3 home Wi-Fi wrong static IP configured](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-02-wrong-static-ip-configured.png)
 
+---
+
 ### PC3 – Mobile Hotspot
 
 ![PC3 mobile hotspot wrong static IP configured](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-02-wrong-static-ip-configured.png)
+
+---
 
 ### PC2 – Ethernet
 
@@ -107,13 +119,19 @@ After the wrong static IP settings were applied, `ipconfig` was used to check th
 
 The output confirmed that the device no longer had a valid working configuration for the active network.
 
+---
+
 ### PC3 – Home Wi-Fi
 
 ![PC3 home Wi-Fi ipconfig wrong static IP](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-03-ipconfig-wrong-static-ip-no-internet.png)
 
+---
+
 ### PC3 – Mobile Hotspot
 
 ![PC3 mobile hotspot ipconfig wrong static IP](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-03-ipconfig-wrong-static-ip-no-internet.png)
+
+---
 
 ### PC2 – Ethernet
 
@@ -135,13 +153,19 @@ The following tests were used:
 
 The failed results confirmed that the incorrect static configuration prevented normal network communication.
 
+---
+
 ### PC3 – Home Wi-Fi
 
 ![PC3 home Wi-Fi failed ping tests](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-04-ping-gateway-external-google-failed.png)
 
+---
+
 ### PC3 – Mobile Hotspot
 
 ![PC3 mobile hotspot failed ping tests](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-04-ping-gateway-external-google-failed.png)
+
+---
 
 ### PC2 – Ethernet
 
@@ -160,13 +184,19 @@ The adapter was changed back to:
 - Obtain an IP address automatically
 - Obtain DNS server address automatically
 
+---
+
 ### PC3 – Home Wi-Fi
 
 ![PC3 home Wi-Fi DHCP restored](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-05-dhcp-restored-ipv4-settings.png)
 
+---
+
 ### PC3 – Mobile Hotspot
 
 ![PC3 mobile hotspot DHCP restored](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-05-dhcp-restored-ipv4-settings.png)
+
+---
 
 ### PC2 – Ethernet
 
@@ -183,17 +213,23 @@ ipconfig /release
 ipconfig /renew
 ```
 
+---
+
 ### PC3 – Home Wi-Fi
 
 ![PC3 home Wi-Fi DHCP release](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-06-release-after-dhcp.png)
 
 ![PC3 home Wi-Fi DHCP renew](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-07-renew-after-dhcp.png)
 
+---
+
 ### PC3 – Mobile Hotspot
 
 ![PC3 mobile hotspot DHCP release](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-06-release-after-dhcp.png)
 
 ![PC3 mobile hotspot DHCP renew](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-07-renew-after-dhcp.png)
+
+---
 
 ### PC2 – Ethernet
 
@@ -207,13 +243,19 @@ ipconfig /renew
 
 After DHCP was restored, each device received valid network settings again, including an IPv4 address, subnet mask, default gateway, and DNS configuration.
 
+---
+
 ### PC3 – Home Wi-Fi
 
 ![PC3 home Wi-Fi ipconfig after DHCP restore](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-08-ipconfig-after-dhcp-restore.png)
 
+---
+
 ### PC3 – Mobile Hotspot
 
 ![PC3 mobile hotspot ipconfig after DHCP restore](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-08-ipconfig-after-dhcp-restore.png)
+
+---
 
 ### PC2 – Ethernet
 
@@ -225,13 +267,19 @@ After DHCP was restored, each device received valid network settings again, incl
 
 After the network configuration was restored, the connection was tested again and the results confirmed that external IP access and DNS resolution were working.
 
+---
+
 ### PC3 – Home Wi-Fi
 
 ![PC3 home Wi-Fi successful ping tests](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-09-ping-external-and-google-success.png)
 
+---
+
 ### PC3 – Mobile Hotspot
 
 ![PC3 mobile hotspot successful ping tests](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-09-ping-external-and-google-success.png)
+
+---
 
 ### PC2 – Ethernet
 
