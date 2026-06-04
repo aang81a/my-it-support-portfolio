@@ -56,4 +56,4 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 - [10 Windows Admin Tasks](./PROJECTS/10-windows-admin-tasks/)
 - [11 Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
 
-![Banner](IMAGES/02/portfolio-banner.png)
+![Banner](IMAGES/01/portfolio-banner.png)
