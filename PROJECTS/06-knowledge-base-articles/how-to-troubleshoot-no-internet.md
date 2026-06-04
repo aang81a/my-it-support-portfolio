@@ -82,7 +82,9 @@ Then try opening a website again.
 3. Try opening a simple website, for example:
 
 ```text
-[https://www.google.com](https://www.wikipedia.org)
+[Google](https://www.google.com)
+
+[Wikipedia](https://www.wikipedia.org)
 ```
 
 If one website does not open, try a second website.
