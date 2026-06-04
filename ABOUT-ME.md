@@ -2,7 +2,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue) ![Level](https://img.shields.io/badge/Level-Entry--Level-lightgrey)
 
-**Aspiring IT Support Professional (L1) | Focus on User Experience & Efficiency & Documentation** 
+**Aspiring IT Support Professional (1st level) | Focus on User Experience & Efficiency & Documentation** 
 
 ---
 
