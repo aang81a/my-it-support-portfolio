@@ -2,7 +2,6 @@
 
 ![Topic](https://img.shields.io/badge/Topic-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
 
-
 ---
 
 <table>
