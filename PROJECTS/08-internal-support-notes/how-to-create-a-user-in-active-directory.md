@@ -4,7 +4,14 @@
 
 ---
 
-<img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal IT Standard Operating Procedure*
+<img src="IMAGES/01/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal IT Standard Operating Protocol*
+
+---
+
+**Document ID:** `UG-1001`  
+**Category:** Internal IT Support / Desktop Troubleshooting  
+**Target Audience:** All Employees (Non-Technical)  
+**Last Updated:** May 2026 
 
 ---
 
