@@ -3,9 +3,7 @@
 ![Topic](https://img.shields.io/badge/Topic-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
 
 ---
-
-<img src="../../IMAGES/tech-log-solutions-logo.png" width="210" alt="TechLog Solutions Logo"> | *Internal IT Standard Operating Protocol*
-
+<img src="../../IMAGES/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo"> | *Internal IT Standard Operating Protocol*
 ---
 
 **Document ID:** `UG-1001`  
