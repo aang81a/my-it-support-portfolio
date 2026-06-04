@@ -1,5 +1,9 @@
 # Changelog
 
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
+
 All notable changes made during the development of this project are documented in this file.
 
 ---
