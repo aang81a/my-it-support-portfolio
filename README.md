@@ -2,12 +2,13 @@
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-This portfolio documents practical home lab projects, Windows and network troubleshooting practices, hardware support tasks, backup workflows and support documentation.
+In this portfolio are documented my practical home lab projects, Windows and network troubleshooting practices, hardware support tasks, backup workflows and support documentation.
 
 ---
 
 ## About Me
-IT Support Specialist currently building hands-on skills through Microsoft IT Support Specialist and Cisco IT Support Specialist Career Path coursework.
+
+Aspiring IT Support Professional currently building hands-on skills through Microsoft IT Support Specialist and Cisco IT Support Specialist Career Path coursework.
 
 ### [Certifications](CERTIFICATIONS.md)
 
@@ -47,7 +48,7 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 
 ---
 
-## Completed Projects ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+## Completed Projects 
 
 | Project | What it demonstrates |
 |---|---|
@@ -62,7 +63,7 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 
 ---
 
-## In Progress / Planned Projects 
+## In Progress / Planned Projects ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
 - [01 Active Directory Lab](./PROJECTS/01-active-directory-lab/)
 - [02 Domain Join Client](./PROJECTS/02-domain-join-client/)
