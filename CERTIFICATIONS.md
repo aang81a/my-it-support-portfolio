@@ -4,11 +4,11 @@
 
   Abgeschlossene Teilkurse:
   
-  ▪ Apr 2026 | IT Customer Support Basics | Kurszertifikat
+  ▪ Apr 2026 | [IT Customer Support Basics](https://www.credly.com/badges/c0e97d73-bd19-4231-b1bd-3c0a773bd763) | Kurszertifikat
 
-  ▪ Jun 2026 | Operating Systems Support | Kurszertifikat
+  ▪ Jun 2026 | [Operating Systems Support](https://www.credly.com/badges/c7bf9510-a648-4b00-a819-190ed2f3fe6f) | Kurszertifikat
     
-  Fokus: Troubleshooting, Ticketing, Remote Support, Customer Support Workflows, Windows-, Linux-, macOS- und Mobile-Device-Support
+  Fokus: Windows Troubleshooting, Ticketing, Remote Support, Customer Support Workflows, Windows-, Linux-, macOS- und Mobile-Device-Support, Software installation
 
 ▪ **Nov 2025 – heute | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)**
 
