@@ -53,7 +53,7 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 
 | Project | What it demonstrates |
 |---|---|
-| [04 Network Troubleshooting Cases](./PROJECTS/04-network-troubleshooting-cases/README.md) | IPv4 misconfiguration, DHCP restore, `ipconfig`, `ping`, Ethernet vs Wi-Fi vs mobile hotspot comparison |
+| [04 Network Troubleshooting Cases](./PROJECTS/04-network-troubleshooting-cases/README-case-04.md) | IPv4 misconfiguration, DHCP restore, `ipconfig`, `ping`, Ethernet vs Wi-Fi vs mobile hotspot comparison |
 | [07 Home Lab Documentation: Lab Inventory](./PROJECTS/07-home-lab-documentation/lab-inventory.md) | Lab inventory, hardware documentation, storage devices, backup systems, practical IT support environment |
 | [07 Home Lab Documentation: Computer3 RAM Upgrade](./PROJECTS/07-home-lab-documentation/hardware-cases/computer-3-ram-upgrade/README.md) | RAM compatibility check, SO-DIMM installation, 8GB to 16GB upgrade |
 | [07 Home Lab Documentation: Legacy Storage Troubleshooting and Backup](./PROJECTS/07-home-lab-documentation/hardware-cases/legacy-storage-troubleshooting-and-backup/README.md) | IDE/PATA and SATA storage troubleshooting, BIOS detection, boot issue analysis, data protection and backup workflow |
