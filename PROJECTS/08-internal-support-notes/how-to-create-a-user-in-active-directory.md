@@ -14,7 +14,7 @@
 </tr>
 </table>
 
-**Document ID:** `UG-1001`  
+**Document AD:** `UG-1001`  
 **Category:** Identity & Access Management  
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** May 2026
