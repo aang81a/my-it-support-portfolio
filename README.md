@@ -1,5 +1,3 @@
-![Banner](IMAGES/02/portfolio-banner.png)
-
 # IT Support Portfolio
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
@@ -73,3 +71,5 @@ IT Support Specialist currently building hands-on skills through Microsoft IT Su
 - [06 Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/)
 - [10 Windows Admin Tasks](./PROJECTS/10-windows-admin-tasks/)
 - [11 Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
+
+![Banner](IMAGES/02/portfolio-banner.png)
