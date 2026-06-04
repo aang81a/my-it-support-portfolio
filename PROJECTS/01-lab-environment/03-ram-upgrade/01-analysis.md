@@ -1,5 +1,7 @@
 # Analysis – RAM Upgrade
 
+---
+
 ## Overview
 
 This document analyzes different RAM upgrade options for an HP All-in-One system.
