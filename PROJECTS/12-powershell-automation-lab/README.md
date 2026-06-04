@@ -10,15 +10,15 @@
 
 **PowerShell automation for collecting support-relevant system details**
 
-**Tool:** PowerShell
+**Tool:** PowerShell  
 
-**Project concept:** One-click support metadata collection for IT support workflows.
+**Project concept:** One-click support metadata collection for IT support workflows.  
 
 **Project evolution:** script → executable workflow testing → troubleshooting and refinement → documentation → published PowerShell version
 
-I developed this project by adapting and enhancing an initial PowerShell metadata collection script into a tested 1st Level Support workflow with local executable packaging and desktop shortcut testing. 
+I worked on this project by adapting and enhancing an initial PowerShell metadata collection script and testing it as a 1st Level Support workflow, including local executable packaging and desktop shortcut testing.  
 
-I tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and end-user-facing documentation.
+I tested it on multiple Windows systems, documented the troubleshooting process, and wrote both technician-facing and end-user-facing documentation.  
 
 ---
 
