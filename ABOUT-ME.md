@@ -51,7 +51,7 @@ I focus on delivering high-quality user support by combining technical troublesh
 - Building a Windows Server home lab
 - Practicing domain join and user management
 - Writing troubleshooting case studies
-- Learning ticketing with Spiceworks
+- Learning ticketing with Spiceworks / ServiceNow
 - [Certifications](CERTIFICATIONS.md) ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 - 1st-level support workflows
 - Ticket management and documentation
