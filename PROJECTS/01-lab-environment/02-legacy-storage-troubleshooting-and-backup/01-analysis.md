@@ -16,6 +16,8 @@ The main goal was to understand whether the issue was caused by:
 - an operating system problem
 - old data that should be checked before reinstalling or formatting
 
+---
+
 ## Initial Symptoms
 
 During startup, the system displayed the following messages:
@@ -27,6 +29,8 @@ During startup, the system displayed the following messages:
 - `Reboot and Select proper Boot device or Insert Boot Media in selected Boot device and press a key`
 
 These messages indicated that the system could enter BIOS, but it could not successfully boot from the selected device.
+
+---
 
 ## Hardware Observed
 
@@ -64,6 +68,8 @@ Important observations:
 
 This means the hard drive was physically detected, but the boot process failed later.
 
+---
+
 ## BIOS Detection Results
 
 The BIOS detected the Samsung hard drive as:
@@ -83,6 +89,8 @@ This was an important result because it showed that:
 - the problem was probably not simple power failure
 - the issue could be related to boot order, missing operating system, corrupted bootloader, or incompatible installation
 
+---
+
 ## Optical Drive Detection
 
 The ASUS optical drive was also detected during testing.
@@ -96,6 +104,8 @@ ASUS DRW-1608P3S
 This confirmed that at least one optical drive could be used as a possible boot device for a Windows installation or recovery disc.
 
 The LG optical drive was tested separately, but the troubleshooting focus remained on keeping the setup simple and avoiding too many variables at once.
+
+---
 
 ## Boot Priority Findings
 
@@ -118,6 +128,7 @@ or Insert Boot Media in selected Boot device and press a key
 ```
 This suggested that the BIOS could detect the drive, but did not find a valid bootable system on it.
 
+---
 
 ## Important Safety Decision
 
@@ -131,6 +142,7 @@ Before reinstalling Windows or changing partitions, the safer decision was:
 3. back up files first
 4. only then decide whether the drive can be reused, formatted, or repaired
 
+---
 
 ## Additional SATA HDD Test
 
@@ -144,6 +156,8 @@ Result:
 - Backup to an external Seagate USB drive was started.
 
 This showed that the WD SATA HDD could be used for data checking and backup practice, even though it was not a standalone bootable system drive.
+
+---
 
 ## Initial Conclusion
 The first analysis showed two different situations:
@@ -162,6 +176,8 @@ The first analysis showed two different situations:
 - contained visible folders and files 
 - suitable for backup and data review
 - useful as part of the storage recovery workflow
+
+---
 
 ## IT Support Relevance
 This case is relevant for first-level IT support because it shows a realistic troubleshooting process:
