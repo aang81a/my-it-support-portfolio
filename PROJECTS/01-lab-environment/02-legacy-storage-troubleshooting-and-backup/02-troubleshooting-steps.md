@@ -1,4 +1,4 @@
-# 02 — Troubleshooting Steps
+# Troubleshooting Steps
 
 ## Purpose
 
