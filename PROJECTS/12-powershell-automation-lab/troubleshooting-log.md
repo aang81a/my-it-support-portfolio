@@ -7,6 +7,8 @@
 ![Tool](https://img.shields.io/badge/Tool-PowerShell-blue)
 ![Skill](https://img.shields.io/badge/Skill-Troubleshooting_Log-green)
 
+---
+
 This document chronicles the sequential testing phases and technical challenges encountered during the development of the IT-Diagnostic-Tool project.
 
 The purpose of this log is to show how the utility evolved from a baseline configuration script into a tested, fully validated, user-friendly desktop workflow, capturing how issues such as Desktop path ambiguity, script syntax errors, empty report output, and stale antivirus entries were isolated and resolved.
