@@ -60,26 +60,20 @@ I focus on delivering high-quality user support by combining technical troublesh
 - Practicing domain join and user management
 - Writing troubleshooting case studies
 - Learning ticketing with Spiceworks
-
 - [Certifications](CERTIFICATIONS.md) ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-
-  - Feb 2026 – present | IT Support Specialist Career Path | Cisco Networking Academy
-  - Nov 2025 – present | Microsoft IT Support Specialist Professional Certificate | Microsoft via Coursera
-
-
 - 1st-level support workflows
 - Ticket management and documentation
 - Windows and basic network support
 - Hardware troubleshooting and backup workflows
 - Home lab documentation
 - Practical support case studies
-
-- User account access and onboarding tasks - még hátra van
+- User account access and onboarding tasks
 
 ---
 
 ## 🔭 Future Focus ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-- Continuing Microsoft IT Support Specialist program (Windows, Microsoft 365, troubleshooting)
+
+- Continuing Microsoft IT Support Specialist program
 - Expanding hands-on troubleshooting and support workflows
 - Improving efficiency in IT support through basic automation
 - Supporting user and access management in structured environments
