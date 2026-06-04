@@ -14,7 +14,7 @@
 </table>
 
 **Document ID:** `AD-1003`  
-**Category:** Identity & Access Management  
+**Category:** User Account Support 
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** May 2026
 
