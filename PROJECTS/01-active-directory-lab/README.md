@@ -42,4 +42,8 @@ Screenshots will be added…
 
 ## Notes
 
-
+- The specific tasks:
+    
+    - Resetting a user’s forgotten password.
+    - Unlocking an account after a user enters the wrong password too many times.
+    - Adding a new employee to a specific email distribution group or folder permission list.
