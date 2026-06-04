@@ -5,9 +5,8 @@
 
 ---
 
-All notable changes made while building, testing, and refining this project are documented in this file.
+_All notable changes made while building, testing, and refining this project are documented in this file._
 
----
 
 ### 2026-05-08
 
