@@ -45,6 +45,12 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ---
 
+## 🧺 Featured portfolio
+
+- [IT Support Portfolio](https://github.com/aang81a/my-it-support-portfolio)
+
+---
+
 ## 🎯 Current focus ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 I focus on delivering high-quality user support by combining technical troubleshooting with clear, professional communication. 
 
@@ -60,12 +66,6 @@ I focus on delivering high-quality user support by combining technical troublesh
 - Home lab documentation
 - Practical support case studies
 - User account access and onboarding tasks
-
----
-
-## 🧺 Featured portfolio
-
-- [IT Support Portfolio](https://github.com/aang81a/my-it-support-portfolio)
 
 ---
 
