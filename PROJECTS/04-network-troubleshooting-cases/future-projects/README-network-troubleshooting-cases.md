@@ -1,5 +1,7 @@
 # Network Troubleshooting Cases
 
+---
+
 ## Goal
 This section demonstrates practical IT support troubleshooting skills based on real-world scenarios.
 
