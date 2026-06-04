@@ -7,10 +7,10 @@
 ▪ **Feb 2026 – heute | IT Support Specialist Career Path | Cisco Networking Academy**
 
   Abgeschlossene Teilkurse:
-  
-  ▪ Apr 2026 | [IT Customer Support Basics](https://www.credly.com/badges/c0e97d73-bd19-4231-b1bd-3c0a773bd763) | Kurszertifikat
 
   ▪ Jun 2026 | [Operating Systems Support](https://www.credly.com/badges/c7bf9510-a648-4b00-a819-190ed2f3fe6f) | Kurszertifikat
+  
+  ▪ Apr 2026 | [IT Customer Support Basics](https://www.credly.com/badges/c0e97d73-bd19-4231-b1bd-3c0a773bd763) | Kurszertifikat
     
   Fokus: Windows Troubleshooting, Ticketing, Remote Support, Customer Support Workflows, Windows-, Linux-, macOS- und Mobile-Device-Support, Software installation
 
