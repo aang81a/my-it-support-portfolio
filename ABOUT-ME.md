@@ -1,5 +1,5 @@
 # 🎙 Hello, I'm Angie 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
 ![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue) ![Level](https://img.shields.io/badge/Level-Entry--Level-lightgrey)
 
 **Aspiring IT Support Professional (1st level) | Focus on User Experience & Efficiency & Documentation** 
@@ -51,14 +51,14 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ---
 
-## 🎯 Current focus ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+## 🎯 Current focus ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
 I focus on delivering high-quality user support by combining technical troubleshooting with clear, professional communication. 
 
 - Building a Windows Server home lab
 - Practicing domain join and user management
 - Writing troubleshooting case studies
 - Learning ticketing with Spiceworks / ServiceNow
-- [Certifications](CERTIFICATIONS.md) ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+- [Certifications](CERTIFICATIONS.md) ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
 - 1st-level support workflows
 - Ticket management and documentation
 - Windows and basic network support
@@ -80,7 +80,7 @@ I focus on delivering high-quality user support by combining technical troublesh
 
 ---
 
-## 🔭 Future Focus ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+## 🔭 Future Focus ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
 
 - Continuing Microsoft IT Support Specialist program
 - Expanding hands-on troubleshooting and support workflows
