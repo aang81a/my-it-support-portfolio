@@ -6,7 +6,7 @@
 
 <img src=!(./IMAGES/tech-log-solutions-logo.png) width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal IT Standard Operating Protocol*
 
-![Banner](my-it-support-portfolio/IMAGES/01/tech-log-solutions-logo.png)
+![Banner](./my-it-support-portfolio/IMAGES/01/tech-log-solutions-logo.png)
 
 ---
 
