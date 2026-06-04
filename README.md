@@ -1,6 +1,6 @@
 # IT Support Portfolio
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
 
 In this portfolio are documented my practical home lab projects, Windows and network troubleshooting practices, hardware support tasks, backup workflows and support documentation.
 
@@ -14,7 +14,7 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 
 ---
 
-## 🛠 Support skills ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+## 🛠 Support skills ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
 
 - Basic Windows support
 - Microsoft 365 Support Fundamentals
