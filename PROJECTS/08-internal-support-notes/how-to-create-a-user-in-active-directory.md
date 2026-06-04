@@ -2,13 +2,6 @@
 
 ![Topic](https://img.shields.io/badge/Topic-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
 
----
-
-## Purpose
-
-This note explains the basic support workflow for creating a new user account in Active Directory.
-
-It is intended as an internal quick-reference note for IT support tasks.
 
 ---
 
@@ -22,12 +15,18 @@ It is intended as an internal quick-reference note for IT support tasks.
 </tr>
 </table>
 
----
-
 **Document ID:** `UG-1001`  
 **Category:** Identity & Access Management  
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** May 2026
+
+---
+
+## Purpose
+
+This note explains the basic support workflow for creating a new user account in Active Directory.
+
+It is intended as an internal quick-reference note for IT support tasks.
 
 ---
 
