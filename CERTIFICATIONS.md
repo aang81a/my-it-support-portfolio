@@ -6,7 +6,7 @@
 
 ▪ **Feb 2026 – heute | IT Support Specialist Career Path | Cisco Networking Academy**
 
-  Abgeschlossene Teilkurse:
+    Abgeschlossene Teilkurse:
 
   ▪ Jun 2026 | [Operating Systems Support](https://www.credly.com/badges/c7bf9510-a648-4b00-a819-190ed2f3fe6f) | Kurszertifikat
   
@@ -16,7 +16,7 @@
 
 ▪ **Nov 2025 – heute | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)**
 
-  Abgeschlossene Teilkurse:
+    Abgeschlossene Teilkurse:
 
    ▪ Jun 2026 | [The Microsoft 365 Ecosystem](https://coursera.org/share/3f561dca4103de9120f9aa6d5c0f1b2c) | Microsoft (via Coursera) | Kurszertifikat
 
