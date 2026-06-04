@@ -14,7 +14,7 @@
 </table>
 
 **Document ID:** `NET-1001`  
-**Category:** Network Support
+**Category:** Network Support  
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** May 2026
 
