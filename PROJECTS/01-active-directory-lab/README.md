@@ -47,3 +47,5 @@ Screenshots will be added…
     - Resetting a user’s forgotten password.
     - Unlocking an account after a user enters the wrong password too many times.
     - Adding a new employee to a specific email distribution group or folder permission list.
+
+_"Familiar with basic Active Directory user administration (password resets, account unlocking, group management) and trained in ITIL-aligned Incident Management ticketing workflows."_
