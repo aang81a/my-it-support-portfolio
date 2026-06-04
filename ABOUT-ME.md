@@ -30,7 +30,7 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 ![Skill](https://img.shields.io/badge/Skill-Gateway%20Testing-blue)
 
 ![Skill](https://img.shields.io/badge/Skill-Network%20Troubleshooting-blue) ![Skill](https://img.shields.io/badge/Skill-Wi--Fi%20%7C%20Ethernet%20%7C%20Hotspot-blueviolet)
-
+![Focus](https://img.shields.io/badge/Focus-Network%20Troubleshooting-blue)
 ![Skill](https://img.shields.io/badge/Skill-Remote%20Support-blue) ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white) ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
 
 ![Skill](https://img.shields.io/badge/Skill-Documentation-blueviolet) ![Tool](https://img.shields.io/badge/Tool-GitHub-black) ![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)
@@ -49,7 +49,6 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 - ![Active Directory](https://img.shields.io/badge/Tool-Active%20Directory-0078D4?logo=microsoft&logoColor=white) ![Active Directory](https://img.shields.io/badge/Active%20Directory-Identity%20Management-0078D4?logo=microsoft&logoColor=white) Managing users, groups, and password resets (IAM).
 - ![Microsoft 365 Admin](https://img.shields.io/badge/Skill-M365%20User%20%26%20Resource%20Admin-D83B01?logo=microsoft365&logoColor=white) 
 - ![Cloud Administration](https://img.shields.io/badge/Skill-Cloud%20User%20%26%20Resource%20Administration-0078D4?logo=microsoftazure&logoColor=white) Administering users and shared resources in a cloud environment.
-- ![Focus](https://img.shields.io/badge/Focus-Network%20Troubleshooting-blue)
 - ![Documentation](https://img.shields.io/badge/Documentation-Portfolio-blueviolet) Documenting "Case Studies" to build a knowledge base.
 - ![Skill](https://img.shields.io/badge/Skill-Ticketing-green) ![Tool](https://img.shields.io/badge/Tool-Spiceworks_(ITSM)-orange)
 
