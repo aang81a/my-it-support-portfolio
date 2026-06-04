@@ -1,5 +1,7 @@
 # Installation – RAM Upgrade
 
+---
+
 ## Overview
 
 This document describes the installation of an additional RAM module in an HP All-in-One system.
