@@ -6,7 +6,7 @@ In this portfolio are documented my practical home lab projects, Windows and net
 
 ---
 
-## About Me
+## [About Me](./PROJECTS/ABOUT-ME.md)
 
 Aspiring IT Support Professional currently building hands-on skills through Microsoft IT Support Specialist and Cisco IT Support Specialist Career Path coursework.
 
