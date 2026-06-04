@@ -28,7 +28,7 @@
 
 ▪ Feb 2026 | [Getting Started with Cisco Packet Tracer](https://www.netacad.com/certificates/?issuanceId=90446041-b555-4dd0-a25f-315131b621e5) | Cisco Networking Academy | Kurszertifikat
 
-▪ Dez 2025 | Network Basics | Cybrary | Teilnahmezertifikat (1 CEU/CPE)
+▪ Dez 2025 | [Network Basics](https://app.cybrary.it/profile/MathematicalTarantula6760?tab=cert-completion&cert=CC-67c75967-8731-44bc-ac22-4efa16206c0d) | Cybrary | Teilnahmezertifikat (1 CEU/CPE)
 
 ▪ Aug 2022 | [The Bash Shell and Basic Scripting in Linux](https://coursera.org/share/1e4359214d53b04e8bb9453c393d0816) | Coursera Project Network (via Coursera) |
 Projektzertifikat
