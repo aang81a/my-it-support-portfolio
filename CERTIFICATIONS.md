@@ -1,5 +1,7 @@
 # 📜 IT SUPPORT KURSE & ZERTIFIKATE
 
+---
+
 ▪ **Feb 2026 – heute | IT Support Specialist Career Path | Cisco Networking Academy**
 
   Abgeschlossene Teilkurse:
