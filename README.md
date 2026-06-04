@@ -31,23 +31,6 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 
 ---
 
-### 📂 Featured Projects
-
-- [01 Home Lab Environment](PROJECTS/01-lab-environment)
-- [01 Active Directory Lab](./PROJECTS/01-active-directory-lab/)
-- [02 Domain Join Client](./PROJECTS/02-domain-join-client/)
-- [03 User Accounts and Permissions](./PROJECTS/03-user-accounts-and-permissions/)
-- [04 Network Troubleshooting Cases](./PROJECTS/04-network-troubleshooting-cases/)
-- [05 Spiceworks & ServiceNow Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/) - Incident management & documentation.
-- [06 Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/)
-- [08 Internal Support Notes](./PROJECTS/08-internal-support-notes/)
-- [09 Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/)
-- [10 Windows Admin Tasks](./PROJECTS/10-windows-admin-tasks/)
-- [11 Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
-- [12 Powershell Automation Lab](./PROJECTS/12-powershell-automation-lab) - L1 Diagnostic Script & Automation. 🚀 *NEW*
-
----
-
 ## Completed Projects 
 
 | Project | What it demonstrates |
@@ -59,17 +42,17 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 | [06 Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/README.md) | User-facing guides for non-technical users and internal support notes for IT support tasks.|
 | [08 Internal Support Notes](./PROJECTS/08-internal-support-notes/README.md) | Short internal support notes for common Windows and Active Directory support tasks. |
 | [09 Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/README.md) | The differences between TeamViewer and AnyDesk |
-| [12 Powershell Automation Lab: L1 Support Diagnostic Tool](./PROJECTS/12-powershell-automation-lab/README.md) | A PowerShell utility designed to simplify the initial triage process. Collects critical system info (Network, BIOS, OS) into a standardized report to help 1st Level technicians resolve issues faster. |
+| [🚀 *NEW* 12 Powershell Automation Lab: L1 Support Diagnostic Tool](./PROJECTS/12-powershell-automation-lab/README.md) | A PowerShell utility designed to simplify the initial triage process. Collects critical system info (Network, BIOS, OS) into a standardized report to help 1st Level technicians resolve issues faster. |
 
 ---
 
 ## In Progress / Planned Projects ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-- [01 Active Directory Lab](./PROJECTS/01-active-directory-lab/)
-- [02 Domain Join Client](./PROJECTS/02-domain-join-client/)
-- [03 User Accounts and Permissions](./PROJECTS/03-user-accounts-and-permissions/)
-- [05 Spiceworks Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/)
-- [06 Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/)
+- [Active Directory Lab](./PROJECTS/01-active-directory-lab/)
+- [Domain Join Client](./PROJECTS/02-domain-join-client/)
+- [User Accounts and Permissions](./PROJECTS/03-user-accounts-and-permissions/)
+- [Spiceworks Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/)
+- [06 Knowledge Base Articles](PROJECTS/06-knowledge-base-articles)
 - [10 Windows Admin Tasks](./PROJECTS/10-windows-admin-tasks/)
 - [11 Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
 
