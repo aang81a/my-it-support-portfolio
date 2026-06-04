@@ -4,7 +4,7 @@
 
 ---
 
-<img src="../../IMAGES/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo"> | *Internal IT Standard Operating Protocol*
+<img src="../../IMAGES/tech-log-solutions-logo.png" width="210" alt="TechLog Solutions Logo"> | *Internal IT Standard Operating Protocol*
 
 ---
 
