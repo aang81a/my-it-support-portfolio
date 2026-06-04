@@ -1,4 +1,4 @@
-# Computer 3 RAM Upgrade – HP All-in-One
+# RAM Upgrade – HP All-in-One
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
