@@ -3,6 +3,8 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Skill](https://img.shields.io/badge/Skill-Changelog_Maintenance-green)
 
+---
+
 All notable changes made during the development of this project are documented in this file.
 
 ---
