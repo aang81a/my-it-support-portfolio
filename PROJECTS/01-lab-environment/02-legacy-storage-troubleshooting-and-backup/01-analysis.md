@@ -1,5 +1,7 @@
 # Analysis
 
+---
+
 ## Case Summary
 
 This case started with a legacy ASUS desktop computer that showed BIOS/CMOS messages during startup and did not boot into an operating system.
@@ -28,7 +30,7 @@ These messages indicated that the system could enter BIOS, but it could not succ
 
 ## Hardware Observed
 
-### Computer 1 — Legacy ASUS Desktop
+### Computer 1 - Legacy ASUS Desktop
 
 Computer 1 was used as the main legacy troubleshooting system.
 
