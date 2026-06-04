@@ -18,7 +18,7 @@ This case was performed as part of a beginner IT support home lab. The environme
 |---|---|---|
 | Computer 1 | Legacy ASUS desktop | IDE/PATA storage testing system |
 | Computer 2 | HP black desktop | Recovery, backup, and home lab workstation |
-| Computer 3 – HP All-in-One | Hardware upgrade system | Used for RAM upgrade documentation and backup preparation |
+| Computer 3 - HP All-in-One | Hardware upgrade system | Used for RAM upgrade documentation and backup preparation |
 | WD SATA HDD source | Legacy storage source for backup | WD SATA HDD tested in Computer 2 using SATA connection; files checked and backed up |
 | Samsung SP1203N | IDE/PATA HDD | Legacy hard drive tested in Computer 1 |
 | Internal Seagate SATA HDD in Computer 2 | SATA HDD | Internal system drive used to access Windows and perform recovery/backup work |
@@ -42,10 +42,10 @@ The Western Digital SATA hard drive was tested in Computer 2 using a SATA connec
 
 ## Files in This Case
 
-- [01-analysis.md](01-analysis.md) — initial device and issue analysis
-- [02-troubleshooting-steps.md](02-troubleshooting-steps.md) — step-by-step troubleshooting workflow
-- [03-backup-and-data-check.md](03-backup-and-data-check.md) — data check and backup documentation
-- [images/](images/) — photos and screenshots from the hardware case
+- [01-analysis.md](01-analysis.md) - initial device and issue analysis
+- [02-troubleshooting-steps.md](02-troubleshooting-steps.md) - step-by-step troubleshooting workflow
+- [03-backup-and-data-check.md](03-backup-and-data-check.md) - data check and backup documentation
+- [images/](images/) - photos and screenshots from the hardware case
 
 ## Skills Demonstrated
 
@@ -60,7 +60,7 @@ The Western Digital SATA hard drive was tested in Computer 2 using a SATA connec
 
 ## Visual Documentation
 
-### Computer 1 — Legacy ASUS desktop
+### Computer 1 - Legacy ASUS desktop
 
 <img src="images/01-computer1-legacy-inside.jpg" alt="Computer 1 legacy ASUS desktop inside" width="500">
 
