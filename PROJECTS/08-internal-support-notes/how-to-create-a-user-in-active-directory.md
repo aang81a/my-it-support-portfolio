@@ -4,6 +4,14 @@
 
 ---
 
+## Purpose
+
+This note explains the basic support workflow for creating a new user account in Active Directory.
+
+It is intended as an internal quick-reference note for IT support tasks.
+
+---
+
 <table>
 <tr>
 <td valign="middle">
@@ -16,31 +24,10 @@
 
 ---
 
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td border="0" valign="middle">
-<img src="../../IMAGES/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
-</td>
-<td border="0" valign="middle">
-<em>Internal IT Standard Operating Protocol</em>
-</td>
-</tr>
-</table>
-
----
-
 **Document ID:** `UG-1001`  
-**Category:** Internal IT Support / Desktop Troubleshooting  
-**Target Audience:** All Employees (Non-Technical)  
-**Last Updated:** May 2026 
-
----
-
-## Purpose
-
-This note explains the basic support workflow for creating a new user account in Active Directory.
-
-It is intended as an internal quick-reference note for IT support tasks.
+**Category:** Identity & Access Management  
+**Target Audience:** IT Support / Service Desk  
+**Last Updated:** May 2026
 
 ---
 
