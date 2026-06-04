@@ -1,11 +1,14 @@
 # Backup and Data Check
 
+---
+
 ## Purpose
 
 This document describes the backup and data-check process used during the legacy storage troubleshooting case.
 
 The goal was to protect existing files before performing any repair, formatting, reinstallation, or further troubleshooting that could modify or destroy data.
 
+---
 
 ## Backup Principle
 
@@ -21,6 +24,7 @@ This was important because old hard drives may still contain:
 * user folders
 * recoverable data
 
+---
 
 ## Samsung SP1203N IDE/PATA HDD
 
@@ -40,6 +44,8 @@ Actions avoided:
 * no bootloader repair
 * no recovery reset
 
+---
+
 ## Western Digital SATA HDD
 
 A Western Digital SATA hard drive was tested in Computer 2 using a SATA connection.
@@ -49,6 +55,8 @@ The WD SATA HDD did not boot as a standalone Windows system drive. However, Wind
 This made it possible to start a data review and backup process.
 
 <img src="images/06-wd-sata-hdd-test.jpg" alt="Western Digital SATA HDD connected in Computer 2 for data check" width="500">
+
+---
 
 ## Backup Target
 
@@ -63,6 +71,7 @@ Reason:
 * it allowed files to be copied before further system changes
 * it reduced the risk of data loss
 
+---
 
 ## Backup Process
 
@@ -80,6 +89,8 @@ The following data categories were prioritized:
 
 The backup was allowed to continue even though the transfer was slow.
 
+---
+
 ## Slow Backup Observation
 
 The backup process was slow.
@@ -95,6 +106,7 @@ Possible reasons:
 
 The correct action was to avoid interrupting the copy process unless an error appeared.
 
+---
 
 ## Data Safety Decisions
 
@@ -107,6 +119,7 @@ During the process, the following safety decisions were applied:
 * copy important data first
 * verify copied files after backup
 
+---
 
 ## If Windows Shows a Disk Warning
 
@@ -121,6 +134,7 @@ Correct action:
 - check the data status first
 - back up accessible files before making changes
 
+---
 
 ## Verification Plan
 
@@ -135,6 +149,7 @@ Verification steps:
 * compare folder sizes if needed
 * keep the original drive unchanged until the backup is confirmed
 
+---
 
 ## Result
 
@@ -142,6 +157,7 @@ Backup was started from the Western Digital SATA HDD to the external Seagate USB
 
 The Samsung SP1203N IDE/PATA drive was left unchanged because its data could not yet be checked without an IDE/PATA-to-USB adapter.
 
+---
 
 ## Lessons Learned
 
@@ -152,6 +168,7 @@ The Samsung SP1203N IDE/PATA drive was left unchanged because its data could not
 * Slow copy speed can be normal with older drives.
 * Unknown drives should never be formatted before inspection.
 
+---
 
 ## Skills Demonstrated
 
