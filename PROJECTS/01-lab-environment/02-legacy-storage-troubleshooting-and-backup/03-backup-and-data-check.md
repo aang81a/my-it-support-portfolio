@@ -159,17 +159,6 @@ The Samsung SP1203N IDE/PATA drive was left unchanged because its data could not
 
 ---
 
-## Lessons Learned
-
-* A drive that does not boot may still contain recoverable data.
-* BIOS detection does not guarantee a working operating system.
-* Data protection must come before repair attempts.
-* External storage is useful for safe backup workflows.
-* Slow copy speed can be normal with older drives.
-* Unknown drives should never be formatted before inspection.
-
----
-
 ## Skills Demonstrated
 
 * Data-loss prevention
@@ -179,3 +168,14 @@ The Samsung SP1203N IDE/PATA drive was left unchanged because its data could not
 * Prioritizing user data
 * Recognizing destructive actions
 * Documenting a recovery workflow
+
+---
+
+## Final Notes
+
+* A drive that does not boot may still contain recoverable data.
+* BIOS detection does not guarantee a working operating system.
+* Data protection must come before repair attempts.
+* External storage is useful for safe backup workflows.
+* Slow copy speed can be normal with older drives.
+* Unknown drives should never be formatted before inspection.
