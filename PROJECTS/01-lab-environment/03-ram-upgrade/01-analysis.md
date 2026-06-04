@@ -14,6 +14,8 @@ This document analyzes different RAM upgrade options for an HP All-in-One system
 - Installed RAM: 8GB DDR4 SO-DIMM (Samsung)
 - One free RAM slot available
 
+<img src="images/15-system-information-before-8gb.jpg" alt="The initial system information" width="500">
+
 ---
 
 ## Hardware Components
