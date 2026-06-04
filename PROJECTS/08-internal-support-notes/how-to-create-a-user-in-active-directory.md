@@ -4,6 +4,10 @@
 
 ---
 
+<img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal IT Standard Operating Procedure*
+
+---
+
 ## Purpose
 
 This note explains the basic support workflow for creating a new user account in Active Directory.
