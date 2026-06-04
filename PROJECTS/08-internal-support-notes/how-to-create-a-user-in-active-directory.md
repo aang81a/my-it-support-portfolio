@@ -4,6 +4,7 @@
 
 ---
 <img src="../../IMAGES/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo"> | *Internal IT Standard Operating Protocol*
+
 ---
 
 **Document ID:** `UG-1001`  
