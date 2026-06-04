@@ -33,7 +33,7 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 
 ### 📂 Featured Projects
 
-- [01 Home Lab Environment](PROJECTS/01-home-lab-environment/lab-environment-overview.md)
+- [01 Home Lab Environment](PROJECTS/01-lab-environment)
 - [01 Active Directory Lab](./PROJECTS/01-active-directory-lab/)
 - [02 Domain Join Client](./PROJECTS/02-domain-join-client/)
 - [03 User Accounts and Permissions](./PROJECTS/03-user-accounts-and-permissions/)
