@@ -16,6 +16,19 @@
 
 ---
 
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td border="0" valign="middle">
+<img src="../../IMAGES/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
+</td>
+<td border="0" valign="middle">
+<em>Internal IT Standard Operating Protocol</em>
+</td>
+</tr>
+</table>
+
+---
+
 **Document ID:** `UG-1001`  
 **Category:** Internal IT Support / Desktop Troubleshooting  
 **Target Audience:** All Employees (Non-Technical)  
