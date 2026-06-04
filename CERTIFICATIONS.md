@@ -24,7 +24,7 @@
 
 ## WEITERE ZERTIFIKATE | IT-Kurse (Online)
 
-▪ Feb 2026 | Getting Started with Cisco Packet Tracer | Cisco Networking Academy | Kurszertifikat
+▪ Feb 2026 | [Getting Started with Cisco Packet Tracer](https://www.netacad.com/certificates/?issuanceId=90446041-b555-4dd0-a25f-315131b621e5) | Cisco Networking Academy | Kurszertifikat
 
 ▪ Dez 2025 | Network Basics | Cybrary | Kurszertifikat (1 CEU/CPE)
 
