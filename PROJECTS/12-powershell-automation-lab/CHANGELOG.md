@@ -5,7 +5,7 @@
 
 ---
 
-All notable changes made during the development of this project are documented in this file.
+All notable changes made while building, testing, and refining this project are documented in this file.
 
 ---
 
