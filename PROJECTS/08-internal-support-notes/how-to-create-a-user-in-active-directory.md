@@ -9,8 +9,7 @@
 <td valign="middle">
 <img src="../../IMAGES/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
 </td>
-<td valign="middle">
-| <em>Internal IT Standard Operating Protocol</em>
+<td valign="middle"> <em>Internal IT Standard Operating Protocol</em>
 </td>
 </tr>
 </table>
