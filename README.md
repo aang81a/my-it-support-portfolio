@@ -14,7 +14,7 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 
 ---
 
-## 🛠 Support skills ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
+## 🛠 Support skills  
 
 - Basic Windows support
 - Microsoft 365 Support Fundamentals
@@ -46,7 +46,7 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 
 ---
 
-## In Progress / Planned Projects ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+## In Progress / Planned Projects ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
 
 - [Active Directory Lab](./PROJECTS/01-active-directory-lab/)
 - [Domain Join Client](./PROJECTS/02-domain-join-client/)
