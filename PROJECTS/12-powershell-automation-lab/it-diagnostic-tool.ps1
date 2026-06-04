@@ -1,5 +1,5 @@
 # ==========================================================
-# Script: client-diagnostic.ps1
+# Script: it-diagnostic.ps1
 # Version: 1.1.0 (2026-mm-dd)
 # Purpose: IT Diagnostic Tool
 # ==========================================================
