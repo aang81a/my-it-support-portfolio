@@ -10,7 +10,9 @@ In this portfolio are documented my practical home lab projects, Windows and net
 
 Aspiring IT Support Professional currently building hands-on skills through Microsoft IT Support Specialist and Cisco IT Support Specialist Career Path coursework.
 
-### [Certifications](CERTIFICATIONS.md)
+---
+
+## [Certifications](CERTIFICATIONS.md)
 
 ---
 
