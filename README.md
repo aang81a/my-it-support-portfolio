@@ -33,7 +33,7 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 
 ### 📂 Featured Projects
 
-- [01 Home Lab Environment](PROJECTS/01-home-lab-environment )
+- [01 Home Lab Environment](PROJECTS/01-home-lab-environment)
 - [01 Active Directory Lab](./PROJECTS/01-active-directory-lab/)
 - [02 Domain Join Client](./PROJECTS/02-domain-join-client/)
 - [03 User Accounts and Permissions](./PROJECTS/03-user-accounts-and-permissions/)
@@ -52,7 +52,7 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 
 | Project | What it demonstrates |
 |---|---|
-| [01 Home Lab Environment](PROJECTS/01-home-lab-environment/01-home-lab-environment/) | Lab inventory, hardware documentation, storage devices, backup systems, practical IT support environment |
+| [01 Home Lab Environment](PROJECTS/01-home-lab-environment) | Lab inventory, hardware documentation, storage devices, backup systems, practical IT support environment |
 | [01 Home Lab Documentation: Computer3 RAM Upgrade](./PROJECTS/01-home-lab-environment/03-ram-upgrade/README.md) | RAM compatibility check, SO-DIMM installation, 8GB to 16GB upgrade |
 | [01 Home Lab Documentation: Legacy Storage Troubleshooting and Backup](./PROJECTS/01-home-lab-environment/02-legacy-storage-troubleshooting-and-backup/README.md) | IDE/PATA and SATA storage troubleshooting, BIOS detection, boot issue analysis, data protection and backup workflow |
 | [04 Network Troubleshooting Cases](./PROJECTS/04-network-troubleshooting-cases/README-case-04.md) | IPv4 misconfiguration, DHCP restore, `ipconfig`, `ping`, Ethernet vs Wi-Fi vs mobile hotspot comparison |
