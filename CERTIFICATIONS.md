@@ -2,6 +2,8 @@
 
 ---
 
+## IT-KURSE
+
 ▪ **Feb 2026 – heute | IT Support Specialist Career Path | Cisco Networking Academy**
 
   Abgeschlossene Teilkurse:
@@ -24,7 +26,7 @@
 
 ---
 
-## WEITERE ZERTIFIKATE | IT-Kurse (Online)
+## WEITERE ZERTIFIKATE
 
 ▪ Feb 2026 | [Getting Started with Cisco Packet Tracer](https://www.netacad.com/certificates/?issuanceId=90446041-b555-4dd0-a25f-315131b621e5) | Cisco Networking Academy | Kurszertifikat
 
