@@ -12,6 +12,14 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ---
 
+## 🌟 My Approach to Support 
+
+- **User-First Mindset:** I prioritize active listening and clear communication to ensure users feel heard and supported.
+- **Efficiency through Documentation:** I believe that good documentation is the key to a fast helpdesk. I enjoy creating clear "How-To" guides to empower users and help my team. 
+- **Proactive Problem Solving:** I'm always looking for ways to streamline repetitive tasks so I can spend more time helping people with complex issues.
+
+---
+
 ## ⚙ With hands-on experience in:
 
 ![Skill](https://img.shields.io/badge/Skill-Hardware-orange)
@@ -34,14 +42,6 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 ![Skill](https://img.shields.io/badge/Skill-Remote%20Support-blue) ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white) ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
 
 ![Skill](https://img.shields.io/badge/Skill-Documentation-blueviolet) ![Tool](https://img.shields.io/badge/Tool-GitHub-black) ![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)
-
----
-
-## 🌟 My Approach to Support 
-
-- **User-First Mindset:** I prioritize active listening and clear communication to ensure users feel heard and supported.
-- **Efficiency through Documentation:** I believe that good documentation is the key to a fast helpdesk. I enjoy creating clear "How-To" guides to empower users and help my team. 
-- **Proactive Problem Solving:** I'm always looking for ways to streamline repetitive tasks so I can spend more time helping people with complex issues.
 
 ---
 
