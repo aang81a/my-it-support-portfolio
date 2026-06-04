@@ -14,6 +14,8 @@
 
   Abgeschlossene Teilkurse:
 
+   ▪ Jun 2026 | The Microsoft 365 Ecosystem | Microsoft (via Coursera) | Kurszertifikat
+
    ▪ Jan 2026 | Introduction to Secure Networking | Microsoft (via Coursera) | Kurszertifikat
 
    ▪ Jan 2026 | Introduction to Computers | Microsoft (via Coursera) | Kurszertifikat
