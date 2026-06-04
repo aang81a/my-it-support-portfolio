@@ -12,7 +12,7 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 
 ---
 
-## [Certifications](CERTIFICATIONS.md)
+## 📜 [Certifications](CERTIFICATIONS.md)
 
 ---
 
