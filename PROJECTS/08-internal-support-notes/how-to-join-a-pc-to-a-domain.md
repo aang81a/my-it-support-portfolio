@@ -4,6 +4,23 @@
 
 ---
 
+<table>
+<tr>
+<td valign="middle">
+<img src="../../IMAGES/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
+</td>
+<td valign="middle"> <em>Internal IT Standard Operating Protocol</em>
+</td>
+</tr>
+</table>
+
+**Document ID:** `AD-1002`  
+**Category:** Identity & Access Management  
+**Target Audience:** IT Support / Service Desk  
+**Last Updated:** May 2026
+
+---
+
 ## Purpose
 
 This note explains the basic support workflow for joining a Windows computer to a domain.
