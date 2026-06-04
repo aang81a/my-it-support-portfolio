@@ -26,7 +26,7 @@
 
 ▪ Feb 2026 | [Getting Started with Cisco Packet Tracer](https://www.netacad.com/certificates/?issuanceId=90446041-b555-4dd0-a25f-315131b621e5) | Cisco Networking Academy | Kurszertifikat
 
-▪ Dez 2025 | Network Basics | Cybrary | Kurszertifikat (1 CEU/CPE)
+▪ Dez 2025 | Network Basics | Cybrary | Teilnahmezertifikat (1 CEU/CPE)
 
 ▪ Aug 2022 | [The Bash Shell and Basic Scripting in Linux](https://coursera.org/share/1e4359214d53b04e8bb9453c393d0816) | Coursera Project Network (via Coursera) |
 Projektzertifikat
@@ -36,14 +36,14 @@ Projektzertifikat
 ## WEBINARE (Teilnahmebestätigung)
 
 ▪ Dez 2025 | ChatGPT 5.1 Masterclass: Mastering GPT-5.1 to 10X Your Productivity | InfosecTrain |
-Webinar-Zertifikat (1 CPE)
+Webinar-Teilnahmezertifikat (1 CPE)
 
 ▪ Nov 2025 | Rising with AI in Cybersecurity: Must Have Skills for 2026 | InfosecTrain | Webinar-
-Zertifikat (2 CPE)
+Teilnahmezertifikat (2 CPE)
 
 ▪ Nov 2025 | Google vs Microsoft vs Zoho: Intelligent Workspaces 2025 | InfosecTrain | Webinar-
-Zertifikat (1 CPE)
+Teilnahmezertifikat (1 CPE)
 
-▪ Nov 2025 | AI-Powered Spreadsheet Skills: Get Smarter with Data | InfosecTrain | Webinar-Zertifikat
+▪ Nov 2025 | AI-Powered Spreadsheet Skills: Get Smarter with Data | InfosecTrain | Webinar-Teilnahmezertifikat
 (1 CPE)
 
