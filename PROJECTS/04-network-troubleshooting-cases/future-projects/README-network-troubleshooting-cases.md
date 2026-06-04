@@ -28,14 +28,14 @@ The following issues are covered:
 
 Each troubleshooting case includes:
 
-- **Problem** – Description of the issue reported by the user  
-- **Environment** – System context (Windows, network, domain, etc.)  
-- **Diagnosis Steps** – Step-by-step analysis  
-- **Root Cause** – Identified reason for the issue  
-- **Solution** – Actions taken to resolve the problem  
-- **Result** – Outcome after applying the fix  
-- **Screenshots** – Supporting visual evidence (where applicable)  
-- **Lessons Learned** – Key takeaways from the case  
+- **Problem** - Description of the issue reported by the user  
+- **Environment** - System context (Windows, network, domain, etc.)  
+- **Diagnosis Steps** - Step-by-step analysis  
+- **Root Cause** - Identified reason for the issue  
+- **Solution** - Actions taken to resolve the problem  
+- **Result** - Outcome after applying the fix  
+- **Screenshots** - Supporting visual evidence (where applicable)  
+- **Lessons Learned** - Key takeaways from the case  
 
 ---
 
