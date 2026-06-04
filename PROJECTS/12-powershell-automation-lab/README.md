@@ -8,11 +8,11 @@
 
 ---
 
-**PowerShell automation for collecting support-relevant system details**
+#### **PowerShell automation for collecting support-relevant system details**
 
-**Tool:** PowerShell  
+#### **Tool:** PowerShell  
 
-**Project concept:** One-click support metadata collection for IT support workflows.  
+#### **Project concept:** One-click support metadata collection for IT support workflows.  
 
 **Project evolution:** script → executable workflow testing → troubleshooting and refinement → documentation → published PowerShell version
 
