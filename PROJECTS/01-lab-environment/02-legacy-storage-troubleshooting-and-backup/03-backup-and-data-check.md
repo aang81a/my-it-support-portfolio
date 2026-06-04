@@ -1,4 +1,4 @@
-# 03 — Backup and Data Check
+# Backup and Data Check
 
 ## Purpose
 
