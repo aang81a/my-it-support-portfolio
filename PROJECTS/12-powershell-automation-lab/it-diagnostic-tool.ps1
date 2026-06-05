@@ -1,5 +1,3 @@
-# powershell
-
 # ==========================================================
 # Script: it-diagnostic.ps1
 # Version: 1.1.0 (2026-mm-dd)
