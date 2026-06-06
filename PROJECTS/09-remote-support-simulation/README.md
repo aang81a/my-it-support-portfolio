@@ -89,7 +89,7 @@ For AnyDesk, the correct workflow in this lab was to enter the user device addre
 
 ## Screenshots
 
-### TeamViewer Remote Support Session
+## TeamViewer Remote Support Session
 
 | Step | Screenshot |
 |---|---|
@@ -108,11 +108,11 @@ For AnyDesk, the correct workflow in this lab was to enter the user device addre
 | User confirms session closing | <img src="screenshots/teamviewer/13-teamviewer-user-close-session-confirmation.png" width="500"> |
 | Supporter device overview after the session | <img src="screenshots/teamviewer/14-teamviewer-supporter-managed-device-overview.png" width="500"> |
 
-### AnyDesk Remote Support Session
+## AnyDesk Remote Support Session
 
 | Step | Screenshot |
 |---|---|
-| AnyDesk download page | <img src="screenshots/anydesk/01-anydesk-download-page.png" width="500"> |
+| AnyDesk download page | <img src="screenshots/anydesk/01-anydesk-website-download.png" width="500"> |
 | Supporter enters the user address | <img src="screenshots/anydesk/02-anydesk-supporter-enters-user-address.png" width="500"> |
 | Supporter sends connection request | <img src="screenshots/anydesk/03-anydesk-supporter-connection-request.png" width="500"> |
 | User accepts the session request | <img src="screenshots/anydesk/04-anydesk-user-accepts-session-request.png" width="500"> |
