@@ -44,7 +44,7 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 | [06 Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/README.md) | User-facing guides for non-technical users and internal support notes for IT support tasks.|
 | [08 Internal Support Notes](./PROJECTS/08-internal-support-notes/README.md) | Short internal support notes for common Windows and Active Directory support tasks. |
 | [09 Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/) | The differences between TeamViewer and AnyDesk |
-| [🚀 *NEW* 12 Powershell Automation Lab: L1 Support Diagnostic Tool](./PROJECTS/12-powershell-automation-lab/README.md) | A PowerShell utility designed to simplify the initial triage process. Collects critical system info (Network, BIOS, OS) into a standardized report to help 1st Level technicians resolve issues faster. |
+| [🚀 *NEW* 12 Powershell Automation Lab: IT Support Diagnostic Tool](./PROJECTS/12-powershell-automation-lab/README.md) | A PowerShell utility designed to simplify the initial triage process. Collects critical system info (Network, BIOS, OS) into a standardized report to help 1st Level technicians resolve issues faster. |
 
 ---
 
