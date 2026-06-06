@@ -48,13 +48,4 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 
 ---
 
-## In Progress / Planned Projects ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
-
-- [Active Directory Lab](./PROJECTS/01-active-directory-lab/)
-- [Domain Join Client](./PROJECTS/02-domain-join-client/)
-- [User Accounts and Permissions](./PROJECTS/03-user-accounts-and-permissions/)
-- [Spiceworks Ticketing Practice](./PROJECTS/05-spiceworks-ticketing-practice/)
-- [Windows Admin Tasks](./PROJECTS/10-windows-admin-tasks/)
-- [Research and AI in IT Support](./PROJECTS/11-research-and-ai-in-it-support/)
-
 ![Banner](IMAGES/01/portfolio-banner.png)
