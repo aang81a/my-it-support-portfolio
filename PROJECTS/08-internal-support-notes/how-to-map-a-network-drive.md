@@ -1,6 +1,8 @@
 # How to Map a Network Drive
-![Type](https://img.shields.io/badge/Type-SOP-blueviolet)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Type](https://img.shields.io/badge/Type-SOP-purple)
 ![Topic](https://img.shields.io/badge/Topic-Network%20Drive%20Access-blue)
+![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 
 ---
 
@@ -15,7 +17,7 @@
 </table>
 
 **Document ID:** `NET-1001`  
-**Category:** Network Support  
+**Category:** Network Support / Shared Drive Access  
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** May 2026
 
@@ -117,3 +119,13 @@ Document only support-relevant information:
 - whether escalation was required
 
 Do not document user passwords or unnecessary sensitive folder contents.
+
+---
+
+## Security Notes
+
+- Map only approved shared folders.
+- Do not change folder permissions without approval.
+- Do not document user passwords or sensitive folder contents.
+- Confirm VPN or company network access before troubleshooting permissions.
+- Escalate access to restricted or confidential folders.
