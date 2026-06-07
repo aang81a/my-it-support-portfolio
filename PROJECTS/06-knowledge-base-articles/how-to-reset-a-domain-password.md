@@ -9,7 +9,7 @@
 
 *Knowledge Base Article*
 
-**Article ID:** KB-1006  
+**Article ID:** `KB-1006`  
 **Category:** Internal IT Support / Password Reset  
 **Audience:** IT support  
 **Last Updated:** May 2026  
