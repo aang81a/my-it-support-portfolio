@@ -1,7 +1,7 @@
 # How to Connect to the Company VPN from Home
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blue)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blueviolet)
 ![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-VPN%20Access-blue)
 
