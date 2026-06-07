@@ -116,6 +116,13 @@ I focus on delivering high-quality user support by combining technical troublesh
 
 ---
 
+- Microsoft 365 ecosystem, user support, collaboration tools, and productivity workflows
+- OneDrive, SharePoint, Teams, and Outlook support scenarios
+- Security and compliance basics, including endpoint protection and DLP awareness
+- MS-900 preparation: cloud concepts, collaboration, security, compliance, and Microsoft 365 services
+
+---
+
 ## 🔭 Future Focus ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
 
 - Continuing Microsoft IT Support Specialist program
