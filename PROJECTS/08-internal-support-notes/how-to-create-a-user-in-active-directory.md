@@ -1,7 +1,6 @@
 # How to Create a User in Active Directory
-
-![Topic](https://img.shields.io/badge/Topic-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
 ![Type](https://img.shields.io/badge/Type-SOP-blueviolet)
+![Topic](https://img.shields.io/badge/Topic-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
 
 ---
 
