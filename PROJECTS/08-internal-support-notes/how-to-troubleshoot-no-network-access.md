@@ -1,6 +1,8 @@
 # How to Troubleshoot No Network Access
-![Type](https://img.shields.io/badge/Type-SOP-blueviolet)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Type](https://img.shields.io/badge/Type-SOP-purple)
 ![Topic](https://img.shields.io/badge/Topic-Windows%20Networking-blue)
+![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 
 ---
 
@@ -15,7 +17,7 @@
 </table>
 
 **Document ID:** `NET-1002`  
-**Category:** Network Support  
+**Category:** Network Support / Connectivity Troubleshooting   
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** May 2026
 
@@ -109,3 +111,12 @@ Document only support-relevant information:
 Include relevant test results if they help explain the issue, such as IP configuration, gateway ping, external IP ping, or DNS/name resolution results.
 
 Do not document unnecessary private information such as usernames, personal device names, Wi-Fi names, public IP addresses, global IPv6 addresses, or private file paths.
+
+---
+
+## Security and Privacy Notes
+
+- Do not publish screenshots with public IP addresses, global IPv6 addresses, Wi-Fi names, or private user details.
+- Do not change DNS, IP, VPN, or firewall settings without approval.
+- Use only the test results needed for troubleshooting and ticket documentation.
+- Escalate suspected infrastructure, DNS, DHCP, VPN, or firewall issues.
