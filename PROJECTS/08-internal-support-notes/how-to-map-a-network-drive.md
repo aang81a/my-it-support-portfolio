@@ -1,4 +1,5 @@
 # How to Map a Network Drive
+![Type](https://img.shields.io/badge/Type-SOP-blueviolet)
 ![Topic](https://img.shields.io/badge/Topic-Network%20Drive%20Access-blue)
 
 ---
