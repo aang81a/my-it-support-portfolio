@@ -1,8 +1,8 @@
 # How to Reset a Domain Password
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blueviolet)
-![Audience](https://img.shields.io/badge/Audience-IT%20Support-lightgrey)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-purple)
+![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-Password%20Reset-blue)
 
 ---
@@ -10,8 +10,8 @@
 *Knowledge Base Article*
 
 **Article ID:** `KB-1006`  
-**Category:** Internal IT Support / Password Reset  
-**Audience:** IT support  
+**Category:** Active Directory / Password Reset  
+**Audience:** IT Support / Service Desk  
 **Last Updated:** May 2026  
 
 ---
