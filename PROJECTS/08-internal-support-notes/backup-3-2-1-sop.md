@@ -147,7 +147,7 @@ Recommended method:
 Example Robocopy command:
 
 ```powershell
-robocopy "C:\Users\<username>\Documents" "E:\Backup_2026-06-07\Documents" /E /COPY:DAT /R:2 /W:2
+robocopy "C:\Users\<username>\Documents" "E:\Backup_2026-12-15\Documents" /E /COPY:DAT /R:2 /W:2
 ```
 
 Replace:
