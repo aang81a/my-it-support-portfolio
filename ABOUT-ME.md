@@ -99,6 +99,9 @@ I focus on delivering high-quality user support by combining technical troublesh
 - Home lab documentation
 - Practical support case studies
 - User account access and onboarding tasks
+- Active Directory home lab
+- ServiceNow / ticketing workflows
+- Windows Server basics
 
 ---
 
@@ -113,13 +116,6 @@ I focus on delivering high-quality user support by combining technical troublesh
 - ![Tool](https://img.shields.io/badge/Tool-ServiceNow%20ITSM-orange)
 - ![Tool](https://img.shields.io/badge/Tool-Spiceworks%20ITSM-orange)
 - ![Skill](https://img.shields.io/badge/Skill-Portfolio%20Documentation-purple)
-
----
-
-- Microsoft 365 ecosystem, user support, collaboration tools, and productivity workflows
-- OneDrive, SharePoint, Teams, and Outlook support scenarios
-- Security and compliance basics, including endpoint protection and DLP awareness
-- MS-900 preparation: cloud concepts, collaboration, security, compliance, and Microsoft 365 services
 
 ---
 
