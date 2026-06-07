@@ -1,7 +1,7 @@
-## How to Run the IT Diagnostic Tool
+# How to Run the IT Diagnostic Tool
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blueviolet)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-purple)
 ![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
 ![Tool](https://img.shields.io/badge/Tool-IT%20Diagnostic%20Tool-blue)
 
@@ -16,7 +16,7 @@
 
 ---
 
-### Overview
+## Overview
 
 The IT Diagnostic Tool gathers basic local system and network information to help IT Support investigate a support request.
 
@@ -24,7 +24,7 @@ Use this tool only when an IT Support technician asks you to run it.
 
 ---
 
-#### Step 1: Locate the Application
+## Step 1: Locate the Application
 
 1. Download the `IT_Diagnostics.zip` folder from the link provided by your IT technician.
 2. Right-click the downloaded `.zip` folder and select **Extract All...**
@@ -34,7 +34,7 @@ Use this tool only when an IT Support technician asks you to run it.
 
 ---
 
-#### Step 2: Launch and Close the Application
+## Step 2: Launch and Close the Application
 
 1. Double-click **IT-Diagnostic-Tool.exe** to start.
 
@@ -53,7 +53,7 @@ Press Enter to continue...:
 
 ---
 
-#### Step 3: Locate and Send the Report
+## Step 3: Locate and Send the Report
 
 1. Look in the extracted folder on your Desktop for a new file named **TechSupport_Report_yyyy-mm-dd_hh-mm-ss.txt**. The timestamp in the filename ensures older diagnostic reports are not overwritten.
 2. Attach this text file to your support ticket or reply to your technician's email with the file attached.
@@ -61,7 +61,19 @@ Press Enter to continue...:
 
 ---
 
-### Privacy and Data Security Note
+## When to Contact IT Support
+
+Contact IT Support if:
+
+- The ZIP file does not download.
+- You cannot extract the folder.
+- Windows blocks the application.
+- The report file is not created.
+- You see an error message.
+
+---
+
+## Privacy and Data Security Note
 
 **Collected Data:** The report only logs basic system information:
 
