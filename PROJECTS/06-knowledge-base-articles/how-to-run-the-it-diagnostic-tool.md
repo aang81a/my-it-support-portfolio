@@ -1,7 +1,7 @@
 ## How to Run the IT Diagnostic Tool
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blue)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blueviolet)
 ![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
 ![Tool](https://img.shields.io/badge/Tool-IT%20Diagnostic%20Tool-blue)
 
