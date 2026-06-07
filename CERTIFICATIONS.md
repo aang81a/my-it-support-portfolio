@@ -12,13 +12,13 @@ Abgeschlossene Teilkurse:
   
   ▪ Apr 2026 | IT Customer Support Basics | Kurszertifikat
     
-  Fokus: Windows Troubleshooting, Ticketing, Remote Support, Customer Support Workflows, Windows-, Linux-, macOS- und Mobile-Device-Support, Software installation
 
 ▪ **Nov 2025 – heute | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)**
 
 Abgeschlossene Teilkurse:
 
    ▪ Jun 2026 | The Microsoft 365 Ecosystem | Microsoft (via Coursera) | Kurszertifikat
+   - Focus: Microsoft 365 apps and services, Teams, Outlook, OneDrive, SharePoint, application integration, productivity workflows, endpoint security awareness, DLP awareness, and basic compliance concepts.
 
    ▪ Jan 2026 | Introduction to Secure Networking | Microsoft (via Coursera) | Kurszertifikat
 
