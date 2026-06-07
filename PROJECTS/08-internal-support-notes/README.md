@@ -4,6 +4,7 @@
 ![Type](https://img.shields.io/badge/Type-SOP-blueviolet)
 ![Focus](https://img.shields.io/badge/Focus-Internal%20IT%20Support%20Notes-blue)
 ![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
+![Skill](https://img.shields.io/badge/Skill-Technical%20Writing-blue)
 
 ---
 
