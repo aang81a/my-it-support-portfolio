@@ -2,14 +2,14 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-purple)
-![Audience](https://img.shields.io/badge/Audience-End%20Users-gray)
+![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-OneDrive%20Sync%20Troubleshooting-blue)
 
 ---
 
 *Knowledge Base Article*
 
-**Article ID:** KB-1003  
+**Article ID:** KB-1007  
 **Category:** Microsoft 365 / OneDrive Troubleshooting  
 **Audience:** End users  
 **Last Updated:** June 2026
