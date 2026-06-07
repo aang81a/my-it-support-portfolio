@@ -41,7 +41,7 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ![Skill](https://img.shields.io/badge/Skill-Remote%20Support-blue) ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white) ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
 
-![Skill](https://img.shields.io/badge/Skill-Documentation-blueviolet) ![Tool](https://img.shields.io/badge/Tool-GitHub-black) ![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)
+![Skill](https://img.shields.io/badge/Skill-Documentation-blueviolet) ![Tool](https://img.shields.io/badge/Tool-GitHub-black) ![Tool](https://img.shields.io/badge/Tool-Obsidian-purple) ![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue) 
 
 ---
 
