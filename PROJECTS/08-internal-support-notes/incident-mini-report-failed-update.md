@@ -2,8 +2,8 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Type](https://img.shields.io/badge/Type-Incident%20Report-purple)
-![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-Windows%20Update-blue)
+![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 
 ---
 
