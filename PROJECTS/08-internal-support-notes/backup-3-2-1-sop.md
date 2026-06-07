@@ -227,10 +227,15 @@ If something goes wrong:
 ## Ticket Note Example
 
 **Issue**: User requested backup verification for important Windows 11 files.
+
 **Action**: Checked OneDrive sync status, confirmed files online, copied selected folders to external drive, and performed a restore test.
+
 **Result**: Backup completed and test file restored successfully.
+
 **Status**: Completed.
+
 **Escalation**: Not required.
+
 **Prevention**: User advised to keep OneDrive running and repeat backup checks regularly.
 
 ---
