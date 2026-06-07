@@ -1,8 +1,8 @@
 # How to Map a Network Drive
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blueviolet)
-![Audience](https://img.shields.io/badge/Audience-End%20Users%20%7C%20IT%20Support-lightgrey)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-purple)
+![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-Network%20Drive%20Access-blue)
 
 ---
@@ -11,7 +11,7 @@
 
 **Article ID:** `KB-1005`  
 **Category:** General Support / Network Drive Access  
-**Audience:** End users / IT support  
+**Audience:** End users 
 **Last Updated:** May 2026  
 
 ---
@@ -224,6 +224,7 @@ Thank you.
 ---
 
 ## Security Notes
+
 - Do not share your company password.
 - Do not save passwords on shared or untrusted devices.
 - Access only shared folders required for your work.
