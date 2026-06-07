@@ -1,7 +1,7 @@
 # How to Map a Network Drive
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blue)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blueviolet)
 ![Audience](https://img.shields.io/badge/Audience-End%20Users%20%7C%20IT%20Support-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-Network%20Drive%20Access-blue)
 
