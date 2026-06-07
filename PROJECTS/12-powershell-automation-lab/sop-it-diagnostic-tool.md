@@ -1,7 +1,7 @@
 # SOP: Using and Maintaining the IT-Diagnostic-Tool
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Type](https://img.shields.io/badge/Type-SOP-blueviolet)
-![Audience](https://img.shields.io/badge/Audience-IT%20Support-lightgrey)
+![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 
 ---
 
