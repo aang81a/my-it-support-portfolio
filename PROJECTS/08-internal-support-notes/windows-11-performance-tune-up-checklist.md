@@ -18,7 +18,7 @@
 </tr>
 </table>
 
-**Document ID:** `WIN-1009`  
+**Document ID:** `WIN-1010`  
 **Category:** Windows 11 / Performance Troubleshooting  
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** June 2026
