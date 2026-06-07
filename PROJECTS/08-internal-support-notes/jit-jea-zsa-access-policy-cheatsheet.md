@@ -2,8 +2,8 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Type](https://img.shields.io/badge/Type-Cheat%20Sheet-purple)
-![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-Access%20Control-blue)
+![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 
 ---
 
