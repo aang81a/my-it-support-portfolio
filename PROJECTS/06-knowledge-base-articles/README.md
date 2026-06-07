@@ -1,6 +1,7 @@
 # Knowledge Base Articles
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blueviolet)
 ![Focus](https://img.shields.io/badge/Focus-User%20Support%20Documentation-blue)
 ![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey) 
 ![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)
