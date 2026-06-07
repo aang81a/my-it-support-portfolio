@@ -131,3 +131,119 @@ Recommended folder name:
 
 ```text
 Backup_YYYY-MM-DD
+```
+
+---
+
+Example:
+
+`Backup_2026-06-07`
+
+---
+
+### 5. Copy Files to the External Drive
+
+Copy the selected important folders to the external drive.
+
+Recommended method:
+
+- Use File Explorer for a simple manual backup.
+- Use Robocopy if a more structured copy is needed.
+
+Example Robocopy command:
+
+```powershell
+robocopy "C:\Users\<username>\Documents" "E:\Backup_2026-06-07\Documents" /E /COPY:DAT /R:2 /W:2
+```
+
+Replace:
+
+- `<username>` with the Windows username
+- `E:` with the correct external drive letter
+
+---
+
+### 6. Verify the Backup Copy
+
+After copying:
+
+1. Open the backup folder on the external drive.
+2. Check that the expected files are present.
+3. Open at least one file from the external drive.
+4. Confirm the file opens correctly.
+5. Compare file count or folder size if needed.
+
+## Restore Test
+
+A backup is not complete until a restore test is performed.
+
+## Restore Test Steps
+
+1. Create a temporary restore folder on the desktop.
+`Restore_Test_YYYY-MM-DD`
+2. Copy one test file from the external drive into the restore test folder.
+3. Open the restored file.
+4. Confirm that the content is correct.
+5. Delete the temporary restore test folder after verification if no longer needed.
+
+## Verification
+
+The backup is successful when:
+
+- OneDrive sync shows no errors.
+- Important files are visible in OneDrive online.
+- Files are copied to the external drive.
+- At least one file is restored successfully.
+- The restored file opens correctly.
+- The date and time of the restore test are documented.
+
+## Evidence to Capture
+
+Recommended evidence:
+
+- Screenshot of OneDrive sync status.
+- Screenshot of files visible in OneDrive online.
+- Screenshot of the external drive backup folder.
+- Screenshot of the restored test file.
+- Date and time of restore test.
+- Short note confirming restore success.
+
+## Rollback / Safety Notes
+
+If something goes wrong:
+
+- Do not delete the original files.
+- Do not format the external drive.
+- Stop the backup process if files appear missing or corrupted.
+- Check whether the files are still available in OneDrive online.
+- Use OneDrive version history if a file was changed accidentally.
+- Escalate if business-critical files are missing.
+
+## Risks and Notes
+
+- OneDrive sync is not the same as a full backup.
+- If a file is deleted locally, the deletion may sync to the cloud.
+- Version history can help recover earlier versions.
+- External drives can fail, be lost, or be overwritten.
+- A restore test is required to confirm that the backup is usable.
+- Sensitive data should be handled according to company policy.
+
+## Ticket Note Example
+
+**Issue**: User requested backup verification for important Windows 11 files.
+**Action**: Checked OneDrive sync status, confirmed files online, copied selected folders to external drive, and performed a restore test.
+**Result**: Backup completed and test file restored successfully.
+**Status**: Completed.
+**Escalation**: Not required.
+**Prevention**: User advised to keep OneDrive running and repeat backup checks regularly.
+
+## Changelog
+
+Version	Date	Change
+v1.0	June 2026	Initial SOP created
+
+## Summary
+
+This SOP demonstrates a basic 3-2-1 backup approach using a Windows 11 device, OneDrive, and an external drive.
+
+The key requirement is not only copying files, but also verifying that at least one file can be restored successfully.
