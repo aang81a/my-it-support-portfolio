@@ -133,8 +133,6 @@ Recommended folder name:
 Backup_YYYY-MM-DD
 ```
 
----
-
 Example:
 
 `Backup_2026-06-07`
