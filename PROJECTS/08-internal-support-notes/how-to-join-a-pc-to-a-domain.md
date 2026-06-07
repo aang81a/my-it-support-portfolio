@@ -17,9 +17,9 @@
 </table>
 
 **Document ID:** `AD-1002`  
-**Category:** Active Directory / Domain Join 
-**Target Audience:** IT Support / Service Desk  
-**Last Updated:** May 2026
+**Category:** Active Directory / Domain Join  
+**Target Audience:** IT Support / Service Desk   
+**Last Updated:** May 2026  
 
 ---
 
