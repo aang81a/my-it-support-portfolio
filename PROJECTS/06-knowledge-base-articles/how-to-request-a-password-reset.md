@@ -204,6 +204,8 @@ Thank you.
 - Change temporary passwords as soon as instructed.
 - Keep your new password private.
 
+---
+
 ## Summary
 
 If you need a password reset, contact IT Support through the approved support channel, provide the required account and device information, and verify your identity.
