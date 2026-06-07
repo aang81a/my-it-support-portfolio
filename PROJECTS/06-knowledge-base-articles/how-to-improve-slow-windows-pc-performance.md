@@ -9,7 +9,7 @@
 
 *Knowledge Base Article*
 
-**Article ID:** KB-1009  
+**Article ID:** `KB-1009`  
 **Category:** General Support / Windows Performance  
 **Audience:** End users  
 **Last Updated:** June 2026
