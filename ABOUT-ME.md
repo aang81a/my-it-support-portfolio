@@ -46,6 +46,38 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 ---
 
+## ⚙ With hands-on experience in:
+
+![Skill](https://img.shields.io/badge/Skill-Hardware%20Troubleshooting-orange)
+
+![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)
+![Tool](https://img.shields.io/badge/Tool-Microsoft%20365-D83B01?logo=microsoft365&logoColor=white)
+![Tool](https://img.shields.io/badge/Tool-Microsoft%20Teams-6264A7?logo=microsoftteams&logoColor=white)
+
+![Language](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)
+![Tool](https://img.shields.io/badge/Tool-Command%20Prompt-black?logo=windows-terminal&logoColor=white)
+![Command](https://img.shields.io/badge/Command-ipconfig-lightgrey)
+![Command](https://img.shields.io/badge/Command-ping-lightgrey)
+![Command](https://img.shields.io/badge/Command-nslookup-lightgrey)
+
+![Skill](https://img.shields.io/badge/Skill-Networking-lightgrey)
+![Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue)
+![Skill](https://img.shields.io/badge/Skill-DNS%20Testing-blue)
+![Skill](https://img.shields.io/badge/Skill-Gateway%20Testing-blue)
+![Skill](https://img.shields.io/badge/Skill-Network%20Troubleshooting-blue)
+![Skill](https://img.shields.io/badge/Skill-Wi--Fi%20%7C%20Ethernet%20%7C%20Hotspot-purple)
+
+![Skill](https://img.shields.io/badge/Skill-Remote%20Support-blue)
+![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)
+![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)
+
+![Skill](https://img.shields.io/badge/Skill-Documentation-purple)
+![Tool](https://img.shields.io/badge/Tool-GitHub-black)
+![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)
+![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)
+
+---
+
 ## 🧺 Featured portfolio
 
 - [IT Support Portfolio](https://github.com/aang81a/my-it-support-portfolio)
@@ -72,24 +104,15 @@ I focus on delivering high-quality user support by combining technical troublesh
 
 ## 🪜  What I am learning ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 
-- ![Focus](https://img.shields.io/badge/Focus-%20Troubleshooting-blue)
-- ![Microsoft 365 Admin](https://img.shields.io/badge/Skill-M365%20User%20%26%20Resource%20Admin-D83B01?logo=microsoft365&logoColor=white) 
-- ![Cloud Administration](https://img.shields.io/badge/Skill-Cloud%20User%20%26%20Resource%20Administration-0078D4?logo=microsoftazure&logoColor=white) Administering users and shared resources in a cloud environment.
-- ![Active Directory](https://img.shields.io/badge/Tool-Active%20Directory-0078D4?logo=microsoft&logoColor=white) ![Active Directory](https://img.shields.io/badge/Active%20Directory-Identity%20Management-0078D4?logo=microsoft&logoColor=white) Managing users, groups, and password resets (IAM).
-- ![Skill](https://img.shields.io/badge/Skill-Ticketing-green) ![Tool](https://img.shields.io/badge/Tool-ServiceNow_ITSM-orange) ![Tool](https://img.shields.io/badge/Tool-Spiceworks_(ITSM)-orange)
-- ![Documentation](https://img.shields.io/badge/Documentation-Portfolio-blueviolet) Documenting "Case Studies" to build a knowledge base.
-
----
-
-![Focus](https://img.shields.io/badge/Focus-Troubleshooting-blue)
-![Skill](https://img.shields.io/badge/Skill-M365%20User%20Support-D83B01?logo=microsoft365&logoColor=white)
-![Skill](https://img.shields.io/badge/Skill-Cloud%20Support%20Basics-0078D4?logo=microsoftazure&logoColor=white)
-![Tool](https://img.shields.io/badge/Tool-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
-![Skill](https://img.shields.io/badge/Skill-User%20%26%20Group%20Management-blue)
-![Skill](https://img.shields.io/badge/Skill-Ticketing-green)
-![Tool](https://img.shields.io/badge/Tool-ServiceNow%20ITSM-orange)
-![Tool](https://img.shields.io/badge/Tool-Spiceworks%20ITSM-orange)
-![Skill](https://img.shields.io/badge/Skill-Portfolio%20Documentation-purple)
+- ![Focus](https://img.shields.io/badge/Focus-Troubleshooting-blue)
+- ![Skill](https://img.shields.io/badge/Skill-M365%20User%20Support-D83B01?logo=microsoft365&logoColor=white)
+- ![Skill](https://img.shields.io/badge/Skill-Cloud%20Support%20Basics-0078D4?logo=microsoftazure&logoColor=white)
+- ![Tool](https://img.shields.io/badge/Tool-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
+- ![Skill](https://img.shields.io/badge/Skill-User%20%26%20Group%20Management-blue)
+- ![Skill](https://img.shields.io/badge/Skill-Ticketing-green)
+- ![Tool](https://img.shields.io/badge/Tool-ServiceNow%20ITSM-orange)
+- ![Tool](https://img.shields.io/badge/Tool-Spiceworks%20ITSM-orange)
+- ![Skill](https://img.shields.io/badge/Skill-Portfolio%20Documentation-purple)
 
 ---
 
