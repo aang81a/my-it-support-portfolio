@@ -1,8 +1,8 @@
 # How to Join a PC to a Domain
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blueviolet)
-![Audience](https://img.shields.io/badge/Audience-IT%20Support-lightgrey)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-purple)
+![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-Domain%20Join-blue)
 
 ---
@@ -10,7 +10,7 @@
 *Knowledge Base Article*
 
 **Article ID:** `KB-1004`  
-**Category:** Internal IT Support / Domain Join  
+**Category:** Active Directory / Domain Join  
 **Audience:** IT Support / Lab Use  
 **Last Updated:** May 2026  
 
@@ -147,13 +147,13 @@ Example:
 
 ```text
 DOMAIN\username
-````
+```
 
 or:
 
 ```text
 username@domain.local
-````
+```
 
 3. Enter the password.
 4. Sign in.
