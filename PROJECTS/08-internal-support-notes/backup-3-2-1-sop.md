@@ -94,8 +94,6 @@ Common locations:
 
 Do not delete or move files during this step.
 
----
-
 ### 2. Check OneDrive Sync Status
 
 1. Check the OneDrive cloud icon in the taskbar.
@@ -106,8 +104,6 @@ Do not delete or move files during this step.
 
 If OneDrive shows a red X or sync warning, troubleshoot OneDrive before relying on the cloud copy.
 
----
-
 ### 3. Confirm Files Are Available Online
 
 1. Open OneDrive online.
@@ -116,8 +112,6 @@ If OneDrive shows a red X or sync warning, troubleshoot OneDrive before relying 
 4. Open one file to confirm access.
 
 This confirms that the cloud copy exists.
-
----
 
 ### 4. Prepare the External Drive
 
@@ -132,8 +126,6 @@ Recommended folder name:
 ```text
 Backup_YYYY-MM-DD
 ```
-
----
 
 ### 5. Copy Files to the External Drive
 
@@ -155,8 +147,6 @@ Replace:
 - `<username>` with the Windows username
 - `E:` with the correct external drive letter
 
----
-
 ### 6. Verify the Backup Copy
 
 After copying:
@@ -167,11 +157,13 @@ After copying:
 4. Confirm the file opens correctly.
 5. Compare file count or folder size if needed.
 
+---
+
 ## Restore Test
 
 A backup is not complete until a restore test is performed.
 
-## Restore Test Steps
+### Restore Test Steps
 
 1. Create a temporary restore folder on the desktop.
 `Restore_Test_YYYY-MM-DD`
@@ -179,6 +171,8 @@ A backup is not complete until a restore test is performed.
 3. Open the restored file.
 4. Confirm that the content is correct.
 5. Delete the temporary restore test folder after verification if no longer needed.
+
+---
 
 ## Verification
 
@@ -191,6 +185,8 @@ The backup is successful when:
 - The restored file opens correctly.
 - The date and time of the restore test are documented.
 
+---
+
 ## Evidence to Capture
 
 Recommended evidence:
@@ -201,6 +197,8 @@ Recommended evidence:
 - Screenshot of the restored test file.
 - Date and time of restore test.
 - Short note confirming restore success.
+
+---
 
 ## Rollback / Safety Notes
 
@@ -213,6 +211,8 @@ If something goes wrong:
 - Use OneDrive version history if a file was changed accidentally.
 - Escalate if business-critical files are missing.
 
+---
+
 ## Risks and Notes
 
 - OneDrive sync is not the same as a full backup.
@@ -221,6 +221,8 @@ If something goes wrong:
 - External drives can fail, be lost, or be overwritten.
 - A restore test is required to confirm that the backup is usable.
 - Sensitive data should be handled according to company policy.
+
+---
 
 ## Ticket Note Example
 
@@ -231,10 +233,15 @@ If something goes wrong:
 **Escalation**: Not required.
 **Prevention**: User advised to keep OneDrive running and repeat backup checks regularly.
 
+---
+
 ## Changelog
 
-Version	Date	Change
-v1.0	June 2026	Initial SOP created
+| Version | Date | Change |
+|---|---|---|
+| v1.0 | June 2026 | Initial SOP created |
+
+---
 
 ## Summary
 
