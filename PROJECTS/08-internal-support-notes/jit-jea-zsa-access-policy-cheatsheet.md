@@ -19,7 +19,7 @@
 </table>
 
 **Document ID:** `SEC-1011`  
-**Category:** Security / Access Control / Governance  
+**Category:** Security / Access Control Awareness
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** June 2026
 
