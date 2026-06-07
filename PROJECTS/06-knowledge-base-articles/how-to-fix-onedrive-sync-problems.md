@@ -9,7 +9,7 @@
 
 *Knowledge Base Article*
 
-**Article ID:** KB-1007  
+**Article ID:** `KB-1007`  
 **Category:** Microsoft 365 / OneDrive Troubleshooting  
 **Audience:** End users  
 **Last Updated:** June 2026
