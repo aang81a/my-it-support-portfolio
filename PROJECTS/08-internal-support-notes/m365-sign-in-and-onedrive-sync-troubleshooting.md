@@ -2,8 +2,8 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Type](https://img.shields.io/badge/Type-Internal%20Support%20Note-purple)
-![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-M365%20%2F%20OneDrive-blue)
+![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 
 ---
 
