@@ -1,6 +1,6 @@
-# SOP: Using and Maintaining the IT-Diagnostic-Tool
+# SOP: Using and Maintaining the IT Diagnostic Tool
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-SOP-blueviolet)
+![Type](https://img.shields.io/badge/Type-SOP-purple)
 ![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 
 ---
@@ -8,10 +8,10 @@
 <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal IT Standard Operating Procedure*
 
 
-**Document ID:** SOP-IT-001  
+**Document ID:** `SOP-IT-001` 
 **Version:** 1.0  
 **Owner:** Internal IT Support Administration  
-**Category:** IT Support / Desktop Troubleshooting    
+**Category:** IT Support / Desktop Troubleshooting  
 **Target Audience:** Internal IT Support Team  
 **Status:** Active  
 **Last Updated:** May 2026 
@@ -132,3 +132,11 @@ The report is intended for support use only.
 The tool collects basic support-relevant system details. It should not collect passwords, personal documents, browser data, photos, or other private user files.
 
 Reports should be handled according to the company’s internal ticketing, privacy, and data-retention rules.
+
+---
+
+## 8. Changelog
+
+| Version | Date | Change |
+|---|---|---|
+| v1.0 | June 2026 | Initial SOP created |
