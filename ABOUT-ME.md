@@ -1,6 +1,7 @@
 # 🎙 Hello, I'm Angie 
-![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
-![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue) ![Level](https://img.shields.io/badge/Level-Entry--Level-lightgrey)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
+![Level](https://img.shields.io/badge/Level-Entry--Level-lightgrey)
 
 **Aspiring IT Support Professional (1st level) | Focus on User Experience & Efficiency & Documentation** 
 
@@ -77,6 +78,18 @@ I focus on delivering high-quality user support by combining technical troublesh
 - ![Active Directory](https://img.shields.io/badge/Tool-Active%20Directory-0078D4?logo=microsoft&logoColor=white) ![Active Directory](https://img.shields.io/badge/Active%20Directory-Identity%20Management-0078D4?logo=microsoft&logoColor=white) Managing users, groups, and password resets (IAM).
 - ![Skill](https://img.shields.io/badge/Skill-Ticketing-green) ![Tool](https://img.shields.io/badge/Tool-ServiceNow_ITSM-orange) ![Tool](https://img.shields.io/badge/Tool-Spiceworks_(ITSM)-orange)
 - ![Documentation](https://img.shields.io/badge/Documentation-Portfolio-blueviolet) Documenting "Case Studies" to build a knowledge base.
+
+---
+
+![Focus](https://img.shields.io/badge/Focus-Troubleshooting-blue)
+![Skill](https://img.shields.io/badge/Skill-M365%20User%20Support-D83B01?logo=microsoft365&logoColor=white)
+![Skill](https://img.shields.io/badge/Skill-Cloud%20Support%20Basics-0078D4?logo=microsoftazure&logoColor=white)
+![Tool](https://img.shields.io/badge/Tool-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
+![Skill](https://img.shields.io/badge/Skill-User%20%26%20Group%20Management-blue)
+![Skill](https://img.shields.io/badge/Skill-Ticketing-green)
+![Tool](https://img.shields.io/badge/Tool-ServiceNow%20ITSM-orange)
+![Tool](https://img.shields.io/badge/Tool-Spiceworks%20ITSM-orange)
+![Skill](https://img.shields.io/badge/Skill-Portfolio%20Documentation-purple)
 
 ---
 
