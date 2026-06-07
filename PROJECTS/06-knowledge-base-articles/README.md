@@ -2,6 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Focus](https://img.shields.io/badge/Focus-User%20Support%20Documentation-blue)
+![Audience](https://img.shields.io/badge/Audience-Non-technical%20IT%20Users-lightgrey)
 ![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-0078D4?logo=windows&logoColor=white)
 
