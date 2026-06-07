@@ -1,6 +1,8 @@
 # How to Create a User in Active Directory
-![Type](https://img.shields.io/badge/Type-SOP-blueviolet)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Type](https://img.shields.io/badge/Type-SOP-purple)
 ![Topic](https://img.shields.io/badge/Topic-Active%20Directory-0078D4?logo=microsoft&logoColor=white)
+![Audience](https://img.shields.io/badge/Audience-IT%20Support%20Technicians-lightgrey)
 
 ---
 
@@ -14,10 +16,10 @@
 </tr>
 </table>
 
-**Document AD:** `AD-1001`  
-**Category:** Identity & Access Management  
+**Document ID:** `AD-1001`  
+**Category:** Active Directory / User Account Creation  
 **Target Audience:** IT Support / Service Desk  
-**Last Updated:** May 2026
+**Last Updated:** May 2026  
 
 ---
 
@@ -106,3 +108,13 @@ Document only support-relevant information:
 - whether escalation was required
 
 Do not document passwords or unnecessary personal information.
+
+---
+
+## Security Notes
+
+- Create user accounts only from approved requests.
+- Do not assign permissions without approval.
+- Do not document passwords in tickets or notes.
+- Use the correct organizational unit and naming convention.
+- Escalate requests involving privileged or administrative access.
