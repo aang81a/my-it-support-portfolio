@@ -94,6 +94,8 @@ Common locations:
 
 Do not delete or move files during this step.
 
+---
+
 ### 2. Check OneDrive Sync Status
 
 1. Check the OneDrive cloud icon in the taskbar.
@@ -104,6 +106,8 @@ Do not delete or move files during this step.
 
 If OneDrive shows a red X or sync warning, troubleshoot OneDrive before relying on the cloud copy.
 
+---
+
 ### 3. Confirm Files Are Available Online
 
 1. Open OneDrive online.
@@ -112,6 +116,8 @@ If OneDrive shows a red X or sync warning, troubleshoot OneDrive before relying 
 4. Open one file to confirm access.
 
 This confirms that the cloud copy exists.
+
+---
 
 ### 4. Prepare the External Drive
 
@@ -126,6 +132,8 @@ Recommended folder name:
 ```text
 Backup_YYYY-MM-DD
 ```
+
+---
 
 ### 5. Copy Files to the External Drive
 
@@ -146,6 +154,8 @@ Replace:
 
 - `<username>` with the Windows username
 - `E:` with the correct external drive letter
+
+---
 
 ### 6. Verify the Backup Copy
 
