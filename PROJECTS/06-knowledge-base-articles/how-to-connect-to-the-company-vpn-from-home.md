@@ -1,7 +1,7 @@
 # How to Connect to the Company VPN from Home
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-blueviolet)
+![Type](https://img.shields.io/badge/Type-Knowledge%20Base%20Article-purple)
 ![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
 ![Topic](https://img.shields.io/badge/Topic-VPN%20Access-blue)
 
@@ -10,7 +10,7 @@
 *Knowledge Base Article*
 
 **Article ID:** `KB-1003`  
-**Category:** General Support / VPN Access  
+**Category:** Remote Work / VPN Access 
 **Audience:** End users  
 **Last Updated:** May 2026  
 
@@ -153,7 +153,7 @@ When you no longer need access to company systems:
 2. Click Disconnect.
 3. Confirm that the VPN status changes to disconnected.
 
-Disconnecting the VPN when it is not needed can help avoid connection issues and unnecessary network traffic.
+Disconnecting the VPN when it is not needed can help reduce unnecessary remote network traffic.
 
 ---
 
@@ -252,6 +252,7 @@ Thank you.
 
 ## Security Notes
 
+- Follow your company’s VPN and remote work policy when accessing internal resources.
 - Do not share your company password with anyone.
 - Only approve multi-factor authentication requests that you started yourself.
 - Use only the official company VPN application.
