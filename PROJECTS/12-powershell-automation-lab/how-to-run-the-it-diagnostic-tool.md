@@ -1,6 +1,6 @@
 # User Guide: How to Run the IT Diagnostic Tool
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-User%20Guide-blue)
+![Type](https://img.shields.io/badge/Type-User%20Guide-purple)
 ![Audience](https://img.shields.io/badge/Audience-End%20Users-lightgrey)
 
 ---
