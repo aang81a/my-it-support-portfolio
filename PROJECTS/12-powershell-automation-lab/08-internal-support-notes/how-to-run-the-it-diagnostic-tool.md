@@ -5,6 +5,7 @@
 
 ---
 
+
 <img src="screenshots/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo" valign="middle"> | *Internal User Guide*
 
 **Document ID:** `UG-1001`  
