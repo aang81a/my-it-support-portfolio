@@ -16,7 +16,7 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 
 - **User-First Mindset:** I prioritize active listening and clear communication to ensure users feel heard and supported.
 - **Efficiency through Documentation:** I believe that good documentation is the key to a fast helpdesk. I enjoy creating clear "How-To" guides to empower users and help my team. 
-- **Proactive Problem Solving:** I'm always looking for ways to streamline repetitive tasks so I can spend more time helping people with complex issues.
+- **Proactive Problem Solving:** I'm always looking for ways to streamline repetitive tasks so I can spend more time helping people with their issues.
 
 ---
 
