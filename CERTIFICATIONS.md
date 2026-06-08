@@ -18,7 +18,7 @@ Abgeschlossene Teilkurse:
 Abgeschlossene Teilkurse:
 
    ▪ Jun 2026 | The Microsoft 365 Ecosystem | Microsoft (via Coursera) | Kurszertifikat
-   - Focus: Microsoft 365 / Office 365 Anwender-Support: Outlook, Teams, SharePoint, OneDrive, Word, Excel, PowerPoint, OneNote, To Do, Kalender; Grundlagen in Dokumentenmanagement, Zusammenarbeit, Dateifreigabe, Versionsverlauf, Terminplanung, MFA, DLP und ATP.  
+   Focus: Microsoft 365 / Office 365 Anwender-Support: Outlook, Teams, SharePoint, OneDrive, Word, Excel, PowerPoint, OneNote, To Do, Kalender; Grundlagen in Dokumentenmanagement, Zusammenarbeit, Dateifreigabe, Versionsverlauf, Terminplanung, MFA, DLP und ATP.  
 
    ▪ Jan 2026 | Introduction to Secure Networking | Microsoft (via Coursera) | Kurszertifikat
 
