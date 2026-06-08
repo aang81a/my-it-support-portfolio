@@ -76,6 +76,13 @@ My goal is to make technology accessible and stress-free for everyone in the wor
 ![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)
 ![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)
 
+
+![Course](https://img.shields.io/badge/Course-Microsoft%20365%20Ecosystem-D83B01?logo=microsoft365&logoColor=white)
+![Skill](https://img.shields.io/badge/Skill-M365%20User%20Support-blue)
+![Skill](https://img.shields.io/badge/Skill-Collaboration%20Workflows-blue)
+![Skill](https://img.shields.io/badge/Skill-DLP%20Awareness-lightgrey)
+![Skill](https://img.shields.io/badge/Skill-Endpoint%20Security%20Awareness-lightgrey)
+
 ---
 
 ## 🧺 Featured portfolio
@@ -101,7 +108,11 @@ I focus on delivering high-quality user support by combining technical troublesh
 - User account access and onboarding tasks
 - Active Directory home lab
 - ServiceNow / ticketing workflows
-- Windows Server basics
+- Windows Server basics  
+
+- Microsoft 365 ecosystem, user support, collaboration tools, and productivity workflows
+- OneDrive, SharePoint, Teams, and Outlook support scenarios
+- Security and compliance basics, including endpoint protection and DLP awareness
 
 ---
 
