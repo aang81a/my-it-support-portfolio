@@ -28,7 +28,7 @@ Abgeschlossene Teilkurse:
 
 ## WEITERE ZERTIFIKATE
 
-▪ Feb 2026 | Getting Started with Cisco Packet Tracer | Cisco Networking Academy | Kurszertifikat
+▪ Feb 2026 | Getting Started with Cisco Packet Tracer | Cisco Networking Academy | Mikro-Zertifizierung
 
 ▪ Dez 2025 | Network Basics | Cybrary | Teilnahmezertifikat (1 CEU/CPE)
 
