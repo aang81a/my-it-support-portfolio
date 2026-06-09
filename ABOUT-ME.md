@@ -1,6 +1,6 @@
 # 🎙 Hello, I'm Angie
 
-![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)  
+![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
 ![Level](https://img.shields.io/badge/Level-Entry--Level-lightgrey)
 
 **Aspiring IT Support Professional | Focus on User Support, Troubleshooting, Efficiency and Documentation**
