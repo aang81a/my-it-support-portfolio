@@ -47,7 +47,7 @@ My background has strengthened my communication, patience, service mindset, and 
 
 ---
 
-## 🧺 Featured Portfolio
+## 🧺 Portfolio Projects
 
 - [IT Support Portfolio](https://github.com/aang81a/my-it-support-portfolio)
     
