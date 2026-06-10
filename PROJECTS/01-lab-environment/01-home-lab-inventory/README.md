@@ -8,9 +8,9 @@
 
 ## Purpose
 
-This document lists the hardware, storage devices, cables, and test systems used in my home lab for practical IT support training.
+This inventory lists the lab systems, storage devices, cables, interfaces, and hardware components used in my home lab.
 
-The lab is used for hardware troubleshooting, storage testing, BIOS/boot diagnostics, data backup practice, and documentation of real support workflows.
+It focuses on components that were relevant for hardware troubleshooting, storage testing, BIOS/boot diagnostics, data backup, recovery, remote support practice, and documentation of real support workflows.
 
 ---
 
@@ -34,8 +34,7 @@ The lab is used for hardware troubleshooting, storage testing, BIOS/boot diagnos
 | Seagate SATA HDD in Computer 2 | Internal SATA HDD, 500 GB | Internal system drive used in the HP 280 G2 MT (Computer 2); Windows started successfully; used as the internal drive of the recovery and backup workstation |
 | Western Digital WD2500JS | Internal SATA HDD, 250 GB / legacy storage source | Connected in Computer 2 as a secondary SATA drive using a SATA data cable; files were accessible and backed up to the external Seagate Basic drive |
 | Seagate Basic | External USB HDD, 2 TB, USB 3.0 / USB 2.0 compatible | Backup destination |
-| WD My Passport Wireless Pro | External Wi-Fi mobile storage, 
-2 TB, SD 3.0, Wi-Fi AC, USB 2.0 | Existing data found; checked as legacy external storage; not used as backup destination yet |
+| WD My Passport Wireless Pro | External Wi-Fi mobile storage, 2 TB, SD 3.0, Wi-Fi AC, USB 2.0 | Existing data found; checked as legacy external storage; not used as backup destination yet |
 | Silicon Power Armor | External USB HDD, 1 TB | Existing data found; checked as legacy external storage; not used as backup destination |
 
 ---
@@ -49,9 +48,3 @@ The lab is used for hardware troubleshooting, storage testing, BIOS/boot diagnos
 | Molex power connector | Used for legacy IDE/PATA devices |
 | SATA power connector | Used for SATA HDDs |
 | USB cable / external drive connection | Used for backup storage |
-
----
-
-## Notes
-
-This inventory is not a full hardware catalogue. It only documents components that were relevant for troubleshooting, backup, recovery, and IT support home lab practice.
