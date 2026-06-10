@@ -30,14 +30,15 @@ They reduce repeated explanations, support self-service where appropriate, and h
 
 | Article | Topic | Audience | Status |
 |---|---|---|---|
-| [How to Connect to the Company VPN from Home](./how-to-connect-to-the-company-vpn-from-home.md) | VPN access from home | End users | Completed ✅ |
-| [How to Fix OneDrive Sync Problems](./how-to-fix-onedrive-sync-problems.md) | OneDrive sync troubleshooting | End users | Completed ✅ |
-| [How to Improve Slow Windows PC Performance](./how-to-improve-slow-windows-pc-performance.md) | Windows performance support | End users | Completed ✅ |
-| [How to Join a PC to a Domain](./how-to-join-a-pc-to-a-domain.md) | Domain join basics | IT support / lab use | Completed ✅ |
-| [How to Map a Network Drive](./how-to-map-a-network-drive.md) | Shared drive access | End users | Completed ✅ |
-| [How to Restore a File from OneDrive Version History](./how-to-restore-a-file-from-onedrive-version-history.md) | OneDrive file recovery | End users | Completed ✅ |
-| [How to Run the IT Diagnostic Tool](./how-to-run-the-it-diagnostic-tool.md) | Diagnostic tool user guide | End users | Completed ✅ |
-| [How to Troubleshoot No Internet](./how-to-troubleshoot-no-internet.md) | Basic internet troubleshooting | End users | Completed ✅ |
+| [How to Request a Password Reset](./account-access/how-to-request-a-password-reset.md) | Need to request a password reset | End users | Completed ✅ |
+| [How to Join a PC to a Domain](./lab-domain/how-to-join-a-pc-to-a-domain.md) | Domain join basics | IT support / lab use | Completed ✅ |
+| [How to Fix OneDrive Sync Problems](./microsoft-365/how-to-fix-onedrive-sync-problems.md) | OneDrive sync troubleshooting | End users | Completed ✅ |
+| [How to Restore a File from OneDrive Version History](./microsoft-365/how-to-restore-a-file-from-onedrive-version-history.md) | OneDrive file recovery | End users | Completed ✅ |
+| [How to Connect to the Company VPN from Home](./network-access/how-to-connect-to-the-company-vpn-from-home.md) | VPN access from home | End users | Completed ✅ |
+| [How to Map a Network Drive](./network-access/how-to-map-a-network-drive.md) | Shared drive access | End users | Completed ✅ |
+| [How to Troubleshoot No Internet](./network-access/how-to-troubleshoot-no-internet.md) | Basic internet troubleshooting | End users | Completed ✅ |
+| [How to Run the IT Diagnostic Tool](./support-tools/how-to-run-the-it-diagnostic-tool.md) | Diagnostic tool user guide | End users | Completed ✅ |
+| [How to Improve Slow Windows PC Performance](./windows-support/how-to-improve-slow-windows-pc-performance.md) | Windows performance support | End users | Completed ✅ |
 
 ---
 
