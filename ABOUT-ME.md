@@ -107,9 +107,9 @@ I am looking for an entry-level opportunity in a Zurich-based IT support team wh
 
 ### 🌍 Languages & Location
 
-- **German (B2)**  
-- **English (B2)**  
+- **English (B2):** Fluent and confident in resolving user technical issues, navigating global ticketing systems, and documentation.
 
-Fluent professional communication to support local users, in technical environments, global ticketing systems and resources.  
-  
-- Based in: Zürich, Switzerland
+- **German (B2):** Competent in professional communication to support local users.
+
+- **Location:** Zürich, Switzerland
+
