@@ -10,15 +10,15 @@
 <table>
 <tr>
 <td width="300">
-<img src="../../IMAGES/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
+<img src="../../../IMAGES/01/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
 </td>
 <td>
-<em>Internal IT Support Security Checklist</em>
+<em>Internal IT Support Incident Report</em>
 </td>
 </tr>
 </table>
 
-**Document ID:** `SEC-1012`  
+**Document ID:** `SEC-1002`  
 **Category:** Windows 11 / Security Hardening  
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** June 2026
