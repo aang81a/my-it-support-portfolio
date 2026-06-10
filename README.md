@@ -32,7 +32,7 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 
 ---
 
-## Portfolio Projects
+## 🧺 Portfolio Projects
 
 | Project | What it demonstrates |
 |---|---|
