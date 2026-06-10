@@ -90,10 +90,6 @@ My background has strengthened my communication, patience, service mindset, and 
 
 ---
 
-## 🕊️ Let's Connect
-
-## 📡 Let's Connect
-
 ## 🔌 Let's Connect
 
 I am looking for an entry-level opportunity in a Swiss-based IT support team where I can grow, contribute, and continue building practical support experience.
