@@ -7,6 +7,8 @@
 
 ---
 
+IT Support Professional currently building hands-on skills through Microsoft IT Support Specialist and Cisco IT Support Specialist Career Path coursework.
+
 My background has strengthened my patience, service mindset and ability to support people in stressful situations.  
 
 What motivates me is the practical side of IT Support: understanding the user’s problem, executing step-by-step root-cause analysis, explaining the solution clearly and maintaining comprehensive documentation so workflows remain efficient and repeatable.  
