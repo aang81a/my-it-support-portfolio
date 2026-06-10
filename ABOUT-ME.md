@@ -28,7 +28,7 @@ This portfolio showcases my transition into IT Support through hands-on projects
 - **Efficiency awareness:** I'm always looking for ways to streamline repetitive tasks so I can helping more people with their issues.
 
 ### 🎯 Troubleshooting Framework
-> *"Ohne Scope ist Troubleshooting wie Karate im Dunkeln."*
+ *"Ohne Scope ist Troubleshooting wie Karate im Dunkeln."*
 
 To isolate and resolve technical issues efficiently, I systematically apply the **Scope Formula (4W)**:
 1. **Wer** ist betroffen? (Who is affected?)
