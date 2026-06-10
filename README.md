@@ -1,6 +1,5 @@
 # IT Support Portfolio
 
-![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)  
 ![Banner](IMAGES/01/portfolio-banner-1200x250.png)
 
 This portfolio documents my practical home lab projects, network troubleshooting practice, hardware support tasks, backup workflows, remote support workflows, PowerShell support tooling, and support documentation.
