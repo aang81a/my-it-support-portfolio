@@ -19,8 +19,7 @@ The lab is used for hardware troubleshooting, storage testing, BIOS/boot diagnos
 | System | Role in the lab | Relevant notes |
 |---|---|---|
 | Computer 1 – Legacy ASUS desktop | Legacy storage and BIOS troubleshooting system | ASUS P5LD2 / American Megatrends BIOS, Intel Pentium D 2.80 GHz, 2944 MB RAM shown in BIOS; used for Samsung SP1203N IDE/PATA HDD detection, optical drive testing, BIOS boot order checks |
-| Computer 2 – HP black desktop | Recovery, backup, and VM lab workstation | Desktop PC with internal Seagate SATA HDD; used to test SATA drives, access Windows, check files, prepare recovery media, perform backup and storage checks, and run VM lab tasks |
-| Computer 2 – HP 280 G2 MT | Recovery, backup, and VM lab workstation | Intel Core i3-6100 3.70 GHz, 4 GB DDR4 RAM, 500 GB Seagate SATA HDD; used to access Windows, test SATA drives, check files, perform backup/storage checks, and prepare VM lab tasks |
+| Computer 2 – HP 280 G2 MT | Recovery, backup workstation | Desktop PC - black; Intel Core i3-6100 3.70 GHz, 4 GB DDR4 RAM, 500 GB Seagate SATA HDD; used to access Windows, test SATA drives, check files, perform backup/storage checks |
 | Computer 3 – HP all-in-one | Hardware upgrade system | Used for RAM upgrade documentation |
 | Computer 4 – Legacy WD SATA HDD source (2006) | Legacy storage source for backup / additional hardware test system | WD SATA HDD tested in Computer 2 (the HP black desktop) using SATA connection; did not boot as a standalone Windows system drive; files are being backed up to the external Seagate USB drive; available for later hardware and storage testing |
 
@@ -31,8 +30,7 @@ The lab is used for hardware troubleshooting, storage testing, BIOS/boot diagnos
 | Device | Type | Used for |
 |---|---|---|
 | Samsung SP1203N | IDE/PATA HDD, 120 GB | Tested in Computer 1; detected in BIOS; no bootable OS found |
-| Internal Seagate SATA HDD in Computer 2 | SATA HDD | Tested in Computer 2; Windows started successfully; used as the internal drive of the recovery and backup workstation |
-| Internal Seagate drive in Computer 2 | SATA HDD, 500 GB | Internal system drive used in the HP 280 G2 MT recovery and backup workstation |
+| Internal Seagate SATA HDD in Computer 2 | SATA HDD, 500 GB | Internal system drive used in the HP 280 G2 MT; Windows started successfully; used as the internal drive of the recovery and backup workstation |
 | Western Digital HDD | SATA HDD | Tested in Computer 2 using a SATA data cable; did not boot as a standalone system drive; contains files that are being backed up to the external Seagate USB drive |
 | Seagate Basic | External USB HDD, 2 TB, USB 3.0 / USB 2.0 compatible | Backup destination |
 | WD My Passport Wireless Pro | Wi-Fi mobile storage, 2 TB, SD 3.0, Wi-Fi AC, USB 2.0 | Existing data found; checked as legacy external storage; not used as backup destination yet |
