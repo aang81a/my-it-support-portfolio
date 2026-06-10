@@ -26,7 +26,7 @@ This case was performed as part of a beginner IT support home lab. The environme
 | Device | Type | Role in the case |
 |---|---|---|
 | Computer 1 | Legacy ASUS desktop | IDE/PATA storage testing system |
-| Computer 2 | HP black desktop | Recovery, backup, and home lab workstation |
+| Computer 2 | HP desktop | Recovery, backup, and home lab workstation |
 | Computer 3 - HP All-in-One | Hardware upgrade system | Used for RAM upgrade documentation and backup preparation |
 | WD SATA HDD source | Legacy storage source for backup | WD SATA HDD tested in Computer 2 using SATA connection; files checked and backed up |
 | Samsung SP1203N | IDE/PATA HDD | Legacy hard drive tested in Computer 1 |
@@ -79,7 +79,7 @@ The Western Digital SATA hard drive was tested in Computer 2 using a SATA connec
 
 ## Lab invoronment
 
-- [Lab Environment Overview](./01-lab-environment/lab-environment-overview.md)
+- [Lab Environment Overview](../lab-environment-overview.md)
 
 ---
 
@@ -93,7 +93,7 @@ The Western Digital SATA hard drive was tested in Computer 2 using a SATA connec
 
 <img src="images/02-samsung-ide-hdd.jpg" alt="Samsung SP1203N IDE/PATA HDD" width="500">
 
-### Western Digital SATA HDD Test
+### Western Digital SATA HDD Test in Computer 2
 
 <img src="images/06-wd-sata-hdd-test.jpg" alt="Western Digital SATA HDD connected in Computer 2 for data check" width="500">
 
