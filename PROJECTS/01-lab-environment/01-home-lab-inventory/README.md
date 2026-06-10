@@ -33,7 +33,8 @@ The lab is used for hardware troubleshooting, storage testing, BIOS/boot diagnos
 | Internal Seagate SATA HDD in Computer 2 | SATA HDD | Tested in Computer 2; Windows started successfully; used as the internal drive of the recovery and backup workstation |
 | Western Digital HDD | SATA HDD | Tested in Computer 2 using a SATA data cable; did not boot as a standalone system drive; contains files that are being backed up to the external Seagate USB drive |
 | Seagate external USB drive | External USB storage, 2 TB | Backup destination |
-| WD My Passport Wireless Pro | Wireless external storage | Planned for later storage/network access testing |
+| WD My Passport Wireless Pro | Wireless external storage, 2 TB | Planned for later storage/network access testing |
+| Silicon Power Armor external HDD | External USB HDD, 1 TB | Existing data found; checked as legacy external storage; not used as backup destination |
 
 ---
 
@@ -52,6 +53,3 @@ The lab is used for hardware troubleshooting, storage testing, BIOS/boot diagnos
 ## Notes
 
 This inventory is not a full hardware catalogue. It only documents components that were relevant for troubleshooting, backup, recovery, and IT support home lab practice.
-
-
-
