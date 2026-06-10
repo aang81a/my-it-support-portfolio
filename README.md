@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)  
 ![Banner](IMAGES/01/portfolio-banner-1200x250.png)
 
-This portfolio documents my practical home lab projects, Windows and network troubleshooting practice, hardware support tasks, backup workflows, and support documentation.
+This portfolio documents my practical home lab projects, network troubleshooting practice, hardware support tasks, backup workflows, remote support workflows, PowerShell support tooling, and support documentation.
 
 ---
 
@@ -20,16 +20,15 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 ## 🛠 Support skills  
 
 - Basic Windows support
-- Microsoft 365 Support Fundamentals
 - Hardware troubleshooting and documentation
-- Basic Networking
-- Network troubleshooting
-- Initial analysis
+- Basic network troubleshooting
 - IPv4 and DHCP troubleshooting
 - Command Prompt diagnostics
 - Backup and data-protection awareness
-- Remote support
-- Structured documentation
+- Remote support workflows
+- PowerShell-based support information collection
+- Knowledge base writing
+- Internal support documentation
 - User support communication
 
 ---
