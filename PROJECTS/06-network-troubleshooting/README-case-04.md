@@ -29,7 +29,7 @@ The focus is on connectivity issues, IPv4 configuration, DHCP behaviour, command
 
 The troubleshooting process used in these cases is documented here:
 
-- [Troubleshooting Method](../04-network-troubleshooting-cases/diagrams/troubleshooting-method.md)
+- [Troubleshooting Method](../06-network-troubleshooting-cases/diagrams/troubleshooting-method.md)
 
 ---
 
