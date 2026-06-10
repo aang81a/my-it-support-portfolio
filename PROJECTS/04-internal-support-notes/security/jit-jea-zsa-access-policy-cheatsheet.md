@@ -10,15 +10,15 @@
 <table>
 <tr>
 <td width="300">
-<img src="../../IMAGES/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
+<img src="../../../IMAGES/01/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
 </td>
 <td>
-<em>Internal IT Support Security Cheat Sheet</em>
+<em>Internal IT Support Incident Report</em>
 </td>
 </tr>
 </table>
 
-**Document ID:** `SEC-1011`  
+**Document ID:** `SEC-1002`  
 **Category:** Security / Access Control Awareness  
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** June 2026
