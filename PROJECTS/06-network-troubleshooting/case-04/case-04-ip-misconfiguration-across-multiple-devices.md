@@ -7,8 +7,6 @@
 
 ---
 
-![PC3 home Wi-Fi IPv4 before change](./screenshots/pc3-home-wifi/pc3-homewifi-01-ipv4-before-change-dhcp.png)
-
 ## Overview
 
 This case documents a simulated IPv4 misconfiguration across multiple Windows devices and network connection types.
@@ -73,19 +71,19 @@ The baseline state showed that IPv4 and DNS were configured automatically throug
 
 ### PC3 – Home Wi-Fi
 
-![PC3 home Wi-Fi IPv4 before change](./screenshots/pc3-home-wifi/pc3-homewifi-01-ipv4-before-change-dhcp.png)
+![PC3 home Wi-Fi IPv4 before change](./screenshots/pc3-homewifi/pc3-homewifi-01-ipv4-before-change-dhcp.png)
 
 ---
 
 ### PC3 – Mobile Hotspot
 
-![PC3 mobile hotspot IPv4 before change](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-01-ipv4-before-change-dhcp.png)
+![PC3 mobile hotspot IPv4 before change](./screenshots/pc3-mobile/pc3-mobile-01-ipv4-before-change-dhcp.png)
 
 ---
 
 ### PC2 – Ethernet
 
-![PC2 Ethernet IPv4 before change](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-01-ipv4-before-change-dhcp.png)
+![PC2 Ethernet IPv4 before change](./screenshots/pc2-ethernet/pc2-ethernet-01-ipv4-before-change-dhcp.png)
 
 ---
 
