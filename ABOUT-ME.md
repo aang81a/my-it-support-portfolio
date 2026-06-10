@@ -34,7 +34,7 @@ This portfolio showcases my transition into IT Support through hands-on projects
 3. **Wann** tritt es seitdem auf? (When/Since when did it start?)
 4. **Wie stark** ist die Auswirkung? (How severe is the impact?)
 
-🎯 *"Ohne Scope ist Troubleshooting wie Karate im Dunkeln."*
+🕶 *"Ohne Scope ist Troubleshooting wie Karate im Dunkeln."*
 
 ---
 
