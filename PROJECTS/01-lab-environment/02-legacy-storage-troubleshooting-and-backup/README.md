@@ -77,6 +77,12 @@ The Western Digital SATA hard drive was tested in Computer 2 using a SATA connec
 
 ---
 
+## Lab invoronment
+
+- [Lab invorenment Overview](./lab-invorenment-overview.md)  
+
+---
+
 ## Visual Documentation
 
 ### Computer 1 - Legacy ASUS desktop
