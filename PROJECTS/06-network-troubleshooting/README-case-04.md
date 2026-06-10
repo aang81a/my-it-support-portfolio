@@ -45,7 +45,7 @@ The troubleshooting process used in these cases is documented here:
 
 ## Related Documentation
 
-- [Internal Support Note: How to Troubleshoot No Network Access](../04-internal-support-notes/how-to-troubleshoot-no-network-access.md) - quick-reference note for network access troubleshooting
+- [Internal Support Note: How to Troubleshoot No Network Access](../04-internal-support-notes/networking/how-to-troubleshoot-no-network-access.md) - quick-reference note for network access troubleshooting
 
 ---
 
