@@ -107,7 +107,6 @@ I am looking for an entry-level opportunity in a Zurich-based IT support team wh
 
 ### 🌍 Languages & Location
 
-- Languages: 
 - **German (B2)**  
 - **English (B2)**  
 
