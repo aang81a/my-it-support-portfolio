@@ -97,19 +97,19 @@ This created a controlled network fault for troubleshooting practice.
 
 ### PC3 – Home Wi-Fi
 
-![PC3 home Wi-Fi wrong static IP configured](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-02-wrong-static-ip-configured.png)
+![PC3 home Wi-Fi wrong static IP configured](./screenshots/pc3-homewifi/pc3-homewifi-02-wrong-static-ip-configured.png)
 
 ---
 
 ### PC3 – Mobile Hotspot
 
-![PC3 mobile hotspot wrong static IP configured](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-02-wrong-static-ip-configured.png)
+![PC3 mobile hotspot wrong static IP configured](./screenshots/pc3-mobile/pc3-mobile-02-wrong-static-ip-configured.png)
 
 ---
 
 ### PC2 – Ethernet
 
-![PC2 Ethernet wrong static IP configured](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-02-wrong-static-ip-configured.png)
+![PC2 Ethernet wrong static IP configured](./screenshots/pc2-ethernet/pc2-ethernet-02-wrong-static-ip-configured.png)
 
 ---
 
@@ -123,19 +123,19 @@ The output confirmed that the device no longer had a valid working configuration
 
 ### PC3 – Home Wi-Fi
 
-![PC3 home Wi-Fi ipconfig wrong static IP](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-03-ipconfig-wrong-static-ip-no-internet.png)
+![PC3 home Wi-Fi ipconfig wrong static IP](./screenshots/pc3-homewifi/pc3-homewifi-03-ipconfig-wrong-static-ip-no-internet.png)
 
 ---
 
 ### PC3 – Mobile Hotspot
 
-![PC3 mobile hotspot ipconfig wrong static IP](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-03-ipconfig-wrong-static-ip-no-internet.png)
+![PC3 mobile hotspot ipconfig wrong static IP](./screenshots/pc3-mobile/pc3-mobile-03-ipconfig-wrong-static-ip-no-internet.png)
 
 ---
 
 ### PC2 – Ethernet
 
-![PC2 Ethernet ipconfig wrong static IP](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-03-ipconfig-wrong-static-ip-no-internet.png)
+![PC2 Ethernet ipconfig wrong static IP](./screenshots/pc2-ethernet/pc2-ethernet-03-ipconfig-wrong-static-ip-no-internet.png)
 
 ---
 
@@ -157,19 +157,19 @@ The failed results confirmed that the incorrect static configuration prevented n
 
 ### PC3 – Home Wi-Fi
 
-![PC3 home Wi-Fi failed ping tests](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-04-ping-gateway-external-google-failed.png)
+![PC3 home Wi-Fi failed ping tests](./screenshots/pc3-homewifi/pc3-homewifi-04-ping-gateway-external-google-failed.png)
 
 ---
 
 ### PC3 – Mobile Hotspot
 
-![PC3 mobile hotspot failed ping tests](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-04-ping-gateway-external-google-failed.png)
+![PC3 mobile hotspot failed ping tests](./screenshots/pc3-mobile/pc3-mobile-04-ping-gateway-external-google-failed.png)
 
 ---
 
 ### PC2 – Ethernet
 
-![PC2 Ethernet failed ping tests](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-04-ping-gateway-external-google-failed.png)
+![PC2 Ethernet failed ping tests](./screenshots/pc2-ethernet/pc2-ethernet-04-ping-gateway-external-google-failed.png)
 
 ---
 
@@ -188,19 +188,19 @@ The adapter was changed back to:
 
 ### PC3 – Home Wi-Fi
 
-![PC3 home Wi-Fi DHCP restored](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-05-dhcp-restored-ipv4-settings.png)
+![PC3 home Wi-Fi DHCP restored](./screenshots/pc3-homewifi/pc3-homewifi-05-dhcp-restored-ipv4-settings.png)
 
 ---
 
 ### PC3 – Mobile Hotspot
 
-![PC3 mobile hotspot DHCP restored](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-05-dhcp-restored-ipv4-settings.png)
+![PC3 mobile hotspot DHCP restored](./screenshots/pc3-mobile/pc3-mobile-05-dhcp-restored-ipv4-settings.png)
 
 ---
 
 ### PC2 – Ethernet
 
-![PC2 Ethernet DHCP restored](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-05-dhcp-restored-ipv4-settings.png)
+![PC2 Ethernet DHCP restored](./screenshots/pc2-ethernet/pc2-ethernet-05-dhcp-restored-ipv4-settings.png)
 
 ---
 
@@ -217,25 +217,25 @@ ipconfig /renew
 
 ### PC3 – Home Wi-Fi
 
-![PC3 home Wi-Fi DHCP release](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-06-release-after-dhcp.png)
+![PC3 home Wi-Fi DHCP release](./screenshots/pc3-homewifi/pc3-homewifi-06-release-after-dhcp.png)
 
-![PC3 home Wi-Fi DHCP renew](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-07-renew-after-dhcp.png)
+![PC3 home Wi-Fi DHCP renew](./screenshots/pc3-homewifi/pc3-homewifi-07-renew-after-dhcp.png)
 
 ---
 
 ### PC3 – Mobile Hotspot
 
-![PC3 mobile hotspot DHCP release](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-06-release-after-dhcp.png)
+![PC3 mobile hotspot DHCP release](./screenshots/pc3-mobile/pc3-mobile-06-release-after-dhcp.png)
 
-![PC3 mobile hotspot DHCP renew](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-07-renew-after-dhcp.png)
+![PC3 mobile hotspot DHCP renew](./screenshots/pc3-mobile/pc3-mobile-07-renew-after-dhcp.png)
 
 ---
 
 ### PC2 – Ethernet
 
-![PC2 Ethernet DHCP release](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-06-release-after-dhcp.png)
+![PC2 Ethernet DHCP release](./screenshots/pc2-ethernet/pc2-ethernet-06-release-after-dhcp.png)
 
-![PC2 Ethernet DHCP renew](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-07-renew-after-dhcp.png)
+![PC2 Ethernet DHCP renew](./screenshots/pc2-ethernet/pc2-ethernet-07-renew-after-dhcp.png)
 
 ---
 
@@ -247,19 +247,19 @@ After DHCP was restored, each device received valid network settings again, incl
 
 ### PC3 – Home Wi-Fi
 
-![PC3 home Wi-Fi ipconfig after DHCP restore](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-08-ipconfig-after-dhcp-restore.png)
+![PC3 home Wi-Fi ipconfig after DHCP restore](./screenshots/pc3-homewifi/pc3-homewifi-08-ipconfig-after-dhcp-restore.png)
 
 ---
 
 ### PC3 – Mobile Hotspot
 
-![PC3 mobile hotspot ipconfig after DHCP restore](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-08-ipconfig-after-dhcp-restore.png)
+![PC3 mobile hotspot ipconfig after DHCP restore](./screenshots/pc3-mobile/pc3-mobile-08-ipconfig-after-dhcp-restore.png)
 
 ---
 
 ### PC2 – Ethernet
 
-![PC2 Ethernet ipconfig after DHCP restore](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-08-ipconfig-after-dhcp-restore.png)
+![PC2 Ethernet ipconfig after DHCP restore](./screenshots/pc2-ethernet/pc2-ethernet-08-ipconfig-after-dhcp-restore.png)
 
 ---
 
@@ -271,19 +271,19 @@ After the network configuration was restored, the connection was tested again an
 
 ### PC3 – Home Wi-Fi
 
-![PC3 home Wi-Fi successful ping tests](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-09-ping-external-and-google-success.png)
+![PC3 home Wi-Fi successful ping tests](./screenshots/pc3-homewifi/pc3-homewifi-09-ping-external-and-google-success.png)
 
 ---
 
 ### PC3 – Mobile Hotspot
 
-![PC3 mobile hotspot successful ping tests](screenshots/case-04-ip-misconfiguration/computer-3/mobile-hotspot/pc3-mobile-09-ping-external-and-google-success.png)
+![PC3 mobile hotspot successful ping tests](./screenshots/pc3-mobile/pc3-mobile-09-ping-external-and-google-success.png)
 
 ---
 
 ### PC2 – Ethernet
 
-![PC2 Ethernet successful ping tests](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-09-ping-external-and-google-success.png)
+![PC2 Ethernet successful ping tests](./screenshots/pc2-ethernet/pc2-ethernet-09-ping-external-and-google-success.png)
 
 ---
 
@@ -291,7 +291,7 @@ After the network configuration was restored, the connection was tested again an
 
 After command-line tests confirmed restored external IP connectivity and DNS resolution, a browser check was used as a final user-facing verification that internet access was working again.
 
-![PC2 Ethernet browser internet restored](screenshots/case-04-ip-misconfiguration/computer-2/ethernet/pc2-ethernet-10-browser-internet-restored.png)
+![PC2 Ethernet browser internet restored](./screenshots/pc2-ethernet/pc2-ethernet-10-browser-internet-restored.png)
 
 ---
 
