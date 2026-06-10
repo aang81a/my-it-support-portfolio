@@ -32,9 +32,9 @@ The lab is used for hardware troubleshooting, storage testing, BIOS/boot diagnos
 | Samsung SP1203N | IDE/PATA HDD | Tested in Computer 1; detected in BIOS; no bootable OS found |
 | Internal Seagate SATA HDD in Computer 2 | SATA HDD | Tested in Computer 2; Windows started successfully; used as the internal drive of the recovery and backup workstation |
 | Western Digital HDD | SATA HDD | Tested in Computer 2 using a SATA data cable; did not boot as a standalone system drive; contains files that are being backed up to the external Seagate USB drive |
-| Seagate external USB drive | External USB storage, 2 TB | Backup destination |
-| WD My Passport Wireless Pro | Wireless external storage, 2 TB | Planned for later storage/network access testing |
-| Silicon Power Armor external HDD | External USB HDD, 1 TB | Existing data found; checked as legacy external storage; not used as backup destination |
+| Seagate Basic | External USB HDD, 2 TB, USB 3.0 / USB 2.0 compatible | Backup destination |
+| WD My Passport Wireless Pro | Wi-Fi mobile storage, 2 TB, SD 3.0, Wi-Fi AC, USB 2.0 | Existing data found; checked as legacy external storage; not used as backup destination yet |
+| Silicon Power Armor | External USB HDD, 1 TB | Existing data found; checked as legacy external storage; not used as backup destination |
 
 ---
 
