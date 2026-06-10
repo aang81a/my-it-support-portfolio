@@ -3,13 +3,17 @@
 ![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
 ![Level](https://img.shields.io/badge/Level-Entry--Level-lightgrey)
 
-**Aspiring IT Support Professional | Focus on User Support, Troubleshooting, Efficiency and Documentation**
+**Entry-Level IT Support | User Support • Troubleshooting • Efficient Workflows • Documentation**
 
 ---
 
-I am building practical skills for entry-level IT Support, with a focus on Windows support, basic networking, remote support, ticket documentation, Microsoft 365 user support, and structured troubleshooting.
+I am transitioning into entry-level IT Support with a strong focus on user support, troubleshooting, clear documentation, and efficient support workflows.
 
-My background has strengthened my communication, patience, service mindset, and ability to support people in stressful situations. I am now applying these strengths to technical support work through hands-on portfolio projects and IT support coursework.
+My background has strengthened my communication, patience, service mindset, and ability to support people in stressful situations.
+
+What motivates me is the practical side of IT Support: understanding the user’s problem, finding the cause step by step, explaining the solution clearly, and documenting the work so it can be followed later.
+
+I am applying this focus through portfolio projects, hands-on practice, and IT support coursework.
 
 ---
 
