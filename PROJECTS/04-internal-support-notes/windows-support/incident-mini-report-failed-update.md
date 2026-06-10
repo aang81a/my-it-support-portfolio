@@ -18,7 +18,7 @@
 </tr>
 </table>
 
-**Document ID:** `INC-1002`  
+**Document ID:** `INC-1001`  
 **Category:** Windows 11 / Update Incident  
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** June 2026
