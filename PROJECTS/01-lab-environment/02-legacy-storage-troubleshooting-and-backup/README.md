@@ -77,9 +77,7 @@ The Western Digital SATA hard drive was tested in Computer 2 using a SATA connec
 
 ---
 
-## Lab Environment
-
-- [Lab Environment Overview](../lab-environment-overview.md)
+## [Lab Environment Overview](../lab-environment-overview.md)
 
 ---
 
