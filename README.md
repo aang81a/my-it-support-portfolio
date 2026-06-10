@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)  
 ![Banner](IMAGES/01/portfolio-banner-1200x250.png)
 
-In this portfolio are documented my practical home lab projects, Windows and network troubleshooting practices, hardware support tasks, backup workflows and support documentation.
+This portfolio documents my practical home lab projects, Windows and network troubleshooting practice, hardware support tasks, backup workflows, and support documentation.
 
 ---
 
