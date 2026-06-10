@@ -42,21 +42,21 @@ Each document shows how a common support task, incident, or technical concept ca
 
 | Guide | Topic | Type | Purpose |
 |---|---|---|---|
-| [3-2-1 Backup SOP](./backup-3-2-1-sop.md) | Backup and recovery | SOP | Internal procedure for basic Windows 11 backup and restore verification |
+| [3-2-1 Backup SOP](./backup-recovery/backup-3-2-1-sop.md) | Backup and recovery | SOP | Internal procedure for basic Windows 11 backup and restore verification |
 | [How to Create a User in Active Directory](./active-directory/how-to-create-a-user-in-active-directory.md) | Active Directory | SOP | Internal procedure for creating a new domain user account |
-| [How to Join a PC to a Domain](./how-to-join-a-pc-to-a-domain.md) | Active Directory | SOP | Internal procedure for joining a Windows computer to a domain |
-| [How to Map a Network Drive](./how-to-map-a-network-drive.md) | Shared drive access | SOP | Internal procedure for connecting a shared folder as a mapped drive |
-| [How to Reset a Domain Password](./how-to-reset-a-domain-password.md) | Active Directory | SOP | Internal procedure for resetting a user password securely |
-| [How to Troubleshoot No Network Access](./how-to-troubleshoot-no-network-access.md) | Windows networking | SOP | Internal procedure for first-level network access checks |
-| [Incident Mini-Report: Failed Windows Update](./incident-mini-report-failed-update.md) | Windows Update | Incident Report | Example incident documentation for a failed update case |
-| [Incident Mini-Report: OneDrive Sync Issue](./incident-mini-report-onedrive-sync-issue.md) | Microsoft 365 / OneDrive | Incident Report | Example incident documentation for a OneDrive sync issue |
-| [Incident Mini-Report: Phishing Attempt](./incident-mini-report-phishing-attempt.md) | Security awareness | Incident Report | Example incident documentation for a suspected phishing email |
-| [JIT, JEA, and ZSA Access Policy Cheat Sheet](./jit-jea-zsa-access-policy-cheatsheet.md) | Access control | Cheat Sheet | Short security-governance reference for least-privilege concepts |
-| [M365 Sign-In and OneDrive Sync Troubleshooting](./m365-sign-in-and-onedrive-sync-troubleshooting.md) | Microsoft 365 / OneDrive | Internal Support Note | First-level troubleshooting flow for sign-in and sync issues |
-| [Vulnerability Management CVSS Starter Note](./vulnerability-management-cvss-starter-note.md) | Vulnerability management | Internal Support Note | Basic security note for CVSS, risk treatment, and escalation awareness |
-| [Windows 11 Hardening Essentials](./windows-11-hardening-essentials.md) | Windows 11 security | Checklist | Basic endpoint hardening checklist for first-level support |
-| [Windows 11 Patch Management Runbook](./windows-11-patch-management-runbook.md) | Windows 11 patching | Runbook | Basic patch-management workflow and failed-update handling |
-| [Windows 11 Performance Tune-Up Checklist](./windows-11-performance-tune-up-checklist.md) | Windows 11 performance | Checklist | Safe and reversible first-level performance troubleshooting checklist |
+| [How to Join a PC to a Domain](.active-directory/how-to-join-a-pc-to-a-domain.md) | Active Directory | SOP | Internal procedure for joining a Windows computer to a domain |
+| [How to Map a Network Drive](./networking/how-to-map-a-network-drive.md) | Shared drive access | SOP | Internal procedure for connecting a shared folder as a mapped drive |
+| [How to Reset a Domain Password](./active-directory/how-to-reset-a-domain-password.md) | Active Directory | SOP | Internal procedure for resetting a user password securely |
+| [How to Troubleshoot No Network Access](./networking/how-to-troubleshoot-no-network-access.md) | Windows networking | SOP | Internal procedure for first-level network access checks |
+| [Incident Mini-Report: Failed Windows Update](./windows-support/incident-mini-report-failed-update.md) | Windows Update | Incident Report | Example incident documentation for a failed update case |
+| [Incident Mini-Report: OneDrive Sync Issue](./microsoft-365/incident-mini-report-onedrive-sync-issue.md) | Microsoft 365 / OneDrive | Incident Report | Example incident documentation for a OneDrive sync issue |
+| [Incident Mini-Report: Phishing Attempt](./security/incident-mini-report-phishing-attempt.md) | Security awareness | Incident Report | Example incident documentation for a suspected phishing email |
+| [JIT, JEA, and ZSA Access Policy Cheat Sheet](./security/jit-jea-zsa-access-policy-cheatsheet.md) | Access control | Cheat Sheet | Short security-governance reference for least-privilege concepts |
+| [M365 Sign-In and OneDrive Sync Troubleshooting](./microsoft-365/m365-sign-in-and-onedrive-sync-troubleshooting.md) | Microsoft 365 / OneDrive | Internal Support Note | First-level troubleshooting flow for sign-in and sync issues |
+| [Vulnerability Management CVSS Starter Note](./security/vulnerability-management-cvss-starter-note.md) | Vulnerability management | Internal Support Note | Basic security note for CVSS, risk treatment, and escalation awareness |
+| [Windows 11 Hardening Essentials](./windows-support/windows-11-hardening-essentials.md) | Windows 11 security | Checklist | Basic endpoint hardening checklist for first-level support |
+| [Windows 11 Patch Management Runbook](./windows-support/windows-11-patch-management-runbook.md) | Windows 11 patching | Runbook | Basic patch-management workflow and failed-update handling |
+| [Windows 11 Performance Tune-Up Checklist](./windows-support/windows-11-performance-tune-up-checklist.md) | Windows 11 performance | Checklist | Safe and reversible first-level performance troubleshooting checklist |
 
 ---
 
