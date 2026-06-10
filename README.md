@@ -43,4 +43,4 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 | [Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/README.md) | User-facing guides for non-technical users, written as step-by-step support articles |
 | [Internal Support Notes](./PROJECTS/08-internal-support-notes/README.md) | Practical reference guides for recurring IT support checks, troubleshooting steps, and workflow documentation |
 | [Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/) | Remote support workflow practice using TeamViewer and AnyDesk |
-| [PowerShell Automation Lab: IT Support Diagnostic Tool](./PROJECTS/12-powershell-automation-lab/README.md) | PowerShell-based system information collection for 1st Level IT Support, including network, BIOS, OS and security product information |
+| [PowerShell Automation Lab](./PROJECTS/12-powershell-automation-lab/README.md) | PowerShell-based support information collection tool for efficient first-level troubleshooting |
