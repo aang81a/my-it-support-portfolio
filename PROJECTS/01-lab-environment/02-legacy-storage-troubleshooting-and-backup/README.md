@@ -7,18 +7,6 @@
 
 ---
 
-## Skills Demonstrated
-
-* Data-loss prevention
-* Backup planning
-* External storage usage
-* Safe handling of unknown hard drives
-* Prioritizing user data
-* Recognizing destructive actions
-* Documenting a recovery workflow
-
----
-
 ## Overview
 
 This hardware case documents a practical troubleshooting and backup workflow using legacy desktop hardware, IDE/PATA storage, SATA storage, optical drives, and external USB backup storage.
