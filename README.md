@@ -48,4 +48,4 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 
 ---
 
-![Banner](IMAGES/01/portfolio-banner.png)
+![Banner](IMAGES/01/portfolio-banner-1200x250.png)
