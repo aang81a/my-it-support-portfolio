@@ -7,6 +7,8 @@
 
 ---
 
+![PC3 home Wi-Fi IPv4 before change](./screenshots/pc3-home-wifi/pc3-homewifi-01-ipv4-before-change-dhcp.png)
+
 ## Overview
 
 This case documents a simulated IPv4 misconfiguration across multiple Windows devices and network connection types.
@@ -71,7 +73,7 @@ The baseline state showed that IPv4 and DNS were configured automatically throug
 
 ### PC3 – Home Wi-Fi
 
-![PC3 home Wi-Fi IPv4 before change](screenshots/case-04-ip-misconfiguration/computer-3/home-wifi/pc3-homewifi-01-ipv4-before-change-dhcp.png)
+![PC3 home Wi-Fi IPv4 before change](./screenshots/pc3-home-wifi/pc3-homewifi-01-ipv4-before-change-dhcp.png)
 
 ---
 
