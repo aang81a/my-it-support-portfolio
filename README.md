@@ -23,7 +23,7 @@ I am transitioning into entry-level **IT Support** with a core focus on user sup
 | [Home Lab Inventory](./PROJECTS/01-lab-environment/01-home-lab-inventory/README.md) | Lab inventory, hardware documentation, storage devices, backup systems, practical IT support environment |
 | [Legacy Storage Troubleshooting and Backup](./PROJECTS/01-lab-environment/02-legacy-storage-troubleshooting-and-backup) | IDE/PATA and SATA storage troubleshooting, BIOS detection, boot issue analysis, data protection and backup workflow |
 | [RAM Upgrade](./PROJECTS/01-lab-environment/03-ram-upgrade) | RAM compatibility check, SO-DIMM installation, 8GB to 16GB upgrade |
-| [Network Troubleshooting Cases](./PROJECTS/06-network-troubleshooting/case-04/README-case-04.md) | IPv4 misconfiguration, DHCP restore, `ipconfig`, `ping`, Ethernet vs Wi-Fi vs mobile hotspot comparison |
+| [Network Troubleshooting Cases](./PROJECTS/06-network-troubleshooting/README-case-04.md) | IPv4 misconfiguration, DHCP restore, `ipconfig`, `ping`, Ethernet vs Wi-Fi vs mobile hotspot comparison |
 | [Knowledge Base Articles](./PROJECTS/03-knowledge-base-articles/README.md) | User-facing guides for non-technical users, written as step-by-step support articles |
 | [Internal Support Notes](./PROJECTS/04-internal-support-notes/README.md) | Practical reference guides for recurring IT support checks, troubleshooting steps, and workflow documentation |
 | [Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/) | Remote support workflow practice using TeamViewer and AnyDesk |
