@@ -2,6 +2,14 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
+# Legacy Storage Troubleshooting and Backup
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Focus](https://img.shields.io/badge/Focus-Storage_Troubleshooting-orange)
+![Skill](https://img.shields.io/badge/Skill-Backup_Workflow-blue)
+![Skill](https://img.shields.io/badge/Skill-Data_Protection-blue)
+![Documentation](https://img.shields.io/badge/Documentation-Case_Study-purple)
+
 ---
 
 ## Skills Demonstrated
