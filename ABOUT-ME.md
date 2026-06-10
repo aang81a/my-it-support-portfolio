@@ -7,26 +7,35 @@
 
 ---
 
+
+---
+
+## 🌟 My Approach to Support
+
+- **User-First Mindset:** I prioritize active listening and clear communication to ensure users feel heard and supported.
+
+- **Structured Documentation:** I believe that good documentation is the key to a fast helpdesk. I enjoy creating clear "How-To" guides to empower users and help my team.
+
+- **Efficiency awareness:** I'm always looking for ways to streamline repetitive tasks so I can helping more people with their issues.
+
+#### 🎯 Troubleshooting Framework
+> *"Ohne Scope ist Troubleshooting wie Karate im Dunkeln."*
+
+To isolate and resolve technical issues efficiently, I systematically apply the **Scope Formula (4W)**:
+1. **Wer** ist betroffen? (Who is affected?)
+2. **Was** genau ist das Problem? (What exactly is the issue?)
+3. **Wann** tritt es seitdem auf? (When/Since when did it start?)
+4. **Wie stark** ist die Auswirkung? (How severe is the impact?)
+
+---
+
 I am transitioning into entry-level **IT Support** focusing on user support, troubleshooting, efficient workflows, and clear documentation.
 
 - **My Strengths:** Patience, a service mindset, and supporting people in stressful situations.  
 - **My Motivation:** Diagnosing problems step-by-step, explaining solutions clearly, and documenting the work.  
 - **This Portfolio:** Showcases my transition through practical projects, troubleshooting logs, and technical guides.  
 
----
-
-## 🌟 My Approach to Support
-
-- **User-first support:** I focus on clear communication, active listening, and calm guidance.
-    
-- **Structured troubleshooting:** I try to understand the issue, narrow down the cause, test carefully, and verify the result.
-    
-- **Documentation mindset:** I document support steps clearly so solutions can be reused and understood later.
-    
-- **Efficiency awareness:** I am interested in simple tools and workflows that reduce repetitive support work.
-
-
----
+----
 
 I am transitioning into entry-level **IT Support** with a focus on user support, troubleshooting, efficient workflows, and clear documentation. My goal is to make technology accessible and stress-free for everyone in the workplace.
 
@@ -40,30 +49,6 @@ I am transitioning into entry-level **IT Support** with a focus on user support,
 
 ---
 
-### 👋 About Me
-
-I am transitioning into entry-level **IT Support** with a core focus on user support, troubleshooting, efficient workflows, and clear technical documentation. 
-
-My background has strengthened my communication, patience, service mindset, and unique ability to support people in stressful situations.
-
-What motivates me is the practical side of IT Support: understanding the user’s problem, executing step-by-step root-cause analysis, explaining the solution clearly, and maintaining comprehensive documentation so workflows remain efficient and repeatable.
-
-This portfolio showcases my transition into IT Support through hands-on technical projects, troubleshooting logs, and clear documentation.
-
-- **My Strengths:** Patience, a service mindset, and supporting people in stressful situations.
-
-- **User-First Support:** Prioritizing active listening and clarity so users feel heard and supported.
-
-- **High Documentation Standards:** Creating clear "How-To" guides to speed up the helpdesk and empower teams.
-
-- **Proactive Problem Solving:** Diagnosing issues step-by-step and streamlining repetitive tasks.
-
-- Using **Scope Formula** = 4W:** **Wer** betroffen? **Was** genau? **Wann** seit? **Wie stark** (Impact)?
-_Ohne Scope ist Troubleshooting wie Karate im Dunkeln_
-
----
-
-### 👋 About Me
 I am transitioning into entry-level **IT Support** with a core focus on user support, troubleshooting, efficient workflows, and clear technical documentation. 
 
 My background has strengthened my communication, patience, service mindset, and unique ability to support people in stressful situations.
@@ -74,23 +59,16 @@ This portfolio showcases my transition into IT Support through hands-on technica
 
 ---
 
-### 🌟 My Approach to Support
+I am transitioning into entry-level **IT Support** with a core focus on user support, troubleshooting, efficient workflows, and clear technical documentation. 
 
-* **User-First Mindset:** Prioritizing active listening, patience, and clarity so users feel heard and supported even in stressful situations.  
-* **Proactive Problem Solving:** Diagnosing issues systematically and streamlining repetitive tasks to improve helpdesk efficiency.  
-* **High Documentation Standards:** Creating clear, repeatable "How-To" guides to empower teams and maintain fast workflows.  
+My background has strengthened my communication, patience, service mindset, and ability to support people in stressful situations.
 
-#### 🎯 Troubleshooting Framework
-> *"Ohne Scope ist Troubleshooting wie Karate im Dunkeln."*
+What motivates me is the practical side of IT Support: understanding the user’s problem, executing step-by-step root-cause analysis, explaining the solution clearly, and maintaining comprehensive documentation so workflows remain efficient and repeatable.
 
-To isolate and resolve technical issues efficiently, I systematically apply the **Scope Formula (4W)**:
-1. **Wer** ist betroffen? (Who is affected?)
-2. **Was** genau ist das Problem? (What exactly is the issue?)
-3. **Wann** tritt es seitdem auf? (When/Since when did it start?)
-4. **Wie stark** ist die Auswirkung? (How severe is the impact?)
+This portfolio showcases my transition into IT Support through hands-on technical projects, troubleshooting logs, and clear documentation.
 
 ---
-
+---
 
 ## ⚙️ Practical Skills I Am Building
 
