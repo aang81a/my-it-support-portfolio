@@ -25,7 +25,7 @@ I am transitioning into entry-level **IT Support** with a core focus on user sup
 | [RAM Upgrade](./PROJECTS/01-lab-environment/03-ram-upgrade) | RAM compatibility check, SO-DIMM installation, 8GB to 16GB upgrade |
 | [Network Troubleshooting Cases](./PROJECTS/04-network-troubleshooting-cases/README-case-04.md) | IPv4 misconfiguration, DHCP restore, `ipconfig`, `ping`, Ethernet vs Wi-Fi vs mobile hotspot comparison |
 | [Knowledge Base Articles](./PROJECTS/06-knowledge-base-articles/README.md) | User-facing guides for non-technical users, written as step-by-step support articles |
-| [Internal Support Notes](./PROJECTS/08-internal-support-notes/README.md) | Practical reference guides for recurring IT support checks, troubleshooting steps, and workflow documentation |
+| [Internal Support Notes](./PROJECTS/04-internal-support-notes/README.md) | Practical reference guides for recurring IT support checks, troubleshooting steps, and workflow documentation |
 | [Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/) | Remote support workflow practice using TeamViewer and AnyDesk |
 | [PowerShell Automation Lab](./PROJECTS/12-powershell-automation-lab/README.md) | PowerShell-based support information collection tool for efficient first-level troubleshooting |
 
