@@ -15,8 +15,6 @@ What motivates me is the practical side of IT Support: understanding the user’
 
 My goal is to make technology accessible and stress-free for everyone in the workplace.   
 
-This portfolio showcases my transition into IT Support through hands-on projects, troubleshooting logs and technical guides. 
-
 ---
 
 ## ◽ My Approach to Support
