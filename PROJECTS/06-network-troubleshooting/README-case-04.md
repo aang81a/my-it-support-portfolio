@@ -29,8 +29,8 @@ The focus is on connectivity issues, IPv4 configuration, DHCP behaviour, command
 
 The troubleshooting process used in these cases is documented here:
 
+- [Troubleshooting Method](PROJECTS/06-network-troubleshooting/diagrams/troubleshooting-method.md)
 - [Troubleshooting Method](./06-network-troubleshooting/diagrams/troubleshooting-method.md)
-
 ---
 
 ## Skills Demonstrated
