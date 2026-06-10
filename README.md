@@ -2,6 +2,8 @@
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
 
+![Banner](IMAGES/01/portfolio-banner-1200x250.png)
+
 In this portfolio are documented my practical home lab projects, Windows and network troubleshooting practices, hardware support tasks, backup workflows and support documentation.
 
 ---
@@ -45,7 +47,3 @@ Aspiring IT Support Professional currently building hands-on skills through Micr
 | [Internal Support Notes](./PROJECTS/08-internal-support-notes/README.md) | Short internal support notes for common Windows and Active Directory support tasks |
 | [Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/) | Remote support workflow practice using TeamViewer and AnyDesk |
 | [PowerShell Automation Lab: IT Support Diagnostic Tool](./PROJECTS/12-powershell-automation-lab/README.md) | PowerShell-based system information collection for 1st Level IT Support, including network, BIOS, OS and security product information |
-
----
-
-![Banner](IMAGES/01/portfolio-banner-1200x250.png)
