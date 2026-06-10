@@ -103,10 +103,13 @@ This portfolio showcases my transition into IT Support through hands-on projects
 
 ## 🔌 Let's Connect
 
-I am looking for an entry-level opportunity in a Swiss-based IT support team where I can grow, contribute, and continue building practical support experience.
+I am looking for an entry-level opportunity in a Zurich-based IT support team where I can grow, contribute, and continue building practical support experience.
 
 ### 🌍 Languages & Location
 
-- Languages: German B2, English B2
-    
+- Languages: 
+- **German (B2)**  
+- **English (B2)**  
+    Fluent professional communication to support local users, in technical environments, global ticketing systems, and resources.
+  
 - Based in: Zürich, Switzerland
