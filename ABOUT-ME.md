@@ -112,4 +112,3 @@ I am looking for an entry-level opportunity in a Zurich-based IT support team wh
 - **German (B2):** Competent in professional communication to support local users.
 
 - **Location:** Zürich, Switzerland
-
