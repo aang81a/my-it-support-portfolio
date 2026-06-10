@@ -8,7 +8,7 @@ This portfolio documents my practical home lab projects, network troubleshooting
 
 ## 🔹 [About Me](./ABOUT-ME.md)
 
-IT Support Professional currently building hands-on skills through Microsoft IT Support Specialist and Cisco IT Support Specialist Career Path coursework.
+I am transitioning into entry-level **IT Support** with a core focus on user support, troubleshooting, efficient workflows and clear technical documentation. 
 
 ---
 
