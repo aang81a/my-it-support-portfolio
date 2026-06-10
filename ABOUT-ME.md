@@ -95,10 +95,9 @@ To isolate and resolve technical issues efficiently, I systematically apply the 
     
 - Careful troubleshooting and verification
     
-- Willingness to learn and improve through practical work
-    
 - Interest in efficient support workflows and clear communication
     
+- Willingness to learn and improve through practical work
 
 ---
 
