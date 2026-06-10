@@ -44,7 +44,7 @@ Each document shows how a common support task, incident, or technical concept ca
 |---|---|---|---|
 | [3-2-1 Backup SOP](./backup-recovery/backup-3-2-1-sop.md) | Backup and recovery | SOP | Internal procedure for basic Windows 11 backup and restore verification |
 | [How to Create a User in Active Directory](./active-directory/how-to-create-a-user-in-active-directory.md) | Active Directory | SOP | Internal procedure for creating a new domain user account |
-| [How to Join a PC to a Domain](.active-directory/how-to-join-a-pc-to-a-domain.md) | Active Directory | SOP | Internal procedure for joining a Windows computer to a domain |
+| [How to Join a PC to a Domain](./active-directory/how-to-join-a-pc-to-a-domain.md) | Active Directory | SOP | Internal procedure for joining a Windows computer to a domain |
 | [How to Map a Network Drive](./networking/how-to-map-a-network-drive.md) | Shared drive access | SOP | Internal procedure for connecting a shared folder as a mapped drive |
 | [How to Reset a Domain Password](./active-directory/how-to-reset-a-domain-password.md) | Active Directory | SOP | Internal procedure for resetting a user password securely |
 | [How to Troubleshoot No Network Access](./networking/how-to-troubleshoot-no-network-access.md) | Windows networking | SOP | Internal procedure for first-level network access checks |
