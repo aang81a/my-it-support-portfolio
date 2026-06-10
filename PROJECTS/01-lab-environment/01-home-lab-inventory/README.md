@@ -19,7 +19,7 @@ The lab is used for hardware troubleshooting, storage testing, BIOS/boot diagnos
 | System | Role in the lab | Relevant notes |
 |---|---|---|
 | Computer 1 – Legacy ASUS desktop | Legacy storage and BIOS troubleshooting system | ASUS P5LD2 / American Megatrends BIOS, Intel Pentium D 2.80 GHz, 2944 MB RAM shown in BIOS; used for Samsung SP1203N IDE/PATA HDD detection, optical drive testing, BIOS boot order checks |
-| Computer 2 – HP 280 G2 MT | Desktop PC - black; Recovery and backup workstation | Windows 10 Pro, Intel Core i3-6100 3.70 GHz, 4 GB DDR4 RAM, 500 GB Seagate SATA HDD; used to access Windows, test SATA drives, check files, and perform backup/storage checks |
+| Computer 2 – HP 280 G2 MT | Recovery and backup workstation | Windows 10 Pro, Intel Core i3-6100 3.70 GHz, 4 GB DDR4 RAM, 500 GB Seagate SATA HDD; used to access Windows, test SATA drives, check files, and perform backup/storage checks |
 | Computer 3 – HP Pavilion All-in-One 27-xa0xxx | Hardware upgrade system / Future VM lab workstation | Windows 10 Home 22H2, Intel Core i5-9400T 1.80 GHz, RAM upgraded from 8 GB to 16 GB |
 | Computer 4 – Legacy WD SATA HDD source (2006) | Legacy hardware system test candidate | Initially checked as a possible standalone system; Windows did not boot successfully; files were accessible and backed up through Computer 2 |
 
