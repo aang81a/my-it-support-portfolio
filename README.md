@@ -2,7 +2,7 @@
 
 ![Banner](IMAGES/01/portfolio-banner-1200x250.png)
 
-This portfolio documents my practical home lab projects, network troubleshooting practice, hardware support tasks, backup workflows, remote support workflows, PowerShell support tooling, and support documentation.
+This portfolio documents my practical home lab projects, network troubleshooting practice, hardware support tasks, backup workflows, remote support workflows, a PowerShell-based support tool, and support documentation.
 
 ---
 
