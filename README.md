@@ -1,7 +1,5 @@
 ![Banner](IMAGES/01/portfolio-banner-1200x250.png)
 
----
-
 # IT Support Portfolio
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress...-yellow)
