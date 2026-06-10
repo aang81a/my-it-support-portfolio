@@ -10,6 +10,8 @@ This portfolio documents my practical home lab projects, network troubleshooting
 
 I am transitioning into entry-level **IT Support** with a core focus on user support, troubleshooting, efficient workflows and clear technical documentation. 
 
+I am transitioning into entry-level **IT Support** and use this portfolio to document how I approach user support, troubleshooting, efficient workflows, and clear technical documentation.
+
 ---
 
 ## 📜 [Certifications](CERTIFICATIONS.md)
