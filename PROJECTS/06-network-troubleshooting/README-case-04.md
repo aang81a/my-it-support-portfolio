@@ -18,7 +18,7 @@ The focus is on connectivity issues, IPv4 configuration, DHCP behaviour, command
 
 | Case | Topic | Status |
 |---|---|---|
-| [Case 04 - IP Misconfiguration Across Multiple Devices](./06-network-troubleshooting/case-04/case-04-ip-misconfiguration-across-multiple-devices.md) | Wrong static IPv4/DNS configuration, DHCP restore, Ethernet vs Wi-Fi vs mobile hotspot comparison | Completed ✅ |
+| [Case 04 - IP Misconfiguration Across Multiple Devices](./case-04/case-04-ip-misconfiguration-across-multiple-devices.md) | Wrong static IPv4/DNS configuration, DHCP restore, Ethernet vs Wi-Fi vs mobile hotspot comparison | Completed ✅ |
 | Case 01 - No Network Access | Basic network access troubleshooting | Planned |
 | Case 02 - DNS Resolution Failure | DNS/name resolution troubleshooting | Planned |
 | Case 03 - Shared Folder Access Denied | Shared folder access and permission issue | Planned |
