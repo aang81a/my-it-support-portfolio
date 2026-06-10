@@ -21,11 +21,21 @@ This portfolio showcases my transition into IT Support through hands-on projects
 
 ## 🌟 My Approach to Support
 
+## 🔸 My Approach to Support
+
+## ◽ My Approach to Support
+
+## ◾ My Approach to Support
+
+## 🧺 My Approach to Support
+
+## 🔎 My Approach to Support
+
 - **User-First Mindset:** I prioritize active listening and clear communication to ensure users feel heard and supported.
 
 - **Structured Documentation:** I believe that good documentation is the key to a fast helpdesk. I enjoy creating clear "How-To" guides to empower users and help my team.
 
-- **Efficiency awareness:** I'm always looking for ways to streamline repetitive tasks so I can helping more people with their issues.
+- **Efficiency awareness:** I'm always looking for ways to streamline repetitive tasks so I can help more people with their issues.
 
 - **Scope Formula (4W):** To isolate and resolve technical issues efficiently, I systematically apply the troubleshooting framework:
 
