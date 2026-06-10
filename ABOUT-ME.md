@@ -90,6 +90,8 @@ My background has strengthened my communication, patience, service mindset, and 
 
 ---
 
+## 🕊️ Let's Connect
+
 ## 📡 Let's Connect
 
 ## 🔌 Let's Connect
