@@ -7,13 +7,11 @@
 
 ---
 
-I am transitioning into entry-level IT Support with a strong focus on user support, troubleshooting, clear documentation, and efficient support workflows.
+I am transitioning into entry-level **IT Support** focusing on user support, troubleshooting, efficient workflows, and clear documentation.
 
-My background has strengthened my communication, patience, service mindset, and ability to support people in stressful situations.
-
-What motivates me is the practical side of IT Support: understanding the user’s problem, finding the cause step by step, explaining the solution clearly, and documenting the work so it can be followed later.
-
-My portfolio shows this focus through practical support projects, hands-on troubleshooting practice, and structured learning.
+- **My Strengths:** Patience, a service mindset, and supporting people in stressful situations.  
+- **My Motivation:** Diagnosing problems step-by-step, explaining solutions clearly, and documenting the work.  
+- **This Portfolio:** Showcases my transition through practical projects, troubleshooting logs, and technical guides.  
 
 ---
 
