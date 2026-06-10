@@ -48,3 +48,7 @@ It focuses on components that were relevant for hardware troubleshooting, storag
 | Molex power connector                 | Used for legacy IDE/PATA power connections    |
 | SATA power connector                  | Used for SATA HDD power connections           |
 | USB cable / external drive connection | Used for external backup storage              |
+
+---
+
+## [Lab Environment Overview](../lab-environment-overview.md)
