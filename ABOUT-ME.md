@@ -7,6 +7,15 @@
 
 ---
 
+I am transitioning into entry-level **IT Support** with a core focus on user support, troubleshooting, efficient workflows, and clear technical documentation. 
+
+My background has strengthened my patience, service mindset, and ability to support people in stressful situations.  
+
+What motivates me is the practical side of IT Support: understanding the user’s problem, executing step-by-step root-cause analysis, explaining the solution clearly, and documenting the work so workflows remain efficient and repeatable.  
+
+My goal is to make technology accessible and stress-free for everyone in the workplace.  
+
+This portfolio showcases my transition into IT Support through practical projects, troubleshooting logs, and technical guides.  
 
 ---
 
@@ -27,47 +36,6 @@ To isolate and resolve technical issues efficiently, I systematically apply the 
 3. **Wann** tritt es seitdem auf? (When/Since when did it start?)
 4. **Wie stark** ist die Auswirkung? (How severe is the impact?)
 
----
-
-I am transitioning into entry-level **IT Support** focusing on user support, troubleshooting, efficient workflows, and clear documentation.
-
-- **My Strengths:** Patience, a service mindset, and supporting people in stressful situations.  
-- **My Motivation:** Diagnosing problems step-by-step, explaining solutions clearly, and documenting the work.  
-- **This Portfolio:** Showcases my transition through practical projects, troubleshooting logs, and technical guides.  
-
-----
-
-I am transitioning into entry-level **IT Support** with a focus on user support, troubleshooting, efficient workflows, and clear documentation. My goal is to make technology accessible and stress-free for everyone in the workplace.
-
-- **My Strengths:** Patience, a service mindset, and supporting people in stressful situations.
-
-- **User-First Support:** Prioritizing active listening and clarity so users feel heard and supported.
-
-- **High Documentation Standards:** Creating clear "How-To" guides to speed up the helpdesk and empower teams.
-
-- **Proactive Problem Solving:** Diagnosing issues step-by-step and streamlining repetitive tasks.
-
----
-
-I am transitioning into entry-level **IT Support** with a core focus on user support, troubleshooting, efficient workflows, and clear technical documentation. 
-
-My background has strengthened my communication, patience, service mindset, and unique ability to support people in stressful situations.
-
-What motivates me is the practical side of IT Support: understanding the user’s problem, executing step-by-step root-cause analysis, explaining the solution clearly, and maintaining comprehensive documentation so workflows remain efficient and repeatable.
-
-This portfolio showcases my transition into IT Support through hands-on technical projects, troubleshooting logs, and clear documentation.
-
----
-
-I am transitioning into entry-level **IT Support** with a core focus on user support, troubleshooting, efficient workflows, and clear technical documentation. 
-
-My background has strengthened my communication, patience, service mindset, and ability to support people in stressful situations.
-
-What motivates me is the practical side of IT Support: understanding the user’s problem, executing step-by-step root-cause analysis, explaining the solution clearly, and maintaining comprehensive documentation so workflows remain efficient and repeatable.
-
-This portfolio showcases my transition into IT Support through hands-on technical projects, troubleshooting logs, and clear documentation.
-
----
 ---
 
 ## ⚙️ Practical Skills I Am Building
