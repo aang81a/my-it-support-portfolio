@@ -13,7 +13,7 @@ My background has strengthened my communication, patience, service mindset, and 
 
 What motivates me is the practical side of IT Support: understanding the user’s problem, finding the cause step by step, explaining the solution clearly, and documenting the work so it can be followed later.
 
-I am applying this focus through portfolio projects, hands-on practice, and IT support coursework.
+My portfolio shows this focus through practical support projects, hands-on troubleshooting practice, and structured learning.
 
 ---
 
