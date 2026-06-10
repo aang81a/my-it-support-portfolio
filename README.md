@@ -44,3 +44,7 @@ I am transitioning into entry-level **IT Support** with a core focus on user sup
 - Knowledge base writing
 - Internal support documentation
 - User support communication
+
+---
+
+## [Lab Environment Overview](./01-lab-environment/lab-environment-overview.md)
