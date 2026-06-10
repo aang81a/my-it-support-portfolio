@@ -48,3 +48,14 @@ It focuses on components that were relevant for hardware troubleshooting, storag
 | Molex power connector | Used for legacy IDE/PATA devices |
 | SATA power connector | Used for SATA HDDs |
 | USB cable / external drive connection | Used for backup storage |
+
+## Cables and Interfaces
+
+| Component                             | Purpose                                       |
+| ------------------------------------- | --------------------------------------------- |
+| IDE/PATA ribbon cable                 | Used for legacy HDD and DVD drive connections |
+| SATA data cable                       | Used for SATA HDD data connections            |
+| Molex power connector                 | Used for legacy IDE/PATA power connections    |
+| SATA power connector                  | Used for SATA HDD power connections           |
+| USB cable / external drive connection | Used for external backup storage              |
+
