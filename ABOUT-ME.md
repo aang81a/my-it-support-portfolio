@@ -19,8 +19,6 @@ This portfolio showcases my transition into IT Support through hands-on projects
 
 ---
 
-## 🌟 My Approach to Support
-
 ## ◽ My Approach to Support
 
 - **User-First Mindset:** I prioritize active listening and clear communication to ensure users feel heard and supported.
