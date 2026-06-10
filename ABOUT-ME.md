@@ -28,6 +28,18 @@ I am transitioning into entry-level **IT Support** focusing on user support, tro
 
 ---
 
+I am transitioning into entry-level **IT Support** with a focus on user support, troubleshooting, efficient workflows, and clear documentation. My goal is to make technology accessible and stress-free for everyone in the workplace.
+
+- **My Strengths:** Patience, a service mindset, and supporting people in stressful situations.
+
+- **User-First Support:** Prioritizing active listening and clarity so users feel heard and supported.
+
+- **High Documentation Standards:** Creating clear "How-To" guides to speed up the helpdesk and empower teams.
+
+- **Proactive Problem Solving:** Diagnosing issues step-by-step and streamlining repetitive tasks.
+
+---
+
 ## ⚙️ Practical Skills I Am Building
 
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)  
