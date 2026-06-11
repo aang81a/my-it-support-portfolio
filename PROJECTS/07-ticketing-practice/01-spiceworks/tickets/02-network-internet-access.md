@@ -1,4 +1,4 @@
-# Network Internet Access Ticket
+# Ticket 02 - User has no internet connection
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Type](https://img.shields.io/badge/Type-Ticket%20Case-blue)
