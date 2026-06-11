@@ -1,4 +1,34 @@
 # Network Internet Access Ticket
+# Network Internet Access Ticket
+
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Type](https://img.shields.io/badge/Type-Ticket%20Case-blue)
+![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)
+![Category](https://img.shields.io/badge/Category-Network-lightgrey)
+![Priority](https://img.shields.io/badge/Priority-High-red)
+![Final%20Status](https://img.shields.io/badge/Final%20Status-Closed-success)
+
+
+**Organization:** LogTech Solutions  
+**Tool:** Spiceworks Help Desk  
+**Audience:** IT Support / Service Desk  
+**Assignee:** Conrad Tadmini  
+**Requester:** Mark Callingback  
+**Ticket Category:** Network  
+**Priority:** High  
+**Final Status:** Closed
+
+---
+
+# Network Internet Access Ticket
+
+| Status | Type | Category | Priority | Final Status |
+|---|---|---|---|---|
+| Completed | Ticket Case | Network | High | Closed |
+
+| Organization | Tool | Audience |
+|---|---|---|
+| LogTech Solutions | Spiceworks Help Desk | IT Support / Service Desk |
 
 ## Problem Overview
 
