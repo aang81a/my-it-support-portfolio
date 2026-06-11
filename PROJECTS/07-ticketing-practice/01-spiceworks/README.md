@@ -2,13 +2,9 @@
 
 ## Overview
 
-This project documents three simulated helpdesk tickets created in Spiceworks Core Plan. The focus is on ticket workflow, support documentation, user communication, resolution notes, and escalation awareness.
+This project documents simulated helpdesk tickets created in Spiceworks. 
 
-## Tools Used
-
-- Spiceworks Help Desk
-- Windows 10/11 practice environment
-- Browser-based ticketing interface
+The focus is on ticket workflow, support documentation, basic user-facing ticket notes, and escalation awareness.
 
 ## Practiced Ticket Scenarios
 
@@ -18,46 +14,15 @@ This project documents three simulated helpdesk tickets created in Spiceworks Co
 | [Network Internet Access Issue](./tickets/02-network-internet-access.md) | Websites do not load although Wi-Fi is connected | Closed |
 | [Shared Folder Access Issue](./tickets/03-shared-folder-access.md) | User cannot access shared folder | Waiting / Escalated |
 
-## Scope / Boundaries
-
-Included:
-
-- common first-level support scenarios
-- ticket status handling: open, closed, waiting
-- internal troubleshooting notes
-- public user communication
-- resolution documentation
-- escalation documentation
-- scope checking: affected user, device, service, or access area
-
-Not included:
-
-- production environment administration
-- real company data
-- real user accounts
-- advanced network administration
-- ServiceNow workflow
-- Microsoft 365 admin center changes
-
 ## Ticket Workflow
 
 1. Issue intake
 2. Ticket documentation
 3. Scope check
 4. Internal troubleshooting notes
-5. Public user update when needed
+5. Public user-facing ticket updates when needed
 6. Resolution or escalation
 7. Status update after confirmation
-
-## Skills Demonstrated
-
-- Interpreting user-reported support issues
-- Checking issue scope
-- Writing clear internal ticket notes
-- Communicating user-facing updates
-- Documenting resolution steps
-- Recognizing when escalation is needed
-- Updating ticket status based on outcome
 
 ## Screenshots
 
@@ -72,6 +37,16 @@ Not included:
 | [07-ticket-created-shared-folder.png](./screenshots/07-ticket-created-shared-folder.png) | Shared-folder access ticket showing initial access-denied report, assignee, priority, category, and open status. |
 | [08-ticket-escalation-shared-folder.png](./screenshots/08-ticket-escalation-shared-folder.png) | Escalated shared-folder access ticket showing internal troubleshooting notes, public user communication, assigned administrator, and waiting status. |
 | [09-final-ticket-status-overview.png](./screenshots/09-final-ticket-status-overview.png) | Final ticket overview showing two closed tickets and one waiting/escalated ticket. |
+
+## Skills Demonstrated
+
+- Interpreting user-reported support issues
+- Checking issue scope
+- Writing clear internal ticket notes
+- Communicating user-facing updates
+- Documenting resolution steps
+- Recognizing when escalation is needed
+- Updating ticket status based on outcome
 
 ## Privacy Note
 
