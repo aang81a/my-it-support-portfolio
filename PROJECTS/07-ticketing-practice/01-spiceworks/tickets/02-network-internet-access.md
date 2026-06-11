@@ -32,11 +32,11 @@ User reports that the computer is connected to Wi-Fi, but websites do not load i
 
 ---
 
-## Analysis
+## Initial Assessment
 
 The device showed an active Wi-Fi connection, so the issue was not treated as a simple disconnected-network problem.
 
-The case was checked using the "4W" scope method:
+The case was checked using the "4W" scope formula:
 
 - **Who is affected?** One user / one device
 - **What is the issue?** Websites do not load although Wi-Fi is connected
