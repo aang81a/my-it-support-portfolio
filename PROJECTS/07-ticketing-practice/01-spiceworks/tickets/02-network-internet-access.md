@@ -73,6 +73,9 @@ Final ticket status: **Closed**
 
 ---
 
+| [05-ticket-created-network.png](./screenshots/05-ticket-created-network.png) | Network ticket showing initial user report, high priority, network category, and open status. |
+| [06-ticket-resolution-network.png](./screenshots/06-ticket-resolution-network.png) | Network ticket showing troubleshooting notes, DNS/connectivity checks, resolution note, and closed status. |
+
 ## Screenshots
 
 ### Ticket Created
