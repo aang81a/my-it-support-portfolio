@@ -40,7 +40,7 @@
 ---
 
 ## Tools & Environment
-- HP All-in-One system
+- HP All-in-One system (Computer 3)
 - DDR4 SO-DIMM RAM (2666 MHz)
 - Windows OS (Task Manager, System Information for RAM verification)
 - Basic hardware tools (screwdriver)
