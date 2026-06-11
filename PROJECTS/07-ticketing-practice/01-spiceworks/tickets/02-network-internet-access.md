@@ -48,7 +48,7 @@ The support check focused on whether the device had general network connectivity
 - Checked IP configuration.
 - Tested network connectivity.
 - Checked DNS resolution.
-- Restarted the network connection.
+- Reconnected the device to Wi-Fi.
 - Verified that websites loaded again.
 
 ---
