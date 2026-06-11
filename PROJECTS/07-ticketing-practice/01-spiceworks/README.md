@@ -14,19 +14,19 @@ The focus is on ticket workflow, support documentation, basic user-facing ticket
 
 ### 1. User Setup
 
-The first screenshot shows the simulated end users created for the ticketing practice.
+The simulated end users
 
 ![User Setup](./screenshots/01-user-management.png)
 
 ### 2. Initial Ticket Queue
 
-The second screenshot shows three open tickets with different scenarios, assignees, priorities, categories, and open status.
+Three open tickets with different scenarios, assignees, priorities, categories, and open status
 
 ![Initial Ticket Queue](./screenshots/02-open-ticket-overview.png)
 
 ### 3. Final Ticket Status
 
-The third screenshot shows the final ticket outcome: two tickets closed and one ticket left waiting/escalated.
+The final ticket outcome
 
 ![Final Ticket Status](./screenshots/09-final-ticket-status-overview.png)
 
