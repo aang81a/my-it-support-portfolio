@@ -51,4 +51,4 @@ It focuses on components that were relevant for hardware troubleshooting, storag
 
 ---
 
-## [Lab Environment Overview](../lab-environment-overview.md)
+## 🖥 [Lab Environment Overview](../lab-environment-overview.md)
