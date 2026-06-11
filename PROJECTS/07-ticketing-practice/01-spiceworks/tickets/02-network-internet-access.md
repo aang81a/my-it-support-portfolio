@@ -1,5 +1,4 @@
 # Network Internet Access Ticket
-# Network Internet Access Ticket
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Type](https://img.shields.io/badge/Type-Ticket%20Case-blue)
@@ -8,6 +7,16 @@
 ![Priority](https://img.shields.io/badge/Priority-High-red)
 ![Final%20Status](https://img.shields.io/badge/Final%20Status-Closed-success)
 
+<table>
+<tr>
+<td width="300">
+<img src="../../../IMAGES/01/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
+</td>
+<td>
+<em>Network Internet Access Ticket</em>
+</td>
+</tr>
+</table>
 
 **Organization:** LogTech Solutions  
 **Tool:** Spiceworks Help Desk  
