@@ -18,11 +18,15 @@ The simulated end users
 
 ![User Setup](./screenshots/01-user-management.png)
 
+---
+
 ### 2. Initial Ticket Queue
 
 Three open tickets with different scenarios, assignees, priorities, categories, and open status
 
 ![Initial Ticket Queue](./screenshots/02-open-ticket-overview.png)
+
+---
 
 ### 3. Final Ticket Status
 
@@ -62,8 +66,6 @@ The final ticket outcome
 | [02-open-ticket-overview.png](./screenshots/02-open-ticket-overview.png) | Ticket overview showing three open practice tickets with assignees, categories, priorities, and status. |
 | [03-ticket-created-browser-app.png](./screenshots/03-ticket-created-browser-app.png) | Browser-based application ticket showing initial user report, assignee, priority, category, and open status. |
 | [04-ticket-resolution-browser-app.png](./screenshots/04-ticket-resolution-browser-app.png) | Browser-based application ticket showing troubleshooting notes, resolution note, and closed status. |
-| [05-ticket-created-network.png](./screenshots/05-ticket-created-network.png) | Network ticket showing initial user report, high priority, network category, and open status. |
-| [06-ticket-resolution-network.png](./screenshots/06-ticket-resolution-network.png) | Network ticket showing troubleshooting notes, DNS/connectivity checks, resolution note, and closed status. |
 | [07-ticket-created-shared-folder.png](./screenshots/07-ticket-created-shared-folder.png) | Shared-folder access ticket showing initial access-denied report, assignee, priority, category, and open status. |
 | [08-ticket-escalation-shared-folder.png](./screenshots/08-ticket-escalation-shared-folder.png) | Escalated shared-folder access ticket showing internal troubleshooting notes, public user communication, assigned administrator, and waiting status. |
 | [09-final-ticket-status-overview.png](./screenshots/09-final-ticket-status-overview.png) | Final ticket overview showing two closed tickets and one waiting/escalated ticket. |
