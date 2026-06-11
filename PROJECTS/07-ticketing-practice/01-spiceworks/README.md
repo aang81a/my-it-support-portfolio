@@ -36,7 +36,7 @@ The final ticket outcome
 
 ---
 
-## Practiced Ticket Scenarios
+## Ticket Cases
 
 | Ticket | Scenario | Final Status |
 |---|---|---|
