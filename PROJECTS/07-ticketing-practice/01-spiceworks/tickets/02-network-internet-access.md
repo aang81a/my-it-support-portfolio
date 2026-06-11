@@ -30,11 +30,15 @@
 
 User reports that the computer is connected to Wi-Fi, but websites do not load in the browser.
 
+---
+
 ## Analysis
 
 The device showed an active Wi-Fi connection, so the issue was not treated as a simple disconnected-network problem.
 
 The support check focused on whether the device had general network connectivity and whether domain names could be reached correctly. This helped separate Wi-Fi connectivity from a possible DNS-related browsing issue.
+
+---
 
 ## Troubleshooting Steps
 
@@ -47,13 +51,19 @@ The support check focused on whether the device had general network connectivity
 - Restarted the network connection.
 - Verified that websites loaded again.
 
+---
+
 ## Likely Root Cause
 
 DNS lookup failed on the affected device. Wi-Fi was connected, but websites could not be reached by domain name.
 
+---
+
 ## Resolution
 
 The issue was resolved after restarting the network connection and confirming that DNS resolution and website access worked again.
+
+---
 
 ## Result
 
@@ -70,6 +80,8 @@ Final ticket status: **Closed**
 Initial network ticket showing the user report, high priority, network category, and open status.
 
 ![Ticket Created](../screenshots/05-ticket-created-network.png)
+
+---
 
 ### Ticket Resolved
 
