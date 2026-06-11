@@ -9,7 +9,7 @@
 <table>
 <tr>
 <td width="300">
-<img src="../../../IMAGES/01/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
+<img src="../../../../IMAGES/01/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
 </td>
 <td>
 <em>Network Internet Access Ticket</em>
@@ -18,12 +18,12 @@
 </table>
 
 **Organization:** LogTech Solutions  
-**Audience:** IT Support / Service Desk  
-**Assignee:** Conrad Tadmini  
-**Requester:** Mark Callingback  
+**Audience:** IT Support / Service Desk   
 **Ticket Category:** Network  
 **Priority:** High  
 **Final Status:** Closed
+**Assignee:** Conrad Tadmini  
+**Requester:** Mark Callingback 
 
 ---
 
