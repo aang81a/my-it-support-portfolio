@@ -10,7 +10,7 @@ The focus is on ticket workflow, support documentation, basic user-facing ticket
 
 | Ticket | Scenario | Final Status |
 |---|---|---|
-| [Browser Application Issue](./tickets/01-browser-application.md) | Browser-based application does not open | Closed |
+| [Browser Application Issue](./tickets/01-browser-application.md) | User cannot open a browser-based work application. | Closed |
 | [Network Internet Access Issue](./tickets/02-network-internet-access.md) | Websites do not load although Wi-Fi is connected | Closed |
 | [Shared Folder Access Issue](./tickets/03-shared-folder-access.md) | User cannot access shared folder | Waiting / Escalated |
 
