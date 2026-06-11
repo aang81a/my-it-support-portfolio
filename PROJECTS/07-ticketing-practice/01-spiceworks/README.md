@@ -1,10 +1,36 @@
 # Spiceworks Ticketing Practice
 
+---
+
 ## Overview
 
 This project documents simulated helpdesk tickets created in Spiceworks. 
 
 The focus is on ticket workflow, support documentation, basic user-facing ticket notes, and escalation awareness.
+
+---
+
+## Ticketing Practice Overview
+
+### 1. User Setup
+
+The first screenshot shows the simulated end users created for the ticketing practice.
+
+![User Setup](./screenshots/01-user-management.png)
+
+### 2. Initial Ticket Queue
+
+The second screenshot shows three open tickets with different scenarios, assignees, priorities, categories, and open status.
+
+![Initial Ticket Queue](./screenshots/02-open-ticket-overview.png)
+
+### 3. Final Ticket Status
+
+The third screenshot shows the final ticket outcome: two tickets closed and one ticket left waiting/escalated.
+
+![Final Ticket Status](./screenshots/09-final-ticket-status-overview.png)
+
+---
 
 ## Practiced Ticket Scenarios
 
@@ -13,6 +39,8 @@ The focus is on ticket workflow, support documentation, basic user-facing ticket
 | [Browser Application Issue](./tickets/01-browser-application.md) | User cannot open a browser-based work application. | Closed |
 | [Network Internet Access Issue](./tickets/02-network-internet-access.md) | Websites do not load although Wi-Fi is connected | Closed |
 | [Shared Folder Access Issue](./tickets/03-shared-folder-access.md) | User cannot access shared folder | Waiting / Escalated |
+
+---
 
 ## Ticket Workflow
 
@@ -23,6 +51,8 @@ The focus is on ticket workflow, support documentation, basic user-facing ticket
 5. Public user-facing ticket updates when needed
 6. Resolution or escalation
 7. Status update after confirmation
+
+---
 
 ## Screenshots
 
@@ -38,6 +68,8 @@ The focus is on ticket workflow, support documentation, basic user-facing ticket
 | [08-ticket-escalation-shared-folder.png](./screenshots/08-ticket-escalation-shared-folder.png) | Escalated shared-folder access ticket showing internal troubleshooting notes, public user communication, assigned administrator, and waiting status. |
 | [09-final-ticket-status-overview.png](./screenshots/09-final-ticket-status-overview.png) | Final ticket overview showing two closed tickets and one waiting/escalated ticket. |
 
+---
+
 ## Skills Demonstrated
 
 - Interpreting user-reported support issues
@@ -47,6 +79,8 @@ The focus is on ticket workflow, support documentation, basic user-facing ticket
 - Documenting resolution steps
 - Recognizing when escalation is needed
 - Updating ticket status based on outcome
+
+---
 
 ## Privacy Note
 
