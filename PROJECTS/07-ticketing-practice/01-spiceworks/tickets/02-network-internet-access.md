@@ -61,7 +61,7 @@ DNS lookup failed on the affected device. Wi-Fi was connected, but websites coul
 
 ## Resolution
 
-The issue was resolved after restarting the network connection and confirming that DNS resolution and website access worked again.
+The issue was resolved after reconnecting to Wi-Fi and confirming that DNS resolution and website access worked again.
 
 ---
 
