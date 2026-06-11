@@ -1,4 +1,4 @@
-# Lab Environment Overview
+# 🖥 Lab Environment Overview
 
 ---
 
