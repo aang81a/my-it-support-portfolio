@@ -28,18 +28,18 @@ The support check focused on whether the device had general network connectivity
 - Asked user to test more than one website.
 - Checked whether the issue affected only this device.
 - Checked IP configuration.
-- Tested basic connectivity.
+- Tested network connectivity.
 - Checked DNS resolution.
 - Restarted the network connection.
 - Verified that websites loaded again.
 
-## Root Cause
+## Likely Root Cause
 
 The device had Wi-Fi connectivity, but DNS resolution was not working correctly. Because website names could not be resolved properly, websites did not load even though the device appeared to be connected to the network.
 
 ## Resolution
 
-The issue was resolved after refreshing the network connection and confirming that DNS resolution and website access worked again.
+The issue was resolved after restarting the network connection and confirming that DNS resolution and website access worked again.
 
 ## Result
 
@@ -51,16 +51,15 @@ Final ticket status: **Closed**
 
 | Screenshot | Description |
 |---|---|
-| `../screenshots/05-ticket-created-network.png` | Initial network ticket showing the user report, high priority, network category, and open status. |
-| `../screenshots/06-ticket-resolution-network.png` | Resolved network ticket showing troubleshooting notes, DNS/connectivity checks, resolution note, and closed status. |
+| ![Network ticket created](../screenshots/05-ticket-created-network.png) | Initial network ticket showing the user report, high priority, network category, and open status. |
+| ![Network ticket resolved](../screenshots/06-ticket-resolution-network.png) | Resolved network ticket showing troubleshooting notes, DNS/connectivity checks, resolution note, and closed status. |
 
 ## Skills Demonstrated
 
-- Ticket creation
-- Network issue categorization
-- Priority assignment
-- Scope checking
-- Basic network troubleshooting logic
-- DNS-related issue documentation
-- Resolution documentation
-- Ticket closure workflow
+- Interpreting a user-reported network access issue
+- Checking whether the issue affects one user, one device, or multiple users
+- Separating Wi-Fi connectivity from DNS/browser access problems
+- Following a basic network troubleshooting workflow
+- Writing clear internal troubleshooting notes
+- Documenting the likely root cause and resolution
+- Updating the ticket status after user confirmation
