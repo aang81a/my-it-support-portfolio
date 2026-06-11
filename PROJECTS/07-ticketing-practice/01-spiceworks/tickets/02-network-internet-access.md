@@ -36,7 +36,14 @@ User reports that the computer is connected to Wi-Fi, but websites do not load i
 
 The device showed an active Wi-Fi connection, so the issue was not treated as a simple disconnected-network problem.
 
-The support check focused on whether the device had general network connectivity and whether domain names could be reached correctly. This helped separate Wi-Fi connectivity from a possible DNS-related browsing issue.
+The case was checked using the "4W" scope method:
+
+- **Who is affected?** One user / one device
+- **What is the issue?** Websites do not load although Wi-Fi is connected
+- **When did it start?** Reported during the support request
+- **How severe is the impact?** High priority because internet access was blocked
+
+The support check focused on separating Wi-Fi connectivity from a possible DNS-related browsing issue.
 
 ---
 
@@ -72,9 +79,6 @@ User confirmed that websites loaded again.
 Final ticket status: **Closed**
 
 ---
-
-| [05-ticket-created-network.png](./screenshots/05-ticket-created-network.png) | Network ticket showing initial user report, high priority, network category, and open status. |
-| [06-ticket-resolution-network.png](./screenshots/06-ticket-resolution-network.png) | Network ticket showing troubleshooting notes, DNS/connectivity checks, resolution note, and closed status. |
 
 ## Screenshots
 
