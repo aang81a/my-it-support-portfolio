@@ -17,9 +17,8 @@
 </tr>
 </table>
 
-**Organization:** LogTech Solutions  
-**Audience:** IT Support / Service Desk   
 **Ticket Category:** Network  
+**Audience:** IT Support / Service Desk   
 **Priority:** High  
 **Final Status:** Closed  
 **Assignee:** Conrad Tadmini  
@@ -30,18 +29,6 @@
 ## Problem Overview
 
 User reports that the computer is connected to Wi-Fi, but websites do not load in the browser.
-
-## Ticket Details
-
-| Field | Value |
-|---|---|
-| Scenario | Websites do not load although Wi-Fi is connected |
-| Category | Network |
-| Priority | High |
-| Final status | Closed |
-| Requester | Mark Callingback |
-| Assignee | Conrad Tadmini |
-| Organization | LogTech Solutions |
 
 ## Analysis
 
