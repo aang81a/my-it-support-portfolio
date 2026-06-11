@@ -26,7 +26,7 @@
 
 ---
 
-## Problem Overview
+## The Issue
 
 User reports that the computer is connected to Wi-Fi, but websites do not load in the browser.
 
@@ -61,12 +61,23 @@ User confirmed that websites loaded again.
 
 Final ticket status: **Closed**
 
+---
+
 ## Screenshots
 
-| Screenshot | Description |
-|---|---|
-| ![Network ticket created](../screenshots/05-ticket-created-network.png) | Initial network ticket showing the user report, high priority, network category, and open status. |
-| ![Network ticket resolved](../screenshots/06-ticket-resolution-network.png) | Resolved network ticket showing troubleshooting notes, DNS/connectivity checks, resolution note, and closed status. |
+### Ticket Created
+
+Initial network ticket showing the user report, high priority, network category, and open status.
+
+![Ticket Created](../screenshots/05-ticket-created-network.png)
+
+### Ticket Resolved
+
+Resolved network ticket showing troubleshooting notes, DNS/connectivity checks, resolution note, and closed status.
+
+![Ticket Resolved](../screenshots/06-ticket-resolution-network.png)
+
+---
 
 ## Skills Demonstrated
 
