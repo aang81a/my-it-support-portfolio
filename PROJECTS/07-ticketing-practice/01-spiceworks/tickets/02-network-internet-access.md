@@ -12,7 +12,7 @@
 <img src="../../../../IMAGES/01/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
 </td>
 <td>
-<em>Network Internet Access Ticket</em>
+<em>Help Desk Ticket Case</em>
 </td>
 </tr>
 </table>
