@@ -1,5 +1,9 @@
 # Network Internet Access Ticket
 
+## Problem Overview
+
+User reports that the computer is connected to Wi-Fi, but websites do not load in the browser.
+
 ## Ticket Details
 
 | Field | Value |
@@ -12,15 +16,11 @@
 | Assignee | Conrad Tadmini |
 | Organization | LogTech Solutions |
 
-## Problem
-
-User reports that the computer is connected to Wi-Fi, but websites do not load in the browser.
-
 ## Analysis
 
 The device showed an active Wi-Fi connection, so the issue was not treated as a simple disconnected-network problem.
 
-The support check focused on whether the device had general network connectivity and whether website names could be resolved correctly. This helped separate a possible Wi-Fi connection issue from a DNS-related browsing issue.
+The support check focused on whether the device had general network connectivity and whether domain names could be reached correctly. This helped separate Wi-Fi connectivity from a possible DNS-related browsing issue.
 
 ## Troubleshooting Steps
 
@@ -35,7 +35,7 @@ The support check focused on whether the device had general network connectivity
 
 ## Likely Root Cause
 
-The device had Wi-Fi connectivity, but DNS resolution was not working correctly. Because website names could not be resolved properly, websites did not load even though the device appeared to be connected to the network.
+DNS lookup failed on the affected device. Wi-Fi was connected, but websites could not be reached by domain name.
 
 ## Resolution
 
@@ -56,10 +56,8 @@ Final ticket status: **Closed**
 
 ## Skills Demonstrated
 
-- Interpreting a user-reported network access issue
-- Checking whether the issue affects one user, one device, or multiple users
+- Checking the scope of a network access issue
 - Separating Wi-Fi connectivity from DNS/browser access problems
-- Following a basic network troubleshooting workflow
-- Writing clear internal troubleshooting notes
-- Documenting the likely root cause and resolution
-- Updating the ticket status after user confirmation
+- Documenting internal troubleshooting steps
+- Documenting likely root cause and resolution
+- Updating ticket status after user confirmation
