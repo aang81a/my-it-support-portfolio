@@ -21,7 +21,8 @@ This project follows an adapted first-level IT support ticket workflow based on 
 Each ticket case documents:
 
 - the user problem
+- the initial scope and impact check
 - the support analysis
 - troubleshooting steps
-- resolution or escalation
-- final result
+- resolution or escalation decision
+- final result and ticket status
