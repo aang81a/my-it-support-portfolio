@@ -39,9 +39,9 @@ The device showed an active Wi-Fi connection, so the issue was not treated as a 
 The case was checked using the "4W" scope formula:
 
 - **Who is affected?** One user / one device
-- **What is the issue?** Websites do not load although Wi-Fi is connected
+- **What is affected?** Internet access / browser-based websites
 - **When did it start?** Reported during the support request
-- **How severe is the impact?** Medium priority because internet access was blocked
+- **What impact does it have?** Medium — one user/device affected; no wider outage identified.
 
 The support check focused on separating Wi-Fi connectivity from a possible DNS-related browsing issue.
 
@@ -49,14 +49,14 @@ The support check focused on separating Wi-Fi connectivity from a possible DNS-r
 
 ## Troubleshooting Steps
 
-- Confirmed that the device was connected to Wi-Fi.
-- Asked user to test more than one website.
-- Checked whether the issue affected only this device.
+- Confirmed whether the issue affected only one user or multiple users.
+- Checked Wi-Fi connection status.
+- Asked the user to test another website.
 - Checked IP configuration.
-- Tested network connectivity.
+- Tested network connectivity with ping..
 - Checked DNS resolution.
 - Reconnected the device to Wi-Fi.
-- Verified that websites loaded again.
+- Confirmed with the user that internet access was restored.
 
 ---
 
