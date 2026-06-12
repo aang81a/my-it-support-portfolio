@@ -2,7 +2,7 @@
 
 ![Banner](IMAGES/01/portfolio-banner-1200x250.png)
 
-This portfolio documents my practical home lab projects, network troubleshooting practice, hardware support tasks, backup workflows, remote support workflows, a PowerShell-based support tool, and support documentation.
+This portfolio documents my practical home lab projects, network troubleshooting practice, hardware support tasks, backup workflows, remote support workflows, ticketing practice, a PowerShell-based support tool, and support documentation.
 
 ---
 
@@ -34,17 +34,26 @@ I am transitioning into entry-level **IT Support** with a core focus on user sup
 
 ## 🛠 Support skills  
 
-- Basic Windows support
+- Home lab documentation*
 - Hardware troubleshooting and documentation
+- Storage device troubleshooting*
+- Backup and data-protection awareness
+- RAM compatibility checks and hardware upgrade documentation*
+- Knowledge base writing
+- User-facing support documentation*
+- Internal support documentation
+- Troubleshooting workflow documentation*
+- PowerShell-based support information collection
+- Basic Windows support
 - Basic network troubleshooting
 - IPv4 and DHCP troubleshooting
 - Command Prompt diagnostics
-- Backup and data-protection awareness
-- Remote support workflows
-- PowerShell-based support information collection
-- Knowledge base writing
-- Internal support documentation
+- Helpdesk ticket handling
+- Ticket documentation
+- Scope and impact checks
 - User support communication
+- Escalation awareness
+- Remote support workflows
 
 ---
 
