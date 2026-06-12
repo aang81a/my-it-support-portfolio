@@ -19,7 +19,7 @@
 
 **Ticket Category:** Network  
 **Audience:** IT Support / Service Desk   
-**Priority:** High  
+**Priority:** Medium  
 **Final Status:** Closed  
 **Assignee:** Conrad Tadmini  
 **Requester:** Mark Callingback  
@@ -41,7 +41,7 @@ The case was checked using the "4W" scope formula:
 - **Who is affected?** One user / one device
 - **What is the issue?** Websites do not load although Wi-Fi is connected
 - **When did it start?** Reported during the support request
-- **How severe is the impact?** High priority because internet access was blocked
+- **How severe is the impact?** Medium priority because internet access was blocked
 
 The support check focused on separating Wi-Fi connectivity from a possible DNS-related browsing issue.
 
@@ -84,7 +84,7 @@ Final ticket status: **Closed**
 
 ### Ticket Created
 
-Initial network ticket showing the user report, high priority, network category, and open status.
+Initial network ticket showing the user report, medium priority, network category, and open status.
 
 ![Ticket Created](../screenshots/05-ticket-created-network.png)
 
