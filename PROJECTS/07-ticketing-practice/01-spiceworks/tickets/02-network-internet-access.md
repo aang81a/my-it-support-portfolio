@@ -103,5 +103,5 @@ Resolved network ticket showing troubleshooting notes, DNS/connectivity checks, 
 - Checking the scope of a network access issue
 - Separating Wi-Fi connectivity from DNS/browser access problems
 - Documenting internal troubleshooting steps
-- Documenting likely root cause and resolution
+- Documenting root cause and resolution
 - Updating ticket status after user confirmation
