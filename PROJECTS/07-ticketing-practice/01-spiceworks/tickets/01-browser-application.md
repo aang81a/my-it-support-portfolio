@@ -61,7 +61,7 @@ The following steps were documented in the ticket notes:
 
 ---
 
-## Likely Root Cause
+## Root Cause
 
 The browser-based application did not load correctly because of a browser-related loading/cache issue.
 
