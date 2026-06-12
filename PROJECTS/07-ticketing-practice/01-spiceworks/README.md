@@ -1,5 +1,10 @@
 # Spiceworks Ticketing Practice
 
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Type](https://img.shields.io/badge/Type-Ticketing%20Practice-blue)
+![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)
+![Level](https://img.shields.io/badge/Level-First--Level%20Support-lightgrey)
+
 ---
 
 ## Overview
