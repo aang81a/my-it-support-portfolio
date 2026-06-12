@@ -32,7 +32,7 @@ This portfolio showcases my transition into IT Support through hands-on projects
 1. **Wer** ist betroffen? (Who is affected?)
 2. **Was** genau ist das Problem? (What exactly is the issue?)
 3. **Wann** tritt es seitdem auf? (When/Since when did it start?)
-4. **Wie stark** ist die Auswirkung? (How severe is the impact?)
+4. **Wie stark** ist die Auswirkung? (What impact does it have?)
 
 🕶 *"Ohne Scope ist Troubleshooting wie Bogenschiessen im Dunkeln."* 🏹
 
