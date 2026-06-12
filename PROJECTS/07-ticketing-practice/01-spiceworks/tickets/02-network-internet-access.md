@@ -41,7 +41,7 @@ The case was checked using the "4W" scope formula:
 - **Who is affected?** One user / one device
 - **What is affected?** Internet access / browser-based websites
 - **When did it start?** Reported during the support request
-- **What impact does it have?** High — one user/device affected; no wider outage identified.
+- **What impact does it have?** One user/device affected; no wider outage identified.
 
 The support check focused on separating Wi-Fi connectivity from a possible DNS-related browsing issue.
 
