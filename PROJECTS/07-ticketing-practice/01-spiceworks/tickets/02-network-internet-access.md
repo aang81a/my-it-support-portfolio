@@ -41,7 +41,7 @@ The case was checked using the "4W" scope formula:
 - **Who is affected?** One user / one device
 - **What is affected?** Internet access / browser-based websites
 - **When did it start?** Reported during the support request
-- **What impact does it have?** One user/device affected; no wider outage identified.
+- **What impact does it have?** High - internet access unavailable for one user/device; no wider outage identified.
 
 The support check focused on separating Wi-Fi connectivity from a possible DNS-related browsing issue.
 
@@ -53,14 +53,14 @@ The support check focused on separating Wi-Fi connectivity from a possible DNS-r
 - Checked Wi-Fi connection status.
 - Asked the user to test another website.
 - Checked IP configuration.
-- Tested network connectivity with ping..
+- Tested network connectivity with ping.
 - Checked DNS resolution.
 - Reconnected the device to Wi-Fi.
 - Confirmed with the user that internet access was restored.
 
 ---
 
-## Likely Root Cause
+## Root Cause
 
 DNS lookup failed on the affected device. Wi-Fi was connected, but websites could not be reached by domain name.
 
