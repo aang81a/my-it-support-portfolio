@@ -50,7 +50,7 @@ The final ticket outcome
 
 ---
 
-## Ticket Workflow
+## Workflow Used
 
 1. Issue intake
 2. Ticket documentation
