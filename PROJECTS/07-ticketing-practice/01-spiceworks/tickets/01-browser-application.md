@@ -104,5 +104,5 @@ Resolved software ticket showing troubleshooting notes, browser/cache steps, res
 - Checking the scope of a browser-based application issue
 - Separating browser/application issues from wider device or internet problems
 - Documenting troubleshooting steps in ticket notes
-- Documenting likely root cause and resolution
+- Documenting the root cause and resolution
 - Updating ticket status after user confirmation
