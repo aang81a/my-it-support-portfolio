@@ -2,7 +2,6 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)
-![Level](https://img.shields.io/badge/Level-First--Level%20Support-lightgrey)
 ![Skill](https://img.shields.io/badge/Skill-Ticketing%20Practice-blue)
 
 ---
