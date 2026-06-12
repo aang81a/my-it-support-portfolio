@@ -19,7 +19,7 @@
 
 **Ticket Category:** Network  
 **Audience:** IT Support / Service Desk   
-**Priority:** Medium  
+**Priority:** High  
 **Final Status:** Closed  
 **Assignee:** Conrad Tadmini  
 **Requester:** Mark Callingback  
@@ -41,7 +41,7 @@ The case was checked using the "4W" scope formula:
 - **Who is affected?** One user / one device
 - **What is affected?** Internet access / browser-based websites
 - **When did it start?** Reported during the support request
-- **What impact does it have?** Medium — one user/device affected; no wider outage identified.
+- **What impact does it have?** High — one user/device affected; no wider outage identified.
 
 The support check focused on separating Wi-Fi connectivity from a possible DNS-related browsing issue.
 
@@ -84,7 +84,7 @@ Final ticket status: **Closed**
 
 ### Ticket Created
 
-Initial network ticket showing the user report, medium priority, network category, and open status.
+Initial network ticket showing the user report, priority, network category, and open status.
 
 ![Ticket Created](../screenshots/05-ticket-created-network.png)
 
