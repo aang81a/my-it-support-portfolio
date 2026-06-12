@@ -2,55 +2,77 @@
 
 This short guide documents the writing style used in the ticketing practice projects.
 
+---
+
 ## Internal Notes
 
 Internal notes are used for technician documentation.
 
 They should be:
 
-- short
-- factual
-- neutral
-- action-based
-- written in past tense
+- short  
+- factual  
+- neutral  
+- action-based  
+- written in past tense  
+- clear enough for another technician to understand  
 
-Example:
+**Example:**
 
-Checked Wi-Fi connection status.  
-Checked IP configuration.  
-Tested DNS resolution.  
-Verified that websites load again.
+_Checked ... status / configuration_ etc.  
+_Tested ..._  
+_Verified ..._  
+
+---
 
 ## Public Comments
 
 Public comments are used for user-facing updates.
 
-They should be:
+They should be:  
+- clear  
+- polite  
+- simple  
+- professional  
+- free of unnecessary technical detail  
 
-- clear
-- polite
-- simple
-- free of unnecessary technical detail
+**Example:**
 
-Example:
+"_The issue has been resolved. Please confirm that the application opens correctly now._"
 
-The issue has been resolved. Please confirm that the application opens correctly now.
+---
 
 ## Resolution Notes
 
 Resolution notes document what fixed the issue.
 
-Example:
+They should include:  
+- what was changed or checked  
+- whether the issue was resolved  
+- whether the user confirmed the result  
+- the final ticket status  
 
-Issue resolved after clearing the browser cache and restarting the browser. User confirmed that the application opens successfully.
+**Example:**
+
+"_Issue resolved after ... . User confirmed that ... works correctly again._"
+
+---
 
 ## Escalation Notes
 
 Escalation notes explain why the ticket cannot be fully resolved at first-level support.
 
-Example:
+They should include:  
+- what was checked  
+- why first-level support cannot complete the fix  
+- which approval or higher-level support is needed  
+- why the ticket remains waiting or escalated  
 
-Issue documented and prepared for escalation because shared folder permissions require administrator approval.
+**Example:**
+
+"_Issue documented and prepared for escalation because shared folder permissions require administrator approval._"
+
+---
 
 ## Purpose
 
