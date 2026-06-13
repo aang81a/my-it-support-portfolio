@@ -36,4 +36,4 @@ The second stage includes canned responses, custom ticket views, ticket rules, a
 
 ## Notes
 
-Additional ticketing tools, such as ServiceNow, may be added later as separate practice projects.
+Additional ticketing tools (ServiceNow, Zendesk, Jira Service Management) may be added later as separate practice projects.
