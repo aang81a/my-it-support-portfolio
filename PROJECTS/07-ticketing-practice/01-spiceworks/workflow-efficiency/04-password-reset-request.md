@@ -104,9 +104,9 @@ Final ticket status: **Closed**
 
 ## Screenshots
 
-### Canned Response Used
+### Canned Response and KB Reference
 
-Ticket showing the password reset request and the initial acknowledgement inserted as a reusable canned response.
+Ticket showing the password reset request, the initial acknowledgement inserted as a reusable canned response and the KB article reference.
 
 ![Password Reset Canned Response](../screenshots/19-password-reset-manual-canned-response.png)
 
@@ -120,19 +120,11 @@ Spiceworks Knowledge Base article used as support guidance for the password rese
 
 ---
 
-### KB Reference and User Confirmation Notes
+### Confirmation Notes and Ticket Closed
 
-Ticket notes showing the referenced KB article and the documented user information needed to continue the password reset process.
+Ticket notes showing the password reset process, confirmation notes about the successful password reset and final status.
 
-![Password Reset KB and User Confirmation Notes](../screenshots/21-password-reset-kb-and-user-confirmation-notes.png)
-
----
-
-### Ticket Closed
-
-Closed password reset ticket showing successful completion and final status.
-
-![Password Reset Closed](../screenshots/22-password-reset-closed.png)
+![Password Reset Closed](../screenshots/21-password-reset-closed.png)
 
 ---
 
