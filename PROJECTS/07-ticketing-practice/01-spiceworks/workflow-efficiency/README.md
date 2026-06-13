@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)
-![Focus](https://img.shields.io/badge/Focus-Workflow%20Efficiency-blue)
+![Focus](https://img.shields.io/badge/Focus-Workflow%20Efficiency-lightgrey)
 ![Skill](https://img.shields.io/badge/Skill-Ticketing%20Practice-blue)
 
 ---
