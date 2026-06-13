@@ -48,7 +48,13 @@ The workflow included:
 
 ## Ticket Handling and Evidence
 
-### 1. Ticket Rule and Canned Response
+### 1. Ticket Rule
+
+A ticket rule was configured for access-related requests. The rule supports consistent handling for access and network drive mapping requests.
+
+<img src="../screenshots/16-spiceworks-add-ticket-rule-3.png" width="600" alt="Network Drive Ticket Rule">
+
+### 2. Canned Response
 
 A ticket rule was used for access-related request handling. The initial acknowledgement was inserted using a reusable canned response.
 
