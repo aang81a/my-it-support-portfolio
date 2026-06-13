@@ -54,6 +54,8 @@ A ticket rule was configured for network-related tickets. The rule supports cons
 
 ![Network Ticket Rule](../screenshots/14-spiceworks-add-ticket-rule-1.png)
 
+<img src="../screenshots/14-spiceworks-add-ticket-rule-1.png" width="850" alt="Network Ticket Rule">
+
 ---
 
 ### 2. Canned Response and KB Reference
@@ -67,6 +69,7 @@ Used the article as a checklist for basic network troubleshooting guidance.
 
 ![No Internet Canned Response and KB Reference](../screenshots/22-no-internet-kb-canned-response-and-internal-note.png)
 
+<img src="../screenshots/22-no-internet-kb-canned-response-and-internal-note.png" width="850" alt="No Internet Canned Response and KB Reference">
 ---
 
 ### 3. Knowledge Base Article
@@ -74,6 +77,8 @@ Used the article as a checklist for basic network troubleshooting guidance.
 The Spiceworks Knowledge Base article **How to Troubleshoot No Internet** was opened and used as support guidance for the no internet issue.
 
 ![No Internet KB Article](../screenshots/23-no-internet-kb-article.png)
+
+<img src="../screenshots/23-no-internet-kb-article.png" width="850" alt="No Internet KB Article">
 
 ---
 
@@ -98,6 +103,8 @@ Internet access restored after basic network troubleshooting.
 Ticket notes showing the troubleshooting process, resolution confirmation, user confirmation, and final closed status.
 
 ![No Internet Troubleshooting and Resolution](../screenshots/24-no-internet-troubleshooting-note-canned-response-resolution-confirmation-closed.png)
+
+<img src="../screenshots/24-no-internet-troubleshooting-note-canned-response-resolution-confirmation-closed.png" width="850" alt="No Internet Troubleshooting and Resolution">
 
 ---
 
