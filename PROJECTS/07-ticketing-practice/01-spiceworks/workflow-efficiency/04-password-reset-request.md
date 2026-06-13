@@ -113,9 +113,7 @@ Final ticket status: **Closed**
 
 ## Skills Demonstrated
 
-- Handling a password reset request in a helpdesk ticket
-- Using a canned response for consistent user communication
-- Referencing a Spiceworks Knowledge Base article during ticket handling
-- Documenting support notes clearly
-- Confirming required user information before resolution
-- Closing the ticket after user confirmation
+- Handling a password reset request in a support ticket
+- Using a canned response for initial user communication
+- Referencing a password reset KB article during ticket handling
+- Requiring user confirmation before closing the ticket
