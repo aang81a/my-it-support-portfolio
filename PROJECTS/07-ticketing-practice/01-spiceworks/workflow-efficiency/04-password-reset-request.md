@@ -54,7 +54,7 @@ The workflow included:
 
 A ticket rule was configured for password reset handling. The rule supports consistent categorization and priority handling for this request type.
 
-![Password Reset Ticket Rule](../screenshots/15-spiceworks-add-ticket-rule-2.png)
+<img src="../screenshots/15-spiceworks-add-ticket-rule-2.png" width="600" alt="Password Reset Ticket Rule">
 
 ### 2. Canned Response and KB Reference
 
