@@ -54,7 +54,7 @@ A ticket rule was configured for network-related tickets. The rule supports cons
 
 ![Network Ticket Rule](../screenshots/14-spiceworks-add-ticket-rule-1.png)
 
-<img src="../screenshots/14-spiceworks-add-ticket-rule-1.png" width="850" alt="Network Ticket Rule">
+<img src="../screenshots/14-spiceworks-add-ticket-rule-1.png" width="600" alt="Network Ticket Rule">
 
 ---
 
@@ -78,7 +78,7 @@ The Spiceworks Knowledge Base article **How to Troubleshoot No Internet** was op
 
 ![No Internet KB Article](../screenshots/23-no-internet-kb-article.png)
 
-<img src="../screenshots/23-no-internet-kb-article.png" width="850" alt="No Internet KB Article">
+<img src="../screenshots/23-no-internet-kb-article.png" width="600" alt="No Internet KB Article">
 
 ---
 
