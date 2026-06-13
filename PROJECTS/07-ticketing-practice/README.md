@@ -5,7 +5,7 @@
 ![Level](https://img.shields.io/badge/Level-First--Level%20Support-lightgrey)
 ![Focus](https://img.shields.io/badge/Focus-IT%20Support%20Workflow-lightgrey)
 
-This Spiceworks project is planned in stages and contains IT support ticket handling.
+This Spiceworks project is planned in stages and documents simulated helpdesk tickets created in Spiceworks. 
 
 The first stage uses Spiceworks to simulate common first-level support tickets, including ticket creation, categorization, priority assignment, troubleshooting notes, user communication, resolution documentation, and escalation awareness.
 
