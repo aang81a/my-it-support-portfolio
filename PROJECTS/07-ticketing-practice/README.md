@@ -15,7 +15,7 @@ The current project uses Spiceworks to simulate common first-level support ticke
 
 | Project | Description |
 |---|---|
-| [Spiceworks Ticketing Practice](./01-spiceworks/README.md) | Simulated helpdesk tickets documenting common IT support scenarios and ticket lifecycle steps. |
+| [Spiceworks Ticketing Practice](../01-spiceworks/README.md) | Simulated helpdesk tickets documenting common IT support scenarios and ticket lifecycle steps. |
 
 ---
 
