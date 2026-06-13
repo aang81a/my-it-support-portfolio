@@ -106,14 +106,3 @@ Ticket notes showing the troubleshooting process, resolution confirmation, user 
 Internet access was restored after basic network troubleshooting.
 
 Final ticket status: **Closed**
-
----
-
-## Skills Demonstrated
-
-- Handling a network connectivity issue in a helpdesk ticket
-- Using a ticket rule for network ticket handling
-- Using a canned response for consistent user communication
-- Referencing a Spiceworks Knowledge Base article during troubleshooting
-- Documenting internal support notes clearly
-- Confirming resolution with the user before closing the ticket
