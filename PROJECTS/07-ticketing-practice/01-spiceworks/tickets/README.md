@@ -8,7 +8,7 @@
 
 ## Overview
 
-This project documents simulated helpdesk tickets created in Spiceworks. 
+This section documents the first stage of the Spiceworks ticketing practice.
 
 The focus is on ticket workflow, support documentation, basic user-facing ticket notes, and escalation awareness.
 
