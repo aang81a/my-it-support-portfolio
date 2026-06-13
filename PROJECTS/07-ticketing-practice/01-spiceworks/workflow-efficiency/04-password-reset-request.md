@@ -62,6 +62,13 @@ The initial acknowledgement was inserted using a reusable canned response.
 
 Ticket showing the password reset request, the initial acknowledgement inserted as a reusable canned response and the KB article reference.
 
+Internal note documented:
+
+```text
+Referenced KB article: How to Request a Password Reset.
+User-facing password reset guidance was provided based on this article.
+```
+
 ![Password Reset Canned Response](../screenshots/19-password-reset-manual-canned-response.png)
 
 ### 3. Knowledge Base Article
@@ -69,13 +76,6 @@ Ticket showing the password reset request, the initial acknowledgement inserted 
 The Spiceworks Knowledge Base article **How to Request a Password Reset** was opened and used as support guidance for the password reset request.
 
 The relevant guidance was applied through the ticket communication and documented in the internal note.
-
-Internal note documented:
-
-```text
-Referenced KB article: How to Request a Password Reset.
-User-facing password reset guidance was provided based on this article.
-```
 
 ![Password Reset KB Article](../screenshots/20-password-reset-kb-article.png)
 
