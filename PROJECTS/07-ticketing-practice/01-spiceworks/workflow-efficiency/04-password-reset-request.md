@@ -54,7 +54,7 @@ The workflow included:
 
 The ticket was categorized as **Access / Permissions** and assigned **Medium** priority.
 
-![Ticket Rule 2](../15-spiceworks-add-ticket-rule-2)
+![Ticket Rule 2](../screenshots/15-spiceworks-add-ticket-rule-2)
 
 ### 2. Canned Response and KB Reference Screenshot
 
@@ -70,8 +70,6 @@ User-facing password reset guidance was provided based on this article.
 ### 3. Knowledge Base Article
 
 The Spiceworks Knowledge Base article **How to Request a Password Reset** was opened and used as support guidance for the password reset request.
-
-The relevant guidance was applied through the ticket communication and documented in the internal note.
 
 ![Password Reset KB Article](../screenshots/20-password-reset-kb-article.png)
 
