@@ -112,13 +112,13 @@ Final ticket list filtered by closed status:
 
 ## Skills Demonstrated
 
-- Handling password reset, network connectivity, and network drive mapping requests in Spiceworks support tickets
+- Handling common IT support requests in Spiceworks tickets
 - Creating and using canned responses for standardized user communication
 - Creating built-in knowledge based user guidance in Spiceworks
-- Referencing knowledge base articles during ticket handling and troubleshooting
-- Using ticket rules for structured request handling
+- Using knowledge base articles as centralized support resources during ticket handling and troubleshooting
+- Setting ticket rules for structured categorization, priority handling, and assignment
 - Documenting troubleshooting steps and internal support notes clearly
-- Tracking ticket status from open to closed
+- Tracking ticket status by filtering 
 - Requiring user confirmation before closing tickets
 
 ---
