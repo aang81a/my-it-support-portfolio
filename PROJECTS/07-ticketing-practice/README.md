@@ -5,9 +5,11 @@
 ![Level](https://img.shields.io/badge/Level-First--Level%20Support-lightgrey)
 ![Focus](https://img.shields.io/badge/Focus-IT%20Support%20Workflow-lightgrey)
 
-This section contains practice projects focused on IT support ticket handling, helpdesk documentation, and service desk workflow.
+This Spiceworks project is planned in stages and contains IT support ticket handling.
 
-The current project uses Spiceworks to simulate common first-level support tickets, including ticket creation, categorization, priority assignment, troubleshooting notes, user communication, resolution documentation, and escalation awareness.
+The first stage uses Spiceworks to simulate common first-level support tickets, including ticket creation, categorization, priority assignment, troubleshooting notes, user communication, resolution documentation, and escalation awareness.
+
+The second stage includes canned responses, custom ticket views, ticket rules, and knowledge base usage to show how Spiceworks can support faster and more efficient helpdesk workflows.
 
 ---
 
@@ -16,7 +18,7 @@ The current project uses Spiceworks to simulate common first-level support ticke
 | Project | Description |
 |---|---|
 | [Spiceworks Ticketing Practice](./01-spiceworks/tickets/README.md) | Simulated helpdesk tickets documenting common IT support scenarios and ticket lifecycle steps. |
-| [Spiceworks Ticketing Practice](./01-spiceworks/workflow-efficiency/README.md) | Simulated helpdesk tickets documenting common IT support scenarios and ticket lifecycle steps. |
+| [Spiceworks Workflow Efficiency Methods](./01-spiceworks/workflow-efficiency/README.md) | Simulated helpdesk tickets documenting common IT support scenarios and ticket lifecycle steps. |
 
 ---
 
