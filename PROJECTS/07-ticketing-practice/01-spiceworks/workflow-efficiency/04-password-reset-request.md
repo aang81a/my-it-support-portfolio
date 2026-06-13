@@ -52,13 +52,13 @@ The workflow included:
 
 ### 1. Ticket Rule
 
-The ticket was categorized as **Access / Permissions** and assigned **Medium** priority.
+A ticket rule was configured for password reset handling. The rule supports consistent categorization and priority handling for this request type.
 
-![Ticket Rule 2](../screenshots/15-spiceworks-add-ticket-rule-2.png)
+![Password Reset Ticket Rule](../screenshots/15-spiceworks-add-ticket-rule-2.png)
 
-### 2. Canned Response and KB Reference Screenshot
+### 2. Canned Response and KB Reference
 
-Ticket showing the password reset request, the initial acknowledgement inserted as a reusable canned response and the KB article reference.
+Ticket showing the password reset request, the initial acknowledgement inserted as a reusable canned response, and the KB article reference.
 
 ```text
 Referenced KB article: How to Request a Password Reset.
@@ -73,7 +73,7 @@ The Spiceworks Knowledge Base article **How to Request a Password Reset** was op
 
 ![Password Reset KB Article](../screenshots/20-password-reset-kb-article.png)
 
-### 4. Confirmation Notes
+### 4. Confirmation Notes and Resolution
 
 The user`s confirmation was documented in the ticket:
 
@@ -81,10 +81,10 @@ The user`s confirmation was documented in the ticket:
 User confirmed that the company username is correct.  
 User already reported the message “password expired”.  
 Recovery method is available.  
-Password reset can continue at first-level support.  
+Password reset can continue at first-level support.
 ```
 
-The user confirmed that sign-in works with the new password.  
+The password reset result was also documented: 
 
 ```text
 User confirmed that the password reset was completed successfully using the available recovery method.
@@ -108,6 +108,6 @@ Final ticket status: **Closed**
 - Handling a password reset request in a helpdesk ticket
 - Using a canned response for consistent user communication
 - Referencing a Spiceworks Knowledge Base article during ticket handling
-- Documenting technician notes clearly
+- Documenting support notes clearly
 - Confirming required user information before resolution
 - Closing the ticket after user confirmation
