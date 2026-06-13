@@ -9,7 +9,7 @@
 <table>
 <tr>
 <td width="300">
-<img src="../../../../../IMAGES/01/holosonic-logo.png" width="220" alt="TechLog Solutions Logo">
+<img src="../../../../IMAGES/01/holosonic-logo.png" width="220" alt="Holosonic Logo">
 </td>
 <td>
 <em>Workflow Efficiency Ticket Practice</em>
