@@ -58,11 +58,7 @@ The ticket was categorized as **Access / Permissions** and assigned **Medium** p
 
 ### 2. Canned Response and KB Reference Screenshot
 
-The initial acknowledgement was inserted using a reusable canned response.
-
 Ticket showing the password reset request, the initial acknowledgement inserted as a reusable canned response and the KB article reference.
-
-Internal note documented:
 
 ```text
 Referenced KB article: How to Request a Password Reset.
