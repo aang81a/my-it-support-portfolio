@@ -1,7 +1,7 @@
 # Ticket 06 - Network Drive Mapping Request
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Workflow%20Efficiency-blue)
+![Type](https://img.shields.io/badge/Type-Ticket%20Case-blue)
 ![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)
 
 ---
