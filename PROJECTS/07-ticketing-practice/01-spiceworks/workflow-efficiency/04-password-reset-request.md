@@ -50,17 +50,25 @@ The workflow included:
 
 ## Ticket Handling Steps
 
-### 1. Ticket Rule and Canned Response
+### 1. Ticket Rule
 
 The ticket was categorized as **Access / Permissions** and assigned **Medium** priority.
 
+![Ticket Rule 2](15-spiceworks-add-ticket-rule-2.png)
+
+### 2. Canned Response and KB Reference Screenshot
+
 The initial acknowledgement was inserted using a reusable canned response.
 
-### 2. Knowledge Base Reference
+Ticket showing the password reset request, the initial acknowledgement inserted as a reusable canned response and the KB article reference.
 
-The Spiceworks Knowledge Base article **How to Request a Password Reset** was opened and used as support guidance.
+![Password Reset Canned Response](../screenshots/19-password-reset-manual-canned-response.png)
 
-The KB article was used as a support reference for user-facing password reset guidance. The relevant guidance was applied through the ticket communication and documented in the internal note.
+### 3. Knowledge Base Article
+
+The Spiceworks Knowledge Base article **How to Request a Password Reset** was opened and used as support guidance for the password reset request.
+
+The relevant guidance was applied through the ticket communication and documented in the internal note.
 
 Internal note documented:
 
@@ -69,62 +77,30 @@ Referenced KB article: How to Request a Password Reset.
 User-facing password reset guidance was provided based on this article.
 ```
 
----
-
-### 3. User Information Confirmed
-
-The user information was documented in the ticket:
-
-```text
-User confirmed that the company username is correct.
-User already reported the message “password expired”.
-Recovery method is available.
-Password reset can continue at first-level support.
-```
-
----
-
-### 4. Resolution
-
-The password reset was completed using the available recovery method.
-
-The user confirmed that sign-in works with the new password.
-
----
-
-## Result
-
-Password reset completed successfully.
-
-User confirmed that sign-in works with the new password.
-
-Final ticket status: **Closed**
-
----
-
-## Screenshots
-
-### Canned Response and KB Reference
-
-Ticket showing the password reset request, the initial acknowledgement inserted as a reusable canned response and the KB article reference.
-
-![Password Reset Canned Response](../screenshots/19-password-reset-manual-canned-response.png)
-
----
-
-### Knowledge Base Article
-
-Spiceworks Knowledge Base article used as support guidance for the password reset request.
-
 ![Password Reset KB Article](../screenshots/20-password-reset-kb-article.png)
 
----
+### 4. Confirmation Notes
 
-### Confirmation Notes and Ticket Closed
+The user`s confirmation was documented in the ticket:
+
+```text
+User confirmed that the company username is correct.  
+User already reported the message “password expired”.  
+Recovery method is available.  
+Password reset can continue at first-level support.  
+```
 
 Ticket notes showing the password reset process, confirmation notes about the successful password reset and final status.
 
 ![Password Reset Closed](../screenshots/21-password-reset-closed.png)
+
+### 5. Ticket Closed
+
+Password reset completed successfully using the available recovery method.  
+
+The user confirmed that sign-in works with the new password.  
+
+Final ticket status: **Closed**
 
 ---
 
