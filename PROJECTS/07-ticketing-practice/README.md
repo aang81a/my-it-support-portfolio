@@ -17,8 +17,8 @@ The second stage includes canned responses, custom ticket views, ticket rules, a
 
 | Project | Description |
 |---|---|
-| [Spiceworks Ticketing Practice](./01-spiceworks/tickets/README.md) | Simulated helpdesk tickets documenting common IT support scenarios and ticket lifecycle steps. |
-| [Spiceworks Workflow Efficiency Methods](./01-spiceworks/workflow-efficiency/README.md) | Simulated helpdesk tickets documenting common IT support scenarios and ticket lifecycle steps. |
+| [Spiceworks Ticketing Practice](./01-spiceworks/tickets/README.md) | The first stage focuses on ticket workflow, support documentation, basic user-facing ticket notes, and escalation awareness. |
+| [Spiceworks Workflow Efficiency Ticketing Practice ](./01-spiceworks/workflow-efficiency/README.md) | This second stage focuses on workflow efficiency: using canned responses, knowledge base articles, ticket rules and ticket filtering. |
 
 ---
 
