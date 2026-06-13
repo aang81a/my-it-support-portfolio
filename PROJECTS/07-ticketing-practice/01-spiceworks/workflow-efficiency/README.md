@@ -11,7 +11,7 @@
 
 This section documents the second stage of the Spiceworks ticketing practice.
 
-The first stage focused on individual helpdesk ticket scenarios.  
+The first stage focused on ticket workflow, support documentation, basic user-facing ticket notes, and escalation awareness.
 
 This second stage focuses on workflow efficiency: 
 - organizing tasks with custom ticket queues
