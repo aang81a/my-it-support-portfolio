@@ -52,7 +52,7 @@ The workflow included:
 
 A ticket rule was used for access-related request handling. The initial acknowledgement was inserted using a reusable canned response.
 
-![Network Drive Rule and Canned Response](../screenshots/26-network-drive-rule-and-canned-response.png)
+![Network Drive Rule and Canned Response](../screenshots/26-network-drive-rule-canned-response-kb-internal-note.png)
 
 ---
 
@@ -72,8 +72,6 @@ The KB article reference was documented in an internal support note.
 Referenced KB article: How to Map a Network Drive.
 Used the article to guide the user-facing steps for mapping the shared drive.
 ```
-
-![Network Drive KB Internal Note](../screenshots/28-network-drive-kb-internal-note.png)
 
 ---
 
@@ -102,7 +100,7 @@ User confirmed that the network drive was mapped successfully.
 User confirmed that the shared department folder is accessible.
 ```
 
-![Network Drive User Guidance and Closed Ticket](../screenshots/29-network-drive-kb-internal-note-user-guidance-closed.png)
+![Network Drive KB Internal Note](../screenshots/28-network-drive-kb-internal-note-user-guidance-closed.png)
 
 ---
 
