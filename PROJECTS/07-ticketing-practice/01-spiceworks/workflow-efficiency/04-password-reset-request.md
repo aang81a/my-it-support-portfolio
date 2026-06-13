@@ -56,6 +56,8 @@ A ticket rule was configured for password reset handling. The rule supports cons
 
 <img src="../screenshots/15-spiceworks-add-ticket-rule-2.png" width="600" alt="Password Reset Ticket Rule">
 
+---
+
 ### 2. Canned Response and KB Reference
 
 Ticket showing the password reset request, the initial acknowledgement inserted as a reusable canned response, and the KB article reference.
@@ -67,11 +69,15 @@ User-facing password reset guidance was provided based on this article.
 
 ![Password Reset Canned Response](../screenshots/19-password-reset-manual-canned-response.png)
 
+---
+
 ### 3. Knowledge Base Article
 
 The Spiceworks Knowledge Base article **How to Request a Password Reset** was opened and used as support guidance for the password reset request.
 
 <img src="../screenshots/20-password-reset-kb-article.png" width="600" alt="Password Reset KB Article">
+
+---
 
 ### 4. Confirmation Notes and Resolution
 
@@ -94,6 +100,8 @@ User confirmed that sign-in works with the new password.
 Ticket notes showing the password reset process, confirmation notes about the successful password reset and final status.
 
 ![Password Reset Closed](../screenshots/21-password-reset-closed.png)
+
+---
 
 ### 5. Ticket Closed
 
