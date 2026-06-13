@@ -54,7 +54,7 @@ The workflow included:
 
 The ticket was categorized as **Access / Permissions** and assigned **Medium** priority.
 
-![Ticket Rule 2](15-spiceworks-add-ticket-rule-2.png)
+![Ticket Rule 2](../15-spiceworks-add-ticket-rule-2)
 
 ### 2. Canned Response and KB Reference Screenshot
 
