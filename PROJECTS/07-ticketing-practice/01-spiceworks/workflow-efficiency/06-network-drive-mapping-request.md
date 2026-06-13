@@ -115,15 +115,3 @@ User confirmed that the shared department folder is accessible.
 Network drive mapping was completed successfully.
 
 Final ticket status: **Closed**
-
----
-
-## Skills Demonstrated
-
-- Handling a network drive mapping request in a helpdesk ticket
-- Using a ticket rule for access-related ticket handling
-- Using a canned response for consistent user communication
-- Referencing a Spiceworks Knowledge Base article during ticket handling
-- Documenting internal support notes clearly
-- Providing user-facing guidance based on a KB article
-- Closing the ticket after user confirmation
