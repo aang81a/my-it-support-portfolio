@@ -84,6 +84,13 @@ Recovery method is available.
 Password reset can continue at first-level support.  
 ```
 
+The user confirmed that sign-in works with the new password.  
+
+```text
+User confirmed that the password reset was completed successfully using the available recovery method.
+User confirmed that sign-in works with the new password.
+```
+
 Ticket notes showing the password reset process, confirmation notes about the successful password reset and final status.
 
 ![Password Reset Closed](../screenshots/21-password-reset-closed.png)
@@ -91,8 +98,6 @@ Ticket notes showing the password reset process, confirmation notes about the su
 ### 5. Ticket Closed
 
 Password reset completed successfully using the available recovery method.  
-
-The user confirmed that sign-in works with the new password.  
 
 Final ticket status: **Closed**
 
