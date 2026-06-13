@@ -1,15 +1,146 @@
+# Workflow Efficiency Ticket Practice
 
-## Knowledge Base Practice
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Type](https://img.shields.io/badge/Type-Workflow%20Efficiency-blue)
+![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)
 
-This project also connects ticketing practice with existing support articles, showing how knowledge base documentation can support repeated helpdesk issues.
+---
 
-- [Knowledge Base Practice](./knowledge-base-practice.md)
+<table>
+<tr>
+<td width="300">
+<img src="../../../../IMAGES/01/holosonic-logo.png" width="220" alt="Holosonic Logo">
+</td>
+<td>
+<em>Spiceworks workflow efficiency practice using ticket rules, canned responses, knowledge base articles, and ticket status tracking.</em>
+</td>
+</tr>
+</table>
 
+---
+
+## Purpose
+
+This section documents the second stage of the Spiceworks ticketing practice.
+
+The first stage focused on individual helpdesk ticket scenarios.  
+
+This second stage focuses on workflow efficiency: 
+- organizing tasks with custom ticket queues
+- saving time with automated or standardized responses by reducing repeated manual writing
+- creating built-in knowledge base articles and sharing them with the team
+- setting ticket rules by categories, due dates, priorities etc.
+- automating ticket assignments by routing common request types 
+- filtering tickets based on multiple criteria to organize queues and track ticket progress
+
+The practice includes:
+
+1. canned responses  
+2. knowledge base articles  
+3. ticket rules  
+4. ticket status tracking  
+
+---
 
 ## Workflow-Efficiency Ticket Practice
 
 | Ticket | Scenario | Focus | Final Status |
 |---|---|---|---|
-| [Password Reset Request](./tickets/04-password-reset-request.md) | User cannot sign in because password is expired | Canned response, KB reference, user confirmation, closure | Closed |
-| [No Internet Connection](./tickets/05-no-internet-connection.md) | User is connected to Wi-Fi, but webpages do not load | Network rule, KB reference, troubleshooting notes, closure | Closed |
-| [Network Drive Mapping Request](./tickets/06-network-drive-mapping-request.md) | User needs help mapping a shared department folder | Access rule, KB reference, user guidance, closure | Closed |
+| [Password Reset Request](./04-password-reset-request.md) | User cannot sign in because the password is expired | Canned response, KB reference, user confirmation, closure | Closed |
+| [No Internet Connection](./05-no-internet-connection.md) | User is connected to Wi-Fi, but webpages do not load | Network rule, KB reference, troubleshooting notes, closure | Closed |
+| [Network Drive Mapping Request](./06-network-drive-mapping-request.md) | User needs help mapping a shared department folder | Access rule, KB reference, user guidance, closure | Closed |
+
+---
+
+## 1. Knowledge Base Practice
+
+Three Spiceworks knowledge base articles were created and used as reusable support references during the workflow-efficiency tickets:
+
+- **How to Request a Password Reset**
+- **How to Troubleshoot No Internet**
+- **How to Map a Network Drive**
+
+Instead of pasting full articles into each ticket, the relevant guidance was applied through ticket communication and documented in internal support notes.
+
+<img src="../screenshots/10-spiceworks-kb-articles.png" width="850" alt="Spiceworks Knowledge Base Articles">
+
+The knowledge base articles were shared with the team so they could be used as reusable support documentation.
+
+<img src="../screenshots/11-spiceworks-kb-share-settings.png" width="850" alt="Spiceworks Knowledge Base Share Settings">
+
+---
+
+## 2. Canned Responses Practice
+
+Reusable canned responses were created to support consistent communication with users.
+
+The canned responses included:
+
+1. Initial acknowledgement
+2. Request for more information
+3. Resolution confirmation
+
+Canned responses were used manually during ticket handling to keep user communication clear and consistent.
+
+<img src="../screenshots/12-spiceworks-add-canned-response-form.png" width="850" alt="Add Canned Response Form">
+
+<img src="../screenshots/13-spiceworks-canned-responses-list.png" width="850" alt="Spiceworks Canned Responses List">
+
+---
+
+## 3. Ticket Rules Practice
+
+Ticket rules were configured to support consistent handling of common request types.
+
+The rule list included:
+
+- Network tickets acknowledgement
+- Password reset acknowledgement
+- Access request acknowledgement
+
+The rules supported consistent ticket handling by helping with request routing, priority handling, and categorization logic.
+
+<img src="../screenshots/17-spiceworks-ticket-rules-list.png" width="850" alt="Spiceworks Ticket Rules List">
+
+---
+
+## 4. Ticket Status Views and Filters
+
+The workflow-efficiency tickets were tracked from open status to final closure.
+
+Initial ticket list showing the three workflow-efficiency tickets:
+
+<img src="../screenshots/18-workflow-efficiency-ticket-list.png" width="850" alt="Workflow Efficiency Ticket List">
+
+Interim ticket list showing that two tickets were closed and one ticket remained open:
+
+<img src="../screenshots/25-no-internet-ticket-list-1open.png" width="850" alt="Workflow Efficiency Ticket List with One Open Ticket">
+
+Final ticket list filtered by closed status:
+
+<img src="../screenshots/29-workflow-efficiency-final-ticket-list-filter-closed.png" width="850" alt="Workflow Efficiency Final Closed Ticket List">
+
+---
+
+## Skills Demonstrated
+
+- Creating and using reusable canned responses
+- Creating knowledge base articles for repeated support scenarios
+- Referencing KB articles during ticket handling
+- Using ticket rules for consistent request handling
+- Documenting internal support notes clearly
+- Tracking ticket status from open to closed
+- Confirming resolution before closing tickets
+
+---
+
+## Result
+
+The workflow-efficiency practice shows how combined Spiceworks features can make structured IT support work more efficient.
+
+Selected Spiceworks features used in this project:
+
+- canned responses — for consistent communication
+- knowledge base articles — for reusable guidance
+- ticket rules — for structured handling
+- ticket status views and filters — for tracking open and closed tickets
