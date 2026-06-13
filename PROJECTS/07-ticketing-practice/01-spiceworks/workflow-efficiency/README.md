@@ -1,8 +1,9 @@
 # Workflow Efficiency Ticket Practice
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Type](https://img.shields.io/badge/Type-Workflow%20Efficiency-blue)
 ![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)
+![Focus](https://img.shields.io/badge/Focus-Workflow%20Efficiency-blue)
+![Skill](https://img.shields.io/badge/Skill-Ticketing%20Practice-blue)
 
 ---
 
