@@ -24,6 +24,7 @@ The second stage includes canned responses, custom ticket views, ticket rules, a
 
 ## Supporting Documentation
 
+- [Ticket Case Template](./ticket-case-template.md)
 - [Ticket Workflow](./ticket-workflow.md)
 - [Ticket Writing Style Guide](./ticket-writing-style-guide.md)
 
