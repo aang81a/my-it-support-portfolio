@@ -60,13 +60,13 @@ The initial acknowledgement was inserted using a reusable canned response.
 
 The Spiceworks Knowledge Base article **How to Request a Password Reset** was opened and used as support guidance.
 
-The KB article was not pasted fully into the ticket. Instead, it was referenced in an internal technician note.
+The KB article was used as a support reference for user-facing password reset guidance. The relevant guidance was applied through the ticket communication and documented in the internal note.
 
 Internal note documented:
 
 ```text
 Referenced KB article: How to Request a Password Reset.
-Used the article as user guidance for the password reset request.
+User-facing password reset guidance was provided based on this article.
 ```
 
 ---
