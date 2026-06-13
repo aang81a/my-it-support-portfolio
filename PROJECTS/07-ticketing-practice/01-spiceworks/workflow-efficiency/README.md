@@ -21,7 +21,7 @@ This second stage focuses on workflow efficiency:
 - automating ticket assignments by routing common request types 
 - filtering tickets based on multiple criteria to organize queues and track ticket progress
 
-The practice includes:
+**The practice includes:**
 
 1. canned responses  
 2. knowledge base articles  
