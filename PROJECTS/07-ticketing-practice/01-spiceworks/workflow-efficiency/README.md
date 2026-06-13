@@ -113,7 +113,7 @@ Final ticket list filtered by closed status:
 ## Skills Demonstrated
 
 - Handling common IT support requests in Spiceworks tickets
-- Creating and using canned responses for standardized user communication
+- Creating and using canned responses for general user communication
 - Creating built-in knowledge based user guidance in Spiceworks
 - Using knowledge base articles as centralized support resources during ticket handling and troubleshooting
 - Setting ticket rules for structured categorization, priority handling, and assignment
