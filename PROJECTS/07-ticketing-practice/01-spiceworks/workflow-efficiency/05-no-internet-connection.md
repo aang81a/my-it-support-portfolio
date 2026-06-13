@@ -107,8 +107,6 @@ Internet access was restored after basic network troubleshooting.
 
 Final ticket status: **Closed**
 
-![No Internet Ticket List](../screenshots/25-no-internet-ticket-list-1open.png)
-
 ---
 
 ## Skills Demonstrated
