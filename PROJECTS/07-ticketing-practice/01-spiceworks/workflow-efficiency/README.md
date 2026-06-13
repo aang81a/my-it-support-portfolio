@@ -1,4 +1,4 @@
-# Workflow Efficiency Ticket Practice
+# Workflow Efficiency Ticketing Practice
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)
