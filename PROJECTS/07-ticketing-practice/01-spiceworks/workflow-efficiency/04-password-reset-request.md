@@ -71,7 +71,7 @@ User-facing password reset guidance was provided based on this article.
 
 The Spiceworks Knowledge Base article **How to Request a Password Reset** was opened and used as support guidance for the password reset request.
 
-![Password Reset KB Article](../screenshots/20-password-reset-kb-article.png)
+<img src="../screenshots/20-password-reset-kb-article.png" width="600" alt="Password Reset KB Article">
 
 ### 4. Confirmation Notes and Resolution
 
