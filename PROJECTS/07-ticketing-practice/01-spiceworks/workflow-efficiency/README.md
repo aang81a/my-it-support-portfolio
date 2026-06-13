@@ -112,13 +112,14 @@ Final ticket list filtered by closed status:
 
 ## Skills Demonstrated
 
-- Creating and using reusable canned responses
-- Creating knowledge base articles for repeated support scenarios
-- Referencing KB articles during ticket handling
-- Using ticket rules for consistent request handling
-- Documenting internal support notes clearly
+- Handling password reset, network connectivity, and network drive mapping requests in Spiceworks support tickets
+- Creating and using canned responses for standardized user communication
+- Creating built-in knowledge based user guidance in Spiceworks
+- Referencing knowledge base articles during ticket handling and troubleshooting
+- Using ticket rules for structured request handling
+- Documenting troubleshooting steps and internal support notes clearly
 - Tracking ticket status from open to closed
-- Confirming resolution before closing tickets
+- Requiring user confirmation before closing tickets
 
 ---
 
