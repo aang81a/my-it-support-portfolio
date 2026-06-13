@@ -6,19 +6,6 @@
 
 ---
 
-<table>
-<tr>
-<td width="300">
-<img src="../../../../IMAGES/01/holosonic-logo.png" width="220" alt="Holosonic Logo">
-</td>
-<td>
-<em>Spiceworks workflow efficiency practice using ticket rules, canned responses, knowledge base articles, and ticket status tracking.</em>
-</td>
-</tr>
-</table>
-
----
-
 ## Purpose
 
 This section documents the second stage of the Spiceworks ticketing practice.
