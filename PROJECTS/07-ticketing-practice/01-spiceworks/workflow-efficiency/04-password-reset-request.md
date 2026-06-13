@@ -108,12 +108,3 @@ Ticket notes showing the password reset process, confirmation notes about the su
 Password reset completed successfully using the available recovery method.  
 
 Final ticket status: **Closed**
-
----
-
-## Skills Demonstrated
-
-- Handling a password reset request in a support ticket
-- Using a canned response for initial user communication
-- Referencing a password reset KB article during ticket handling
-- Requiring user confirmation before closing the ticket
