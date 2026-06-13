@@ -91,14 +91,3 @@ or
 |Screenshot|Description|
 |---|---|
 |`<filename.png>`|`<What the screenshot shows>`|
-
----
-
-## 7. Skills Demonstrated
-
-- Ticket creation  
-- Categorization and priority assignment  
-- Troubleshooting documentation  
-- User communication  
-- Resolution or escalation documentation  
-- Status management
