@@ -30,7 +30,7 @@ The focus is on ticket workflow, support documentation, basic user-facing ticket
 
 The simulated end users
 
-![User Setup](./screenshots/01-user-management.png)
+![User Setup](../screenshots/01-user-management.png)
 
 ---
 
@@ -38,7 +38,7 @@ The simulated end users
 
 Three open tickets with different scenarios, assignees, priorities, categories, and open status
 
-![Initial Ticket Queue](./screenshots/02-open-ticket-overview.png)
+![Initial Ticket Queue](../screenshots/02-open-ticket-overview.png)
 
 ---
 
@@ -46,7 +46,7 @@ Three open tickets with different scenarios, assignees, priorities, categories, 
 
 The final ticket outcome
 
-![Final Ticket Status](./screenshots/09-final-ticket-status-overview.png)
+![Final Ticket Status](../screenshots/09-final-ticket-status-overview.png)
 
 ---
 
