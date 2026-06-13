@@ -40,9 +40,9 @@ The practice includes:
 
 ---
 
-## 1. Knowledge Base Practice
+## 1. Knowledge Base Articles
 
-Three Spiceworks knowledge base articles were created and used as reusable support references during the workflow-efficiency tickets:
+Three Spiceworks knowledge base articles were created and used during the workflow-efficiency ticket practice:
 
 - **How to Request a Password Reset**
 - **How to Troubleshoot No Internet**
@@ -52,13 +52,13 @@ Instead of pasting full articles into each ticket, the relevant guidance was app
 
 <img src="../screenshots/10-spiceworks-kb-articles.png" width="850" alt="Spiceworks Knowledge Base Articles">
 
-The knowledge base articles were shared with the team so they could be used as reusable support documentation.
+The built-in knowledge base articles can be shared with the team to support team productivity, avoid duplicate work on the same support topics, and make the guidance available to everyone in one central place. They can serve as centralized support resources for IT support teams.
 
 <img src="../screenshots/11-spiceworks-kb-share-settings.png" width="850" alt="Spiceworks Knowledge Base Share Settings">
 
 ---
 
-## 2. Canned Responses Practice
+## 2. Canned Responses
 
 Reusable canned responses were created to support consistent communication with users.
 
@@ -76,7 +76,7 @@ Canned responses were used manually during ticket handling to keep user communic
 
 ---
 
-## 3. Ticket Rules Practice
+## 3. Ticket Rules
 
 Ticket rules were configured to support consistent handling of common request types.
 
