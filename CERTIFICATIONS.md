@@ -1,55 +1,49 @@
-# 📜 KURSE & ZERTIFIKATE
+# 📜 Courses & Certifications
 
 ---
 
-## IT-KURSE
+## In Progress
 
-▪ **Feb 2026 – heute | IT Support Specialist Career Path | Cisco Networking Academy**
+- **Feb 2026 – Present | IT Support Specialist Career Path | Cisco Networking Academy**  
+  Completed modules:
+  - Jun 2026 | Operating Systems Support | Course Certificate
+  - Apr 2026 | IT Customer Support Basics | Course Certificate
 
-Abgeschlossene Teilkurse:
-
-  ▪ Jun 2026 | Operating Systems Support | Kurszertifikat
-  
-  ▪ Apr 2026 | IT Customer Support Basics | Kurszertifikat
-    
-
-▪ **Nov 2025 – heute | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)**
-
-Abgeschlossene Teilkurse:
-
-   ▪ Jun 2026 | The Microsoft 365 Ecosystem | Microsoft (via Coursera) | Kurszertifikat  
-   Focus: Microsoft 365 / Office 365 Anwender-Support: Outlook, Teams, SharePoint, OneDrive, Word, Excel, PowerPoint, OneNote, To Do, Kalender; Grundlagen in Dokumentenmanagement, Zusammenarbeit, Dateifreigabe, Versionsverlauf, Terminplanung, MFA, DLP und ATP.  
-
-   ▪ Jan 2026 | Introduction to Secure Networking | Microsoft (via Coursera) | Kurszertifikat
-
-   ▪ Jan 2026 | Introduction to Computers | Microsoft (via Coursera) | Kurszertifikat
+- **Nov 2025 – Present | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)**  
+  Completed modules:
+  - Jun 2026 | The Microsoft 365 Ecosystem | Course Certificate  
+    Focus: Microsoft 365 / Office 365 user support, including Outlook, Teams, SharePoint, OneDrive, Word, Excel, PowerPoint, OneNote, To Do, and Calendar; plus fundamentals of document management, collaboration, file sharing, version history, scheduling, MFA, DLP, and ATP
+  - Jan 2026 | Introduction to Secure Networking | Course Certificate
+  - Jan 2026 | Introduction to Computers | Course Certificate
 
 ---
 
-## WEITERE ZERTIFIKATE
+## Additional Certifications
 
-▪ Feb 2026 | Getting Started with Cisco Packet Tracer | Cisco Networking Academy | Mikro-Zertifizierung
+- **Feb 2026 | Getting Started with Cisco Packet Tracer | Cisco Networking Academy**  
+  Micro-Credential
 
-▪ Dez 2025 | Network Basics | Cybrary | Teilnahmezertifikat (1 CEU/CPE)
+- **Dec 2025 | Network Basics | Cybrary**  
+  Certificate of Completion (1 CEU/CPE)
 
-▪ Aug 2022 | The Bash Shell and Basic Scripting in Linux | Coursera Project Network (via Coursera) |
-Projektzertifikat
+- **Aug 2022 | The Bash Shell and Basic Scripting in Linux | Coursera Project Network (via Coursera)**  
+  Project Certificate
 
-▪ Jun 2022 | Introduction to IT & Cybersecurity | Cybrary | Teilnahmezertifikat (2 CEU/CPE)
+- **Jun 2022 | Introduction to IT & Cybersecurity | Cybrary**  
+  Certificate of Completion (2 CEU/CPE)
 
 ---
 
-## WEBINARE (Teilnahmebestätigung)
+## Webinars
 
-▪ Dez 2025 | ChatGPT 5.1 Masterclass: Mastering GPT-5.1 to 10X Your Productivity | InfosecTrain |
-Webinar-Teilnahmezertifikat (1 CPE)
+- **Dec 2025 | ChatGPT 5.1 Masterclass: Mastering GPT-5.1 to 10X Your Productivity | InfosecTrain**  
+  Webinar Certificate of Attendance (1 CPE)
 
-▪ Nov 2025 | Rising with AI in Cybersecurity: Must Have Skills for 2026 | InfosecTrain | Webinar-
-Teilnahmezertifikat (2 CPE)
+- **Nov 2025 | Rising with AI in Cybersecurity: Must-Have Skills for 2026 | InfosecTrain**  
+  Webinar Certificate of Attendance (2 CPE)
 
-▪ Nov 2025 | Google vs Microsoft vs Zoho: Intelligent Workspaces 2025 | InfosecTrain | Webinar-
-Teilnahmezertifikat (1 CPE)
+- **Nov 2025 | Google vs Microsoft vs Zoho: Intelligent Workspaces 2025 | InfosecTrain**  
+  Webinar Certificate of Attendance (1 CPE)
 
-▪ Nov 2025 | AI-Powered Spreadsheet Skills: Get Smarter with Data | InfosecTrain | Webinar-Teilnahmezertifikat
-(1 CPE)
-
+- **Nov 2025 | AI-Powered Spreadsheet Skills: Get Smarter with Data | InfosecTrain**  
+  Webinar Certificate of Attendance (1 CPE)
