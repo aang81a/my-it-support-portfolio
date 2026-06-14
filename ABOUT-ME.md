@@ -65,13 +65,11 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 
 ## 🎯 Current Focus
 
-- Windows 10/11 support
 - Basic network troubleshooting
 - Microsoft 365 user support
 - Remote support workflows
 - Ticket documentation
 - Knowledge base writing
-- PowerShell-based support information collection
 - Active Directory and Windows Server basics
 
 ---
@@ -80,7 +78,6 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 
 - A user-focused and thoughtful support style
 - Strong documentation habits
-- Careful troubleshooting and verification
 - Interest in efficient support workflows
 - Willingness to learn through practical work
 
