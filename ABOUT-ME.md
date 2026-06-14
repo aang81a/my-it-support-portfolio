@@ -55,6 +55,16 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 ![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)  
 ![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)  
 
+## 🔧 Tools
+
+![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)  
+![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)  
+![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)  
+![Tool](https://img.shields.io/badge/Tool-GitHub-black)  
+![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)  
+![Tool](https://img.shields.io/badge/Tool-Microsoft%20365-D83B01?logo=microsoft365&logoColor=white)  
+![Tool](https://img.shields.io/badge/Tool-Command%20Prompt-black?logo=windows-terminal&logoColor=white)
+
 ---
 
 ## 🧺 Portfolio Projects
