@@ -34,25 +34,28 @@ I am transitioning into entry-level **IT Support**, with a focus on user support
 
 ## 🛠 Support Skills
 
-- Home lab documentation
+### Troubleshooting
 - Hardware troubleshooting
 - Storage troubleshooting and backup awareness
-- RAM compatibility checks and upgrade documentation
-- Knowledge base writing
-- User-facing support documentation
-- Internal support documentation
-- Troubleshooting workflow documentation
-- PowerShell-based support information collection
 - Basic Windows support
 - Basic network troubleshooting
 - IPv4 and DHCP troubleshooting
 - Command Prompt diagnostics
-- Helpdesk ticket handling
-- Ticket documentation
 - Scope and impact checks
+- Remote support workflows
+
+### Documentation
+- Home lab documentation
+- User-facing support documentation
+- Internal support documentation
+- Troubleshooting workflow documentation
+- Knowledge base writing
+- Ticket documentation
+
+### User Support
+- Helpdesk ticket handling
 - User support communication
 - Escalation awareness
-- Remote support workflows
 
 ---
 
