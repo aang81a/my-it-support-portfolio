@@ -46,14 +46,14 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 ![Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue)  
 ![Skill](https://img.shields.io/badge/Skill-Remote%20Support-blue)  
 ![Skill](https://img.shields.io/badge/Skill-Documentation-purple)  
-![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)
+![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)  
 ![Skill](https://img.shields.io/badge/Skill-Ticketing-blue)  
 
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)  
 ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)  
 ![Tool](https://img.shields.io/badge/Tool-GitHub-black)  
-![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)
-![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)
+![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)  
+![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)  
 
 ---
 
