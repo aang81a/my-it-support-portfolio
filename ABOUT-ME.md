@@ -37,9 +37,7 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 ## ⚙️ Practical Skills I Am Building
 
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)  
-![Tool](https://img.shields.io/badge/Tool-Microsoft%20365-D83B01?logo=microsoft365&logoColor=white)  
 ![Language](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)  
-![Tool](https://img.shields.io/badge/Tool-Command%20Prompt-black?logo=windows-terminal&logoColor=white)
 
 ![Skill](https://img.shields.io/badge/Skill-Windows%20Support-blue)  
 ![Skill](https://img.shields.io/badge/Skill-Network%20Troubleshooting-blue)  
@@ -48,14 +46,6 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 ![Skill](https://img.shields.io/badge/Skill-Documentation-purple)  
 ![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)  
 ![Skill](https://img.shields.io/badge/Skill-Ticketing-blue)  
-
-![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)  
-![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)  
-![Tool](https://img.shields.io/badge/Tool-GitHub-black)  
-![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)  
-![Tool](https://img.shields.io/badge/Tool-Spiceworks-orange)  
-
-## 🔧 Tools
 
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)  
 ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)  
