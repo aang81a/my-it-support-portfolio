@@ -22,8 +22,8 @@
 **Audience:** IT Support / Service Desk  
 **Priority:** Medium  
 **Final Status:** Closed  
-**Assignee:** Nelly Mosart  
 **Requester:** Jill Faberre  
+**Assignee:** Nelly Mosart  
 
 ---
 
