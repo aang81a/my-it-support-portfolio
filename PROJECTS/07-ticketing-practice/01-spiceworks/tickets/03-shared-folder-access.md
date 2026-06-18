@@ -17,6 +17,7 @@
 </tr>
 </table>
 
+**Ticket title:** Shared Folder Access Issue  
 **Ticket Category:** Access / Permissions  
 **Audience:** IT Support / Service Desk   
 **Priority:** Medium  
@@ -26,15 +27,21 @@
 
 ---
 
-## The Issue
+## 1. Problem
 
+**User report:**  
 User reports that access to a shared folder is denied.
 
 ---
 
-## Initial Assessment
+## 2. Analysis
 
+**Initial assessment:**  
 The issue appeared to be related to shared folder access permissions.
+
+The support check focused on confirming the folder path, affected user account, and whether the access issue required administrator approval.
+
+**Scope check:**
 
 The case was checked using the "4W" scope formula:
 
@@ -43,11 +50,18 @@ The case was checked using the "4W" scope formula:
 - **When did it start?** Reported during the support request
 - **What impact does it have?** Medium — one user affected; folder access requires review before the ticket can be closed.
 
-The support check focused on confirming the folder path, affected user account, and whether the access issue required administrator approval.
+**Possible causes:**
+
+- Missing shared folder permissions
+- Incorrect user group membership
+- Access change requiring administrator approval
+
+**Likely root cause:**  
+The user did not have the required permissions to access the shared folder.
 
 ---
 
-## Troubleshooting Steps
+## 3. Troubleshooting Steps
 
 The following steps were documented in the ticket notes:
 
@@ -57,29 +71,32 @@ The following steps were documented in the ticket notes:
 - Checked whether the user should have access based on role.
 - Documented that escalation would be required if permissions needed to be changed by an administrator.
 
----
-
-## Likely Root Cause
-
-The user did not have the required permissions to access the shared folder.
+**Internal support note style used:**  
+Short internal activity log using neutral, past-tense support documentation.
 
 ---
 
-## Escalation Decision
+## 4. Resolution / Escalation
 
+**Resolution:**  
+No first-level resolution was completed because access permissions required administrator approval.
+
+**Escalation:**  
 The issue was documented and prepared for escalation because access permissions require administrator approval.
 
 ---
 
-## Result
+## 5. Result
 
-The access request was forwarded for review.
+**User confirmation:**  
+Pending administrator approval.
 
-Final ticket status: **Waiting / Escalated**
+**Final status:**  
+Waiting / Escalated
 
 ---
 
-## Screenshots
+## 6. Screenshots
 
 ### Ticket Created
 
