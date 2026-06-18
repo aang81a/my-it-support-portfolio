@@ -17,6 +17,7 @@
 </tr>
 </table>
 
+**Ticket title:** Network Internet Access Issue  
 **Ticket Category:** Network  
 **Audience:** IT Support / Service Desk   
 **Priority:** High  
@@ -26,28 +27,43 @@
 
 ---
 
-## The Issue
+## 1. Problem
 
+**User report:**  
 User reports that the computer is connected to Wi-Fi, but websites do not load in the browser.
 
 ---
 
-## Initial Assessment
+## 2. Analysis
 
+**Initial assessment:**  
 The device showed an active Wi-Fi connection, so the issue was not treated as a simple disconnected-network problem.
+
+The support check focused on separating Wi-Fi connectivity from a possible DNS-related browsing issue.
+
+**Scope check:**
 
 The case was checked using the "4W" scope formula:
 
 - **Who is affected?** One user / one device
 - **What is affected?** Internet access / browser-based websites
 - **When did it start?** Reported during the support request
-- **What impact does it have?** High - internet access unavailable for one user/device; no wider outage identified.
+- **What impact does it have?** High — internet access unavailable for one user/device; no wider outage identified.
 
-The support check focused on separating Wi-Fi connectivity from a possible DNS-related browsing issue.
+**Possible causes:**
+
+- Wi-Fi connectivity issue
+- DNS-related browsing issue
+- Device-specific network configuration issue
+
+**Root cause:**  
+DNS lookup failed on the affected device. Wi-Fi was connected, but websites could not be reached by domain name.
 
 ---
 
-## Troubleshooting Steps
+## 3. Troubleshooting Steps
+
+The following steps were documented in the ticket notes:
 
 - Confirmed whether the issue affected only one user or multiple users.
 - Checked Wi-Fi connection status.
@@ -58,29 +74,32 @@ The support check focused on separating Wi-Fi connectivity from a possible DNS-r
 - Reconnected the device to Wi-Fi.
 - Confirmed with the user that internet access was restored.
 
----
-
-## Root Cause
-
-DNS lookup failed on the affected device. Wi-Fi was connected, but websites could not be reached by domain name.
+**Internal support note style used:**  
+Short internal activity log using neutral, past-tense support documentation.
 
 ---
 
-## Resolution
+## 4. Resolution / Escalation
 
+**Resolution:**  
 The issue was resolved after reconnecting to Wi-Fi and confirming that DNS resolution and website access worked again.
 
+**Escalation:**  
+No escalation was required.
+
 ---
 
-## Result
+## 5. Result
 
+**User confirmation:**  
 User confirmed that websites loaded again.
 
-Final ticket status: **Closed**
+**Final status:**  
+Closed
 
 ---
 
-## Screenshots
+## 6. Screenshots
 
 ### Ticket Created
 
