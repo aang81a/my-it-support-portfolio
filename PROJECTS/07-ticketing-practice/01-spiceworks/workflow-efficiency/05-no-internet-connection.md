@@ -17,6 +17,7 @@
 </tr>
 </table>
 
+**Ticket title:** No Internet Connection  
 **Ticket Category:** Network  
 **Audience:** IT Support / Service Desk  
 **Priority:** High  
@@ -26,25 +27,79 @@
 
 ---
 
-## The Issue
+## 1. Problem
 
+**User report:**  
 User reports that the computer is connected to Wi-Fi, but webpages do not load.
 
 ---
 
-## Workflow Efficiency Used
+## 2. Analysis
 
+**Initial assessment:**  
 This ticket was used to practice how Spiceworks can support faster and more consistent helpdesk work.
 
-The workflow included:
+The support check focused on network ticket handling, basic network troubleshooting guidance, and resolution confirmation before ticket closure.
+
+**Workflow efficiency used:**
 
 - ticket rule usage for network ticket handling
-- canned response usage for a reusable initial acknowledgement
+- canned response usage for a standardized initial acknowledgement
 - knowledge base usage for basic network troubleshooting guidance
 - internal support notes for documented troubleshooting steps
 - resolution confirmation before ticket closure
 
+**Possible causes:**
+
+- Wi-Fi connection issue
+- Browser or webpage loading issue
+- Device-specific internet access issue
+- Basic network configuration issue
+
 ---
+
+## 3. Troubleshooting Steps
+
+The following steps were documented in the ticket notes:
+
+- A ticket rule was configured for network-related tickets.
+- The rule supported consistent handling for network requests by setting the correct priority and assigning the ticket to the responsible support technician.
+- The no internet request was acknowledged using a canned response.
+- The Knowledge Base article **How to Troubleshoot No Internet** was referenced.
+- The article was used as a checklist for basic network troubleshooting guidance.
+- Wi-Fi connection status was checked.
+- The user was asked to test another website.
+- It was checked whether the issue affected only one device.
+- Basic network troubleshooting steps were completed.
+- A resolution confirmation response was used to ask the user to confirm whether the issue was resolved.
+- The user confirmed that webpages load again.
+
+**Internal support note style used:**  
+Short internal activity log using neutral, past-tense support documentation.
+
+---
+
+## 4. Resolution / Escalation
+
+**Resolution:**  
+Internet access was restored after basic network troubleshooting.
+
+**Escalation:**  
+No escalation was required.
+
+---
+
+## 5. Result
+
+**User confirmation:**  
+User confirmed that webpages load again.
+
+**Final status:**  
+Closed
+
+---
+
+## 6. Screenshots
 
 ## Ticket Handling and Evidence
 
@@ -106,3 +161,13 @@ Ticket notes showing the troubleshooting process, resolution confirmation, user 
 Internet access was restored after basic network troubleshooting.
 
 Final ticket status: **Closed**
+
+---
+
+## Skills Demonstrated
+
+- Using ticket rules for network ticket handling
+- Using canned responses for standardized user communication
+- Referencing a knowledge base article during troubleshooting
+- Documenting basic network troubleshooting steps
+- Requesting user confirmation before closing the ticket
