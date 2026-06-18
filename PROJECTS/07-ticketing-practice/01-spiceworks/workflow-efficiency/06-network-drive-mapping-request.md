@@ -23,7 +23,7 @@
 **Priority:** Medium  
 **Final Status:** Closed  
 **Assignee:** Nelly Mosart  
-**Requester:** End user  
+**Requester:** Ben Gerrart
 
 ---
 
