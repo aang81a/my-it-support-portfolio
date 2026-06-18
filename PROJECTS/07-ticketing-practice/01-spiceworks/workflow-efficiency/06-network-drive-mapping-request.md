@@ -103,9 +103,7 @@ Closed
 
 ## 6. Screenshots
 
-## Ticket Handling and Evidence
-
-### 1. Ticket Rule
+### Ticket Handling Step 1. - Ticket Rule
 
 A ticket rule was configured for access-related requests. The rule supports consistent handling for access and network drive mapping requests.
 
@@ -119,7 +117,7 @@ A ticket rule was used for access-related request handling. The initial acknowle
 
 ---
 
-### 2. Knowledge Base Article
+### Ticket Handling Step 2. - Knowledge Base Article
 
 The Spiceworks Knowledge Base article **How to Map a Network Drive** was opened and used as support guidance for the network drive mapping request.
 
@@ -127,7 +125,7 @@ The Spiceworks Knowledge Base article **How to Map a Network Drive** was opened 
 
 ---
 
-### 3. KB Internal Note
+### Ticket Handling Step 3. - KB Internal Note
 
 The KB article reference was documented in an internal support note.
 
@@ -138,7 +136,7 @@ Used the article to guide the user-facing steps for mapping the shared drive.
 
 ---
 
-### 4. User Guidance and Ticket Closure
+### Ticket Handling Step 4. - User Guidance and Ticket Closure
 
 User-facing guidance was provided based on the KB article.
 
@@ -167,7 +165,7 @@ User confirmed that the shared department folder is accessible.
 
 ---
 
-### 5. Ticket Closed
+### Ticket Handling Step 5. - Ticket Closed
 
 Network drive mapping was completed successfully.
 
