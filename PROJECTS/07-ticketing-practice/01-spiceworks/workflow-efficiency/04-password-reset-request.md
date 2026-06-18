@@ -158,7 +158,7 @@ Ticket notes showing the password reset process, confirmation notes about the su
 
 ---
 
-## Ticket Closed
+### Ticket Handling Step 5. - Ticket Closed
 
 Password reset completed successfully using the available recovery method.  
 
