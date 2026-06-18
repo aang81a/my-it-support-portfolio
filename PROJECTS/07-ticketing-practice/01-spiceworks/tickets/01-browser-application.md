@@ -17,6 +17,7 @@
 </tr>
 </table>
 
+**Ticket title:** Browser-Based Application Issue  
 **Ticket Category:** Software  
 **Audience:** IT Support / Service Desk   
 **Priority:** Medium  
@@ -26,15 +27,26 @@
 
 ---
 
-## The Issue
+## 1. Problem
 
+**User report:**  
 User reports that the browser-based work application does not open. The browser shows a blank page or does not load correctly. Other applications appear to work normally.
 
 ---
 
-## Initial Assessment
+## 2. Analysis
 
+**Initial assessment:**  
 The issue appeared to affect a browser-based work application, while other applications were reported as working normally.
+
+The support check focused on separating a browser/application loading issue from a wider device or internet access problem.
+
+**Scope check:**
+
+- Affected user: One user
+- Affected device: One device
+- Affected service: Browser-based work application
+- Business impact: Medium — one browser-based work application affected; other applications appear to work normally.
 
 The case was checked using the "4W" scope formula:
 
@@ -43,11 +55,18 @@ The case was checked using the "4W" scope formula:
 - **When did it start?** Asked user when the issue started
 - **What impact does it have?** Medium — one browser-based work application affected; other applications appear to work normally.
 
-The support check focused on separating a browser/application loading issue from a wider device or internet access problem.
+**Possible causes:**
+
+- Browser-related loading issue
+- Browser cache issue
+- Wider device or internet access problem
+
+**Root cause:**  
+The browser-based application did not load correctly because of a browser-related loading/cache issue.
 
 ---
 
-## Troubleshooting Steps
+## 3. Troubleshooting Steps
 
 The following steps were documented in the ticket notes:
 
@@ -59,25 +78,28 @@ The following steps were documented in the ticket notes:
 - Restarted browser.
 - Verified that the application loaded again.
 
----
-
-## Root Cause
-
-The browser-based application did not load correctly because of a browser-related loading/cache issue.
+**Internal support note style used:**  
+Short internal activity log using neutral, past-tense support documentation.
 
 ---
 
-## Resolution
+## 4. Resolution / Escalation
 
+**Resolution:**  
 The issue was resolved after clearing the browser cache and restarting the browser.
 
+**Escalation:**  
+No escalation was required.
+
 ---
 
-## Result
+## 5. Result
 
+**User confirmation:**  
 User confirmed that the application opened successfully.
 
-Final ticket status: **Closed**
+**Final status:**  
+Closed
 
 ---
 
