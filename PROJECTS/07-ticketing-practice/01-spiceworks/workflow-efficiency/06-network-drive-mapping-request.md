@@ -17,6 +17,7 @@
 </tr>
 </table>
 
+**Ticket title:** Network Drive Mapping Request 
 **Ticket Category:** Access / Permissions  
 **Audience:** IT Support / Service Desk  
 **Priority:** Medium  
@@ -26,25 +27,81 @@
 
 ---
 
-## The Issue
+## 1. Problem
 
+**User report:**  
 User requests access to a shared department folder and needs help mapping the network drive.
 
 ---
 
-## Workflow Efficiency Used
+## 2. Analysis
 
+**Initial assessment:**  
 This ticket was used to practice how Spiceworks can support faster and more consistent helpdesk work.
 
-The workflow included:
+The support check focused on access-related request handling, network drive mapping guidance, and user guidance before ticket closure.
+
+**Workflow efficiency used:**
 
 - ticket rule usage for access-related ticket handling
-- canned response usage for a reusable initial acknowledgement
+- canned response usage for a standardized initial acknowledgement
 - knowledge base usage for network drive mapping guidance
 - internal support notes for documented KB usage
 - user guidance before ticket closure
 
+**Possible causes:**
+
+- User needs instructions for mapping the network drive
+- Shared folder path needs to be provided by IT Support
+- User may not be connected to the company network or VPN
+- Access denied message may require further permission review
+
 ---
+
+## 3. Troubleshooting Steps
+
+The following steps were documented in the ticket notes:
+
+- A ticket rule was configured for access-related requests.
+- The rule supported consistent handling for access and network drive mapping requests.
+- The initial acknowledgement was inserted using a canned response.
+- The Knowledge Base article **How to Map a Network Drive** was opened and used as support guidance.
+- The KB article reference was documented in an internal support note.
+- User-facing guidance was provided based on the KB article.
+- The user was asked to confirm the shared folder path if the drive did not appear.
+- The user was asked to confirm whether they were connected to the company network or VPN if the drive did not appear.
+- The user was asked to confirm whether they saw an access denied message if the drive did not appear.
+- The user confirmed that the network drive was mapped successfully.
+- The user confirmed that the shared department folder is accessible.
+
+**Internal support note style used:**  
+Short internal activity log using neutral, past-tense support documentation.
+
+---
+
+## 4. Resolution / Escalation
+
+**Resolution:**  
+Network drive mapping was completed successfully.
+
+**Escalation:**  
+No escalation was required.
+
+---
+
+## 5. Result
+
+**User confirmation:**  
+User confirmed that the network drive was mapped successfully.
+
+User confirmed that the shared department folder is accessible.
+
+**Final status:**  
+Closed
+
+---
+
+## 6. Screenshots
 
 ## Ticket Handling and Evidence
 
@@ -115,3 +172,12 @@ User confirmed that the shared department folder is accessible.
 Network drive mapping was completed successfully.
 
 Final ticket status: **Closed**
+
+---
+
+## Skills Demonstrated
+- Using ticket rules for access-related request handling
+- Using canned responses for standardized user communication
+- Referencing a knowledge base article during ticket handling
+- Providing user-facing guidance based on KB content
+- Requesting user confirmation before closing the ticket
