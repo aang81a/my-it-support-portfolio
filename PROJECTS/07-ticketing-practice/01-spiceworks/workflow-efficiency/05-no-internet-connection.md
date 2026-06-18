@@ -101,9 +101,7 @@ Closed
 
 ## 6. Screenshots
 
-## Ticket Handling and Evidence
-
-### 1. Ticket Rule
+### Ticket Handling Step 1. - Ticket Rule
 
 A ticket rule was configured for network-related tickets. The rule supports consistent handling for network requests by setting the correct priority and assigning the ticket to the responsible support technician.
 
@@ -111,7 +109,7 @@ A ticket rule was configured for network-related tickets. The rule supports cons
 
 ---
 
-### 2. Canned Response and KB Reference
+### Ticket Handling Step 2. - Canned Response and KB Reference
 
 Ticket showing the no internet request, the initial acknowledgement inserted as a reusable canned response, and the KB article reference.
 
@@ -124,7 +122,7 @@ Used the article as a checklist for basic network troubleshooting guidance.
 
 ---
 
-### 3. Knowledge Base Article
+### Ticket Handling Step 3. - Knowledge Base Article
 
 The Spiceworks Knowledge Base article **How to Troubleshoot No Internet** was opened and used as support guidance for the no internet issue.
 
@@ -132,7 +130,7 @@ The Spiceworks Knowledge Base article **How to Troubleshoot No Internet** was op
 
 ---
 
-### 4. Troubleshooting Notes and Resolution Confirmation
+### Ticket Handling Step 4. - Troubleshooting Notes and Resolution Confirmation
 
 The troubleshooting steps were documented in the ticket:
 
@@ -156,7 +154,7 @@ Ticket notes showing the troubleshooting process, resolution confirmation, user 
 
 ---
 
-### 5. Ticket Closed
+### Ticket Handling Step 5. - Ticket Closed
 
 Internet access was restored after basic network troubleshooting.
 
