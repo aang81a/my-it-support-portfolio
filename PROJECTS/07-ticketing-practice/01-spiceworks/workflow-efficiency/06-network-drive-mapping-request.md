@@ -109,7 +109,7 @@ A ticket rule was configured for access-related requests. The rule supports cons
 
 <img src="../screenshots/16-spiceworks-add-ticket-rule-3.png" width="600" alt="Network Drive Ticket Rule">
 
-### 2. Canned Response
+### Ticket Handling Step 2. - Canned Response
 
 A ticket rule was used for access-related request handling. The initial acknowledgement was inserted using a reusable canned response.
 
@@ -117,7 +117,7 @@ A ticket rule was used for access-related request handling. The initial acknowle
 
 ---
 
-### Ticket Handling Step 2. - Knowledge Base Article
+### Ticket Handling Step 3. - Knowledge Base Article
 
 The Spiceworks Knowledge Base article **How to Map a Network Drive** was opened and used as support guidance for the network drive mapping request.
 
@@ -125,7 +125,7 @@ The Spiceworks Knowledge Base article **How to Map a Network Drive** was opened 
 
 ---
 
-### Ticket Handling Step 3. - KB Internal Note
+### Ticket Handling Step 4. - KB Internal Note
 
 The KB article reference was documented in an internal support note.
 
@@ -136,7 +136,7 @@ Used the article to guide the user-facing steps for mapping the shared drive.
 
 ---
 
-### Ticket Handling Step 4. - User Guidance and Ticket Closure
+### Ticket Handling Step 5. - User Guidance and Ticket Closure
 
 User-facing guidance was provided based on the KB article.
 
@@ -165,7 +165,7 @@ User confirmed that the shared department folder is accessible.
 
 ---
 
-### Ticket Handling Step 5. - Ticket Closed
+### Ticket Handling Step 6. - Ticket Closed
 
 Network drive mapping was completed successfully.
 
