@@ -17,7 +17,7 @@
 </tr>
 </table>
 
-**Ticket title:** Network Drive Mapping Request 
+**Ticket title:** Network Drive Mapping Request  
 **Ticket Category:** Access / Permissions  
 **Audience:** IT Support / Service Desk  
 **Priority:** Medium  
