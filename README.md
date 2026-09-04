@@ -14,7 +14,7 @@ This portfolio showcases my transition into entry-level IT Support through hands
 
 ---
 
-## 🔹 [About Me](./ABOUT-ME.md)
+## [About Me](./ABOUT-ME.md)
 
 I am transitioning into entry-level **IT Support**, with a focus on user support, troubleshooting, clear documentation, and efficient support workflows.
 
