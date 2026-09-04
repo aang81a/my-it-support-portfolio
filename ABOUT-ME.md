@@ -91,4 +91,6 @@ I am looking for an entry-level IT Support opportunity in the Zurich area where 
 
 - **English (B2):** Fluent and confident in documentation and user communication
 - **German (B2):** Competent in professional communication with local users
+- **Romanian (B2)**
+- **Hungarian (M)**
 - **Location:** Zurich, Switzerland
