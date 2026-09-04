@@ -20,7 +20,7 @@ I am transitioning into entry-level **IT Support**, with a focus on user support
 
 ---
 
-## 🧺 [Portfolio Projects](./PROJECTSPROJECTS.md)
+## 🧺 [Portfolio Projects](PROJECTSPROJECTS.md)
 
 | Project | What it demonstrates |
 |---|---|
