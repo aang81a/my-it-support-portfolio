@@ -8,9 +8,9 @@ This portfolio showcases my transition into entry-level IT Support through hands
 
 # 📜 [Certifications](CERTIFICATIONS.md)
 
-## **Feb 2026 – Present | IT Support Specialist Career Path | Cisco Networking Academy**  
+### **Feb 2026 – Present | IT Support Specialist Career Path | Cisco Networking Academy**  
 
-## **Nov 2025 – Present | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)** 
+### **Nov 2025 – Present | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)** 
 
 ---
 
