@@ -6,6 +6,7 @@
   Completed modules:
   - Jun 2026 | Operating Systems Support | Course Certificate
         Focus: OS troubleshooting, Windows/macOS/mobile support, virtualization basics, cloud computing basics, hands-on IT support exercises.
+    
   - Apr 2026 | IT Customer Support Basics | Course Certificate 
         Focus: help desk operations, customer service, remote troubleshooting, support tools, communication with non-technical users.
 
