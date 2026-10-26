@@ -5,9 +5,9 @@
 ## ▪ **Feb 2026 – Present | IT Support Specialist Career Path | Cisco Networking Academy**  
   Completed modules:
   - Jun 2026 | **Operating Systems Support | Course Certificate**
-        Focus: OS troubleshooting, Windows/macOS/mobile support, virtualization basics, cloud computing basics, hands-on IT support exercises.
+  Focus: OS troubleshooting, Windows/macOS/mobile support, virtualization basics, cloud computing basics, hands-on IT support exercises.
   - Apr 2026 | **IT Customer Support Basics | Course Certificate**
-        Focus: help desk operations, customer service, remote troubleshooting, support tools, communication with non-technical users.
+  Focus: help desk operations, customer service, remote troubleshooting, support tools, communication with non-technical users.
 
 ## ▪ **Nov 2025 – Present | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)**  
   Completed modules:
