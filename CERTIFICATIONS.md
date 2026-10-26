@@ -2,6 +2,8 @@
 
 ---
 
+## ▪ **Okt 2025 | Microsoft Foundations of IT Systems, Networking, and Data Protection | Microsoft (via Coursera)**  
+
 ## ▪ **Nov 2025 – Present | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)**  
   Completed modules:
   - Oct 2026 | **Essential Aspects of Software, Hardware, and Data Backup | Course Certificate**  \
