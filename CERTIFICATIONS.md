@@ -4,6 +4,8 @@
 
 ## ▪ **Feb 2026 – Present | IT Support Specialist Career Path | Cisco Networking Academy**  
   Completed modules:
+  - Oct 2026 | Essential Aspects of Software, Hardware, and Data Backup | Course Certificate
+    Focus: secure software configuration, access control, privilege management, malware protection, BIOS/UEFI, hardware security, encryption, storage technologies, data processing and compression, backup strategies (3-2-1, RAID), and data recovery.
   - Jun 2026 | Operating Systems Support | Course Certificate 
     Focus: OS troubleshooting, Windows/macOS/mobile support, virtualization basics, cloud computing basics, hands-on IT support exercises.
   - Apr 2026 | IT Customer Support Basics | Course Certificate 
