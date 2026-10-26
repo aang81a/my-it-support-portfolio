@@ -6,10 +6,13 @@
   Completed modules:
   - Oct 2026 | **Essential Aspects of Software, Hardware, and Data Backup | Course Certificate**  \
     Focus: secure software configuration, access control, privilege management, malware protection, BIOS/UEFI, hardware security, encryption, storage technologies, data processing and compression, backup strategies (3-2-1, RAID), and data recovery.
+  
   - Jun 2026 | **The Microsoft 365 Ecosystem | Course Certificate**  \
     Focus: Microsoft 365 user support, including Outlook, Teams, SharePoint, OneDrive, Office apps, file sharing, collaboration, version history, MFA, and security/compliance awareness.
+  
   - Jan 2026 | **Introduction to Secure Networking | Course Certificate**  \
     Focus: TCP/IP, OSI model, IP addressing, firewalls, authentication, cloud networking, Azure services and virtualization basics.
+  
   - Jan 2026 | **Introduction to Computers | Course Certificate**  \
     Focus: computer hardware, operating systems, enterprise systems, servers/storage, security basics, cloud computing and IT infrastructure.
 
@@ -17,6 +20,7 @@
   Completed modules:
   - Jun 2026 | **Operating Systems Support | Course Certificate**  \
   Focus: OS troubleshooting, Windows/macOS/mobile support, virtualization basics, cloud computing basics, hands-on IT support exercises.
+  
   - Apr 2026 | **IT Customer Support Basics | Course Certificate**  \
   Focus: help desk operations, customer service, remote troubleshooting, support tools, communication with non-technical users.
 
