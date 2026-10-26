@@ -93,4 +93,4 @@ I am looking for an entry-level IT Support opportunity in the Zurich area where 
 - **German (B2):** Competent in professional communication with local users
 - **Romanian (B2)**
 - **Hungarian (M)**
-- **Location:** Zurich, Switzerland
+- **Location:** Zürich, Switzerland
