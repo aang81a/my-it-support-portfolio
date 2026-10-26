@@ -11,8 +11,7 @@
 
 ## ▪ **Nov 2025 – Present | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)**  
   Completed modules:
-  
-    - **Oct 2026 | Essential Aspects of Software, Hardware, and Data Backup | Course Certificate**
+  - **Oct 2026 | Essential Aspects of Software, Hardware, and Data Backup | Course Certificate**
     Focus: secure software configuration, access control, privilege management, malware protection, BIOS/UEFI, hardware security, encryption, storage technologies, data processing and compression, backup strategies (3-2-1, RAID), and data recovery.
   - **Jun 2026 | The Microsoft 365 Ecosystem | Course Certificate**  
     Focus: Microsoft 365 user support, including Outlook, Teams, SharePoint, OneDrive, Office apps, file sharing, collaboration, version history, MFA, and security/compliance awareness.
