@@ -92,6 +92,6 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 
 ## 🔌 Let's Connect
 
-📍 - **Location:** Zürich, Switzerland
+📍 **Location:** Zürich, Switzerland
 
 I am looking for an entry-level IT Support opportunity in the Zurich area where I can continue building practical experience and contribute to a support team.
