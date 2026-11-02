@@ -9,7 +9,7 @@
 
 *Knowledge Base Article*
 
-**Article ID:** `KB-1002`  
+**Article ID:** `KB-1006`  
 **Category:** General Support / Network Drive Access   
 **Audience:** End users  
 **Last Updated:** May 2026   
