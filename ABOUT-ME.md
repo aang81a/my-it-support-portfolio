@@ -83,14 +83,17 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 
 ---
 
-## 🔌 Let's Connect
-
-I am looking for an entry-level IT Support opportunity in the Zurich area where I can continue building practical experience and contribute to a support team.
-
 ### 🌍 Languages & Location
 
 - **English (B2):** Fluent and confident in documentation and user communication
 - **German (B2):** Competent in professional communication with local users
 - **Romanian (B2)**
 - **Hungarian (M)**
+
+---
+
+## 🔌 Let's Connect
+
+I am looking for an entry-level IT Support opportunity in the Zurich area where I can continue building practical experience and contribute to a support team.
+
 - **Location:** Zürich, Switzerland
