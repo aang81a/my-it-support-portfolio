@@ -9,7 +9,7 @@
 
 *Knowledge Base Article*
 
-**Article ID:** `KB-1003`  
+**Article ID:** `KB-1007`  
 **Category:** General Support / Network Troubleshooting  
 **Audience:** End users  
 **Last Updated:** May 2026  
