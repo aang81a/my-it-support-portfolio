@@ -85,12 +85,18 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 
 ### 🌍 Languages & Location
 
-- **English (B2):** Fluent and confident in documentation and user communication
-- **German (B2):** Competent in professional communication with local users
-- **Romanian (B2)**
+- **English (B2):** Fluent and confident in documentation and user communication  
+- **German (B2):** Competent in professional communication with local users  
+- **Romanian (B2)**  
 - **Hungarian (M)**
 
-- **Location:** Zürich, Switzerland
+
+📌   
+📍   
+🔲   
+◻ - **Location:** Zürich, Switzerland
+◽   
+
 
 ---
 
