@@ -9,7 +9,7 @@
 
 *Knowledge Base Article*
 
-**Article ID:** `KB-1001`  
+**Article ID:** `KB-1002`  
 **Category:** Active Directory / Domain Join  
 **Audience:** IT Support / Lab Use  
 **Last Updated:** May 2026  
