@@ -12,7 +12,7 @@
 <img src="../../../IMAGES/01/tech-log-solutions-logo.png" width="220" alt="TechLog Solutions Logo">
 </td>
 <td>
-<em>Internal IT Standard Operating Procedure</em>
+<em>Internal IT Support Documentation</em>
 </td>
 </tr>
 </table>
