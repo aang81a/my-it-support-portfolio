@@ -9,7 +9,7 @@
 
 *Knowledge Base Article*
 
-**Article ID:** `KB-1002`  
+**Article ID:** `KB-1004`  
 **Category:** Microsoft 365 / OneDrive File Recovery  
 **Audience:** End users  
 **Last Updated:** June 2026
