@@ -18,7 +18,7 @@
 </tr>
 </table>
 
-**Document ID:** `SEC-1002`  
+**Document ID:** `WIN-1002`  
 **Category:** Windows 11 / Security Hardening  
 **Target Audience:** IT Support / Service Desk  
 **Last Updated:** June 2026
