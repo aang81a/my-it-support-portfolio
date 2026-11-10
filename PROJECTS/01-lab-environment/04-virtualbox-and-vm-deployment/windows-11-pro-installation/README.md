@@ -8,6 +8,9 @@
 ![Skill](https://img.shields.io/badge/Skill-Windows%20Client%20Deployment-blue)
 ![Skill](https://img.shields.io/badge/Skill-Windows%20Update%20Management-green)
 
+![Skill](https://img.shields.io/badge/Skill-Windows%20Server%20Deployment-blue)
+![Skill](https://img.shields.io/badge/Skill-Server%20Configuration-green)
+
 
 **VM:** `WIN11-CLIENT01` | **Platform:** Oracle VirtualBox 7.2.22 | **Status:** Completed
 
