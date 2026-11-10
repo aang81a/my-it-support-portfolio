@@ -20,7 +20,9 @@ Install and prepare Oracle VirtualBox on the Windows 10 host for the IT Support 
 
 ### 1. Enable Hardware Virtualization
 
-Enabled Intel Virtualization Technology in the host BIOS and confirmed **Virtualization: Enabled** in Windows Task Manager.
+Windows Task Manager (**Performance → CPU**) initially reported **Virtualization: Disabled**.  
+I checked the HP BIOS configuration, changed **Virtualization Technology** from **Disabled** to **Enabled**, saved the setting, and rebooted.  
+Task Manager then reported **Virtualization: Enabled**.
 
 ![Task Manager before configuration: hardware virtualization disabled](screenshots/01%20Virtualization%20disabled.png)
 
