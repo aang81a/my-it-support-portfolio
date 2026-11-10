@@ -31,9 +31,9 @@ Task Manager then reported **Virtualization: Enabled**.
 
 <img src="screenshots/01%20Virtualization%20disabled.png" alt="Task Manager before configuration: virtualization disabled" width="650">
 
-<img src="screenshots/04%20Enable%20Intel%20Virtualization%20in%20BIOS.jpg" alt="HP BIOS before configuration: virtualization disabled" width="650">
+<img src="screenshots/04%20Enable%20Intel%20Virtualization%20in%20BIOS.png" alt="HP BIOS before configuration: virtualization disabled" width="650">
 
-<img src="screenshots/07%20Enable%20Intel%20Virtualization%20in%20BIOS.jpg" alt="HP BIOS after configuration: virtualization enabled" width="650">
+<img src="screenshots/07%20Enable%20Intel%20Virtualization%20in%20BIOS.png" alt="HP BIOS after configuration: virtualization enabled" width="650">
 
 <img src="screenshots/02%20Virtualization%20enabled.png" alt="Task Manager after reboot: virtualization enabled" width="650">
 
