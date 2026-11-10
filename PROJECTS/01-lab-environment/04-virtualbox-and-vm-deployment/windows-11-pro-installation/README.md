@@ -1,6 +1,6 @@
 # Windows 11 Pro VM Deployment
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![OS](https://img.shields.io/badge/OS-Windows%2011%20Pro-blue)
+![VM](https://img.shields.io/badge/VM-Windows%2011%20Pro-blue)
 
 **VM:** `WIN11-CLIENT01` | **Platform:** Oracle VirtualBox 7.2.22 | **Status:** Completed
 
