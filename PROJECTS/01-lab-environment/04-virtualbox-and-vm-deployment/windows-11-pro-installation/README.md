@@ -1,30 +1,7 @@
 # Windows 11 Pro VM Deployment
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![VM](https://img.shields.io/badge/VM-Windows%2011%20Pro-blue)
-
-![Skill](https://img.shields.io/badge/Skill-Windows%20Server%20Administration-blue)
-![Skill](https://img.shields.io/badge/Skill-Virtual%20Machine%20Deployment-green)
-
-![Skill](https://img.shields.io/badge/Skill-Windows%20Client%20Deployment-blue)
-![Skill](https://img.shields.io/badge/Skill-Windows%20Update%20Management-green)
-
-![Skill](https://img.shields.io/badge/Skill-Windows%20Server%20Deployment-blue)
-![Skill](https://img.shields.io/badge/Skill-Server%20Configuration-green)
-
-![Skill](https://img.shields.io/badge/Skill-Windows%20Client%20Installation-blue)
-![Skill](https://img.shields.io/badge/Skill-Windows%20Update%20Management-green)
-
-![Skill](https://img.shields.io/badge/Skill-OS%20Installation-blue)
-![Skill](https://img.shields.io/badge/Skill-Windows%20Client%20Configuration-green)
-
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![OS](https://img.shields.io/badge/OS-Windows%2011%20Pro-blue)
-![Environment](https://img.shields.io/badge/Environment-Virtual%20Machine-orange)
-
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Focus](https://img.shields.io/badge/Focus-Windows%20Clients-blue)
-![Skill](https://img.shields.io/badge/Skill-Workstation%20Installation%20%26%20Configuration-green)
-
+![VM](https://img.shields.io/badge/VM-Windows%2011%20Pro-blue)
 
 ---
 
