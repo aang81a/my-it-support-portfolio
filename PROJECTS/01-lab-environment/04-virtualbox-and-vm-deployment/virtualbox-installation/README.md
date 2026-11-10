@@ -2,9 +2,13 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Tool](https://img.shields.io/badge/Tool-Oracle%20VirtualBox%207.2.22-blue)
 
+---
+
 ## Objective
 
 Install and prepare Oracle VirtualBox on the Windows 10 host for an IT-Support practice environment.
+
+---
 
 ## Configuration
 
@@ -14,6 +18,8 @@ Install and prepare Oracle VirtualBox on the Windows 10 host for an IT-Support p
 | Host hardware | HP Pavilion All-in-One, Intel Core i5-9400T, 16 GB RAM |
 | Hypervisor | Oracle VirtualBox 7.2.22 |
 | Extension Pack | Oracle VirtualBox Extension Pack 7.2.22 |
+
+---
 
 ## Main Steps
 
@@ -33,11 +39,15 @@ Task Manager then reported **Virtualization: Enabled**.
 
 **Verification:** The host firmware change was confirmed independently in Windows Task Manager.
 
+---
+
 ### 2. Install Oracle VirtualBox
 
 Selected the VirtualBox the installation components and verified sufficient disk space before proceeding. 
 
 ![VirtualBox Custom Setup and Disk Space Check](screenshots/Installing%20VirtualBox%2002%20Disk%20Space%20checking.png)
+
+---
 
 Installed VirtualBox 7.2.22, reviewed installer warnings, and launched VirtualBox Manager. 
 
@@ -45,11 +55,15 @@ Installed VirtualBox 7.2.22, reviewed installer warnings, and launched VirtualBo
 ![VirtualBox installation completed](screenshots/Installing%20VirtualBox%2006%20Oracle%20VirtualBox%20intalled.png)  
 ![VirtualBox Manager](screenshots/Installing%20VirtualBox%2007%20VirtualBox%20Manager.png)  
 
+---
+
 ### 3. Install the Extension Pack
 
 I added the **Oracle VirtualBox Extension Pack** through VirtualBox's extensions management interface. The installed extension was visible in the manager with the matching **7.2.22** version.
 
 ![Installed VirtualBox Extension Pack](screenshots/Installing%20VirtualBox%2008%20install%20extension%20pack%20end.png)
+
+---
 
 ## Result
 
