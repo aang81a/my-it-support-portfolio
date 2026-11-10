@@ -33,7 +33,8 @@ Created `DC01` in VirtualBox and selected the Windows Server 2025 installation I
 
 **Revised settings:** Increased to 4 GB RAM, 2 vCPUs and an 80 GB disk; enabled EFI. The additional capacity allows more room for Windows Server and the planned AD DS/DNS lab, while the selected RAM allocation remains within the 16 GB host's capacity.
 
-<img src="03%20Specify%20virtual%20hardware.png" alt="Revised hardware settings: 4 GB RAM, 2 vCPUs, 80 GB disk; EFI enabled" width="650">
+<img src="screenshots/03%20Specify%20virtual%20hardware.png" alt="Revised hardware settings: 4 GB RAM, 2 vCPUs, 80 GB disk, EFI enabled" width="650">
+
 
 ### 2. Install Windows Server 2025
 
