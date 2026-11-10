@@ -1,11 +1,10 @@
 # Oracle VirtualBox Installation
-
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Tool](https://img.shields.io/badge/Tool-Oracle%20VirtualBox%207.2.22-blue)
 
 ## Objective
 
-Install and prepare Oracle VirtualBox on the Windows 10 host for the IT Support home lab.
+Install and prepare Oracle VirtualBox on the Windows 10 host for an IT-Support practice environment.
 
 ## Configuration
 
@@ -44,9 +43,11 @@ Installed VirtualBox 7.2.22, reviewed installer warnings, and launched VirtualBo
 
 ### 3. Install the Extension Pack
 
-Installed the matching Extension Pack (7.2.22) and verified that it appeared in the installed extensions list.
+I added the **Oracle VirtualBox Extension Pack** through VirtualBox's extensions management interface. The installed extension was visible in the manager with the matching **7.2.22** version.
 
 ![Installed VirtualBox Extension Pack](screenshots/Installing%20VirtualBox%2008%20install%20extension%20pack%20end.png)
+
+![Matching Oracle VirtualBox Extension Pack listed in extensions management](screenshots/Installing%20VirtualBox%2008%20install%20extension%20pack%20end.png)
 
 ## Result
 
@@ -59,12 +60,4 @@ Installed the matching Extension Pack (7.2.22) and verified that it appeared in 
 | VirtualBox Manager | Opened successfully |
 | Extension Pack | Version 7.2.22 listed as installed |
 | Windows client/server VMs | Documented separately in the subsequent deployment sections |
-
-This establishes the virtualization platform needed for the two-machine internal `AD-LAB` environment. Installation and configuration of individual guest operating systems are covered in separate READMEs.
-
-## Related documentation
-
-- [Windows 11 Pro installation and baseline snapshot](../windows-11-pro-installation/README.md)
-- [Windows Server 2025 installation and baseline snapshot](../windows-server-2025/README.md)
-- [Main VM deployment overview](../README.md)
 
