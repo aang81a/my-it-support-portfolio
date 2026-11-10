@@ -1,4 +1,4 @@
-# Oracle VirtualBox Installation
+# Oracle VirtualBox Installation and Host Preparation
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Tool](https://img.shields.io/badge/Tool-Oracle%20VirtualBox%207.2.22-blue)
 
