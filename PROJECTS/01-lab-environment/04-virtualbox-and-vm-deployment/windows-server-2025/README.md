@@ -49,6 +49,8 @@ Selected the virtual disk as the installation destination and confirmed the inst
 
 <img src="screenshots/33%20Before%20installation%20-%20Ready%20to%20install.png" alt="Windows Server installation settings confirmed" width="650">
 
+<img src="screenshots/35%20Customize%20settings.png" alt="Windows Server installation settings confirmed" width="650">
+
 ### 3. Complete initial server configuration
 
 Configured the local `Administrator` account and computer name `DC01` to identify the server in the lab.
