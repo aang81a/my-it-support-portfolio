@@ -47,8 +47,6 @@ I added the **Oracle VirtualBox Extension Pack** through VirtualBox's extensions
 
 ![Installed VirtualBox Extension Pack](screenshots/Installing%20VirtualBox%2008%20install%20extension%20pack%20end.png)
 
-![Matching Oracle VirtualBox Extension Pack listed in extensions management](screenshots/Installing%20VirtualBox%2008%20install%20extension%20pack%20end.png)
-
 ## Result
 
 **Hardware virtualization enabled; VirtualBox and the matching Extension Pack installed and verified.** The host is ready for VM deployment.
