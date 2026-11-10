@@ -35,11 +35,17 @@ Task Manager then reported **Virtualization: Enabled**.
 
 ### 2. Install Oracle VirtualBox
 
-Installed VirtualBox 7.2.22, reviewed installer warnings, and launched VirtualBox Manager.
+Custom Setup and Disk Space Check
 
-![VirtualBox installer warnings](screenshots/Installing%20VirtualBox%2003%20warnings.png)
-![VirtualBox installation completed](screenshots/Installing%20VirtualBox%2006%20Oracle%20VirtualBox%20intalled.png)
-![VirtualBox Manager](screenshots/Installing%20VirtualBox%2007%20VirtualBox%20Manager.png)
+Selected the VirtualBox installation components and verified sufficient disk space before proceeding. 
+
+![VirtualBox disk space checking](screenshots/Installing VirtualBox 02 Disk Space checking.png)  
+
+Installed VirtualBox 7.2.22, reviewed installer warnings, and launched VirtualBox Manager. 
+
+![VirtualBox installer warnings](screenshots/Installing%20VirtualBox%2003%20warnings.png)  
+![VirtualBox installation completed](screenshots/Installing%20VirtualBox%2006%20Oracle%20VirtualBox%20intalled.png)  
+![VirtualBox Manager](screenshots/Installing%20VirtualBox%2007%20VirtualBox%20Manager.png)  
 
 ### 3. Install the Extension Pack
 
