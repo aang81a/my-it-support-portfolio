@@ -22,10 +22,15 @@ Install and prepare Oracle VirtualBox on the Windows 10 host for the IT Support 
 
 Enabled Intel Virtualization Technology in the host BIOS and confirmed **Virtualization: Enabled** in Windows Task Manager.
 
-![Virtualization disabled in Task Manager](screenshots/01%20Virtualization%20disabled.png)
-![Virtualization disabled in BIOS](screenshots/04%20Enable%20Intel%20Virtualization%20in%20BIOS.jpg)
-![Virtualization enabled in BIOS](screenshots/07%20Enable%20Intel%20Virtualization%20in%20BIOS.jpg)
-![Virtualization enabled in Task Manager](screenshots/02%20Virtualization%20enabled.png)
+![Task Manager before configuration: hardware virtualization disabled](screenshots/01%20Virtualization%20disabled.png)
+
+![HP BIOS before configuration: Virtualization Technology disabled](screenshots/04%20Enable%20Intel%20Virtualization%20in%20BIOS.png)
+
+![HP BIOS after configuration: Virtualization Technology enabled](screenshots/07%20Enable%20Intel%20Virtualization%20in%20BIOS.png)
+
+![Task Manager after reboot: hardware virtualization enabled](screenshots/02%20Virtualization%20enabled.png)
+
+**Verification:** The host firmware change was confirmed independently in Windows Task Manager.
 
 ### 2. Install Oracle VirtualBox
 
@@ -44,3 +49,20 @@ Installed the matching Extension Pack (7.2.22) and verified that it appeared in 
 ## Result
 
 **Hardware virtualization enabled; VirtualBox and the matching Extension Pack installed and verified.** The host is ready for VM deployment.
+
+| Check | Observed result |
+|---|---|
+| Host virtualization | Enabled in BIOS and verified in Task Manager |
+| VirtualBox installation | Version 7.2.22 installed |
+| VirtualBox Manager | Opened successfully |
+| Extension Pack | Version 7.2.22 listed as installed |
+| Windows client/server VMs | Documented separately in the subsequent deployment sections |
+
+This establishes the virtualization platform needed for the two-machine internal `AD-LAB` environment. Installation and configuration of individual guest operating systems are covered in separate READMEs.
+
+## Related documentation
+
+- [Windows 11 Pro installation and baseline snapshot](../windows-11-pro-installation/README.md)
+- [Windows Server 2025 installation and baseline snapshot](../windows-server-2025/README.md)
+- [Main VM deployment overview](../README.md)
+
