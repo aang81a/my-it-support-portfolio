@@ -4,7 +4,7 @@
 
 ## Objective
 
-Deploy Windows Server 2025 as the server VM (`DC01`) for the Active Directory home lab.
+Deploy Windows Server 2025 as `DC01`, the server VM for the Active Directory home lab.
 
 ## VM Configuration
 
@@ -14,60 +14,65 @@ Deploy Windows Server 2025 as the server VM (`DC01`) for the Active Directory ho
 | Hypervisor | Oracle VirtualBox 7.2.22 |
 | VM Name | `DC01` |
 | Guest OS | Windows Server 2025 Standard Evaluation (Desktop Experience) |
-| Local Account | `Administrator` |
+| CPU / RAM | 2 vCPUs / 4 GB |
+| Virtual Disk | 80 GB |
+| Firmware | EFI enabled |
+| Initial Account | `Administrator` (local) |
 
 ## Main Steps
 
-### 1. Create the virtual machine
+### 1. Create and configure the virtual machine
 
-Created the server VM `DC01` and attached the Windows Server installation ISO. The VM was assigned virtual CPU, memory and disk resources.
+Created `DC01` in VirtualBox and selected the Windows Server 2025 installation ISO.
 
-**VM identity and installation media**
+<img src="screenshots/26%20Create%20New%20Virtual%20Machine%2002%20Name.png" alt="VM name and Windows Server installation ISO" width="650">
 
-<img src="screenshots/26%20Create%20New%20Virtual%20Machine%2002%20Name.png" alt="26 Create New Virtual Machine 02 Name" width="650">
+**Initial settings:** 2 GB RAM, 1 vCPU, 50 GB disk, EFI disabled.
 
-**Virtual hardware allocation**
+<img src="screenshots/26%20Create%20New%20Virtual%20Machine%2003%20Specify%20virtual%20hardware.png" alt="Initial hardware settings: 2 GB RAM, 1 vCPU, 50 GB disk; EFI disabled" width="650">
 
-<img src="screenshots/26%20Create%20New%20Virtual%20Machine%2003%20Specify%20virtual%20hardware.png" alt="26 Create New Virtual Machine 03 Specify virtual hardware" width="650">
+**Revised settings:** Increased to 4 GB RAM, 2 vCPUs and an 80 GB disk; enabled EFI. The additional capacity allows more room for Windows Server and the planned AD DS/DNS lab, while the selected RAM allocation remains within the 16 GB host's capacity.
+
+<img src="screenshots/26%20Create%20New%20Virtual%20Machine%2004%20Settings.png" alt="Revised hardware settings: 4 GB RAM, 2 vCPUs, 80 GB disk; EFI enabled" width="650">
 
 ### 2. Install Windows Server 2025
 
-Selected **Windows Server 2025 Standard Evaluation (Desktop Experience)** to use the graphical Server Manager interface. Chose the unallocated virtual disk as the installation destination and confirmed the installation settings.
+Selected **Standard Evaluation (Desktop Experience)** to use the graphical Windows Server interface and Server Manager.
 
-**Windows Server edition**
+<img src="screenshots/31%20Select%20image%20OS.png" alt="Windows Server 2025 Standard Evaluation with Desktop Experience" width="650">
 
-<img src="screenshots/31%20Select%20image%20OS.png" alt="31 Select image OS" width="650">
+Selected the virtual disk as the installation destination and confirmed the installation.
 
-**Virtual disk selection**
+<img src="screenshots/32%20Select%20location.png" alt="Virtual disk selected for Windows Server installation" width="650">
 
-<img src="screenshots/32%20Select%20location.png" alt="32 Select location" width="650">
+<img src="screenshots/33%20Before%20installation%20-%20Ready%20to%20install.png" alt="Windows Server installation settings confirmed" width="650">
 
-**Installation confirmation**
+### 3. Complete initial server configuration
 
-<img src="screenshots/33%20Before%20installation%20-%20Ready%20to%20install.png" alt="33 Before installation — Ready to install" width="650">
+Configured the local `Administrator` account and computer name `DC01` to identify the server in the lab.
 
-### 3. Complete initial configuration
+<img src="screenshots/41%20Computer%20Name%20ok.png" alt="Computer name DC01 confirmed" width="650">
 
-Completed the initial Administrator setup, configured the time zone and checked the server properties in **Server Manager → Local Server**. These settings identify the VM and ensure accurate system time.
+Set the time zone and reviewed the system properties in **Server Manager → Local Server**.
 
-<img src="screenshots/45%20Setting%20time%20zone.png" alt="45 Setting time zone" width="650">
+<img src="screenshots/45%20Setting%20time%20zone.png" alt="Server time zone configuration" width="650">
 
-<img src="screenshots/46%20Server%20Manager%20Local%20Server%2003.png" alt="46 Server Manager Local Server 03" width="650">
+<img src="screenshots/46%20Server%20Manager%20Local%20Server%2003.png" alt="Server Manager local server properties" width="650">
 
 ### 4. Install VirtualBox Guest Additions
 
-Installed the VirtualBox Guest Additions components to improve display and input-device integration. Confirmed the installation in **Settings → Installed apps**.
+Installed Guest Additions to improve display and mouse integration, then verified the installation.
 
-<img src="screenshots/48%20Installation%20Oracle%20VirtualBox%20Guest%20Addition%2003%20Components.png" alt="48 Installation Oracle VirtualBox Guest Addition 03 Components" width="650">
+<img src="screenshots/48%20Installation%20Oracle%20VirtualBox%20Guest%20Addition%2003%20Components.png" alt="VirtualBox Guest Additions setup components" width="650">
 
-<img src="screenshots/53%20DC01%20-%20VirtualBox%20Guest%20Additions%20installed.png" alt="53 DC01 — VirtualBox Guest Additions installed" width="650">
+<img src="screenshots/53%20DC01%20-%20VirtualBox%20Guest%20Additions%20installed.png" alt="Guest Additions installation verification" width="650">
 
 ### 5. Create a baseline snapshot
 
-Created the **Clean Windows Server 2025 Baseline** snapshot before installing server roles. This provides a known starting point for later lab changes.
+Saved **Clean Windows Server 2025 Baseline** before installing server roles, providing a restore point for later lab changes.
 
-<img src="screenshots/56%20Create%20DC01%20snapshot.png" alt="56 Create DC01 snapshot" width="650">
+<img src="screenshots/56%20Create%20DC01%20snapshot.png" alt="Clean Windows Server 2025 Baseline snapshot" width="650">
 
 ## Result
 
-Windows Server 2025 Standard Evaluation (Desktop Experience) installed as `DC01`. Initial settings, Guest Additions and the baseline snapshot are documented above.
+Windows Server 2025 installed as `DC01`, with Guest Additions and a pre-AD DS baseline snapshot. The VM is ready for subsequent network and server-role configuration.
