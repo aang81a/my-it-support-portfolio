@@ -35,11 +35,9 @@ Task Manager then reported **Virtualization: Enabled**.
 
 ### 2. Install Oracle VirtualBox
 
-Custom Setup and Disk Space Check
+Selected the VirtualBox the installation components and verified sufficient disk space before proceeding. 
 
-Selected the VirtualBox installation components and verified sufficient disk space before proceeding. 
-
-![VirtualBox disk space checking](screenshots/Installing VirtualBox 02 Disk Space checking.png)  
+![VirtualBox Custom Setup and Disk Space Check](screenshots/Installing%20VirtualBox%2002%20Disk%20Space%20checking.png)
 
 Installed VirtualBox 7.2.22, reviewed installer warnings, and launched VirtualBox Manager. 
 
