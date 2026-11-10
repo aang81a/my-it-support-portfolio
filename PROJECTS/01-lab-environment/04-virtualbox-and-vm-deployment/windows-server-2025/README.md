@@ -2,9 +2,13 @@
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen) ![VM](https://img.shields.io/badge/VM-Windows%20Server%202025-blue)
 
+---
+
 ## Objective
 
 Deploy Windows Server 2025 as `DC01`, the server VM for the Active Directory home lab.
+
+---
 
 ## VM Configuration
 
@@ -18,6 +22,8 @@ Deploy Windows Server 2025 as `DC01`, the server VM for the Active Directory hom
 | Virtual Disk | 80 GB |
 | Firmware | EFI enabled |
 | Initial Account | `Administrator` (local) |
+
+---
 
 ## Main Steps
 
@@ -37,6 +43,8 @@ Created `DC01` in VirtualBox and selected the Windows Server 2025 installation I
 
 <img src="screenshots/26%20Create%20New%20Virtual%20Machine%2005%20Summary.png" alt="Windows Server 2025 VM configuration summary" width="650">
 
+---
+
 ### 2. Install Windows Server 2025
 
 Selected **Standard Evaluation (Desktop Experience)** to use the graphical Windows Server interface and Server Manager.
@@ -51,6 +59,8 @@ Selected the virtual disk as the installation destination and confirmed the inst
 
 <img src="screenshots/35%20Customize%20settings.png" alt="Windows Server installation settings confirmed" width="650">
 
+---
+
 ### 3. Complete initial server configuration
 
 Configured the local `Administrator` account and computer name `DC01` to identify the server in the lab.
@@ -63,6 +73,8 @@ Set the time zone and reviewed the system properties in **Server Manager → Loc
 
 <img src="screenshots/46%20Server%20Manager%20Local%20Server%2003.png" alt="Server Manager local server properties" width="650">
 
+---
+
 ### 4. Install VirtualBox Guest Additions
 
 Installed Guest Additions to improve display and mouse integration, then verified the installation.
@@ -71,11 +83,15 @@ Installed Guest Additions to improve display and mouse integration, then verifie
 
 <img src="screenshots/53%20DC01%20-%20VirtualBox%20Guest%20Additions%20installed.png" alt="Guest Additions installation verification" width="650">
 
+---
+
 ### 5. Create a baseline snapshot
 
 Saved **Clean Windows Server 2025 Baseline** before installing server roles, providing a restore point for later lab changes.
 
 <img src="screenshots/56%20Create%20DC01%20snapshot.png" alt="Clean Windows Server 2025 Baseline snapshot" width="650">
+
+---
 
 ## Result
 
