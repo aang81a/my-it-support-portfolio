@@ -1,6 +1,7 @@
 # Windows 11 Pro VM Deployment — WIN11-CLIENT01
 
-**Project:** IT Support Home Lab | **Platform:** Oracle VirtualBox 7.2.22  
+**Project:** IT Support Home Lab  
+**Platform:** Oracle VirtualBox 7.2.22  
 **Scope:** Windows 11 Pro installation, initial configuration, verification, and clean baseline snapshot  
 **Status:** Completed — prepared for subsequent Active Directory integration
 
