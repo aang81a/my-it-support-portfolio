@@ -15,9 +15,9 @@ Windows Task Manager (**Performance → CPU**) initially reported **Virtualizati
 
 ![Task Manager before configuration: hardware virtualization disabled](screenshots/01%20Virtualization%20disabled.png)
 
-![HP BIOS before configuration: Virtualization Technology disabled](screenshots/04%20Enable%20Intel%20Virtualization%20in%20BIOS.jpg)
+![HP BIOS before configuration: Virtualization Technology disabled](screenshots/04%20Enable%20Intel%20Virtualization%20in%20BIOS.png)
 
-![HP BIOS after configuration: Virtualization Technology enabled](screenshots/07%20Enable%20Intel%20Virtualization%20in%20BIOS.jpg)
+![HP BIOS after configuration: Virtualization Technology enabled](screenshots/07%20Enable%20Intel%20Virtualization%20in%20BIOS.png)
 
 ![Task Manager after reboot: hardware virtualization enabled](screenshots/02%20Virtualization%20enabled.png)
 
