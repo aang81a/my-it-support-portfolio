@@ -29,13 +29,13 @@ Windows Task Manager (**Performance → CPU**) initially reported **Virtualizati
 I checked the HP BIOS configuration, changed **Virtualization Technology** from **Disabled** to **Enabled**, saved the setting, and rebooted.  
 Task Manager then reported **Virtualization: Enabled**.
 
-![Task Manager before configuration: hardware virtualization disabled](screenshots/01%20Virtualization%20disabled.png)
+<img src="screenshots/01%20Virtualization%20disabled.png" alt="Task Manager before configuration: virtualization disabled" width="650">
 
-![HP BIOS before configuration: Virtualization Technology disabled](screenshots/04%20Enable%20Intel%20Virtualization%20in%20BIOS.png)
+<img src="screenshots/04%20Enable%20Intel%20Virtualization%20in%20BIOS.jpg" alt="HP BIOS before configuration: virtualization disabled" width="650">
 
-![HP BIOS after configuration: Virtualization Technology enabled](screenshots/07%20Enable%20Intel%20Virtualization%20in%20BIOS.png)
+<img src="screenshots/07%20Enable%20Intel%20Virtualization%20in%20BIOS.jpg" alt="HP BIOS after configuration: virtualization enabled" width="650">
 
-![Task Manager after reboot: hardware virtualization enabled](screenshots/02%20Virtualization%20enabled.png)
+<img src="screenshots/02%20Virtualization%20enabled.png" alt="Task Manager after reboot: virtualization enabled" width="650">
 
 **Verification:** The host firmware change was confirmed independently in Windows Task Manager.
 
@@ -43,17 +43,19 @@ Task Manager then reported **Virtualization: Enabled**.
 
 ### 2. Install Oracle VirtualBox
 
-Selected the VirtualBox the installation components and verified sufficient disk space before proceeding. 
+Selected the VirtualBox installation components and verified sufficient disk space before proceeding.
 
-![VirtualBox Custom Setup and Disk Space Check](screenshots/Installing%20VirtualBox%2002%20Disk%20Space%20checking.png)
+<img src="screenshots/Installing%20VirtualBox%2002%20Disk%20Space%20checking.png" alt="VirtualBox Custom Setup and Disk Space Check" width="650">
 
 ---
 
-Installed VirtualBox 7.2.22, reviewed installer warnings, and launched VirtualBox Manager. 
+Installed VirtualBox 7.2.22, reviewed installer warnings, and launched VirtualBox Manager.
 
-![VirtualBox installer warnings](screenshots/Installing%20VirtualBox%2003%20warnings.png)  
-![VirtualBox installation completed](screenshots/Installing%20VirtualBox%2006%20Oracle%20VirtualBox%20intalled.png)  
-![VirtualBox Manager](screenshots/Installing%20VirtualBox%2007%20VirtualBox%20Manager.png)  
+<img src="screenshots/Installing%20VirtualBox%2003%20warnings.png" alt="VirtualBox installer warnings" width="650">
+
+<img src="screenshots/Installing%20VirtualBox%2006%20Oracle%20VirtualBox%20intalled.png" alt="VirtualBox installation completed" width="650">
+
+<img src="screenshots/Installing%20VirtualBox%2007%20VirtualBox%20Manager.png" alt="VirtualBox Manager" width="650">
 
 ---
 
@@ -61,7 +63,7 @@ Installed VirtualBox 7.2.22, reviewed installer warnings, and launched VirtualBo
 
 I added the **Oracle VirtualBox Extension Pack** through VirtualBox's extensions management interface. The installed extension was visible in the manager with the matching **7.2.22** version.
 
-![Installed VirtualBox Extension Pack](screenshots/Installing%20VirtualBox%2008%20install%20extension%20pack%20end.png)
+<img src="screenshots/Installing%20VirtualBox%2008%20install%20extension%20pack%20end.png" alt="Installed VirtualBox Extension Pack" width="650">
 
 ---
 
