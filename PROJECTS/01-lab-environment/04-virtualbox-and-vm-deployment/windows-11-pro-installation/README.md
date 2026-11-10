@@ -8,15 +8,17 @@ Deploy and configure a Windows 11 Pro virtual machine as a client workstation fo
 
 ## Configuration
 
-| Component | Specification |
-|---|---|
-| Host | Windows 10 Home |
-| Guest OS | Windows 11 Pro |
-| VM name | `WIN11-CLIENT01` |
-| CPU / RAM | 2 vCPUs / 4 GB |
-| Virtual disk | 80 GB |
-| Firmware | EFI |
-| Initial account | `LabAdmin` (local) |
+| Component     | Specification            |
+| ------------- | ------------------------ |
+| Host OS       | Windows 10 Home          |
+| Hypervisor    | Oracle VirtualBox 7.2.22 |
+| VM Name       | `WIN11-CLIENT01`         |
+| Guest OS      | Windows 11 Pro           |
+| CPU / RAM     | 2 vCPUs / 4 GB           |
+| Virtual Disk  | 80 GB                    |
+| Firmware      | EFI                      |
+| Local Account | `LabAdmin`               |
+
 
 ## Deployment
 
