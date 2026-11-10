@@ -76,12 +76,6 @@ I mounted the Guest Additions CD image in the running VM, launched its installer
 
 ![Installed Apps confirms Guest Additions 7.2.22](screenshots/23%20Oracle%20VirtualBox%20Guest%20Additions%20installed%20-%20Installed%20Apps.png)
 
-![Guest Additions media](screenshots/16-guest-additions-media.png)
-
-![Guest Additions setup](screenshots/17-guest-additions-setup.png)
-
-![Guest Additions verified](screenshots/18-guest-additions-verified.png)
-
 ## 6. Save the pre-domain baseline (Phase 03)
 
 After completing the initial guest setup, I shut down `WIN11-CLIENT01` and created a VirtualBox snapshot named **Clean Windows 11 Pro Baseline** before Active Directory integration. This provides a rollback point for lab changes; **a snapshot is not an independent backup**.
