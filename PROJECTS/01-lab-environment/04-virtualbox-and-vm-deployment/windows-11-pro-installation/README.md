@@ -2,6 +2,9 @@
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![VM](https://img.shields.io/badge/VM-Windows%2011%20Pro-blue)
 
+![Skill](https://img.shields.io/badge/Skill-Windows%20Server%20Administration-blue)
+![Skill](https://img.shields.io/badge/Skill-Virtual%20Machine%20Deployment-green)
+
 **VM:** `WIN11-CLIENT01` | **Platform:** Oracle VirtualBox 7.2.22 | **Status:** Completed
 
 ## Objective
