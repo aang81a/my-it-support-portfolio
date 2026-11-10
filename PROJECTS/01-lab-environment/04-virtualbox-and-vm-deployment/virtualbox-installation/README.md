@@ -53,7 +53,7 @@ Installed VirtualBox 7.2.22, reviewed installer warnings, and launched VirtualBo
 
 <img src="screenshots/Installing%20VirtualBox%2003%20warnings.png" alt="VirtualBox installer warnings" width="850">
 
-<img src="screenshots/Installing%20VirtualBox%2006%20Oracle%20VirtualBox%20intalled.png" alt="VirtualBox installation completed" width="850">
+<img src="screenshots/Installing%20VirtualBox%2006%20Oracle%20VirtualBox%20intalled.png" alt="VirtualBox installation completed" width="650">
 
 <img src="screenshots/Installing%20VirtualBox%2007%20VirtualBox%20Manager.png" alt="VirtualBox Manager" width="650">
 
