@@ -20,7 +20,7 @@ Completed modules:
 - **Jan 2026 | [Introduction to Computers](https://coursera.org/verify/8KGBRBFJFI7K) | Course Certificate**\
   Focus: computer hardware, operating systems, enterprise systems, servers/storage, security basics, cloud computing and IT infrastructure.
 
-## ▪ **Feb 2026 – Present | IT Support Specialist Career Path | Cisco Networking Academy**
+## ▪ **Present | IT Support Specialist Career Path | Cisco Networking Academy**
 
 Completed modules:
 
