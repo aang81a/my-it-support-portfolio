@@ -8,7 +8,8 @@
 
 ## Objective
 
-Build a Windows client–server virtual environment for hands-on IT Support, Windows administration, networking, and Active Directory practice.
+Build a Windows client–server virtual environment for hands-on IT Support, Windows administration, networking, and Active Directory practice.  
+Configure DC01 as a domain controller for corp.techlog.test.  
 
 ---
 
@@ -43,16 +44,14 @@ Build a Windows client–server virtual environment for hands-on IT Support, Win
 ## Skills Demonstrated
 
 - Virtual machine installation and configuration
-- Windows client and Windows Server installation
+- Windows Client and Windows Server installation
 - Virtual networking and static IPv4 configuration
 - Windows Firewall configuration and connectivity verification
-- Active Directory Domain Services and DNS deployment
-- Technical documentation and evidence-based verification
+- Active Directory Domain Services (AD DS) and DNS deployment
+- Configuration verification
 
 ---
 
-## Current Result
+## Result
 
-Two Windows virtual machines are installed and connected through `AD-LAB`. `DC01` is configured as a domain controller for `corp.techlog.test`.
-
-**Pending:** Windows 11 domain join, domain sign-in and comprehensive AD health checks.
+Successfully deployed a virtual Windows Client–Server environment using Oracle VirtualBox, including an isolated network, Active Directory Domain Services, and DNS.
