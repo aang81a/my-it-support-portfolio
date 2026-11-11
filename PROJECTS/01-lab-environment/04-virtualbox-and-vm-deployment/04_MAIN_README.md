@@ -6,14 +6,6 @@
 
 ---
 
-![Environment](https://img.shields.io/badge/Environment-Windows%20Home%20Lab-lightgrey)
-
-
-![Environment](https://img.shields.io/badge/Environment-Virtual%20Lab-lightgrey)
-![Services](https://img.shields.io/badge/Services-AD%20DS%20%26%20DNS-green)
-
----
-
 ## Objective
 
 Build a Windows client–server virtual environment for hands-on IT Support, Windows administration, networking, and Active Directory practice.
