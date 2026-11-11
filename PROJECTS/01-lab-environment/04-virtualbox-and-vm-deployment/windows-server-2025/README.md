@@ -1,6 +1,8 @@
 # Windows Server 2025 VM Deployment
 
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen) ![VM](https://img.shields.io/badge/VM-Windows%20Server%202025-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)  
+![VM](https://img.shields.io/badge/VM-Windows%20Server%202025-blue)  
+![Lab](https://img.shields.io/badge/Lab-Windows%20Client--Server-lightgrey)  
 
 ---
 
