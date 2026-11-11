@@ -40,4 +40,48 @@ flowchart TB
     C2 --> ExternalSeagate
 ```
 
+---
 
+
+```mermaid
+flowchart TB
+    HOME["HOME LAB ENVIRONMENT"]
+
+    C1["Computer 1<br/>Legacy ASUS Desktop<br/>IDE/PATA Storage Testing"]
+    C2["Computer 2<br/>HP Desktop<br/>Storage Recovery and Backup"]
+    C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>RAM Upgrade · Backup · Virtualization"]
+
+    HDD1["Samsung SP1203N<br/>IDE/PATA HDD"]
+    OPT["ASUS DRW-1608P3S<br/>LG DVD Drive"]
+    HDD2["WD SATA HDD<br/>Recovery Source"]
+    HDD3["Internal Seagate SATA HDD<br/>System Drive"]
+
+    BACKUP["External Seagate HDD<br/>Backup Storage"]
+
+    VB["Oracle VirtualBox 7.2.22"]
+    CLIENT["WIN11-CLIENT01<br/>Windows 11 Pro<br/>192.168.50.20"]
+    SERVER["DC01<br/>Windows Server 2025<br/>AD DS + DNS<br/>192.168.50.10"]
+    NETWORK["AD-LAB<br/>Internal Network<br/>192.168.50.0/24"]
+    DOMAIN["corp.techlog.test<br/>Active Directory Domain"]
+
+    HOME --> C1
+    HOME --> C2
+    HOME --> C3
+
+    HDD1 --> C1
+    OPT --> C1
+    HDD2 --> C2
+    HDD3 --> C2
+
+    C1 --> BACKUP
+    C2 --> BACKUP
+    C3 --> BACKUP
+
+    C3 --> VB
+    VB --> CLIENT
+    VB --> SERVER
+    CLIENT --- NETWORK
+    SERVER --- NETWORK
+    SERVER --> DOMAIN
+```
+    
