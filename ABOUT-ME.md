@@ -38,14 +38,14 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 
 ![OS](https://img.shields.io/badge/OS-Windows%2010%20%7C%2011-blue)  
 ![Language](https://img.shields.io/badge/Language-PowerShell-5391FE?logo=powershell&logoColor=white)  
-![Skill](https://img.shields.io/badge/Skill-Windows%20Support-blue)  
-![Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue)
-![Skill](https://img.shields.io/badge/Skill-DNS%20Testing-blue)
-![Skill](https://img.shields.io/badge/Skill-Network%20Troubleshooting-blue) [Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue)  
-![Skill](https://img.shields.io/badge/Skill-Remote%20Support-blue)  
+![Skill](https://img.shields.io/badge/Skill-Windows%20Support-blue)   
+![Skill](https://img.shields.io/badge/Skill-IPv4%20%26%20DHCP-blue)  
+![Skill](https://img.shields.io/badge/Skill-DNS%20Testing-blue)  
+![Skill](https://img.shields.io/badge/Skill-Network%20Troubleshooting-blue)  
+![Skill](https://img.shields.io/badge/Skill-Remote%20Support-blue)   
 ![Skill](https://img.shields.io/badge/Skill-Documentation-purple)  
 ![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)  ![Skill](https://img.shields.io/badge/Skill-Ticketing-blue)  
-![Skill](https://img.shields.io/badge/Skill-Windows%20Server-blue) ![Skill](https://img.shields.io/badge/Skill-Active%20Directory-blue) ![Skill](https://img.shields.io/badge/Skill-DNS-blue) ![Skill](https://img.shields.io/badge/Skill-Virtualization-blue)
+![Skill](https://img.shields.io/badge/Skill-Windows%20Server-blue) ![Skill](https://img.shields.io/badge/Skill-Active%20Directory-blue) ![Skill](https://img.shields.io/badge/Skill-DNS-blue) ![Skill](https://img.shields.io/badge/Skill-Virtualization-blue)  
 
 
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)  ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)  
