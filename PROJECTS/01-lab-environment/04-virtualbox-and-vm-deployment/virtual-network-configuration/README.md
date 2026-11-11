@@ -48,15 +48,25 @@ Set fixed IPv4 addresses on the internal adapters. Left the internal default gat
 
 ### 3. Configure Windows Firewall
 
-Enabled inbound **ICMPv4 Echo Request** rules on both systems for connectivity testing. Restricted the permitted remote addresses to the lab network.
+Enabled inbound **ICMPv4 Echo Request** rules on both systems to allow connectivity testing with `ping`.
+
+**DC01 — Enable ICMPv4 Echo Request**
 
 <img src="screenshots/63%20DC01%20Inbound%20Rules%20-%20Echo%20request%20IPv4%20Enabled.png" alt="DC01: ICMPv4 Echo Request rule enabled" width="650">
 
+**WIN11-CLIENT01 — Enable ICMPv4 Echo Request**
+
 <img src="screenshots/71%20Win11%20Inbound%20Rules%20-%20Echo%20request%20IPv4%20Properties%20Enabled.png" alt="Windows 11: ICMPv4 Echo Request rule enabled" width="650">
 
-<img src="screenshots/75%20DC01%20Inbound%20Rules%20-%20Echo%20request%20IPv4%20-%20Scope%20-%20Remote%20IP.png" alt="DC01: firewall rule scope restricted" width="650">
+Restricted the firewall rules to the **AD-LAB subnet (`192.168.50.0/24`)** to permit ICMPv4 requests from the lab network rather than from all remote addresses.
 
-<img src="screenshots/74%20Win11%20Inbound%20Rules%20-%20Echo%20request%20IPv4%20-%20Scope%20-%20Remote%20IP.png" alt="Windows 11: firewall rule scope restricted" width="650">
+**DC01 — Configure allowed remote IP addresses**
+
+<img src="screenshots/75%20DC01%20Inbound%20Rules%20-%20Echo%20request%20IPv4%20-%20Scope%20-%20Remote%20IP.png" alt="DC01: restricted ICMPv4 rule scope" width="650">
+
+**WIN11-CLIENT01 — Configure allowed remote IP addresses**
+
+<img src="screenshots/74%20Win11%20Inbound%20Rules%20-%20Echo%20request%20IPv4%20-%20Scope%20-%20Remote%20IP.png" alt="Windows 11: restricted ICMPv4 rule scope" width="650">
 
 ---
 
