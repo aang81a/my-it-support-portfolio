@@ -5,6 +5,10 @@
 ![Environment](https://img.shields.io/badge/Environment-Windows%20Home%20Lab-lightgrey)
 ![Focus](https://img.shields.io/badge/Focus-VM%20Environment-blue)
 
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Platform](https://img.shields.io/badge/Platform-Oracle%20VirtualBox%207.2.22-blue)
+![Lab](https://img.shields.io/badge/Lab-Windows%20Client--Server-lightgrey)
+
 ## Objective
 
 Build a Windows client–server virtual environment for hands-on IT Support, Windows administration, networking, and Active Directory practice.
