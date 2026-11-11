@@ -29,6 +29,7 @@ I am transitioning into entry-level **IT Support**, with a focus on user support
 | [Home Lab Inventory](./PROJECTS/01-lab-environment/01-home-lab-inventory/README.md) | Lab inventory, hardware documentation, storage devices, backup systems, and a practical IT support environment |
 | [Legacy Storage Troubleshooting and Backup](./PROJECTS/01-lab-environment/02-legacy-storage-troubleshooting-and-backup/README.md) | IDE/PATA and SATA troubleshooting, BIOS detection, boot issue analysis, data protection, and backup workflow |
 | [RAM Upgrade](./PROJECTS/01-lab-environment/03-ram-upgrade/README.md) | RAM compatibility checks, SO-DIMM installation, and memory upgrade documentation |
+| [VirtualBox and VM Deployment](PROJECTS/01-lab-environment/04-virtualbox-and-vm-deployment/README.md) | VirtualBox setup, Windows 11 Pro and Windows Server 2025 installation, virtual networking, Active Directory Domain Services (AD DS), and DNS configuration |
 | [Knowledge Base Articles](./PROJECTS/03-knowledge-base-articles/README.md) | Step-by-step user-facing guides written for non-technical users |
 | [Internal Support Notes](./PROJECTS/04-internal-support-notes/README.md) | Internal reference guides for recurring checks, troubleshooting steps, and support workflows |
 | [IT Diagnostic Tool](./PROJECTS/05-it-diagnostic-tool/README.md) | A PowerShell-based support information collection tool for efficient first-level troubleshooting |
