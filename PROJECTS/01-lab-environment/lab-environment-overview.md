@@ -2,13 +2,11 @@
 
 ---
 
-This diagram shows the main devices and storage components used in the legacy storage troubleshooting and backup case. It gives a quick overview of which computers, hard drives, optical drives, and backup storage were involved.
-
-It shows Computer 1 for IDE/PATA storage testing, Computer 2 for recovery work, Computer 3 for RAM-upgrade, and the external Seagate drive as the final backup destination.
+This document provides an overview of the home lab environment, including the computers, storage devices, backup infrastructure, and virtual Windows client–server environment used for practical IT projects.
 
 ---
 
-## Phase 01 - devices and storage components
+## 1. Legacy Storage and Backup Environment
 
 ```mermaid
 flowchart TB
@@ -16,8 +14,8 @@ flowchart TB
     TITLE["LEGACY STORAGE<br/>TROUBLESHOOTING<br/>AND BACKUP"]
 
     C1["Computer 1<br/>Legacy ASUS desktop<br/>IDE/PATA storage testing"]
-    C3["Computer 3<br/>HP All-in-One<br/>RAM upgrade<br/>+ backup"]
-    C2["Computer 2<br/>HP black desktop<br/>Recovery, backup and home lab workstation"]
+    C3["Computer 3<br/>HP All-in-One<br/>RAM upgrade<br/>+ backup and home lab workstation"]
+    C2["Computer 2<br/>HP black desktopStorage recovery and backup"]
 
     Samsung["Samsung SP1203N<br/>IDE/PATA HDD"]
     Optical["ASUS DRW-1608P3S<br/>+ LG DVD drive<br/>Optical drives tested in Computer 1"]
@@ -44,7 +42,7 @@ flowchart TB
 
 ---
 
-## Phase 02 - overall home lab diagram
+## 2. Complete Home Lab Environment
 
 ```mermaid
 flowchart TB
