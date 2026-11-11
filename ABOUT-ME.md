@@ -77,10 +77,10 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 
 ## 🧩 What I Bring to a Team
 
-- A user-focused and thoughtful support style
-- Strong documentation habits
-- Interest in efficient support workflows
-- Willingness to learn through practical work
+- User-focused and professional IT support approach  
+- Clear and structured technical documentation  
+- Interest in efficient support workflows  
+- Willingness to learn through practical work  
 
 ---
 
