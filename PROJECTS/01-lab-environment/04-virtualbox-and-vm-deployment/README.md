@@ -54,4 +54,5 @@ Configure DC01 as a domain controller for corp.techlog.test.
 
 ## Result
 
-Successfully deployed a virtual Windows Client–Server environment using Oracle VirtualBox, including an isolated network, Active Directory Domain Services, and DNS.
+- Completed: VirtualBox installation, Windows 11 Pro and Windows Server 2025 deployment, internal network configuration, and DC01 promotion to a domain controller for corp.techlog.test.
+- Still pending: Windows 11 domain join, domain authentication, and further AD configuration and testing.
