@@ -8,7 +8,7 @@ It shows Computer 1 for IDE/PATA storage testing, Computer 2 for recovery work, 
 
 ---
 
-## Phase 01
+## Phase 01 - devices and storage components
 
 ```mermaid
 flowchart TB
@@ -44,7 +44,7 @@ flowchart TB
 
 ---
 
-## Phase 01
+## Phase 02 - overall home lab diagram
 
 ```mermaid
 flowchart TB
