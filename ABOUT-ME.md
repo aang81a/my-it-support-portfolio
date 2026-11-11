@@ -70,7 +70,8 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 - Remote support workflows
 - Ticket documentation
 - Knowledge base writing
-- Active Directory and Windows Server basics
+- Windows Client and Windows Server administration basics
+- Active Directory fundamentals
 
 ---
 
