@@ -58,7 +58,7 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 ![Tool](https://img.shields.io/badge/Tool-GitHub-black)  
 ![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)  
 ![Tool](https://img.shields.io/badge/Tool-Microsoft%20365-D83B01?logo=microsoft365&logoColor=white)  
-![Tool](https://img.shields.io/badge/Tool-Command%20Prompt-black?logo=windows-terminal&logoColor=white)
+![Tool](https://img.shields.io/badge/Tool-Command%20Prompt-black?logo=windows-terminal&logoColor=white) 
 ![Tool](https://img.shields.io/badge/Tool-Oracle%20VirtualBox-blue)
 
 ---
