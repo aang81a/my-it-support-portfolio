@@ -8,12 +8,7 @@
 
 ![Environment](https://img.shields.io/badge/Environment-Windows%20Home%20Lab-lightgrey)
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Platform](https://img.shields.io/badge/Platform-Oracle%20VirtualBox%207.2.22-blue)
 
-
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Platform](https://img.shields.io/badge/Platform-Oracle%20VirtualBox%207.2.22-blue)
 ![Environment](https://img.shields.io/badge/Environment-Virtual%20Lab-lightgrey)
 ![Services](https://img.shields.io/badge/Services-AD%20DS%20%26%20DNS-green)
 
