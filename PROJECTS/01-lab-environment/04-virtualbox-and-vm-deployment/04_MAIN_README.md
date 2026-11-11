@@ -7,7 +7,7 @@
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Oracle%20VirtualBox%207.2.22-blue)
-![Lab](https://img.shields.io/badge/Lab-Windows%20Client--Server-lightgrey)
+
 
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
