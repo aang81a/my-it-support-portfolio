@@ -1,4 +1,4 @@
-# VirtualBox and VM Deployment — Windows IT Support Home Lab
+# VirtualBox and VM Deployment
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Oracle%20VirtualBox%207.2.22-blue)
@@ -8,7 +8,7 @@
 
 ## Objective
 
-Build a two-machine Windows virtual environment for practical IT Support, Windows Server, Active Directory, and network troubleshooting exercises.
+Build a two-machine Windows virtual environment for practical IT Support Home Lab, Windows Server, Active Directory, and network troubleshooting exercises.
 
 ---
 
