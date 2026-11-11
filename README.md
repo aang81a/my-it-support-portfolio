@@ -51,6 +51,15 @@ I am transitioning into entry-level **IT Support**, with a focus on user support
 - Scope and impact checks
 - Remote support workflows
 
+### Systems & Infrastructure
+- Virtual machine installation and configuration
+- Windows 11 Pro installation and configuration
+- Windows Server 2025 installation and configuration
+- Virtual networking and static IPv4 configuration
+- Windows Firewall configuration
+- Active Directory Domain Services (AD DS) setup
+- DNS configuration and verification
+
 ### Documentation
 - Home lab documentation
 - User-facing support documentation
