@@ -1,7 +1,7 @@
 # VirtualBox and VM Deployment
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Focus](https://img.shields.io/badge/Focus-VM%20Environment-blue)
+![Focus](https://img.shields.io/badge/Focus-Virtual--Lab%20Environment-blue)
 ![Platform](https://img.shields.io/badge/Platform-Oracle%20VirtualBox%207.2.22-blue)
 
 ---
