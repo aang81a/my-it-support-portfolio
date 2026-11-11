@@ -8,6 +8,8 @@ It shows Computer 1 for IDE/PATA storage testing, Computer 2 for recovery work, 
 
 ---
 
+## Phase 01
+
 ```mermaid
 flowchart TB
 
@@ -42,6 +44,7 @@ flowchart TB
 
 ---
 
+## Phase 01
 
 ```mermaid
 flowchart TB
@@ -84,4 +87,5 @@ flowchart TB
     SERVER --- NETWORK
     SERVER --> DOMAIN
 ```
-    
+
+---
