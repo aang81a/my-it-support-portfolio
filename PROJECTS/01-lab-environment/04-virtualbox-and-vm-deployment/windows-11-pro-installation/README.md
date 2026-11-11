@@ -76,7 +76,6 @@ Installed Guest Additions 7.2.22 and verified the installation in **Installed ap
 
 ![Guest Additions installation media](screenshots/19%20CD%20Drive%20-%20VirtualBox%20Guest%20Additions%20-%20List.png)
 ![Guest Additions setup](screenshots/21%20Oracle%20VirtualBox%20Guest%20Additions%20Setup%20choose%20components.png)
-![Guest Additions installed](screenshots/23%20Oracle%20VirtualBox%20Guest%20Additions%20installed%20-%20Installed%20Apps.png)
 
 ---
 
@@ -84,6 +83,7 @@ Installed Guest Additions 7.2.22 and verified the installation in **Installed ap
 
 Confirmed Windows 11 Pro and the VM system configuration in **Settings → System → About**.
 
+![Guest Additions installed](screenshots/23%20Oracle%20VirtualBox%20Guest%20Additions%20installed%20-%20Installed%20Apps.png)
 ![System information](screenshots/16%20System%20About%2003.png)
 
 ---
