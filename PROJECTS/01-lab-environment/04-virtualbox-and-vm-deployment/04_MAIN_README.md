@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Oracle%20VirtualBox%207.2.22-blue)
 ![Environment](https://img.shields.io/badge/Environment-Windows%20Home%20Lab-lightgrey)
-![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
+![Focus](https://img.shields.io/badge/Focus-VM%20Environment-blue)
 
 ## Objective
 
