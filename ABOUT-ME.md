@@ -46,6 +46,11 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 ![Skill](https://img.shields.io/badge/Skill-Documentation-purple)  
 ![Skill](https://img.shields.io/badge/Skill-Knowledge%20Base%20Writing-blue)  
 ![Skill](https://img.shields.io/badge/Skill-Ticketing-blue)  
+![Skill](https://img.shields.io/badge/Skill-Windows%20Server-blue)
+![Skill](https://img.shields.io/badge/Skill-Active%20Directory-blue)
+![Skill](https://img.shields.io/badge/Skill-DNS-blue)
+![Skill](https://img.shields.io/badge/Skill-Virtualization-blue)
+
 
 ![Tool](https://img.shields.io/badge/Tool-TeamViewer-0E8EE9?logo=teamviewer&logoColor=white)  
 ![Tool](https://img.shields.io/badge/Tool-AnyDesk-EF443B?logo=anydesk&logoColor=white)  
@@ -54,6 +59,7 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 ![Tool](https://img.shields.io/badge/Tool-Obsidian-purple)  
 ![Tool](https://img.shields.io/badge/Tool-Microsoft%20365-D83B01?logo=microsoft365&logoColor=white)  
 ![Tool](https://img.shields.io/badge/Tool-Command%20Prompt-black?logo=windows-terminal&logoColor=white)
+![Tool](https://img.shields.io/badge/Tool-Oracle%20VirtualBox-blue)
 
 ---
 
