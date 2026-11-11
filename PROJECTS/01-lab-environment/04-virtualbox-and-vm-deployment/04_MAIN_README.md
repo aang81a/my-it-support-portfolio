@@ -1,13 +1,15 @@
 # VirtualBox and VM Deployment
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Platform](https://img.shields.io/badge/Platform-Oracle%20VirtualBox%207.2.22-blue)
-![Environment](https://img.shields.io/badge/Environment-Windows%20Home%20Lab-lightgrey)
 ![Focus](https://img.shields.io/badge/Focus-VM%20Environment-blue)
+![Platform](https://img.shields.io/badge/Platform-Oracle%20VirtualBox%207.2.22-blue)
+
+---
+
+![Environment](https://img.shields.io/badge/Environment-Windows%20Home%20Lab-lightgrey)
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Platform](https://img.shields.io/badge/Platform-Oracle%20VirtualBox%207.2.22-blue)
-
 
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
@@ -15,9 +17,13 @@
 ![Environment](https://img.shields.io/badge/Environment-Virtual%20Lab-lightgrey)
 ![Services](https://img.shields.io/badge/Services-AD%20DS%20%26%20DNS-green)
 
+---
+
 ## Objective
 
 Build a Windows client–server virtual environment for hands-on IT Support, Windows administration, networking, and Active Directory practice.
+
+---
 
 ## Lab Environment
 
@@ -33,6 +39,8 @@ Build a Windows client–server virtual environment for hands-on IT Support, Win
 | Client IP | `192.168.50.20` |
 | AD domain | `corp.techlog.test` (`TECHLOG`) |
 
+---
+
 ## Deployment Phases
 
 | Phase | Component | Documentation |
@@ -43,6 +51,8 @@ Build a Windows client–server virtual environment for hands-on IT Support, Win
 | 05 | Virtual network and connectivity configuration | [Virtual Network Configuration](virtual-network-configuration/README.md) |
 | 06 | Active Directory Domain Services and DNS | [AD DS and DNS Deployment](ad-ds-and-dns-deployment/README.md) |
 
+---
+
 ## Skills Demonstrated
 
 - Virtual machine installation and configuration
@@ -51,6 +61,8 @@ Build a Windows client–server virtual environment for hands-on IT Support, Win
 - Windows Firewall configuration and connectivity verification
 - Active Directory Domain Services and DNS deployment
 - Technical documentation and evidence-based verification
+
+---
 
 ## Current Result
 
