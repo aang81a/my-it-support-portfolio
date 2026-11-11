@@ -53,6 +53,6 @@ Build a Windows client–server virtual environment for hands-on IT Support, Win
 
 ## Current Result
 
-Two Windows virtual machines are installed and connected through `AD-LAB`. `DC01` is configured as a domain controller for `corp.techlog.test`; its internal DNS address has been verified.
+Two Windows virtual machines are installed and connected through `AD-LAB`. `DC01` is configured as a domain controller for `corp.techlog.test`.
 
 **Pending:** Windows 11 domain join, domain sign-in and comprehensive AD health checks.
