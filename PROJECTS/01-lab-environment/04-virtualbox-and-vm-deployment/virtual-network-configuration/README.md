@@ -1,7 +1,7 @@
 # Phase 05 — Virtual Network Configuration
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Network](https://img.shields.io/badge/Network-AD--LAB-blue)
+![Focus](https://img.shields.io/badge/Network-AD--LAB-blue)
 
 ---
 
