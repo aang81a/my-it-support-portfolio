@@ -113,7 +113,12 @@ I reopened Task Manager and confirmed **Virtualization: Enabled**.
 | Extension Pack | Matching version 7.2.22 installed |
 | VM deployment readiness | Host prepared for Windows 11 Pro and Windows Server 2025 |
 
-**Final result:** Hardware virtualization was enabled, Oracle VirtualBox and its matching Extension Pack were installed, and the host was ready for virtual machine deployment.
+## Outcome
+
+- Intel hardware virtualization enabled and verified.
+- Oracle VirtualBox 7.2.22 installed and launched successfully.
+- Matching Extension Pack installed and verified.
+- Host prepared for creating the `WIN11-CLIENT01` and `DC01` virtual machines.
 
 Both `WIN11-CLIENT01` and `DC01` were subsequently created and tested in the following deployment phases.
 
