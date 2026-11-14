@@ -65,7 +65,7 @@ For each completed practical exercise, record:
 
 ## Related Projects
 
-- [01 — Lab Environment](../../01-lab-environment/) — VirtualBox, VM deployment, AD DS installation and DNS configuration
+- [01 — Lab Environment](../../01-lab-environment/04-virtualbox-and-vm-deployment) — VirtualBox, VM deployment, AD DS installation and DNS configuration
 - [07 — Ticketing Practice](../../07-ticketing-practice/) — Related incidents and service requests
 - [10 — Windows Server Administration](../../10-windows-server-administration/) — Windows Server roles, DNS and DHCP
 - [12 — Access Management and Endpoint Security](../../12-access-management-and-endpoint-security/) — Group Policy and permissions
