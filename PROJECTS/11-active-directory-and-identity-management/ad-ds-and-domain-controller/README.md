@@ -73,7 +73,7 @@ For each completed practical exercise, record:
 
 ## Related Documentation
 
-- [AD DS and DNS Deployment — Phase 06](../01-lab-environment/04-virtualbox-and-vm-deployment/ad-ds-and-dns-deployment/README.md)
+- [AD DS and DNS Deployment](../01-lab-environment/04-virtualbox-and-vm-deployment/ad-ds-and-dns-deployment/README.md)
 - [Windows Server 2025 VM Deployment](../01-lab-environment/04-virtualbox-and-vm-deployment/windows-server-2025/README.md)
 - [Windows 11 Pro VM Deployment](../01-lab-environment/04-virtualbox-and-vm-deployment/windows-11-pro-installation/README.md)
 - [Virtual Network Configuration](../01-lab-environment/04-virtualbox-and-vm-deployment/virtual-network-configuration/README.md)
