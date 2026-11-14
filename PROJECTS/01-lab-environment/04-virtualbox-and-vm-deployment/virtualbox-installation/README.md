@@ -103,16 +103,6 @@ I reopened Task Manager and confirmed **Virtualization: Enabled**.
 
 ---
 
-## Verification and Result
-
-| Check | Verified result |
-|---|---|
-| Hardware virtualization | Enabled in BIOS and confirmed in Task Manager |
-| Oracle VirtualBox | Version 7.2.22 installed |
-| VirtualBox Manager | Launched successfully |
-| Extension Pack | Matching version 7.2.22 installed |
-| VM deployment readiness | Host prepared for Windows 11 Pro and Windows Server 2025 |
-
 ## Outcome
 
 - Intel hardware virtualization enabled and verified.
