@@ -1,12 +1,13 @@
 # Oracle VirtualBox Installation and Host Preparation
+
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Tool](https://img.shields.io/badge/Tool-Oracle%20VirtualBox%207.2.22-blue)
 
----
-
 ## Objective
 
-Install and prepare Oracle VirtualBox on the Windows 10 host for an IT-Support practice environment.
+Prepare the Windows 10 host for an isolated IT Support home lab by enabling hardware virtualization, installing Oracle VirtualBox, and verifying the matching Extension Pack.
+
+The environment will support Windows 11 Pro, Windows Server 2025, Active Directory, networking, and practical IT Support exercises.
 
 ---
 
@@ -14,68 +15,113 @@ Install and prepare Oracle VirtualBox on the Windows 10 host for an IT-Support p
 
 | Component | Specification |
 |---|---|
+| Project | TechLog Solutions — IT Support Home Lab |
+| Host | HP Pavilion All-in-One |
 | Host OS | Windows 10 Home |
-| Host hardware | HP Pavilion All-in-One, Intel Core i5-9400T, 16 GB RAM |
+| Processor | Intel Core i5-9400T |
+| Memory | 16 GB RAM |
+| Storage | HDD |
 | Hypervisor | Oracle VirtualBox 7.2.22 |
 | Extension Pack | Oracle VirtualBox Extension Pack 7.2.22 |
+| Virtual machines | WIN11-CLIENT01 and DC01 |
 
 ---
 
-## Main Steps
+## 1. Enable Hardware Virtualization
 
-### 1. Enable Hardware Virtualization
+### Initial diagnosis
 
-Windows Task Manager (**Performance → CPU**) initially reported **Virtualization: Disabled**.  
-I checked the HP BIOS configuration, changed **Virtualization Technology** from **Disabled** to **Enabled**, saved the setting, and rebooted.  
-Task Manager then reported **Virtualization: Enabled**.
+I checked **Task Manager → Performance → CPU** and found that hardware virtualization was disabled.
 
-<img src="screenshots/01%20Virtualization%20disabled.png" alt="Task Manager before configuration: virtualization disabled" width="650">
+![Task Manager showing virtualization disabled](screenshots/01%20Virtualization%20disabled.png)
 
-<img src="screenshots/04%20Enable%20Intel%20Virtualization%20in%20BIOS.png" alt="HP BIOS before configuration: virtualization disabled" width="650">
+### BIOS configuration
 
-<img src="screenshots/07%20Enable%20Intel%20Virtualization%20in%20BIOS.png" alt="HP BIOS after configuration: virtualization enabled" width="650">
+1. Restarted the host and entered the HP BIOS/UEFI configuration.
+2. Located **Intel Virtualization Technology**.
+3. Changed the setting from **Disabled** to **Enabled**.
+4. Saved the configuration and restarted Windows.
 
-<img src="screenshots/02%20Virtualization%20enabled.png" alt="Task Manager after reboot: virtualization enabled" width="650">
+**Before:**
 
-**Verification:** The host firmware change was confirmed independently in Windows Task Manager.
+![Intel Virtualization Technology disabled in BIOS](screenshots/04%20Enable%20Intel%20Virtualization%20in%20BIOS.png)
 
----
+**After:**
 
-### 2. Install Oracle VirtualBox
+![Intel Virtualization Technology enabled in BIOS](screenshots/07%20Enable%20Intel%20Virtualization%20in%20BIOS.png)
 
-Selected the VirtualBox installation components and verified sufficient disk space before proceeding.
+### Verification
 
-<img src="screenshots/Installing%20VirtualBox%2002%20Disk%20Space%20checking.png" alt="VirtualBox Custom Setup and Disk Space Check" width="900">
+I reopened Task Manager and confirmed **Virtualization: Enabled**.
 
----
+![Task Manager confirming virtualization enabled](screenshots/02%20Virtualization%20enabled.png)
 
-Installed VirtualBox 7.2.22, reviewed installer warnings, and launched VirtualBox Manager.
-
-<img src="screenshots/Installing%20VirtualBox%2003%20warnings.png" alt="VirtualBox installer warnings" width="850">
-
-<img src="screenshots/Installing%20VirtualBox%2006%20Oracle%20VirtualBox%20intalled.png" alt="VirtualBox installation completed" width="650">
-
-<img src="screenshots/Installing%20VirtualBox%2007%20VirtualBox%20Manager.png" alt="VirtualBox Manager" width="650">
+**Result:** Hardware-assisted virtualization was successfully enabled and independently verified in Windows.
 
 ---
 
-### 3. Install the Extension Pack
+## 2. Install Oracle VirtualBox
 
-I added the **Oracle VirtualBox Extension Pack** through VirtualBox's extensions management interface. The installed extension was visible in the manager with the matching **7.2.22** version.
+1. Obtained Oracle VirtualBox from the official distribution.
+2. Launched the **VirtualBox 7.2.22** installer.
+3. Reviewed the installation components and available disk space.
+4. Reviewed installer warnings, including possible temporary network interruption during installation.
+5. Completed the installation.
+6. Launched Oracle VirtualBox Manager.
 
-<img src="screenshots/Installing%20VirtualBox%2008%20install%20extension%20pack%20end.png" alt="Installed VirtualBox Extension Pack" width="650">
+### Installation evidence
+
+**Installation options and disk-space check:**
+
+![VirtualBox installation disk-space check](screenshots/Installing%20VirtualBox%2002%20Disk%20Space%20checking.png)
+
+**Installer warnings:**
+
+![VirtualBox installation warnings](screenshots/Installing%20VirtualBox%2003%20warnings.png)
+
+**Installation completed:**
+
+![VirtualBox installation completed](screenshots/Installing%20VirtualBox%2006%20Oracle%20VirtualBox%20intalled.png)
+
+**VirtualBox Manager launched successfully:**
+
+![Oracle VirtualBox Manager](screenshots/Installing%20VirtualBox%2007%20VirtualBox%20Manager.png)
+
+**Result:** Oracle VirtualBox 7.2.22 was installed successfully, and VirtualBox Manager opened.
 
 ---
 
-## Result
+## 3. Install the Matching Extension Pack
 
-**Hardware virtualization enabled; VirtualBox and the matching Extension Pack installed and verified.** The host is ready for VM deployment.
+1. Obtained the Oracle VirtualBox Extension Pack matching version **7.2.22**.
+2. Installed it through VirtualBox's Extension Pack management interface.
+3. Verified that the matching Extension Pack was listed as installed.
 
-| Check | Observed result |
+![Oracle VirtualBox Extension Pack installed](screenshots/Installing%20VirtualBox%2008%20install%20extension%20pack%20end.png)
+
+**Result:** VirtualBox and its Extension Pack use matching versions.
+
+---
+
+## Verification and Result
+
+| Check | Verified result |
 |---|---|
-| Host virtualization | Enabled in BIOS and verified in Task Manager |
-| VirtualBox installation | Version 7.2.22 installed |
-| VirtualBox Manager | Opened successfully |
-| Extension Pack | Version 7.2.22 listed as installed |
-| Windows client/server VMs | Documented separately in the subsequent deployment sections |
+| Hardware virtualization | Enabled in BIOS and confirmed in Task Manager |
+| Oracle VirtualBox | Version 7.2.22 installed |
+| VirtualBox Manager | Launched successfully |
+| Extension Pack | Matching version 7.2.22 installed |
+| VM deployment readiness | Host prepared for Windows 11 Pro and Windows Server 2025 |
 
+**Final result:** Hardware virtualization was enabled, Oracle VirtualBox and its matching Extension Pack were installed, and the host was ready for virtual machine deployment.
+
+Both `WIN11-CLIENT01` and `DC01` were subsequently created and tested in the following deployment phases.
+
+---
+
+## Related Documentation
+
+- [Windows 11 Pro VM Installation](../windows-11-pro-installation/README.md)
+- [Windows Server 2025 VM Installation](../windows-server-2025/README.md)
+- [Virtual Network Configuration](../virtual-network-configuration/README.md)
+- [AD DS and DNS Deployment](../ad-ds-and-dns-deployment/README.md)
