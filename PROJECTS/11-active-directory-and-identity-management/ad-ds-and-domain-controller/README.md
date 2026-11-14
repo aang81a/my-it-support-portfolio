@@ -65,15 +65,15 @@ For each completed practical exercise, record:
 
 ## Related Projects
 
-- [01 — Lab Environment](../01-lab-environment/) — VirtualBox, VM deployment, AD DS installation and DNS configuration
-- [07 — Ticketing Practice](../07-ticketing-practice/) — Related incidents and service requests
-- [10 — Windows Server Administration](../10-windows-server-administration/) — Windows Server roles, DNS and DHCP
-- [12 — Access Management and Endpoint Security](../12-access-management-and-endpoint-security/) — Group Policy and permissions
-- [13 — Microsoft 365 and Entra ID](../13-microsoft-365-and-entra-id/) — Future cloud identity labs
+- [01 — Lab Environment](../../01-lab-environment/) — VirtualBox, VM deployment, AD DS installation and DNS configuration
+- [07 — Ticketing Practice](../../07-ticketing-practice/) — Related incidents and service requests
+- [10 — Windows Server Administration](../../10-windows-server-administration/) — Windows Server roles, DNS and DHCP
+- [12 — Access Management and Endpoint Security](../../12-access-management-and-endpoint-security/) — Group Policy and permissions
+- [13 — Microsoft 365 and Entra ID](../../13-microsoft-365-and-entra-id/) — Future cloud identity labs
 
 ## Related Documentation
 
-- [AD DS and DNS Deployment](../01-lab-environment/04-virtualbox-and-vm-deployment/ad-ds-and-dns-deployment/README.md)
-- [Windows Server 2025 VM Deployment](../01-lab-environment/04-virtualbox-and-vm-deployment/windows-server-2025/README.md)
-- [Windows 11 Pro VM Deployment](../01-lab-environment/04-virtualbox-and-vm-deployment/windows-11-pro-installation/README.md)
-- [Virtual Network Configuration](../01-lab-environment/04-virtualbox-and-vm-deployment/virtual-network-configuration/README.md)
+- [AD DS and DNS Deployment — Phase 06](../../01-lab-environment/04-virtualbox-and-vm-deployment/ad-ds-and-dns-deployment/README.md)
+- [Windows Server 2025 VM Deployment](../../01-lab-environment/04-virtualbox-and-vm-deployment/windows-server-2025/README.md)
+- [Windows 11 Pro VM Deployment](../../01-lab-environment/04-virtualbox-and-vm-deployment/windows-11-pro-installation/README.md)
+- [Virtual Network Configuration](../../01-lab-environment/04-virtualbox-and-vm-deployment/virtual-network-configuration/README.md)
