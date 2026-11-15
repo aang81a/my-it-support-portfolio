@@ -8,9 +8,9 @@
 
 ## Objective
 
-Join a Windows 11 Pro workstation to the TechLog Solutions Active Directory domain, verify domain membership, confirm the computer account in Active Directory, and test domain-user authentication.
+Join WIN11-CLIENT01 to the corp.techlog.test domain and verify domain membership, computer account registration in Active Directory, and successful domain authentication.
 
-This exercise demonstrates Windows client integration with an on-premises Active Directory environment, a common responsibility in Junior IT Support and Service Desk roles.
+---
 
 ## Lab Environment
 
@@ -28,6 +28,8 @@ This exercise demonstrates Windows client integration with an on-premises Active
 | DNS server | `192.168.50.10` |
 
 AD DS and DNS were previously deployed on `DC01`. The Windows 11 workstation was initially configured with a local administrator account and had not yet joined the domain.
+
+---
 
 ## 1. Prerequisites and Network Verification
 
@@ -54,6 +56,8 @@ nslookup dc01.corp.techlog.test 192.168.50.10
 ![Windows 11 network configuration, ping and DNS verification](screenshots/Screenshot%2001.png)
 
 *Evidence 01 — Client IPv4 configuration, successful ping and Domain Controller name resolution.*
+
+---
 
 ## 2. Join Windows 11 to Active Directory
 
@@ -93,6 +97,8 @@ the computer WIN11-CLIENT01.
 
 > **Security:** Administrative credentials were entered interactively and are not included in the documentation.
 
+---
+
 ## 3. Verify Domain Membership
 
 After restarting the Windows 11 client, domain membership was verified through:
@@ -113,6 +119,8 @@ The system displayed:
 
 *Evidence 03 — Windows 11 Pro and the domain-qualified computer name.*
 
+---
+
 ## 4. Verify the Computer Account in Active Directory
 
 On `DC01`:
@@ -129,6 +137,8 @@ On `DC01`:
 *Evidence 04 — `WIN11-CLIENT01` visible in the Active Directory Computers container.*
 
 The computer account was subsequently moved into the managed `TechLog-Solutions → Computers` OU during the OU, user and group management exercise.
+
+---
 
 ## 5. Verify Domain Authentication
 
@@ -154,6 +164,8 @@ CORP.TECHLOG.TEST
 
 *Evidence 05 — Successful domain sign-in and domain-context verification.*
 
+---
+
 ## 6. Results
 
 | Verification | Result |
@@ -165,33 +177,7 @@ CORP.TECHLOG.TEST
 | Computer account in Active Directory | Verified |
 | Domain Administrator sign-in | Passed |
 
-**Final Result:** `WIN11-CLIENT01` was successfully joined to `corp.techlog.test`, its computer account was verified in Active Directory, and domain authentication was tested successfully.
-
-## Skills Demonstrated
-
-- Windows 11 Pro domain integration
-- Active Directory computer account provisioning
-- DNS and IPv4 configuration verification
-- PowerShell `Add-Computer`
-- Domain authentication
-- Active Directory Users and Computers (ADUC)
-- Configuration verification and evidence collection
-
-## Related Projects
-
-- [01 — Lab Environment](../../01-lab-environment/04-virtualbox-and-vm-deployment/README.md) — VirtualBox infrastructure, Windows deployment and isolated networking
-- [07 — Ticketing Practice](../../07-ticketing-practice/) — Support incidents and service requests
-- [10 — Windows Server Administration](../../10-windows-server-administration/) — Windows Server roles and services
-- [11 — AD DS and Domain Controller](../ad-ds-and-domain-controller/README.md) — Active Directory infrastructure overview
-- [11 — OU, User and Group Management](../ou-user-and-group-management/README.md) — Organizational structure and identity administration
-
-## Related Documentation
-
-- [AD DS and DNS Deployment — Phase 06](../../01-lab-environment/04-virtualbox-and-vm-deployment/ad-ds-and-dns-deployment/README.md)
-- [Virtual Network Configuration — Phase 05](../../01-lab-environment/04-virtualbox-and-vm-deployment/virtual-network-configuration/README.md)
-- [Windows 11 Pro VM Deployment](../../01-lab-environment/04-virtualbox-and-vm-deployment/windows-11-pro-installation/README.md)
-- [Windows Server 2025 VM Deployment](../../01-lab-environment/04-virtualbox-and-vm-deployment/windows-server-2025/README.md)
-
 ---
 
-*All activities were performed in a local, simulated IT Support environment. Screenshots document actual configuration and verification results.*
+## Final Result: `WIN11-CLIENT01` was successfully joined to `corp.techlog.test`, its computer account was verified in Active Directory, and domain authentication was tested successfully.
+
