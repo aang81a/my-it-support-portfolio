@@ -54,5 +54,4 @@ Configure DC01 as a domain controller for corp.techlog.test.
 
 ## Result
 
-- Completed: VirtualBox installation, Windows 11 Pro and Windows Server 2025 deployment, internal network configuration, and DC01 promotion to a domain controller for corp.techlog.test.
-- Still pending: Windows 11 domain join, domain authentication, and further AD configuration and testing.
+Successfully deployed a VirtualBox home lab with Windows 11 Pro and Windows Server 2025, configured the internal network, and installed AD DS and DNS on `DC01` for the `corp.techlog.test` domain.
