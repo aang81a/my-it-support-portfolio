@@ -1,0 +1,70 @@
+# Active Directory & Identity Management
+
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Focus](https://img.shields.io/badge/Focus-Active%20Directory%20%26%20Identity%20Management-purple)
+![Platform](https://img.shields.io/badge/Platform-Windows%20Server%202025-blue)
+
+---
+
+## Overview
+
+Hands-on Active Directory Domain Services (AD DS) administration in the **TechLog Solutions** virtual home lab, demonstrating identity-management and Windows domain administration skills relevant to Junior IT Support and Service Desk roles.
+
+The project covers domain integration, organizational unit (OU) administration, employee account provisioning, security-group management, computer account organization, and domain authentication.
+
+## Lab Environment
+
+| Component | Configuration |
+|---|---|
+| Hypervisor | Oracle VirtualBox 7.2.22 |
+| Domain Controller | `DC01` — Windows Server 2025 Standard Evaluation |
+| Client workstation | `WIN11-CLIENT01` — Windows 11 Pro |
+| Active Directory domain | `corp.techlog.test` |
+| NetBIOS name | `TECHLOG` |
+| Internal network | `AD-LAB` — `192.168.50.0/24` |
+| Domain Controller IP | `192.168.50.10` |
+| Windows 11 client IP | `192.168.50.20` |
+| Administration tools | Active Directory Users and Computers (ADUC), PowerShell |
+
+The underlying virtual infrastructure, operating system installations, and network configuration are documented in [01 — Lab Environment](../01-lab-environment/04-virtualbox-and-vm-deployment/README.md).
+
+## Projects
+
+The following projects are organized in the order of implementation.
+
+| Project | Status | Documentation |
+|---|---|---|
+| AD DS and Domain Controller | Completed | [View project](ad-ds-and-domain-controller/README.md) |
+| Domain Join and Computer Accounts | Completed | [View project](domain-join-and-computer-accounts/README.md) |
+| OU, User and Group Management | Completed | [View project](ou-user-and-group-management/README.md) |
+| Password Reset and Account Lockout | Planned | — |
+| Employee Onboarding, Offboarding and Role Changes | Planned | — |
+| AD Recycle Bin and Recovery | Planned | — |
+
+## Skills Demonstrated
+
+- Active Directory Domain Services (AD DS)
+- Windows domain integration and authentication
+- Organizational Unit (OU) management
+- User account provisioning and administration
+- Global Security group management
+- Group membership verification
+- Active Directory computer account management
+- PowerShell-based domain joining
+- Standard domain-user authentication and initial password change
+- Configuration verification and technical documentation
+
+## Related Projects
+
+- [01 — Lab Environment](../01-lab-environment/04-virtualbox-and-vm-deployment/README.md) — VirtualBox infrastructure, virtual networking, and Windows deployment
+- [07 — Ticketing Practice](../07-ticketing-practice/) — IT Support incidents and service requests
+- [10 — Windows Server Administration](../10-windows-server-administration/) — Windows Server roles and services
+- [12 — Access Management and Endpoint Security](../12-access-management-and-endpoint-security/README.md) — Group Policy, security groups, and NTFS permissions
+- [13 — Microsoft 365 and Entra ID](../13-microsoft-365-and-entra-id/) — Cloud identity management
+
+## Related Documentation
+
+- [AD DS and DNS Deployment](../01-lab-environment/04-virtualbox-and-vm-deployment/ad-ds-and-dns-deployment/README.md)
+- [Virtual Network Configuration](../01-lab-environment/04-virtualbox-and-vm-deployment/virtual-network-configuration/README.md)
+- [Windows Server 2025 VM Deployment](../01-lab-environment/04-virtualbox-and-vm-deployment/windows-server-2025/README.md)
+- [Windows 11 Pro VM Deployment](../01-lab-environment/04-virtualbox-and-vm-deployment/windows-11-pro-installation/README.md)
