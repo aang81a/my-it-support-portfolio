@@ -179,5 +179,8 @@ CORP.TECHLOG.TEST
 
 ---
 
+
 ## Final Result: `WIN11-CLIENT01` was successfully joined to `corp.techlog.test`, its computer account was verified in Active Directory, and domain authentication was tested successfully.
+
+
 
