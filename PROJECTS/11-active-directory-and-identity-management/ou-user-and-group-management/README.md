@@ -12,6 +12,8 @@ Implement and verify a structured Active Directory environment for the fictional
 
 Validate standard domain-user authentication on a Windows 11 Pro workstation.
 
+---
+
 ## Lab Environment
 
 | Component | Configuration |
@@ -22,6 +24,8 @@ Validate standard domain-user authentication on a Windows 11 Pro workstation.
 | NetBIOS name | `TECHLOG` |
 | Internal network | `AD-LAB` - `192.168.50.0/24` |
 | Administration tool | Active Directory Users and Computers (ADUC) |
+
+---
 
 ## Implementation
 
@@ -75,7 +79,7 @@ Each user was provisioned as a standard domain account with an initial temporary
 
 ### 4. Security Group Membership
 
-Assigned employee accounts to the appropriate departmental security groups.
+Assigned each employee accounts to the corresponding departmental Global Security group.
 
 | User | Assigned group |
 |---|---|
@@ -100,6 +104,8 @@ The Domain Controller `DC01` remained in the built-in `Domain Controllers` OU.
 ![Windows 11 computer account in Active Directory](screenshots/05-ad-computer-object-verification.png)
 
 *WIN11-CLIENT01 in the managed Computers OU.*
+
+---
 
 ## Verification & Results
 
@@ -141,6 +147,8 @@ CORP.TECHLOG.TEST
 
 **Result:** Successfully established a structured Active Directory environment for TechLog Solutions, including departmental identity management, security-group assignments, computer account organization, and verified standard-user domain authentication.
 
+---
+
 ## Skills Demonstrated
 
 - Active Directory Users and Computers (ADUC)
@@ -152,7 +160,3 @@ CORP.TECHLOG.TEST
 - Temporary password and first-logon password-change configuration
 - Least-privilege user provisioning
 - Configuration verification and evidence documentation
-
----
-
-[Back to Active Directory and Identity Management](../ad-ds-and-domain-controller/README.md)
