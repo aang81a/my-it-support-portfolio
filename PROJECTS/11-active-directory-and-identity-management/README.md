@@ -8,9 +8,9 @@
 
 ## Overview
 
-Hands-on Active Directory Domain Services (AD DS) administration in the **TechLog Solutions** virtual home lab, demonstrating identity-management and Windows domain administration skills relevant to Junior IT Support and Service Desk roles.
+This project focuses on practical identity management and account administration in the **TechLog Solutions** Active Directory home lab, using scenarios based on common IT Support and Service Desk tasks.
 
-The project covers domain integration, organizational unit (OU) administration, employee account provisioning, security-group management, computer account organization, and domain authentication.
+---
 
 ## Lab Environment
 
@@ -28,6 +28,8 @@ The project covers domain integration, organizational unit (OU) administration, 
 
 The underlying virtual infrastructure, operating system installations, and network configuration are documented in [01 — Lab Environment](../01-lab-environment/04-virtualbox-and-vm-deployment/README.md).
 
+---
+
 ## Projects
 
 The following projects are organized in the order of implementation.
@@ -40,6 +42,8 @@ The following projects are organized in the order of implementation.
 | Password Reset and Account Lockout | Planned | — |
 | Employee Onboarding, Offboarding and Role Changes | Planned | — |
 | AD Recycle Bin and Recovery | Planned | — |
+
+---
 
 ## Skills Demonstrated
 
@@ -54,6 +58,8 @@ The following projects are organized in the order of implementation.
 - Standard domain-user authentication and initial password change
 - Configuration verification and technical documentation
 
+---
+
 ## Related Projects
 
 - [01 — Lab Environment](../01-lab-environment/04-virtualbox-and-vm-deployment/README.md) — VirtualBox infrastructure, virtual networking, and Windows deployment
@@ -61,6 +67,8 @@ The following projects are organized in the order of implementation.
 - [10 — Windows Server Administration](../10-windows-server-administration/) — Windows Server roles and services
 - [12 — Access Management and Endpoint Security](../12-access-management-and-endpoint-security/README.md) — Group Policy, security groups, and NTFS permissions
 - [13 — Microsoft 365 and Entra ID](../13-microsoft-365-and-entra-id/) — Cloud identity management
+
+---
 
 ## Related Documentation
 
