@@ -30,7 +30,7 @@ Group Policy and file-permission exercises belong in `12-access-management-and-e
 - [x] Install AD DS and promote `DC01` to a Domain Controller.
 - [ ] Create departmental organizational units (OUs) and establish naming conventions.
 - [ ] Create, locate and modify users, groups and computer objects.
-- [ ] Join `WIN11-CLIENT01` to `corp.techlog.test` and verify user authentication.
+- [x] Join `WIN11-CLIENT01` to `corp.techlog.test` and verify user authentication.
 - [ ] Manage security-group membership and verify user properties.
 - [ ] Perform password resets and troubleshoot account lockouts.
 - [ ] Investigate disabled and expired user accounts.
