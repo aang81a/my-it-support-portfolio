@@ -11,6 +11,27 @@
 This project focuses on practical identity management and account administration in the **TechLog Solutions** Active Directory home lab, using scenarios based on common IT Support and Service Desk tasks.
 
 ---
+---
+
+## Lab Environment
+
+| Component | Configuration |
+|---|---|
+| Virtualization | Oracle VirtualBox 7.2.22 |
+| Domain Controller | `DC01` — Windows Server 2025 Standard Evaluation |
+| Client | `WIN11-CLIENT01` — Windows 11 Pro |
+| Domain | `corp.techlog.test` |
+| NetBIOS | `TECHLOG` |
+| Internal network | `AD-LAB` — `192.168.50.0/24` |
+| Domain Controller IP | `192.168.50.10` |
+| Client IP | `192.168.50.20` |
+| Administration tools | ADUC, Server Manager, DNS Manager, PowerShell |
+
+[VirtualBox and VM Deployment](../01-lab-environment/04-virtualbox-and-vm-deployment/README.md)
+
+
+
+-----------------------------------------------------------------------------------------------------
 
 ## Lab Environment
 
@@ -43,7 +64,31 @@ The following projects are organized in the order of implementation.
 | Employee Onboarding, Offboarding and Role Changes | Planned | — |
 | AD Recycle Bin and Recovery | Planned | — |
 
+
+
+## Projects
+
+| Project | Status | Documentation |
+|---|---|---|
+| AD DS and Domain Controller | Completed | [README](ad-ds-and-domain-controller/README.md) |
+| Domain Join and Computer Accounts | Completed | [README](domain-join-and-computer-accounts/README.md) |
+| OU, User and Group Management | Completed | [README](ou-user-and-group-management/README.md) |
+| Password Reset and Account Lockout | Planned | — |
+| Employee Onboarding, Offboarding and Role Changes | Planned | — |
+| AD Recycle Bin and Recovery | Planned | — |
+
 ---
+
+## Skills Demonstrated
+
+- Active Directory Domain Services and DNS configuration
+- Windows domain join and authentication
+- Organizational Unit administration
+- User and computer account management
+- Security group creation and membership management
+- PowerShell-based domain join
+- DNS troubleshooting and configuration verification
+
 
 ## Skills Demonstrated
 
