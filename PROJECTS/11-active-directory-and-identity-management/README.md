@@ -36,9 +36,9 @@ The following projects are organized in the order of implementation.
 
 | Project | Status |  
 |---|---|  
-| [AD DS and Domain Controller](ad-ds-and-domain-controller/README.md) | Completed |  
-| [Domain Join and Computer Accounts](domain-join-and-computer-accounts/README.md) | Completed |  
-| [OU, User and Group Management](ou-user-and-group-management/README.md) | Completed |   
+| [AD DS and Domain Controller](ad-ds-and-domain-controller/README.md) | Completed ✅ |  
+| [Domain Join and Computer Accounts](domain-join-and-computer-accounts/README.md) | Completed ✅ |   
+| [OU, User and Group Management](ou-user-and-group-management/README.md) | Completed ✅ |     
 | Password Reset and Account Lockout | Planned |   
 | Employee Onboarding, Offboarding and Role Changes | Planned |   
 | AD Recycle Bin and Recovery | Planned |   
