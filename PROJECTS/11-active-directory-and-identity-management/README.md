@@ -26,7 +26,7 @@ This project focuses on practical identity management and account administration
 | Windows 11 client IP | `192.168.50.20` |
 | Administration tools | Active Directory Users and Computers (ADUC), Server Manager, DNS Manager, PowerShell |
 
-The underlying virtual infrastructure, operating system installations, and network configuration are documented in [01 — Lab Environment](../01-lab-environment/04-virtualbox-and-vm-deployment/README.md).
+The underlying virtual infrastructure, operating system installations, and network configuration are documented in [Lab Environment](../01-lab-environment/04-virtualbox-and-vm-deployment/README.md).
 
 ---
 
@@ -34,14 +34,14 @@ The underlying virtual infrastructure, operating system installations, and netwo
 
 The following projects are organized in the order of implementation.
 
-| Project | Status | Documentation |
-|---|---|---|
-| AD DS and Domain Controller | Completed | [View project](ad-ds-and-domain-controller/README.md) |
-| Domain Join and Computer Accounts | Completed | [View project](domain-join-and-computer-accounts/README.md) |
-| OU, User and Group Management | Completed | [View project](ou-user-and-group-management/README.md) |
-| Password Reset and Account Lockout | Planned | — |
-| Employee Onboarding, Offboarding and Role Changes | Planned | — |
-| AD Recycle Bin and Recovery | Planned | — |
+| Project | Status |  
+|---|---|  
+| [AD DS and Domain Controller](ad-ds-and-domain-controller/README.md) | Completed |  
+| [Domain Join and Computer Accounts](domain-join-and-computer-accounts/README.md) | Completed |  
+| [OU, User and Group Management](ou-user-and-group-management/README.md) | Completed |   
+| Password Reset and Account Lockout | Planned |   
+| Employee Onboarding, Offboarding and Role Changes | Planned |   
+| AD Recycle Bin and Recovery | Planned |   
 
 ---
 
