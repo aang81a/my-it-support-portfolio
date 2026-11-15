@@ -34,7 +34,7 @@ Created a departmental OU structure under `TechLog-Solutions`, separating users,
 - Applied consistent naming conventions and retained protection against accidental deletion.
 - Preserved the default Active Directory containers and the built-in `Domain Controllers` OU.
 
-![Active Directory organizational unit hierarchy](screenshots/01-OU-hierarchy.png)
+![Active Directory organizational unit hierarchy](screenshots/01-ou-hierarchy.png)
 
 *Organizational unit structure in Active Directory.*
 
