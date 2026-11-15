@@ -1,4 +1,4 @@
-# Active Directory — OU, User and Group Management
+# Active Directory - OU, User and Group Management
 
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 ![Focus](https://img.shields.io/badge/Focus-Identity%20Management-purple)
@@ -16,11 +16,11 @@ Validate standard domain-user authentication on a Windows 11 Pro workstation.
 
 | Component | Configuration |
 |---|---|
-| Domain Controller | `DC01` — Windows Server 2025 Standard Evaluation |
-| Client workstation | `WIN11-CLIENT01` — Windows 11 Pro |
+| Domain Controller | `DC01` - Windows Server 2025 Standard Evaluation |
+| Client workstation | `WIN11-CLIENT01` - Windows 11 Pro |
 | Domain | `corp.techlog.test` |
 | NetBIOS name | `TECHLOG` |
-| Internal network | `AD-LAB` — `192.168.50.0/24` |
+| Internal network | `AD-LAB` - `192.168.50.0/24` |
 | Administration tool | Active Directory Users and Computers (ADUC) |
 
 ## Implementation
