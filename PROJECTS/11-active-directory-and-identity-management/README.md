@@ -61,10 +61,25 @@ The following projects are organized in the order of implementation.
 
 ---
 
+## Skills Demonstrated
+
+- Windows 11 Pro domain integration
+- Active Directory computer account provisioning
+- DNS and IPv4 configuration verification
+- PowerShell `Add-Computer`
+- Domain authentication
+- Active Directory Users and Computers (ADUC)
+- Configuration verification and evidence collection
+
+---
+
 ## Related Projects
 
-- [01 — Lab Environment](../01-lab-environment/04-virtualbox-and-vm-deployment/README.md) — VirtualBox infrastructure, virtual networking, and Windows deployment
-- [07 — Ticketing Practice](../07-ticketing-practice/) — IT Support incidents and service requests
-- [10 — Windows Server Administration](../10-windows-server-administration/) — Windows Server roles and services
+- [01 Lab Environment](../../01-lab-environment/04-virtualbox-and-vm-deployment/README.md) - VirtualBox infrastructure, Windows deployment and virtual networking
+- [07 Ticketing Practice](../../07-ticketing-practice/) - IT Support incidents and service requests
+- [10 Windows Server Administration](../../10-windows-server-administration/) - Windows Server roles and services
+- [11 AD DS and Domain Controller](../ad-ds-and-domain-controller/README.md) - Active Directory infrastructure overview
+- [11 OU, User and Group Management](../ou-user-and-group-management/README.md) - Organizational structure and identity administration
 - [12 — Access Management and Endpoint Security](../12-access-management-and-endpoint-security/README.md) — Group Policy, security groups, and NTFS permissions
 - [13 — Microsoft 365 and Entra ID](../13-microsoft-365-and-entra-id/) — Cloud identity management
+
