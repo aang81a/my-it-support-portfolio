@@ -61,7 +61,7 @@ flowchart TB
     HOME --> C3
     TITLE --> C4
     TITLE --> C3
-    C3 --> C4
+    C4 --> C3
 
     C3 --> VB
     VB --> CLIENT
