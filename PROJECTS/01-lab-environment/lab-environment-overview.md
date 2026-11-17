@@ -42,14 +42,14 @@ flowchart TB
 
 ---
 
-## 2. Complete Home Lab Environment
+## 2. Virtual Home Lab Environment
 
 ```mermaid
 flowchart TB
     HOME["Virtual HOME LAB ENVIRONMENT"]
 
-    C4["Computer 4<br/>HP Laptop<br/>"]
     C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>Virtualization"]
+    C4["Computer 4<br/>HP Laptop<br/>"]
 
     VB["Oracle VirtualBox 7.2.22"]
     CLIENT["WIN11-CLIENT01<br/>Windows 11 Pro<br/>192.168.50.20"]
@@ -57,10 +57,13 @@ flowchart TB
     NETWORK["AD-LAB<br/>Internal Network<br/>192.168.50.0/24"]
     DOMAIN["corp.techlog.test<br/>Active Directory Domain"]
 
-    HOME --> C4
-    HOME --> C3
 
-    C3 --> BACKUP
+    C1["Computer 1<br/>Legacy ASUS Desktop<br/>IDE/PATA Storage Testing"]
+    C2["Computer 2<br/>HP Desktop<br/>Storage Recovery and Backup"]
+    C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>RAM Upgrade · Backup · Virtualization"]
+
+    C4 --> HOME NETWORK
+    HOME --> C3
 
     C3 --> VB
     VB --> CLIENT
