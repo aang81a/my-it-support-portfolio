@@ -48,9 +48,9 @@ flowchart TB
 flowchart TB
     HOME["HOME LAB ENVIRONMENT"]
 
-    C1["Computer 1<br/>Legacy ASUS Desktop<br/>IDE/PATA Storage Testing"]
-    C2["Computer 2<br/>HP Desktop<br/>Storage Recovery and Backup"]
-    C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>RAM Upgrade · Backup · Virtualization"]
+    C1["Computer 1<br/>Legacy ASUS Desktop<br/>"]
+    C2["Computer 2<br/>HP Desktop<br/>"]
+    C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>Virtualization"]
 
     HDD1["Samsung SP1203N<br/>IDE/PATA HDD"]
     OPT["ASUS DRW-1608P3S<br/>LG DVD Drive"]
