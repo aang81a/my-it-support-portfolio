@@ -62,7 +62,6 @@ flowchart TB
     C2["Computer 2<br/>HP Desktop<br/>Storage Recovery and Backup"]
     C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>RAM Upgrade · Backup · Virtualization"]
 
-    C4 --> HOME NETWORK
     HOME --> C3
 
     C3 --> VB
