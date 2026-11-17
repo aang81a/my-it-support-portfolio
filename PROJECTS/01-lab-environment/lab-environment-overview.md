@@ -52,8 +52,6 @@ flowchart TB
     C2["Computer 2<br/>HP Desktop<br/>"]
     C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>Virtualization"]
 
-    HDD1["Samsung SP1203N<br/>IDE/PATA HDD"]
-    OPT["ASUS DRW-1608P3S<br/>LG DVD Drive"]
     HDD2["WD SATA HDD<br/>Recovery Source"]
     HDD3["Internal Seagate SATA HDD<br/>System Drive"]
 
