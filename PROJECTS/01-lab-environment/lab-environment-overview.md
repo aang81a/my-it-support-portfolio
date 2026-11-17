@@ -49,7 +49,7 @@ flowchart TB
     HOME["Virtual HOME LAB ENVIRONMENT"]
 
     C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>Virtualization"]
-    C4["Computer 4<br/>HP Laptop<br/>"]
+    C4["Computer 4<br/>HP Pavilion Laptop<br/>>Windows 11"]
 
     VB["Oracle VirtualBox 7.2.22"]
     CLIENT["WIN11-CLIENT01<br/>Windows 11 Pro<br/>192.168.50.20"]
