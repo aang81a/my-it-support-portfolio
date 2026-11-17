@@ -6,7 +6,7 @@ This portfolio showcases my transition into entry-level IT Support through hands
 
 ---
 
-# 📜 [Certifications](CERTIFICATIONS.md)
+# 📜 [Courses & Certifications](CERTIFICATIONS.md)
 
 ### ▪ **Oct 2026 | Microsoft Foundations of IT Systems, Networking, and Data Protection | Microsoft (via Coursera)**
 
