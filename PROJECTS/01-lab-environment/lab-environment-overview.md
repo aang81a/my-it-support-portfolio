@@ -46,7 +46,7 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-    HOME["Virtual HOME LAB ENVIRONMENT"]
+    HOME["VIRTUAL HOME LAB ENVIRONMENT"]
     TITLE["Helpdesk Environment"]
 
     C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>Virtualization"]
