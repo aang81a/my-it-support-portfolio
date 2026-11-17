@@ -47,7 +47,7 @@ flowchart TB
 ```mermaid
 flowchart TB
     HOME["VIRTUAL HOME LAB ENVIRONMENT"]
-    C4["Computer 4<br/>HP Pavilion Laptop<br/>Windows 11<br/>Helpdesk Environment"]
+    C4["Computer 4<br/>HP Pavilion Laptop<br/>Windows 11<br/>HELPDESK Environment"]
 
     C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>Virtualization"]
     
