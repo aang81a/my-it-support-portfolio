@@ -57,11 +57,6 @@ flowchart TB
     NETWORK["AD-LAB<br/>Internal Network<br/>192.168.50.0/24"]
     DOMAIN["corp.techlog.test<br/>Active Directory Domain"]
 
-
-    C1["Computer 1<br/>Legacy ASUS Desktop<br/>IDE/PATA Storage Testing"]
-    C2["Computer 2<br/>HP Desktop<br/>Storage Recovery and Backup"]
-    C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>RAM Upgrade · Backup · Virtualization"]
-
     HOME --> C3
 
     C3 --> VB
