@@ -46,9 +46,9 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-    HOME["HOME LAB ENVIRONMENT"]
+    HOME["Virtual HOME LAB ENVIRONMENT"]
 
-    C2["Computer 2<br/>HP Desktop<br/>"]
+    C4["Computer 4<br/>HP Laptop<br/>"]
     C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>Virtualization"]
 
     VB["Oracle VirtualBox 7.2.22"]
@@ -57,14 +57,9 @@ flowchart TB
     NETWORK["AD-LAB<br/>Internal Network<br/>192.168.50.0/24"]
     DOMAIN["corp.techlog.test<br/>Active Directory Domain"]
 
-    HOME --> C2
+    HOME --> C4
     HOME --> C3
 
-    HDD2 --> C2
-    HDD3 --> C2
-
-    C1 --> BACKUP
-    C2 --> BACKUP
     C3 --> BACKUP
 
     C3 --> VB
