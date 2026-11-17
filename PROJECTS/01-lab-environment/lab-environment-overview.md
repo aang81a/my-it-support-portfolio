@@ -48,14 +48,8 @@ flowchart TB
 flowchart TB
     HOME["HOME LAB ENVIRONMENT"]
 
-    C1["Computer 1<br/>Legacy ASUS Desktop<br/>"]
     C2["Computer 2<br/>HP Desktop<br/>"]
     C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>Virtualization"]
-
-    HDD2["WD SATA HDD<br/>Recovery Source"]
-    HDD3["Internal Seagate SATA HDD<br/>System Drive"]
-
-    BACKUP["External Seagate HDD<br/>Backup Storage"]
 
     VB["Oracle VirtualBox 7.2.22"]
     CLIENT["WIN11-CLIENT01<br/>Windows 11 Pro<br/>192.168.50.20"]
@@ -63,12 +57,9 @@ flowchart TB
     NETWORK["AD-LAB<br/>Internal Network<br/>192.168.50.0/24"]
     DOMAIN["corp.techlog.test<br/>Active Directory Domain"]
 
-    HOME --> C1
     HOME --> C2
     HOME --> C3
 
-    HDD1 --> C1
-    OPT --> C1
     HDD2 --> C2
     HDD3 --> C2
 
