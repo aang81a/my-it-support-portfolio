@@ -4,7 +4,7 @@ This portfolio documents my transition into IT Support through practical home la
 
 ---
 
-# 📜 [Courses & Certifications](CERTIFICATIONS.md)
+## 📜 [Courses & Certifications](CERTIFICATIONS.md)
 
 ### ▪ **Oct 2026 | Microsoft Foundations of IT Systems, Networking, and Data Protection | Microsoft (via Coursera)**
 
