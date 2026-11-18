@@ -47,33 +47,6 @@ flowchart TB
 ```mermaid
 flowchart TB
     HOME["VIRTUAL HOME LAB ENVIRONMENT"]
-    C4["Computer 4<br/>HP Pavilion Laptop<br/>Windows 11<br/>HELPDESK Environment / Remote Support Workstation"]
-
-    C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>Virtualization"]
-    
-
-    VB["Oracle VirtualBox 7.2.22"]
-    CLIENT["WIN11-CLIENT01<br/>Windows 11 Pro<br/>192.168.50.20"]
-    SERVER["DC01<br/>Windows Server 2025<br/>AD DS + DNS<br/>192.168.50.10"]
-    NETWORK["AD-LAB<br/>Internal Network<br/>192.168.50.0/24"]
-    DOMAIN["corp.techlog.test<br/>Active Directory Domain"]
-
-    HOME --> C3
-    C4 --> C3
-
-    C3 --> VB
-    VB --> CLIENT
-    VB --> SERVER
-    CLIENT --- NETWORK
-    SERVER --- NETWORK
-    SERVER --> DOMAIN
-```
-
----
-
-```mermaid
-flowchart TB
-    HOME["VIRTUAL HOME LAB ENVIRONMENT"]
 
     C4["Computer 4<br/>HP Pavilion Laptop<br/>Windows 11<br/>Helpdesk / Remote Support"]
 
@@ -101,3 +74,5 @@ flowchart TB
 
     SERVER --> DOMAIN
 ```
+
+---
