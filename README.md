@@ -1,6 +1,6 @@
 # IT Support Portfolio
 
-![Banner](IMAGES/01/portfolio-banner-1200x250.png)
+![Banner](IMAGES/01/portfolio-banner-github.png)
 
 This portfolio showcases my transition into entry-level IT Support through hands-on home lab projects, troubleshooting practice, ticketing workflows, remote support simulations, technical documentation, and a PowerShell-based support tool.
 
