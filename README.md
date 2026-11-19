@@ -34,7 +34,7 @@ I am transitioning into entry-level **IT Support**, with a focus on user support
 | [Network Troubleshooting Cases](./PROJECTS/06-network-troubleshooting/README-case-04.md) | IPv4 misconfiguration, DHCP restore, `ipconfig`, `ping`, and Ethernet vs Wi-Fi vs mobile hotspot comparison |
 | [Ticketing Practice](./PROJECTS/07-ticketing-practice/README.md) | Helpdesk ticket handling, documentation, scope checks, user updates, resolution notes, and escalation awareness |
 | [Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/README.md) | Remote support workflow practice using TeamViewer and AnyDesk |
-
+| [Active Directory & Identity Management](xcfg) | Windows Server 2025, Active Directory Domain Services (AD DS), DNS, domain join, organizational units (OUs), user and group management|   
 ---
 
 ## 🛠 Support Skills
