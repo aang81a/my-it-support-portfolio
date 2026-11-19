@@ -46,11 +46,11 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-    HOME["VIRTUAL HOME LAB ENVIRONMENT"]
+    HOME["VIRTUAL HOME<br/>LAB ENVIRONMENT"]
 
     C4["Computer 4<br/>HP Pavilion<br/>Laptop<br/>Windows 11<br/>Helpdesk<br/>Remote Support"]
 
-    C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home · 16 GB RAM<br/>Virtualization"]
+    C3["Computer 3<br/>HP All-in-One<br/>Windows 10 Home<br/>16 GB RAM<br/>Virtualization"]
 
     VB["Oracle VirtualBox 7.2.22"]
 
