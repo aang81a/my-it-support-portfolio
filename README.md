@@ -57,6 +57,9 @@ I am transitioning into entry-level **IT Support**, with a focus on user support
 - Command Prompt diagnostics
 - Scope and impact checks
 - Remote support workflows
+- Network diagnostics using ipconfig, ping, and nslookup
+- PowerShell system information diagnostics
+- Hardware and software troubleshooting
 
 ### Systems & Infrastructure
 - Virtual machine installation and configuration
@@ -66,6 +69,10 @@ I am transitioning into entry-level **IT Support**, with a focus on user support
 - Windows Firewall configuration
 - Active Directory Domain Services (AD DS) setup
 - DNS configuration and verification
+- Windows 11 domain join and authentication
+- Active Directory OU, user, and security group management
+- Windows workstation setup and configuration
+- Peripheral devices and printer setup
 
 ### Documentation
 - Home lab documentation
@@ -74,11 +81,14 @@ I am transitioning into entry-level **IT Support**, with a focus on user support
 - Troubleshooting workflow documentation
 - Knowledge base writing
 - Ticket documentation
+- Incident and service request documentation in Spiceworks
 
 ### User Support
 - Helpdesk ticket handling
 - User support communication
 - Escalation awareness
+- Ticket prioritization and SLA fundamentals
+- Remote support using TeamViewer and AnyDesk
 
 ---
 
