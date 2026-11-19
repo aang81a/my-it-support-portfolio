@@ -70,8 +70,8 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 - Remote support workflows
 - Ticket documentation
 - Knowledge base writing
-- Windows Client and Windows Server administration basics
-- Active Directory fundamentals
+- Windows Client support and Windows Server 2025 fundamentals
+- Active Directory: AD DS, DNS, domain join, user and group management
 
 ---
 
@@ -99,4 +99,4 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 
 I am looking for an entry-level IT Support opportunity in the Zurich area where I can continue building practical experience and contribute to a support team.
 
-🔗 **[Connect with me on LinkedIn](https://www.linkedin.com/in/fangyalka/?locale=en-US)**
+🔗 **Connect with me on [LinkedIn](https://www.linkedin.com/in/fangyalka/?locale=en-US)**
