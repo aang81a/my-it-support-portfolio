@@ -8,9 +8,9 @@ This portfolio documents my transition into IT Support through practical home la
 
 ### ▪ **Oct 2026 | Microsoft Foundations of IT Systems, Networking, and Data Protection | Microsoft (via Coursera)**
 
-### ▪ **Feb 2026 – Present | IT Support Specialist Career Path | Cisco Networking Academy**  
+#### ▪ **Feb 2026 – Present | IT Support Specialist Career Path | Cisco Networking Academy**  
 
-### ▪ **Nov 2025 – Present | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)** 
+#### ▪ **Nov 2025 – Present | Microsoft IT Support Specialist Professional Certificate | Microsoft (via Coursera)** 
 
 ---
 
@@ -33,10 +33,10 @@ I am transitioning into entry-level **IT Support**, with a focus on user support
 | **04** | [Internal Support Notes](./PROJECTS/04-internal-support-notes/README.md) | Internal reference guides for recurring checks, troubleshooting steps, and support workflows |
 | **05** | [IT Diagnostic Tool](./PROJECTS/05-it-diagnostic-tool/README.md) | A PowerShell-based support information collection tool for efficient first-level troubleshooting |
 | **06.04** | [Network Troubleshooting Cases](./PROJECTS/06-network-troubleshooting/README-case-04.md) | IPv4 misconfiguration, DHCP restore, `ipconfig`, `ping`, and Ethernet vs Wi-Fi vs mobile hotspot comparison |
-| **07.01** | [Ticketing Practice](./PROJECTS/07-ticketing-practice/README.md) | Helpdesk ticket handling, documentation, scope checks, user updates, resolution notes, and escalation awareness |
+| **07.01** | [Ticketing Practice](./PROJECTS/07-ticketing-practice/README.md) | Helpdesk ticket handling for incidents and service requests, documentation, scope checks, user updates, resolution notes, and escalation awareness |
 | **08** |  Research, Security & IT  |  *(Planned)* | 
 | **09** | [Remote Support Tools Workflow](./PROJECTS/09-remote-support-simulation/README.md) | Remote support workflow practice using TeamViewer and AnyDesk |
-| **10** | Windows Server Administration  |  Windows Server roles, DNS and DHCP |  
+| **10** | Windows Server Administration | Windows Server roles, DNS and DHCP *(Planned)* |  
 | **11** | [Active Directory & Identity Management](./PROJECTS/11-active-directory-and-identity-management/README.md) | Windows Server 2025, Active Directory Domain Services (AD DS), DNS, domain join, organizational units (OUs), user and group management |
 | **11.01** | [AD DS and Domain Controller](./PROJECTS/11-active-directory-and-identity-management/ad-ds-and-domain-controller/README.md) | AD DS installation, domain controller setup, and DNS configuration on Windows Server 2025 |
 | **11.02** | [Domain Join and Computer Accounts](./PROJECTS/11-active-directory-and-identity-management/domain-join-and-computer-accounts/README.md) | Windows 11 domain join, computer accounts, and domain authentication |
