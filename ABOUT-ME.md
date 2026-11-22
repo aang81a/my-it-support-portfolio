@@ -11,9 +11,13 @@
 
 My experience with computers began long before I started my IT Support studies. 
 
+#### 1. Technical Background
+
 During my architecture studies and CAD work, I gained experience with technical software, computer setup, and troubleshooting. Independently, I have built and maintained my own PCs, replaced hardware components, installed operating systems and applications, and configured printers and peripherals.
 
-My professional background in gastronomy and hospitality has strengthened my communication skills, patience, and ability to work calmly under pressure. I bring these transferable skills to my goal of working in user-focused IT Support.
+#### 2. Hospitality Background
+
+Alongside my technical experience, I have worked professionally in gastronomy and hospitality, and this experience has strengthened my communication skills, patience, and ability to work calmly under pressure. I bring these transferable skills to my goal of working in user-focused IT Support.
 
 Today, I am building on this experience and technical foundation through Microsoft and Cisco training, hands-on IT Support labs, and documented troubleshooting projects.
 
