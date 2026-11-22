@@ -7,7 +7,7 @@
 
 ---
 
-## 💻 Previous Hands-on Computer Experience
+## 💻 My Background & Path to IT Support
 
 My experience with computers began long before I started my IT Support studies. 
 
