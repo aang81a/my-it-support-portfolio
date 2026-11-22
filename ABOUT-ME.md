@@ -19,6 +19,20 @@ This portfolio shows my transition into IT Support through hands-on projects, tr
 
 ---
 
+## 💻 Previous Hands-on Computer Experience
+
+My practical experience with computers began long before my formal IT training.
+
+During my architecture studies and CAD work, I regularly worked with technical software and independently handled computer setup, software installations, and troubleshooting.
+
+Over the years, I have built and maintained my own PCs, replaced hardware components, including a CPU cooler, installed operating systems and applications, configured printers and peripherals, and worked with internal and external storage devices.
+
+Solving these technical challenges independently strengthened my problem-solving skills and gave me a practical foundation in computer hardware, software, and system maintenance.
+
+Today, I am building on this experience through structured Microsoft and Cisco training and documented IT Support projects.
+
+---
+
 ## ◽ My Approach to Support
 
 - **User-First Mindset:** I value active listening and clear communication so users feel heard and supported.
