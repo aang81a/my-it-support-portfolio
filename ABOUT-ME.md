@@ -11,30 +11,15 @@
 
 My experience with computers began long before I started my IT Support studies. 
 
-#### 1. Technical Background
+#### ◽ 1. Technical Background
 
 During my architecture studies and CAD work, I gained experience with technical software, computer setup, and troubleshooting. Independently, I have built and maintained my own PCs, replaced hardware components, installed operating systems and applications, and configured printers and peripherals.
 
-#### 2. Hospitality Background
+#### ◽ 2. Hospitality Background
 
 Alongside my technical experience, I have worked professionally in gastronomy and hospitality, and this experience has strengthened my communication skills, patience, and ability to work calmly under pressure. I bring these transferable skills to my goal of working in user-focused IT Support.
 
 Today, I am building on these experiences as I pursue a career in IT Support. I am further developing my technical foundation through Microsoft and Cisco training, hands-on IT Support labs, and documented troubleshooting projects.
-
----
-
-## ◽ My Approach to Support
-
-- **User-First Mindset:** I value active listening and clear communication so users feel heard and supported.
-- **Structured Documentation:** I enjoy creating clear how-to guides and support notes that improve consistency and save time.
-- **Efficiency Awareness:** I look for practical ways to streamline repetitive tasks and improve support workflows.
-- **Scope Formula (4W):** To troubleshoot efficiently, I use a structured scoping approach:
-  1. **Who** is affected?
-  2. **What** exactly is the issue?
-  3. **When** did it start?
-  4. **What impact** does it have?
-
-*Without proper scope, troubleshooting is like shooting arrows in the dark.*
 
 ---
 
