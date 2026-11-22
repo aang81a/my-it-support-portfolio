@@ -9,7 +9,7 @@
 
 ## 💻 Previous Hands-on Computer Experience
 
-My experience with computers began long before my formal IT training. 
+My experience with computers began long before I started my IT Support studies. 
 
 During my architecture studies and CAD work, I gained experience with technical software, computer setup, and troubleshooting. Independently, I have built and maintained my own PCs, replaced hardware components, installed operating systems and applications, and configured printers and peripherals.
 
