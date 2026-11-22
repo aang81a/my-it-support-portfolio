@@ -19,7 +19,7 @@ During my architecture studies and CAD work, I gained experience with technical 
 
 Alongside my technical experience, I have worked professionally in gastronomy and hospitality, and this experience has strengthened my communication skills, patience, and ability to work calmly under pressure. I bring these transferable skills to my goal of working in user-focused IT Support.
 
-Today, I am building on this experience and technical foundation through Microsoft and Cisco training, hands-on IT Support labs, and documented troubleshooting projects.
+Today, I am building on these experiences as I pursue a career in IT Support. I am further developing my technical foundation through Microsoft and Cisco training, hands-on IT Support labs, and documented troubleshooting projects.
 
 ---
 
