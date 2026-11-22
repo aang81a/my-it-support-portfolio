@@ -7,29 +7,15 @@
 
 ---
 
-I am transitioning into IT Support and building hands-on skills through homelab projects, troubleshooting practice, and ongoing Microsoft and Cisco training.
-
-My background has strengthened my patience, service mindset, and ability to support people in stressful situations.
-
-What I enjoy most about IT Support is understanding the user’s issue, working through it step by step, explaining solutions clearly, and creating documentation that makes support more efficient and repeatable.
-
-I am especially interested in user-focused support, structured troubleshooting, and practical workflows that make technology easier and less stressful for people at work.
-
-This portfolio shows my transition into IT Support through hands-on projects, troubleshooting logs, and technical guides.
-
----
-
 ## 💻 Previous Hands-on Computer Experience
 
-My practical experience with computers began long before my formal IT training.
+My experience with computers began long before my formal IT training. 
 
-During my architecture studies and CAD work, I regularly worked with technical software and independently handled computer setup, software installations, and troubleshooting.
+During my architecture studies and CAD work, I gained experience with technical software, computer setup, and troubleshooting. Independently, I have built and maintained my own PCs, replaced hardware components, installed operating systems and applications, and configured printers and peripherals.
 
-Over the years, I have built and maintained my own PCs, replaced hardware components, including a CPU cooler, installed operating systems and applications, configured printers and peripherals, and worked with internal and external storage devices.
+My professional background in gastronomy and hospitality has strengthened my communication skills, patience, and ability to work calmly under pressure. I bring these transferable skills to my goal of working in user-focused IT Support.
 
-Solving these technical challenges independently strengthened my problem-solving skills and gave me a practical foundation in computer hardware, software, and system maintenance.
-
-Today, I am building on this experience through structured Microsoft and Cisco training and documented IT Support projects.
+Today, I am building on this experience and technical foundation through Microsoft and Cisco training, hands-on IT Support labs, and documented troubleshooting projects.
 
 ---
 
