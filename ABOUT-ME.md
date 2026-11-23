@@ -3,7 +3,7 @@
 ![Focus](https://img.shields.io/badge/Focus-IT%20Support-blue)
 ![Level](https://img.shields.io/badge/Level-Entry--Level-lightgrey)
 
-**Entry-Level IT Support | User Support • Troubleshooting • Documentation • Efficient Workflows**
+**Entry-Level IT Support | User Support • Troubleshooting • Documentation**
 
 ---
 
